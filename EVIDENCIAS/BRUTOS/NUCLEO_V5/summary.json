@@ -1,0 +1,319 @@
+{
+  "protocol": "NUCLEO_V5-example-contract-v1",
+  "episodes": 480,
+  "seeds": [
+    1230007,
+    1260011,
+    1290017,
+    1320013
+  ],
+  "exports": 100,
+  "aggregate": [
+    {
+      "policy": "fixed",
+      "n": 120,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 100,
+      "mean_samples": 100.83333333333333,
+      "mean_rounds": 1.3333333333333333,
+      "mean_ns": 703719.5916666667
+    },
+    {
+      "policy": "primitive",
+      "n": 120,
+      "correct": 57,
+      "wrong": 12,
+      "abstained": 51,
+      "mean_samples": 145.75,
+      "mean_rounds": 2.7916666666666665,
+      "mean_ns": 3266722.3583333334
+    },
+    {
+      "policy": "memory",
+      "n": 120,
+      "correct": 100,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 147.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 2445920.8333333335
+    },
+    {
+      "policy": "dense",
+      "n": 120,
+      "correct": 100,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 5423991.641666667
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "fixed",
+      "family": "stateless",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 115.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 1956711.55
+    },
+    {
+      "policy": "fixed",
+      "family": "phase2",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 98.0,
+      "mean_rounds": 1.0,
+      "mean_ns": 488323.15
+    },
+    {
+      "policy": "fixed",
+      "family": "phase3",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 98.0,
+      "mean_rounds": 1.0,
+      "mean_ns": 517959.35
+    },
+    {
+      "policy": "fixed",
+      "family": "phase4",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 98.0,
+      "mean_rounds": 1.0,
+      "mean_ns": 447358.8
+    },
+    {
+      "policy": "fixed",
+      "family": "prev_sign",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 98.0,
+      "mean_rounds": 1.0,
+      "mean_ns": 487990.0
+    },
+    {
+      "policy": "fixed",
+      "family": "prev_exact",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 98.0,
+      "mean_rounds": 1.0,
+      "mean_ns": 323974.7
+    },
+    {
+      "policy": "primitive",
+      "family": "stateless",
+      "n": 20,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 5,
+      "mean_samples": 161.8,
+      "mean_rounds": 2.8,
+      "mean_ns": 3975274.05
+    },
+    {
+      "policy": "primitive",
+      "family": "phase2",
+      "n": 20,
+      "correct": 14,
+      "wrong": 1,
+      "abstained": 5,
+      "mean_samples": 149.5,
+      "mean_rounds": 2.75,
+      "mean_ns": 3241127.7
+    },
+    {
+      "policy": "primitive",
+      "family": "phase3",
+      "n": 20,
+      "correct": 10,
+      "wrong": 4,
+      "abstained": 6,
+      "mean_samples": 137.8,
+      "mean_rounds": 2.8,
+      "mean_ns": 3501385.4
+    },
+    {
+      "policy": "primitive",
+      "family": "phase4",
+      "n": 20,
+      "correct": 6,
+      "wrong": 4,
+      "abstained": 10,
+      "mean_samples": 148.6,
+      "mean_rounds": 2.6,
+      "mean_ns": 3226686.25
+    },
+    {
+      "policy": "primitive",
+      "family": "prev_sign",
+      "n": 20,
+      "correct": 12,
+      "wrong": 3,
+      "abstained": 5,
+      "mean_samples": 138.1,
+      "mean_rounds": 2.85,
+      "mean_ns": 3463401.45
+    },
+    {
+      "policy": "primitive",
+      "family": "prev_exact",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 138.7,
+      "mean_rounds": 2.95,
+      "mean_ns": 2192459.3
+    },
+    {
+      "policy": "memory",
+      "family": "stateless",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 163.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 2371842.35
+    },
+    {
+      "policy": "memory",
+      "family": "phase2",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 151.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 2646062.7
+    },
+    {
+      "policy": "memory",
+      "family": "phase3",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 139.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 2772036.15
+    },
+    {
+      "policy": "memory",
+      "family": "phase4",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 151.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 2801563.05
+    },
+    {
+      "policy": "memory",
+      "family": "prev_sign",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 139.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 2784330.75
+    },
+    {
+      "policy": "memory",
+      "family": "prev_exact",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 139.0,
+      "mean_rounds": 3.0,
+      "mean_ns": 1299690.0
+    },
+    {
+      "policy": "dense",
+      "family": "stateless",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 5355303.35
+    },
+    {
+      "policy": "dense",
+      "family": "phase2",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 5856323.9
+    },
+    {
+      "policy": "dense",
+      "family": "phase3",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 6263154.05
+    },
+    {
+      "policy": "dense",
+      "family": "phase4",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 5834124.1
+    },
+    {
+      "policy": "dense",
+      "family": "prev_sign",
+      "n": 20,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 6428260.75
+    },
+    {
+      "policy": "dense",
+      "family": "prev_exact",
+      "n": 20,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 20,
+      "mean_samples": 403.0,
+      "mean_rounds": 2.0,
+      "mean_ns": 2806783.7
+    }
+  ]
+}
