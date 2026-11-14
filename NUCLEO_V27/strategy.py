@@ -149,7 +149,11 @@ class Tests(unittest.TestCase):
         p=("positive","sort","inc");obs=m.sig(p,a)
         old=v.investigate(obs,b,lambda x:v.execute(p,x),"full_active",pr,1)
         new=solve(obs,a,b,lambda x:v.execute(p,x),BASE,pr,1)
-        self.assertEqual(old[:3],new)
+        # V23 evaluates all remaining predictions even for one candidate;
+        # V27 directly selects the first remaining point in that state.
+        self.assertEqual(old[:2],new[:2])
+        expected_difference=sum(len(b)-i for i,row in enumerate(new[1]) if row["before"]==1)
+        self.assertEqual(old[2]-new[2],expected_difference)
 
 if __name__=="__main__":
     p=argparse.ArgumentParser();p.add_argument("--self-test",action="store_true");p.add_argument("--output",type=Path);z=p.parse_args()
