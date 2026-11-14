@@ -1,4 +1,4 @@
-name: Experimento 04 smoke tests
+name: Experimento 04
 on:
   push:
     branches: [experimento-04]
@@ -18,11 +18,26 @@ jobs:
       PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Verify historical artifacts
         run: python3 MIGRACAO/verify_integrity.py
       - name: Test acquisition and persistence
         run: python3 EXPERIMENTO_04/pilot.py --self-test
       - name: Run bounded pilot
         run: python3 EXPERIMENTO_04/pilot.py --pilot EXPERIMENTO_04/ci_pilot
+      - name: Test strategy selection
+        run: python3 EXPERIMENTO_04/selection.py --self-test
+      - name: Run frozen 04B protocol
+        run: python3 EXPERIMENTO_04/selection.py --output EXPERIMENTO_04/ci_04b
       - name: Verify historical artifacts again
         run: python3 MIGRACAO/verify_integrity.py
+      - name: Preserve scientific records
+        uses: actions/upload-artifact@v4
+        with:
+          name: exp04-results
+          path: |
+            EXPERIMENTO_04/ci_pilot/
+            EXPERIMENTO_04/ci_04b/
+          retention-days: 7
+          if-no-files-found: error

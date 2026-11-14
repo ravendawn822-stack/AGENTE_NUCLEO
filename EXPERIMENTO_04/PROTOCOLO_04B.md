@@ -1,0 +1,13 @@
+# 04B — protocolo v1 (fixado antes da execução)
+
+Hipótese: seleção contextual com feedback de treino pode superar seleção global, congelada e aleatória, mas não necessariamente heurísticas fortes.
+
+Todos os agentes têm os mesmos três algoritmos externos validados pelo mecanismo do 04A. Uma escolha por problema e nove consultas iniciais comuns. O seletor recebe somente observações, não rótulos nem respostas reservadas. A avaliação usa 12 pontos externos; feedback de treino usa quatro outros pontos. Fases separadas e nenhum aprendizado durante teste.
+
+Cinco sementes, cinco famílias balanceadas: constantes, periódicas, polinomiais, degraus e misturas afim+periódica. 40 treinos e 20 avaliações por família/semente (200/100). Sem repetição de especificação exata treino/avaliação dentro da semente; equivalência funcional indireta não excluída. Sementes independentes não significam que todas as funções sejam únicas globalmente. Famílias de teste são conhecidas, não generalização a domínios inéditos. Sem seleção de pesos pela avaliação.
+
+Políticas: adaptive: contexto observável e atualização de frequência de sucesso suavizada (s+1)/(n+2), bônus 0.65/sqrt(n+1) somente durante treino; global: mesma regra sem contexto; frozen: mesmo contexto, nenhuma atualização (empates aleatórios); fixed: regras heurísticas observáveis; random: uniforme. Controles com biblioteca idêntica. Contexto distingue constante, padrão repetido, diferenças finitas de baixa ordem, restante. Não há garantia de vantagem sobre fixed. O rótulo da família é apenas do gerador e da análise, não do seletor. Estatísticas de tentativa/sucesso dizem respeito ao algoritmo realmente tentado, não a causalidade universal.
+
+Uma previsão consistente com sondagens pode estar errada fora delas. 'Abstain' = ausência de preditor consistente; não é detecção calibrada de desconhecido. O teste reservado mede acerto em grade finita. Degraus e mistura geralmente não estão no catálogo; podem ter coincidências finitas. reportar erros não abstidos. Custo em nanossegundos: sondagem, seleção, construção, check, atualização, total da chamada; gravação SQLite, inicialização e aquisição separadas/não incluídas em total. Comparação com uma tentativa, não orçamento temporal igual; tempo de CI sujeito a ruído. Este subexperimento não é comparação com o motor simbólico original, não inclui fallback, composição, aquisição arbitrária ou 04C/D.
+
+Dados: SQLite, raw.jsonl, summary.json. Não sobrescrever diretórios. Execução limitada em CI; artefatos retenção 7 dias. Nenhum painel histórico modificado. Sem LLM, rede, dependências extras no agente. Sem alteração de cobrança. Resultados mais amplos exigirão novo protocolo, não otimização retroativa deste.
