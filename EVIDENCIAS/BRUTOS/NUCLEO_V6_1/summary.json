@@ -1,0 +1,94 @@
+{
+  "protocol": "V6.1-example-repair-v1",
+  "episodes": 90,
+  "aggregate": [
+    {
+      "policy": "fixed",
+      "n": 45,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 28,
+      "mean_examples": 6.466666666666667,
+      "mean_decision_ns": 17957725.044444446,
+      "mean_shared_build_ns": 145842782.0
+    },
+    {
+      "policy": "active",
+      "n": 45,
+      "correct": 43,
+      "wrong": 0,
+      "abstained": 2,
+      "mean_examples": 3.7111111111111112,
+      "mean_decision_ns": 13748431.222222222,
+      "mean_shared_build_ns": 145842782.0
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "fixed",
+      "family": "clean",
+      "n": 15,
+      "correct": 3,
+      "wrong": 0,
+      "abstained": 12,
+      "mean_examples": 6.8,
+      "mean_decision_ns": 18158404.066666666,
+      "mean_shared_build_ns": 142338130.6
+    },
+    {
+      "policy": "fixed",
+      "family": "single",
+      "n": 15,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 8,
+      "mean_examples": 6.4,
+      "mean_decision_ns": 18082062.533333335,
+      "mean_shared_build_ns": 143140034.6
+    },
+    {
+      "policy": "fixed",
+      "family": "double",
+      "n": 15,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 8,
+      "mean_examples": 6.2,
+      "mean_decision_ns": 17632708.533333335,
+      "mean_shared_build_ns": 152050180.8
+    },
+    {
+      "policy": "active",
+      "family": "clean",
+      "n": 15,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 1,
+      "mean_examples": 4.2,
+      "mean_decision_ns": 15622075.333333334,
+      "mean_shared_build_ns": 142338130.6
+    },
+    {
+      "policy": "active",
+      "family": "single",
+      "n": 15,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_examples": 3.6666666666666665,
+      "mean_decision_ns": 14226636.933333334,
+      "mean_shared_build_ns": 143140034.6
+    },
+    {
+      "policy": "active",
+      "family": "double",
+      "n": 15,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 1,
+      "mean_examples": 3.2666666666666666,
+      "mean_decision_ns": 11396581.4,
+      "mean_shared_build_ns": 152050180.8
+    }
+  ]
+}

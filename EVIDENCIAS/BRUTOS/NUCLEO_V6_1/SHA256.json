@@ -1,0 +1,537 @@
+[
+  {
+    "path": "fixtures/1530001_bounded_stock_clean.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1530001_bounded_stock_clean_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1530001_bounded_stock_double.py",
+    "bytes": 180,
+    "sha256": "1bb2f4889327d0bf38d812e1b59297a8d24f1c9a9834f5fa7f97796303996fe6"
+  },
+  {
+    "path": "fixtures/1530001_bounded_stock_double_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1530001_bounded_stock_single.py",
+    "bytes": 180,
+    "sha256": "0cfe8bb08e7e348e1955639b6171e5abbd5f54dd75e5b1c826940420bc337864"
+  },
+  {
+    "path": "fixtures/1530001_bounded_stock_single_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1530001_fees_clean.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1530001_fees_clean_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1530001_fees_double.py",
+    "bytes": 193,
+    "sha256": "04cd215d87da8dc19e4211f416da758e4180eb90fd45ee1ce52dd8cf642e3c09"
+  },
+  {
+    "path": "fixtures/1530001_fees_double_active_candidate.py",
+    "bytes": 194,
+    "sha256": "c7679981b61252c86086f9fd2d225591f5ffae250eed3984f39c73d1bb2325e8"
+  },
+  {
+    "path": "fixtures/1530001_fees_double_fixed_candidate.py",
+    "bytes": 194,
+    "sha256": "c7679981b61252c86086f9fd2d225591f5ffae250eed3984f39c73d1bb2325e8"
+  },
+  {
+    "path": "fixtures/1530001_fees_single.py",
+    "bytes": 193,
+    "sha256": "980366d3852d3ed3ebd98b3d8894e97d1cab944925c98713c249440eac6361bc"
+  },
+  {
+    "path": "fixtures/1530001_fees_single_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1530001_fees_single_fixed_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1530001_quota_clean.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1530001_quota_clean_active_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1530001_quota_clean_fixed_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1530001_quota_double.py",
+    "bytes": 160,
+    "sha256": "be02b5470600c5c852d01b0c5f5ad5420dab8ddca79a51ab2d7d10ac98f9769c"
+  },
+  {
+    "path": "fixtures/1530001_quota_double_active_candidate.py",
+    "bytes": 160,
+    "sha256": "be02b5470600c5c852d01b0c5f5ad5420dab8ddca79a51ab2d7d10ac98f9769c"
+  },
+  {
+    "path": "fixtures/1530001_quota_double_fixed_candidate.py",
+    "bytes": 160,
+    "sha256": "be02b5470600c5c852d01b0c5f5ad5420dab8ddca79a51ab2d7d10ac98f9769c"
+  },
+  {
+    "path": "fixtures/1530001_quota_single.py",
+    "bytes": 159,
+    "sha256": "c41e4af0932b6bb3758cd4006ca7c399f77dad3a79c417f045f030ecafb87063"
+  },
+  {
+    "path": "fixtures/1530001_quota_single_active_candidate.py",
+    "bytes": 160,
+    "sha256": "be02b5470600c5c852d01b0c5f5ad5420dab8ddca79a51ab2d7d10ac98f9769c"
+  },
+  {
+    "path": "fixtures/1530001_quota_single_fixed_candidate.py",
+    "bytes": 160,
+    "sha256": "be02b5470600c5c852d01b0c5f5ad5420dab8ddca79a51ab2d7d10ac98f9769c"
+  },
+  {
+    "path": "fixtures/1530001_reversal_clean.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1530001_reversal_clean_active_candidate.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1530001_reversal_double.py",
+    "bytes": 183,
+    "sha256": "346602ab4db10b880fb6c721ac6c1729d246205fd220cb70b57663013a877c0e"
+  },
+  {
+    "path": "fixtures/1530001_reversal_double_active_candidate.py",
+    "bytes": 183,
+    "sha256": "109cbb234d6a9658b3124b524c627e316b527ecd8d168c2b687d2e43ee31c040"
+  },
+  {
+    "path": "fixtures/1530001_reversal_single.py",
+    "bytes": 182,
+    "sha256": "61b334410efc29482acc22759f522de304375ad517a6b9e1cdea2fb0da361c67"
+  },
+  {
+    "path": "fixtures/1530001_reversal_single_active_candidate.py",
+    "bytes": 183,
+    "sha256": "109cbb234d6a9658b3124b524c627e316b527ecd8d168c2b687d2e43ee31c040"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_clean.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_clean_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_double.py",
+    "bytes": 215,
+    "sha256": "9bd9e749c98b9b118e352b8d3b747a80761de0a483b7c007f3e617c46a3cbcc0"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_double_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_double_fixed_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_single.py",
+    "bytes": 215,
+    "sha256": "3f8f2c70f48986e2a07651930ca7436042e1d8ed345415ba95321e0817d1804c"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_single_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1530001_weighted_change_single_fixed_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1560001_bounded_stock_clean.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1560001_bounded_stock_clean_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1560001_bounded_stock_double.py",
+    "bytes": 180,
+    "sha256": "3624ba1e7d293c86c3431ab9a7727f8566ca5a7ddcf569caf351a67e43f0c0a2"
+  },
+  {
+    "path": "fixtures/1560001_bounded_stock_double_active_candidate.py",
+    "bytes": 179,
+    "sha256": "9931728f9a4529d55baa78230470e30b24b97dbcad92d33ba7afff87d2f65130"
+  },
+  {
+    "path": "fixtures/1560001_bounded_stock_single.py",
+    "bytes": 180,
+    "sha256": "3ca9aebd43cd44604e2ceb4921a07315649eb43d7afc4a584d34f7f77db7af70"
+  },
+  {
+    "path": "fixtures/1560001_bounded_stock_single_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1560001_fees_clean.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1560001_fees_clean_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1560001_fees_double.py",
+    "bytes": 194,
+    "sha256": "afce8c0258c9c75074f70473feff356650ea7a07fe99cc54037d96d77a9ba528"
+  },
+  {
+    "path": "fixtures/1560001_fees_double_active_candidate.py",
+    "bytes": 194,
+    "sha256": "d998869b77220a8c50158a319a14a47670b244626a8fc15d1623896c82962fe2"
+  },
+  {
+    "path": "fixtures/1560001_fees_single.py",
+    "bytes": 194,
+    "sha256": "dbbbb4d0aa593e832b245555ac0ae9b926828dc5956de73f460b0743482200ea"
+  },
+  {
+    "path": "fixtures/1560001_fees_single_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1560001_quota_clean.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_quota_clean_active_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_quota_clean_fixed_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_quota_double.py",
+    "bytes": 161,
+    "sha256": "d673e0eabc01e785ce661a146b9d087cdbcbe71e73ce9c75300105069173a4d4"
+  },
+  {
+    "path": "fixtures/1560001_quota_double_active_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_quota_double_fixed_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_quota_single.py",
+    "bytes": 160,
+    "sha256": "38b9bdebc7852f0cdbaa9c0982bb2c00d3c95470c34aecf5b70a93e8fa8437d1"
+  },
+  {
+    "path": "fixtures/1560001_quota_single_active_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_quota_single_fixed_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1560001_reversal_clean.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1560001_reversal_double.py",
+    "bytes": 182,
+    "sha256": "838af87b853522f0395f30ad0fcc8bfdd33b4c1c72e05c3977d0b6830b32a4f4"
+  },
+  {
+    "path": "fixtures/1560001_reversal_double_active_candidate.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1560001_reversal_single.py",
+    "bytes": 181,
+    "sha256": "a90277cfb131dd12e7e5c3a2ba1f14de1836168de3f1645629fb27f683685be4"
+  },
+  {
+    "path": "fixtures/1560001_reversal_single_active_candidate.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_clean.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_clean_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_double.py",
+    "bytes": 215,
+    "sha256": "4d72861e2cc24b736decc3d4a2a4d1295929cea28bb418c3cdfbfbcb422d750c"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_double_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_double_fixed_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_single.py",
+    "bytes": 215,
+    "sha256": "ef2b0e150d38f144182de3d14dc87a9e049e2de017ce52df968d784ae6aa5c80"
+  },
+  {
+    "path": "fixtures/1560001_weighted_change_single_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1590001_bounded_stock_clean.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1590001_bounded_stock_clean_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1590001_bounded_stock_double.py",
+    "bytes": 181,
+    "sha256": "2d8465bde323fbcc6c5bd75aa50614e27479559798574fb8097a93dfcf706e28"
+  },
+  {
+    "path": "fixtures/1590001_bounded_stock_double_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1590001_bounded_stock_single.py",
+    "bytes": 180,
+    "sha256": "d64a38fee6d7d146553555cb71ad0a0c321223009fc39ca33b0d5973bbac84cb"
+  },
+  {
+    "path": "fixtures/1590001_bounded_stock_single_active_candidate.py",
+    "bytes": 179,
+    "sha256": "4e002ef488e2b6f7c9beb2f13cb6067ff310562d1520048d465b461211826fd7"
+  },
+  {
+    "path": "fixtures/1590001_fees_clean.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1590001_fees_clean_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1590001_fees_double.py",
+    "bytes": 193,
+    "sha256": "b8f13db86b3e442dbceecf51f83a75132acec03fbdd354f29d3d39888d353b68"
+  },
+  {
+    "path": "fixtures/1590001_fees_double_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1590001_fees_double_fixed_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1590001_fees_single.py",
+    "bytes": 193,
+    "sha256": "161bb9688663d0ed76f26ab0cf858a9b623468c6806da5cea6fad5e0c34ae8c4"
+  },
+  {
+    "path": "fixtures/1590001_fees_single_active_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1590001_fees_single_fixed_candidate.py",
+    "bytes": 193,
+    "sha256": "b5d5556c1cdedfad8206fe7fd4e7bf5b58ffcfebc2e791f6d5313455c0fae1d9"
+  },
+  {
+    "path": "fixtures/1590001_quota_clean.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1590001_quota_clean_active_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1590001_quota_clean_fixed_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1590001_quota_double.py",
+    "bytes": 159,
+    "sha256": "268207678b86c05d5951093d48b5aab6affa23d51f251e2667115182be50ae68"
+  },
+  {
+    "path": "fixtures/1590001_quota_single.py",
+    "bytes": 159,
+    "sha256": "a797a73726ee5463c5f4c7dd5522945343f288f6e690477f9fb313924a60b4a9"
+  },
+  {
+    "path": "fixtures/1590001_quota_single_active_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1590001_quota_single_fixed_candidate.py",
+    "bytes": 159,
+    "sha256": "24daf34c3d7b5f483a1faea336c0591c5c30f098e0192fd41f0bbbda582e2ffb"
+  },
+  {
+    "path": "fixtures/1590001_reversal_clean.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1590001_reversal_clean_active_candidate.py",
+    "bytes": 181,
+    "sha256": "b5bea8f3d778975f88cb805a40bdab50df3a244243e18d3d3e38f635582029ab"
+  },
+  {
+    "path": "fixtures/1590001_reversal_double.py",
+    "bytes": 181,
+    "sha256": "3899c63724b23ffc6b6286f12187f17ed4a98cb60cf8a881a7d48ec8a840c218"
+  },
+  {
+    "path": "fixtures/1590001_reversal_double_active_candidate.py",
+    "bytes": 181,
+    "sha256": "87ad0c2dd28fdd25e2d3e13cbbe27d101d3f2c8ea2b56357010cff21d9566f1b"
+  },
+  {
+    "path": "fixtures/1590001_reversal_single.py",
+    "bytes": 181,
+    "sha256": "87ad0c2dd28fdd25e2d3e13cbbe27d101d3f2c8ea2b56357010cff21d9566f1b"
+  },
+  {
+    "path": "fixtures/1590001_reversal_single_active_candidate.py",
+    "bytes": 181,
+    "sha256": "87ad0c2dd28fdd25e2d3e13cbbe27d101d3f2c8ea2b56357010cff21d9566f1b"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_clean.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_clean_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_double.py",
+    "bytes": 217,
+    "sha256": "0b29b7a00cbc93689a443dd2392f602386c0befad8a0697381c5870d7134d6ef"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_double_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_double_fixed_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_single.py",
+    "bytes": 216,
+    "sha256": "dc1e46cecc3a4873ced633880b7397acbf32f6dfe5f70373f194769d3ac0cf6b"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_single_active_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "fixtures/1590001_weighted_change_single_fixed_candidate.py",
+    "bytes": 215,
+    "sha256": "43f6c7d779c6bc71853c9ef5315a50d8811dce7a339d5d67303d4082ec34152a"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 349726,
+    "sha256": "f5d8d8e0cadf3849c1aba94a7e66ec72b6a8d28d46b77198d2cbd128a9fd15e6"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 2150,
+    "sha256": "b88cfeec4ffa88f5c61cc466c8823a3569520566a68ec9b0f72f67a5c46af2a6"
+  }
+]
