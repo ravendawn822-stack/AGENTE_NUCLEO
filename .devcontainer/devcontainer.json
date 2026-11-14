@@ -3,6 +3,7 @@
   "build": {"dockerfile": "Dockerfile"},
   "remoteUser": "vscode",
   "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {},
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "password": "noPassword",
       "webPort": "6080",

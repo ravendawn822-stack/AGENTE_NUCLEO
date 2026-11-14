@@ -2,8 +2,8 @@
   "files": [
     {
       "path": ".devcontainer/devcontainer.json",
-      "bytes": 801,
-      "sha256": "a114925ce7447ba22f596f7998bac09029e69dd3281ea3e89733936e9ae1beaf"
+      "bytes": 850,
+      "sha256": "9782f9ebc4b077f82322cc71f3d5fddbc820a00f1b0f9e1322e32517c32b4f73"
     },
     {
       "path": ".devcontainer/Dockerfile",
@@ -1152,5 +1152,5 @@
     }
   ],
   "count": 230,
-  "bytes": 86159420
+  "bytes": 86159469
 }
