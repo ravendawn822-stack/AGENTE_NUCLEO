@@ -1,0 +1,1877 @@
+{
+  "source_run": 43646234309,
+  "source_commit": "c924fc7bb09b72570ae012bfe046549443cac522",
+  "artifacts": [
+    {
+      "id": 14133728858,
+      "name": "nucleo-v3-1-results",
+      "size_in_bytes": 166576,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14133728858",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14133728858/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:05:44Z",
+      "expires_at": "2026-12-14T22:05:43Z",
+      "updated_at": "2026-11-14T22:05:44Z",
+      "digest": "sha256:6ec3eb33a9bab1a744955a49dcf6b0cfadcc7300a940c6fba03a6fb2ba125c18",
+      "workflow_run": {
+        "id": 43646234309,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "c924fc7bb09b72570ae012bfe046549443cac522"
+      }
+    }
+  ],
+  "result": {
+    "aggregate": [
+      {
+        "abstained": 166,
+        "correct": 7,
+        "gain_vs_grammar": 0,
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "loss_vs_grammar": 26,
+        "mean_queries": 23,
+        "mean_search_ns": 11694823.323863637,
+        "n": 176,
+        "policy": "v2_1",
+        "two_learned_correct": 0,
+        "wrong": 3
+      },
+      {
+        "abstained": 138,
+        "correct": 33,
+        "gain_vs_grammar": 0,
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "loss_vs_grammar": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 660803.6704545454,
+        "n": 176,
+        "policy": "grammar",
+        "two_learned_correct": 0,
+        "wrong": 5
+      },
+      {
+        "abstained": 135,
+        "correct": 36,
+        "gain_vs_grammar": 3,
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "loss_vs_grammar": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 617804.0852272727,
+        "n": 176,
+        "policy": "literal",
+        "two_learned_correct": 1,
+        "wrong": 5
+      },
+      {
+        "abstained": 130,
+        "correct": 40,
+        "gain_vs_grammar": 10,
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "loss_vs_grammar": 3,
+        "mean_queries": 23,
+        "mean_search_ns": 597923.9772727273,
+        "n": 176,
+        "policy": "schema",
+        "two_learned_correct": 19,
+        "wrong": 6
+      },
+      {
+        "abstained": 111,
+        "correct": 59,
+        "gain_vs_grammar": 28,
+        "hierarchy_correct": 20,
+        "hierarchy_uses": 20,
+        "loss_vs_grammar": 2,
+        "mean_queries": 23,
+        "mean_search_ns": 478514.0681818182,
+        "n": 176,
+        "policy": "hierarchy",
+        "two_learned_correct": 39,
+        "wrong": 6
+      },
+      {
+        "abstained": 117,
+        "correct": 53,
+        "gain_vs_grammar": 20,
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "loss_vs_grammar": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 541319.8125,
+        "n": 176,
+        "policy": "expert",
+        "two_learned_correct": 0,
+        "wrong": 6
+      }
+    ],
+    "by_family": [
+      {
+        "abstained": 47,
+        "correct": 1,
+        "family": "pair",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 12895051.291666666,
+        "n": 48,
+        "policy": "v2_1",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 47,
+        "correct": 1,
+        "family": "linked_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 12315158.291666666,
+        "n": 48,
+        "policy": "v2_1",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 47,
+        "correct": 1,
+        "family": "independent_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 11371261.270833334,
+        "n": 48,
+        "policy": "v2_1",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 25,
+        "correct": 4,
+        "family": "product",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 9449322,
+        "n": 32,
+        "policy": "v2_1",
+        "two_learned_correct": 0,
+        "wrong": 3
+      },
+      {
+        "abstained": 28,
+        "correct": 20,
+        "family": "pair",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 603716.5833333334,
+        "n": 48,
+        "policy": "grammar",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 46,
+        "correct": 2,
+        "family": "linked_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 780476.1875,
+        "n": 48,
+        "policy": "grammar",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 43,
+        "correct": 5,
+        "family": "independent_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 684589.1875,
+        "n": 48,
+        "policy": "grammar",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 21,
+        "correct": 6,
+        "family": "product",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 531247.25,
+        "n": 32,
+        "policy": "grammar",
+        "two_learned_correct": 0,
+        "wrong": 5
+      },
+      {
+        "abstained": 25,
+        "correct": 23,
+        "family": "pair",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 523291.0833333333,
+        "n": 48,
+        "policy": "literal",
+        "two_learned_correct": 1,
+        "wrong": 0
+      },
+      {
+        "abstained": 46,
+        "correct": 2,
+        "family": "linked_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 747194.0208333334,
+        "n": 48,
+        "policy": "literal",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 43,
+        "correct": 5,
+        "family": "independent_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 660134.4583333334,
+        "n": 48,
+        "policy": "literal",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 21,
+        "correct": 6,
+        "family": "product",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 501993.125,
+        "n": 32,
+        "policy": "literal",
+        "two_learned_correct": 0,
+        "wrong": 5
+      },
+      {
+        "abstained": 20,
+        "correct": 28,
+        "family": "pair",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 445701.2291666667,
+        "n": 48,
+        "policy": "schema",
+        "two_learned_correct": 17,
+        "wrong": 0
+      },
+      {
+        "abstained": 47,
+        "correct": 1,
+        "family": "linked_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 756148.0625,
+        "n": 48,
+        "policy": "schema",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 43,
+        "correct": 5,
+        "family": "independent_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 666186,
+        "n": 48,
+        "policy": "schema",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 6,
+        "family": "product",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 486528.9375,
+        "n": 32,
+        "policy": "schema",
+        "two_learned_correct": 2,
+        "wrong": 6
+      },
+      {
+        "abstained": 20,
+        "correct": 28,
+        "family": "pair",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 404040.9375,
+        "n": 48,
+        "policy": "hierarchy",
+        "two_learned_correct": 17,
+        "wrong": 0
+      },
+      {
+        "abstained": 28,
+        "correct": 20,
+        "family": "linked_triple",
+        "hierarchy_correct": 19,
+        "hierarchy_uses": 19,
+        "mean_queries": 23,
+        "mean_search_ns": 447702.2708333333,
+        "n": 48,
+        "policy": "hierarchy",
+        "two_learned_correct": 19,
+        "wrong": 0
+      },
+      {
+        "abstained": 43,
+        "correct": 5,
+        "family": "independent_triple",
+        "hierarchy_correct": 1,
+        "hierarchy_uses": 1,
+        "mean_queries": 23,
+        "mean_search_ns": 604521.2916666666,
+        "n": 48,
+        "policy": "hierarchy",
+        "two_learned_correct": 1,
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 6,
+        "family": "product",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 447430.625,
+        "n": 32,
+        "policy": "hierarchy",
+        "two_learned_correct": 2,
+        "wrong": 6
+      },
+      {
+        "abstained": 9,
+        "correct": 39,
+        "family": "pair",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 312875.6041666667,
+        "n": 48,
+        "policy": "expert",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 45,
+        "correct": 3,
+        "family": "linked_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 715998.25,
+        "n": 48,
+        "policy": "expert",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 43,
+        "correct": 5,
+        "family": "independent_triple",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 644370.7916666666,
+        "n": 48,
+        "policy": "expert",
+        "two_learned_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 6,
+        "family": "product",
+        "hierarchy_correct": 0,
+        "hierarchy_uses": 0,
+        "mean_queries": 23,
+        "mean_search_ns": 467392,
+        "n": 32,
+        "policy": "expert",
+        "two_learned_correct": 0,
+        "wrong": 6
+      }
+    ],
+    "episodes": 1104,
+    "examples": [
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  3,
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -3
+                    ]
+                  ]
+                ],
+                [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -5
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  1
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 870013,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "binding": [
+                  -3
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/15",
+                  "750019/22",
+                  "750019/5"
+                ],
+                "template": [
+                  3,
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              },
+              {
+                "kind": "primitive"
+              }
+            ],
+            "training_id": "870013/train/0"
+          },
+          {
+            "binding": [
+              4
+            ],
+            "kind": "schema",
+            "origins": [
+              "750019/17"
+            ],
+            "template": [
+              14,
+              [
+                1
+              ],
+              [
+                90,
+                0
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "870013/linked/0",
+          "linked": "870013/train/0",
+          "terms": [
+            [
+              "abs",
+              3,
+              1
+            ],
+            [
+              "gt",
+              -5,
+              1
+            ],
+            [
+              "gt",
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                11,
+                [
+                  15,
+                  [
+                    2,
+                    -3
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -6
+                    ]
+                  ]
+                ],
+                [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      4
+                    ]
+                  ]
+                ]
+              ],
+              [
+                3,
+                [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 870013,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "binding": [
+                  -6,
+                  -3
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/23"
+                ],
+                "template": [
+                  15,
+                  [
+                    90,
+                    1
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              },
+              {
+                "binding": [
+                  4
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/0",
+                  "750019/12",
+                  "750019/16"
+                ],
+                "template": [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            ],
+            "training_id": "870013/train/1"
+          },
+          {
+            "binding": [
+              3
+            ],
+            "kind": "schema",
+            "origins": [
+              "750019/15",
+              "750019/22",
+              "750019/5"
+            ],
+            "template": [
+              3,
+              [
+                10,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "870013/linked/1",
+          "linked": "870013/train/1",
+          "terms": [
+            [
+              "abs",
+              -3,
+              1
+            ],
+            [
+              "linear",
+              -2,
+              -4
+            ],
+            [
+              "mod",
+              6,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  14,
+                  [
+                    2,
+                    4
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    5
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  2,
+                  -5
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -7
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 870013,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "binding": [
+                  4
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/14",
+                  "750019/4"
+                ],
+                "template": [
+                  14,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              },
+              {
+                "binding": [
+                  5
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/17"
+                ],
+                "template": [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "training_id": "870013/train/2"
+          },
+          {
+            "binding": [
+              -7,
+              -5
+            ],
+            "kind": "schema",
+            "origins": [
+              "750019/7"
+            ],
+            "template": [
+              14,
+              [
+                90,
+                1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "870013/linked/2",
+          "linked": "870013/train/2",
+          "terms": [
+            [
+              "gt",
+              5,
+              1
+            ],
+            [
+              "lt",
+              4,
+              1
+            ],
+            [
+              "mod",
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  3,
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -1
+                    ]
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      4
+                    ]
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  2,
+                  -1
+                ],
+                [
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 870013,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "kind": "literal",
+                "origins": [
+                  "750019/5"
+                ]
+              },
+              {
+                "binding": [
+                  4
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/15",
+                  "750019/22",
+                  "750019/5"
+                ],
+                "template": [
+                  3,
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            ],
+            "training_id": "870013/train/5"
+          },
+          {
+            "binding": [
+              -1
+            ],
+            "kind": "schema",
+            "origins": [
+              "750019/14",
+              "750019/4"
+            ],
+            "template": [
+              14,
+              [
+                90,
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "870013/linked/5",
+          "linked": "870013/train/5",
+          "terms": [
+            [
+              "abs",
+              -4,
+              1
+            ],
+            [
+              "abs",
+              1,
+              1
+            ],
+            [
+              "lt",
+              -1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  14,
+                  [
+                    2,
+                    -2
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -4
+                    ]
+                  ]
+                ],
+                [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -1
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  2,
+                  -5
+                ],
+                [
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 870013,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "kind": "literal",
+                "origins": [
+                  "750019/7"
+                ]
+              },
+              {
+                "binding": [
+                  -1
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/17"
+                ],
+                "template": [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "training_id": "870013/train/8"
+          },
+          {
+            "binding": [
+              -5
+            ],
+            "kind": "schema",
+            "origins": [
+              "750019/14",
+              "750019/4"
+            ],
+            "template": [
+              14,
+              [
+                90,
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "870013/linked/8",
+          "linked": "870013/train/8",
+          "terms": [
+            [
+              "gt",
+              -1,
+              1
+            ],
+            [
+              "lt",
+              -5,
+              1
+            ],
+            [
+              "mod",
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  14,
+                  [
+                    2,
+                    1
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -5
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  2,
+                  -4
+                ],
+                [
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 870013,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "binding": [
+                  1
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/14",
+                  "750019/4"
+                ],
+                "template": [
+                  14,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              },
+              {
+                "kind": "primitive"
+              }
+            ],
+            "training_id": "870013/train/10"
+          },
+          {
+            "binding": [
+              -4
+            ],
+            "kind": "schema",
+            "origins": [
+              "750019/14",
+              "750019/4"
+            ],
+            "template": [
+              14,
+              [
+                90,
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "independent_triple",
+          "id": "870013/independent/3",
+          "terms": [
+            [
+              "gt",
+              -3,
+              1
+            ],
+            [
+              "lt",
+              -2,
+              1
+            ],
+            [
+              "lt",
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  14,
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                [
+                  14,
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              ],
+              [
+                15,
+                [
+                  2,
+                  -2
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -4
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 900001,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "kind": "literal",
+                "origins": [
+                  "780023/22"
+                ]
+              },
+              {
+                "binding": [
+                  -1
+                ],
+                "kind": "schema",
+                "origins": [
+                  "780023/13",
+                  "780023/22"
+                ],
+                "template": [
+                  14,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              }
+            ],
+            "training_id": "900001/train/0"
+          },
+          {
+            "binding": [
+              -2
+            ],
+            "kind": "schema",
+            "origins": [
+              "780023/20"
+            ],
+            "template": [
+              15,
+              [
+                90,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -4
+                ]
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "900001/linked/0",
+          "linked": "900001/train/0",
+          "terms": [
+            [
+              "lt",
+              -1,
+              1
+            ],
+            [
+              "lt",
+              2,
+              1
+            ],
+            [
+              "mod",
+              4,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              10,
+              [
+                10,
+                [
+                  15,
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -6
+                    ]
+                  ]
+                ],
+                [
+                  14,
+                  [
+                    2,
+                    5
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  2,
+                  -2
+                ],
+                [
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 900001,
+        "sources": [
+          {
+            "kind": "hierarchy",
+            "parents": [
+              {
+                "binding": [
+                  -1
+                ],
+                "kind": "schema",
+                "origins": [
+                  "780023/16"
+                ],
+                "template": [
+                  15,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -6
+                    ]
+                  ]
+                ]
+              },
+              {
+                "binding": [
+                  5
+                ],
+                "kind": "schema",
+                "origins": [
+                  "780023/13",
+                  "780023/22"
+                ],
+                "template": [
+                  14,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              }
+            ],
+            "training_id": "900001/train/3"
+          },
+          {
+            "binding": [
+              -2
+            ],
+            "kind": "schema",
+            "origins": [
+              "780023/13",
+              "780023/22"
+            ],
+            "template": [
+              14,
+              [
+                90,
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "task": {
+          "family": "linked_triple",
+          "id": "900001/linked/3",
+          "linked": "900001/train/3",
+          "terms": [
+            [
+              "lt",
+              -2,
+              1
+            ],
+            [
+              "lt",
+              5,
+              1
+            ],
+            [
+              "mod",
+              6,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "functional_overlap_on_generator_grid": 0,
+    "pool_build": [
+      {
+        "available_literal": 21,
+        "available_templates": 14,
+        "build_ns": 21812262,
+        "generated": 3000,
+        "policy": "grammar",
+        "pool_size": 401,
+        "prior_seed": 750019,
+        "seed": 870013,
+        "sources": {
+          "expert": 0,
+          "literal": 0,
+          "primitive": 401,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 21,
+        "available_templates": 14,
+        "build_ns": 21410909,
+        "generated": 3000,
+        "policy": "literal",
+        "pool_size": 399,
+        "prior_seed": 750019,
+        "seed": 870013,
+        "sources": {
+          "expert": 0,
+          "literal": 21,
+          "primitive": 378,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 21,
+        "available_templates": 14,
+        "build_ns": 19617508,
+        "generated": 3000,
+        "policy": "schema",
+        "pool_size": 336,
+        "prior_seed": 750019,
+        "seed": 870013,
+        "sources": {
+          "expert": 0,
+          "literal": 20,
+          "primitive": 183,
+          "schema": 133
+        }
+      },
+      {
+        "available_literal": 21,
+        "available_templates": 14,
+        "build_ns": 22916956,
+        "generated": 3000,
+        "policy": "expert",
+        "pool_size": 405,
+        "prior_seed": 750019,
+        "seed": 870013,
+        "sources": {
+          "expert": 116,
+          "literal": 0,
+          "primitive": 289,
+          "schema": 0
+        }
+      },
+      {
+        "build_ns": 54101,
+        "learned": 7,
+        "policy": "hierarchy",
+        "pool_size": 343,
+        "prior_seed": 750019,
+        "seed": 870013
+      },
+      {
+        "available_literal": 24,
+        "available_templates": 20,
+        "build_ns": 20586709,
+        "generated": 3000,
+        "policy": "grammar",
+        "pool_size": 401,
+        "prior_seed": 780023,
+        "seed": 900001,
+        "sources": {
+          "expert": 0,
+          "literal": 0,
+          "primitive": 401,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 24,
+        "available_templates": 20,
+        "build_ns": 20519558,
+        "generated": 3000,
+        "policy": "literal",
+        "pool_size": 399,
+        "prior_seed": 780023,
+        "seed": 900001,
+        "sources": {
+          "expert": 0,
+          "literal": 24,
+          "primitive": 375,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 24,
+        "available_templates": 20,
+        "build_ns": 19148904,
+        "generated": 3000,
+        "policy": "schema",
+        "pool_size": 443,
+        "prior_seed": 780023,
+        "seed": 900001,
+        "sources": {
+          "expert": 0,
+          "literal": 23,
+          "primitive": 122,
+          "schema": 298
+        }
+      },
+      {
+        "available_literal": 24,
+        "available_templates": 20,
+        "build_ns": 21224835,
+        "generated": 3000,
+        "policy": "expert",
+        "pool_size": 405,
+        "prior_seed": 780023,
+        "seed": 900001,
+        "sources": {
+          "expert": 116,
+          "literal": 0,
+          "primitive": 289,
+          "schema": 0
+        }
+      },
+      {
+        "build_ns": 51468,
+        "learned": 7,
+        "policy": "hierarchy",
+        "pool_size": 450,
+        "prior_seed": 780023,
+        "seed": 900001
+      },
+      {
+        "available_literal": 17,
+        "available_templates": 12,
+        "build_ns": 20288400,
+        "generated": 3000,
+        "policy": "grammar",
+        "pool_size": 401,
+        "prior_seed": 810013,
+        "seed": 930011,
+        "sources": {
+          "expert": 0,
+          "literal": 0,
+          "primitive": 401,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 17,
+        "available_templates": 12,
+        "build_ns": 20588592,
+        "generated": 3000,
+        "policy": "literal",
+        "pool_size": 399,
+        "prior_seed": 810013,
+        "seed": 930011,
+        "sources": {
+          "expert": 0,
+          "literal": 17,
+          "primitive": 382,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 17,
+        "available_templates": 12,
+        "build_ns": 19509027,
+        "generated": 3000,
+        "policy": "schema",
+        "pool_size": 328,
+        "prior_seed": 810013,
+        "seed": 930011,
+        "sources": {
+          "expert": 0,
+          "literal": 16,
+          "primitive": 236,
+          "schema": 76
+        }
+      },
+      {
+        "available_literal": 17,
+        "available_templates": 12,
+        "build_ns": 20242520,
+        "generated": 3000,
+        "policy": "expert",
+        "pool_size": 405,
+        "prior_seed": 810013,
+        "seed": 930011,
+        "sources": {
+          "expert": 116,
+          "literal": 0,
+          "primitive": 289,
+          "schema": 0
+        }
+      },
+      {
+        "build_ns": 68573,
+        "learned": 3,
+        "policy": "hierarchy",
+        "pool_size": 331,
+        "prior_seed": 810013,
+        "seed": 930011
+      },
+      {
+        "available_literal": 23,
+        "available_templates": 15,
+        "build_ns": 20123281,
+        "generated": 3000,
+        "policy": "grammar",
+        "pool_size": 401,
+        "prior_seed": 840037,
+        "seed": 960017,
+        "sources": {
+          "expert": 0,
+          "literal": 0,
+          "primitive": 401,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 23,
+        "available_templates": 15,
+        "build_ns": 20852308,
+        "generated": 3000,
+        "policy": "literal",
+        "pool_size": 398,
+        "prior_seed": 840037,
+        "seed": 960017,
+        "sources": {
+          "expert": 0,
+          "literal": 23,
+          "primitive": 375,
+          "schema": 0
+        }
+      },
+      {
+        "available_literal": 23,
+        "available_templates": 15,
+        "build_ns": 19201293,
+        "generated": 2946,
+        "policy": "schema",
+        "pool_size": 500,
+        "prior_seed": 840037,
+        "seed": 960017,
+        "sources": {
+          "expert": 0,
+          "literal": 21,
+          "primitive": 171,
+          "schema": 308
+        }
+      },
+      {
+        "available_literal": 23,
+        "available_templates": 15,
+        "build_ns": 20532707,
+        "generated": 3000,
+        "policy": "expert",
+        "pool_size": 405,
+        "prior_seed": 840037,
+        "seed": 960017,
+        "sources": {
+          "expert": 116,
+          "literal": 0,
+          "primitive": 289,
+          "schema": 0
+        }
+      },
+      {
+        "build_ns": 57848,
+        "learned": 7,
+        "policy": "hierarchy",
+        "pool_size": 500,
+        "prior_seed": 840037,
+        "seed": 960017
+      }
+    ],
+    "prior_sha256": "2ada096e165e1ce8da73c2ba1218fd7de7c9d8c8ecd6c0dfaa9a1b9cd8b5bbfe",
+    "protocol": "NUCLEO_V3_1-hierarchy-v1",
+    "seeds": [
+      870013,
+      900001,
+      930011,
+      960017
+    ],
+    "training": {
+      "870013": {
+        "correct": 8,
+        "learned": 7
+      },
+      "900001": {
+        "correct": 7,
+        "learned": 7
+      },
+      "930011": {
+        "correct": 3,
+        "learned": 3
+      },
+      "960017": {
+        "correct": 7,
+        "learned": 7
+      }
+    }
+  }
+}
