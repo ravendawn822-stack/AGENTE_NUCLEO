@@ -1,9 +1,10 @@
-name: Experimento 04
+name: Experimentos 04CD e 05A
 on:
   push:
     branches: [experimento-04]
     paths:
       - 'EXPERIMENTO_04/**'
+      - 'EXPERIMENTO_05/**'
       - '.github/workflows/experimento-04.yml'
 permissions:
   contents: read
@@ -11,9 +12,9 @@ concurrency:
   group: exp04-smoke
   cancel-in-progress: true
 jobs:
-  smoke:
+  experiments:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
     env:
       PYTHONDONTWRITEBYTECODE: '1'
     steps:
@@ -22,22 +23,27 @@ jobs:
           persist-credentials: false
       - name: Verify historical artifacts
         run: python3 MIGRACAO/verify_integrity.py
-      - name: Test acquisition and persistence
-        run: python3 EXPERIMENTO_04/pilot.py --self-test
-      - name: Run bounded pilot
-        run: python3 EXPERIMENTO_04/pilot.py --pilot EXPERIMENTO_04/ci_pilot
-      - name: Test strategy selection
-        run: python3 EXPERIMENTO_04/selection.py --self-test
-      - name: Run frozen 04B protocol
-        run: python3 EXPERIMENTO_04/selection.py --output EXPERIMENTO_04/ci_04b
+      - name: Regression tests 04A/B
+        run: |
+          python3 EXPERIMENTO_04/pilot.py --self-test
+          python3 EXPERIMENTO_04/selection.py --self-test
+      - name: Test composition and abstention
+        run: python3 EXPERIMENTO_04/composition.py --self-test
+      - name: Run 04CD
+        run: python3 EXPERIMENTO_04/composition.py --output EXPERIMENTO_04/ci_04cd
+      - name: Test numeric interpreter and synthesis
+        run: python3 EXPERIMENTO_05/programs.py --self-test
+      - name: Run 05A
+        run: python3 EXPERIMENTO_05/programs.py --output EXPERIMENTO_05/ci_05a
       - name: Verify historical artifacts again
         run: python3 MIGRACAO/verify_integrity.py
-      - name: Preserve scientific records
+      - name: Preserve experiment records
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: exp04-results
+          name: exp04cd-05a-results
           path: |
-            EXPERIMENTO_04/ci_pilot/
-            EXPERIMENTO_04/ci_04b/
-          retention-days: 7
-          if-no-files-found: error
+            EXPERIMENTO_04/ci_04cd/
+            EXPERIMENTO_05/ci_05a/
+          retention-days: 30
+          if-no-files-found: warn
