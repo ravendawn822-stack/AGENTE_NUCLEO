@@ -1,0 +1,37 @@
+[
+  {
+    "path": "3240017.sqlite3",
+    "bytes": 12288,
+    "sha256": "72c4bd68c7b7307bd9209bca8fbfeb74cac8da61a075dd621fd6436387ce6162"
+  },
+  {
+    "path": "3270023.sqlite3",
+    "bytes": 12288,
+    "sha256": "3fc1f49ce2ba4e8b09702404e45621173fca7bfc83197ed0e456bf5d36e7b250"
+  },
+  {
+    "path": "3300031.sqlite3",
+    "bytes": 12288,
+    "sha256": "b880e8c06cdc0d39c0284e0315381ffcfd52480f6b643a9382d46dafa9312349"
+  },
+  {
+    "path": "3330041.sqlite3",
+    "bytes": 12288,
+    "sha256": "39f6e35f7568efe69e656425c7b5f644deea54674c5079939750bea7ef27897c"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 550179,
+    "sha256": "f195ef5c46305346e5bebc497b7fce6c69558149943d2620e1f2f0a83228431a"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 21719,
+    "sha256": "bc684dd23d2287491fc0e49c52a3d806f9afc0349607b1a5a632ff84c2dfaaed"
+  },
+  {
+    "path": "training.jsonl",
+    "bytes": 51453,
+    "sha256": "8444d07eb0369c6ab9dcff3c4836c57d41dd2e4044905d9a9dec61a61eab1702"
+  }
+]

@@ -1,0 +1,1217 @@
+{
+  "protocol": "V21-persistent-structures-v1",
+  "seeds": [
+    3240017,
+    3270023,
+    3300031,
+    3330041
+  ],
+  "snapshots": [
+    {
+      "seed": 3240017,
+      "skills": 11,
+      "sha": "6a9db27b05a849f819e303c017a3210ac2ab7185ba4787a6ba73268dc05c09c6",
+      "parts": [
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              7,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              9,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              11,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              9,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              9,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              -1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              1,
+              11,
+              2
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "seed": 3270023,
+      "skills": 12,
+      "sha": "7eed58e5226b0c4e66172fa8409cd5c1711b9da4f6bc85c4fbda0668c964c342",
+      "parts": [
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              7,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              9,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              9,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              -1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              1,
+              7,
+              2
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "seed": 3300031,
+      "skills": 12,
+      "sha": "5005a6f28840869ac23db458b0d33e2dccb0eddba874bd9a3ab843123a3c886b",
+      "parts": [
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              9,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              9,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              9,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              11,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              9,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              7,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              1,
+              9,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              9,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              -1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              -1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              1,
+              7,
+              2
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "seed": 3330041,
+      "skills": 12,
+      "sha": "6af72a73cf2985b457a229c778f3d2288182a2fc07debf051c3107e1905ea1d6",
+      "parts": [
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              -1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              7,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "linear_hinge",
+            [
+              0,
+              -1,
+              9,
+              1
+            ]
+          ],
+          [
+            "linear_hinge",
+            [
+              1,
+              1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              11,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              -1,
+              9,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              1,
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              0,
+              1,
+              7,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              -1,
+              11,
+              1
+            ]
+          ]
+        ],
+        [
+          [
+            "square_hinge",
+            [
+              1,
+              -1,
+              9,
+              1
+            ]
+          ]
+        ]
+      ]
+    }
+  ],
+  "training": {
+    "n": 48,
+    "correct": 47,
+    "wrong": 1,
+    "abstained": 0,
+    "queries": 480,
+    "expansions": 47,
+    "hypothesis_evaluations": 299905,
+    "wall_ns": 101128241,
+    "added": 47
+  },
+  "aggregate": [
+    {
+      "policy": "expand",
+      "n": 144,
+      "correct": 126,
+      "wrong": 2,
+      "abstained": 16,
+      "queries": 1325,
+      "expansions": 110,
+      "hypothesis_evaluations": 748567,
+      "wall_ns": 273934064
+    },
+    {
+      "policy": "large",
+      "n": 144,
+      "correct": 128,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 1325,
+      "expansions": 0,
+      "hypothesis_evaluations": 1392265,
+      "wall_ns": 552420458
+    },
+    {
+      "policy": "memory_expand",
+      "n": 144,
+      "correct": 125,
+      "wrong": 3,
+      "abstained": 16,
+      "queries": 1326,
+      "expansions": 62,
+      "hypothesis_evaluations": 583687,
+      "wall_ns": 219597088
+    },
+    {
+      "policy": "memory_only",
+      "n": 144,
+      "correct": 79,
+      "wrong": 3,
+      "abstained": 62,
+      "queries": 971,
+      "expansions": 0,
+      "hypothesis_evaluations": 268528,
+      "wall_ns": 103453330
+    }
+  ],
+  "by_stratum": [
+    {
+      "stratum": "seen_structure",
+      "policy": "expand",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 47,
+      "hypothesis_evaluations": 299905,
+      "wall_ns": 111074853
+    },
+    {
+      "stratum": "seen_structure",
+      "policy": "large",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 0,
+      "hypothesis_evaluations": 456741,
+      "wall_ns": 185222245
+    },
+    {
+      "stratum": "seen_structure",
+      "policy": "memory_expand",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 0,
+      "hypothesis_evaluations": 87213,
+      "wall_ns": 37735181
+    },
+    {
+      "stratum": "seen_structure",
+      "policy": "memory_only",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 0,
+      "hypothesis_evaluations": 87213,
+      "wall_ns": 37576198
+    },
+    {
+      "stratum": "new_structure",
+      "policy": "expand",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 47,
+      "hypothesis_evaluations": 301996,
+      "wall_ns": 108986356
+    },
+    {
+      "stratum": "new_structure",
+      "policy": "large",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 0,
+      "hypothesis_evaluations": 461674,
+      "wall_ns": 178841950
+    },
+    {
+      "stratum": "new_structure",
+      "policy": "memory_expand",
+      "n": 48,
+      "correct": 46,
+      "wrong": 2,
+      "abstained": 0,
+      "queries": 480,
+      "expansions": 46,
+      "hypothesis_evaluations": 321168,
+      "wall_ns": 118169354
+    },
+    {
+      "stratum": "new_structure",
+      "policy": "memory_only",
+      "n": 48,
+      "correct": 0,
+      "wrong": 2,
+      "abstained": 46,
+      "queries": 126,
+      "expansions": 0,
+      "hypothesis_evaluations": 87033,
+      "wall_ns": 29184080
+    },
+    {
+      "stratum": "simple",
+      "policy": "expand",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 320,
+      "expansions": 0,
+      "hypothesis_evaluations": 44184,
+      "wall_ns": 19399992
+    },
+    {
+      "stratum": "simple",
+      "policy": "large",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 320,
+      "expansions": 0,
+      "hypothesis_evaluations": 318132,
+      "wall_ns": 130398399
+    },
+    {
+      "stratum": "simple",
+      "policy": "memory_expand",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 320,
+      "expansions": 0,
+      "hypothesis_evaluations": 63697,
+      "wall_ns": 27066835
+    },
+    {
+      "stratum": "simple",
+      "policy": "memory_only",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 320,
+      "expansions": 0,
+      "hypothesis_evaluations": 63697,
+      "wall_ns": 26757796
+    },
+    {
+      "stratum": "interaction",
+      "policy": "expand",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 45,
+      "expansions": 16,
+      "hypothesis_evaluations": 102482,
+      "wall_ns": 34472863
+    },
+    {
+      "stratum": "interaction",
+      "policy": "large",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 45,
+      "expansions": 0,
+      "hypothesis_evaluations": 155718,
+      "wall_ns": 57957864
+    },
+    {
+      "stratum": "interaction",
+      "policy": "memory_expand",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 46,
+      "expansions": 16,
+      "hypothesis_evaluations": 111609,
+      "wall_ns": 36625718
+    },
+    {
+      "stratum": "interaction",
+      "policy": "memory_only",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 45,
+      "expansions": 0,
+      "hypothesis_evaluations": 30585,
+      "wall_ns": 9935256
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 3240017,
+      "policy": "expand",
+      "n": 36,
+      "correct": 31,
+      "wrong": 1,
+      "abstained": 4,
+      "queries": 331,
+      "expansions": 27,
+      "hypothesis_evaluations": 184310,
+      "wall_ns": 85177517
+    },
+    {
+      "seed": 3240017,
+      "policy": "large",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 331,
+      "expansions": 0,
+      "hypothesis_evaluations": 346773,
+      "wall_ns": 175744008
+    },
+    {
+      "seed": 3240017,
+      "policy": "memory_expand",
+      "n": 36,
+      "correct": 30,
+      "wrong": 2,
+      "abstained": 4,
+      "queries": 332,
+      "expansions": 15,
+      "hypothesis_evaluations": 142128,
+      "wall_ns": 71599666
+    },
+    {
+      "seed": 3240017,
+      "policy": "memory_only",
+      "n": 36,
+      "correct": 19,
+      "wrong": 2,
+      "abstained": 15,
+      "queries": 253,
+      "expansions": 0,
+      "hypothesis_evaluations": 65996,
+      "wall_ns": 33279137
+    },
+    {
+      "seed": 3270023,
+      "policy": "expand",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 334,
+      "expansions": 28,
+      "hypothesis_evaluations": 191262,
+      "wall_ns": 61024287
+    },
+    {
+      "seed": 3270023,
+      "policy": "large",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 334,
+      "expansions": 0,
+      "hypothesis_evaluations": 353060,
+      "wall_ns": 122272908
+    },
+    {
+      "seed": 3270023,
+      "policy": "memory_expand",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 334,
+      "expansions": 16,
+      "hypothesis_evaluations": 148728,
+      "wall_ns": 47997537
+    },
+    {
+      "seed": 3270023,
+      "policy": "memory_only",
+      "n": 36,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 236,
+      "expansions": 0,
+      "hypothesis_evaluations": 67318,
+      "wall_ns": 22294726
+    },
+    {
+      "seed": 3300031,
+      "policy": "expand",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 334,
+      "expansions": 28,
+      "hypothesis_evaluations": 189763,
+      "wall_ns": 68361150
+    },
+    {
+      "seed": 3300031,
+      "policy": "large",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 334,
+      "expansions": 0,
+      "hypothesis_evaluations": 348101,
+      "wall_ns": 135275101
+    },
+    {
+      "seed": 3300031,
+      "policy": "memory_expand",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 334,
+      "expansions": 16,
+      "hypothesis_evaluations": 149803,
+      "wall_ns": 51781680
+    },
+    {
+      "seed": 3300031,
+      "policy": "memory_only",
+      "n": 36,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 241,
+      "expansions": 0,
+      "hypothesis_evaluations": 68311,
+      "wall_ns": 25289198
+    },
+    {
+      "seed": 3330041,
+      "policy": "expand",
+      "n": 36,
+      "correct": 31,
+      "wrong": 1,
+      "abstained": 4,
+      "queries": 326,
+      "expansions": 27,
+      "hypothesis_evaluations": 183232,
+      "wall_ns": 59371110
+    },
+    {
+      "seed": 3330041,
+      "policy": "large",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 326,
+      "expansions": 0,
+      "hypothesis_evaluations": 344331,
+      "wall_ns": 119128441
+    },
+    {
+      "seed": 3330041,
+      "policy": "memory_expand",
+      "n": 36,
+      "correct": 31,
+      "wrong": 1,
+      "abstained": 4,
+      "queries": 326,
+      "expansions": 15,
+      "hypothesis_evaluations": 143028,
+      "wall_ns": 48218205
+    },
+    {
+      "seed": 3330041,
+      "policy": "memory_only",
+      "n": 36,
+      "correct": 20,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 241,
+      "expansions": 0,
+      "hypothesis_evaluations": 66903,
+      "wall_ns": 22590269
+    }
+  ]
+}
