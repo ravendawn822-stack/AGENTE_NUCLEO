@@ -1,0 +1,410 @@
+{
+  "protocol": "V10-continuous-v1",
+  "seeds": [
+    1980011,
+    2010013,
+    2040017
+  ],
+  "episodes": 1152,
+  "train_budget_per_agent": 320000,
+  "aggregate": [
+    {
+      "policy": "fixed",
+      "checkpoint": 0,
+      "n": 96,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 95,
+      "candidates": 342427,
+      "mean_candidates": 3566.9479166666665,
+      "mean_search_ns": 7337809.760416667,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 32,
+      "n": 96,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 95,
+      "candidates": 342427,
+      "mean_candidates": 3566.9479166666665,
+      "mean_search_ns": 7070350.34375,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "no_memory",
+      "checkpoint": 0,
+      "n": 96,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 95,
+      "candidates": 342427,
+      "mean_candidates": 3566.9479166666665,
+      "mean_search_ns": 7078238.125,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "no_memory",
+      "checkpoint": 32,
+      "n": 96,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 95,
+      "candidates": 342427,
+      "mean_candidates": 3566.9479166666665,
+      "mean_search_ns": 7043339.395833333,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "frozen",
+      "checkpoint": 0,
+      "n": 96,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 95,
+      "candidates": 342427,
+      "mean_candidates": 3566.9479166666665,
+      "mean_search_ns": 7044905.854166667,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "frozen",
+      "checkpoint": 32,
+      "n": 96,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 82,
+      "candidates": 315537,
+      "mean_candidates": 3286.84375,
+      "mean_search_ns": 7310006.84375,
+      "reused_correct": 13,
+      "registered": 0
+    },
+    {
+      "policy": "continuous",
+      "checkpoint": 0,
+      "n": 96,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 95,
+      "candidates": 342427,
+      "mean_candidates": 3566.9479166666665,
+      "mean_search_ns": 7045864.229166667,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "continuous",
+      "checkpoint": 32,
+      "n": 96,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 64,
+      "candidates": 278253,
+      "mean_candidates": 2898.46875,
+      "mean_search_ns": 7149129.09375,
+      "reused_correct": 31,
+      "registered": 0
+    }
+  ],
+  "training": [
+    {
+      "policy": "fixed",
+      "n": 96,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 90,
+      "candidates": 326580,
+      "mean_candidates": 3401.875,
+      "mean_search_ns": 7626340.145833333,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "no_memory",
+      "n": 96,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 81,
+      "candidates": 960000,
+      "mean_candidates": 10000.0,
+      "mean_search_ns": 22519338.84375,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "frozen",
+      "n": 96,
+      "correct": 31,
+      "wrong": 0,
+      "abstained": 65,
+      "candidates": 960000,
+      "mean_candidates": 10000.0,
+      "mean_search_ns": 26195668.760416668,
+      "reused_correct": 19,
+      "registered": 5
+    },
+    {
+      "policy": "continuous",
+      "n": 96,
+      "correct": 49,
+      "wrong": 0,
+      "abstained": 47,
+      "candidates": 960000,
+      "mean_candidates": 10000.0,
+      "mean_search_ns": 27786330.447916668,
+      "reused_correct": 37,
+      "registered": 12
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "fixed",
+      "family": "linked",
+      "n": 72,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 71,
+      "candidates": 256027,
+      "mean_candidates": 3555.9305555555557,
+      "mean_search_ns": 7048839.625,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "fixed",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 7152134.166666667,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "fixed",
+      "family": "outside",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 7117630.833333333,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "no_memory",
+      "family": "linked",
+      "n": 72,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 71,
+      "candidates": 256027,
+      "mean_candidates": 3555.9305555555557,
+      "mean_search_ns": 7002799.722222222,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "no_memory",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 7325468.25,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "no_memory",
+      "family": "outside",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 7004448.583333333,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "frozen",
+      "family": "linked",
+      "n": 72,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 58,
+      "candidates": 229137,
+      "mean_candidates": 3182.4583333333335,
+      "mean_search_ns": 7095078.208333333,
+      "reused_correct": 13,
+      "registered": 0
+    },
+    {
+      "policy": "frozen",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8048572.833333333,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "frozen",
+      "family": "outside",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 7861012.666666667,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "continuous",
+      "family": "linked",
+      "n": 72,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 40,
+      "candidates": 191853,
+      "mean_candidates": 2664.625,
+      "mean_search_ns": 6630123.055555556,
+      "reused_correct": 31,
+      "registered": 0
+    },
+    {
+      "policy": "continuous",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8688313.416666666,
+      "reused_correct": 0,
+      "registered": 0
+    },
+    {
+      "policy": "continuous",
+      "family": "outside",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "candidates": 43200,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8723981.0,
+      "reused_correct": 0,
+      "registered": 0
+    }
+  ],
+  "agents": [
+    {
+      "seed": 1980011,
+      "policy": "fixed",
+      "remaining": 211140,
+      "skills": 0,
+      "sha256": "0d43f6f18b526b97b9883a42c19fc5f745baa7b6592fb3ee3e2faf6dcdd4b948"
+    },
+    {
+      "seed": 1980011,
+      "policy": "no_memory",
+      "remaining": 0,
+      "skills": 0,
+      "sha256": "d23406b524669da317e9c13a86a631f45353ead9ccdf889730d7acbf03e7dd88"
+    },
+    {
+      "seed": 1980011,
+      "policy": "frozen",
+      "remaining": 0,
+      "skills": 2,
+      "sha256": "b0dc48b43da20698a3bb999b64d242880e878e220706a35b498a4eaca41ea1dd"
+    },
+    {
+      "seed": 1980011,
+      "policy": "continuous",
+      "remaining": 0,
+      "skills": 5,
+      "sha256": "a051aabbf642decfe63ce0a0a00c7bed33ea55afb346711bd8025281e8df0ec2"
+    },
+    {
+      "seed": 2010013,
+      "policy": "fixed",
+      "remaining": 211140,
+      "skills": 0,
+      "sha256": "0d43f6f18b526b97b9883a42c19fc5f745baa7b6592fb3ee3e2faf6dcdd4b948"
+    },
+    {
+      "seed": 2010013,
+      "policy": "no_memory",
+      "remaining": 0,
+      "skills": 0,
+      "sha256": "d23406b524669da317e9c13a86a631f45353ead9ccdf889730d7acbf03e7dd88"
+    },
+    {
+      "seed": 2010013,
+      "policy": "frozen",
+      "remaining": 0,
+      "skills": 1,
+      "sha256": "6b0e7e2c00bb99f9daf98c4d0f3c29bf8638fa849bad3ebbd59e76473995f94d"
+    },
+    {
+      "seed": 2010013,
+      "policy": "continuous",
+      "remaining": 0,
+      "skills": 3,
+      "sha256": "89062dbcc826b81aa125ea8c408cd941a177be6ca5f58d70ba344846c02b0895"
+    },
+    {
+      "seed": 2040017,
+      "policy": "fixed",
+      "remaining": 211140,
+      "skills": 0,
+      "sha256": "0d43f6f18b526b97b9883a42c19fc5f745baa7b6592fb3ee3e2faf6dcdd4b948"
+    },
+    {
+      "seed": 2040017,
+      "policy": "no_memory",
+      "remaining": 0,
+      "skills": 0,
+      "sha256": "d23406b524669da317e9c13a86a631f45353ead9ccdf889730d7acbf03e7dd88"
+    },
+    {
+      "seed": 2040017,
+      "policy": "frozen",
+      "remaining": 0,
+      "skills": 2,
+      "sha256": "9f989bea66a046bc8b8361ff334beb6753fdd4348f6328bdfe78c5522fad9e30"
+    },
+    {
+      "seed": 2040017,
+      "policy": "continuous",
+      "remaining": 0,
+      "skills": 4,
+      "sha256": "fc5086211c644474dd439cb560598c094ef21fd7552c23010db0029487599ecd"
+    }
+  ]
+}
