@@ -1,0 +1,829 @@
+{
+  "protocol": "V33-evidence-teaching-v1",
+  "teacher": "enumerative simulator, no live AI",
+  "seeds": [
+    4800017,
+    4830023,
+    4860031,
+    4890041
+  ],
+  "snapshots": [
+    {
+      "seed": 4800017,
+      "policy": "none",
+      "skills": 0,
+      "requests": 0,
+      "sha": "0209da371ec5d847da25e5fa406c09177d605b5886d98f6c0d8b235f9841c959",
+      "registry": {}
+    },
+    {
+      "seed": 4800017,
+      "policy": "blind",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4800017,
+      "policy": "verified",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4830023,
+      "policy": "none",
+      "skills": 0,
+      "requests": 0,
+      "sha": "0209da371ec5d847da25e5fa406c09177d605b5886d98f6c0d8b235f9841c959",
+      "registry": {}
+    },
+    {
+      "seed": 4830023,
+      "policy": "blind",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4830023,
+      "policy": "verified",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4860031,
+      "policy": "none",
+      "skills": 0,
+      "requests": 0,
+      "sha": "0209da371ec5d847da25e5fa406c09177d605b5886d98f6c0d8b235f9841c959",
+      "registry": {}
+    },
+    {
+      "seed": 4860031,
+      "policy": "blind",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4860031,
+      "policy": "verified",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4890041,
+      "policy": "none",
+      "skills": 0,
+      "requests": 0,
+      "sha": "0209da371ec5d847da25e5fa406c09177d605b5886d98f6c0d8b235f9841c959",
+      "registry": {}
+    },
+    {
+      "seed": 4890041,
+      "policy": "blind",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    },
+    {
+      "seed": 4890041,
+      "policy": "verified",
+      "skills": 6,
+      "requests": 6,
+      "sha": "cc9293f202dc262c53ba3684400bff3c6f71e41407315b0c6acd50637f7b0c81",
+      "registry": {
+        "skill_28a9b852cc7938ca2f27": [
+          "sum"
+        ],
+        "skill_9f9bb059643761ae4809": [
+          "scan"
+        ],
+        "skill_c7e50cbdd6a2f7efef6d": [
+          "positive",
+          "count"
+        ],
+        "skill_d0f95941a3a87560ae1c": [
+          "bounds",
+          "reverse",
+          "drop1"
+        ],
+        "skill_dc6fc59ebe9ad02ccd8f": [
+          "bounds",
+          "difference"
+        ],
+        "skill_f23acafe6b05a272461f": [
+          "unique",
+          "count"
+        ]
+      }
+    }
+  ],
+  "acquisition": [
+    {
+      "policy": "none",
+      "n": 48,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 24,
+      "queries": 144,
+      "comparisons": 26781,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1749917,
+      "requests": 0
+    },
+    {
+      "policy": "blind",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 432,
+      "comparisons": 55221,
+      "preparation_executions": 606384,
+      "teacher_checks": 96081,
+      "teacher_examined": 63700,
+      "teaching_tests": 0,
+      "wall_ns": 3781947,
+      "requests": 24
+    },
+    {
+      "policy": "verified",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 432,
+      "comparisons": 55221,
+      "preparation_executions": 606384,
+      "teacher_checks": 96081,
+      "teacher_examined": 63700,
+      "teaching_tests": 2208,
+      "wall_ns": 3529164,
+      "requests": 24
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "none",
+      "n": 96,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 72,
+      "queries": 145,
+      "comparisons": 49200,
+      "preparation_executions": 542592,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 2346669
+    },
+    {
+      "policy": "blind",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 576,
+      "comparisons": 99615,
+      "preparation_executions": 1185408,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 6845684
+    },
+    {
+      "policy": "verified",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 576,
+      "comparisons": 99615,
+      "preparation_executions": 1185408,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 6688803
+    },
+    {
+      "policy": "ideal",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 576,
+      "comparisons": 99615,
+      "preparation_executions": 1185408,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 6544628
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "none",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "queries": 0,
+      "comparisons": 11136,
+      "preparation_executions": 135648,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 259461
+    },
+    {
+      "policy": "none",
+      "stratum": "composed",
+      "n": 48,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 48,
+      "queries": 1,
+      "comparisons": 22338,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 549018
+    },
+    {
+      "policy": "none",
+      "stratum": "basic",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 15726,
+      "preparation_executions": 135648,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1538190
+    },
+    {
+      "policy": "blind",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24995,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1617566
+    },
+    {
+      "policy": "blind",
+      "stratum": "composed",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 49694,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 3429028
+    },
+    {
+      "policy": "blind",
+      "stratum": "basic",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24926,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1799090
+    },
+    {
+      "policy": "verified",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24995,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1557429
+    },
+    {
+      "policy": "verified",
+      "stratum": "composed",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 49694,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 3409128
+    },
+    {
+      "policy": "verified",
+      "stratum": "basic",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24926,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1722246
+    },
+    {
+      "policy": "ideal",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24995,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1598462
+    },
+    {
+      "policy": "ideal",
+      "stratum": "composed",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 49694,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 3285381
+    },
+    {
+      "policy": "ideal",
+      "stratum": "basic",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24926,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1660785
+    }
+  ],
+  "by_seed": [
+    {
+      "policy": "none",
+      "seed": 4800017,
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12234,
+      "preparation_executions": 135648,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 576093
+    },
+    {
+      "policy": "none",
+      "seed": 4830023,
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12234,
+      "preparation_executions": 135648,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 618599
+    },
+    {
+      "policy": "none",
+      "seed": 4860031,
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12234,
+      "preparation_executions": 135648,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 553127
+    },
+    {
+      "policy": "none",
+      "seed": 4890041,
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 37,
+      "comparisons": 12498,
+      "preparation_executions": 135648,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 598850
+    },
+    {
+      "policy": "blind",
+      "seed": 4800017,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24747,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1938993
+    },
+    {
+      "policy": "blind",
+      "seed": 4830023,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24588,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1636439
+    },
+    {
+      "policy": "blind",
+      "seed": 4860031,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24945,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1640253
+    },
+    {
+      "policy": "blind",
+      "seed": 4890041,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25335,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1629999
+    },
+    {
+      "policy": "verified",
+      "seed": 4800017,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24747,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1753717
+    },
+    {
+      "policy": "verified",
+      "seed": 4830023,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24588,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1615720
+    },
+    {
+      "policy": "verified",
+      "seed": 4860031,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24945,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1624047
+    },
+    {
+      "policy": "verified",
+      "seed": 4890041,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25335,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1695319
+    },
+    {
+      "policy": "ideal",
+      "seed": 4800017,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24747,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1605249
+    },
+    {
+      "policy": "ideal",
+      "seed": 4830023,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24588,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1615431
+    },
+    {
+      "policy": "ideal",
+      "seed": 4860031,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24945,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1663609
+    },
+    {
+      "policy": "ideal",
+      "seed": 4890041,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25335,
+      "preparation_executions": 296352,
+      "teacher_checks": 0,
+      "teacher_examined": 0,
+      "teaching_tests": 0,
+      "wall_ns": 1660339
+    }
+  ]
+}
