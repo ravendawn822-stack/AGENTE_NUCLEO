@@ -1,0 +1,1185 @@
+{
+  "protocol": "NUCLEO_V3-schema-v1",
+  "episodes": 792,
+  "seeds": [
+    750019,
+    780023,
+    810013,
+    840037
+  ],
+  "decisions": [
+    {
+      "seed": 750019,
+      "gate": {
+        "accepted": true,
+        "gains": 3,
+        "losses": 0,
+        "base_wrong": 1,
+        "new_wrong": 1
+      },
+      "selected": "schema",
+      "programs": 19,
+      "rules": 15,
+      "rules_total": 15,
+      "memory_sha": "56ac69ba7cba620d50115a118792b9b2bffecddfcf0d80f4f42da6734e4f5ac8"
+    },
+    {
+      "seed": 780023,
+      "gate": {
+        "accepted": true,
+        "gains": 5,
+        "losses": 0,
+        "base_wrong": 0,
+        "new_wrong": 0
+      },
+      "selected": "schema",
+      "programs": 18,
+      "rules": 21,
+      "rules_total": 21,
+      "memory_sha": "8f32d0932f702d932ab54aed83523768ab3bfdf181535ba6bda00d2d364018a6"
+    },
+    {
+      "seed": 810013,
+      "gate": {
+        "accepted": true,
+        "gains": 2,
+        "losses": 0,
+        "base_wrong": 1,
+        "new_wrong": 1
+      },
+      "selected": "schema",
+      "programs": 19,
+      "rules": 17,
+      "rules_total": 17,
+      "memory_sha": "4a431780d60c411498dd56f20a14de6437614754d4acd65a574c6421577eb3d1"
+    },
+    {
+      "seed": 840037,
+      "gate": {
+        "accepted": true,
+        "gains": 2,
+        "losses": 0,
+        "base_wrong": 1,
+        "new_wrong": 1
+      },
+      "selected": "schema",
+      "programs": 20,
+      "rules": 18,
+      "rules_total": 18,
+      "memory_sha": "987d20bdafea7aa4b1985f4dbb6145643161c9c477df2b6a86c05c9b4a0be654"
+    }
+  ],
+  "training_correct": 76,
+  "training_n": 96,
+  "aggregate": [
+    {
+      "policy": "base",
+      "n": 96,
+      "correct": 60,
+      "wrong": 6,
+      "abstained": 30,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 1,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1716.9791666666667,
+      "mean_search_ns": 6942353.625
+    },
+    {
+      "policy": "extended",
+      "n": 96,
+      "correct": 61,
+      "wrong": 6,
+      "abstained": 29,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1993.6770833333333,
+      "mean_search_ns": 7179590.833333333
+    },
+    {
+      "policy": "exact",
+      "n": 96,
+      "correct": 60,
+      "wrong": 6,
+      "abstained": 30,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 1,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1722.9270833333333,
+      "mean_search_ns": 6108531.729166667
+    },
+    {
+      "policy": "schema",
+      "n": 96,
+      "correct": 72,
+      "wrong": 6,
+      "abstained": 18,
+      "gain_vs_extended": 11,
+      "loss_vs_extended": 0,
+      "recalled": 12,
+      "recalled_correct": 12,
+      "mean_spent": 1889.46875,
+      "mean_search_ns": 7621406.5625
+    },
+    {
+      "policy": "gated",
+      "n": 96,
+      "correct": 72,
+      "wrong": 6,
+      "abstained": 18,
+      "gain_vs_extended": 11,
+      "loss_vs_extended": 0,
+      "recalled": 12,
+      "recalled_correct": 12,
+      "mean_spent": 1889.46875,
+      "mean_search_ns": 9401547.135416666
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "base",
+      "family": "linear",
+      "n": 16,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 4,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1855.75,
+      "mean_search_ns": 7142168.125
+    },
+    {
+      "policy": "base",
+      "family": "absolute",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1791.75,
+      "mean_search_ns": 7392641.1875
+    },
+    {
+      "policy": "base",
+      "family": "square",
+      "n": 16,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 14,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 3160.6875,
+      "mean_search_ns": 13332369.875
+    },
+    {
+      "policy": "base",
+      "family": "threshold",
+      "n": 16,
+      "correct": 12,
+      "wrong": 4,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 471.9375,
+      "mean_search_ns": 1810442.25
+    },
+    {
+      "policy": "base",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 92.625,
+      "mean_search_ns": 354572.4375
+    },
+    {
+      "policy": "base",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 2,
+      "wrong": 2,
+      "abstained": 12,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 1,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 2929.125,
+      "mean_search_ns": 11621927.875
+    },
+    {
+      "policy": "extended",
+      "family": "linear",
+      "n": 16,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 4,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 2080.75,
+      "mean_search_ns": 7394028.875
+    },
+    {
+      "policy": "extended",
+      "family": "absolute",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1791.75,
+      "mean_search_ns": 6348581.25
+    },
+    {
+      "policy": "extended",
+      "family": "square",
+      "n": 16,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 14,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 3948.1875,
+      "mean_search_ns": 14723227.8125
+    },
+    {
+      "policy": "extended",
+      "family": "threshold",
+      "n": 16,
+      "correct": 12,
+      "wrong": 4,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 471.9375,
+      "mean_search_ns": 1427055.75
+    },
+    {
+      "policy": "extended",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 92.625,
+      "mean_search_ns": 314728.125
+    },
+    {
+      "policy": "extended",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 3,
+      "wrong": 2,
+      "abstained": 11,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 3576.8125,
+      "mean_search_ns": 12869923.1875
+    },
+    {
+      "policy": "exact",
+      "family": "linear",
+      "n": 16,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 4,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1860.625,
+      "mean_search_ns": 6499490.375
+    },
+    {
+      "policy": "exact",
+      "family": "absolute",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1791.75,
+      "mean_search_ns": 6354206.375
+    },
+    {
+      "policy": "exact",
+      "family": "square",
+      "n": 16,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 14,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 3177.25,
+      "mean_search_ns": 11516993.625
+    },
+    {
+      "policy": "exact",
+      "family": "threshold",
+      "n": 16,
+      "correct": 12,
+      "wrong": 4,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 471.9375,
+      "mean_search_ns": 1423014.3125
+    },
+    {
+      "policy": "exact",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 92.625,
+      "mean_search_ns": 322677.5625
+    },
+    {
+      "policy": "exact",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 2,
+      "wrong": 2,
+      "abstained": 12,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 1,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 2943.375,
+      "mean_search_ns": 10534808.125
+    },
+    {
+      "policy": "schema",
+      "family": "linear",
+      "n": 16,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 4,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 2041.125,
+      "mean_search_ns": 8093238.75
+    },
+    {
+      "policy": "schema",
+      "family": "absolute",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1791.75,
+      "mean_search_ns": 6628912.4375
+    },
+    {
+      "policy": "schema",
+      "family": "square",
+      "n": 16,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 14,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 3835.75,
+      "mean_search_ns": 17014084.125
+    },
+    {
+      "policy": "schema",
+      "family": "threshold",
+      "n": 16,
+      "correct": 12,
+      "wrong": 4,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 471.9375,
+      "mean_search_ns": 1459211.125
+    },
+    {
+      "policy": "schema",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 92.625,
+      "mean_search_ns": 320794.125
+    },
+    {
+      "policy": "schema",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 14,
+      "wrong": 2,
+      "abstained": 0,
+      "gain_vs_extended": 11,
+      "loss_vs_extended": 0,
+      "recalled": 12,
+      "recalled_correct": 12,
+      "mean_spent": 3103.625,
+      "mean_search_ns": 12212198.8125
+    },
+    {
+      "policy": "gated",
+      "family": "linear",
+      "n": 16,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 4,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 2041.125,
+      "mean_search_ns": 12924038.0625
+    },
+    {
+      "policy": "gated",
+      "family": "absolute",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 1791.75,
+      "mean_search_ns": 7782770.125
+    },
+    {
+      "policy": "gated",
+      "family": "square",
+      "n": 16,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 14,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 3835.75,
+      "mean_search_ns": 19418922.8125
+    },
+    {
+      "policy": "gated",
+      "family": "threshold",
+      "n": 16,
+      "correct": 12,
+      "wrong": 4,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 471.9375,
+      "mean_search_ns": 1555712.75
+    },
+    {
+      "policy": "gated",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain_vs_extended": 0,
+      "loss_vs_extended": 0,
+      "recalled": 0,
+      "recalled_correct": 0,
+      "mean_spent": 92.625,
+      "mean_search_ns": 371410.5
+    },
+    {
+      "policy": "gated",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 14,
+      "wrong": 2,
+      "abstained": 0,
+      "gain_vs_extended": 11,
+      "loss_vs_extended": 0,
+      "recalled": 12,
+      "recalled_correct": 12,
+      "mean_spent": 3103.625,
+      "mean_search_ns": 14356428.5625
+    }
+  ],
+  "examples": [
+    {
+      "seed": 750019,
+      "task": [
+        "mod_count",
+        [
+          6,
+          5
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -1
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -6
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -6
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "750019/23"
+          ],
+          "bindings": [
+            [
+              -5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 750019,
+      "task": [
+        "mod_count",
+        [
+          5,
+          2
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -3
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -3
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                90,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "750019/23"
+          ],
+          "bindings": [
+            [
+              -1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 750019,
+      "task": [
+        "mod_count",
+        [
+          5,
+          3
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -2
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -2
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                90,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "750019/23"
+          ],
+          "bindings": [
+            [
+              -1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 750019,
+      "task": [
+        "mod_count",
+        [
+          2,
+          0
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              0
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -2
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -2,
+          0
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                90,
+                1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "750019/23"
+          ],
+          "bindings": [
+            [
+              -5,
+              -1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 780023,
+      "task": [
+        "mod_count",
+        [
+          4,
+          3
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -1
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -4
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -1
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                90,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -4
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "780023/20"
+          ],
+          "bindings": [
+            [
+              0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 780023,
+      "task": [
+        "mod_count",
+        [
+          5,
+          4
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -1
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -1,
+          -5
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                90,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  90,
+                  1
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "780023/9"
+          ],
+          "bindings": [
+            [
+              1,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 780023,
+      "task": [
+        "mod_count",
+        [
+          5,
+          3
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -2
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -5
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -5
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -2
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "780023/16",
+            "780023/23"
+          ],
+          "bindings": [
+            [
+              -6
+            ],
+            [
+              -3
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 810013,
+      "task": [
+        "mod_count",
+        [
+          6,
+          5
+        ]
+      ],
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            15,
+            [
+              2,
+              -1
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -6
+              ]
+            ]
+          ]
+        ]
+      ],
+      "source": {
+        "kind": "schema",
+        "binding": [
+          -6
+        ],
+        "source": {
+          "template": [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ]
+            ]
+          ],
+          "origins": [
+            "810013/1",
+            "810013/15"
+          ],
+          "bindings": [
+            [
+              -4
+            ],
+            [
+              -5
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
