@@ -1,0 +1,464 @@
+{
+  "protocol": "NUCLEO_V2_1-constraints-v1",
+  "seeds": [
+    630017,
+    660047,
+    690037,
+    720007
+  ],
+  "episodes": 624,
+  "decisions": [
+    {
+      "seed": 630017,
+      "scores": {
+        "baseline": [
+          8,
+          0,
+          -17833
+        ],
+        "constraints": [
+          8,
+          0,
+          -16332
+        ],
+        "derived": [
+          8,
+          0,
+          -21144
+        ]
+      },
+      "proposal": "constraints",
+      "selected": "baseline",
+      "gate": {
+        "accepted": false,
+        "gains": 0,
+        "losses": 0,
+        "base_wrong": 2,
+        "new_wrong": 2
+      }
+    },
+    {
+      "seed": 660047,
+      "scores": {
+        "baseline": [
+          7,
+          -1,
+          -21858
+        ],
+        "constraints": [
+          7,
+          -1,
+          -19068
+        ],
+        "derived": [
+          7,
+          -1,
+          -19378
+        ]
+      },
+      "proposal": "constraints",
+      "selected": "baseline",
+      "gate": {
+        "accepted": false,
+        "gains": 0,
+        "losses": 0,
+        "base_wrong": 1,
+        "new_wrong": 1
+      }
+    },
+    {
+      "seed": 690037,
+      "scores": {
+        "baseline": [
+          7,
+          -2,
+          -18505
+        ],
+        "constraints": [
+          7,
+          -2,
+          -15134
+        ],
+        "derived": [
+          9,
+          -1,
+          -14196
+        ]
+      },
+      "proposal": "derived",
+      "selected": "derived",
+      "gate": {
+        "accepted": true,
+        "gains": 1,
+        "losses": 0,
+        "base_wrong": 1,
+        "new_wrong": 1
+      }
+    },
+    {
+      "seed": 720007,
+      "scores": {
+        "baseline": [
+          6,
+          0,
+          -24866
+        ],
+        "constraints": [
+          6,
+          0,
+          -23260
+        ],
+        "derived": [
+          7,
+          0,
+          -23550
+        ]
+      },
+      "proposal": "derived",
+      "selected": "derived",
+      "gate": {
+        "accepted": true,
+        "gains": 2,
+        "losses": 0,
+        "base_wrong": 1,
+        "new_wrong": 1
+      }
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "baseline",
+      "n": 96,
+      "correct": 51,
+      "wrong": 3,
+      "abstained": 42,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 2107.3541666666665,
+      "mean_search_ns": 8323160.875
+    },
+    {
+      "policy": "constraints",
+      "n": 96,
+      "correct": 51,
+      "wrong": 3,
+      "abstained": 42,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 1867.4895833333333,
+      "mean_search_ns": 6867578.739583333
+    },
+    {
+      "policy": "derived",
+      "n": 96,
+      "correct": 62,
+      "wrong": 3,
+      "abstained": 31,
+      "gain": 12,
+      "loss": 1,
+      "mean_spent": 1840.65625,
+      "mean_search_ns": 5353914.458333333
+    },
+    {
+      "policy": "gated",
+      "n": 96,
+      "correct": 55,
+      "wrong": 3,
+      "abstained": 38,
+      "gain": 4,
+      "loss": 0,
+      "mean_spent": 1999.6770833333333,
+      "mean_search_ns": 7116746.635416667
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "baseline",
+      "family": "linear",
+      "n": 16,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 5,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 2007.5,
+      "mean_search_ns": 8732244.5
+    },
+    {
+      "policy": "baseline",
+      "family": "absolute",
+      "n": 16,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 8,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 2039.0,
+      "mean_search_ns": 8990230.375
+    },
+    {
+      "policy": "baseline",
+      "family": "square",
+      "n": 16,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 15,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 3380.9375,
+      "mean_search_ns": 15784692.875
+    },
+    {
+      "policy": "baseline",
+      "family": "threshold",
+      "n": 16,
+      "correct": 14,
+      "wrong": 1,
+      "abstained": 1,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 993.375,
+      "mean_search_ns": 3357112.625
+    },
+    {
+      "policy": "baseline",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 1018.0,
+      "mean_search_ns": 3316321.0625
+    },
+    {
+      "policy": "baseline",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 1,
+      "wrong": 2,
+      "abstained": 13,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 3205.3125,
+      "mean_search_ns": 9758363.8125
+    },
+    {
+      "policy": "constraints",
+      "family": "linear",
+      "n": 16,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 5,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 1619.375,
+      "mean_search_ns": 5740150.6875
+    },
+    {
+      "policy": "constraints",
+      "family": "absolute",
+      "n": 16,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 8,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 1940.875,
+      "mean_search_ns": 7456051.25
+    },
+    {
+      "policy": "constraints",
+      "family": "square",
+      "n": 16,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 15,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 3377.8125,
+      "mean_search_ns": 13109432.3125
+    },
+    {
+      "policy": "constraints",
+      "family": "threshold",
+      "n": 16,
+      "correct": 14,
+      "wrong": 1,
+      "abstained": 1,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 666.0625,
+      "mean_search_ns": 2202241.4375
+    },
+    {
+      "policy": "constraints",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 514.8125,
+      "mean_search_ns": 1702584.5
+    },
+    {
+      "policy": "constraints",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 1,
+      "wrong": 2,
+      "abstained": 13,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 3086.0,
+      "mean_search_ns": 10995012.25
+    },
+    {
+      "policy": "derived",
+      "family": "linear",
+      "n": 16,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 4,
+      "gain": 1,
+      "loss": 0,
+      "mean_spent": 2117.8125,
+      "mean_search_ns": 6199976.75
+    },
+    {
+      "policy": "derived",
+      "family": "absolute",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain": 8,
+      "loss": 0,
+      "mean_spent": 1895.0625,
+      "mean_search_ns": 5498879.5
+    },
+    {
+      "policy": "derived",
+      "family": "square",
+      "n": 16,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 15,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 3380.125,
+      "mean_search_ns": 10377685.0625
+    },
+    {
+      "policy": "derived",
+      "family": "threshold",
+      "n": 16,
+      "correct": 15,
+      "wrong": 1,
+      "abstained": 0,
+      "gain": 1,
+      "loss": 0,
+      "mean_spent": 390.25,
+      "mean_search_ns": 974926.4375
+    },
+    {
+      "policy": "derived",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 110.3125,
+      "mean_search_ns": 298199.125
+    },
+    {
+      "policy": "derived",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 2,
+      "wrong": 2,
+      "abstained": 12,
+      "gain": 2,
+      "loss": 1,
+      "mean_spent": 3150.375,
+      "mean_search_ns": 8773819.875
+    },
+    {
+      "policy": "gated",
+      "family": "linear",
+      "n": 16,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 5,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 1985.0,
+      "mean_search_ns": 7589236.9375
+    },
+    {
+      "policy": "gated",
+      "family": "absolute",
+      "n": 16,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 5,
+      "gain": 3,
+      "loss": 0,
+      "mean_spent": 2104.1875,
+      "mean_search_ns": 8226006.5
+    },
+    {
+      "policy": "gated",
+      "family": "square",
+      "n": 16,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 15,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 3380.125,
+      "mean_search_ns": 13340703.5
+    },
+    {
+      "policy": "gated",
+      "family": "threshold",
+      "n": 16,
+      "correct": 14,
+      "wrong": 1,
+      "abstained": 1,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 789.8125,
+      "mean_search_ns": 2754508.5
+    },
+    {
+      "policy": "gated",
+      "family": "extreme",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "gain": 0,
+      "loss": 0,
+      "mean_spent": 600.4375,
+      "mean_search_ns": 1770686.0
+    },
+    {
+      "policy": "gated",
+      "family": "mod_count",
+      "n": 16,
+      "correct": 2,
+      "wrong": 2,
+      "abstained": 12,
+      "gain": 1,
+      "loss": 0,
+      "mean_spent": 3138.5,
+      "mean_search_ns": 9019338.375
+    }
+  ]
+}
