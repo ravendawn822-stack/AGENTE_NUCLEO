@@ -1,0 +1,643 @@
+{
+  "protocol": "V24-subprogram-memory-v1",
+  "seeds": [
+    3600017,
+    3630023,
+    3660031,
+    3690041
+  ],
+  "snapshots": [
+    {
+      "seed": 3600017,
+      "skills": 12,
+      "sha": "40d2a6278a1c6d9d991639e826b6e43d9aef3cdd1e1aa606a99e8a81d24c5265",
+      "programs": [
+        [
+          "abs",
+          "even"
+        ],
+        [
+          "abs",
+          "take2"
+        ],
+        [
+          "difference",
+          "drop1"
+        ],
+        [
+          "drop1",
+          "even"
+        ],
+        [
+          "drop1",
+          "inc"
+        ],
+        [
+          "drop1",
+          "neg"
+        ],
+        [
+          "positive",
+          "reverse"
+        ],
+        [
+          "positive",
+          "rotate"
+        ],
+        [
+          "rotate",
+          "positive"
+        ],
+        [
+          "rotate",
+          "reverse"
+        ],
+        [
+          "sort",
+          "neg"
+        ],
+        [
+          "unique",
+          "take2"
+        ]
+      ],
+      "compositions": 281
+    },
+    {
+      "seed": 3630023,
+      "skills": 12,
+      "sha": "344660816104df4513e74a631d9588ec4733157dee838a2545ddd2185d89a32e",
+      "programs": [
+        [
+          "abs",
+          "even"
+        ],
+        [
+          "even",
+          "reverse"
+        ],
+        [
+          "inc",
+          "unique"
+        ],
+        [
+          "neg",
+          "reverse"
+        ],
+        [
+          "neg",
+          "rotate"
+        ],
+        [
+          "neg",
+          "sort"
+        ],
+        [
+          "reverse",
+          "drop1"
+        ],
+        [
+          "sort",
+          "neg"
+        ],
+        [
+          "take2",
+          "positive"
+        ],
+        [
+          "take2",
+          "unique"
+        ],
+        [
+          "unique",
+          "drop1"
+        ],
+        [
+          "unique",
+          "reverse"
+        ]
+      ],
+      "compositions": 276
+    },
+    {
+      "seed": 3660031,
+      "skills": 12,
+      "sha": "f2f7fcf5dd6e3e0bcaabaae7b27fb1bbd3939301c0ce50a08942ebdccd8b35ee",
+      "programs": [
+        [
+          "abs",
+          "even"
+        ],
+        [
+          "difference",
+          "drop1"
+        ],
+        [
+          "difference",
+          "rotate"
+        ],
+        [
+          "drop1",
+          "positive"
+        ],
+        [
+          "even",
+          "neg"
+        ],
+        [
+          "even",
+          "unique"
+        ],
+        [
+          "inc",
+          "reverse"
+        ],
+        [
+          "neg",
+          "sort"
+        ],
+        [
+          "positive",
+          "rotate"
+        ],
+        [
+          "sort",
+          "reverse"
+        ],
+        [
+          "take2",
+          "even"
+        ],
+        [
+          "take2",
+          "sort"
+        ]
+      ],
+      "compositions": 279
+    },
+    {
+      "seed": 3690041,
+      "skills": 12,
+      "sha": "e8e6f9475c153dea8b353731e91022843e5e2b5f41e780a0402b4d41fb3f864b",
+      "programs": [
+        [
+          "abs",
+          "reverse"
+        ],
+        [
+          "abs",
+          "rotate"
+        ],
+        [
+          "abs",
+          "take2"
+        ],
+        [
+          "drop1",
+          "unique"
+        ],
+        [
+          "even",
+          "difference"
+        ],
+        [
+          "even",
+          "reverse"
+        ],
+        [
+          "neg",
+          "sort"
+        ],
+        [
+          "positive",
+          "neg"
+        ],
+        [
+          "reverse",
+          "difference"
+        ],
+        [
+          "reverse",
+          "drop1"
+        ],
+        [
+          "sort",
+          "difference"
+        ],
+        [
+          "sort",
+          "neg"
+        ]
+      ],
+      "compositions": 279
+    }
+  ],
+  "preparation": [
+    {
+      "seed": 3600017,
+      "policy": "fixed2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 6100044
+    },
+    {
+      "seed": 3600017,
+      "policy": "memory",
+      "programs": 438,
+      "classes": 304,
+      "program_executions": 15768,
+      "wall_ns": 20780143
+    },
+    {
+      "seed": 3600017,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 851,
+      "program_executions": 67860,
+      "wall_ns": 97941283
+    },
+    {
+      "seed": 3630023,
+      "policy": "fixed2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 6045582
+    },
+    {
+      "seed": 3630023,
+      "policy": "memory",
+      "programs": 433,
+      "classes": 301,
+      "program_executions": 15588,
+      "wall_ns": 35758332
+    },
+    {
+      "seed": 3630023,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 835,
+      "program_executions": 67860,
+      "wall_ns": 159676904
+    },
+    {
+      "seed": 3660031,
+      "policy": "fixed2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 5975721
+    },
+    {
+      "seed": 3660031,
+      "policy": "memory",
+      "programs": 436,
+      "classes": 309,
+      "program_executions": 15696,
+      "wall_ns": 26815204
+    },
+    {
+      "seed": 3660031,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 839,
+      "program_executions": 67860,
+      "wall_ns": 97635969
+    },
+    {
+      "seed": 3690041,
+      "policy": "fixed2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 6114932
+    },
+    {
+      "seed": 3690041,
+      "policy": "memory",
+      "programs": 436,
+      "classes": 300,
+      "program_executions": 15696,
+      "wall_ns": 20798447
+    },
+    {
+      "seed": 3690041,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 842,
+      "program_executions": 67860,
+      "wall_ns": 96447108
+    }
+  ],
+  "training": {
+    "n": 48,
+    "correct": 48,
+    "wrong": 0,
+    "abstained": 0,
+    "queries": 288,
+    "comparisons": 31649,
+    "wall_ns": 7568201,
+    "added": 48
+  },
+  "aggregate": [
+    {
+      "policy": "fixed2",
+      "n": 144,
+      "correct": 32,
+      "wrong": 8,
+      "abstained": 104,
+      "queries": 279,
+      "comparisons": 76346,
+      "wall_ns": 9655576
+    },
+    {
+      "policy": "memory",
+      "n": 144,
+      "correct": 79,
+      "wrong": 7,
+      "abstained": 58,
+      "queries": 532,
+      "comparisons": 195740,
+      "wall_ns": 19156470
+    },
+    {
+      "policy": "full3",
+      "n": 144,
+      "correct": 127,
+      "wrong": 4,
+      "abstained": 13,
+      "queries": 788,
+      "comparisons": 524074,
+      "wall_ns": 34843312
+    }
+  ],
+  "by_stratum": [
+    {
+      "stratum": "linked3",
+      "policy": "fixed2",
+      "n": 48,
+      "correct": 0,
+      "wrong": 5,
+      "abstained": 43,
+      "queries": 61,
+      "comparisons": 24454,
+      "wall_ns": 2484372
+    },
+    {
+      "stratum": "linked3",
+      "policy": "memory",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 70117,
+      "wall_ns": 9112747
+    },
+    {
+      "stratum": "linked3",
+      "policy": "full3",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 177706,
+      "wall_ns": 12475684
+    },
+    {
+      "stratum": "new3",
+      "policy": "fixed2",
+      "n": 48,
+      "correct": 0,
+      "wrong": 3,
+      "abstained": 45,
+      "queries": 26,
+      "comparisons": 23074,
+      "wall_ns": 1782791
+    },
+    {
+      "stratum": "new3",
+      "policy": "memory",
+      "n": 48,
+      "correct": 0,
+      "wrong": 5,
+      "abstained": 43,
+      "queries": 46,
+      "comparisons": 60029,
+      "wall_ns": 3395519
+    },
+    {
+      "stratum": "new3",
+      "policy": "full3",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 173718,
+      "wall_ns": 11995202
+    },
+    {
+      "stratum": "new2",
+      "policy": "fixed2",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 21394,
+      "wall_ns": 5062202
+    },
+    {
+      "stratum": "new2",
+      "policy": "memory",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 45954,
+      "wall_ns": 5862087
+    },
+    {
+      "stratum": "new2",
+      "policy": "full3",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 118130,
+      "wall_ns": 8325338
+    },
+    {
+      "stratum": "outside4",
+      "policy": "fixed2",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 0,
+      "comparisons": 7424,
+      "wall_ns": 326211
+    },
+    {
+      "stratum": "outside4",
+      "policy": "memory",
+      "n": 16,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 6,
+      "comparisons": 19640,
+      "wall_ns": 786117
+    },
+    {
+      "stratum": "outside4",
+      "policy": "full3",
+      "n": 16,
+      "correct": 0,
+      "wrong": 3,
+      "abstained": 13,
+      "queries": 20,
+      "comparisons": 54520,
+      "wall_ns": 2047088
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 3600017,
+      "policy": "fixed2",
+      "n": 36,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 28,
+      "queries": 61,
+      "comparisons": 18642,
+      "wall_ns": 1863953
+    },
+    {
+      "seed": 3600017,
+      "policy": "memory",
+      "n": 36,
+      "correct": 20,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 130,
+      "comparisons": 48802,
+      "wall_ns": 3996130
+    },
+    {
+      "seed": 3600017,
+      "policy": "full3",
+      "n": 36,
+      "correct": 32,
+      "wrong": 1,
+      "abstained": 3,
+      "queries": 199,
+      "comparisons": 132035,
+      "wall_ns": 7408453
+    },
+    {
+      "seed": 3630023,
+      "policy": "fixed2",
+      "n": 36,
+      "correct": 8,
+      "wrong": 2,
+      "abstained": 26,
+      "queries": 75,
+      "comparisons": 19398,
+      "wall_ns": 3509487
+    },
+    {
+      "seed": 3630023,
+      "policy": "memory",
+      "n": 36,
+      "correct": 20,
+      "wrong": 4,
+      "abstained": 12,
+      "queries": 149,
+      "comparisons": 48976,
+      "wall_ns": 7071557
+    },
+    {
+      "seed": 3630023,
+      "policy": "full3",
+      "n": 36,
+      "correct": 32,
+      "wrong": 1,
+      "abstained": 3,
+      "queries": 198,
+      "comparisons": 130215,
+      "wall_ns": 12503952
+    },
+    {
+      "seed": 3660031,
+      "policy": "fixed2",
+      "n": 36,
+      "correct": 8,
+      "wrong": 3,
+      "abstained": 25,
+      "queries": 77,
+      "comparisons": 19457,
+      "wall_ns": 2273211
+    },
+    {
+      "seed": 3660031,
+      "policy": "memory",
+      "n": 36,
+      "correct": 20,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 130,
+      "comparisons": 50049,
+      "wall_ns": 4138408
+    },
+    {
+      "seed": 3660031,
+      "policy": "full3",
+      "n": 36,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 192,
+      "comparisons": 130560,
+      "wall_ns": 7405767
+    },
+    {
+      "seed": 3690041,
+      "policy": "fixed2",
+      "n": 36,
+      "correct": 8,
+      "wrong": 3,
+      "abstained": 25,
+      "queries": 66,
+      "comparisons": 18849,
+      "wall_ns": 2008925
+    },
+    {
+      "seed": 3690041,
+      "policy": "memory",
+      "n": 36,
+      "correct": 19,
+      "wrong": 1,
+      "abstained": 16,
+      "queries": 123,
+      "comparisons": 47913,
+      "wall_ns": 3950375
+    },
+    {
+      "seed": 3690041,
+      "policy": "full3",
+      "n": 36,
+      "correct": 31,
+      "wrong": 2,
+      "abstained": 3,
+      "queries": 199,
+      "comparisons": 131264,
+      "wall_ns": 7525140
+    }
+  ]
+}
