@@ -1,0 +1,276 @@
+{
+  "protocol": "V16-constraints-v1",
+  "seeds": [
+    2640013,
+    2670017,
+    2700023,
+    2730031
+  ],
+  "aggregate": [
+    {
+      "policy": "factorized",
+      "n": 128,
+      "correct": 28,
+      "wrong": 0,
+      "abstained": 100,
+      "additional_correct": 4,
+      "candidates": 1270214,
+      "extra_wall_ns": 6461589952
+    },
+    {
+      "policy": "additive",
+      "n": 128,
+      "correct": 60,
+      "wrong": 0,
+      "abstained": 68,
+      "additional_correct": 36,
+      "candidates": 417422,
+      "extra_wall_ns": 37995152
+    },
+    {
+      "policy": "additive_product",
+      "n": 128,
+      "correct": 60,
+      "wrong": 0,
+      "abstained": 68,
+      "additional_correct": 36,
+      "candidates": 417422,
+      "extra_wall_ns": 34528201
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 2640013,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 24,
+      "additional_correct": 2,
+      "candidates": 309087,
+      "extra_wall_ns": 1495386726
+    },
+    {
+      "seed": 2640013,
+      "policy": "additive",
+      "n": 32,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 17,
+      "additional_correct": 9,
+      "candidates": 103302,
+      "extra_wall_ns": 9589416
+    },
+    {
+      "seed": 2640013,
+      "policy": "additive_product",
+      "n": 32,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 17,
+      "additional_correct": 9,
+      "candidates": 103302,
+      "extra_wall_ns": 8568904
+    },
+    {
+      "seed": 2670017,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 25,
+      "additional_correct": 1,
+      "candidates": 320804,
+      "extra_wall_ns": 1610203480
+    },
+    {
+      "seed": 2670017,
+      "policy": "additive",
+      "n": 32,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 10,
+      "candidates": 107437,
+      "extra_wall_ns": 9884643
+    },
+    {
+      "seed": 2670017,
+      "policy": "additive_product",
+      "n": 32,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 10,
+      "candidates": 107437,
+      "extra_wall_ns": 8862153
+    },
+    {
+      "seed": 2700023,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 25,
+      "additional_correct": 1,
+      "candidates": 317746,
+      "extra_wall_ns": 1522059755
+    },
+    {
+      "seed": 2700023,
+      "policy": "additive",
+      "n": 32,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 18,
+      "additional_correct": 8,
+      "candidates": 101799,
+      "extra_wall_ns": 6888593
+    },
+    {
+      "seed": 2700023,
+      "policy": "additive_product",
+      "n": 32,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 18,
+      "additional_correct": 8,
+      "candidates": 101799,
+      "extra_wall_ns": 6389639
+    },
+    {
+      "seed": 2730031,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 322577,
+      "extra_wall_ns": 1833939991
+    },
+    {
+      "seed": 2730031,
+      "policy": "additive",
+      "n": 32,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 17,
+      "additional_correct": 9,
+      "candidates": 104884,
+      "extra_wall_ns": 11632500
+    },
+    {
+      "seed": 2730031,
+      "policy": "additive_product",
+      "n": 32,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 17,
+      "additional_correct": 9,
+      "candidates": 104884,
+      "extra_wall_ns": 10707505
+    }
+  ],
+  "by_family": [
+    {
+      "family": "linked",
+      "policy": "factorized",
+      "n": 96,
+      "correct": 28,
+      "wrong": 0,
+      "abstained": 68,
+      "additional_correct": 4,
+      "candidates": 886214,
+      "extra_wall_ns": 4488782360
+    },
+    {
+      "family": "linked",
+      "policy": "additive",
+      "n": 96,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 52,
+      "additional_correct": 20,
+      "candidates": 301082,
+      "extra_wall_ns": 20944853
+    },
+    {
+      "family": "linked",
+      "policy": "additive_product",
+      "n": 96,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 52,
+      "additional_correct": 20,
+      "candidates": 301082,
+      "extra_wall_ns": 18927654
+    },
+    {
+      "family": "unrelated",
+      "policy": "factorized",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 0,
+      "candidates": 192000,
+      "extra_wall_ns": 983755467
+    },
+    {
+      "family": "unrelated",
+      "policy": "additive",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 0,
+      "candidates": 57600,
+      "extra_wall_ns": 342194
+    },
+    {
+      "family": "unrelated",
+      "policy": "additive_product",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 0,
+      "candidates": 57600,
+      "extra_wall_ns": 226648
+    },
+    {
+      "family": "outside",
+      "policy": "factorized",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 0,
+      "candidates": 192000,
+      "extra_wall_ns": 989052125
+    },
+    {
+      "family": "outside",
+      "policy": "additive",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "additional_correct": 16,
+      "candidates": 58740,
+      "extra_wall_ns": 16708105
+    },
+    {
+      "family": "outside",
+      "policy": "additive_product",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "additional_correct": 16,
+      "candidates": 58740,
+      "extra_wall_ns": 15373899
+    }
+  ]
+}
