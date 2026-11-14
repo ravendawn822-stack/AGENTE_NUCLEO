@@ -1,0 +1,526 @@
+{
+  "protocol": "V9.1-binding-v1",
+  "episodes": 480,
+  "seeds": [
+    1890011,
+    1920013,
+    1950017
+  ],
+  "prior_sha256": "b95dae21bc19a834726a6d9ba32461e0d4de51425c9bf8127428f035a3247f2e",
+  "aggregate": [
+    {
+      "policy": "extended",
+      "n": 120,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 120,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8785139.633333333,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "literal",
+      "n": 120,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 120,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8592206.408333333,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "primitive_bind",
+      "n": 120,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 120,
+      "mean_candidates": 3000.0,
+      "mean_search_ns": 5809553.025,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "learned_bind",
+      "n": 120,
+      "correct": 40,
+      "wrong": 0,
+      "abstained": 80,
+      "mean_candidates": 2987.825,
+      "mean_search_ns": 8140007.983333333,
+      "new_op_correct": 40,
+      "gains_vs_extended": 40,
+      "losses_vs_extended": 0
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "extended",
+      "family": "linked",
+      "n": 93,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 93,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8732757.64516129,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "extended",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 9165683.25,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "extended",
+      "family": "outside",
+      "n": 15,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 15,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8805473.066666666,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "literal",
+      "family": "linked",
+      "n": 93,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 93,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8383413.419354838,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "literal",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 10036347.5,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "literal",
+      "family": "outside",
+      "n": 15,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 15,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 8731410.066666666,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "primitive_bind",
+      "family": "linked",
+      "n": 93,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 93,
+      "mean_candidates": 3000.0,
+      "mean_search_ns": 5751490.559139785,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "primitive_bind",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "mean_candidates": 3000.0,
+      "mean_search_ns": 6089236.5,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "primitive_bind",
+      "family": "outside",
+      "n": 15,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 15,
+      "mean_candidates": 3000.0,
+      "mean_search_ns": 5945793.533333333,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "learned_bind",
+      "family": "linked",
+      "n": 93,
+      "correct": 40,
+      "wrong": 0,
+      "abstained": 53,
+      "mean_candidates": 2810.0967741935483,
+      "mean_search_ns": 7697358.376344086,
+      "new_op_correct": 40,
+      "gains_vs_extended": 40,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "learned_bind",
+      "family": "unrelated",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 9164643.416666666,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    },
+    {
+      "policy": "learned_bind",
+      "family": "outside",
+      "n": 15,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 15,
+      "mean_candidates": 3600.0,
+      "mean_search_ns": 10064727.2,
+      "new_op_correct": 0,
+      "gains_vs_extended": 0,
+      "losses_vs_extended": 0
+    }
+  ],
+  "examples": [
+    {
+      "seed": 1890011,
+      "task": {
+        "id": "1890011/15",
+        "motif": "sumabs",
+        "transform": [
+          2,
+          0,
+          -1,
+          -2
+        ],
+        "family": "linked"
+      },
+      "candidate": [
+        100,
+        [
+          12,
+          [
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          10,
+          [
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "expanded": [
+        10,
+        [
+          3,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        ],
+        [
+          3,
+          [
+            10,
+            [
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "seed": 1890011,
+      "task": {
+        "id": "1890011/26",
+        "motif": "weighted",
+        "transform": [
+          -1,
+          1,
+          -1,
+          0
+        ],
+        "family": "linked"
+      },
+      "candidate": [
+        101,
+        [
+          10,
+          [
+            4,
+            [
+              0
+            ]
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          4,
+          [
+            1
+          ]
+        ]
+      ],
+      "expanded": [
+        12,
+        [
+          10,
+          [
+            4,
+            [
+              0
+            ]
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            11,
+            [
+              10,
+              [
+                4,
+                [
+                  0
+                ]
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            [
+              4,
+              [
+                1
+              ]
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "seed": 1890011,
+      "task": {
+        "id": "1890011/13",
+        "motif": "sumabs",
+        "transform": [
+          2,
+          0,
+          -1,
+          1
+        ],
+        "family": "linked"
+      },
+      "candidate": [
+        100,
+        [
+          12,
+          [
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          10,
+          [
+            1
+          ],
+          [
+            2,
+            -1
+          ]
+        ]
+      ],
+      "expanded": [
+        10,
+        [
+          3,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        ],
+        [
+          3,
+          [
+            10,
+            [
+              1
+            ],
+            [
+              2,
+              -1
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "seed": 1890011,
+      "task": {
+        "id": "1890011/30",
+        "motif": "asym",
+        "transform": [
+          -2,
+          -2,
+          1,
+          -1
+        ],
+        "family": "linked"
+      },
+      "candidate": [
+        103,
+        [
+          10,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        [
+          10,
+          [
+            1
+          ],
+          [
+            2,
+            -1
+          ]
+        ]
+      ],
+      "expanded": [
+        10,
+        [
+          10,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        [
+          3,
+          [
+            11,
+            [
+              10,
+              [
+                12,
+                [
+                  0
+                ],
+                [
+                  2,
+                  -2
+                ]
+              ],
+              [
+                2,
+                -2
+              ]
+            ],
+            [
+              10,
+              [
+                1
+              ],
+              [
+                2,
+                -1
+              ]
+            ]
+          ]
+        ]
+      ]
+    }
+  ]
+}
