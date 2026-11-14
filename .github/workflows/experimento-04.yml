@@ -1,0 +1,28 @@
+name: Experimento 04 smoke tests
+on:
+  push:
+    branches: [experimento-04]
+    paths:
+      - 'EXPERIMENTO_04/**'
+      - '.github/workflows/experimento-04.yml'
+permissions:
+  contents: read
+concurrency:
+  group: exp04-smoke
+  cancel-in-progress: true
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify historical artifacts
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Test acquisition and persistence
+        run: python3 EXPERIMENTO_04/pilot.py --self-test
+      - name: Run bounded pilot
+        run: python3 EXPERIMENTO_04/pilot.py --pilot EXPERIMENTO_04/ci_pilot
+      - name: Verify historical artifacts again
+        run: python3 MIGRACAO/verify_integrity.py
