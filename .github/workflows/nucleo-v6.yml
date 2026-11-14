@@ -1,0 +1,80 @@
+name: V5.1 and V6 bounded software experiments
+on:
+  push:
+    branches: [experimento-04]
+    paths: ['NUCLEO_V6/**','.github/workflows/nucleo-v6.yml']
+permissions:
+  contents: read
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+          path: prior-evidence
+          persist-credentials: false
+          sparse-checkout: |
+            EVIDENCIAS/BRUTOS/NUCLEO_V3
+            EVIDENCIAS/BRUTOS/NUCLEO_V3_1
+      - name: Verify prior snapshots
+        run: |
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          p=Path('prior-evidence/EVIDENCIAS/BRUTOS')
+          for d,f in [('NUCLEO_V3','memories.json'),('NUCLEO_V3_1','banks.json')]:
+              expected=next(x['sha256'] for x in json.loads((p/d/'SHA256.json').read_text()) if x['path']==f)
+              assert hashlib.sha256((p/d/f).read_bytes()).hexdigest()==expected
+          PY
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - run: python3 NUCLEO_V6/previous.py --self-test
+      - run: python3 NUCLEO_V6/repair.py --self-test
+      - run: python3 NUCLEO_V6/previous.py --prior prior-evidence/EVIDENCIAS/BRUTOS/NUCLEO_V3/memories.json --banks prior-evidence/EVIDENCIAS/BRUTOS/NUCLEO_V3_1/banks.json --output NUCLEO_V6/ci_previous
+      - run: python3 NUCLEO_V6/repair.py --output NUCLEO_V6/ci_repair
+      - run: python3 NUCLEO_V6/verify.py NUCLEO_V6/ci_repair
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nucleo-v6-results
+          path: |
+            NUCLEO_V6/ci_previous/
+            NUCLEO_V6/ci_repair/
+          retention-days: 30
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: nucleo-v6-results
+          path: EVIDENCIAS/BRUTOS/NUCLEO_V6
+      - name: Archive exact records
+        run: |
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('EVIDENCIAS/BRUTOS/NUCLEO_V6')
+          files=[dict(path=str(f.relative_to(p)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(p.rglob('*')) if f.is_file() and not f.is_symlink()]
+          assert files
+          (p/'SHA256.json').write_text(json.dumps(files,indent=2))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V6
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\/NUCLEO_V6\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive bounded repair and previous-state experiments'
+          git push origin HEAD:refs/heads/evidencias-cientificas
