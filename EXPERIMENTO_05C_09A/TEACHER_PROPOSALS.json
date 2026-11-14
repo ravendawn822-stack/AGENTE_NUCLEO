@@ -1,0 +1,114 @@
+{
+  "protocol": "manual_teacher_v1",
+  "source": "ChatGPT manual offline handoff; proposed from Experiment 05A failure categories, no access to 05C evaluation instances",
+  "skills": [
+    {
+      "id": "square",
+      "contract": "square",
+      "expr": [
+        12,
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "positive",
+      "contract": "positive",
+      "expr": [
+        14,
+        [
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "negative",
+      "contract": "negative",
+      "expr": [
+        14,
+        [
+          2,
+          0
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "even",
+      "contract": "even",
+      "expr": [
+        15,
+        [
+          13,
+          [
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "absolute",
+      "contract": "absolute",
+      "expr": [
+        3,
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "double",
+      "contract": "double",
+      "expr": [
+        10,
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "negative_control_wrong_square",
+      "contract": "square",
+      "expr": [
+        10,
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "negative_control_unknown_opcode",
+      "contract": "square",
+      "expr": [
+        999,
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+name: Experimento 05C-09A e arquivo de evidências
+on:
+  push:
+    branches: [experimento-04]
+    paths:
+      - 'EXPERIMENTO_05C_09A/**'
+      - '.github/workflows/experimento-transferencia.yml'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: exptransfer
+  cancel-in-progress: true
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify historical artifacts
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Download prior immutable curriculum records
+        uses: actions/download-artifact@v4
+        with:
+          name: expcurriculum-results
+          run-id: 43644337209
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/prior
+      - name: Test safety and guarded search
+        run: python3 EXPERIMENTO_05C_09A/transfer.py --self-test
+      - name: Run frozen 05C-09A protocol
+        shell: bash
+        run: |
+          mapfile -t dbs < <(find "$RUNNER_TEMP/prior" -type f -name memory.sqlite3)
+          test "${#dbs[@]}" -eq 1
+          python3 EXPERIMENTO_05C_09A/transfer.py --snapshot "${dbs[0]}" --output EXPERIMENTO_05C_09A/ci_transfer
+      - name: Verify historical artifacts again
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Preserve records
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: exptransfer-results
+          path: EXPERIMENTO_05C_09A/ci_transfer/
+          retention-days: 30
+          if-no-files-found: warn
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: exp04-results
+          run-id: 43643813897
+          github-token: ${{ github.token }}
+          path: EVIDENCIAS/BRUTOS/04B
+      - uses: actions/download-artifact@v4
+        with:
+          name: exp04cd-05a-results
+          run-id: 43644063881
+          github-token: ${{ github.token }}
+          path: EVIDENCIAS/BRUTOS/04CD_05A
+      - uses: actions/download-artifact@v4
+        with:
+          name: exp0608-results
+          run-id: 43644202683
+          github-token: ${{ github.token }}
+          path: EVIDENCIAS/BRUTOS/0608A
+      - uses: actions/download-artifact@v4
+        with:
+          name: expcurriculum-results
+          run-id: 43644337209
+          github-token: ${{ github.token }}
+          path: EVIDENCIAS/BRUTOS/05B_07B_08B
+      - uses: actions/download-artifact@v4
+        with:
+          name: exptransfer-results
+          path: EVIDENCIAS/BRUTOS/05C_09A
+      - name: Archive exact records without executing them
+        shell: bash
+        run: |
+          python3 MIGRACAO/verify_integrity.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('EVIDENCIAS/BRUTOS')
+          files=[]
+          for f in sorted(p.rglob('*')):
+              if f.is_file():
+                  assert not f.is_symlink()
+                  files.append(dict(path=str(f.relative_to(p)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()))
+          assert files
+          (p/'SHA256.json').write_text(json.dumps(files,indent=2))
+          print('ARCHIVED_FILES='+str(len(files)))
+          PY
+          git add -f EVIDENCIAS/BRUTOS
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive exact experimental records and file hashes'
+          git push origin HEAD:refs/heads/evidencias-cientificas
