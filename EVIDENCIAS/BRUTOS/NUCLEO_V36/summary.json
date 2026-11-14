@@ -1,0 +1,2521 @@
+{
+  "protocol": "V36-controlled-regression-monitor-v1",
+  "schedules": [
+    {
+      "replica": 5160017,
+      "updates": [
+        [
+          "inverted",
+          [
+            "pairs",
+            [
+              "sub",
+              "zero",
+              "distance"
+            ]
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            [
+              "add",
+              "pairs",
+              "zero"
+            ],
+            "distance"
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            "pairs",
+            [
+              "add",
+              "distance",
+              "zero"
+            ]
+          ]
+        ],
+        [
+          "constant",
+          [
+            "zero",
+            "zero"
+          ]
+        ],
+        [
+          "constant",
+          [
+            [
+              "max",
+              "zero",
+              "zero"
+            ],
+            "zero"
+          ]
+        ],
+        [
+          "inverted",
+          [
+            [
+              "sub",
+              "zero",
+              "pairs"
+            ],
+            "distance"
+          ]
+        ]
+      ],
+      "seeds": [
+        5161026,
+        5162035,
+        5163044,
+        5164053,
+        5165062,
+        5166071,
+        5167080,
+        5168089,
+        5169098,
+        5170107,
+        5171116,
+        5172125,
+        5173134,
+        5174143,
+        5175152,
+        5176161,
+        5177170,
+        5178179,
+        5179188,
+        5180197,
+        5181206,
+        5182215,
+        5183224,
+        5184233,
+        5185242,
+        5186251,
+        5187260,
+        5188269,
+        5189278,
+        5190287,
+        5191296,
+        5192305,
+        5193314,
+        5194323,
+        5195332,
+        5196341,
+        5197350,
+        5198359,
+        5199368,
+        5200377,
+        5201386,
+        5202395,
+        5203404,
+        5204413,
+        5205422,
+        5206431,
+        5207440,
+        5208449
+      ]
+    },
+    {
+      "replica": 5190023,
+      "updates": [
+        [
+          "constant",
+          [
+            [
+              "max",
+              "zero",
+              "zero"
+            ],
+            "zero"
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            [
+              "add",
+              "pairs",
+              "zero"
+            ],
+            "distance"
+          ]
+        ],
+        [
+          "inverted",
+          [
+            [
+              "sub",
+              "zero",
+              "pairs"
+            ],
+            "distance"
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            "pairs",
+            [
+              "add",
+              "distance",
+              "zero"
+            ]
+          ]
+        ],
+        [
+          "constant",
+          [
+            "zero",
+            "zero"
+          ]
+        ],
+        [
+          "inverted",
+          [
+            "pairs",
+            [
+              "sub",
+              "zero",
+              "distance"
+            ]
+          ]
+        ]
+      ],
+      "seeds": [
+        5191032,
+        5192041,
+        5193050,
+        5194059,
+        5195068,
+        5196077,
+        5197086,
+        5198095,
+        5199104,
+        5200113,
+        5201122,
+        5202131,
+        5203140,
+        5204149,
+        5205158,
+        5206167,
+        5207176,
+        5208185,
+        5209194,
+        5210203,
+        5211212,
+        5212221,
+        5213230,
+        5214239,
+        5215248,
+        5216257,
+        5217266,
+        5218275,
+        5219284,
+        5220293,
+        5221302,
+        5222311,
+        5223320,
+        5224329,
+        5225338,
+        5226347,
+        5227356,
+        5228365,
+        5229374,
+        5230383,
+        5231392,
+        5232401,
+        5233410,
+        5234419,
+        5235428,
+        5236437,
+        5237446,
+        5238455
+      ]
+    },
+    {
+      "replica": 5220031,
+      "updates": [
+        [
+          "inverted",
+          [
+            "pairs",
+            [
+              "sub",
+              "zero",
+              "distance"
+            ]
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            "pairs",
+            [
+              "add",
+              "distance",
+              "zero"
+            ]
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            [
+              "add",
+              "pairs",
+              "zero"
+            ],
+            "distance"
+          ]
+        ],
+        [
+          "inverted",
+          [
+            [
+              "sub",
+              "zero",
+              "pairs"
+            ],
+            "distance"
+          ]
+        ],
+        [
+          "constant",
+          [
+            [
+              "max",
+              "zero",
+              "zero"
+            ],
+            "zero"
+          ]
+        ],
+        [
+          "constant",
+          [
+            "zero",
+            "zero"
+          ]
+        ]
+      ],
+      "seeds": [
+        5221040,
+        5222049,
+        5223058,
+        5224067,
+        5225076,
+        5226085,
+        5227094,
+        5228103,
+        5229112,
+        5230121,
+        5231130,
+        5232139,
+        5233148,
+        5234157,
+        5235166,
+        5236175,
+        5237184,
+        5238193,
+        5239202,
+        5240211,
+        5241220,
+        5242229,
+        5243238,
+        5244247,
+        5245256,
+        5246265,
+        5247274,
+        5248283,
+        5249292,
+        5250301,
+        5251310,
+        5252319,
+        5253328,
+        5254337,
+        5255346,
+        5256355,
+        5257364,
+        5258373,
+        5259382,
+        5260391,
+        5261400,
+        5262409,
+        5263418,
+        5264427,
+        5265436,
+        5266445,
+        5267454,
+        5268463
+      ]
+    },
+    {
+      "replica": 5250041,
+      "updates": [
+        [
+          "inverted",
+          [
+            [
+              "sub",
+              "zero",
+              "pairs"
+            ],
+            "distance"
+          ]
+        ],
+        [
+          "inverted",
+          [
+            "pairs",
+            [
+              "sub",
+              "zero",
+              "distance"
+            ]
+          ]
+        ],
+        [
+          "constant",
+          [
+            "zero",
+            "zero"
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            "pairs",
+            [
+              "add",
+              "distance",
+              "zero"
+            ]
+          ]
+        ],
+        [
+          "constant",
+          [
+            [
+              "max",
+              "zero",
+              "zero"
+            ],
+            "zero"
+          ]
+        ],
+        [
+          "equivalent",
+          [
+            [
+              "add",
+              "pairs",
+              "zero"
+            ],
+            "distance"
+          ]
+        ]
+      ],
+      "seeds": [
+        5251050,
+        5252059,
+        5253068,
+        5254077,
+        5255086,
+        5256095,
+        5257104,
+        5258113,
+        5259122,
+        5260131,
+        5261140,
+        5262149,
+        5263158,
+        5264167,
+        5265176,
+        5266185,
+        5267194,
+        5268203,
+        5269212,
+        5270221,
+        5271230,
+        5272239,
+        5273248,
+        5274257,
+        5275266,
+        5276275,
+        5277284,
+        5278293,
+        5279302,
+        5280311,
+        5281320,
+        5282329,
+        5283338,
+        5284347,
+        5285356,
+        5286365,
+        5287374,
+        5288383,
+        5289392,
+        5290401,
+        5291410,
+        5292419,
+        5293428,
+        5294437,
+        5295446,
+        5296455,
+        5297464,
+        5298473
+      ]
+    }
+  ],
+  "events": [
+    {
+      "replica": 5160017,
+      "stage": 0,
+      "kind": "inverted",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        "pairs",
+        [
+          "sub",
+          "zero",
+          "distance"
+        ]
+      ],
+      "installed_sha": "b0d9affba87f621ec8cfec17a6f37bb9d40cd673d88c6c270f7ae4f8fc1c9e8c",
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "active_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 90,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11798,
+        "wall_ns": 7642125,
+        "score": 1770
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 17,
+        "wrong": 2,
+        "abstained": 5,
+        "appropriate_abstention": 5,
+        "evaluation_calls": 1520,
+        "environments": 3,
+        "probes": 93,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 11901,
+        "wall_ns": 7628986,
+        "score": 1257
+      },
+      "monitor_seeds": [
+        5161026,
+        5162035,
+        5163044
+      ]
+    },
+    {
+      "replica": 5160017,
+      "stage": 1,
+      "kind": "equivalent",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "installed_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 91,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11832,
+        "wall_ns": 7130928,
+        "score": 1769
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 91,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11832,
+        "wall_ns": 7181482,
+        "score": 1769
+      },
+      "monitor_seeds": [
+        5169098,
+        5170107,
+        5171116
+      ]
+    },
+    {
+      "replica": 5160017,
+      "stage": 2,
+      "kind": "equivalent",
+      "previous": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "previous_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "proposed": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "installed_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11869,
+        "wall_ns": 13464687,
+        "score": 1768
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11869,
+        "wall_ns": 13628022,
+        "score": 1768
+      },
+      "monitor_seeds": [
+        5177170,
+        5178179,
+        5179188
+      ]
+    },
+    {
+      "replica": 5160017,
+      "stage": 3,
+      "kind": "constant",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        "zero",
+        "zero"
+      ],
+      "installed_sha": "1defb1bfda7e538dbd014446eb3304150158ee8bde1c964b6f2ec8ba5c98e7a6",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 89,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11763,
+        "wall_ns": 13519909,
+        "score": 1771
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 1,
+        "abstained": 5,
+        "appropriate_abstention": 5,
+        "evaluation_calls": 1520,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 17014,
+        "wall_ns": 14986754,
+        "score": 1551
+      },
+      "monitor_seeds": [
+        5185242,
+        5186251,
+        5187260
+      ]
+    },
+    {
+      "replica": 5160017,
+      "stage": 4,
+      "kind": "constant",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        [
+          "max",
+          "zero",
+          "zero"
+        ],
+        "zero"
+      ],
+      "installed_sha": "a9228d0eb32c41e97a2b15df521efa9722364b64a15a6b4ae1d51c937eed63ae",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11870,
+        "wall_ns": 13615303,
+        "score": 1768
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 17084,
+        "wall_ns": 15624062,
+        "score": 1761
+      },
+      "monitor_seeds": [
+        5193314,
+        5194323,
+        5195332
+      ]
+    },
+    {
+      "replica": 5160017,
+      "stage": 5,
+      "kind": "inverted",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        [
+          "sub",
+          "zero",
+          "pairs"
+        ],
+        "distance"
+      ],
+      "installed_sha": "a1656fb8dc599cef75c978ec0c7d6ca00e8d25855ace5e03f2ed3e9ba329de8f",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "reverted",
+      "reasons": [
+        "score"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 89,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11764,
+        "wall_ns": 7221314,
+        "score": 1771
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 3,
+        "wrong": 0,
+        "abstained": 21,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 240,
+        "environments": 3,
+        "probes": 100,
+        "classified": 12,
+        "false_identity": 0,
+        "cost": 22716,
+        "wall_ns": 11107954,
+        "score": 260
+      },
+      "monitor_seeds": [
+        5201386,
+        5202395,
+        5203404
+      ]
+    },
+    {
+      "replica": 5190023,
+      "stage": 0,
+      "kind": "constant",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        [
+          "max",
+          "zero",
+          "zero"
+        ],
+        "zero"
+      ],
+      "installed_sha": "a9228d0eb32c41e97a2b15df521efa9722364b64a15a6b4ae1d51c937eed63ae",
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "active_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11869,
+        "wall_ns": 7259601,
+        "score": 1768
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 16,
+        "wrong": 2,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 16941,
+        "wall_ns": 8738124,
+        "score": 1161
+      },
+      "monitor_seeds": [
+        5191032,
+        5192041,
+        5193050
+      ]
+    },
+    {
+      "replica": 5190023,
+      "stage": 1,
+      "kind": "equivalent",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "installed_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 95,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11975,
+        "wall_ns": 7396437,
+        "score": 1765
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 95,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11975,
+        "wall_ns": 7386311,
+        "score": 1765
+      },
+      "monitor_seeds": [
+        5199104,
+        5200113,
+        5201122
+      ]
+    },
+    {
+      "replica": 5190023,
+      "stage": 2,
+      "kind": "inverted",
+      "previous": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "previous_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "proposed": [
+        [
+          "sub",
+          "zero",
+          "pairs"
+        ],
+        "distance"
+      ],
+      "installed_sha": "a1656fb8dc599cef75c978ec0c7d6ca00e8d25855ace5e03f2ed3e9ba329de8f",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "reverted",
+      "reasons": [
+        "score"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 89,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11764,
+        "wall_ns": 7167844,
+        "score": 1771
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 6,
+        "wrong": 0,
+        "abstained": 18,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 480,
+        "environments": 3,
+        "probes": 99,
+        "classified": 15,
+        "false_identity": 0,
+        "cost": 21740,
+        "wall_ns": 10200401,
+        "score": 561
+      },
+      "monitor_seeds": [
+        5207176,
+        5208185,
+        5209194
+      ]
+    },
+    {
+      "replica": 5190023,
+      "stage": 3,
+      "kind": "equivalent",
+      "previous": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "previous_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "proposed": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "installed_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 84,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11586,
+        "wall_ns": 6994993,
+        "score": 1776
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 84,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11586,
+        "wall_ns": 6771967,
+        "score": 1776
+      },
+      "monitor_seeds": [
+        5215248,
+        5216257,
+        5217266
+      ]
+    },
+    {
+      "replica": 5190023,
+      "stage": 4,
+      "kind": "constant",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        "zero",
+        "zero"
+      ],
+      "installed_sha": "1defb1bfda7e538dbd014446eb3304150158ee8bde1c964b6f2ec8ba5c98e7a6",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 88,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11729,
+        "wall_ns": 7944230,
+        "score": 1772
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 17,
+        "wrong": 2,
+        "abstained": 5,
+        "appropriate_abstention": 5,
+        "evaluation_calls": 1520,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 17016,
+        "wall_ns": 8643782,
+        "score": 1251
+      },
+      "monitor_seeds": [
+        5223320,
+        5224329,
+        5225338
+      ]
+    },
+    {
+      "replica": 5190023,
+      "stage": 5,
+      "kind": "inverted",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        "pairs",
+        [
+          "sub",
+          "zero",
+          "distance"
+        ]
+      ],
+      "installed_sha": "b0d9affba87f621ec8cfec17a6f37bb9d40cd673d88c6c270f7ae4f8fc1c9e8c",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "reverted",
+      "reasons": [
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 93,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11904,
+        "wall_ns": 7597889,
+        "score": 1767
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 28,
+        "false_identity": 2,
+        "cost": 11868,
+        "wall_ns": 7564789,
+        "score": 1768
+      },
+      "monitor_seeds": [
+        5231392,
+        5232401,
+        5233410
+      ]
+    },
+    {
+      "replica": 5220031,
+      "stage": 0,
+      "kind": "inverted",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        "pairs",
+        [
+          "sub",
+          "zero",
+          "distance"
+        ]
+      ],
+      "installed_sha": "b0d9affba87f621ec8cfec17a6f37bb9d40cd673d88c6c270f7ae4f8fc1c9e8c",
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "active_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 90,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11799,
+        "wall_ns": 7086441,
+        "score": 1770
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 1,
+        "abstained": 5,
+        "appropriate_abstention": 5,
+        "evaluation_calls": 1520,
+        "environments": 3,
+        "probes": 95,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 11972,
+        "wall_ns": 11253874,
+        "score": 1555
+      },
+      "monitor_seeds": [
+        5221040,
+        5222049,
+        5223058
+      ]
+    },
+    {
+      "replica": 5220031,
+      "stage": 1,
+      "kind": "equivalent",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "installed_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 86,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11657,
+        "wall_ns": 12778216,
+        "score": 1774
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 86,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11657,
+        "wall_ns": 12838055,
+        "score": 1774
+      },
+      "monitor_seeds": [
+        5229112,
+        5230121,
+        5231130
+      ]
+    },
+    {
+      "replica": 5220031,
+      "stage": 2,
+      "kind": "equivalent",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "installed_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11867,
+        "wall_ns": 13838288,
+        "score": 1768
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11867,
+        "wall_ns": 13338678,
+        "score": 1768
+      },
+      "monitor_seeds": [
+        5237184,
+        5238193,
+        5239202
+      ]
+    },
+    {
+      "replica": 5220031,
+      "stage": 3,
+      "kind": "inverted",
+      "previous": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "previous_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "proposed": [
+        [
+          "sub",
+          "zero",
+          "pairs"
+        ],
+        "distance"
+      ],
+      "installed_sha": "a1656fb8dc599cef75c978ec0c7d6ca00e8d25855ace5e03f2ed3e9ba329de8f",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "reverted",
+      "reasons": [
+        "score"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 89,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11765,
+        "wall_ns": 7321996,
+        "score": 1771
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 6,
+        "wrong": 0,
+        "abstained": 18,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 480,
+        "environments": 3,
+        "probes": 101,
+        "classified": 15,
+        "false_identity": 0,
+        "cost": 22610,
+        "wall_ns": 10299619,
+        "score": 559
+      },
+      "monitor_seeds": [
+        5245256,
+        5246265,
+        5247274
+      ]
+    },
+    {
+      "replica": 5220031,
+      "stage": 4,
+      "kind": "constant",
+      "previous": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "previous_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "proposed": [
+        [
+          "max",
+          "zero",
+          "zero"
+        ],
+        "zero"
+      ],
+      "installed_sha": "a9228d0eb32c41e97a2b15df521efa9722364b64a15a6b4ae1d51c937eed63ae",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 92,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11870,
+        "wall_ns": 7312771,
+        "score": 1768
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 16,
+        "wrong": 2,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 17048,
+        "wall_ns": 8780126,
+        "score": 1161
+      },
+      "monitor_seeds": [
+        5253328,
+        5254337,
+        5255346
+      ]
+    },
+    {
+      "replica": 5220031,
+      "stage": 5,
+      "kind": "constant",
+      "previous": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "previous_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "proposed": [
+        "zero",
+        "zero"
+      ],
+      "installed_sha": "1defb1bfda7e538dbd014446eb3304150158ee8bde1c964b6f2ec8ba5c98e7a6",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 85,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11622,
+        "wall_ns": 6864497,
+        "score": 1775
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 16,
+        "wrong": 2,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 16870,
+        "wall_ns": 8028037,
+        "score": 1161
+      },
+      "monitor_seeds": [
+        5261400,
+        5262409,
+        5263418
+      ]
+    },
+    {
+      "replica": 5250041,
+      "stage": 0,
+      "kind": "inverted",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        [
+          "sub",
+          "zero",
+          "pairs"
+        ],
+        "distance"
+      ],
+      "installed_sha": "a1656fb8dc599cef75c978ec0c7d6ca00e8d25855ace5e03f2ed3e9ba329de8f",
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "active_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "status": "reverted",
+      "reasons": [
+        "score"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 91,
+        "classified": 29,
+        "false_identity": 1,
+        "cost": 11834,
+        "wall_ns": 7129666,
+        "score": 1769
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 4,
+        "wrong": 0,
+        "abstained": 20,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 320,
+        "environments": 3,
+        "probes": 99,
+        "classified": 13,
+        "false_identity": 0,
+        "cost": 21707,
+        "wall_ns": 9332776,
+        "score": 361
+      },
+      "monitor_seeds": [
+        5251050,
+        5252059,
+        5253068
+      ]
+    },
+    {
+      "replica": 5250041,
+      "stage": 1,
+      "kind": "inverted",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        "pairs",
+        [
+          "sub",
+          "zero",
+          "distance"
+        ]
+      ],
+      "installed_sha": "b0d9affba87f621ec8cfec17a6f37bb9d40cd673d88c6c270f7ae4f8fc1c9e8c",
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "active_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 91,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11835,
+        "wall_ns": 7576717,
+        "score": 1769
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 17,
+        "wrong": 1,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 95,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 11972,
+        "wall_ns": 7754574,
+        "score": 1465
+      },
+      "monitor_seeds": [
+        5259122,
+        5260131,
+        5261140
+      ]
+    },
+    {
+      "replica": 5250041,
+      "stage": 2,
+      "kind": "constant",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        "zero",
+        "zero"
+      ],
+      "installed_sha": "1defb1bfda7e538dbd014446eb3304150158ee8bde1c964b6f2ec8ba5c98e7a6",
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "active_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "wrong",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 88,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11729,
+        "wall_ns": 6880100,
+        "score": 1772
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 17,
+        "wrong": 3,
+        "abstained": 4,
+        "appropriate_abstention": 4,
+        "evaluation_calls": 1600,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 16943,
+        "wall_ns": 8108987,
+        "score": 1041
+      },
+      "monitor_seeds": [
+        5267194,
+        5268203,
+        5269212
+      ]
+    },
+    {
+      "replica": 5250041,
+      "stage": 3,
+      "kind": "equivalent",
+      "previous": [
+        "pairs",
+        "distance"
+      ],
+      "previous_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "proposed": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "installed_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 90,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11798,
+        "wall_ns": 7088062,
+        "score": 1770
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 90,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11798,
+        "wall_ns": 7154273,
+        "score": 1770
+      },
+      "monitor_seeds": [
+        5275266,
+        5276275,
+        5277284
+      ]
+    },
+    {
+      "replica": 5250041,
+      "stage": 4,
+      "kind": "constant",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        [
+          "max",
+          "zero",
+          "zero"
+        ],
+        "zero"
+      ],
+      "installed_sha": "a9228d0eb32c41e97a2b15df521efa9722364b64a15a6b4ae1d51c937eed63ae",
+      "active": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "active_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "status": "reverted",
+      "reasons": [
+        "score",
+        "false_identity"
+      ],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 90,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11800,
+        "wall_ns": 7671660,
+        "score": 1770
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 99,
+        "classified": 27,
+        "false_identity": 3,
+        "cost": 16943,
+        "wall_ns": 8712525,
+        "score": 1761
+      },
+      "monitor_seeds": [
+        5283338,
+        5284347,
+        5285356
+      ]
+    },
+    {
+      "replica": 5250041,
+      "stage": 5,
+      "kind": "equivalent",
+      "previous": [
+        "pairs",
+        [
+          "add",
+          "distance",
+          "zero"
+        ]
+      ],
+      "previous_sha": "4a19d1d7c8dd3fab90172edf7af186769e1e4a573cfea71ca46f760f76139fea",
+      "proposed": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "installed_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "active": [
+        [
+          "add",
+          "pairs",
+          "zero"
+        ],
+        "distance"
+      ],
+      "active_sha": "5aad1366515e2fb3570ffea5ef89daf86b74702ed7ff4294f5c1da896d5be9c9",
+      "status": "accepted",
+      "reasons": [],
+      "monitor_before": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 86,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11657,
+        "wall_ns": 7016755,
+        "score": 1774
+      },
+      "monitor_after": {
+        "n": 24,
+        "correct": 18,
+        "wrong": 0,
+        "abstained": 6,
+        "appropriate_abstention": 6,
+        "evaluation_calls": 1440,
+        "environments": 3,
+        "probes": 86,
+        "classified": 30,
+        "false_identity": 0,
+        "cost": 11657,
+        "wall_ns": 6925729,
+        "score": 1774
+      },
+      "monitor_seeds": [
+        5291410,
+        5292419,
+        5293428
+      ]
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "immutable",
+      "n": 960,
+      "correct": 718,
+      "wrong": 5,
+      "abstained": 237,
+      "appropriate_abstention": 237,
+      "evaluation_calls": 57840,
+      "environments": 120,
+      "probes": 3597,
+      "classified": 1195,
+      "false_identity": 5,
+      "cost": 471854,
+      "wall_ns": 352754565,
+      "score": 69573
+    },
+    {
+      "policy": "unconditional",
+      "n": 960,
+      "correct": 615,
+      "wrong": 37,
+      "abstained": 308,
+      "appropriate_abstention": 227,
+      "evaluation_calls": 52160,
+      "environments": 120,
+      "probes": 3823,
+      "classified": 1040,
+      "false_identity": 58,
+      "cost": 613970,
+      "wall_ns": 401749754,
+      "score": 52547
+    },
+    {
+      "policy": "monitored",
+      "n": 960,
+      "correct": 718,
+      "wrong": 5,
+      "abstained": 237,
+      "appropriate_abstention": 237,
+      "evaluation_calls": 57840,
+      "environments": 120,
+      "probes": 3597,
+      "classified": 1195,
+      "false_identity": 5,
+      "cost": 471854,
+      "wall_ns": 350210697,
+      "score": 69573
+    }
+  ],
+  "by_kind": [
+    {
+      "policy": "immutable",
+      "kind": "equivalent",
+      "n": 320,
+      "correct": 238,
+      "wrong": 3,
+      "abstained": 79,
+      "appropriate_abstention": 79,
+      "evaluation_calls": 19280,
+      "environments": 40,
+      "probes": 1216,
+      "classified": 397,
+      "false_identity": 3,
+      "cost": 157884,
+      "wall_ns": 124944837,
+      "score": 22774
+    },
+    {
+      "policy": "immutable",
+      "kind": "constant",
+      "n": 320,
+      "correct": 240,
+      "wrong": 0,
+      "abstained": 80,
+      "appropriate_abstention": 80,
+      "evaluation_calls": 19200,
+      "environments": 40,
+      "probes": 1183,
+      "classified": 400,
+      "false_identity": 0,
+      "cost": 156724,
+      "wall_ns": 124413526,
+      "score": 23617
+    },
+    {
+      "policy": "immutable",
+      "kind": "inverted",
+      "n": 320,
+      "correct": 240,
+      "wrong": 2,
+      "abstained": 78,
+      "appropriate_abstention": 78,
+      "evaluation_calls": 19360,
+      "environments": 40,
+      "probes": 1198,
+      "classified": 398,
+      "false_identity": 2,
+      "cost": 157246,
+      "wall_ns": 103396202,
+      "score": 23182
+    },
+    {
+      "policy": "unconditional",
+      "kind": "equivalent",
+      "n": 320,
+      "correct": 238,
+      "wrong": 3,
+      "abstained": 79,
+      "appropriate_abstention": 79,
+      "evaluation_calls": 19280,
+      "environments": 40,
+      "probes": 1216,
+      "classified": 397,
+      "false_identity": 3,
+      "cost": 157884,
+      "wall_ns": 138438966,
+      "score": 22774
+    },
+    {
+      "policy": "unconditional",
+      "kind": "constant",
+      "n": 320,
+      "correct": 225,
+      "wrong": 24,
+      "abstained": 71,
+      "appropriate_abstention": 71,
+      "evaluation_calls": 19920,
+      "environments": 40,
+      "probes": 1320,
+      "classified": 360,
+      "false_identity": 40,
+      "cost": 228279,
+      "wall_ns": 135952907,
+      "score": 17090
+    },
+    {
+      "policy": "unconditional",
+      "kind": "inverted",
+      "n": 320,
+      "correct": 152,
+      "wrong": 10,
+      "abstained": 158,
+      "appropriate_abstention": 77,
+      "evaluation_calls": 12960,
+      "environments": 40,
+      "probes": 1287,
+      "classified": 283,
+      "false_identity": 15,
+      "cost": 227807,
+      "wall_ns": 127357881,
+      "score": 12683
+    },
+    {
+      "policy": "monitored",
+      "kind": "equivalent",
+      "n": 320,
+      "correct": 238,
+      "wrong": 3,
+      "abstained": 79,
+      "appropriate_abstention": 79,
+      "evaluation_calls": 19280,
+      "environments": 40,
+      "probes": 1216,
+      "classified": 397,
+      "false_identity": 3,
+      "cost": 157884,
+      "wall_ns": 133090083,
+      "score": 22774
+    },
+    {
+      "policy": "monitored",
+      "kind": "constant",
+      "n": 320,
+      "correct": 240,
+      "wrong": 0,
+      "abstained": 80,
+      "appropriate_abstention": 80,
+      "evaluation_calls": 19200,
+      "environments": 40,
+      "probes": 1183,
+      "classified": 400,
+      "false_identity": 0,
+      "cost": 156724,
+      "wall_ns": 111559703,
+      "score": 23617
+    },
+    {
+      "policy": "monitored",
+      "kind": "inverted",
+      "n": 320,
+      "correct": 240,
+      "wrong": 2,
+      "abstained": 78,
+      "appropriate_abstention": 78,
+      "evaluation_calls": 19360,
+      "environments": 40,
+      "probes": 1198,
+      "classified": 398,
+      "false_identity": 2,
+      "cost": 157246,
+      "wall_ns": 105560911,
+      "score": 23182
+    }
+  ],
+  "by_replica": [
+    {
+      "replica": 5160017,
+      "policy": "immutable",
+      "n": 240,
+      "correct": 180,
+      "wrong": 1,
+      "abstained": 59,
+      "appropriate_abstention": 59,
+      "evaluation_calls": 14480,
+      "environments": 30,
+      "probes": 912,
+      "classified": 299,
+      "false_identity": 1,
+      "cost": 118412,
+      "wall_ns": 106626692,
+      "score": 17478
+    },
+    {
+      "replica": 5160017,
+      "policy": "unconditional",
+      "n": 240,
+      "correct": 153,
+      "wrong": 10,
+      "abstained": 77,
+      "appropriate_abstention": 57,
+      "evaluation_calls": 13040,
+      "environments": 30,
+      "probes": 960,
+      "classified": 261,
+      "false_identity": 14,
+      "cost": 153697,
+      "wall_ns": 108882374,
+      "score": 12910
+    },
+    {
+      "replica": 5160017,
+      "policy": "monitored",
+      "n": 240,
+      "correct": 180,
+      "wrong": 1,
+      "abstained": 59,
+      "appropriate_abstention": 59,
+      "evaluation_calls": 14480,
+      "environments": 30,
+      "probes": 912,
+      "classified": 299,
+      "false_identity": 1,
+      "cost": 118412,
+      "wall_ns": 98943029,
+      "score": 17478
+    },
+    {
+      "replica": 5190023,
+      "policy": "immutable",
+      "n": 240,
+      "correct": 180,
+      "wrong": 2,
+      "abstained": 58,
+      "appropriate_abstention": 58,
+      "evaluation_calls": 14560,
+      "environments": 30,
+      "probes": 891,
+      "classified": 298,
+      "false_identity": 2,
+      "cost": 117673,
+      "wall_ns": 70404495,
+      "score": 17289
+    },
+    {
+      "replica": 5190023,
+      "policy": "unconditional",
+      "n": 240,
+      "correct": 154,
+      "wrong": 7,
+      "abstained": 79,
+      "appropriate_abstention": 58,
+      "evaluation_calls": 12880,
+      "environments": 30,
+      "probes": 949,
+      "classified": 260,
+      "false_identity": 14,
+      "cost": 153405,
+      "wall_ns": 93610269,
+      "score": 13631
+    },
+    {
+      "replica": 5190023,
+      "policy": "monitored",
+      "n": 240,
+      "correct": 180,
+      "wrong": 2,
+      "abstained": 58,
+      "appropriate_abstention": 58,
+      "evaluation_calls": 14560,
+      "environments": 30,
+      "probes": 891,
+      "classified": 298,
+      "false_identity": 2,
+      "cost": 117673,
+      "wall_ns": 85820101,
+      "score": 17289
+    },
+    {
+      "replica": 5220031,
+      "policy": "immutable",
+      "n": 240,
+      "correct": 179,
+      "wrong": 1,
+      "abstained": 60,
+      "appropriate_abstention": 60,
+      "evaluation_calls": 14400,
+      "environments": 30,
+      "probes": 899,
+      "classified": 299,
+      "false_identity": 1,
+      "cost": 117954,
+      "wall_ns": 101793491,
+      "score": 17401
+    },
+    {
+      "replica": 5220031,
+      "policy": "unconditional",
+      "n": 240,
+      "correct": 154,
+      "wrong": 8,
+      "abstained": 78,
+      "appropriate_abstention": 57,
+      "evaluation_calls": 12960,
+      "environments": 30,
+      "probes": 958,
+      "classified": 258,
+      "false_identity": 15,
+      "cost": 154461,
+      "wall_ns": 114117741,
+      "score": 13412
+    },
+    {
+      "replica": 5220031,
+      "policy": "monitored",
+      "n": 240,
+      "correct": 179,
+      "wrong": 1,
+      "abstained": 60,
+      "appropriate_abstention": 60,
+      "evaluation_calls": 14400,
+      "environments": 30,
+      "probes": 899,
+      "classified": 299,
+      "false_identity": 1,
+      "cost": 117954,
+      "wall_ns": 94619869,
+      "score": 17401
+    },
+    {
+      "replica": 5250041,
+      "policy": "immutable",
+      "n": 240,
+      "correct": 179,
+      "wrong": 1,
+      "abstained": 60,
+      "appropriate_abstention": 60,
+      "evaluation_calls": 14400,
+      "environments": 30,
+      "probes": 895,
+      "classified": 299,
+      "false_identity": 1,
+      "cost": 117815,
+      "wall_ns": 73929887,
+      "score": 17405
+    },
+    {
+      "replica": 5250041,
+      "policy": "unconditional",
+      "n": 240,
+      "correct": 154,
+      "wrong": 12,
+      "abstained": 74,
+      "appropriate_abstention": 55,
+      "evaluation_calls": 13280,
+      "environments": 30,
+      "probes": 956,
+      "classified": 261,
+      "false_identity": 15,
+      "cost": 152407,
+      "wall_ns": 85139370,
+      "score": 12594
+    },
+    {
+      "replica": 5250041,
+      "policy": "monitored",
+      "n": 240,
+      "correct": 179,
+      "wrong": 1,
+      "abstained": 60,
+      "appropriate_abstention": 60,
+      "evaluation_calls": 14400,
+      "environments": 30,
+      "probes": 895,
+      "classified": 299,
+      "false_identity": 1,
+      "cost": 117815,
+      "wall_ns": 70827698,
+      "score": 17405
+    }
+  ],
+  "recovery": {
+    "updates": 24,
+    "reverted": 16,
+    "accepted": 8,
+    "verified_restorations": 16,
+    "extra_monitor_probes": 4436
+  }
+}
