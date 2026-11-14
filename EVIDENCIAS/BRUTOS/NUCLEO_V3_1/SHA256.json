@@ -1,0 +1,22 @@
+[
+  {
+    "path": "banks.json",
+    "bytes": 35843,
+    "sha256": "849011c7c6201a23f66ff2490eca6a29aee96ced9eb8bed7b4343780e770686e"
+  },
+  {
+    "path": "hierarchy.sqlite3",
+    "bytes": 1032192,
+    "sha256": "3630bc2d6f7f9089f865f3faf7c6dae1b24a2cd5a28a6ca141cb097a3702573b"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 759660,
+    "sha256": "b5ff54c11220df794907be61c80219232dd975c20ba3e941964e2809863f7a0c"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 36478,
+    "sha256": "e062ab3af02ed6a3fdb917720fae3a006c34a56d90d54d2e18f582b82aeb2b02"
+  }
+]
