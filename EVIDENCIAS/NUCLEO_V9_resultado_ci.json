@@ -1,0 +1,886 @@
+{
+  "source_run": 43650132812,
+  "source_commit": "235aee92b592ab38e4cb5759c9a54f52f8a4df5c",
+  "failed_preliminary_run": 43650097180,
+  "artifacts": [
+    {
+      "id": 14135741926,
+      "name": "nucleo-v9-results",
+      "size_in_bytes": 52165,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14135741926",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14135741926/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:50:08Z",
+      "expires_at": "2026-12-14T22:50:08Z",
+      "updated_at": "2026-11-14T22:50:08Z",
+      "digest": "sha256:2ad0f6e4e95e822b91681993f297e237defa5364d5e0854920fa901d5914238f",
+      "workflow_run": {
+        "id": 43650132812,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "235aee92b592ab38e4cb5759c9a54f52f8a4df5c"
+      }
+    }
+  ],
+  "result": {
+    "acquired": 12,
+    "aggregate": [
+      {
+        "abstained": 96,
+        "correct": 0,
+        "gains_vs_extended": 0,
+        "losses_vs_extended": 0,
+        "mean_candidates": 600,
+        "mean_search_ns": 974925.4895833334,
+        "n": 96,
+        "new_op_correct": 0,
+        "policy": "base",
+        "wrong": 0
+      },
+      {
+        "abstained": 96,
+        "correct": 0,
+        "gains_vs_extended": 0,
+        "losses_vs_extended": 0,
+        "mean_candidates": 3600,
+        "mean_search_ns": 5810399.833333333,
+        "n": 96,
+        "new_op_correct": 0,
+        "policy": "extended",
+        "wrong": 0
+      },
+      {
+        "abstained": 95,
+        "correct": 1,
+        "gains_vs_extended": 1,
+        "losses_vs_extended": 0,
+        "mean_candidates": 3572.1770833333335,
+        "mean_search_ns": 5598237.979166667,
+        "n": 96,
+        "new_op_correct": 0,
+        "policy": "literal",
+        "wrong": 0
+      },
+      {
+        "abstained": 96,
+        "correct": 0,
+        "gains_vs_extended": 0,
+        "losses_vs_extended": 0,
+        "mean_candidates": 3600,
+        "mean_search_ns": 7105385.885416667,
+        "n": 96,
+        "new_op_correct": 0,
+        "policy": "new_ops",
+        "wrong": 0
+      }
+    ],
+    "by_family": [
+      {
+        "abstained": 69,
+        "correct": 0,
+        "family": "linked",
+        "mean_candidates": 600,
+        "mean_search_ns": 965460.4927536232,
+        "n": 69,
+        "new_op_correct": 0,
+        "policy": "base",
+        "wrong": 0
+      },
+      {
+        "abstained": 15,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 600,
+        "mean_search_ns": 1038255.6666666666,
+        "n": 15,
+        "new_op_correct": 0,
+        "policy": "base",
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 600,
+        "mean_search_ns": 950186.5,
+        "n": 12,
+        "new_op_correct": 0,
+        "policy": "base",
+        "wrong": 0
+      },
+      {
+        "abstained": 69,
+        "correct": 0,
+        "family": "linked",
+        "mean_candidates": 3600,
+        "mean_search_ns": 5831575.014492754,
+        "n": 69,
+        "new_op_correct": 0,
+        "policy": "extended",
+        "wrong": 0
+      },
+      {
+        "abstained": 15,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 5781562.2,
+        "n": 15,
+        "new_op_correct": 0,
+        "policy": "extended",
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 5724689.583333333,
+        "n": 12,
+        "new_op_correct": 0,
+        "policy": "extended",
+        "wrong": 0
+      },
+      {
+        "abstained": 68,
+        "correct": 1,
+        "family": "linked",
+        "mean_candidates": 3561.289855072464,
+        "mean_search_ns": 5576914.463768116,
+        "n": 69,
+        "new_op_correct": 0,
+        "policy": "literal",
+        "wrong": 0
+      },
+      {
+        "abstained": 15,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 5733008.333333333,
+        "n": 15,
+        "new_op_correct": 0,
+        "policy": "literal",
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 5552385.25,
+        "n": 12,
+        "new_op_correct": 0,
+        "policy": "literal",
+        "wrong": 0
+      },
+      {
+        "abstained": 69,
+        "correct": 0,
+        "family": "linked",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7058555.565217392,
+        "n": 69,
+        "new_op_correct": 0,
+        "policy": "new_ops",
+        "wrong": 0
+      },
+      {
+        "abstained": 15,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7334986.2,
+        "n": 15,
+        "new_op_correct": 0,
+        "policy": "new_ops",
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7087659.833333333,
+        "n": 12,
+        "new_op_correct": 0,
+        "policy": "new_ops",
+        "wrong": 0
+      }
+    ],
+    "episodes": 408,
+    "examples": [],
+    "protocol": "V9-operation-discovery-v1",
+    "seeds": [
+      1800013,
+      1830011,
+      1860019
+    ],
+    "training": [
+      {
+        "candidate": null,
+        "candidates": 24600,
+        "initial_failed": true,
+        "registered": false,
+        "seed": 1800013,
+        "success": false,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/2",
+          "motif": "sqsum",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          10,
+          [
+            3,
+            [
+              0
+            ]
+          ],
+          [
+            3,
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 6155,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1800013,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/3",
+          "motif": "sumabs",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          12,
+          [
+            0
+          ],
+          [
+            3,
+            [
+              11,
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ],
+        "candidates": 13271,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1800013,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/6",
+          "motif": "weighted",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          13,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "candidates": 6580,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1800013,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/4",
+          "motif": "modsum",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          3,
+          [
+            11,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 429,
+        "initial_failed": false,
+        "registered": false,
+        "seed": 1800013,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/0",
+          "motif": "absdiff",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          3,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 431,
+        "initial_failed": false,
+        "registered": false,
+        "seed": 1800013,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/5",
+          "motif": "absprod",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          10,
+          [
+            0
+          ],
+          [
+            3,
+            [
+              11,
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ],
+        "candidates": 13259,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1800013,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/7",
+          "motif": "asym",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": null,
+        "candidates": 24600,
+        "initial_failed": true,
+        "registered": false,
+        "seed": 1800013,
+        "success": false,
+        "task": {
+          "family": "training",
+          "id": "1800013/train/1",
+          "motif": "sqdiff",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          10,
+          [
+            3,
+            [
+              0
+            ]
+          ],
+          [
+            3,
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 6207,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1830011,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/3",
+          "motif": "sumabs",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": null,
+        "candidates": 24600,
+        "initial_failed": true,
+        "registered": false,
+        "seed": 1830011,
+        "success": false,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/2",
+          "motif": "sqsum",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          13,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "candidates": 6582,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1830011,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/4",
+          "motif": "modsum",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          12,
+          [
+            0
+          ],
+          [
+            3,
+            [
+              11,
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ],
+        "candidates": 13159,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1830011,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/6",
+          "motif": "weighted",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          10,
+          [
+            0
+          ],
+          [
+            3,
+            [
+              11,
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ],
+        "candidates": 13225,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1830011,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/7",
+          "motif": "asym",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": null,
+        "candidates": 24600,
+        "initial_failed": true,
+        "registered": false,
+        "seed": 1830011,
+        "success": false,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/1",
+          "motif": "sqdiff",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          3,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 431,
+        "initial_failed": false,
+        "registered": false,
+        "seed": 1830011,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/5",
+          "motif": "absprod",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          3,
+          [
+            11,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 429,
+        "initial_failed": false,
+        "registered": false,
+        "seed": 1830011,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1830011/train/0",
+          "motif": "absdiff",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          3,
+          [
+            12,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 431,
+        "initial_failed": false,
+        "registered": false,
+        "seed": 1860019,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/5",
+          "motif": "absprod",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          13,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "candidates": 6580,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1860019,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/4",
+          "motif": "modsum",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          10,
+          [
+            0
+          ],
+          [
+            3,
+            [
+              11,
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ],
+        "candidates": 13269,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1860019,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/7",
+          "motif": "asym",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          12,
+          [
+            0
+          ],
+          [
+            3,
+            [
+              11,
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ],
+        "candidates": 13245,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1860019,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/6",
+          "motif": "weighted",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          3,
+          [
+            11,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 429,
+        "initial_failed": false,
+        "registered": false,
+        "seed": 1860019,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/0",
+          "motif": "absdiff",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": null,
+        "candidates": 24600,
+        "initial_failed": true,
+        "registered": false,
+        "seed": 1860019,
+        "success": false,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/1",
+          "motif": "sqdiff",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": null,
+        "candidates": 24600,
+        "initial_failed": true,
+        "registered": false,
+        "seed": 1860019,
+        "success": false,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/2",
+          "motif": "sqsum",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "candidate": [
+          10,
+          [
+            3,
+            [
+              0
+            ]
+          ],
+          [
+            3,
+            [
+              1
+            ]
+          ]
+        ],
+        "candidates": 6207,
+        "initial_failed": true,
+        "registered": true,
+        "seed": 1860019,
+        "success": true,
+        "task": {
+          "family": "training",
+          "id": "1860019/train/3",
+          "motif": "sumabs",
+          "shift": [
+            0,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}
