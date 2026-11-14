@@ -1,0 +1,2234 @@
+[
+  {
+    "seed": 510007,
+    "policy": "random_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 1,
+      "new_wrong": 1
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          7,
+          -1,
+          -23499
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured_teacher",
+          "cold",
+          900
+        ],
+        "score": [
+          2,
+          -1,
+          -33731
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "cold",
+          "structured",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -34168
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured_teacher",
+          "structured",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -31273
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      7,
+      -1,
+      -23499
+    ],
+    "sha256": "23cd2dc8a2deb4a14cf2611f7bd310955c609598818f17b8f009f7d07f4f3701"
+  },
+  {
+    "seed": 510007,
+    "policy": "local_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 1,
+      "new_wrong": 1
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          7,
+          -1,
+          -23499
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          4,
+          -1,
+          -27224
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          -1,
+          -37896
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured_teacher",
+          "none",
+          3600
+        ],
+        "score": [
+          4,
+          -1,
+          -31209
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      7,
+      -1,
+      -23499
+    ],
+    "sha256": "8f962cc8a5b962f4b8554d8ff39294491913755792adf1d83682db7e5c4b56ba"
+  },
+  {
+    "seed": 540041,
+    "policy": "random_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 1,
+      "new_wrong": 1
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured_teacher",
+          "cold",
+          1800
+        ],
+        "score": [
+          3,
+          -1,
+          -32408
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured_teacher",
+          "structured",
+          2700
+        ],
+        "score": [
+          5,
+          0,
+          -30279
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "cold",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          3,
+          -1,
+          -36005
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          5,
+          0,
+          -26700
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "cold",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          5,
+          0,
+          -34779
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      8,
+      -1,
+      -19363
+    ],
+    "sha256": "757c7b9b2fea3f5c83b313a5b7cb4ca7945fc0e17ebfa724e8ff32c1ead96aa5"
+  },
+  {
+    "seed": 540041,
+    "policy": "local_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "structured_teacher",
+      1800
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 1,
+      "new_wrong": 1
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          5,
+          0,
+          -26700
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          8,
+          0,
+          -20946
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "cold",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          3,
+          -1,
+          -35105
+        ],
+        "parent": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          8,
+          0,
+          -20946
+        ],
+        "parent": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "cold",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          5,
+          0,
+          -34779
+        ],
+        "parent": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      8,
+      0,
+      -20946
+    ],
+    "sha256": "956cb7c979f748e3042b30366057b8af245c3c74d5785652b084f506c3b46bb1"
+  },
+  {
+    "seed": 570001,
+    "policy": "random_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 0,
+      "new_wrong": 0
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "cold",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          4,
+          -1,
+          -30992
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          4,
+          -1,
+          -26666
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          -1,
+          -37716
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured_teacher",
+          "cold",
+          900
+        ],
+        "score": [
+          4,
+          0,
+          -29426
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured_teacher",
+          "cold",
+          2700
+        ],
+        "score": [
+          4,
+          -1,
+          -27131
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "cold",
+          "structured",
+          900
+        ],
+        "score": [
+          5,
+          -1,
+          -29763
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      5,
+      -1,
+      -24970
+    ],
+    "sha256": "8842b8e8406234287b38aa334c16f34af061421136e6f2dbd2428cb270d4da91"
+  },
+  {
+    "seed": 570001,
+    "policy": "local_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 0,
+      "new_wrong": 0
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "cold",
+          900
+        ],
+        "score": [
+          4,
+          0,
+          -29363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          4,
+          -1,
+          -26666
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          -1,
+          -37716
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          4,
+          -1,
+          -27968
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured_teacher",
+          "none",
+          3600
+        ],
+        "score": [
+          4,
+          -1,
+          -27131
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          4,
+          -1,
+          -26666
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      5,
+      -1,
+      -24970
+    ],
+    "sha256": "cede7a598ce49c1372fc07ff678dd477c77f17c3982d6353542f31187b4482d2"
+  },
+  {
+    "seed": 600011,
+    "policy": "random_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 0,
+      "new_wrong": 0
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          6,
+          0,
+          -29370
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          3,
+          0,
+          -33274
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "cold",
+          "structured",
+          900
+        ],
+        "score": [
+          5,
+          0,
+          -33919
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured_teacher",
+          "cold",
+          1800
+        ],
+        "score": [
+          2,
+          0,
+          -36255
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "cold",
+          900
+        ],
+        "score": [
+          3,
+          0,
+          -33274
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          0,
+          -41070
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "cold",
+          "structured",
+          1800
+        ],
+        "score": [
+          5,
+          0,
+          -37994
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      6,
+      0,
+      -29370
+    ],
+    "sha256": "a0e87ea02dc802dda62a8397eaf70788fcbe66d5a4a781c244aef52374fe797e"
+  },
+  {
+    "seed": 600011,
+    "policy": "local_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 0,
+      "new_wrong": 0
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          6,
+          0,
+          -29370
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          3,
+          0,
+          -33274
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "cold",
+          900
+        ],
+        "score": [
+          3,
+          0,
+          -33274
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          0,
+          -41070
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured_teacher",
+          "none",
+          3600
+        ],
+        "score": [
+          3,
+          0,
+          -35030
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      6,
+      0,
+      -29370
+    ],
+    "sha256": "85faaedad70bfdca1db81caa779704e79af4c0113705f3c9306265eed8e06604"
+  },
+  {
+    "seed": 510007,
+    "policy": "shared_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 1,
+      "new_wrong": 1
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          7,
+          -1,
+          -23499
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "cold",
+          900
+        ],
+        "score": [
+          4,
+          -1,
+          -27224
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          4,
+          -1,
+          -27224
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          -1,
+          -37896
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          6,
+          -1,
+          -23534
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      7,
+      -1,
+      -23499
+    ],
+    "sha256": "a915d5e68429459fb01ad8b5655f7518c78638306353e9d5c62d2a26e0e4e870"
+  },
+  {
+    "seed": 540041,
+    "policy": "shared_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "cold",
+      1800
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 1,
+      "new_wrong": 1
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          8,
+          0,
+          -20946
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "structured_teacher",
+          "cold",
+          1800
+        ],
+        "score": [
+          3,
+          -1,
+          -32408
+        ],
+        "parent": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          8,
+          0,
+          -20946
+        ],
+        "parent": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "cold",
+          900
+        ],
+        "score": [
+          5,
+          -1,
+          -25350
+        ],
+        "parent": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          8,
+          -1,
+          -19363
+        ],
+        "parent": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "cold",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          5,
+          0,
+          -34779
+        ],
+        "parent": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      8,
+      0,
+      -20946
+    ],
+    "sha256": "bdb7c9d65eca36af0b3e8111a1702cbbaec48816179ca7e159dbbdb274a58e22"
+  },
+  {
+    "seed": 570001,
+    "policy": "shared_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 0,
+      "new_wrong": 0
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          4,
+          -1,
+          -26666
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          4,
+          -1,
+          -26666
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured_teacher",
+          "none",
+          3600
+        ],
+        "score": [
+          4,
+          -1,
+          -27131
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          5,
+          -1,
+          -24970
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          -1,
+          -37716
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          4,
+          -1,
+          -27968
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      5,
+      -1,
+      -24970
+    ],
+    "sha256": "59134661849276e5f719196ec9392be9f269ddae0f3f8c21c137f0e8c040f22e"
+  },
+  {
+    "seed": 600011,
+    "policy": "shared_search",
+    "current": [
+      "structured",
+      "none",
+      3600
+    ],
+    "proposed": [
+      "structured",
+      "none",
+      3600
+    ],
+    "previous": [
+      "structured",
+      "none",
+      3600
+    ],
+    "gate": {
+      "accepted": false,
+      "gains": 0,
+      "losses": 0,
+      "base_wrong": 0,
+      "new_wrong": 0
+    },
+    "history": [
+      {
+        "trial": 0,
+        "genome": [
+          "structured",
+          "none",
+          3600
+        ],
+        "score": [
+          6,
+          0,
+          -29370
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 1,
+        "genome": [
+          "structured",
+          "cold",
+          1800
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 2,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          1800
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 3,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          2700
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "shared"
+      },
+      {
+        "trial": 4,
+        "genome": [
+          "structured",
+          "cold",
+          900
+        ],
+        "score": [
+          3,
+          0,
+          -33274
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 5,
+        "genome": [
+          "structured",
+          "cold",
+          2700
+        ],
+        "score": [
+          5,
+          0,
+          -29419
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 6,
+        "genome": [
+          "structured",
+          "structured_teacher",
+          900
+        ],
+        "score": [
+          3,
+          0,
+          -33274
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      },
+      {
+        "trial": 7,
+        "genome": [
+          "cold",
+          "none",
+          3600
+        ],
+        "score": [
+          1,
+          0,
+          -41070
+        ],
+        "parent": [
+          "structured",
+          "none",
+          3600
+        ],
+        "source": "local_or_random"
+      }
+    ],
+    "development_score": [
+      6,
+      0,
+      -29370
+    ],
+    "sha256": "5175f117ab22b70883350938f4e226820fcd3e96371a0fee6b5a4a978514edb3"
+  }
+]

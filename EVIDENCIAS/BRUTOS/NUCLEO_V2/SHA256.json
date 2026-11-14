@@ -1,0 +1,27 @@
+[
+  {
+    "path": "optimization.sqlite3",
+    "bytes": 1359872,
+    "sha256": "079a98edf90f8949db172dbdf1699642ffbdba5010fe4eb22d0915fc0d576375"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 1389332,
+    "sha256": "5c5ba764106d90c3732d04bfad57ffd9475ba5f768df058abc3ac5d8e1ad4736"
+  },
+  {
+    "path": "selected_configurations.json",
+    "bytes": 38219,
+    "sha256": "451f8624a17647224e43b9bd8b0668db1ddfda86716f0b5edeab005bfad1c049"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 44048,
+    "sha256": "309fe38b565950d3e1a4edf961af35a65385721bdbdc54c72e65e349fd8486ac"
+  },
+  {
+    "path": "teacher_validation.json",
+    "bytes": 87932,
+    "sha256": "d7e9b4d702469ed7095be6c09cc3e99bdf219b4225ea87b991868ca3d4591f9f"
+  }
+]
