@@ -1,0 +1,429 @@
+{
+  "protocol": "V23-list-synthesis-v1",
+  "seeds": [
+    3480017,
+    3510023,
+    3540031,
+    3570041
+  ],
+  "preparation": [
+    {
+      "seed": 3480017,
+      "grammar": "small",
+      "classes": 13,
+      "programs": 13,
+      "program_executions": 468,
+      "wall_ns": 353584
+    },
+    {
+      "seed": 3480017,
+      "grammar": "full",
+      "classes": 114,
+      "programs": 157,
+      "program_executions": 5652,
+      "wall_ns": 7224906
+    },
+    {
+      "seed": 3510023,
+      "grammar": "small",
+      "classes": 13,
+      "programs": 13,
+      "program_executions": 468,
+      "wall_ns": 504677
+    },
+    {
+      "seed": 3510023,
+      "grammar": "full",
+      "classes": 114,
+      "programs": 157,
+      "program_executions": 5652,
+      "wall_ns": 6055771
+    },
+    {
+      "seed": 3540031,
+      "grammar": "small",
+      "classes": 13,
+      "programs": 13,
+      "program_executions": 468,
+      "wall_ns": 953531
+    },
+    {
+      "seed": 3540031,
+      "grammar": "full",
+      "classes": 116,
+      "programs": 157,
+      "program_executions": 5652,
+      "wall_ns": 11424803
+    },
+    {
+      "seed": 3570041,
+      "grammar": "small",
+      "classes": 13,
+      "programs": 13,
+      "program_executions": 468,
+      "wall_ns": 894660
+    },
+    {
+      "seed": 3570041,
+      "grammar": "full",
+      "classes": 116,
+      "programs": 157,
+      "program_executions": 5652,
+      "wall_ns": 11447866
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "single_fixed",
+      "n": 96,
+      "correct": 32,
+      "wrong": 2,
+      "abstained": 62,
+      "queries": 214,
+      "comparisons": 5206,
+      "wall_ns": 1835828
+    },
+    {
+      "policy": "full_fixed",
+      "n": 96,
+      "correct": 70,
+      "wrong": 1,
+      "abstained": 25,
+      "queries": 491,
+      "comparisons": 44786,
+      "wall_ns": 3763688
+    },
+    {
+      "policy": "full_random",
+      "n": 96,
+      "correct": 73,
+      "wrong": 0,
+      "abstained": 23,
+      "queries": 494,
+      "comparisons": 44761,
+      "wall_ns": 3815464
+    },
+    {
+      "policy": "full_active",
+      "n": 96,
+      "correct": 79,
+      "wrong": 2,
+      "abstained": 15,
+      "queries": 491,
+      "comparisons": 60103,
+      "wall_ns": 15758273
+    }
+  ],
+  "by_family": [
+    {
+      "family": "single",
+      "policy": "single_fixed",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 1856,
+      "wall_ns": 903745
+    },
+    {
+      "family": "single",
+      "policy": "full_fixed",
+      "n": 32,
+      "correct": 26,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 192,
+      "comparisons": 14996,
+      "wall_ns": 1276821
+    },
+    {
+      "family": "single",
+      "policy": "full_random",
+      "n": 32,
+      "correct": 27,
+      "wrong": 0,
+      "abstained": 5,
+      "queries": 192,
+      "comparisons": 14983,
+      "wall_ns": 1285236
+    },
+    {
+      "family": "single",
+      "policy": "full_active",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 21170,
+      "wall_ns": 6074869
+    },
+    {
+      "family": "composed",
+      "policy": "single_fixed",
+      "n": 48,
+      "correct": 0,
+      "wrong": 2,
+      "abstained": 46,
+      "queries": 22,
+      "comparisons": 2518,
+      "wall_ns": 729390
+    },
+    {
+      "family": "composed",
+      "policy": "full_fixed",
+      "n": 48,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 288,
+      "comparisons": 22419,
+      "wall_ns": 2085305
+    },
+    {
+      "family": "composed",
+      "policy": "full_random",
+      "n": 48,
+      "correct": 46,
+      "wrong": 0,
+      "abstained": 2,
+      "queries": 288,
+      "comparisons": 22404,
+      "wall_ns": 2146028
+    },
+    {
+      "family": "composed",
+      "policy": "full_active",
+      "n": 48,
+      "correct": 47,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 31227,
+      "wall_ns": 9112321
+    },
+    {
+      "family": "outside",
+      "policy": "single_fixed",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 0,
+      "comparisons": 832,
+      "wall_ns": 202693
+    },
+    {
+      "family": "outside",
+      "policy": "full_fixed",
+      "n": 16,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 11,
+      "comparisons": 7371,
+      "wall_ns": 401562
+    },
+    {
+      "family": "outside",
+      "policy": "full_random",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 14,
+      "comparisons": 7374,
+      "wall_ns": 384200
+    },
+    {
+      "family": "outside",
+      "policy": "full_active",
+      "n": 16,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 11,
+      "comparisons": 7706,
+      "wall_ns": 571083
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 3480017,
+      "policy": "single_fixed",
+      "n": 24,
+      "correct": 8,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 54,
+      "comparisons": 1302,
+      "wall_ns": 325895
+    },
+    {
+      "seed": 3480017,
+      "policy": "full_fixed",
+      "n": 24,
+      "correct": 18,
+      "wrong": 1,
+      "abstained": 5,
+      "queries": 129,
+      "comparisons": 11104,
+      "wall_ns": 672423
+    },
+    {
+      "seed": 3480017,
+      "policy": "full_random",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 131,
+      "comparisons": 11104,
+      "wall_ns": 706265
+    },
+    {
+      "seed": 3480017,
+      "policy": "full_active",
+      "n": 24,
+      "correct": 20,
+      "wrong": 1,
+      "abstained": 3,
+      "queries": 129,
+      "comparisons": 15149,
+      "wall_ns": 2708228
+    },
+    {
+      "seed": 3510023,
+      "policy": "single_fixed",
+      "n": 24,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 52,
+      "comparisons": 1300,
+      "wall_ns": 308755
+    },
+    {
+      "seed": 3510023,
+      "policy": "full_fixed",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 122,
+      "comparisons": 11097,
+      "wall_ns": 630846
+    },
+    {
+      "seed": 3510023,
+      "policy": "full_random",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 123,
+      "comparisons": 11097,
+      "wall_ns": 635152
+    },
+    {
+      "seed": 3510023,
+      "policy": "full_active",
+      "n": 24,
+      "correct": 19,
+      "wrong": 1,
+      "abstained": 4,
+      "queries": 122,
+      "comparisons": 14900,
+      "wall_ns": 2562673
+    },
+    {
+      "seed": 3540031,
+      "policy": "single_fixed",
+      "n": 24,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 48,
+      "comparisons": 1296,
+      "wall_ns": 584277
+    },
+    {
+      "seed": 3540031,
+      "policy": "full_fixed",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 120,
+      "comparisons": 11281,
+      "wall_ns": 1229605
+    },
+    {
+      "seed": 3540031,
+      "policy": "full_random",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 120,
+      "comparisons": 11276,
+      "wall_ns": 1265986
+    },
+    {
+      "seed": 3540031,
+      "policy": "full_active",
+      "n": 24,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 120,
+      "comparisons": 14961,
+      "wall_ns": 5210343
+    },
+    {
+      "seed": 3570041,
+      "policy": "single_fixed",
+      "n": 24,
+      "correct": 8,
+      "wrong": 1,
+      "abstained": 15,
+      "queries": 60,
+      "comparisons": 1308,
+      "wall_ns": 616901
+    },
+    {
+      "seed": 3570041,
+      "policy": "full_fixed",
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 120,
+      "comparisons": 11304,
+      "wall_ns": 1230814
+    },
+    {
+      "seed": 3570041,
+      "policy": "full_random",
+      "n": 24,
+      "correct": 19,
+      "wrong": 0,
+      "abstained": 5,
+      "queries": 120,
+      "comparisons": 11284,
+      "wall_ns": 1208061
+    },
+    {
+      "seed": 3570041,
+      "policy": "full_active",
+      "n": 24,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 120,
+      "comparisons": 15093,
+      "wall_ns": 5277029
+    }
+  ]
+}
