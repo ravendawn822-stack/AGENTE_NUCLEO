@@ -457,8 +457,13 @@
     },
     {
       "path": "MIGRACAO/README.md",
-      "bytes": 6189,
-      "sha256": "8d312266d5d0293706424228f0bf58603f309585a0b5b34e616dd2a52b68e498"
+      "bytes": 6408,
+      "sha256": "c9f802c742c3c203c9ddab93c5e798e6786b391e8ad7eba446b7704a6adb7d13"
+    },
+    {
+      "path": "MIGRACAO/RELATORIO_MIGRACAO.md",
+      "bytes": 4905,
+      "sha256": "242a155023f119dfb9fc1b8662b91385c3aac1e972a236ddfe07d4f07f9b9233"
     },
     {
       "path": "MIGRACAO/seguranca.json",
@@ -651,14 +656,24 @@
       "sha256": "5583984ed80fa18a058305d9e97d56ccc0a4eebf8da403abb853cdaaf403c437"
     },
     {
+      "path": "MIGRACAO/verificacao_linux.json",
+      "bytes": 775,
+      "sha256": "19fe426a3a50e83091ace00182532f24b4b77554f0f22b82246ec477dcf5430b"
+    },
+    {
       "path": "MIGRACAO/verificacao_local.json",
       "bytes": 640,
       "sha256": "963eefd7abc04a7f9027e3177ffe0f76903e91f621698bed70d479441477be97"
     },
     {
+      "path": "MIGRACAO/verificacao_pos_clone.json",
+      "bytes": 321,
+      "sha256": "00ce27ad379df1c5a3e3c699c6b5c9685c5a577ba608d4f9cc801f4eb8bcc156"
+    },
+    {
       "path": "MIGRACAO/verify_integrity.py",
-      "bytes": 1059,
-      "sha256": "52a0ba26b429e0e6740e50422dee2e558963f94b617d69bf34d5ea2b308fee7d"
+      "bytes": 1443,
+      "sha256": "302e65b1d0cb71125db52537dc3da68fbaa2a760468e7109c69ec748102fe982"
     },
     {
       "path": "oracle.py",
@@ -1151,6 +1166,6 @@
       "sha256": "0fb775ebdffdeea5fe53f986140ce990e127326a8919d3bf1854d2647c6c8dcd"
     }
   ],
-  "count": 230,
-  "bytes": 86159469
+  "count": 233,
+  "bytes": 86166073
 }

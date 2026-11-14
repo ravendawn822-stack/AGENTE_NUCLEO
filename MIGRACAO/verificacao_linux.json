@@ -1,0 +1,22 @@
+{
+  "platform": "Linux-6.8.0-1070-azure-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "integrity": {
+    "original_files": 178,
+    "sqlite_snapshots": 36,
+    "all_hashes_match": true
+  },
+  "python_sources_parsed_3_12": 27,
+  "sqlite_integrity_checked": 36,
+  "unit_tests_stdout": "",
+  "unit_tests_stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.097s\n\nOK\n",
+  "tkinter_smoke": "passed",
+  "integrity_after": {
+    "original_files": 178,
+    "sqlite_snapshots": 36,
+    "all_hashes_match": true
+  },
+  "codespace": "validacao-temporaria-agente-xr44jw9jx4g5h9v7r",
+  "machine": "basicLinux32gb",
+  "validation_elapsed_seconds": 9.645609378814697
+}

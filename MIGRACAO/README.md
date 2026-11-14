@@ -8,7 +8,7 @@ inventario_original.json registra tamanho e SHA-256 dos 178 arquivos originais (
 
 seguranca.json registra uma varredura heurística de texto e binários por tokens, chaves privadas, atribuições de credenciais, emails e caminhos. Não foram encontrados padrões de credenciais; foram encontrados caminhos locais em bytecode. Isso não é prova absoluta de ausência de informação sensível. O acesso deve permanecer privado.
 
-Execute `python3 MIGRACAO/verify_integrity.py` para conferir originais e snapshots. `conteudo_enviado.json` registra também os arquivos de infraestrutura adicionados; a verificação pós-clone é registrada separadamente. A cópia GitHub não é a única cópia: a área de trabalho permanece completa e intacta.
+Execute `python3 MIGRACAO/verify_integrity.py` para conferir originais e snapshots. Use `--all` para conferir também a infraestrutura adicionada contra conteudo_enviado.json. A verificação pós-clone é registrada separadamente. A cópia GitHub não é a única cópia: a área de trabalho permanece completa e intacta.
 
 ## Abrir no Codespaces
 
@@ -28,7 +28,7 @@ As fontes históricas usam Python padrão e pathlib. .cmd permanece como lançad
 
 Os manifestos de experimentos antigos contêm chaves de caminho com separadores Windows e listas de arquivos de momentos anteriores. Seus verificadores/runners não são validadores da árvore migrada completa e podem acusar divergência em Linux ou após adições. Os arquivos não foram corrigidos retroativamente: a verificação da migração usa caminhos POSIX relativos, hashes dos bytes e snapshots consistentes. Não desative verificações de preservação silenciosamente para rodar um experimento antigo.
 
-No computador local não foram encontrados Docker ou WSL. Parsing, testes unitários e Tkinter são verificados localmente; a checagem nativa Linux está configurada para a criação do Codespace. Construção do devcontainer e execução Linux não devem ser consideradas realizadas antes desse passo. Nenhum Codespace nem workflow pago é iniciado pela migração.
+No computador local não foram encontrados Docker ou WSL. Após autorização explícita, foi criado um Codespace temporário de dois núcleos. O devcontainer foi construído e a checagem passou em Linux/Python 3.12.3: 27 fontes parseadas, cinco testes unitários, smoke test Tkinter, 36 snapshots íntegros e hashes preservados antes/depois. O repositório remoto ficou sem alterações de trabalho. O Codespace temporário foi excluído após o teste, com confirmação HTTP 404. Os resultados estão em verificacao_linux.json. Nenhum experimento foi iniciado nesse ambiente.
 
 ## Custos informados
 

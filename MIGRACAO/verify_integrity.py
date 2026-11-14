@@ -19,4 +19,12 @@ def verify(root=ROOT):
         if not p.is_file() or sha(p)!=row['sha256']:failures.append(row['snapshot'])
     assert not failures,failures
     return dict(original_files=len(manifest['files']),sqlite_snapshots=len(dbs),all_hashes_match=True)
-if __name__=='__main__':print(json.dumps(verify(),indent=2))
+if __name__=='__main__':
+    result=verify()
+    if '--all' in sys.argv:
+        payload=json.loads((ROOT/'MIGRACAO'/'conteudo_enviado.json').read_text(encoding='utf-8'))
+        for row in payload['files']:
+            p=ROOT/row['path']
+            assert p.is_file() and p.stat().st_size==row['bytes'] and sha(p)==row['sha256'],row['path']
+        result['payload_files_verified']=len(payload['files'])
+    print(json.dumps(result,indent=2))
