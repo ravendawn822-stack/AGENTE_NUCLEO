@@ -1,0 +1,38 @@
+name: Experimento 05B-07B-08B
+on:
+  push:
+    branches: [experimento-04]
+    paths:
+      - 'EXPERIMENTO_05B_07B/**'
+      - '.github/workflows/experimento-curriculo.yml'
+permissions:
+  contents: read
+concurrency:
+  group: expcurriculum
+  cancel-in-progress: true
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify historical artifacts
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Test curriculum and synthesis
+        run: python3 EXPERIMENTO_05B_07B/curriculum.py --self-test
+      - name: Run frozen protocol
+        run: python3 EXPERIMENTO_05B_07B/curriculum.py --output EXPERIMENTO_05B_07B/ci_curriculum
+      - name: Verify historical artifacts again
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Preserve records
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: expcurriculum-results
+          path: EXPERIMENTO_05B_07B/ci_curriculum/
+          retention-days: 30
+          if-no-files-found: warn
