@@ -1,0 +1,1978 @@
+{
+  "protocol": "V37-integrated-cycle-v1",
+  "seeds": [
+    5280017,
+    5310023,
+    5340031,
+    5370041
+  ],
+  "snapshots": [
+    {
+      "replica": 5280017,
+      "policy": "local",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "local",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "local",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "local",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "resources",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "resources",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "resources",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "resources",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "teacher",
+      "cursor": 1,
+      "skills": 5,
+      "requests": 6,
+      "sha": "7de1ee8ef3c371ec87593a3e1f8eda8ab9bdc6b29184992390d02e7e46a21224",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "teacher",
+      "cursor": 2,
+      "skills": 5,
+      "requests": 6,
+      "sha": "a1aef23940f3a7261f994723f5c752494e38b2526ad3d517d82a82ca13d57b80",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "teacher",
+      "cursor": 3,
+      "skills": 5,
+      "requests": 6,
+      "sha": "27732705574f8bb3526671cb23c49835fdd77828e18c72a8ce9f91a989f82c2a",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "teacher",
+      "cursor": 4,
+      "skills": 5,
+      "requests": 6,
+      "sha": "3b6086721059f10e68ae403e22b261ec1ebf1afdb3e6154174b013f3004f098c",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "integrated",
+      "cursor": 1,
+      "skills": 5,
+      "requests": 6,
+      "sha": "b4de95d189d5beee651e16414d2bbd0c3df798dcdba71aa0449a660eb8feba04",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "integrated",
+      "cursor": 2,
+      "skills": 5,
+      "requests": 6,
+      "sha": "0a85eb8669099d684cbfd0b8e404bb8e466e5fbbf3e451d829207b68971244eb",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "integrated",
+      "cursor": 3,
+      "skills": 5,
+      "requests": 6,
+      "sha": "270d6bdaf155d3020e16bf45af64d3cd96d0df6f0e1fdf69a46eee1e4f2a563a",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "integrated",
+      "cursor": 4,
+      "skills": 5,
+      "requests": 6,
+      "sha": "45a008cc1f217e4de270f76689bd093bdcbf0474ef5d126507242e2c64d7e575",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "review",
+      "cursor": 1,
+      "skills": 5,
+      "requests": 6,
+      "sha": "b4de95d189d5beee651e16414d2bbd0c3df798dcdba71aa0449a660eb8feba04",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "review",
+      "cursor": 2,
+      "skills": 5,
+      "requests": 6,
+      "sha": "0a85eb8669099d684cbfd0b8e404bb8e466e5fbbf3e451d829207b68971244eb",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "review",
+      "cursor": 3,
+      "skills": 5,
+      "requests": 6,
+      "sha": "270d6bdaf155d3020e16bf45af64d3cd96d0df6f0e1fdf69a46eee1e4f2a563a",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5280017,
+      "policy": "review",
+      "cursor": 4,
+      "skills": 5,
+      "requests": 6,
+      "sha": "45a008cc1f217e4de270f76689bd093bdcbf0474ef5d126507242e2c64d7e575",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "local",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "local",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "local",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "local",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "resources",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "resources",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "resources",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "resources",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "teacher",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "f8c0cfdefefda3a68efeae1986c9c4e74facd5a85783b0024f68e996b44df18c",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "teacher",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "affd70dbac012bb4bf93c990a474e3d2e769a6faf6954a3bda936fefa9b2d24a",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "teacher",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "a109d4801d7afc2f924c5100b39474ae6f61888273fbd5e5a8880445d08aa64d",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "teacher",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "7df17d885424b8d12bc9a5212d3a982c0283e78e3ac3135e57d5f3ef64fc355b",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "integrated",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "c6cbf85943514593b95320dcc0c0964843cf2d83b2c5cb0e6a5db46b25545202",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "integrated",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "8e948718da1ba00cec668d83fc1f143b4eb23da75dff12533ccde8ac8da7458f",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "integrated",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "12a6d7d92c39d384dafdd9a8ccb1e7278cfda7ba45156a5cbd9a058db29e2123",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "integrated",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "9794c38f4adc3b594465e45ef90fcab6f68a195207df1102e0ae3523d43595ef",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "review",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "c6cbf85943514593b95320dcc0c0964843cf2d83b2c5cb0e6a5db46b25545202",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "review",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "8e948718da1ba00cec668d83fc1f143b4eb23da75dff12533ccde8ac8da7458f",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "review",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "12a6d7d92c39d384dafdd9a8ccb1e7278cfda7ba45156a5cbd9a058db29e2123",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5310023,
+      "policy": "review",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "9794c38f4adc3b594465e45ef90fcab6f68a195207df1102e0ae3523d43595ef",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "local",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "local",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "local",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "local",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "resources",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "resources",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "resources",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "resources",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "teacher",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "1b5ef30fcc441cb51c4b82804c3a2d7298bbf5436668c1f7d9163adc3e469b8a",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "teacher",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "131a8e4d9fff6f9ef5d422793dc84c7a2d0fb6222f2c706c9c061c1564f821d2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "teacher",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "2ceae7dd6356ecf1a5a964258311e25a0ce48b38e3841d6c780dadc5fca5fe8b",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "teacher",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "25b9c833c8ef5a388d8a7f388c743f8f75861047d677e6057e3e96982241ce5a",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "integrated",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "1493d75d5b6a104b4653f410b19bb1306a91ec15fff249a342fdb7e47a7847c7",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "integrated",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "1b3c9ccdf195b28df0cab4c453a92e180fa77a94c8fac7c9bd399771bff5c85b",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "integrated",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "d85226d2f87d3748f1ad883359f9f28168ea8b52183aabad8bb14f94f2d159f3",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "integrated",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "098003c5df57f6402d5811f9b66ffbb0ac890d5ebe12dbca191a202359345826",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "review",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "1493d75d5b6a104b4653f410b19bb1306a91ec15fff249a342fdb7e47a7847c7",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "review",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "1b3c9ccdf195b28df0cab4c453a92e180fa77a94c8fac7c9bd399771bff5c85b",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "review",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "d85226d2f87d3748f1ad883359f9f28168ea8b52183aabad8bb14f94f2d159f3",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5340031,
+      "policy": "review",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "098003c5df57f6402d5811f9b66ffbb0ac890d5ebe12dbca191a202359345826",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "local",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "local",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "local",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "local",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "resources",
+      "cursor": 1,
+      "skills": 0,
+      "requests": 0,
+      "sha": "46220d0cc057a7b4a4e540bffe5734c6d2b1e2c791732ae0e061e28af04c5fd0",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "resources",
+      "cursor": 2,
+      "skills": 0,
+      "requests": 0,
+      "sha": "5e717f66341142d759b25327367c78002222d5dd4728dedaf1b0ca76783476c2",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "resources",
+      "cursor": 3,
+      "skills": 0,
+      "requests": 0,
+      "sha": "d1eff40ae51f8a7e3a4e1a80314c07b0b61651e40e2d67755ee518569ff23650",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "resources",
+      "cursor": 4,
+      "skills": 0,
+      "requests": 0,
+      "sha": "73658c3c5156062adb092c541ff3b81307fab60e16ccbc4e1d94108eb35a8485",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "teacher",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "ca378065b167f175fed8c284ec94d1e00d8e68c9ec8e1b383b287855e773994b",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "teacher",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "87637ed2031ed92331e7309a4cf6a68a4d5be5b317ab37f952068288fbdc22de",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "teacher",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "a900e178c104558696e20f55615d6daa59f8a7a47e9e597337d1a8c3bd567dc5",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "teacher",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "22cb4dc7fbd412dd2955f099316cc62532fcab4a70c013bef6710ed85a829ced",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "integrated",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "32e3359f26b589e7fdb8aeb7daae9305a7ec9b5901957949cbc5779be3dd4ffa",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "integrated",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "e587cbfa584aed0d889287033cf8656d8dcc8a9a8843021da88740e0b003ff46",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "integrated",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "05614b52d93f4df958a334341a8978a270fd02d83aef93e911e6dfa854515b45",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "integrated",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "b108b910bfe4abd206f475904aaead217c4c107c92028a16b7410db10e00c21e",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "review",
+      "cursor": 1,
+      "skills": 6,
+      "requests": 6,
+      "sha": "32e3359f26b589e7fdb8aeb7daae9305a7ec9b5901957949cbc5779be3dd4ffa",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "review",
+      "cursor": 2,
+      "skills": 6,
+      "requests": 6,
+      "sha": "e587cbfa584aed0d889287033cf8656d8dcc8a9a8843021da88740e0b003ff46",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "review",
+      "cursor": 3,
+      "skills": 6,
+      "requests": 6,
+      "sha": "05614b52d93f4df958a334341a8978a270fd02d83aef93e911e6dfa854515b45",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    },
+    {
+      "replica": 5370041,
+      "policy": "review",
+      "cursor": 4,
+      "skills": 6,
+      "requests": 6,
+      "sha": "b108b910bfe4abd206f475904aaead217c4c107c92028a16b7410db10e00c21e",
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a"
+    }
+  ],
+  "reviews": [
+    {
+      "replica": 5280017,
+      "candidate": [
+        "pairs",
+        "distance"
+      ],
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "sub",
+                "pairs",
+                "worst"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "add",
+                "pairs",
+                "distance"
+              ]
+            ],
+            [
+              [
+                "max",
+                "zero",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "add",
+                "zero",
+                "distance"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "max",
+                "pairs",
+                "worst"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              "pairs"
+            ],
+            [
+              [
+                "add",
+                "worst",
+                "distance"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "add",
+                "pairs",
+                "pairs"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "trials": 9,
+      "proposal_metrics": {
+        "n": 216,
+        "correct": 155,
+        "wrong": 4,
+        "abstained": 57,
+        "appropriate_abstention": 53,
+        "evaluation_calls": 12720,
+        "environments": 27,
+        "probes": 851,
+        "classified": 261,
+        "false_identity": 5,
+        "cost": 117744,
+        "wall_ns": 96611140,
+        "score": 14379
+      },
+      "event": null,
+      "wall_ns": 123817445
+    },
+    {
+      "replica": 5310023,
+      "candidate": [
+        "pairs",
+        "distance"
+      ],
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "min",
+                "worst",
+                "distance"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "distance",
+                "distance"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "max",
+                "length",
+                "worst"
+              ]
+            ],
+            [
+              [
+                "add",
+                "worst",
+                "worst"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "add",
+                "pairs",
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "max",
+                "zero",
+                "pairs"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "zero",
+                "zero"
+              ]
+            ],
+            [
+              [
+                "sub",
+                "zero",
+                "distance"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "trials": 9,
+      "proposal_metrics": {
+        "n": 216,
+        "correct": 145,
+        "wrong": 4,
+        "abstained": 67,
+        "appropriate_abstention": 54,
+        "evaluation_calls": 11920,
+        "environments": 27,
+        "probes": 834,
+        "classified": 245,
+        "false_identity": 8,
+        "cost": 116060,
+        "wall_ns": 94960172,
+        "score": 13406
+      },
+      "event": null,
+      "wall_ns": 121287035
+    },
+    {
+      "replica": 5340031,
+      "candidate": [
+        "pairs",
+        "distance"
+      ],
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "max",
+                "pairs",
+                "pairs"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "min",
+                "worst",
+                "pairs"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "worst",
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "add",
+                "distance",
+                "length"
+              ]
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              [
+                "add",
+                "zero",
+                "length"
+              ]
+            ],
+            [
+              [
+                "add",
+                "pairs",
+                "pairs"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "max",
+                "length",
+                "pairs"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "add",
+                "pairs",
+                "pairs"
+              ]
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "trials": 9,
+      "proposal_metrics": {
+        "n": 216,
+        "correct": 162,
+        "wrong": 3,
+        "abstained": 51,
+        "appropriate_abstention": 51,
+        "evaluation_calls": 13200,
+        "environments": 27,
+        "probes": 771,
+        "classified": 267,
+        "false_identity": 3,
+        "cost": 104805,
+        "wall_ns": 86488078,
+        "score": 15339
+      },
+      "event": null,
+      "wall_ns": 114936679
+    },
+    {
+      "replica": 5370041,
+      "candidate": [
+        "pairs",
+        "distance"
+      ],
+      "active": [
+        "pairs",
+        "distance"
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "sub",
+                "distance",
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "add",
+                "length",
+                "worst"
+              ]
+            ],
+            [
+              [
+                "min",
+                "zero",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "sub",
+                "zero",
+                "worst"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "add",
+                "pairs",
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "length",
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "length",
+                "zero"
+              ]
+            ],
+            [
+              [
+                "add",
+                "zero",
+                "pairs"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "trials": 9,
+      "proposal_metrics": {
+        "n": 216,
+        "correct": 148,
+        "wrong": 0,
+        "abstained": 68,
+        "appropriate_abstention": 54,
+        "evaluation_calls": 11840,
+        "environments": 27,
+        "probes": 853,
+        "classified": 244,
+        "false_identity": 9,
+        "cost": 130949,
+        "wall_ns": 99870780,
+        "score": 14487
+      },
+      "event": null,
+      "wall_ns": 127049522
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "local",
+      "n": 192,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 144,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 98106,
+      "preparation_executions": 1085184,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "resources",
+      "n": 192,
+      "correct": 85,
+      "wrong": 1,
+      "abstained": 106,
+      "local_correct": 48,
+      "resource_correct": 37,
+      "queries": 288,
+      "comparisons": 98106,
+      "preparation_executions": 1085184,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "teacher",
+      "n": 192,
+      "correct": 121,
+      "wrong": 1,
+      "abstained": 70,
+      "local_correct": 121,
+      "resource_correct": 0,
+      "queries": 743,
+      "comparisons": 183716,
+      "preparation_executions": 2308608,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "integrated",
+      "n": 192,
+      "correct": 101,
+      "wrong": 2,
+      "abstained": 89,
+      "local_correct": 76,
+      "resource_correct": 25,
+      "queries": 494,
+      "comparisons": 186534,
+      "preparation_executions": 2308608,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "review",
+      "n": 192,
+      "correct": 101,
+      "wrong": 2,
+      "abstained": 89,
+      "local_correct": 76,
+      "resource_correct": 25,
+      "queries": 494,
+      "comparisons": 186534,
+      "preparation_executions": 2308608,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    }
+  ],
+  "acquisition": [
+    {
+      "policy": "local",
+      "n": 192,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 144,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 98235,
+      "preparation_executions": 1085184,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "resources",
+      "n": 192,
+      "correct": 87,
+      "wrong": 1,
+      "abstained": 104,
+      "local_correct": 48,
+      "resource_correct": 39,
+      "queries": 288,
+      "comparisons": 98235,
+      "preparation_executions": 1085184,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "teacher",
+      "n": 192,
+      "correct": 137,
+      "wrong": 0,
+      "abstained": 55,
+      "local_correct": 137,
+      "resource_correct": 0,
+      "queries": 984,
+      "comparisons": 195625,
+      "preparation_executions": 2375100,
+      "teacher_checks": 134221,
+      "teaching_tests": 1560
+    },
+    {
+      "policy": "integrated",
+      "n": 192,
+      "correct": 121,
+      "wrong": 1,
+      "abstained": 70,
+      "local_correct": 93,
+      "resource_correct": 28,
+      "queries": 727,
+      "comparisons": 193083,
+      "preparation_executions": 2337372,
+      "teacher_checks": 160144,
+      "teaching_tests": 1152
+    },
+    {
+      "policy": "review",
+      "n": 192,
+      "correct": 121,
+      "wrong": 1,
+      "abstained": 70,
+      "local_correct": 93,
+      "resource_correct": 28,
+      "queries": 727,
+      "comparisons": 193083,
+      "preparation_executions": 2337372,
+      "teacher_checks": 160144,
+      "teaching_tests": 1152
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "local",
+      "stratum": "direct",
+      "n": 48,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 48,
+      "local_correct": 0,
+      "resource_correct": 0,
+      "queries": 0,
+      "comparisons": 22248,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "local",
+      "stratum": "composed",
+      "n": 96,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 96,
+      "local_correct": 0,
+      "resource_correct": 0,
+      "queries": 0,
+      "comparisons": 44496,
+      "preparation_executions": 542592,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "local",
+      "stratum": "basic",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 31362,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "resources",
+      "stratum": "direct",
+      "n": 48,
+      "correct": 37,
+      "wrong": 0,
+      "abstained": 11,
+      "local_correct": 0,
+      "resource_correct": 37,
+      "queries": 0,
+      "comparisons": 22248,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "resources",
+      "stratum": "composed",
+      "n": 96,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 95,
+      "local_correct": 0,
+      "resource_correct": 0,
+      "queries": 0,
+      "comparisons": 44496,
+      "preparation_executions": 542592,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "resources",
+      "stratum": "basic",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 31362,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "teacher",
+      "stratum": "direct",
+      "n": 48,
+      "correct": 28,
+      "wrong": 0,
+      "abstained": 20,
+      "local_correct": 28,
+      "resource_correct": 0,
+      "queries": 170,
+      "comparisons": 45414,
+      "preparation_executions": 577152,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "teacher",
+      "stratum": "composed",
+      "n": 96,
+      "correct": 45,
+      "wrong": 1,
+      "abstained": 50,
+      "local_correct": 45,
+      "resource_correct": 0,
+      "queries": 285,
+      "comparisons": 89228,
+      "preparation_executions": 1154304,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "teacher",
+      "stratum": "basic",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 49074,
+      "preparation_executions": 577152,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "integrated",
+      "stratum": "direct",
+      "n": 48,
+      "correct": 39,
+      "wrong": 0,
+      "abstained": 9,
+      "local_correct": 14,
+      "resource_correct": 25,
+      "queries": 86,
+      "comparisons": 45270,
+      "preparation_executions": 577152,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "integrated",
+      "stratum": "composed",
+      "n": 96,
+      "correct": 14,
+      "wrong": 2,
+      "abstained": 80,
+      "local_correct": 14,
+      "resource_correct": 0,
+      "queries": 120,
+      "comparisons": 89541,
+      "preparation_executions": 1154304,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "integrated",
+      "stratum": "basic",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 51723,
+      "preparation_executions": 577152,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "review",
+      "stratum": "direct",
+      "n": 48,
+      "correct": 39,
+      "wrong": 0,
+      "abstained": 9,
+      "local_correct": 14,
+      "resource_correct": 25,
+      "queries": 86,
+      "comparisons": 45270,
+      "preparation_executions": 577152,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "review",
+      "stratum": "composed",
+      "n": 96,
+      "correct": 14,
+      "wrong": 2,
+      "abstained": 80,
+      "local_correct": 14,
+      "resource_correct": 0,
+      "queries": 120,
+      "comparisons": 89541,
+      "preparation_executions": 1154304,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "policy": "review",
+      "stratum": "basic",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "local_correct": 48,
+      "resource_correct": 0,
+      "queries": 288,
+      "comparisons": 51723,
+      "preparation_executions": 577152,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    }
+  ],
+  "by_replica": [
+    {
+      "replica": 5280017,
+      "policy": "local",
+      "n": 48,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 36,
+      "local_correct": 12,
+      "resource_correct": 0,
+      "queries": 72,
+      "comparisons": 24501,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5280017,
+      "policy": "resources",
+      "n": 48,
+      "correct": 21,
+      "wrong": 1,
+      "abstained": 26,
+      "local_correct": 12,
+      "resource_correct": 9,
+      "queries": 72,
+      "comparisons": 24501,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5280017,
+      "policy": "teacher",
+      "n": 48,
+      "correct": 25,
+      "wrong": 0,
+      "abstained": 23,
+      "local_correct": 25,
+      "resource_correct": 0,
+      "queries": 150,
+      "comparisons": 43206,
+      "preparation_executions": 530496,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5280017,
+      "policy": "integrated",
+      "n": 48,
+      "correct": 29,
+      "wrong": 0,
+      "abstained": 19,
+      "local_correct": 24,
+      "resource_correct": 5,
+      "queries": 145,
+      "comparisons": 43314,
+      "preparation_executions": 530496,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5280017,
+      "policy": "review",
+      "n": 48,
+      "correct": 29,
+      "wrong": 0,
+      "abstained": 19,
+      "local_correct": 24,
+      "resource_correct": 5,
+      "queries": 145,
+      "comparisons": 43314,
+      "preparation_executions": 530496,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5310023,
+      "policy": "local",
+      "n": 48,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 36,
+      "local_correct": 12,
+      "resource_correct": 0,
+      "queries": 72,
+      "comparisons": 24570,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5310023,
+      "policy": "resources",
+      "n": 48,
+      "correct": 21,
+      "wrong": 0,
+      "abstained": 27,
+      "local_correct": 12,
+      "resource_correct": 9,
+      "queries": 72,
+      "comparisons": 24570,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5310023,
+      "policy": "teacher",
+      "n": 48,
+      "correct": 24,
+      "wrong": 1,
+      "abstained": 23,
+      "local_correct": 24,
+      "resource_correct": 0,
+      "queries": 156,
+      "comparisons": 45837,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5310023,
+      "policy": "integrated",
+      "n": 48,
+      "correct": 22,
+      "wrong": 1,
+      "abstained": 25,
+      "local_correct": 17,
+      "resource_correct": 5,
+      "queries": 114,
+      "comparisons": 47277,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5310023,
+      "policy": "review",
+      "n": 48,
+      "correct": 22,
+      "wrong": 1,
+      "abstained": 25,
+      "local_correct": 17,
+      "resource_correct": 5,
+      "queries": 114,
+      "comparisons": 47277,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5340031,
+      "policy": "local",
+      "n": 48,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 36,
+      "local_correct": 12,
+      "resource_correct": 0,
+      "queries": 72,
+      "comparisons": 24501,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5340031,
+      "policy": "resources",
+      "n": 48,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 26,
+      "local_correct": 12,
+      "resource_correct": 10,
+      "queries": 72,
+      "comparisons": 24501,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5340031,
+      "policy": "teacher",
+      "n": 48,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 4,
+      "local_correct": 44,
+      "resource_correct": 0,
+      "queries": 264,
+      "comparisons": 49629,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5340031,
+      "policy": "integrated",
+      "n": 48,
+      "correct": 24,
+      "wrong": 1,
+      "abstained": 23,
+      "local_correct": 16,
+      "resource_correct": 8,
+      "queries": 118,
+      "comparisons": 48680,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5340031,
+      "policy": "review",
+      "n": 48,
+      "correct": 24,
+      "wrong": 1,
+      "abstained": 23,
+      "local_correct": 16,
+      "resource_correct": 8,
+      "queries": 118,
+      "comparisons": 48680,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5370041,
+      "policy": "local",
+      "n": 48,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 36,
+      "local_correct": 12,
+      "resource_correct": 0,
+      "queries": 72,
+      "comparisons": 24534,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5370041,
+      "policy": "resources",
+      "n": 48,
+      "correct": 21,
+      "wrong": 0,
+      "abstained": 27,
+      "local_correct": 12,
+      "resource_correct": 9,
+      "queries": 72,
+      "comparisons": 24534,
+      "preparation_executions": 271296,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5370041,
+      "policy": "teacher",
+      "n": 48,
+      "correct": 28,
+      "wrong": 0,
+      "abstained": 20,
+      "local_correct": 28,
+      "resource_correct": 0,
+      "queries": 173,
+      "comparisons": 45044,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5370041,
+      "policy": "integrated",
+      "n": 48,
+      "correct": 26,
+      "wrong": 0,
+      "abstained": 22,
+      "local_correct": 19,
+      "resource_correct": 7,
+      "queries": 117,
+      "comparisons": 47263,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    },
+    {
+      "replica": 5370041,
+      "policy": "review",
+      "n": 48,
+      "correct": 26,
+      "wrong": 0,
+      "abstained": 22,
+      "local_correct": 19,
+      "resource_correct": 7,
+      "queries": 117,
+      "comparisons": 47263,
+      "preparation_executions": 592704,
+      "teacher_checks": 0,
+      "teaching_tests": 0
+    }
+  ],
+  "environment_cost": [
+    {
+      "policy": "local",
+      "phase": "acquisition",
+      "probes": 0,
+      "perception_cost": 0,
+      "classified": 0,
+      "evaluation_calls": 0,
+      "requests": 0
+    },
+    {
+      "policy": "local",
+      "phase": "final",
+      "probes": 0,
+      "perception_cost": 0,
+      "classified": 0,
+      "evaluation_calls": 0,
+      "requests": 0
+    },
+    {
+      "policy": "resources",
+      "phase": "acquisition",
+      "probes": 236,
+      "perception_cost": 31321,
+      "classified": 79,
+      "evaluation_calls": 3200,
+      "requests": 0
+    },
+    {
+      "policy": "resources",
+      "phase": "final",
+      "probes": 239,
+      "perception_cost": 31428,
+      "classified": 80,
+      "evaluation_calls": 3040,
+      "requests": 0
+    },
+    {
+      "policy": "teacher",
+      "phase": "acquisition",
+      "probes": 0,
+      "perception_cost": 0,
+      "classified": 0,
+      "evaluation_calls": 0,
+      "requests": 24
+    },
+    {
+      "policy": "teacher",
+      "phase": "final",
+      "probes": 0,
+      "perception_cost": 0,
+      "classified": 0,
+      "evaluation_calls": 0,
+      "requests": 0
+    },
+    {
+      "policy": "integrated",
+      "phase": "acquisition",
+      "probes": 236,
+      "perception_cost": 31321,
+      "classified": 79,
+      "evaluation_calls": 2320,
+      "requests": 24
+    },
+    {
+      "policy": "integrated",
+      "phase": "final",
+      "probes": 239,
+      "perception_cost": 31428,
+      "classified": 80,
+      "evaluation_calls": 2000,
+      "requests": 0
+    },
+    {
+      "policy": "review",
+      "phase": "acquisition",
+      "probes": 236,
+      "perception_cost": 31321,
+      "classified": 79,
+      "evaluation_calls": 2320,
+      "requests": 24
+    },
+    {
+      "policy": "review",
+      "phase": "final",
+      "probes": 239,
+      "perception_cost": 31428,
+      "classified": 80,
+      "evaluation_calls": 2000,
+      "requests": 0
+    }
+  ]
+}
