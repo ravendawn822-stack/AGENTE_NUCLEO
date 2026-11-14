@@ -1,0 +1,1638 @@
+{
+  "protocol": "V28-bounded-policy-improvement-v1",
+  "seeds": [
+    4080017,
+    4110023,
+    4140031,
+    4170041
+  ],
+  "decisions": [
+    {
+      "seed": 4080017,
+      "baseline": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "mutation": [
+        "pairs",
+        0,
+        "random"
+      ],
+      "mutation_validated": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "random": [
+        "minimax",
+        0,
+        "random"
+      ],
+      "random_validated": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            0,
+            "fixed"
+          ],
+          "tested": [
+            [
+              "pairs",
+              1,
+              "fixed"
+            ],
+            [
+              "mixed",
+              0,
+              "fixed"
+            ],
+            [
+              "pairs",
+              0,
+              "length"
+            ],
+            [
+              "fixed",
+              0,
+              "fixed"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            0,
+            "length"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            0,
+            "length"
+          ],
+          "tested": [
+            [
+              "fixed",
+              0,
+              "length"
+            ],
+            [
+              "minimax",
+              0,
+              "length"
+            ],
+            [
+              "pairs",
+              0,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "length"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            0,
+            "distance"
+          ]
+        },
+        {
+          "round": 2,
+          "previous": [
+            "pairs",
+            0,
+            "distance"
+          ],
+          "tested": [
+            [
+              "fixed",
+              0,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "distance"
+            ],
+            [
+              "pairs",
+              0,
+              "random"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            0,
+            "random"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "tested": [
+            [
+              "minimax",
+              1,
+              "random"
+            ],
+            [
+              "fixed",
+              0,
+              "distance"
+            ],
+            [
+              "mixed",
+              0,
+              "length"
+            ],
+            [
+              "mixed",
+              1,
+              "length"
+            ],
+            [
+              "pairs",
+              1,
+              "length"
+            ],
+            [
+              "minimax",
+              0,
+              "random"
+            ],
+            [
+              "fixed",
+              1,
+              "fixed"
+            ],
+            [
+              "pairs",
+              0,
+              "length"
+            ],
+            [
+              "pairs",
+              1,
+              "fixed"
+            ],
+            [
+              "mixed",
+              0,
+              "distance"
+            ],
+            [
+              "mixed",
+              1,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "random"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "random"
+          ]
+        }
+      ],
+      "mutation_configurations": 13,
+      "random_configurations": 13,
+      "proposal_sha": "d236754f0ce4f122d8cbb3c37048b3ac0064f912c76da347a28ddd7a2f81c028",
+      "random_proposal_sha": "1bbbab355351b4d357a9e970d7b6934503ecb53cf96c8841c6d37162245b9a88",
+      "gate_sha": "285d61b93be7bd1074e735f01725ffa1c82623f8331279e69da1195729b90ada",
+      "mutation_proposal": {
+        "n": 195,
+        "correct": 137,
+        "wrong": 4,
+        "abstained": 54,
+        "queries": 927,
+        "comparisons": 694200,
+        "wall_ns": 61972427,
+        "score": 11973
+      },
+      "random_proposal": {
+        "n": 195,
+        "correct": 139,
+        "wrong": 3,
+        "abstained": 53,
+        "queries": 919,
+        "comparisons": 696152,
+        "wall_ns": 59851847,
+        "score": 12381
+      },
+      "baseline_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 1,
+        "abstained": 3,
+        "queries": 79,
+        "comparisons": 55076,
+        "wall_ns": 1707913,
+        "score": 821
+      },
+      "mutation_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 1,
+        "abstained": 3,
+        "queries": 79,
+        "comparisons": 55076,
+        "wall_ns": 1589814,
+        "score": 821
+      },
+      "random_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 1,
+        "abstained": 3,
+        "queries": 79,
+        "comparisons": 55265,
+        "wall_ns": 2459416,
+        "score": 821
+      },
+      "sha": "bd23d7332f1c86a5d68de643bd0258a4198820b1e1817d241077943b8144ba60"
+    },
+    {
+      "seed": 4110023,
+      "baseline": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "mutation": [
+        "minimax",
+        0,
+        "distance"
+      ],
+      "mutation_validated": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "random": [
+        "mixed",
+        1,
+        "distance"
+      ],
+      "random_validated": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            0,
+            "fixed"
+          ],
+          "tested": [
+            [
+              "pairs",
+              0,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "fixed"
+            ],
+            [
+              "fixed",
+              0,
+              "fixed"
+            ],
+            [
+              "pairs",
+              1,
+              "fixed"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            0,
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            0,
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              0,
+              "length"
+            ],
+            [
+              "mixed",
+              0,
+              "distance"
+            ],
+            [
+              "fixed",
+              0,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "distance"
+          ]
+        },
+        {
+          "round": 2,
+          "previous": [
+            "minimax",
+            0,
+            "distance"
+          ],
+          "tested": [
+            [
+              "minimax",
+              0,
+              "random"
+            ],
+            [
+              "minimax",
+              0,
+              "length"
+            ],
+            [
+              "minimax",
+              1,
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "tested": [
+            [
+              "minimax",
+              0,
+              "length"
+            ],
+            [
+              "fixed",
+              0,
+              "random"
+            ],
+            [
+              "minimax",
+              1,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "distance"
+            ],
+            [
+              "fixed",
+              1,
+              "fixed"
+            ],
+            [
+              "mixed",
+              1,
+              "length"
+            ],
+            [
+              "pairs",
+              0,
+              "random"
+            ],
+            [
+              "mixed",
+              0,
+              "length"
+            ],
+            [
+              "mixed",
+              1,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "distance"
+            ],
+            [
+              "fixed",
+              1,
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "mixed",
+            1,
+            "distance"
+          ]
+        }
+      ],
+      "mutation_configurations": 12,
+      "random_configurations": 12,
+      "proposal_sha": "ba6f282a7a70193da5cd5b40f8bb5a740852c26f723f6115a1956bc61df8255f",
+      "random_proposal_sha": "2d53b598f98e35b2e3c0a3aa4935b2447c553436184ea78707d1cc1064c6417e",
+      "gate_sha": "7cdf01c4ea1dba7ab3c11806a4a86670a3525335a2e771622cb8d5d564add23b",
+      "mutation_proposal": {
+        "n": 180,
+        "correct": 126,
+        "wrong": 4,
+        "abstained": 50,
+        "queries": 865,
+        "comparisons": 635522,
+        "wall_ns": 56884098,
+        "score": 10935
+      },
+      "random_proposal": {
+        "n": 180,
+        "correct": 123,
+        "wrong": 2,
+        "abstained": 55,
+        "queries": 853,
+        "comparisons": 633892,
+        "wall_ns": 68500283,
+        "score": 11047
+      },
+      "baseline_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 1,
+        "abstained": 3,
+        "queries": 73,
+        "comparisons": 53930,
+        "wall_ns": 1592040,
+        "score": 827
+      },
+      "mutation_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 1,
+        "abstained": 3,
+        "queries": 76,
+        "comparisons": 53996,
+        "wall_ns": 6873259,
+        "score": 824
+      },
+      "random_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 1,
+        "abstained": 3,
+        "queries": 73,
+        "comparisons": 53930,
+        "wall_ns": 7574241,
+        "score": 827
+      },
+      "sha": "2c82ada1122ed8b545d44c6814fd30be1133a9800145a60af89c25d8a47aaf25"
+    },
+    {
+      "seed": 4140031,
+      "baseline": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "mutation": [
+        "minimax",
+        0,
+        "distance"
+      ],
+      "mutation_validated": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "random": [
+        "minimax",
+        1,
+        "distance"
+      ],
+      "random_validated": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            0,
+            "fixed"
+          ],
+          "tested": [
+            [
+              "mixed",
+              0,
+              "fixed"
+            ],
+            [
+              "pairs",
+              0,
+              "distance"
+            ],
+            [
+              "pairs",
+              0,
+              "random"
+            ],
+            [
+              "pairs",
+              0,
+              "length"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            0,
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            0,
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              1,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "distance"
+            ],
+            [
+              "mixed",
+              0,
+              "distance"
+            ],
+            [
+              "fixed",
+              0,
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "distance"
+          ]
+        },
+        {
+          "round": 2,
+          "previous": [
+            "minimax",
+            0,
+            "distance"
+          ],
+          "tested": [
+            [
+              "minimax",
+              0,
+              "length"
+            ],
+            [
+              "minimax",
+              0,
+              "fixed"
+            ],
+            [
+              "minimax",
+              1,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "random"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "tested": [
+            [
+              "minimax",
+              1,
+              "length"
+            ],
+            [
+              "minimax",
+              0,
+              "random"
+            ],
+            [
+              "mixed",
+              1,
+              "distance"
+            ],
+            [
+              "fixed",
+              1,
+              "length"
+            ],
+            [
+              "minimax",
+              1,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "random"
+            ],
+            [
+              "minimax",
+              0,
+              "fixed"
+            ],
+            [
+              "pairs",
+              0,
+              "length"
+            ],
+            [
+              "mixed",
+              0,
+              "distance"
+            ],
+            [
+              "fixed",
+              0,
+              "random"
+            ],
+            [
+              "mixed",
+              0,
+              "random"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            1,
+            "distance"
+          ]
+        }
+      ],
+      "mutation_configurations": 13,
+      "random_configurations": 13,
+      "proposal_sha": "4787a895595ab7b04d7ed24ac2f547e083c2c293d599d90ac7c67f56f68c3ae7",
+      "random_proposal_sha": "a2aa98a716cff25a188136ff4222ae39ff2a1a700450e89bab4794f3dc94397e",
+      "gate_sha": "f99978f1637dbef0cc8225b3f0e9252d03ceb8f209e23c33472d0c1282551324",
+      "mutation_proposal": {
+        "n": 195,
+        "correct": 139,
+        "wrong": 4,
+        "abstained": 52,
+        "queries": 930,
+        "comparisons": 671103,
+        "wall_ns": 61265462,
+        "score": 12170
+      },
+      "random_proposal": {
+        "n": 195,
+        "correct": 135,
+        "wrong": 7,
+        "abstained": 53,
+        "queries": 932,
+        "comparisons": 669880,
+        "wall_ns": 57722848,
+        "score": 11168
+      },
+      "baseline_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 0,
+        "abstained": 4,
+        "queries": 67,
+        "comparisons": 52046,
+        "wall_ns": 1398845,
+        "score": 1033
+      },
+      "mutation_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 0,
+        "abstained": 4,
+        "queries": 67,
+        "comparisons": 52141,
+        "wall_ns": 6494092,
+        "score": 1033
+      },
+      "random_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 0,
+        "abstained": 4,
+        "queries": 67,
+        "comparisons": 52141,
+        "wall_ns": 6848480,
+        "score": 1033
+      },
+      "sha": "cd3e01b8b965ae3f57adf8f43ac9cd5915c48da61f06593f2fcba187df461219"
+    },
+    {
+      "seed": 4170041,
+      "baseline": [
+        "pairs",
+        0,
+        "fixed"
+      ],
+      "mutation": [
+        "minimax",
+        0,
+        "distance"
+      ],
+      "mutation_validated": [
+        "minimax",
+        0,
+        "distance"
+      ],
+      "random": [
+        "minimax",
+        0,
+        "distance"
+      ],
+      "random_validated": [
+        "minimax",
+        0,
+        "distance"
+      ],
+      "trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            0,
+            "fixed"
+          ],
+          "tested": [
+            [
+              "pairs",
+              0,
+              "distance"
+            ],
+            [
+              "mixed",
+              0,
+              "fixed"
+            ],
+            [
+              "pairs",
+              1,
+              "fixed"
+            ],
+            [
+              "pairs",
+              0,
+              "random"
+            ]
+          ],
+          "chosen": [
+            "mixed",
+            0,
+            "fixed"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "mixed",
+            0,
+            "fixed"
+          ],
+          "tested": [
+            [
+              "mixed",
+              0,
+              "random"
+            ],
+            [
+              "mixed",
+              0,
+              "length"
+            ],
+            [
+              "minimax",
+              0,
+              "fixed"
+            ],
+            [
+              "fixed",
+              0,
+              "fixed"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "fixed"
+          ]
+        },
+        {
+          "round": 2,
+          "previous": [
+            "minimax",
+            0,
+            "fixed"
+          ],
+          "tested": [
+            [
+              "minimax",
+              1,
+              "fixed"
+            ],
+            [
+              "minimax",
+              0,
+              "random"
+            ],
+            [
+              "minimax",
+              0,
+              "distance"
+            ],
+            [
+              "minimax",
+              0,
+              "length"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "tested": [
+            [
+              "fixed",
+              0,
+              "distance"
+            ],
+            [
+              "pairs",
+              1,
+              "random"
+            ],
+            [
+              "minimax",
+              1,
+              "random"
+            ],
+            [
+              "minimax",
+              1,
+              "distance"
+            ],
+            [
+              "mixed",
+              0,
+              "distance"
+            ],
+            [
+              "mixed",
+              1,
+              "distance"
+            ],
+            [
+              "pairs",
+              0,
+              "distance"
+            ],
+            [
+              "mixed",
+              1,
+              "length"
+            ],
+            [
+              "mixed",
+              0,
+              "length"
+            ],
+            [
+              "mixed",
+              0,
+              "fixed"
+            ],
+            [
+              "mixed",
+              1,
+              "fixed"
+            ],
+            [
+              "minimax",
+              0,
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "minimax",
+            0,
+            "distance"
+          ]
+        }
+      ],
+      "mutation_configurations": 13,
+      "random_configurations": 13,
+      "proposal_sha": "a5ceb28bab5dd53554d718af8a361dc8e84200276e4f614657376111608784c4",
+      "random_proposal_sha": "de359d118312680167f250b11cc8b2c035d53993ddff4f0dc47a8030ec780a55",
+      "gate_sha": "f8b4e11f89b41642f4820654d4853b7ed1ac2ffe3d90740fb09169d23677060b",
+      "mutation_proposal": {
+        "n": 195,
+        "correct": 142,
+        "wrong": 13,
+        "abstained": 40,
+        "queries": 936,
+        "comparisons": 684752,
+        "wall_ns": 41811919,
+        "score": 10664
+      },
+      "random_proposal": {
+        "n": 195,
+        "correct": 142,
+        "wrong": 13,
+        "abstained": 40,
+        "queries": 936,
+        "comparisons": 684752,
+        "wall_ns": 64889728,
+        "score": 10664
+      },
+      "baseline_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 0,
+        "abstained": 4,
+        "queries": 70,
+        "comparisons": 52755,
+        "wall_ns": 1318159,
+        "score": 1030
+      },
+      "mutation_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 0,
+        "abstained": 4,
+        "queries": 67,
+        "comparisons": 52815,
+        "wall_ns": 6294709,
+        "score": 1033
+      },
+      "random_gate": {
+        "n": 15,
+        "correct": 11,
+        "wrong": 0,
+        "abstained": 4,
+        "queries": 67,
+        "comparisons": 52815,
+        "wall_ns": 6263885,
+        "score": 1033
+      },
+      "sha": "e664b147aa0dc8f6d863e60587d52d53e4bb4be5839e2309b9bf9c10cd00a925"
+    }
+  ],
+  "preparation": [
+    {
+      "seed": 4080017,
+      "programs": 1885,
+      "classes": 862,
+      "executions": 67860,
+      "wall_ns": 69594622
+    },
+    {
+      "seed": 4110023,
+      "programs": 1885,
+      "classes": 859,
+      "executions": 67860,
+      "wall_ns": 73488573
+    },
+    {
+      "seed": 4140031,
+      "programs": 1885,
+      "classes": 838,
+      "executions": 67860,
+      "wall_ns": 70515193
+    },
+    {
+      "seed": 4170041,
+      "programs": 1885,
+      "classes": 859,
+      "executions": 67860,
+      "wall_ns": 75332939
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "baseline",
+      "n": 120,
+      "correct": 88,
+      "wrong": 9,
+      "abstained": 23,
+      "queries": 621,
+      "comparisons": 424054,
+      "wall_ns": 12274199,
+      "score": 6379
+    },
+    {
+      "policy": "mutation",
+      "n": 120,
+      "correct": 88,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 607,
+      "comparisons": 424291,
+      "wall_ns": 45243519,
+      "score": 6793
+    },
+    {
+      "policy": "mutation_validated",
+      "n": 120,
+      "correct": 88,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 610,
+      "comparisons": 424231,
+      "wall_ns": 22549109,
+      "score": 6790
+    },
+    {
+      "policy": "random",
+      "n": 120,
+      "correct": 88,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 607,
+      "comparisons": 424228,
+      "wall_ns": 47375313,
+      "score": 6793
+    },
+    {
+      "policy": "random_validated",
+      "n": 120,
+      "correct": 88,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 610,
+      "comparisons": 424231,
+      "wall_ns": 22485527,
+      "score": 6790
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 4080017,
+      "policy": "baseline",
+      "n": 30,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 150,
+      "comparisons": 106404,
+      "wall_ns": 3226176,
+      "score": 2050
+    },
+    {
+      "seed": 4080017,
+      "policy": "mutation",
+      "n": 30,
+      "correct": 22,
+      "wrong": 1,
+      "abstained": 7,
+      "queries": 156,
+      "comparisons": 106410,
+      "wall_ns": 3184806,
+      "score": 1844
+    },
+    {
+      "seed": 4080017,
+      "policy": "mutation_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 150,
+      "comparisons": 106404,
+      "wall_ns": 3034573,
+      "score": 2050
+    },
+    {
+      "seed": 4080017,
+      "policy": "random",
+      "n": 30,
+      "correct": 22,
+      "wrong": 1,
+      "abstained": 7,
+      "queries": 156,
+      "comparisons": 106410,
+      "wall_ns": 3034282,
+      "score": 1844
+    },
+    {
+      "seed": 4080017,
+      "policy": "random_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 150,
+      "comparisons": 106404,
+      "wall_ns": 2928403,
+      "score": 2050
+    },
+    {
+      "seed": 4110023,
+      "policy": "baseline",
+      "n": 30,
+      "correct": 22,
+      "wrong": 3,
+      "abstained": 5,
+      "queries": 156,
+      "comparisons": 107492,
+      "wall_ns": 3119347,
+      "score": 1444
+    },
+    {
+      "seed": 4110023,
+      "policy": "mutation",
+      "n": 30,
+      "correct": 22,
+      "wrong": 1,
+      "abstained": 7,
+      "queries": 147,
+      "comparisons": 107546,
+      "wall_ns": 13662660,
+      "score": 1853
+    },
+    {
+      "seed": 4110023,
+      "policy": "mutation_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 3,
+      "abstained": 5,
+      "queries": 156,
+      "comparisons": 107492,
+      "wall_ns": 2848592,
+      "score": 1444
+    },
+    {
+      "seed": 4110023,
+      "policy": "random",
+      "n": 30,
+      "correct": 22,
+      "wrong": 1,
+      "abstained": 7,
+      "queries": 146,
+      "comparisons": 107482,
+      "wall_ns": 14860100,
+      "score": 1854
+    },
+    {
+      "seed": 4110023,
+      "policy": "random_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 3,
+      "abstained": 5,
+      "queries": 156,
+      "comparisons": 107492,
+      "wall_ns": 2926478,
+      "score": 1444
+    },
+    {
+      "seed": 4140031,
+      "policy": "baseline",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 153,
+      "comparisons": 102899,
+      "wall_ns": 2686451,
+      "score": 1647
+    },
+    {
+      "seed": 4140031,
+      "policy": "mutation",
+      "n": 30,
+      "correct": 22,
+      "wrong": 3,
+      "abstained": 5,
+      "queries": 153,
+      "comparisons": 102899,
+      "wall_ns": 14341672,
+      "score": 1447
+    },
+    {
+      "seed": 4140031,
+      "policy": "mutation_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 153,
+      "comparisons": 102899,
+      "wall_ns": 2670144,
+      "score": 1647
+    },
+    {
+      "seed": 4140031,
+      "policy": "random",
+      "n": 30,
+      "correct": 22,
+      "wrong": 3,
+      "abstained": 5,
+      "queries": 154,
+      "comparisons": 102900,
+      "wall_ns": 15365678,
+      "score": 1446
+    },
+    {
+      "seed": 4140031,
+      "policy": "random_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 153,
+      "comparisons": 102899,
+      "wall_ns": 2648494,
+      "score": 1647
+    },
+    {
+      "seed": 4170041,
+      "policy": "baseline",
+      "n": 30,
+      "correct": 22,
+      "wrong": 4,
+      "abstained": 4,
+      "queries": 162,
+      "comparisons": 107259,
+      "wall_ns": 3242225,
+      "score": 1238
+    },
+    {
+      "seed": 4170041,
+      "policy": "mutation",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 151,
+      "comparisons": 107436,
+      "wall_ns": 14054381,
+      "score": 1649
+    },
+    {
+      "seed": 4170041,
+      "policy": "mutation_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 151,
+      "comparisons": 107436,
+      "wall_ns": 13995800,
+      "score": 1649
+    },
+    {
+      "seed": 4170041,
+      "policy": "random",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 151,
+      "comparisons": 107436,
+      "wall_ns": 14115253,
+      "score": 1649
+    },
+    {
+      "seed": 4170041,
+      "policy": "random_validated",
+      "n": 30,
+      "correct": 22,
+      "wrong": 2,
+      "abstained": 6,
+      "queries": 151,
+      "comparisons": 107436,
+      "wall_ns": 13982152,
+      "score": 1649
+    }
+  ],
+  "by_length": [
+    {
+      "length": 1,
+      "policy": "baseline",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 83814,
+      "wall_ns": 2192868,
+      "score": 2256
+    },
+    {
+      "length": 1,
+      "policy": "mutation",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 83814,
+      "wall_ns": 10611788,
+      "score": 2256
+    },
+    {
+      "length": 1,
+      "policy": "mutation_validated",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 83814,
+      "wall_ns": 4959819,
+      "score": 2256
+    },
+    {
+      "length": 1,
+      "policy": "random",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 83814,
+      "wall_ns": 10826520,
+      "score": 2256
+    },
+    {
+      "length": 1,
+      "policy": "random_validated",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 83814,
+      "wall_ns": 4969534,
+      "score": 2256
+    },
+    {
+      "length": 2,
+      "policy": "baseline",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 114564,
+      "wall_ns": 3715914,
+      "score": 3008
+    },
+    {
+      "length": 2,
+      "policy": "mutation",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 114627,
+      "wall_ns": 14193344,
+      "score": 3008
+    },
+    {
+      "length": 2,
+      "policy": "mutation_validated",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 114564,
+      "wall_ns": 6676415,
+      "score": 3008
+    },
+    {
+      "length": 2,
+      "policy": "random",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 114564,
+      "wall_ns": 15100899,
+      "score": 3008
+    },
+    {
+      "length": 2,
+      "policy": "random_validated",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 114564,
+      "wall_ns": 6653360,
+      "score": 3008
+    },
+    {
+      "length": 3,
+      "policy": "baseline",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 111528,
+      "wall_ns": 2866371,
+      "score": 3008
+    },
+    {
+      "length": 3,
+      "policy": "mutation",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 111528,
+      "wall_ns": 14071056,
+      "score": 3008
+    },
+    {
+      "length": 3,
+      "policy": "mutation_validated",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 111528,
+      "wall_ns": 6760178,
+      "score": 3008
+    },
+    {
+      "length": 3,
+      "policy": "random",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 111528,
+      "wall_ns": 14626231,
+      "score": 3008
+    },
+    {
+      "length": 3,
+      "policy": "random_validated",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 111528,
+      "wall_ns": 6745449,
+      "score": 3008
+    },
+    {
+      "length": 4,
+      "policy": "baseline",
+      "n": 32,
+      "correct": 0,
+      "wrong": 9,
+      "abstained": 23,
+      "queries": 93,
+      "comparisons": 114148,
+      "wall_ns": 3499046,
+      "score": -1893
+    },
+    {
+      "length": 4,
+      "policy": "mutation",
+      "n": 32,
+      "correct": 0,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 79,
+      "comparisons": 114322,
+      "wall_ns": 6367331,
+      "score": -1479
+    },
+    {
+      "length": 4,
+      "policy": "mutation_validated",
+      "n": 32,
+      "correct": 0,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 82,
+      "comparisons": 114325,
+      "wall_ns": 4152697,
+      "score": -1482
+    },
+    {
+      "length": 4,
+      "policy": "random",
+      "n": 32,
+      "correct": 0,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 79,
+      "comparisons": 114322,
+      "wall_ns": 6821663,
+      "score": -1479
+    },
+    {
+      "length": 4,
+      "policy": "random_validated",
+      "n": 32,
+      "correct": 0,
+      "wrong": 7,
+      "abstained": 25,
+      "queries": 82,
+      "comparisons": 114325,
+      "wall_ns": 4117184,
+      "score": -1482
+    }
+  ],
+  "paired_vs_baseline": {
+    "mutation": {
+      "gains": 0,
+      "losses": 0
+    },
+    "mutation_validated": {
+      "gains": 0,
+      "losses": 0
+    },
+    "random": {
+      "gains": 0,
+      "losses": 0
+    },
+    "random_validated": {
+      "gains": 0,
+      "losses": 0
+    }
+  }
+}
