@@ -1,0 +1,82 @@
+[
+  {
+    "path": "autonomous_324161.sqlite3",
+    "bytes": 274432,
+    "sha256": "50317a6ba56a95ac78960959dd18be869d51c5d0b2392aa775cd01eb8937d946"
+  },
+  {
+    "path": "autonomous_350377.sqlite3",
+    "bytes": 262144,
+    "sha256": "50b84987d8972e65a4fa17b62e936eaa708a0f2190cf6d76e00c41c6ce3d89cd"
+  },
+  {
+    "path": "autonomous_399989.sqlite3",
+    "bytes": 270336,
+    "sha256": "a164891f38a2685ad218d7ad91d7fcffe2b221593c87af720d937ab98bbef3e6"
+  },
+  {
+    "path": "fixed_324161.sqlite3",
+    "bytes": 253952,
+    "sha256": "710dfa1d65d42098d32f1ad577ba708ac4944d357231cb20d34384cd1bb394a6"
+  },
+  {
+    "path": "fixed_350377.sqlite3",
+    "bytes": 233472,
+    "sha256": "13cb83f4dcc272df4cb4c5d7fd6f3195f9fe28e6216b00d6eb0dfe2d9165b4ec"
+  },
+  {
+    "path": "fixed_399989.sqlite3",
+    "bytes": 249856,
+    "sha256": "b5fa4d7e1c0578ed838324a9e2a6336b5a9cc53e3b995fd343b35fc3f389a985"
+  },
+  {
+    "path": "memory_324161.sqlite3",
+    "bytes": 249856,
+    "sha256": "5aab4806859712dd2e48b5a0e4486f76316c0808fe235a0b76b7ee972e40bf14"
+  },
+  {
+    "path": "memory_350377.sqlite3",
+    "bytes": 233472,
+    "sha256": "a50abe0bd35ad3c1aedebd9da715e7e604170ec36b2d82ebc542d9eac6f85a8b"
+  },
+  {
+    "path": "memory_399989.sqlite3",
+    "bytes": 249856,
+    "sha256": "f71808bc76aad940462d9c52abace39ba93a332bb3a11048366447b255f944f1"
+  },
+  {
+    "path": "painel.html",
+    "bytes": 6902,
+    "sha256": "ac32917cd200feb4e04781f08aaca583605f94174b59cab70776b18ac4881629"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 1811685,
+    "sha256": "c010f4303834591f2bc4535f584ab566d85352e31e778711488f8e86aff27d06"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 19758,
+    "sha256": "f710f566e611d90c967d93b09f4538434037a07e232bdf9c6881cdcd7a200edc"
+  },
+  {
+    "path": "tasks.jsonl",
+    "bytes": 155139,
+    "sha256": "cdd7f3e88fd2fa048330f096f302edf3e287fe74757eda0373e2db8bf466ad68"
+  },
+  {
+    "path": "teacher_324161.sqlite3",
+    "bytes": 270336,
+    "sha256": "a9c43ee8a411e848cc6fd43e3bfa225937bf19a8501eb0386e286236744ddd35"
+  },
+  {
+    "path": "teacher_350377.sqlite3",
+    "bytes": 253952,
+    "sha256": "390fe5c37e74710a39af8f591d4a11f63d47852997142926d16bf27f94d0f496"
+  },
+  {
+    "path": "teacher_399989.sqlite3",
+    "bytes": 266240,
+    "sha256": "a34daea02cab809995f4483317826cd20238b7f7e50d07039419d4a7f954c561"
+  }
+]

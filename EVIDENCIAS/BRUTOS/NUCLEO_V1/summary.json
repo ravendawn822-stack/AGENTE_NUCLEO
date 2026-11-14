@@ -1,0 +1,815 @@
+{
+  "protocol": "NUCLEO_V1-v1",
+  "seeds": [
+    324161,
+    350377,
+    399989
+  ],
+  "episodes": 1536,
+  "evaluation": [
+    {
+      "policy": "fixed",
+      "checkpoint": 0,
+      "n": 156,
+      "correct": 57,
+      "abstained": 91,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1545.6602564102564,
+      "mean_decision_ns": 6619372.416666667,
+      "mean_total_ns": 7053275.974358974,
+      "brier": 0.25
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 24,
+      "n": 156,
+      "correct": 57,
+      "abstained": 91,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1545.6602564102564,
+      "mean_decision_ns": 7163475.282051282,
+      "mean_total_ns": 7576144.858974359,
+      "brier": 0.20307692307692307
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 0,
+      "n": 156,
+      "correct": 57,
+      "abstained": 91,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1545.6602564102564,
+      "mean_decision_ns": 6796373.314102564,
+      "mean_total_ns": 7149329.865384615,
+      "brier": 0.25
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 24,
+      "n": 156,
+      "correct": 57,
+      "abstained": 91,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1555.051282051282,
+      "mean_decision_ns": 6523064.076923077,
+      "mean_total_ns": 6898822.487179487,
+      "brier": 0.20564102564102563
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 0,
+      "n": 156,
+      "correct": 57,
+      "abstained": 91,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1545.6602564102564,
+      "mean_decision_ns": 6503525.480769231,
+      "mean_total_ns": 6807934.724358974,
+      "brier": 0.25
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 24,
+      "n": 156,
+      "correct": 56,
+      "abstained": 92,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1570.4038461538462,
+      "mean_decision_ns": 7112470.615384615,
+      "mean_total_ns": 7596856.384615385,
+      "brier": 0.20051282051282052
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 0,
+      "n": 156,
+      "correct": 57,
+      "abstained": 91,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1545.6602564102564,
+      "mean_decision_ns": 6853052.852564103,
+      "mean_total_ns": 7216081.634615385,
+      "brier": 0.25
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 24,
+      "n": 156,
+      "correct": 56,
+      "abstained": 92,
+      "wrong": 8,
+      "mean_queries": 16.33974358974359,
+      "mean_candidates": 1570.4038461538462,
+      "mean_decision_ns": 6813122.256410256,
+      "mean_total_ns": 7122050.006410256,
+      "brier": 0.18523880694154865
+    }
+  ],
+  "by_domain": [
+    {
+      "policy": "fixed",
+      "checkpoint": 0,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1953074.2916666667,
+      "mean_total_ns": 2227253.1875,
+      "brier": 0.25
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 0,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 7,
+      "abstained": 63,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3336.5833333333335,
+      "mean_decision_ns": 11762280.361111112,
+      "mean_total_ns": 11852256.611111112,
+      "brier": 0.25
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 0,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 2555287.361111111,
+      "mean_total_ns": 3890011.75,
+      "brier": 0.25
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 24,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 2055024.6458333333,
+      "mean_total_ns": 2348445.4791666665,
+      "brier": 0.27
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 24,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 7,
+      "abstained": 63,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3336.5833333333335,
+      "mean_decision_ns": 12551271.652777778,
+      "mean_total_ns": 12645032.444444444,
+      "brier": 0.15555555555555556
+    },
+    {
+      "policy": "fixed",
+      "checkpoint": 24,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 3199150.0555555555,
+      "mean_total_ns": 4408635.527777778,
+      "brier": 0.2088888888888889
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 0,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1920413.5,
+      "mean_total_ns": 2178120.3125,
+      "brier": 0.25
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 0,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 7,
+      "abstained": 63,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3336.5833333333335,
+      "mean_decision_ns": 12012644.527777778,
+      "mean_total_ns": 12097980.375,
+      "brier": 0.25
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 0,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 2865110.638888889,
+      "mean_total_ns": 3880308.25,
+      "brier": 0.25
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 24,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1885302.25,
+      "mean_total_ns": 2141005.6666666665,
+      "brier": 0.27
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 24,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 7,
+      "abstained": 63,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3356.9305555555557,
+      "mean_decision_ns": 11552496.763888888,
+      "mean_total_ns": 11635604.625,
+      "brier": 0.1611111111111111
+    },
+    {
+      "policy": "memory",
+      "checkpoint": 24,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 2647881.138888889,
+      "mean_total_ns": 3769013.972222222,
+      "brier": 0.2088888888888889
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 0,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1906194.2083333333,
+      "mean_total_ns": 2160895.8333333335,
+      "brier": 0.25
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 0,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 7,
+      "abstained": 63,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3336.5833333333335,
+      "mean_decision_ns": 11344521.291666666,
+      "mean_total_ns": 11427391.625,
+      "brier": 0.25
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 0,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 2951308.888888889,
+      "mean_total_ns": 3765072.777777778,
+      "brier": 0.25
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 24,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1998890.4791666667,
+      "mean_total_ns": 2289207.4583333335,
+      "brier": 0.27
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 24,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 6,
+      "abstained": 64,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3390.1944444444443,
+      "mean_decision_ns": 12472538.597222222,
+      "mean_total_ns": 12561613.444444444,
+      "brier": 0.15
+    },
+    {
+      "policy": "teacher",
+      "checkpoint": 24,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 3210441.5,
+      "mean_total_ns": 4744207.5,
+      "brier": 0.2088888888888889
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 0,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1994549.7708333333,
+      "mean_total_ns": 2248145.2291666665,
+      "brier": 0.25
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 0,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 7,
+      "abstained": 63,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3336.5833333333335,
+      "mean_decision_ns": 12076548.597222222,
+      "mean_total_ns": 12167771.958333334,
+      "brier": 0.25
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 0,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 2884065.472222222,
+      "mean_total_ns": 3936616.1944444445,
+      "brier": 0.25
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 24,
+      "domain": "scalar",
+      "n": 48,
+      "correct": 24,
+      "abstained": 18,
+      "wrong": 6,
+      "mean_queries": 11.875,
+      "mean_candidates": 2.7708333333333335,
+      "mean_decision_ns": 1892966.2916666667,
+      "mean_total_ns": 2159500.8125,
+      "brier": 0.2566769547325103
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 24,
+      "domain": "sequence",
+      "n": 72,
+      "correct": 6,
+      "abstained": 64,
+      "wrong": 2,
+      "mean_queries": 26.958333333333332,
+      "mean_candidates": 3390.1944444444443,
+      "mean_decision_ns": 11725665.236111112,
+      "mean_total_ns": 11810631.875,
+      "brier": 0.12467554331190696
+    },
+    {
+      "policy": "autonomous",
+      "checkpoint": 24,
+      "domain": "project",
+      "n": 36,
+      "correct": 26,
+      "abstained": 10,
+      "wrong": 0,
+      "mean_queries": 1.0555555555555556,
+      "mean_candidates": 21.0,
+      "mean_decision_ns": 3548244.25,
+      "mean_total_ns": 4361618.527777778,
+      "brier": 0.21111447047954987
+    }
+  ],
+  "agents": [
+    {
+      "seed": 324161,
+      "policy": "fixed",
+      "skills": 0,
+      "teacher_skills": 0,
+      "teacher_requested": false,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "5d6dd1773d761cd7299e8d13298c95b0318720297a99e6a4d2350b6c0f893640",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 4,
+          "estimate": 0.5
+        }
+      }
+    },
+    {
+      "seed": 324161,
+      "policy": "memory",
+      "skills": 8,
+      "teacher_skills": 0,
+      "teacher_requested": false,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "42c9d866cce7fde959c09637c4939932360c3408af6a9a45148475330f5e6928",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 4,
+          "estimate": 0.5
+        }
+      }
+    },
+    {
+      "seed": 324161,
+      "policy": "teacher",
+      "skills": 8,
+      "teacher_skills": 6,
+      "teacher_requested": true,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "cc4de127d4803b66513b60d743dfb2f7eaf6cb4cf51183eee63648fc4e9e2c2b",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 4,
+          "estimate": 0.5
+        }
+      }
+    },
+    {
+      "seed": 324161,
+      "policy": "autonomous",
+      "skills": 8,
+      "teacher_skills": 6,
+      "teacher_requested": true,
+      "training_by_domain": {
+        "project": 7,
+        "scalar": 7,
+        "sequence": 10
+      },
+      "sha256": "3dbe5fed0a60c75c0ed8a5728ef8536c2f448d17872dd1d167af248d5f38dfef",
+      "capabilities": {
+        "project": {
+          "attempts": 7,
+          "successes": 4,
+          "estimate": 0.5555555555555556
+        },
+        "scalar": {
+          "attempts": 7,
+          "successes": 4,
+          "estimate": 0.5555555555555556
+        },
+        "sequence": {
+          "attempts": 10,
+          "successes": 4,
+          "estimate": 0.4166666666666667
+        }
+      }
+    },
+    {
+      "seed": 350377,
+      "policy": "fixed",
+      "skills": 0,
+      "teacher_skills": 0,
+      "teacher_requested": false,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "148c63eba6eb8b0ce520ee698c703b4f44ad4a8f193ac3e850836404954cec74",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 0,
+          "estimate": 0.1
+        }
+      }
+    },
+    {
+      "seed": 350377,
+      "policy": "memory",
+      "skills": 0,
+      "teacher_skills": 0,
+      "teacher_requested": false,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "148c63eba6eb8b0ce520ee698c703b4f44ad4a8f193ac3e850836404954cec74",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 0,
+          "estimate": 0.1
+        }
+      }
+    },
+    {
+      "seed": 350377,
+      "policy": "teacher",
+      "skills": 0,
+      "teacher_skills": 6,
+      "teacher_requested": true,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "ebd4ed5b20096e360a8d02d76d9b793d7c6a04703b68f11acdda74ce3645f9a3",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 0,
+          "estimate": 0.1
+        }
+      }
+    },
+    {
+      "seed": 350377,
+      "policy": "autonomous",
+      "skills": 0,
+      "teacher_skills": 6,
+      "teacher_requested": true,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "9e02c8fce2c9535ed4e94686ad3c460c322f81010f729ad8a02ee22d0ef9a11f",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 5,
+          "estimate": 0.6
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 0,
+          "estimate": 0.1
+        }
+      }
+    },
+    {
+      "seed": 399989,
+      "policy": "fixed",
+      "skills": 0,
+      "teacher_skills": 0,
+      "teacher_requested": false,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "2348d2ac2c31c56cbf5c95304d4d6a8bb97e3ce70e7194be47a50dda849bd72e",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 7,
+          "estimate": 0.8
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 6,
+          "estimate": 0.7
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 2,
+          "estimate": 0.3
+        }
+      }
+    },
+    {
+      "seed": 399989,
+      "policy": "memory",
+      "skills": 4,
+      "teacher_skills": 0,
+      "teacher_requested": false,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "8ab21e17c5f2ba0801e8060fa89beabe2807a1be5d15f48ec7bdabdb52e91fb9",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 7,
+          "estimate": 0.8
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 6,
+          "estimate": 0.7
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 2,
+          "estimate": 0.3
+        }
+      }
+    },
+    {
+      "seed": 399989,
+      "policy": "teacher",
+      "skills": 4,
+      "teacher_skills": 6,
+      "teacher_requested": true,
+      "training_by_domain": {
+        "project": 8,
+        "scalar": 8,
+        "sequence": 8
+      },
+      "sha256": "4850039e69d59fc0e5491e5d45d0effa46a5518894adc14f81f7fd9264caa0a5",
+      "capabilities": {
+        "project": {
+          "attempts": 8,
+          "successes": 7,
+          "estimate": 0.8
+        },
+        "scalar": {
+          "attempts": 8,
+          "successes": 6,
+          "estimate": 0.7
+        },
+        "sequence": {
+          "attempts": 8,
+          "successes": 2,
+          "estimate": 0.3
+        }
+      }
+    },
+    {
+      "seed": 399989,
+      "policy": "autonomous",
+      "skills": 4,
+      "teacher_skills": 6,
+      "teacher_requested": true,
+      "training_by_domain": {
+        "project": 5,
+        "scalar": 10,
+        "sequence": 9
+      },
+      "sha256": "99b3617e80572eea38ac9c467b2b59286cf7471945c2a7f28c3f3211bf5047c8",
+      "capabilities": {
+        "project": {
+          "attempts": 5,
+          "successes": 4,
+          "estimate": 0.7142857142857143
+        },
+        "scalar": {
+          "attempts": 10,
+          "successes": 6,
+          "estimate": 0.5833333333333334
+        },
+        "sequence": {
+          "attempts": 9,
+          "successes": 2,
+          "estimate": 0.2727272727272727
+        }
+      }
+    }
+  ]
+}
