@@ -1,0 +1,286 @@
+{
+  "protocol": "V15-composition-v1",
+  "seeds": [
+    2520013,
+    2550017,
+    2580023,
+    2610031
+  ],
+  "contrasts": {
+    "factorized": {
+      "gains": 56,
+      "losses": 0
+    },
+    "polynomial": {
+      "gains": 9,
+      "losses": 0
+    }
+  },
+  "aggregate": [
+    {
+      "policy": "factorized",
+      "n": 128,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 96,
+      "additional_correct": 9,
+      "candidates": 1244899,
+      "extra_wall_ns": 4463270038
+    },
+    {
+      "policy": "polynomial",
+      "n": 128,
+      "correct": 79,
+      "wrong": 0,
+      "abstained": 49,
+      "additional_correct": 56,
+      "candidates": 416843,
+      "extra_wall_ns": 103713894
+    },
+    {
+      "policy": "composed",
+      "n": 128,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 40,
+      "additional_correct": 65,
+      "candidates": 774564,
+      "extra_wall_ns": 2109772953
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 2520013,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 24,
+      "additional_correct": 2,
+      "candidates": 309991,
+      "extra_wall_ns": 1088929137
+    },
+    {
+      "seed": 2520013,
+      "policy": "polynomial",
+      "n": 32,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 12,
+      "additional_correct": 14,
+      "candidates": 100083,
+      "extra_wall_ns": 25389311
+    },
+    {
+      "seed": 2520013,
+      "policy": "composed",
+      "n": 32,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 10,
+      "additional_correct": 16,
+      "candidates": 192407,
+      "extra_wall_ns": 516654692
+    },
+    {
+      "seed": 2550017,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 24,
+      "additional_correct": 2,
+      "candidates": 309391,
+      "extra_wall_ns": 1085725620
+    },
+    {
+      "seed": 2550017,
+      "policy": "polynomial",
+      "n": 32,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 12,
+      "additional_correct": 14,
+      "candidates": 105179,
+      "extra_wall_ns": 25417436
+    },
+    {
+      "seed": 2550017,
+      "policy": "composed",
+      "n": 32,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 10,
+      "additional_correct": 16,
+      "candidates": 191807,
+      "extra_wall_ns": 503041639
+    },
+    {
+      "seed": 2580023,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 9,
+      "wrong": 0,
+      "abstained": 23,
+      "additional_correct": 3,
+      "candidates": 304178,
+      "extra_wall_ns": 1066723151
+    },
+    {
+      "seed": 2580023,
+      "policy": "polynomial",
+      "n": 32,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 12,
+      "additional_correct": 14,
+      "candidates": 105763,
+      "extra_wall_ns": 25495403
+    },
+    {
+      "seed": 2580023,
+      "policy": "composed",
+      "n": 32,
+      "correct": 23,
+      "wrong": 0,
+      "abstained": 9,
+      "additional_correct": 17,
+      "candidates": 186595,
+      "extra_wall_ns": 491485378
+    },
+    {
+      "seed": 2610031,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 25,
+      "additional_correct": 2,
+      "candidates": 321339,
+      "extra_wall_ns": 1221892130
+    },
+    {
+      "seed": 2610031,
+      "policy": "polynomial",
+      "n": 32,
+      "correct": 19,
+      "wrong": 0,
+      "abstained": 13,
+      "additional_correct": 14,
+      "candidates": 105818,
+      "extra_wall_ns": 27411744
+    },
+    {
+      "seed": 2610031,
+      "policy": "composed",
+      "n": 32,
+      "correct": 21,
+      "wrong": 0,
+      "abstained": 11,
+      "additional_correct": 16,
+      "candidates": 203755,
+      "extra_wall_ns": 598591244
+    }
+  ],
+  "by_family": [
+    {
+      "family": "linked",
+      "policy": "factorized",
+      "n": 96,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 64,
+      "additional_correct": 9,
+      "candidates": 860899,
+      "extra_wall_ns": 3086369446
+    },
+    {
+      "family": "linked",
+      "policy": "polynomial",
+      "n": 96,
+      "correct": 47,
+      "wrong": 0,
+      "abstained": 49,
+      "additional_correct": 24,
+      "candidates": 301611,
+      "extra_wall_ns": 71612553
+    },
+    {
+      "family": "linked",
+      "policy": "composed",
+      "n": 96,
+      "correct": 56,
+      "wrong": 0,
+      "abstained": 40,
+      "additional_correct": 33,
+      "candidates": 659332,
+      "extra_wall_ns": 2079727457
+    },
+    {
+      "family": "unrelated",
+      "policy": "factorized",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 0,
+      "candidates": 192000,
+      "extra_wall_ns": 685315971
+    },
+    {
+      "family": "unrelated",
+      "policy": "polynomial",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "additional_correct": 16,
+      "candidates": 57616,
+      "extra_wall_ns": 15771455
+    },
+    {
+      "family": "unrelated",
+      "policy": "composed",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "additional_correct": 16,
+      "candidates": 57616,
+      "extra_wall_ns": 14760670
+    },
+    {
+      "family": "outside",
+      "policy": "factorized",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "additional_correct": 0,
+      "candidates": 192000,
+      "extra_wall_ns": 691584621
+    },
+    {
+      "family": "outside",
+      "policy": "polynomial",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "additional_correct": 16,
+      "candidates": 57616,
+      "extra_wall_ns": 16329886
+    },
+    {
+      "family": "outside",
+      "policy": "composed",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "additional_correct": 16,
+      "candidates": 57616,
+      "extra_wall_ns": 15284826
+    }
+  ]
+}
