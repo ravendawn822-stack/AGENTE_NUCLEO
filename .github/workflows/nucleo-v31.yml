@@ -1,0 +1,57 @@
+name: V31 persistent multidomain agent
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V31/**','.github/workflows/nucleo-v31.yml']
+permissions:
+  contents: read
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - run: python3 NUCLEO_V31/persistent_agent.py --self-test
+      - run: python3 NUCLEO_V31/persistent_agent.py --output NUCLEO_V31/ci
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nucleo-v31-results
+          path: NUCLEO_V31/ci/
+          retention-days: 30
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: nucleo-v31-results
+          path: EVIDENCIAS/BRUTOS/NUCLEO_V31
+      - name: Archive results
+        run: |
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('EVIDENCIAS/BRUTOS/NUCLEO_V31')
+          files=[dict(path=str(f.relative_to(p)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(p.rglob('*')) if f.is_file() and not f.is_symlink()]
+          assert files
+          (p/'SHA256.json').write_text(json.dumps(files,indent=2))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V31
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\/NUCLEO_V31\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive V31 persistent multidomain agent experiment'
+          git push origin HEAD:refs/heads/evidencias-cientificas
