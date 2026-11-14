@@ -1,0 +1,20 @@
+name: V38 offline pilot checks
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V38/**','.github/workflows/nucleo-v38.yml']
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - run: python3 NUCLEO_V38/codex_pilot.py --self-test
+      - run: python3 MIGRACAO/verify_integrity.py --all
