@@ -152,7 +152,7 @@ def suite(seed):
     rng.shuffle(train)
     test=[];seen={tuple(target(t,x,y) for x in range(-4,5) for y in range(-4,5)) for t in train}
     for f in (*MOTIFS,"unrelated","outside"):
-        count=3 if f in MOTIFS else 4
+        count=2 if f=="modsum" else 3 if f in MOTIFS else 5 if f=="unrelated" else 4
         options=list(itertools.product((-2,-1,0,1,2),repeat=2));rng.shuffle(options)
         for a,b in options:
             if (a,b)==(0,0):continue
