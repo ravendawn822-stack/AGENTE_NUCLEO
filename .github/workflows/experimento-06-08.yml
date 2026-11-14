@@ -1,0 +1,38 @@
+name: Experimento 06-08A
+on:
+  push:
+    branches: [experimento-04]
+    paths:
+      - 'EXPERIMENTO_06_08/**'
+      - '.github/workflows/experimento-06-08.yml'
+permissions:
+  contents: read
+concurrency:
+  group: exp0608
+  cancel-in-progress: true
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify historical artifacts
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Test perception and probe selection
+        run: python3 EXPERIMENTO_06_08/investigate.py --self-test
+      - name: Run frozen 06-08A protocol
+        run: python3 EXPERIMENTO_06_08/investigate.py --output EXPERIMENTO_06_08/ci_0608
+      - name: Verify historical artifacts again
+        run: python3 MIGRACAO/verify_integrity.py
+      - name: Preserve records
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: exp0608-results
+          path: EXPERIMENTO_06_08/ci_0608/
+          retention-days: 30
+          if-no-files-found: warn
