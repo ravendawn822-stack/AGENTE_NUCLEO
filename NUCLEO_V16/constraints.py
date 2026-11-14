@@ -116,7 +116,7 @@ def run(out):
 class Tests(unittest.TestCase):
     def test_additive(self):
         obs=list(m.GRID);held=[(7,-4),(-5,9)]
-        fn=lambda x,y:(x+1)**2+abs(y-2)
+        fn=lambda x,y:(x+1)**2+abs(y-1)
         e,n=constrained(obs,[fn(x,y) for x,y in obs],CAP,False)
         self.assertTrue(v9.check(e,held,[fn(x,y) for x,y in held],{}))
         self.assertLessEqual(n,CAP)
@@ -125,8 +125,12 @@ class Tests(unittest.TestCase):
         fn=lambda x,y:abs(x+1)*abs(y-1)
         e,n=constrained(obs,[fn(x,y) for x,y in obs],CAP,True)
         self.assertTrue(v9.check(e,held,[fn(x,y) for x,y in held],{}))
+    def test_ambiguous_profile(self):
+        obs=[*m.GRID,(0,9)]
+        fn=lambda x,y:x*x+abs(y-2)
+        self.assertIsNone(constrained(obs,[fn(x,y) for x,y in obs],CAP,False)[0])
     def test_budget(self):
-        obs=list(m.GRID);fn=lambda x,y:(x+1)**2+abs(y-2)
+        obs=list(m.GRID);fn=lambda x,y:(x+1)**2+abs(y-1)
         self.assertLessEqual(constrained(obs,[fn(x,y) for x,y in obs],2,True)[1],2)
     def test_seeds(self):
         for k in SEEDS:self.assertEqual(tuple(map(len,v10.suite(k))),(32,32))
