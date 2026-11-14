@@ -1,0 +1,632 @@
+{
+  "protocol": "V29-offline-teacher-v1",
+  "seeds": [
+    4200017,
+    4230023,
+    4260031,
+    4290041
+  ],
+  "teacher_mode": "static ChatGPT lessons, no model calls",
+  "snapshots": [
+    {
+      "seed": 4200017,
+      "approved": 6,
+      "blind_correct": 4,
+      "invalid": 6,
+      "tested": 288,
+      "teaching_ns": 571875,
+      "registry": {
+        "count_positive": [
+          "positive",
+          "count"
+        ],
+        "distinct_count": [
+          "unique",
+          "count"
+        ],
+        "minimum": [
+          "neg",
+          "maximum",
+          "neg"
+        ],
+        "prefix": [
+          "scan"
+        ],
+        "span": [
+          "bounds",
+          "difference"
+        ],
+        "total": [
+          "sum"
+        ]
+      },
+      "sha": "9c37ab03bb8e681ee5f4fdaea622bb01c1328942fb2e174cb5ff57caa476728c"
+    },
+    {
+      "seed": 4230023,
+      "approved": 6,
+      "blind_correct": 1,
+      "invalid": 6,
+      "tested": 288,
+      "teaching_ns": 920129,
+      "registry": {
+        "count_positive": [
+          "positive",
+          "count"
+        ],
+        "distinct_count": [
+          "unique",
+          "count"
+        ],
+        "minimum": [
+          "neg",
+          "maximum",
+          "neg"
+        ],
+        "prefix": [
+          "scan"
+        ],
+        "span": [
+          "bounds",
+          "difference"
+        ],
+        "total": [
+          "sum"
+        ]
+      },
+      "sha": "c2fff0b42b92dd8b4b74942d693269a07122544556e72a4de81cec3b7aaa7aa2"
+    },
+    {
+      "seed": 4260031,
+      "approved": 6,
+      "blind_correct": 1,
+      "invalid": 6,
+      "tested": 288,
+      "teaching_ns": 500651,
+      "registry": {
+        "count_positive": [
+          "positive",
+          "count"
+        ],
+        "distinct_count": [
+          "unique",
+          "count"
+        ],
+        "minimum": [
+          "neg",
+          "maximum",
+          "neg"
+        ],
+        "prefix": [
+          "scan"
+        ],
+        "span": [
+          "bounds",
+          "difference"
+        ],
+        "total": [
+          "sum"
+        ]
+      },
+      "sha": "50b88de08b8c66c75b6870b3565ca7c6e5faf06a0d966ad52931882692e6a92c"
+    },
+    {
+      "seed": 4290041,
+      "approved": 6,
+      "blind_correct": 3,
+      "invalid": 6,
+      "tested": 288,
+      "teaching_ns": 506792,
+      "registry": {
+        "count_positive": [
+          "positive",
+          "count"
+        ],
+        "distinct_count": [
+          "unique",
+          "count"
+        ],
+        "minimum": [
+          "neg",
+          "maximum",
+          "neg"
+        ],
+        "prefix": [
+          "scan"
+        ],
+        "span": [
+          "bounds",
+          "difference"
+        ],
+        "total": [
+          "sum"
+        ]
+      },
+      "sha": "17de3680ad2734e491c10433f1c6a9031d196627b70acb4f62834b7b3afef53c"
+    }
+  ],
+  "preparation": [
+    {
+      "seed": 4200017,
+      "policy": "basic",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 8649112
+    },
+    {
+      "seed": 4200017,
+      "policy": "unverified",
+      "programs": 343,
+      "classes": 199,
+      "executions": 12348,
+      "wall_ns": 22956266
+    },
+    {
+      "seed": 4200017,
+      "policy": "verified",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 26272918
+    },
+    {
+      "seed": 4200017,
+      "policy": "ideal",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 50162848
+    },
+    {
+      "seed": 4230023,
+      "policy": "basic",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 18996395
+    },
+    {
+      "seed": 4230023,
+      "policy": "unverified",
+      "programs": 343,
+      "classes": 168,
+      "executions": 12348,
+      "wall_ns": 46792485
+    },
+    {
+      "seed": 4230023,
+      "policy": "verified",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 28870208
+    },
+    {
+      "seed": 4230023,
+      "policy": "ideal",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 25781303
+    },
+    {
+      "seed": 4260031,
+      "policy": "basic",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 8791971
+    },
+    {
+      "seed": 4260031,
+      "policy": "unverified",
+      "programs": 343,
+      "classes": 180,
+      "executions": 12348,
+      "wall_ns": 20645293
+    },
+    {
+      "seed": 4260031,
+      "policy": "verified",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 26072681
+    },
+    {
+      "seed": 4260031,
+      "policy": "ideal",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 26366764
+    },
+    {
+      "seed": 4290041,
+      "policy": "basic",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 8668999
+    },
+    {
+      "seed": 4290041,
+      "policy": "unverified",
+      "programs": 343,
+      "classes": 178,
+      "executions": 12348,
+      "wall_ns": 24485489
+    },
+    {
+      "seed": 4290041,
+      "policy": "verified",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 25760506
+    },
+    {
+      "seed": 4290041,
+      "policy": "ideal",
+      "programs": 343,
+      "classes": 214,
+      "executions": 12348,
+      "wall_ns": 26057592
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "basic",
+      "n": 96,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 72,
+      "queries": 144,
+      "comparisons": 49200,
+      "wall_ns": 5494281
+    },
+    {
+      "policy": "unverified",
+      "n": 96,
+      "correct": 59,
+      "wrong": 0,
+      "abstained": 37,
+      "queries": 366,
+      "comparisons": 81897,
+      "wall_ns": 11031063
+    },
+    {
+      "policy": "verified",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 576,
+      "comparisons": 100866,
+      "wall_ns": 13176937
+    },
+    {
+      "policy": "ideal",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 576,
+      "comparisons": 100866,
+      "wall_ns": 15921928
+    }
+  ],
+  "by_stratum": [
+    {
+      "stratum": "direct",
+      "policy": "basic",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "queries": 0,
+      "comparisons": 11136,
+      "wall_ns": 465472
+    },
+    {
+      "stratum": "direct",
+      "policy": "unverified",
+      "n": 24,
+      "correct": 13,
+      "wrong": 0,
+      "abstained": 11,
+      "queries": 78,
+      "comparisons": 19977,
+      "wall_ns": 2361266
+    },
+    {
+      "stratum": "direct",
+      "policy": "verified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25200,
+      "wall_ns": 3109535
+    },
+    {
+      "stratum": "direct",
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25200,
+      "wall_ns": 3750051
+    },
+    {
+      "stratum": "composed",
+      "policy": "basic",
+      "n": 48,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 48,
+      "queries": 0,
+      "comparisons": 22272,
+      "wall_ns": 942549
+    },
+    {
+      "stratum": "composed",
+      "policy": "unverified",
+      "n": 48,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 26,
+      "queries": 144,
+      "comparisons": 39864,
+      "wall_ns": 4460015
+    },
+    {
+      "stratum": "composed",
+      "policy": "verified",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 50466,
+      "wall_ns": 6684133
+    },
+    {
+      "stratum": "composed",
+      "policy": "ideal",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 50466,
+      "wall_ns": 8051426
+    },
+    {
+      "stratum": "basic",
+      "policy": "basic",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 15792,
+      "wall_ns": 4086260
+    },
+    {
+      "stratum": "basic",
+      "policy": "unverified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 22056,
+      "wall_ns": 4209782
+    },
+    {
+      "stratum": "basic",
+      "policy": "verified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25200,
+      "wall_ns": 3383269
+    },
+    {
+      "stratum": "basic",
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25200,
+      "wall_ns": 4120451
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 4200017,
+      "policy": "basic",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12267,
+      "wall_ns": 1082714
+    },
+    {
+      "seed": 4200017,
+      "policy": "unverified",
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 103,
+      "comparisons": 22479,
+      "wall_ns": 2503627
+    },
+    {
+      "seed": 4200017,
+      "policy": "verified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25266,
+      "wall_ns": 3281444
+    },
+    {
+      "seed": 4200017,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25266,
+      "wall_ns": 6081329
+    },
+    {
+      "seed": 4230023,
+      "policy": "basic",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12300,
+      "wall_ns": 2247251
+    },
+    {
+      "seed": 4230023,
+      "policy": "unverified",
+      "n": 24,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 13,
+      "queries": 71,
+      "comparisons": 18601,
+      "wall_ns": 3889060
+    },
+    {
+      "seed": 4230023,
+      "policy": "verified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25200,
+      "wall_ns": 3261142
+    },
+    {
+      "seed": 4230023,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25200,
+      "wall_ns": 3245679
+    },
+    {
+      "seed": 4260031,
+      "policy": "basic",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12267,
+      "wall_ns": 1072435
+    },
+    {
+      "seed": 4260031,
+      "policy": "unverified",
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 96,
+      "comparisons": 20307,
+      "wall_ns": 2310672
+    },
+    {
+      "seed": 4260031,
+      "policy": "verified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25134,
+      "wall_ns": 3299321
+    },
+    {
+      "seed": 4260031,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25134,
+      "wall_ns": 3301583
+    },
+    {
+      "seed": 4290041,
+      "policy": "basic",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12366,
+      "wall_ns": 1091881
+    },
+    {
+      "seed": 4290041,
+      "policy": "unverified",
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 96,
+      "comparisons": 20510,
+      "wall_ns": 2327704
+    },
+    {
+      "seed": 4290041,
+      "policy": "verified",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25266,
+      "wall_ns": 3335030
+    },
+    {
+      "seed": 4290041,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25266,
+      "wall_ns": 3293337
+    }
+  ]
+}

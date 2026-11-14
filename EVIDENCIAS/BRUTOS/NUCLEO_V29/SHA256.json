@@ -1,0 +1,37 @@
+[
+  {
+    "path": "raw.jsonl",
+    "bytes": 187357,
+    "sha256": "2b9bf80baa53793ba73b5d10d0ab0d1719dec4f540a1af4a332f8d4da88870a4"
+  },
+  {
+    "path": "skills_4200017.json",
+    "bytes": 8192,
+    "sha256": "bac7564dab3f5c66749a97895dbd8ff6854ba0c94705e2fc10abfa79854525f3"
+  },
+  {
+    "path": "skills_4230023.json",
+    "bytes": 8181,
+    "sha256": "8b3fff44ac579c6f7bab899a648513a80ccd93331ec8e876bbeedde43a20d34f"
+  },
+  {
+    "path": "skills_4260031.json",
+    "bytes": 8114,
+    "sha256": "f25aa18945ca45fda9faffccbf0eb0dce5e5362df5a6734b0ec90517fc77abed"
+  },
+  {
+    "path": "skills_4290041.json",
+    "bytes": 8361,
+    "sha256": "c0fc948c5754b6ab6428b06b6112bdb313e1526480a4490db6a66138a19f787d"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 12326,
+    "sha256": "ff550ec8df0b2f3f7c2cb7049bb29cb45a5d91132eaaf0e04b5da546b25cfc19"
+  },
+  {
+    "path": "training.jsonl",
+    "bytes": 9151,
+    "sha256": "fbfd96f257ee56cb9736f448de23214eea776374f42ccd472c54682b291eced4"
+  }
+]
