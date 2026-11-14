@@ -1,0 +1,1227 @@
+{
+  "protocol": "V26-progressive-skills-v1",
+  "seeds": [
+    3840017,
+    3870023,
+    3900031,
+    3930041
+  ],
+  "snapshots": [
+    {
+      "seed": 3840017,
+      "pairs": 8,
+      "triples": 8,
+      "programs": [
+        [
+          "abs",
+          "rotate",
+          "difference"
+        ],
+        [
+          "abs",
+          "rotate"
+        ],
+        [
+          "abs",
+          "take2",
+          "drop1"
+        ],
+        [
+          "drop1",
+          "take2",
+          "drop1"
+        ],
+        [
+          "even",
+          "difference",
+          "difference"
+        ],
+        [
+          "even",
+          "difference"
+        ],
+        [
+          "even",
+          "inc"
+        ],
+        [
+          "inc",
+          "sort",
+          "rotate"
+        ],
+        [
+          "inc",
+          "sort"
+        ],
+        [
+          "inc",
+          "take2"
+        ],
+        [
+          "neg",
+          "even",
+          "inc"
+        ],
+        [
+          "rotate",
+          "difference"
+        ],
+        [
+          "sort",
+          "rotate",
+          "difference"
+        ],
+        [
+          "take2",
+          "drop1"
+        ],
+        [
+          "unique",
+          "drop1",
+          "positive"
+        ],
+        [
+          "unique",
+          "drop1"
+        ]
+      ],
+      "random_triples": [
+        [
+          "abs",
+          "inc",
+          "unique"
+        ],
+        [
+          "reverse",
+          "sort",
+          "unique"
+        ],
+        [
+          "abs",
+          "rotate",
+          "inc"
+        ],
+        [
+          "unique",
+          "inc",
+          "unique"
+        ],
+        [
+          "unique",
+          "positive",
+          "difference"
+        ],
+        [
+          "drop1",
+          "unique",
+          "rotate"
+        ],
+        [
+          "positive",
+          "abs",
+          "take2"
+        ],
+        [
+          "inc",
+          "neg",
+          "take2"
+        ]
+      ],
+      "sha": "db89c9e545244f3ed685eb795e2c878162ec515ff85703e717c6c36192842b0c"
+    },
+    {
+      "seed": 3870023,
+      "pairs": 8,
+      "triples": 8,
+      "programs": [
+        [
+          "drop1",
+          "drop1",
+          "inc"
+        ],
+        [
+          "drop1",
+          "even"
+        ],
+        [
+          "drop1",
+          "inc"
+        ],
+        [
+          "even",
+          "reverse"
+        ],
+        [
+          "even",
+          "rotate"
+        ],
+        [
+          "inc",
+          "neg"
+        ],
+        [
+          "neg",
+          "rotate",
+          "inc"
+        ],
+        [
+          "neg",
+          "rotate"
+        ],
+        [
+          "positive",
+          "neg"
+        ],
+        [
+          "reverse",
+          "neg",
+          "rotate"
+        ],
+        [
+          "reverse",
+          "rotate",
+          "difference"
+        ],
+        [
+          "rotate",
+          "difference",
+          "unique"
+        ],
+        [
+          "rotate",
+          "difference"
+        ],
+        [
+          "rotate",
+          "positive",
+          "neg"
+        ],
+        [
+          "sort",
+          "drop1",
+          "inc"
+        ],
+        [
+          "take2",
+          "rotate",
+          "difference"
+        ]
+      ],
+      "random_triples": [
+        [
+          "rotate",
+          "neg",
+          "abs"
+        ],
+        [
+          "take2",
+          "difference",
+          "rotate"
+        ],
+        [
+          "inc",
+          "inc",
+          "drop1"
+        ],
+        [
+          "unique",
+          "rotate",
+          "reverse"
+        ],
+        [
+          "neg",
+          "rotate",
+          "reverse"
+        ],
+        [
+          "abs",
+          "take2",
+          "take2"
+        ],
+        [
+          "rotate",
+          "reverse",
+          "take2"
+        ],
+        [
+          "abs",
+          "inc",
+          "difference"
+        ]
+      ],
+      "sha": "45e044fc6339825a9483552eaaddf6ac3a044d08fe0b65343be02a5446866495"
+    },
+    {
+      "seed": 3900031,
+      "pairs": 8,
+      "triples": 8,
+      "programs": [
+        [
+          "abs",
+          "unique"
+        ],
+        [
+          "difference",
+          "drop1",
+          "abs"
+        ],
+        [
+          "difference",
+          "drop1"
+        ],
+        [
+          "difference",
+          "inc",
+          "neg"
+        ],
+        [
+          "drop1",
+          "neg",
+          "take2"
+        ],
+        [
+          "inc",
+          "neg",
+          "take2"
+        ],
+        [
+          "inc",
+          "neg"
+        ],
+        [
+          "inc",
+          "sort"
+        ],
+        [
+          "inc",
+          "take2"
+        ],
+        [
+          "neg",
+          "rotate",
+          "reverse"
+        ],
+        [
+          "neg",
+          "rotate"
+        ],
+        [
+          "neg",
+          "take2"
+        ],
+        [
+          "reverse",
+          "inc",
+          "take2"
+        ],
+        [
+          "rotate",
+          "difference",
+          "drop1"
+        ],
+        [
+          "rotate",
+          "inc",
+          "take2"
+        ],
+        [
+          "unique",
+          "difference"
+        ]
+      ],
+      "random_triples": [
+        [
+          "difference",
+          "inc",
+          "even"
+        ],
+        [
+          "positive",
+          "rotate",
+          "inc"
+        ],
+        [
+          "neg",
+          "positive",
+          "sort"
+        ],
+        [
+          "drop1",
+          "even",
+          "drop1"
+        ],
+        [
+          "rotate",
+          "sort",
+          "difference"
+        ],
+        [
+          "rotate",
+          "take2",
+          "sort"
+        ],
+        [
+          "take2",
+          "rotate",
+          "neg"
+        ],
+        [
+          "take2",
+          "difference",
+          "positive"
+        ]
+      ],
+      "sha": "f51b983e241600ae1f6bb2f07279d241ad7bdf9a5179b9998dcf469b5d716147"
+    },
+    {
+      "seed": 3930041,
+      "pairs": 8,
+      "triples": 8,
+      "programs": [
+        [
+          "abs",
+          "sort",
+          "drop1"
+        ],
+        [
+          "abs",
+          "sort"
+        ],
+        [
+          "drop1",
+          "even"
+        ],
+        [
+          "drop1",
+          "sort"
+        ],
+        [
+          "inc",
+          "unique"
+        ],
+        [
+          "neg",
+          "reverse",
+          "unique"
+        ],
+        [
+          "neg",
+          "rotate",
+          "drop1"
+        ],
+        [
+          "neg",
+          "take2",
+          "unique"
+        ],
+        [
+          "neg",
+          "take2"
+        ],
+        [
+          "positive",
+          "difference",
+          "abs"
+        ],
+        [
+          "positive",
+          "difference"
+        ],
+        [
+          "reverse",
+          "unique"
+        ],
+        [
+          "rotate",
+          "drop1",
+          "rotate"
+        ],
+        [
+          "rotate",
+          "drop1",
+          "unique"
+        ],
+        [
+          "rotate",
+          "drop1"
+        ],
+        [
+          "sort",
+          "positive",
+          "difference"
+        ]
+      ],
+      "random_triples": [
+        [
+          "neg",
+          "positive",
+          "difference"
+        ],
+        [
+          "inc",
+          "abs",
+          "rotate"
+        ],
+        [
+          "difference",
+          "reverse",
+          "difference"
+        ],
+        [
+          "inc",
+          "rotate",
+          "sort"
+        ],
+        [
+          "unique",
+          "positive",
+          "reverse"
+        ],
+        [
+          "abs",
+          "inc",
+          "reverse"
+        ],
+        [
+          "rotate",
+          "unique",
+          "take2"
+        ],
+        [
+          "neg",
+          "abs",
+          "abs"
+        ]
+      ],
+      "sha": "b322c3fcdbdf2a537e87a5bcbfde9b35a749867e2fdf71fcc135ffb66fa2b03a"
+    }
+  ],
+  "preparation": [
+    {
+      "seed": 3840017,
+      "policy": "train2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 10316573
+    },
+    {
+      "seed": 3840017,
+      "policy": "train3_frozen",
+      "programs": 345,
+      "classes": 257,
+      "program_executions": 12420,
+      "wall_ns": 29458018
+    },
+    {
+      "seed": 3840017,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 838,
+      "program_executions": 67860,
+      "wall_ns": 104482118
+    },
+    {
+      "seed": 3840017,
+      "policy": "progressive",
+      "programs": 536,
+      "classes": 383,
+      "program_executions": 19296,
+      "wall_ns": 30821131
+    },
+    {
+      "seed": 3840017,
+      "policy": "random_macros",
+      "programs": 537,
+      "classes": 380,
+      "program_executions": 19332,
+      "wall_ns": 32643456
+    },
+    {
+      "seed": 3840017,
+      "policy": "full4",
+      "programs": 22621,
+      "classes": 5073,
+      "program_executions": 814356,
+      "wall_ns": 1704310328
+    },
+    {
+      "seed": 3870023,
+      "policy": "train2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 5867845
+    },
+    {
+      "seed": 3870023,
+      "policy": "train3_frozen",
+      "programs": 342,
+      "classes": 250,
+      "program_executions": 12312,
+      "wall_ns": 16147042
+    },
+    {
+      "seed": 3870023,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 845,
+      "program_executions": 67860,
+      "wall_ns": 101127940
+    },
+    {
+      "seed": 3870023,
+      "policy": "progressive",
+      "programs": 531,
+      "classes": 391,
+      "program_executions": 19116,
+      "wall_ns": 29439040
+    },
+    {
+      "seed": 3870023,
+      "policy": "random_macros",
+      "programs": 532,
+      "classes": 377,
+      "program_executions": 19152,
+      "wall_ns": 29259064
+    },
+    {
+      "seed": 3870023,
+      "policy": "full4",
+      "programs": 22621,
+      "classes": 5135,
+      "program_executions": 814356,
+      "wall_ns": 1583375291
+    },
+    {
+      "seed": 3900031,
+      "policy": "train2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 6848492
+    },
+    {
+      "seed": 3900031,
+      "policy": "train3_frozen",
+      "programs": 345,
+      "classes": 251,
+      "program_executions": 12420,
+      "wall_ns": 16836771
+    },
+    {
+      "seed": 3900031,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 854,
+      "program_executions": 67860,
+      "wall_ns": 105549083
+    },
+    {
+      "seed": 3900031,
+      "policy": "progressive",
+      "programs": 535,
+      "classes": 397,
+      "program_executions": 19260,
+      "wall_ns": 30936250
+    },
+    {
+      "seed": 3900031,
+      "policy": "random_macros",
+      "programs": 537,
+      "classes": 392,
+      "program_executions": 19332,
+      "wall_ns": 31059082
+    },
+    {
+      "seed": 3900031,
+      "policy": "full4",
+      "programs": 22621,
+      "classes": 5408,
+      "program_executions": 814356,
+      "wall_ns": 1620367990
+    },
+    {
+      "seed": 3930041,
+      "policy": "train2",
+      "programs": 157,
+      "classes": 116,
+      "program_executions": 5652,
+      "wall_ns": 5946764
+    },
+    {
+      "seed": 3930041,
+      "policy": "train3_frozen",
+      "programs": 347,
+      "classes": 260,
+      "program_executions": 12492,
+      "wall_ns": 16495467
+    },
+    {
+      "seed": 3930041,
+      "policy": "full3",
+      "programs": 1885,
+      "classes": 850,
+      "program_executions": 67860,
+      "wall_ns": 102886138
+    },
+    {
+      "seed": 3930041,
+      "policy": "progressive",
+      "programs": 536,
+      "classes": 388,
+      "program_executions": 19296,
+      "wall_ns": 29772863
+    },
+    {
+      "seed": 3930041,
+      "policy": "random_macros",
+      "programs": 539,
+      "classes": 390,
+      "program_executions": 19404,
+      "wall_ns": 29950832
+    },
+    {
+      "seed": 3930041,
+      "policy": "full4",
+      "programs": 22621,
+      "classes": 5201,
+      "program_executions": 814356,
+      "wall_ns": 1584448428
+    }
+  ],
+  "training": [
+    {
+      "phase": "train2",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 21065,
+      "wall_ns": 3909112,
+      "added": 32
+    },
+    {
+      "phase": "train3",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 39189,
+      "wall_ns": 4778591,
+      "added": 32
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "full3",
+      "n": 128,
+      "correct": 64,
+      "wrong": 13,
+      "abstained": 51,
+      "queries": 518,
+      "comparisons": 465691,
+      "wall_ns": 19565429
+    },
+    {
+      "policy": "frozen",
+      "n": 128,
+      "correct": 33,
+      "wrong": 8,
+      "abstained": 87,
+      "queries": 336,
+      "comparisons": 144500,
+      "wall_ns": 8752969
+    },
+    {
+      "policy": "progressive",
+      "n": 128,
+      "correct": 63,
+      "wrong": 8,
+      "abstained": 57,
+      "queries": 493,
+      "comparisons": 223580,
+      "wall_ns": 12556047
+    },
+    {
+      "policy": "random_macros",
+      "n": 128,
+      "correct": 36,
+      "wrong": 9,
+      "abstained": 83,
+      "queries": 353,
+      "comparisons": 215457,
+      "wall_ns": 10509184
+    },
+    {
+      "policy": "full4",
+      "n": 128,
+      "correct": 123,
+      "wrong": 5,
+      "abstained": 0,
+      "queries": 768,
+      "comparisons": 2884518,
+      "wall_ns": 89309637
+    }
+  ],
+  "by_stratum": [
+    {
+      "stratum": "linked3",
+      "policy": "full3",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 117824,
+      "wall_ns": 5640429
+    },
+    {
+      "stratum": "linked3",
+      "policy": "frozen",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 39782,
+      "wall_ns": 3620309
+    },
+    {
+      "stratum": "linked3",
+      "policy": "progressive",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 57850,
+      "wall_ns": 4010064
+    },
+    {
+      "stratum": "linked3",
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 56751,
+      "wall_ns": 3881315
+    },
+    {
+      "stratum": "linked3",
+      "policy": "full4",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 699846,
+      "wall_ns": 20513076
+    },
+    {
+      "stratum": "new3",
+      "policy": "full3",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 118249,
+      "wall_ns": 5640322
+    },
+    {
+      "stratum": "new3",
+      "policy": "frozen",
+      "n": 32,
+      "correct": 0,
+      "wrong": 4,
+      "abstained": 28,
+      "queries": 57,
+      "comparisons": 34929,
+      "wall_ns": 1787964
+    },
+    {
+      "stratum": "new3",
+      "policy": "progressive",
+      "n": 32,
+      "correct": 1,
+      "wrong": 4,
+      "abstained": 27,
+      "queries": 63,
+      "comparisons": 52556,
+      "wall_ns": 2159120
+    },
+    {
+      "stratum": "new3",
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 3,
+      "wrong": 4,
+      "abstained": 25,
+      "queries": 71,
+      "comparisons": 52394,
+      "wall_ns": 2292087
+    },
+    {
+      "stratum": "new3",
+      "policy": "full4",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 694310,
+      "wall_ns": 19239403
+    },
+    {
+      "stratum": "linked4",
+      "policy": "full3",
+      "n": 32,
+      "correct": 0,
+      "wrong": 3,
+      "abstained": 29,
+      "queries": 53,
+      "comparisons": 113926,
+      "wall_ns": 3897318
+    },
+    {
+      "stratum": "linked4",
+      "policy": "frozen",
+      "n": 32,
+      "correct": 1,
+      "wrong": 3,
+      "abstained": 28,
+      "queries": 49,
+      "comparisons": 35125,
+      "wall_ns": 1733440
+    },
+    {
+      "stratum": "linked4",
+      "policy": "progressive",
+      "n": 32,
+      "correct": 30,
+      "wrong": 2,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 59918,
+      "wall_ns": 4251877
+    },
+    {
+      "stratum": "linked4",
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 1,
+      "wrong": 3,
+      "abstained": 28,
+      "queries": 50,
+      "comparisons": 53141,
+      "wall_ns": 2223726
+    },
+    {
+      "stratum": "linked4",
+      "policy": "full4",
+      "n": 32,
+      "correct": 29,
+      "wrong": 3,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 746904,
+      "wall_ns": 24932768
+    },
+    {
+      "stratum": "new4",
+      "policy": "full3",
+      "n": 32,
+      "correct": 0,
+      "wrong": 10,
+      "abstained": 22,
+      "queries": 81,
+      "comparisons": 115692,
+      "wall_ns": 4387360
+    },
+    {
+      "stratum": "new4",
+      "policy": "frozen",
+      "n": 32,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 31,
+      "queries": 38,
+      "comparisons": 34664,
+      "wall_ns": 1611256
+    },
+    {
+      "stratum": "new4",
+      "policy": "progressive",
+      "n": 32,
+      "correct": 0,
+      "wrong": 2,
+      "abstained": 30,
+      "queries": 46,
+      "comparisons": 53256,
+      "wall_ns": 2134986
+    },
+    {
+      "stratum": "new4",
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 0,
+      "wrong": 2,
+      "abstained": 30,
+      "queries": 40,
+      "comparisons": 53171,
+      "wall_ns": 2112056
+    },
+    {
+      "stratum": "new4",
+      "policy": "full4",
+      "n": 32,
+      "correct": 30,
+      "wrong": 2,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 743458,
+      "wall_ns": 24624390
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 3840017,
+      "policy": "full3",
+      "n": 32,
+      "correct": 16,
+      "wrong": 4,
+      "abstained": 12,
+      "queries": 141,
+      "comparisons": 115829,
+      "wall_ns": 5081924
+    },
+    {
+      "seed": 3840017,
+      "policy": "frozen",
+      "n": 32,
+      "correct": 9,
+      "wrong": 2,
+      "abstained": 21,
+      "queries": 89,
+      "comparisons": 36722,
+      "wall_ns": 2194372
+    },
+    {
+      "seed": 3840017,
+      "policy": "progressive",
+      "n": 32,
+      "correct": 15,
+      "wrong": 2,
+      "abstained": 15,
+      "queries": 113,
+      "comparisons": 56358,
+      "wall_ns": 3153239
+    },
+    {
+      "seed": 3840017,
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 9,
+      "wrong": 2,
+      "abstained": 21,
+      "queries": 89,
+      "comparisons": 53254,
+      "wall_ns": 2588505
+    },
+    {
+      "seed": 3840017,
+      "policy": "full4",
+      "n": 32,
+      "correct": 29,
+      "wrong": 3,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 728676,
+      "wall_ns": 24202468
+    },
+    {
+      "seed": 3870023,
+      "policy": "full3",
+      "n": 32,
+      "correct": 16,
+      "wrong": 7,
+      "abstained": 9,
+      "queries": 149,
+      "comparisons": 117095,
+      "wall_ns": 5126202
+    },
+    {
+      "seed": 3870023,
+      "policy": "frozen",
+      "n": 32,
+      "correct": 8,
+      "wrong": 4,
+      "abstained": 20,
+      "queries": 95,
+      "comparisons": 36270,
+      "wall_ns": 2343399
+    },
+    {
+      "seed": 3870023,
+      "policy": "progressive",
+      "n": 32,
+      "correct": 17,
+      "wrong": 3,
+      "abstained": 12,
+      "queries": 133,
+      "comparisons": 56390,
+      "wall_ns": 3306434
+    },
+    {
+      "seed": 3870023,
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 9,
+      "wrong": 5,
+      "abstained": 18,
+      "queries": 105,
+      "comparisons": 52926,
+      "wall_ns": 2793926
+    },
+    {
+      "seed": 3870023,
+      "policy": "full4",
+      "n": 32,
+      "correct": 31,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 707315,
+      "wall_ns": 22379346
+    },
+    {
+      "seed": 3900031,
+      "policy": "full3",
+      "n": 32,
+      "correct": 16,
+      "wrong": 2,
+      "abstained": 14,
+      "queries": 122,
+      "comparisons": 117758,
+      "wall_ns": 4791484
+    },
+    {
+      "seed": 3900031,
+      "policy": "frozen",
+      "n": 32,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 24,
+      "queries": 82,
+      "comparisons": 35456,
+      "wall_ns": 2167713
+    },
+    {
+      "seed": 3900031,
+      "policy": "progressive",
+      "n": 32,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 128,
+      "comparisons": 56473,
+      "wall_ns": 3125107
+    },
+    {
+      "seed": 3900031,
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 9,
+      "wrong": 0,
+      "abstained": 23,
+      "queries": 82,
+      "comparisons": 56107,
+      "wall_ns": 2705717
+    },
+    {
+      "seed": 3900031,
+      "policy": "full4",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 757464,
+      "wall_ns": 23268642
+    },
+    {
+      "seed": 3930041,
+      "policy": "full3",
+      "n": 32,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 106,
+      "comparisons": 115009,
+      "wall_ns": 4565819
+    },
+    {
+      "seed": 3930041,
+      "policy": "frozen",
+      "n": 32,
+      "correct": 8,
+      "wrong": 2,
+      "abstained": 22,
+      "queries": 70,
+      "comparisons": 36052,
+      "wall_ns": 2047485
+    },
+    {
+      "seed": 3930041,
+      "policy": "progressive",
+      "n": 32,
+      "correct": 15,
+      "wrong": 3,
+      "abstained": 14,
+      "queries": 119,
+      "comparisons": 54359,
+      "wall_ns": 2971267
+    },
+    {
+      "seed": 3930041,
+      "policy": "random_macros",
+      "n": 32,
+      "correct": 9,
+      "wrong": 2,
+      "abstained": 21,
+      "queries": 77,
+      "comparisons": 53170,
+      "wall_ns": 2421036
+    },
+    {
+      "seed": 3930041,
+      "policy": "full4",
+      "n": 32,
+      "correct": 31,
+      "wrong": 1,
+      "abstained": 0,
+      "queries": 192,
+      "comparisons": 691063,
+      "wall_ns": 19459181
+    }
+  ],
+  "paired_progressive": {
+    "frozen": {
+      "gains": 30,
+      "losses": 0
+    },
+    "random_macros": {
+      "gains": 30,
+      "losses": 3
+    },
+    "full4": {
+      "gains": 1,
+      "losses": 61
+    }
+  }
+}
