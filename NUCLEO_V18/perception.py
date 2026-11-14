@@ -116,7 +116,7 @@ class Tests(unittest.TestCase):
             for t in ts:
                 self.assertEqual(len(initial_hypotheses({p:target(t,p) for p in INITIAL})),25)
     def test_single(self):
-        t=next(t for t in tasks(SEEDS[0]) if t["family"]=="single")
+        t=dict(family="single",coefs=(1,-2,3),parts=((0,1,9,1),))
         e,trace,_,remaining=investigate({p:target(t,p) for p in INITIAL},lambda p:target(t,p),"fixed",9)
         self.assertEqual(remaining,1)
         self.assertTrue(all(value(e,p)==target(t,p) for p in RESERVED))
