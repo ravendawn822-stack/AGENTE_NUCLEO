@@ -1,0 +1,505 @@
+{
+  "protocol": "V18-active-observation-v1",
+  "seeds": [
+    2880017,
+    2910023,
+    2940031,
+    2970041
+  ],
+  "aggregate": [
+    {
+      "policy": "naive",
+      "n": 128,
+      "correct": 4,
+      "wrong": 124,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 14882473
+    },
+    {
+      "policy": "no_query",
+      "n": 128,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 128,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 14670914
+    },
+    {
+      "policy": "fixed",
+      "n": 128,
+      "correct": 68,
+      "wrong": 11,
+      "abstained": 49,
+      "queries": 372,
+      "hypothesis_evaluations": 6140,
+      "wall_ns": 17699379
+    },
+    {
+      "policy": "random",
+      "n": 128,
+      "correct": 39,
+      "wrong": 10,
+      "abstained": 79,
+      "queries": 419,
+      "hypothesis_evaluations": 8600,
+      "wall_ns": 17366519
+    },
+    {
+      "policy": "informative",
+      "n": 128,
+      "correct": 100,
+      "wrong": 15,
+      "abstained": 13,
+      "queries": 312,
+      "hypothesis_evaluations": 97204,
+      "wall_ns": 39123809
+    }
+  ],
+  "by_family": [
+    {
+      "family": "linear",
+      "policy": "naive",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 474368
+    },
+    {
+      "family": "linear",
+      "policy": "no_query",
+      "n": 4,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 462551
+    },
+    {
+      "family": "linear",
+      "policy": "fixed",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 16,
+      "hypothesis_evaluations": 256,
+      "wall_ns": 542662
+    },
+    {
+      "family": "linear",
+      "policy": "random",
+      "n": 4,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 16,
+      "hypothesis_evaluations": 324,
+      "wall_ns": 547598
+    },
+    {
+      "family": "linear",
+      "policy": "informative",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 16,
+      "hypothesis_evaluations": 4088,
+      "wall_ns": 1432350
+    },
+    {
+      "family": "single",
+      "policy": "naive",
+      "n": 96,
+      "correct": 0,
+      "wrong": 96,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 11148931
+    },
+    {
+      "family": "single",
+      "policy": "no_query",
+      "n": 96,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 96,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 11018214
+    },
+    {
+      "family": "single",
+      "policy": "fixed",
+      "n": 96,
+      "correct": 64,
+      "wrong": 0,
+      "abstained": 32,
+      "queries": 288,
+      "hypothesis_evaluations": 4656,
+      "wall_ns": 13533412
+    },
+    {
+      "family": "single",
+      "policy": "random",
+      "n": 96,
+      "correct": 39,
+      "wrong": 0,
+      "abstained": 57,
+      "queries": 320,
+      "hypothesis_evaluations": 6524,
+      "wall_ns": 13078142
+    },
+    {
+      "family": "single",
+      "policy": "informative",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 240,
+      "hypothesis_evaluations": 74400,
+      "wall_ns": 29936453
+    },
+    {
+      "family": "quadratic",
+      "policy": "naive",
+      "n": 16,
+      "correct": 0,
+      "wrong": 16,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 1851648
+    },
+    {
+      "family": "quadratic",
+      "policy": "no_query",
+      "n": 16,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 1810507
+    },
+    {
+      "family": "quadratic",
+      "policy": "fixed",
+      "n": 16,
+      "correct": 0,
+      "wrong": 3,
+      "abstained": 13,
+      "queries": 39,
+      "hypothesis_evaluations": 741,
+      "wall_ns": 2076773
+    },
+    {
+      "family": "quadratic",
+      "policy": "random",
+      "n": 16,
+      "correct": 0,
+      "wrong": 4,
+      "abstained": 12,
+      "queries": 44,
+      "hypothesis_evaluations": 948,
+      "wall_ns": 2123914
+    },
+    {
+      "family": "quadratic",
+      "policy": "informative",
+      "n": 16,
+      "correct": 0,
+      "wrong": 3,
+      "abstained": 13,
+      "queries": 41,
+      "hypothesis_evaluations": 12704,
+      "wall_ns": 4917111
+    },
+    {
+      "family": "double",
+      "policy": "naive",
+      "n": 12,
+      "correct": 0,
+      "wrong": 12,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 1407526
+    },
+    {
+      "family": "double",
+      "policy": "no_query",
+      "n": 12,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 12,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 1379642
+    },
+    {
+      "family": "double",
+      "policy": "fixed",
+      "n": 12,
+      "correct": 0,
+      "wrong": 8,
+      "abstained": 4,
+      "queries": 29,
+      "hypothesis_evaluations": 487,
+      "wall_ns": 1546532
+    },
+    {
+      "family": "double",
+      "policy": "random",
+      "n": 12,
+      "correct": 0,
+      "wrong": 6,
+      "abstained": 6,
+      "queries": 39,
+      "hypothesis_evaluations": 804,
+      "wall_ns": 1616865
+    },
+    {
+      "family": "double",
+      "policy": "informative",
+      "n": 12,
+      "correct": 0,
+      "wrong": 12,
+      "abstained": 0,
+      "queries": 15,
+      "hypothesis_evaluations": 6012,
+      "wall_ns": 2837895
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 2880017,
+      "policy": "naive",
+      "n": 32,
+      "correct": 1,
+      "wrong": 31,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3743349
+    },
+    {
+      "seed": 2880017,
+      "policy": "no_query",
+      "n": 32,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 32,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3677618
+    },
+    {
+      "seed": 2880017,
+      "policy": "fixed",
+      "n": 32,
+      "correct": 17,
+      "wrong": 4,
+      "abstained": 11,
+      "queries": 93,
+      "hypothesis_evaluations": 1569,
+      "wall_ns": 4200927
+    },
+    {
+      "seed": 2880017,
+      "policy": "random",
+      "n": 32,
+      "correct": 12,
+      "wrong": 1,
+      "abstained": 19,
+      "queries": 98,
+      "hypothesis_evaluations": 2061,
+      "wall_ns": 4345744
+    },
+    {
+      "seed": 2880017,
+      "policy": "informative",
+      "n": 32,
+      "correct": 25,
+      "wrong": 4,
+      "abstained": 3,
+      "queries": 76,
+      "hypothesis_evaluations": 23693,
+      "wall_ns": 9535951
+    },
+    {
+      "seed": 2910023,
+      "policy": "naive",
+      "n": 32,
+      "correct": 1,
+      "wrong": 31,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3722328
+    },
+    {
+      "seed": 2910023,
+      "policy": "no_query",
+      "n": 32,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 32,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3710658
+    },
+    {
+      "seed": 2910023,
+      "policy": "fixed",
+      "n": 32,
+      "correct": 17,
+      "wrong": 4,
+      "abstained": 11,
+      "queries": 89,
+      "hypothesis_evaluations": 1493,
+      "wall_ns": 5232947
+    },
+    {
+      "seed": 2910023,
+      "policy": "random",
+      "n": 32,
+      "correct": 9,
+      "wrong": 2,
+      "abstained": 21,
+      "queries": 115,
+      "hypothesis_evaluations": 2352,
+      "wall_ns": 4399638
+    },
+    {
+      "seed": 2910023,
+      "policy": "informative",
+      "n": 32,
+      "correct": 25,
+      "wrong": 4,
+      "abstained": 3,
+      "queries": 80,
+      "hypothesis_evaluations": 24909,
+      "wall_ns": 9549230
+    },
+    {
+      "seed": 2940031,
+      "policy": "naive",
+      "n": 32,
+      "correct": 1,
+      "wrong": 31,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3782252
+    },
+    {
+      "seed": 2940031,
+      "policy": "no_query",
+      "n": 32,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 32,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3712880
+    },
+    {
+      "seed": 2940031,
+      "policy": "fixed",
+      "n": 32,
+      "correct": 17,
+      "wrong": 3,
+      "abstained": 12,
+      "queries": 93,
+      "hypothesis_evaluations": 1518,
+      "wall_ns": 4163825
+    },
+    {
+      "seed": 2940031,
+      "policy": "random",
+      "n": 32,
+      "correct": 11,
+      "wrong": 5,
+      "abstained": 16,
+      "queries": 97,
+      "hypothesis_evaluations": 1996,
+      "wall_ns": 4368650
+    },
+    {
+      "seed": 2940031,
+      "policy": "informative",
+      "n": 32,
+      "correct": 25,
+      "wrong": 4,
+      "abstained": 3,
+      "queries": 79,
+      "hypothesis_evaluations": 24605,
+      "wall_ns": 9408405
+    },
+    {
+      "seed": 2970041,
+      "policy": "naive",
+      "n": 32,
+      "correct": 1,
+      "wrong": 31,
+      "abstained": 0,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3634544
+    },
+    {
+      "seed": 2970041,
+      "policy": "no_query",
+      "n": 32,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 32,
+      "queries": 0,
+      "hypothesis_evaluations": 0,
+      "wall_ns": 3569758
+    },
+    {
+      "seed": 2970041,
+      "policy": "fixed",
+      "n": 32,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 15,
+      "queries": 97,
+      "hypothesis_evaluations": 1560,
+      "wall_ns": 4101680
+    },
+    {
+      "seed": 2970041,
+      "policy": "random",
+      "n": 32,
+      "correct": 7,
+      "wrong": 2,
+      "abstained": 23,
+      "queries": 109,
+      "hypothesis_evaluations": 2191,
+      "wall_ns": 4252487
+    },
+    {
+      "seed": 2970041,
+      "policy": "informative",
+      "n": 32,
+      "correct": 25,
+      "wrong": 3,
+      "abstained": 4,
+      "queries": 77,
+      "hypothesis_evaluations": 23997,
+      "wall_ns": 10630223
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "raw.jsonl",
+    "bytes": 421894,
+    "sha256": "b584e4def1f6bfaade4b8c4d0d4ca1bbb8530a4c6e565a0a63f7191e0711cac9"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 10124,
+    "sha256": "b6f54c3286a731ef54d7005442cc8d5a2b6dda4edec3b9108f8261ea637bbede"
+  }
+]
