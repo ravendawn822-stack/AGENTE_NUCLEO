@@ -1,0 +1,1642 @@
+{
+  "source_run": 43646694408,
+  "source_commit": "4a0fe9c07546a75a36dd5aefe4bf1b766d33273c",
+  "artifacts": [
+    {
+      "id": 14134003624,
+      "name": "nucleo-v4-1-results",
+      "size_in_bytes": 199637,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134003624",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134003624/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:10:49Z",
+      "expires_at": "2026-12-14T22:10:48Z",
+      "updated_at": "2026-11-14T22:10:49Z",
+      "digest": "sha256:bc9f12dc4b36943d57ab4047d7bdba41c83de7da28743f64fb56ee27fb5c0179",
+      "workflow_run": {
+        "id": 43646694408,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "4a0fe9c07546a75a36dd5aefe4bf1b766d33273c"
+      }
+    }
+  ],
+  "result": {
+    "aggregate": [
+      {
+        "abstained": 200,
+        "correct": 40,
+        "guard_refutations": 2,
+        "mean_decision_ns": 225361.05416666667,
+        "mean_queries": 100.95,
+        "n": 240,
+        "policy": "stateless",
+        "selected": {
+          "none": 40,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 161,
+        "correct": 79,
+        "guard_refutations": 1,
+        "mean_decision_ns": 266223.475,
+        "mean_queries": 107.64583333333333,
+        "n": 240,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 79,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 100,
+        "correct": 124,
+        "guard_refutations": 100,
+        "mean_decision_ns": 1146519.4208333334,
+        "mean_queries": 136.63333333333333,
+        "n": 240,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 27,
+          "phase2": 29,
+          "phase3": 31,
+          "phase4": 27,
+          "prev_sign": 26
+        },
+        "wrong": 16
+      },
+      {
+        "abstained": 46,
+        "correct": 193,
+        "guard_refutations": 48,
+        "mean_decision_ns": 686607.4291666667,
+        "mean_queries": 134.2,
+        "n": 240,
+        "policy": "memory_active",
+        "selected": {
+          "none": 40,
+          "phase2": 39,
+          "phase3": 37,
+          "phase4": 39,
+          "prev_sign": 39
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 45,
+        "correct": 194,
+        "guard_refutations": 48,
+        "mean_decision_ns": 421289.79583333334,
+        "mean_queries": 134.225,
+        "n": 240,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 40,
+          "phase2": 39,
+          "phase3": 38,
+          "phase4": 39,
+          "prev_sign": 39
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 45,
+        "correct": 194,
+        "guard_refutations": 46,
+        "mean_decision_ns": 1188342.125,
+        "mean_queries": 402.125,
+        "n": 240,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 40,
+          "phase2": 39,
+          "phase3": 38,
+          "phase4": 39,
+          "prev_sign": 39
+        },
+        "wrong": 1
+      }
+    ],
+    "banks_sha256": "849011c7c6201a23f66ff2490eca6a29aee96ced9eb8bed7b4343780e770686e",
+    "by_family": [
+      {
+        "abstained": 0,
+        "correct": 40,
+        "family": "stateless",
+        "guard_refutations": 0,
+        "mean_decision_ns": 334391.05,
+        "mean_queries": 115,
+        "n": 40,
+        "policy": "stateless",
+        "selected": {
+          "none": 40,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "phase2",
+        "guard_refutations": 2,
+        "mean_decision_ns": 233120.6,
+        "mean_queries": 98.7,
+        "n": 40,
+        "policy": "stateless",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "phase3",
+        "guard_refutations": 0,
+        "mean_decision_ns": 231147.825,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "stateless",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "phase4",
+        "guard_refutations": 0,
+        "mean_decision_ns": 236356.75,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "stateless",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_sign",
+        "guard_refutations": 0,
+        "mean_decision_ns": 216564.2,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "stateless",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_exact",
+        "guard_refutations": 0,
+        "mean_decision_ns": 100585.9,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "stateless",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 40,
+        "family": "stateless",
+        "guard_refutations": 0,
+        "mean_decision_ns": 451173.375,
+        "mean_queries": 127,
+        "n": 40,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 40,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase2",
+        "guard_refutations": 1,
+        "mean_decision_ns": 375990.125,
+        "mean_queries": 126.875,
+        "n": 40,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 39,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "phase3",
+        "guard_refutations": 0,
+        "mean_decision_ns": 231448.475,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "phase4",
+        "guard_refutations": 0,
+        "mean_decision_ns": 236598.875,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_sign",
+        "guard_refutations": 0,
+        "mean_decision_ns": 209281.8,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_exact",
+        "guard_refutations": 0,
+        "mean_decision_ns": 92848.2,
+        "mean_queries": 98,
+        "n": 40,
+        "policy": "phase2",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 13,
+        "correct": 26,
+        "family": "stateless",
+        "guard_refutations": 40,
+        "mean_decision_ns": 2143494,
+        "mean_queries": 129.175,
+        "n": 40,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 27,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 11,
+        "correct": 25,
+        "family": "phase2",
+        "guard_refutations": 14,
+        "mean_decision_ns": 1038296.225,
+        "mean_queries": 132.275,
+        "n": 40,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 0,
+          "phase2": 29,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 4
+      },
+      {
+        "abstained": 9,
+        "correct": 28,
+        "family": "phase3",
+        "guard_refutations": 3,
+        "mean_decision_ns": 921286.5,
+        "mean_queries": 137.95,
+        "n": 40,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 31,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 3
+      },
+      {
+        "abstained": 13,
+        "correct": 20,
+        "family": "phase4",
+        "guard_refutations": 2,
+        "mean_decision_ns": 1228123.775,
+        "mean_queries": 149.275,
+        "n": 40,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 27,
+          "prev_sign": 0
+        },
+        "wrong": 7
+      },
+      {
+        "abstained": 14,
+        "correct": 25,
+        "family": "prev_sign",
+        "guard_refutations": 4,
+        "mean_decision_ns": 972636.6,
+        "mean_queries": 137.2,
+        "n": 40,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 26
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_exact",
+        "guard_refutations": 37,
+        "mean_decision_ns": 575279.425,
+        "mean_queries": 133.925,
+        "n": 40,
+        "policy": "primitive_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 40,
+        "family": "stateless",
+        "guard_refutations": 0,
+        "mean_decision_ns": 399433.55,
+        "mean_queries": 115,
+        "n": 40,
+        "policy": "memory_active",
+        "selected": {
+          "none": 40,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase2",
+        "guard_refutations": 4,
+        "mean_decision_ns": 608135.375,
+        "mean_queries": 127.475,
+        "n": 40,
+        "policy": "memory_active",
+        "selected": {
+          "none": 0,
+          "phase2": 39,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 3,
+        "correct": 37,
+        "family": "phase3",
+        "guard_refutations": 2,
+        "mean_decision_ns": 746760.05,
+        "mean_queries": 138.725,
+        "n": 40,
+        "policy": "memory_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 37,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase4",
+        "guard_refutations": 1,
+        "mean_decision_ns": 1097640.775,
+        "mean_queries": 151,
+        "n": 40,
+        "policy": "memory_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 39,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 38,
+        "family": "prev_sign",
+        "guard_refutations": 1,
+        "mean_decision_ns": 814393.65,
+        "mean_queries": 139,
+        "n": 40,
+        "policy": "memory_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 39
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_exact",
+        "guard_refutations": 40,
+        "mean_decision_ns": 453281.175,
+        "mean_queries": 134,
+        "n": 40,
+        "policy": "memory_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 40,
+        "family": "stateless",
+        "guard_refutations": 0,
+        "mean_decision_ns": 303840.25,
+        "mean_queries": 115,
+        "n": 40,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 40,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase2",
+        "guard_refutations": 4,
+        "mean_decision_ns": 388108.5,
+        "mean_queries": 127.475,
+        "n": 40,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 0,
+          "phase2": 39,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 2,
+        "correct": 38,
+        "family": "phase3",
+        "guard_refutations": 2,
+        "mean_decision_ns": 453849.125,
+        "mean_queries": 138.875,
+        "n": 40,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 38,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase4",
+        "guard_refutations": 1,
+        "mean_decision_ns": 539063.85,
+        "mean_queries": 151,
+        "n": 40,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 39,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 38,
+        "family": "prev_sign",
+        "guard_refutations": 1,
+        "mean_decision_ns": 508323.125,
+        "mean_queries": 139,
+        "n": 40,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 39
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_exact",
+        "guard_refutations": 40,
+        "mean_decision_ns": 334553.925,
+        "mean_queries": 134,
+        "n": 40,
+        "policy": "lesson_active",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 40,
+        "family": "stateless",
+        "guard_refutations": 0,
+        "mean_decision_ns": 901314,
+        "mean_queries": 403,
+        "n": 40,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 40,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase2",
+        "guard_refutations": 2,
+        "mean_decision_ns": 1407593,
+        "mean_queries": 402.875,
+        "n": 40,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 0,
+          "phase2": 39,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 2,
+        "correct": 38,
+        "family": "phase3",
+        "guard_refutations": 2,
+        "mean_decision_ns": 1366931.35,
+        "mean_queries": 402.875,
+        "n": 40,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 38,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 39,
+        "family": "phase4",
+        "guard_refutations": 1,
+        "mean_decision_ns": 1293317.75,
+        "mean_queries": 403,
+        "n": 40,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 39,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      },
+      {
+        "abstained": 1,
+        "correct": 38,
+        "family": "prev_sign",
+        "guard_refutations": 1,
+        "mean_decision_ns": 1327497.475,
+        "mean_queries": 403,
+        "n": 40,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 39
+        },
+        "wrong": 1
+      },
+      {
+        "abstained": 40,
+        "correct": 0,
+        "family": "prev_exact",
+        "guard_refutations": 40,
+        "mean_decision_ns": 833399.175,
+        "mean_queries": 398,
+        "n": 40,
+        "policy": "lesson_dense",
+        "selected": {
+          "none": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "phase4": 0,
+          "prev_sign": 0
+        },
+        "wrong": 0
+      }
+    ],
+    "episodes": 1440,
+    "examples": [
+      {
+        "events": [
+          {
+            "model": "none",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase2",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase3",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase4",
+            "status": "contradicted"
+          },
+          {
+            "model": "prev_sign",
+            "rules": 3,
+            "status": "candidate"
+          }
+        ],
+        "program": {
+          "model": "prev_sign",
+          "origins": [
+            [
+              {
+                "contract": [
+                  "square",
+                  5,
+                  1
+                ],
+                "group": "shape",
+                "kind": "offline_lesson"
+              },
+              {
+                "binding": [
+                  -2
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/23"
+                ],
+                "template": [
+                  15,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      2,
+                      -5
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "binding": [
+                  -5
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/14",
+                  "750019/4"
+                ],
+                "template": [
+                  14,
+                  [
+                    90,
+                    0
+                  ],
+                  [
+                    1
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "binding": [
+                  2
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/0",
+                  "750019/12",
+                  "750019/16"
+                ],
+                "template": [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          "rules": [
+            [
+              10,
+              [
+                12,
+                [
+                  11,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    5
+                  ]
+                ],
+                [
+                  11,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    5
+                  ]
+                ]
+              ],
+              [
+                15,
+                [
+                  2,
+                  -2
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -5
+                  ]
+                ]
+              ]
+            ],
+            [
+              14,
+              [
+                2,
+                -5
+              ],
+              [
+                1
+              ]
+            ],
+            [
+              10,
+              [
+                1
+              ],
+              [
+                10,
+                [
+                  1
+                ],
+                [
+                  2,
+                  2
+                ]
+              ]
+            ]
+          ]
+        },
+        "task": {
+          "family": "prev_sign",
+          "id": "1110011/prev_sign/9",
+          "terms": [
+            [
+              [
+                "square",
+                5,
+                1
+              ],
+              [
+                "mod",
+                5,
+                3
+              ]
+            ],
+            [
+              [
+                "lt",
+                -5,
+                1
+              ]
+            ],
+            [
+              [
+                "linear",
+                2,
+                2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "events": [
+          {
+            "model": "none",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase2",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase3",
+            "rules": 3,
+            "status": "candidate"
+          }
+        ],
+        "program": {
+          "model": "phase3",
+          "origins": [
+            [
+              {
+                "binding": [
+                  -3,
+                  0
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/23"
+                ],
+                "template": [
+                  15,
+                  [
+                    90,
+                    1
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "contract": [
+                  "square",
+                  -4,
+                  1
+                ],
+                "group": "shape",
+                "kind": "offline_lesson"
+              }
+            ],
+            [
+              {
+                "contract": [
+                  "abs",
+                  -3,
+                  1
+                ],
+                "group": "shape",
+                "kind": "offline_lesson"
+              },
+              {
+                "contract": [
+                  "abs",
+                  1,
+                  1
+                ],
+                "group": "shape",
+                "kind": "offline_lesson"
+              }
+            ]
+          ],
+          "rules": [
+            [
+              15,
+              [
+                2,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -3
+                ]
+              ]
+            ],
+            [
+              12,
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -4
+                ]
+              ],
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -4
+                ]
+              ]
+            ],
+            [
+              10,
+              [
+                3,
+                [
+                  11,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -3
+                  ]
+                ]
+              ],
+              [
+                3,
+                [
+                  11,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    1
+                  ]
+                ]
+              ]
+            ]
+          ]
+        },
+        "task": {
+          "family": "phase3",
+          "id": "1110011/phase3/4",
+          "terms": [
+            [
+              [
+                "mod",
+                3,
+                0
+              ]
+            ],
+            [
+              [
+                "square",
+                -4,
+                1
+              ]
+            ],
+            [
+              [
+                "abs",
+                -3,
+                1
+              ],
+              [
+                "abs",
+                1,
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "events": [
+          {
+            "model": "none",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase2",
+            "rules": 2,
+            "status": "candidate"
+          }
+        ],
+        "program": {
+          "model": "phase2",
+          "origins": [
+            [
+              {
+                "binding": [
+                  -2
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/23"
+                ],
+                "template": [
+                  15,
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              },
+              {
+                "binding": [
+                  -3,
+                  -1
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/7"
+                ],
+                "template": [
+                  14,
+                  [
+                    90,
+                    1
+                  ],
+                  [
+                    13,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "binding": [
+                  0
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/17"
+                ],
+                "template": [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              }
+            ]
+          ],
+          "rules": [
+            [
+              10,
+              [
+                15,
+                [
+                  2,
+                  -1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -2
+                  ]
+                ]
+              ],
+              [
+                14,
+                [
+                  2,
+                  -1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -3
+                  ]
+                ]
+              ]
+            ],
+            [
+              14,
+              [
+                1
+              ],
+              [
+                2,
+                0
+              ]
+            ]
+          ]
+        },
+        "task": {
+          "family": "phase2",
+          "id": "1110011/phase2/0",
+          "terms": [
+            [
+              [
+                "mod",
+                3,
+                1
+              ],
+              [
+                "mod",
+                2,
+                1
+              ]
+            ],
+            [
+              [
+                "gt",
+                0,
+                1
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "events": [
+          {
+            "model": "none",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase2",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase3",
+            "status": "contradicted"
+          },
+          {
+            "model": "phase4",
+            "status": "contradicted"
+          },
+          {
+            "model": "prev_sign",
+            "rules": 3,
+            "status": "candidate"
+          }
+        ],
+        "program": {
+          "model": "prev_sign",
+          "origins": [
+            [
+              {
+                "kind": "literal",
+                "origins": [
+                  "750019/17"
+                ]
+              }
+            ],
+            [
+              {
+                "binding": [
+                  -3
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/17"
+                ],
+                "template": [
+                  14,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "contract": [
+                  "square",
+                  -3,
+                  1
+                ],
+                "group": "shape",
+                "kind": "offline_lesson"
+              },
+              {
+                "binding": [
+                  8
+                ],
+                "kind": "schema",
+                "origins": [
+                  "750019/0",
+                  "750019/12",
+                  "750019/16"
+                ],
+                "template": [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    10,
+                    [
+                      1
+                    ],
+                    [
+                      90,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          "rules": [
+            [
+              14,
+              [
+                1
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            [
+              14,
+              [
+                1
+              ],
+              [
+                2,
+                -3
+              ]
+            ],
+            [
+              11,
+              [
+                12,
+                [
+                  11,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -3
+                  ]
+                ],
+                [
+                  11,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -3
+                  ]
+                ]
+              ],
+              [
+                10,
+                [
+                  1
+                ],
+                [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    8
+                  ]
+                ]
+              ]
+            ]
+          ]
+        },
+        "task": {
+          "family": "prev_sign",
+          "id": "1110011/prev_sign/6",
+          "terms": [
+            [
+              [
+                "gt",
+                2,
+                1
+              ]
+            ],
+            [
+              [
+                "gt",
+                -3,
+                1
+              ]
+            ],
+            [
+              [
+                "linear",
+                2,
+                0
+              ],
+              [
+                "square",
+                -1,
+                1
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "index_cost": [
+      {
+        "indexes": {
+          "lesson": {
+            "build_ns": 50501949,
+            "entries": 45125,
+            "pool": 353
+          },
+          "memory": {
+            "build_ns": 62375432,
+            "entries": 43224,
+            "pool": 343
+          },
+          "primitive": {
+            "build_ns": 52226826,
+            "entries": 38061,
+            "pool": 401
+          }
+        },
+        "seed": 1110011
+      },
+      {
+        "indexes": {
+          "lesson": {
+            "build_ns": 52766869,
+            "entries": 41818,
+            "pool": 460
+          },
+          "memory": {
+            "build_ns": 52337212,
+            "entries": 40370,
+            "pool": 450
+          },
+          "primitive": {
+            "build_ns": 52317351,
+            "entries": 38061,
+            "pool": 401
+          }
+        },
+        "seed": 1140017
+      },
+      {
+        "indexes": {
+          "lesson": {
+            "build_ns": 78781006,
+            "entries": 43044,
+            "pool": 341
+          },
+          "memory": {
+            "build_ns": 67475489,
+            "entries": 40961,
+            "pool": 331
+          },
+          "primitive": {
+            "build_ns": 51407171,
+            "entries": 38061,
+            "pool": 401
+          }
+        },
+        "seed": 1170013
+      },
+      {
+        "indexes": {
+          "lesson": {
+            "build_ns": 57423253,
+            "entries": 46740,
+            "pool": 500
+          },
+          "memory": {
+            "build_ns": 53598080,
+            "entries": 42579,
+            "pool": 500
+          },
+          "primitive": {
+            "build_ns": 53720804,
+            "entries": 38061,
+            "pool": 401
+          }
+        },
+        "seed": 1200007
+      }
+    ],
+    "prior_sha256": "2ada096e165e1ce8da73c2ba1218fd7de7c9d8c8ecd6c0dfaa9a1b9cd8b5bbfe",
+    "protocol": "NUCLEO_V4_1-state-v1",
+    "seeds": [
+      1110011,
+      1140017,
+      1170013,
+      1200007
+    ]
+  }
+}
