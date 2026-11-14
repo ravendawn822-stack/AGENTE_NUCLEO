@@ -1,0 +1,1869 @@
+{
+  "protocol": "V35-declarative-source-rewrite-v1",
+  "seeds": [
+    5040017,
+    5070023,
+    5100031,
+    5130041
+  ],
+  "decisions": [
+    {
+      "replica": 5040017,
+      "mutation": [
+        "pairs",
+        "distance"
+      ],
+      "installed": [
+        "pairs",
+        "distance"
+      ],
+      "random": [
+        "pairs",
+        "distance"
+      ],
+      "random_installed": [
+        "pairs",
+        "distance"
+      ],
+      "mutation_trials": 9,
+      "random_trials": 9,
+      "mutation_trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "min",
+                "distance",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "min",
+                "pairs",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "add",
+                "zero",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "min",
+                "worst",
+                "pairs"
+              ]
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "add",
+                "zero",
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "min",
+                "pairs",
+                "worst"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "worst",
+                "zero"
+              ]
+            ],
+            [
+              "pairs",
+              "worst"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "chosen": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "zero",
+                "pairs"
+              ],
+              [
+                "min",
+                "zero",
+                [
+                  "sub",
+                  [
+                    "sub",
+                    "worst",
+                    "distance"
+                  ],
+                  "worst"
+                ]
+              ]
+            ],
+            [
+              [
+                "sub",
+                [
+                  "add",
+                  "distance",
+                  "pairs"
+                ],
+                [
+                  "max",
+                  [
+                    "add",
+                    "length",
+                    "zero"
+                  ],
+                  [
+                    "max",
+                    "distance",
+                    "zero"
+                  ]
+                ]
+              ],
+              [
+                "max",
+                [
+                  "max",
+                  [
+                    "sub",
+                    "pairs",
+                    "zero"
+                  ],
+                  [
+                    "add",
+                    "distance",
+                    "pairs"
+                  ]
+                ],
+                "worst"
+              ]
+            ],
+            [
+              [
+                "min",
+                "distance",
+                "distance"
+              ],
+              "zero"
+            ],
+            [
+              [
+                "add",
+                [
+                  "sub",
+                  "pairs",
+                  [
+                    "sub",
+                    "worst",
+                    "distance"
+                  ]
+                ],
+                [
+                  "add",
+                  "pairs",
+                  [
+                    "max",
+                    "worst",
+                    "zero"
+                  ]
+                ]
+              ],
+              [
+                "sub",
+                "length",
+                [
+                  "max",
+                  [
+                    "sub",
+                    "distance",
+                    "distance"
+                  ],
+                  [
+                    "sub",
+                    "pairs",
+                    "distance"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "min",
+                [
+                  "min",
+                  [
+                    "sub",
+                    "distance",
+                    "distance"
+                  ],
+                  [
+                    "min",
+                    "pairs",
+                    "worst"
+                  ]
+                ],
+                "worst"
+              ],
+              [
+                "max",
+                "worst",
+                "pairs"
+              ]
+            ],
+            [
+              [
+                "sub",
+                "pairs",
+                "zero"
+              ],
+              [
+                "add",
+                [
+                  "max",
+                  [
+                    "add",
+                    "length",
+                    "pairs"
+                  ],
+                  [
+                    "add",
+                    "pairs",
+                    "pairs"
+                  ]
+                ],
+                [
+                  "sub",
+                  [
+                    "sub",
+                    "zero",
+                    "zero"
+                  ],
+                  [
+                    "add",
+                    "length",
+                    "pairs"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "length",
+              [
+                "sub",
+                "distance",
+                [
+                  "min",
+                  [
+                    "add",
+                    "worst",
+                    "zero"
+                  ],
+                  [
+                    "add",
+                    "zero",
+                    "worst"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "sub",
+                "length",
+                [
+                  "min",
+                  "distance",
+                  "pairs"
+                ]
+              ],
+              [
+                "max",
+                "length",
+                "worst"
+              ]
+            ]
+          ]
+        }
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "development_sha": "295c5b6f58eca0a32b26401be0b28abda85224269c9d50d0b46e98d68f78d48b",
+      "baseline_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 148,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19595,
+        "wall_ns": 12109765,
+        "score": 2952
+      },
+      "mutation_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 148,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19595,
+        "wall_ns": 11515690,
+        "score": 2952
+      },
+      "random_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 148,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19595,
+        "wall_ns": 11451011,
+        "score": 2952
+      },
+      "development_cost": {
+        "n": 840,
+        "correct": 602,
+        "wrong": 33,
+        "abstained": 205,
+        "appropriate_abstention": 192,
+        "evaluation_calls": 50800,
+        "environments": 105,
+        "probes": 3294,
+        "classified": 984,
+        "false_identity": 51,
+        "cost": 468923,
+        "wall_ns": 387775072,
+        "score": 52226
+      }
+    },
+    {
+      "replica": 5070023,
+      "mutation": [
+        "pairs",
+        "distance"
+      ],
+      "installed": [
+        "pairs",
+        "distance"
+      ],
+      "random": [
+        "pairs",
+        "distance"
+      ],
+      "random_installed": [
+        "pairs",
+        "distance"
+      ],
+      "mutation_trials": 9,
+      "random_trials": 9,
+      "mutation_trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "sub",
+                "length",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "max",
+                "pairs",
+                "worst"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "zero",
+                "length"
+              ]
+            ],
+            [
+              [
+                "sub",
+                "distance",
+                "pairs"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              [
+                "max",
+                "distance",
+                "distance"
+              ]
+            ],
+            [
+              [
+                "add",
+                "worst",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "pairs",
+                "pairs"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "min",
+                "distance",
+                "pairs"
+              ]
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "chosen": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "distance",
+                [
+                  "add",
+                  [
+                    "max",
+                    "zero",
+                    "length"
+                  ],
+                  [
+                    "min",
+                    "length",
+                    "zero"
+                  ]
+                ]
+              ],
+              "length"
+            ],
+            [
+              "pairs",
+              "worst"
+            ],
+            [
+              [
+                "sub",
+                "length",
+                [
+                  "sub",
+                  [
+                    "max",
+                    "zero",
+                    "worst"
+                  ],
+                  [
+                    "sub",
+                    "worst",
+                    "pairs"
+                  ]
+                ]
+              ],
+              [
+                "sub",
+                "zero",
+                [
+                  "min",
+                  [
+                    "max",
+                    "length",
+                    "worst"
+                  ],
+                  [
+                    "max",
+                    "worst",
+                    "zero"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "worst",
+              [
+                "add",
+                [
+                  "min",
+                  "length",
+                  "distance"
+                ],
+                "pairs"
+              ]
+            ],
+            [
+              [
+                "max",
+                "pairs",
+                [
+                  "max",
+                  [
+                    "max",
+                    "distance",
+                    "distance"
+                  ],
+                  "pairs"
+                ]
+              ],
+              [
+                "min",
+                "pairs",
+                "pairs"
+              ]
+            ],
+            [
+              [
+                "max",
+                [
+                  "add",
+                  "length",
+                  [
+                    "max",
+                    "distance",
+                    "length"
+                  ]
+                ],
+                [
+                  "min",
+                  "worst",
+                  "pairs"
+                ]
+              ],
+              [
+                "min",
+                "zero",
+                [
+                  "sub",
+                  [
+                    "max",
+                    "length",
+                    "worst"
+                  ],
+                  "zero"
+                ]
+              ]
+            ],
+            [
+              [
+                "max",
+                "zero",
+                "distance"
+              ],
+              [
+                "min",
+                "pairs",
+                [
+                  "add",
+                  "zero",
+                  "zero"
+                ]
+              ]
+            ],
+            [
+              "worst",
+              "distance"
+            ]
+          ]
+        }
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "development_sha": "2e3819d04ca2b52b57014fb01fa14bb4f6a0de7023459205073d25788e91d24a",
+      "baseline_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 148,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19596,
+        "wall_ns": 11895040,
+        "score": 2952
+      },
+      "mutation_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 148,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19596,
+        "wall_ns": 11453955,
+        "score": 2952
+      },
+      "random_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 148,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19596,
+        "wall_ns": 11477511,
+        "score": 2952
+      },
+      "development_cost": {
+        "n": 840,
+        "correct": 568,
+        "wrong": 20,
+        "abstained": 252,
+        "appropriate_abstention": 209,
+        "evaluation_calls": 47040,
+        "environments": 105,
+        "probes": 3323,
+        "classified": 943,
+        "false_identity": 55,
+        "cost": 480997,
+        "wall_ns": 369713868,
+        "score": 51567
+      }
+    },
+    {
+      "replica": 5100031,
+      "mutation": [
+        [
+          "max",
+          "zero",
+          "distance"
+        ],
+        "distance"
+      ],
+      "installed": [
+        "pairs",
+        "distance"
+      ],
+      "random": [
+        "distance",
+        [
+          "min",
+          "worst",
+          "length"
+        ]
+      ],
+      "random_installed": [
+        "pairs",
+        "distance"
+      ],
+      "mutation_trials": 9,
+      "random_trials": 9,
+      "mutation_trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "zero",
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "zero",
+                "pairs"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "zero",
+                "distance"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "zero",
+                "zero"
+              ]
+            ]
+          ],
+          "chosen": [
+            [
+              "max",
+              "zero",
+              "distance"
+            ],
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            [
+              "max",
+              "zero",
+              "distance"
+            ],
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "max",
+                [
+                  "sub",
+                  "zero",
+                  "zero"
+                ],
+                "distance"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "zero",
+                [
+                  "sub",
+                  "pairs",
+                  "zero"
+                ]
+              ],
+              "distance"
+            ],
+            [
+              [
+                "max",
+                "zero",
+                "distance"
+              ],
+              [
+                "sub",
+                "length",
+                "pairs"
+              ]
+            ],
+            [
+              [
+                "max",
+                [
+                  "sub",
+                  "pairs",
+                  "pairs"
+                ],
+                "distance"
+              ],
+              "distance"
+            ]
+          ],
+          "chosen": [
+            [
+              "max",
+              "zero",
+              "distance"
+            ],
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "chosen": [
+            "distance",
+            [
+              "min",
+              "worst",
+              "length"
+            ]
+          ],
+          "tested": [
+            [
+              "pairs",
+              "distance"
+            ],
+            [
+              [
+                "sub",
+                "length",
+                [
+                  "add",
+                  [
+                    "add",
+                    "worst",
+                    "length"
+                  ],
+                  [
+                    "min",
+                    "worst",
+                    "length"
+                  ]
+                ]
+              ],
+              [
+                "min",
+                [
+                  "max",
+                  "pairs",
+                  "worst"
+                ],
+                "zero"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "min",
+                "pairs",
+                [
+                  "sub",
+                  "worst",
+                  "distance"
+                ]
+              ]
+            ],
+            [
+              [
+                "min",
+                [
+                  "max",
+                  [
+                    "add",
+                    "worst",
+                    "length"
+                  ],
+                  "pairs"
+                ],
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "distance",
+              [
+                "min",
+                "worst",
+                "length"
+              ]
+            ],
+            [
+              [
+                "sub",
+                [
+                  "min",
+                  "zero",
+                  "zero"
+                ],
+                [
+                  "max",
+                  [
+                    "min",
+                    "distance",
+                    "length"
+                  ],
+                  [
+                    "max",
+                    "distance",
+                    "pairs"
+                  ]
+                ]
+              ],
+              "distance"
+            ],
+            [
+              "distance",
+              [
+                "sub",
+                "worst",
+                [
+                  "max",
+                  [
+                    "sub",
+                    "worst",
+                    "worst"
+                  ],
+                  [
+                    "min",
+                    "distance",
+                    "distance"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "min",
+                "distance",
+                [
+                  "add",
+                  [
+                    "min",
+                    "pairs",
+                    "length"
+                  ],
+                  "zero"
+                ]
+              ],
+              "worst"
+            ],
+            [
+              "zero",
+              [
+                "add",
+                [
+                  "sub",
+                  [
+                    "max",
+                    "pairs",
+                    "distance"
+                  ],
+                  [
+                    "add",
+                    "length",
+                    "length"
+                  ]
+                ],
+                [
+                  "max",
+                  "length",
+                  "zero"
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "development_sha": "bcdb21127eaf8113733408cd5f513e72c502f7c591f20f996f002faca1cbb0e2",
+      "baseline_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 149,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19628,
+        "wall_ns": 11572887,
+        "score": 2951
+      },
+      "mutation_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 152,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 24628,
+        "wall_ns": 12985100,
+        "score": 2948
+      },
+      "random_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 154,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 24696,
+        "wall_ns": 13101174,
+        "score": 2946
+      },
+      "development_cost": {
+        "n": 840,
+        "correct": 578,
+        "wrong": 26,
+        "abstained": 236,
+        "appropriate_abstention": 194,
+        "evaluation_calls": 48320,
+        "environments": 105,
+        "probes": 3296,
+        "classified": 970,
+        "false_identity": 27,
+        "cost": 515363,
+        "wall_ns": 336674238,
+        "score": 51244
+      }
+    },
+    {
+      "replica": 5130041,
+      "mutation": [
+        "pairs",
+        "distance"
+      ],
+      "installed": [
+        "pairs",
+        "distance"
+      ],
+      "random": [
+        "pairs",
+        "distance"
+      ],
+      "random_installed": [
+        "pairs",
+        "distance"
+      ],
+      "mutation_trials": 9,
+      "random_trials": 9,
+      "mutation_trail": [
+        {
+          "round": 0,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              [
+                "max",
+                "distance",
+                "pairs"
+              ]
+            ],
+            [
+              [
+                "max",
+                "length",
+                "distance"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "add",
+                "pairs",
+                "zero"
+              ],
+              "distance"
+            ],
+            [
+              "length",
+              "distance"
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        },
+        {
+          "round": 1,
+          "previous": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              [
+                "add",
+                "zero",
+                "length"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "sub",
+                "distance",
+                "pairs"
+              ],
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "add",
+                "worst",
+                "distance"
+              ]
+            ],
+            [
+              "pairs",
+              [
+                "sub",
+                "length",
+                "worst"
+              ]
+            ]
+          ],
+          "chosen": [
+            "pairs",
+            "distance"
+          ]
+        }
+      ],
+      "random_trail": [
+        {
+          "chosen": [
+            "pairs",
+            "distance"
+          ],
+          "tested": [
+            [
+              "pairs",
+              "distance"
+            ],
+            [
+              "pairs",
+              [
+                "max",
+                "distance",
+                "length"
+              ]
+            ],
+            [
+              "pairs",
+              "worst"
+            ],
+            [
+              [
+                "add",
+                "pairs",
+                [
+                  "add",
+                  "pairs",
+                  "distance"
+                ]
+              ],
+              [
+                "sub",
+                [
+                  "add",
+                  [
+                    "add",
+                    "pairs",
+                    "distance"
+                  ],
+                  "worst"
+                ],
+                [
+                  "max",
+                  "worst",
+                  [
+                    "min",
+                    "length",
+                    "worst"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "sub",
+                "worst",
+                "zero"
+              ],
+              [
+                "add",
+                "distance",
+                [
+                  "min",
+                  [
+                    "add",
+                    "distance",
+                    "pairs"
+                  ],
+                  [
+                    "min",
+                    "distance",
+                    "worst"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "distance",
+              [
+                "sub",
+                [
+                  "min",
+                  [
+                    "min",
+                    "distance",
+                    "length"
+                  ],
+                  "distance"
+                ],
+                "length"
+              ]
+            ],
+            [
+              "worst",
+              [
+                "max",
+                "worst",
+                "zero"
+              ]
+            ],
+            [
+              [
+                "max",
+                [
+                  "sub",
+                  "length",
+                  "worst"
+                ],
+                "pairs"
+              ],
+              "distance"
+            ],
+            [
+              [
+                "sub",
+                [
+                  "sub",
+                  [
+                    "add",
+                    "zero",
+                    "pairs"
+                  ],
+                  "pairs"
+                ],
+                [
+                  "min",
+                  "worst",
+                  "worst"
+                ]
+              ],
+              [
+                "add",
+                [
+                  "max",
+                  [
+                    "min",
+                    "worst",
+                    "length"
+                  ],
+                  "worst"
+                ],
+                "distance"
+              ]
+            ]
+          ]
+        }
+      ],
+      "source_sha": "5214257a5e3b17579e6bc6ea26c690a7a6ea1fe85e1aa66f4c5f80b4dd79141a",
+      "development_sha": "160a9d1969b81a15225be91bf16e6387f63cb6df016fc6402e10f33e06706a0b",
+      "baseline_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 147,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19558,
+        "wall_ns": 11538377,
+        "score": 2953
+      },
+      "mutation_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 147,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19558,
+        "wall_ns": 11437024,
+        "score": 2953
+      },
+      "random_gate": {
+        "n": 40,
+        "correct": 30,
+        "wrong": 0,
+        "abstained": 10,
+        "appropriate_abstention": 10,
+        "evaluation_calls": 2400,
+        "environments": 5,
+        "probes": 147,
+        "classified": 50,
+        "false_identity": 0,
+        "cost": 19558,
+        "wall_ns": 11471084,
+        "score": 2953
+      },
+      "development_cost": {
+        "n": 840,
+        "correct": 588,
+        "wrong": 11,
+        "abstained": 241,
+        "appropriate_abstention": 199,
+        "evaluation_calls": 47920,
+        "environments": 105,
+        "probes": 3218,
+        "classified": 970,
+        "false_identity": 28,
+        "cost": 484603,
+        "wall_ns": 274613542,
+        "score": 55372
+      }
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "baseline",
+      "n": 256,
+      "correct": 192,
+      "wrong": 0,
+      "abstained": 64,
+      "appropriate_abstention": 64,
+      "evaluation_calls": 15360,
+      "environments": 32,
+      "probes": 962,
+      "classified": 320,
+      "false_identity": 0,
+      "cost": 125927,
+      "wall_ns": 76769524,
+      "score": 18878
+    },
+    {
+      "policy": "mutated",
+      "n": 256,
+      "correct": 192,
+      "wrong": 1,
+      "abstained": 63,
+      "appropriate_abstention": 63,
+      "evaluation_calls": 15440,
+      "environments": 32,
+      "probes": 975,
+      "classified": 319,
+      "false_identity": 1,
+      "cost": 134112,
+      "wall_ns": 78424914,
+      "score": 18655
+    },
+    {
+      "policy": "installed",
+      "n": 256,
+      "correct": 192,
+      "wrong": 0,
+      "abstained": 64,
+      "appropriate_abstention": 64,
+      "evaluation_calls": 15360,
+      "environments": 32,
+      "probes": 962,
+      "classified": 320,
+      "false_identity": 0,
+      "cost": 125927,
+      "wall_ns": 76358054,
+      "score": 18878
+    },
+    {
+      "policy": "random",
+      "n": 256,
+      "correct": 192,
+      "wrong": 0,
+      "abstained": 64,
+      "appropriate_abstention": 64,
+      "evaluation_calls": 15360,
+      "environments": 32,
+      "probes": 979,
+      "classified": 318,
+      "false_identity": 2,
+      "cost": 134248,
+      "wall_ns": 79081134,
+      "score": 18861
+    },
+    {
+      "policy": "random_installed",
+      "n": 256,
+      "correct": 192,
+      "wrong": 0,
+      "abstained": 64,
+      "appropriate_abstention": 64,
+      "evaluation_calls": 15360,
+      "environments": 32,
+      "probes": 962,
+      "classified": 320,
+      "false_identity": 0,
+      "cost": 125927,
+      "wall_ns": 75786782,
+      "score": 18878
+    }
+  ],
+  "by_replica": [
+    {
+      "replica": 5040017,
+      "policy": "baseline",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 247,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31708,
+      "wall_ns": 20750206,
+      "score": 4713
+    },
+    {
+      "replica": 5040017,
+      "policy": "mutated",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 247,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31708,
+      "wall_ns": 19197204,
+      "score": 4713
+    },
+    {
+      "replica": 5040017,
+      "policy": "installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 247,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31708,
+      "wall_ns": 19949510,
+      "score": 4713
+    },
+    {
+      "replica": 5040017,
+      "policy": "random",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 247,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31708,
+      "wall_ns": 19441344,
+      "score": 4713
+    },
+    {
+      "replica": 5040017,
+      "policy": "random_installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 247,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31708,
+      "wall_ns": 19209752,
+      "score": 4713
+    },
+    {
+      "replica": 5070023,
+      "policy": "baseline",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31393,
+      "wall_ns": 18859293,
+      "score": 4722
+    },
+    {
+      "replica": 5070023,
+      "policy": "mutated",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31393,
+      "wall_ns": 19315723,
+      "score": 4722
+    },
+    {
+      "replica": 5070023,
+      "policy": "installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31393,
+      "wall_ns": 18845464,
+      "score": 4722
+    },
+    {
+      "replica": 5070023,
+      "policy": "random",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31393,
+      "wall_ns": 18538863,
+      "score": 4722
+    },
+    {
+      "replica": 5070023,
+      "policy": "random_installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31393,
+      "wall_ns": 19561604,
+      "score": 4722
+    },
+    {
+      "replica": 5100031,
+      "policy": "baseline",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 239,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31432,
+      "wall_ns": 18523132,
+      "score": 4721
+    },
+    {
+      "replica": 5100031,
+      "policy": "mutated",
+      "n": 64,
+      "correct": 48,
+      "wrong": 1,
+      "abstained": 15,
+      "appropriate_abstention": 15,
+      "evaluation_calls": 3920,
+      "environments": 8,
+      "probes": 252,
+      "classified": 79,
+      "false_identity": 1,
+      "cost": 39617,
+      "wall_ns": 21357540,
+      "score": 4498
+    },
+    {
+      "replica": 5100031,
+      "policy": "installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 239,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31432,
+      "wall_ns": 18805837,
+      "score": 4721
+    },
+    {
+      "replica": 5100031,
+      "policy": "random",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 256,
+      "classified": 78,
+      "false_identity": 2,
+      "cost": 39753,
+      "wall_ns": 22506887,
+      "score": 4704
+    },
+    {
+      "replica": 5100031,
+      "policy": "random_installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 239,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31432,
+      "wall_ns": 18492064,
+      "score": 4721
+    },
+    {
+      "replica": 5130041,
+      "policy": "baseline",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31394,
+      "wall_ns": 18636893,
+      "score": 4722
+    },
+    {
+      "replica": 5130041,
+      "policy": "mutated",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31394,
+      "wall_ns": 18554447,
+      "score": 4722
+    },
+    {
+      "replica": 5130041,
+      "policy": "installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31394,
+      "wall_ns": 18757243,
+      "score": 4722
+    },
+    {
+      "replica": 5130041,
+      "policy": "random",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31394,
+      "wall_ns": 18594040,
+      "score": 4722
+    },
+    {
+      "replica": 5130041,
+      "policy": "random_installed",
+      "n": 64,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 16,
+      "appropriate_abstention": 16,
+      "evaluation_calls": 3840,
+      "environments": 8,
+      "probes": 238,
+      "classified": 80,
+      "false_identity": 0,
+      "cost": 31394,
+      "wall_ns": 18523362,
+      "score": 4722
+    }
+  ],
+  "paired_vs_baseline": {
+    "mutated": {
+      "gains": 0,
+      "losses": 0
+    },
+    "installed": {
+      "gains": 0,
+      "losses": 0
+    },
+    "random": {
+      "gains": 0,
+      "losses": 0
+    },
+    "random_installed": {
+      "gains": 0,
+      "losses": 0
+    }
+  }
+}
