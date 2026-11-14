@@ -1,0 +1,667 @@
+{
+  "protocol": "V34-parametric-tools-v1",
+  "seeds": [
+    4920017,
+    4950023,
+    4980031,
+    5010041
+  ],
+  "snapshots": [
+    {
+      "seed": 4920017,
+      "tools": 8,
+      "derived": 30,
+      "registry": {
+        "tool_038f4acd33243880dc06": [
+          [
+            "even_b"
+          ],
+          "count"
+        ],
+        "tool_22d7cc3bde52ccb8e0c3": [
+          [
+            "active"
+          ],
+          "sum_a"
+        ],
+        "tool_3bdf13b3fa280420a620": [
+          [
+            "active"
+          ],
+          "sum_diff"
+        ],
+        "tool_4ae7a13301cfe28aae26": [
+          [
+            "even_b"
+          ],
+          "min_b"
+        ],
+        "tool_678759c78ebc0921e407": [
+          [
+            "even_b"
+          ],
+          "max_a"
+        ],
+        "tool_ac8c351fcb2d0d57495d": [
+          [
+            "a_gt"
+          ],
+          "max_a"
+        ],
+        "tool_acfd140baa9d5cd0befe": [
+          [
+            "total_gt"
+          ],
+          "sum_b"
+        ],
+        "tool_afefb8ea718b7a10229b": [
+          [
+            "b_ge"
+          ],
+          "sum_diff"
+        ]
+      },
+      "sha": "401622bd7486a284c66107e6eb57f0009d2833e3814c65a3392dc610224977cd"
+    },
+    {
+      "seed": 4950023,
+      "tools": 8,
+      "derived": 26,
+      "registry": {
+        "tool_2ad09b5b67d1fe469d8f": [
+          [
+            "even_b"
+          ],
+          "sum_b"
+        ],
+        "tool_3bdf13b3fa280420a620": [
+          [
+            "active"
+          ],
+          "sum_diff"
+        ],
+        "tool_3eff9ad62a130c3b4f1e": [
+          [
+            "active"
+          ],
+          "max_a"
+        ],
+        "tool_53221980195170d30f81": [
+          [
+            "a_gt"
+          ],
+          "sum_b"
+        ],
+        "tool_afefb8ea718b7a10229b": [
+          [
+            "b_ge"
+          ],
+          "sum_diff"
+        ],
+        "tool_c52f6cc7df05bc1b05e4": [
+          [
+            "b_ge"
+          ],
+          "count"
+        ],
+        "tool_d8783741e2c6da867ca9": [
+          [
+            "b_ge"
+          ],
+          "sum_b"
+        ],
+        "tool_da927c088b02404ba56a": [
+          [
+            "a_gt"
+          ],
+          "sum_diff"
+        ]
+      },
+      "sha": "d7b000d7c8e176570de098f457d3fa4234ccf9219a69daa6f35a642cc85d3328"
+    },
+    {
+      "seed": 4980031,
+      "tools": 8,
+      "derived": 27,
+      "registry": {
+        "tool_06ab7452d94e3b66c975": [
+          [
+            "a_gt"
+          ],
+          "sum_a"
+        ],
+        "tool_18eb1db41d0f34d3a203": [
+          [
+            "total_gt"
+          ],
+          "min_b"
+        ],
+        "tool_38076b82740fba77fadd": [
+          [
+            "b_ge"
+          ],
+          "min_b"
+        ],
+        "tool_47fb9fbe519ee47b21ef": [
+          [
+            "total_gt"
+          ],
+          "sum_diff"
+        ],
+        "tool_60e52c5472f3bf2d77dc": [
+          [
+            "active"
+          ],
+          "min_b"
+        ],
+        "tool_692800ec512113aa4e1b": [
+          [
+            "total_gt"
+          ],
+          "count"
+        ],
+        "tool_afefb8ea718b7a10229b": [
+          [
+            "b_ge"
+          ],
+          "sum_diff"
+        ],
+        "tool_c52f6cc7df05bc1b05e4": [
+          [
+            "b_ge"
+          ],
+          "count"
+        ]
+      },
+      "sha": "717485a9bdbd59de05e893b3d5a1fdcd04d53344c847559feb8f58b5461debcd"
+    },
+    {
+      "seed": 5010041,
+      "tools": 8,
+      "derived": 30,
+      "registry": {
+        "tool_038f4acd33243880dc06": [
+          [
+            "even_b"
+          ],
+          "count"
+        ],
+        "tool_1077a338a0df90d43f46": [
+          [
+            "total_gt"
+          ],
+          "max_a"
+        ],
+        "tool_38076b82740fba77fadd": [
+          [
+            "b_ge"
+          ],
+          "min_b"
+        ],
+        "tool_3bdf13b3fa280420a620": [
+          [
+            "active"
+          ],
+          "sum_diff"
+        ],
+        "tool_5193d3e059f8b26aa26e": [
+          [
+            "b_ge"
+          ],
+          "sum_a"
+        ],
+        "tool_acfd140baa9d5cd0befe": [
+          [
+            "total_gt"
+          ],
+          "sum_b"
+        ],
+        "tool_f6b77314d3b5b1262bd4": [
+          [
+            "a_gt"
+          ],
+          "count"
+        ],
+        "tool_fcecfd09372bd5a82eff": [
+          [
+            "active"
+          ],
+          "sum_b"
+        ]
+      },
+      "sha": "abe0dd09a2ce21c326ccb4eba461258ef892f23a8e99cbec8262617a6a9fccde"
+    }
+  ],
+  "preparation": [
+    {
+      "seed": 4920017,
+      "policy": "acquisition",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2524354
+    },
+    {
+      "seed": 4920017,
+      "policy": "base",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2571985
+    },
+    {
+      "seed": 4920017,
+      "policy": "library",
+      "programs": 66,
+      "classes": 66,
+      "executions": 2376,
+      "wall_ns": 5823030
+    },
+    {
+      "seed": 4920017,
+      "policy": "exhaustive",
+      "programs": 96,
+      "classes": 96,
+      "executions": 3456,
+      "wall_ns": 14667901
+    },
+    {
+      "seed": 4950023,
+      "policy": "acquisition",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2721669
+    },
+    {
+      "seed": 4950023,
+      "policy": "base",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2310552
+    },
+    {
+      "seed": 4950023,
+      "policy": "library",
+      "programs": 62,
+      "classes": 62,
+      "executions": 2232,
+      "wall_ns": 4828616
+    },
+    {
+      "seed": 4950023,
+      "policy": "exhaustive",
+      "programs": 96,
+      "classes": 96,
+      "executions": 3456,
+      "wall_ns": 7950998
+    },
+    {
+      "seed": 4980031,
+      "policy": "acquisition",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2185224
+    },
+    {
+      "seed": 4980031,
+      "policy": "base",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2627428
+    },
+    {
+      "seed": 4980031,
+      "policy": "library",
+      "programs": 63,
+      "classes": 63,
+      "executions": 2268,
+      "wall_ns": 5489649
+    },
+    {
+      "seed": 4980031,
+      "policy": "exhaustive",
+      "programs": 96,
+      "classes": 96,
+      "executions": 3456,
+      "wall_ns": 8584610
+    },
+    {
+      "seed": 5010041,
+      "policy": "acquisition",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2448379
+    },
+    {
+      "seed": 5010041,
+      "policy": "base",
+      "programs": 36,
+      "classes": 36,
+      "executions": 1296,
+      "wall_ns": 2699437
+    },
+    {
+      "seed": 5010041,
+      "policy": "library",
+      "programs": 66,
+      "classes": 66,
+      "executions": 2376,
+      "wall_ns": 6079225
+    },
+    {
+      "seed": 5010041,
+      "policy": "exhaustive",
+      "programs": 96,
+      "classes": 96,
+      "executions": 3456,
+      "wall_ns": 10474219
+    }
+  ],
+  "training": {
+    "n": 32,
+    "correct": 32,
+    "wrong": 0,
+    "abstained": 0,
+    "tool_calls_in_solutions": 0,
+    "queries": 192,
+    "comparisons": 10628,
+    "wall_ns": 2299717,
+    "added": 32
+  },
+  "aggregate": [
+    {
+      "policy": "base",
+      "n": 96,
+      "correct": 32,
+      "wrong": 1,
+      "abstained": 63,
+      "tool_calls_in_solutions": 0,
+      "queries": 213,
+      "comparisons": 20575,
+      "wall_ns": 2807465
+    },
+    {
+      "policy": "library",
+      "n": 96,
+      "correct": 64,
+      "wrong": 0,
+      "abstained": 32,
+      "tool_calls_in_solutions": 32,
+      "queries": 413,
+      "comparisons": 38010,
+      "wall_ns": 5136458
+    },
+    {
+      "policy": "exhaustive",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 576,
+      "comparisons": 57332,
+      "wall_ns": 9928785
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "base",
+      "stratum": "linked",
+      "n": 32,
+      "correct": 0,
+      "wrong": 1,
+      "abstained": 31,
+      "tool_calls_in_solutions": 0,
+      "queries": 12,
+      "comparisons": 5113,
+      "wall_ns": 327929
+    },
+    {
+      "policy": "base",
+      "stratum": "unseen",
+      "n": 32,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 32,
+      "tool_calls_in_solutions": 0,
+      "queries": 9,
+      "comparisons": 4899,
+      "wall_ns": 286724
+    },
+    {
+      "policy": "base",
+      "stratum": "direct",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 192,
+      "comparisons": 10563,
+      "wall_ns": 2192812
+    },
+    {
+      "policy": "library",
+      "stratum": "linked",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 32,
+      "queries": 192,
+      "comparisons": 14475,
+      "wall_ns": 2346697
+    },
+    {
+      "policy": "library",
+      "stratum": "unseen",
+      "n": 32,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 32,
+      "tool_calls_in_solutions": 0,
+      "queries": 29,
+      "comparisons": 9290,
+      "wall_ns": 573371
+    },
+    {
+      "policy": "library",
+      "stratum": "direct",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 192,
+      "comparisons": 14245,
+      "wall_ns": 2216390
+    },
+    {
+      "policy": "exhaustive",
+      "stratum": "linked",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 192,
+      "comparisons": 19199,
+      "wall_ns": 3294650
+    },
+    {
+      "policy": "exhaustive",
+      "stratum": "unseen",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 192,
+      "comparisons": 19167,
+      "wall_ns": 3274728
+    },
+    {
+      "policy": "exhaustive",
+      "stratum": "direct",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 192,
+      "comparisons": 18966,
+      "wall_ns": 3359407
+    }
+  ],
+  "by_seed": [
+    {
+      "policy": "base",
+      "seed": 4920017,
+      "n": 24,
+      "correct": 8,
+      "wrong": 1,
+      "abstained": 15,
+      "tool_calls_in_solutions": 0,
+      "queries": 57,
+      "comparisons": 5330,
+      "wall_ns": 719359
+    },
+    {
+      "policy": "base",
+      "seed": 4950023,
+      "n": 24,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 16,
+      "tool_calls_in_solutions": 0,
+      "queries": 52,
+      "comparisons": 5116,
+      "wall_ns": 701268
+    },
+    {
+      "policy": "base",
+      "seed": 4980031,
+      "n": 24,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 16,
+      "tool_calls_in_solutions": 0,
+      "queries": 50,
+      "comparisons": 5018,
+      "wall_ns": 635412
+    },
+    {
+      "policy": "base",
+      "seed": 5010041,
+      "n": 24,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 16,
+      "tool_calls_in_solutions": 0,
+      "queries": 54,
+      "comparisons": 5111,
+      "wall_ns": 751426
+    },
+    {
+      "policy": "library",
+      "seed": 4920017,
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "tool_calls_in_solutions": 8,
+      "queries": 105,
+      "comparisons": 9752,
+      "wall_ns": 1475769
+    },
+    {
+      "policy": "library",
+      "seed": 4950023,
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "tool_calls_in_solutions": 8,
+      "queries": 98,
+      "comparisons": 9210,
+      "wall_ns": 1119621
+    },
+    {
+      "policy": "library",
+      "seed": 4980031,
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "tool_calls_in_solutions": 8,
+      "queries": 104,
+      "comparisons": 9332,
+      "wall_ns": 1197146
+    },
+    {
+      "policy": "library",
+      "seed": 5010041,
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "tool_calls_in_solutions": 8,
+      "queries": 106,
+      "comparisons": 9716,
+      "wall_ns": 1343922
+    },
+    {
+      "policy": "exhaustive",
+      "seed": 4920017,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 144,
+      "comparisons": 14529,
+      "wall_ns": 3249895
+    },
+    {
+      "policy": "exhaustive",
+      "seed": 4950023,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 144,
+      "comparisons": 14795,
+      "wall_ns": 1654048
+    },
+    {
+      "policy": "exhaustive",
+      "seed": 4980031,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 144,
+      "comparisons": 13905,
+      "wall_ns": 1611202
+    },
+    {
+      "policy": "exhaustive",
+      "seed": 5010041,
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "tool_calls_in_solutions": 0,
+      "queries": 144,
+      "comparisons": 14103,
+      "wall_ns": 3413640
+    }
+  ]
+}

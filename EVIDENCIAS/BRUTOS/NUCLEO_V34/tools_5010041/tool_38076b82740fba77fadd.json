@@ -1,0 +1,1 @@
+{"id":"tool_38076b82740fba77fadd","input_schema":"records(a:int,b:int,flag:0|1),k:int","limits":{"field_abs":9,"k_abs":4,"records":16},"output_schema":"integer singleton","program":[["b_ge"],"min_b"],"sha":"6ceb4f4643d1ce138e4c94dbe2b613e562045af925bc71a09e587a63acd8133f","version":"nucleo-table-tool-v1"}
