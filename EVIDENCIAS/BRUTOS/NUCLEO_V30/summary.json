@@ -1,0 +1,1293 @@
+{
+  "protocol": "V30-targeted-offline-learning-v1",
+  "seeds": [
+    4320017,
+    4350023,
+    4380031,
+    4410041
+  ],
+  "snapshots": [
+    {
+      "seed": 4320017,
+      "policy": "none",
+      "acquisition_topics": [
+        "count_positive",
+        "minimum",
+        "span",
+        "total"
+      ],
+      "learned": [],
+      "requests": 0,
+      "relevant": 0,
+      "false_activations": 0,
+      "teaching_tests": 0,
+      "teaching_ns": 0,
+      "sha": "1bb0ea59df6ecb3c78f9f6e5741e813787ac245927159073b8de1162e0b0aac3"
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "acquisition_topics": [
+        "count_positive",
+        "minimum",
+        "span",
+        "total"
+      ],
+      "learned": [
+        "count_positive",
+        "span",
+        "total"
+      ],
+      "requests": 3,
+      "relevant": 2,
+      "false_activations": 0,
+      "teaching_tests": 144,
+      "teaching_ns": 214294,
+      "sha": "2a10541733327dbb9babf10b8bdd07df59b6ae227925a2fd86e844757d49c668"
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "acquisition_topics": [
+        "count_positive",
+        "minimum",
+        "span",
+        "total"
+      ],
+      "learned": [
+        "count_positive",
+        "minimum",
+        "span",
+        "total"
+      ],
+      "requests": 4,
+      "relevant": 4,
+      "false_activations": 0,
+      "teaching_tests": 192,
+      "teaching_ns": 243285,
+      "sha": "d73c3b1ab9e117393ad128ad7b71a54f37c6e4558eb30c37b0eb066120d0a941"
+    },
+    {
+      "seed": 4350023,
+      "policy": "none",
+      "acquisition_topics": [
+        "count_positive",
+        "distinct_count",
+        "minimum",
+        "prefix"
+      ],
+      "learned": [],
+      "requests": 0,
+      "relevant": 0,
+      "false_activations": 0,
+      "teaching_tests": 0,
+      "teaching_ns": 0,
+      "sha": "1bb0ea59df6ecb3c78f9f6e5741e813787ac245927159073b8de1162e0b0aac3"
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "acquisition_topics": [
+        "count_positive",
+        "distinct_count",
+        "minimum",
+        "prefix"
+      ],
+      "learned": [
+        "count_positive",
+        "distinct_count",
+        "prefix",
+        "span"
+      ],
+      "requests": 4,
+      "relevant": 3,
+      "false_activations": 0,
+      "teaching_tests": 192,
+      "teaching_ns": 382965,
+      "sha": "27e16e1749d60506312c26db7f1442714b0bab5446341174c5f2af2338fb36a4"
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "acquisition_topics": [
+        "count_positive",
+        "distinct_count",
+        "minimum",
+        "prefix"
+      ],
+      "learned": [
+        "count_positive",
+        "distinct_count",
+        "minimum",
+        "prefix"
+      ],
+      "requests": 4,
+      "relevant": 4,
+      "false_activations": 0,
+      "teaching_tests": 192,
+      "teaching_ns": 480683,
+      "sha": "ac4b1ac4936553a9e69ca2920af5904a89ac74730e81a0bac9444cacf9ce1ba8"
+    },
+    {
+      "seed": 4380031,
+      "policy": "none",
+      "acquisition_topics": [
+        "count_positive",
+        "minimum",
+        "prefix",
+        "span"
+      ],
+      "learned": [],
+      "requests": 0,
+      "relevant": 0,
+      "false_activations": 0,
+      "teaching_tests": 0,
+      "teaching_ns": 0,
+      "sha": "1bb0ea59df6ecb3c78f9f6e5741e813787ac245927159073b8de1162e0b0aac3"
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "acquisition_topics": [
+        "count_positive",
+        "minimum",
+        "prefix",
+        "span"
+      ],
+      "learned": [
+        "count_positive",
+        "minimum",
+        "total"
+      ],
+      "requests": 3,
+      "relevant": 1,
+      "false_activations": 0,
+      "teaching_tests": 144,
+      "teaching_ns": 339719,
+      "sha": "6169de2d126bcbdee482761e994784c70e186459d1de63c1b0e51b4a510bb4e6"
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "acquisition_topics": [
+        "count_positive",
+        "minimum",
+        "prefix",
+        "span"
+      ],
+      "learned": [
+        "count_positive",
+        "minimum",
+        "prefix",
+        "span"
+      ],
+      "requests": 4,
+      "relevant": 4,
+      "false_activations": 0,
+      "teaching_tests": 192,
+      "teaching_ns": 1866770,
+      "sha": "5cfc2308e282f16110e4ed2ccb7e623bfe85b6b25c83aed262949ae1e2d45bdd"
+    },
+    {
+      "seed": 4410041,
+      "policy": "none",
+      "acquisition_topics": [
+        "count_positive",
+        "prefix",
+        "span",
+        "total"
+      ],
+      "learned": [],
+      "requests": 0,
+      "relevant": 0,
+      "false_activations": 0,
+      "teaching_tests": 0,
+      "teaching_ns": 0,
+      "sha": "1bb0ea59df6ecb3c78f9f6e5741e813787ac245927159073b8de1162e0b0aac3"
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "acquisition_topics": [
+        "count_positive",
+        "prefix",
+        "span",
+        "total"
+      ],
+      "learned": [
+        "count_positive",
+        "distinct_count",
+        "total"
+      ],
+      "requests": 3,
+      "relevant": 0,
+      "false_activations": 0,
+      "teaching_tests": 144,
+      "teaching_ns": 204485,
+      "sha": "a364c764ebc45fced1e8812165c4b54cfc586a99da50069f63dd11e42f0b47ac"
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "acquisition_topics": [
+        "count_positive",
+        "prefix",
+        "span",
+        "total"
+      ],
+      "learned": [
+        "count_positive",
+        "prefix",
+        "span",
+        "total"
+      ],
+      "requests": 4,
+      "relevant": 4,
+      "false_activations": 0,
+      "teaching_tests": 192,
+      "teaching_ns": 304946,
+      "sha": "b0663f42f447fb20b972c3be28319d9bf369ac80f8dabe9153c76895c102ec8c"
+    }
+  ],
+  "preparation": [
+    {
+      "seed": 4320017,
+      "policy": "none",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 8814056
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 9822465
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 131,
+      "executions": 6588,
+      "wall_ns": 6356565
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 146,
+      "executions": 7596,
+      "wall_ns": 7610538
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 159,
+      "executions": 8676,
+      "wall_ns": 10321905
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 5105815
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 131,
+      "executions": 6588,
+      "wall_ns": 7236172
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 146,
+      "executions": 7596,
+      "wall_ns": 8704922
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 161,
+      "executions": 8676,
+      "wall_ns": 9555349
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 273,
+      "classes": 174,
+      "executions": 9828,
+      "wall_ns": 13401873
+    },
+    {
+      "seed": 4320017,
+      "policy": "none",
+      "phase": "offline",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 5767738
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "phase": "offline",
+      "programs": 241,
+      "classes": 159,
+      "executions": 8676,
+      "wall_ns": 10578749
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "phase": "offline",
+      "programs": 273,
+      "classes": 173,
+      "executions": 9828,
+      "wall_ns": 13245150
+    },
+    {
+      "seed": 4320017,
+      "policy": "ideal",
+      "phase": "offline",
+      "programs": 343,
+      "classes": 211,
+      "executions": 12348,
+      "wall_ns": 17016313
+    },
+    {
+      "seed": 4350023,
+      "policy": "none",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 5204263
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 5252804
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 129,
+      "executions": 6588,
+      "wall_ns": 6884564
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 143,
+      "executions": 7596,
+      "wall_ns": 9469233
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 156,
+      "executions": 8676,
+      "wall_ns": 15669417
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 273,
+      "classes": 182,
+      "executions": 9828,
+      "wall_ns": 22258140
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 10199797
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 129,
+      "executions": 6588,
+      "wall_ns": 12865480
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 143,
+      "executions": 7596,
+      "wall_ns": 16910639
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 158,
+      "executions": 8676,
+      "wall_ns": 18831622
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 273,
+      "classes": 184,
+      "executions": 9828,
+      "wall_ns": 21418564
+    },
+    {
+      "seed": 4350023,
+      "policy": "none",
+      "phase": "offline",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 14201170
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "phase": "offline",
+      "programs": 273,
+      "classes": 180,
+      "executions": 9828,
+      "wall_ns": 21417930
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "phase": "offline",
+      "programs": 273,
+      "classes": 181,
+      "executions": 9828,
+      "wall_ns": 21574985
+    },
+    {
+      "seed": 4350023,
+      "policy": "ideal",
+      "phase": "offline",
+      "programs": 343,
+      "classes": 211,
+      "executions": 12348,
+      "wall_ns": 28530879
+    },
+    {
+      "seed": 4380031,
+      "policy": "none",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 9534502
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 9482484
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 131,
+      "executions": 6588,
+      "wall_ns": 12015068
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 146,
+      "executions": 7596,
+      "wall_ns": 15873944
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 161,
+      "executions": 8676,
+      "wall_ns": 18653207
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 9017814
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 129,
+      "executions": 6588,
+      "wall_ns": 7979718
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 143,
+      "executions": 7596,
+      "wall_ns": 10113368
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 159,
+      "executions": 8676,
+      "wall_ns": 12416736
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 273,
+      "classes": 185,
+      "executions": 9828,
+      "wall_ns": 13673030
+    },
+    {
+      "seed": 4380031,
+      "policy": "none",
+      "phase": "offline",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 6272856
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "phase": "offline",
+      "programs": 241,
+      "classes": 160,
+      "executions": 8676,
+      "wall_ns": 11261433
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "phase": "offline",
+      "programs": 273,
+      "classes": 184,
+      "executions": 9828,
+      "wall_ns": 13929275
+    },
+    {
+      "seed": 4380031,
+      "policy": "ideal",
+      "phase": "offline",
+      "programs": 343,
+      "classes": 211,
+      "executions": 12348,
+      "wall_ns": 17864142
+    },
+    {
+      "seed": 4410041,
+      "policy": "none",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 5951052
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 6040424
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 131,
+      "executions": 6588,
+      "wall_ns": 8571839
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 143,
+      "executions": 7596,
+      "wall_ns": 9964863
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 158,
+      "executions": 8676,
+      "wall_ns": 12267309
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 6292377
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 183,
+      "classes": 131,
+      "executions": 6588,
+      "wall_ns": 7650001
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 211,
+      "classes": 146,
+      "executions": 7596,
+      "wall_ns": 8739957
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 241,
+      "classes": 159,
+      "executions": 8676,
+      "wall_ns": 10835688
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "phase": "acquisition",
+      "programs": 273,
+      "classes": 185,
+      "executions": 9828,
+      "wall_ns": 12943918
+    },
+    {
+      "seed": 4410041,
+      "policy": "none",
+      "phase": "offline",
+      "programs": 157,
+      "classes": 116,
+      "executions": 5652,
+      "wall_ns": 6570322
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "phase": "offline",
+      "programs": 241,
+      "classes": 156,
+      "executions": 8676,
+      "wall_ns": 10761048
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "phase": "offline",
+      "programs": 273,
+      "classes": 185,
+      "executions": 9828,
+      "wall_ns": 12451075
+    },
+    {
+      "seed": 4410041,
+      "policy": "ideal",
+      "phase": "offline",
+      "programs": 343,
+      "classes": 211,
+      "executions": 12348,
+      "wall_ns": 18536294
+    }
+  ],
+  "acquisition": [
+    {
+      "policy": "none",
+      "n": 48,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 16,
+      "queries": 192,
+      "comparisons": 28458,
+      "wall_ns": 3903182,
+      "requests": 0,
+      "relevant": 0
+    },
+    {
+      "policy": "random",
+      "n": 48,
+      "correct": 41,
+      "wrong": 0,
+      "abstained": 7,
+      "queries": 246,
+      "comparisons": 42147,
+      "wall_ns": 4979467,
+      "requests": 13,
+      "relevant": 6
+    },
+    {
+      "policy": "targeted",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 46837,
+      "wall_ns": 5466224,
+      "requests": 16,
+      "relevant": 16
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "none",
+      "n": 96,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 72,
+      "queries": 145,
+      "comparisons": 49134,
+      "wall_ns": 3497982
+    },
+    {
+      "policy": "random",
+      "n": 96,
+      "correct": 64,
+      "wrong": 0,
+      "abstained": 32,
+      "queries": 385,
+      "comparisons": 75120,
+      "wall_ns": 7281339
+    },
+    {
+      "policy": "targeted",
+      "n": 96,
+      "correct": 76,
+      "wrong": 0,
+      "abstained": 20,
+      "queries": 459,
+      "comparisons": 84008,
+      "wall_ns": 8256150
+    },
+    {
+      "policy": "ideal",
+      "n": 96,
+      "correct": 96,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 576,
+      "comparisons": 99483,
+      "wall_ns": 9937599
+    }
+  ],
+  "by_relation": [
+    {
+      "relation": "basic",
+      "policy": "none",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 15660,
+      "wall_ns": 2400727
+    },
+    {
+      "relation": "basic",
+      "policy": "random",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 20244,
+      "wall_ns": 2476154
+    },
+    {
+      "relation": "basic",
+      "policy": "targeted",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 21876,
+      "wall_ns": 2490300
+    },
+    {
+      "relation": "basic",
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24780,
+      "wall_ns": 2577115
+    },
+    {
+      "relation": "acquisition_topic",
+      "policy": "none",
+      "n": 51,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 51,
+      "queries": 0,
+      "comparisons": 23664,
+      "wall_ns": 794460
+    },
+    {
+      "relation": "acquisition_topic",
+      "policy": "random",
+      "n": 51,
+      "correct": 30,
+      "wrong": 0,
+      "abstained": 21,
+      "queries": 180,
+      "comparisons": 39245,
+      "wall_ns": 3590605
+    },
+    {
+      "relation": "acquisition_topic",
+      "policy": "targeted",
+      "n": 51,
+      "correct": 51,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 306,
+      "comparisons": 46661,
+      "wall_ns": 5242267
+    },
+    {
+      "relation": "acquisition_topic",
+      "policy": "ideal",
+      "n": 51,
+      "correct": 51,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 306,
+      "comparisons": 52773,
+      "wall_ns": 5321007
+    },
+    {
+      "relation": "other_topic",
+      "policy": "none",
+      "n": 21,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 21,
+      "queries": 1,
+      "comparisons": 9810,
+      "wall_ns": 302795
+    },
+    {
+      "relation": "other_topic",
+      "policy": "random",
+      "n": 21,
+      "correct": 10,
+      "wrong": 0,
+      "abstained": 11,
+      "queries": 61,
+      "comparisons": 15631,
+      "wall_ns": 1214580
+    },
+    {
+      "relation": "other_topic",
+      "policy": "targeted",
+      "n": 21,
+      "correct": 1,
+      "wrong": 0,
+      "abstained": 20,
+      "queries": 9,
+      "comparisons": 15471,
+      "wall_ns": 523583
+    },
+    {
+      "relation": "other_topic",
+      "policy": "ideal",
+      "n": 21,
+      "correct": 21,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 126,
+      "comparisons": 21930,
+      "wall_ns": 2039477
+    }
+  ],
+  "by_stratum": [
+    {
+      "stratum": "direct",
+      "policy": "none",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "queries": 0,
+      "comparisons": 11136,
+      "wall_ns": 351394
+    },
+    {
+      "stratum": "direct",
+      "policy": "random",
+      "n": 24,
+      "correct": 13,
+      "wrong": 0,
+      "abstained": 11,
+      "queries": 78,
+      "comparisons": 18297,
+      "wall_ns": 1504749
+    },
+    {
+      "stratum": "direct",
+      "policy": "targeted",
+      "n": 24,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 8,
+      "queries": 96,
+      "comparisons": 20577,
+      "wall_ns": 1746377
+    },
+    {
+      "stratum": "direct",
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25044,
+      "wall_ns": 2387941
+    },
+    {
+      "stratum": "composed",
+      "policy": "none",
+      "n": 48,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 48,
+      "queries": 1,
+      "comparisons": 22338,
+      "wall_ns": 745861
+    },
+    {
+      "stratum": "composed",
+      "policy": "random",
+      "n": 48,
+      "correct": 27,
+      "wrong": 0,
+      "abstained": 21,
+      "queries": 163,
+      "comparisons": 36579,
+      "wall_ns": 3300436
+    },
+    {
+      "stratum": "composed",
+      "policy": "targeted",
+      "n": 48,
+      "correct": 36,
+      "wrong": 0,
+      "abstained": 12,
+      "queries": 219,
+      "comparisons": 41555,
+      "wall_ns": 4019473
+    },
+    {
+      "stratum": "composed",
+      "policy": "ideal",
+      "n": 48,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 288,
+      "comparisons": 49659,
+      "wall_ns": 4972543
+    },
+    {
+      "stratum": "basic",
+      "policy": "none",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 15660,
+      "wall_ns": 2400727
+    },
+    {
+      "stratum": "basic",
+      "policy": "random",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 20244,
+      "wall_ns": 2476154
+    },
+    {
+      "stratum": "basic",
+      "policy": "targeted",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 21876,
+      "wall_ns": 2490300
+    },
+    {
+      "stratum": "basic",
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24780,
+      "wall_ns": 2577115
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 4320017,
+      "policy": "none",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12234,
+      "wall_ns": 753137
+    },
+    {
+      "seed": 4320017,
+      "policy": "random",
+      "n": 24,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 9,
+      "queries": 90,
+      "comparisons": 18009,
+      "wall_ns": 1386138
+    },
+    {
+      "seed": 4320017,
+      "policy": "targeted",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 108,
+      "comparisons": 19935,
+      "wall_ns": 1570513
+    },
+    {
+      "seed": 4320017,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24747,
+      "wall_ns": 1898312
+    },
+    {
+      "seed": 4350023,
+      "policy": "none",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12267,
+      "wall_ns": 1185270
+    },
+    {
+      "seed": 4350023,
+      "policy": "random",
+      "n": 24,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 120,
+      "comparisons": 21072,
+      "wall_ns": 3049985
+    },
+    {
+      "seed": 4350023,
+      "policy": "targeted",
+      "n": 24,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 120,
+      "comparisons": 21135,
+      "wall_ns": 3011589
+    },
+    {
+      "seed": 4350023,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24780,
+      "wall_ns": 3662431
+    },
+    {
+      "seed": 4380031,
+      "policy": "none",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 36,
+      "comparisons": 12300,
+      "wall_ns": 774345
+    },
+    {
+      "seed": 4380031,
+      "policy": "random",
+      "n": 24,
+      "correct": 15,
+      "wrong": 0,
+      "abstained": 9,
+      "queries": 90,
+      "comparisons": 18270,
+      "wall_ns": 1445280
+    },
+    {
+      "seed": 4380031,
+      "policy": "targeted",
+      "n": 24,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 4,
+      "queries": 120,
+      "comparisons": 21555,
+      "wall_ns": 1870980
+    },
+    {
+      "seed": 4380031,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 24879,
+      "wall_ns": 2182681
+    },
+    {
+      "seed": 4410041,
+      "policy": "none",
+      "n": 24,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 18,
+      "queries": 37,
+      "comparisons": 12333,
+      "wall_ns": 785230
+    },
+    {
+      "seed": 4410041,
+      "policy": "random",
+      "n": 24,
+      "correct": 14,
+      "wrong": 0,
+      "abstained": 10,
+      "queries": 85,
+      "comparisons": 17769,
+      "wall_ns": 1399936
+    },
+    {
+      "seed": 4410041,
+      "policy": "targeted",
+      "n": 24,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 6,
+      "queries": 111,
+      "comparisons": 21383,
+      "wall_ns": 1803068
+    },
+    {
+      "seed": 4410041,
+      "policy": "ideal",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "queries": 144,
+      "comparisons": 25077,
+      "wall_ns": 2194175
+    }
+  ]
+}

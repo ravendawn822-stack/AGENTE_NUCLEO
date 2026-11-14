@@ -1,0 +1,82 @@
+[
+  {
+    "path": "acquisition.jsonl",
+    "bytes": 96344,
+    "sha256": "aaf3cf87e81f21f9077f28d943ca0453f9196db4f1a22dcfa3c61d0790903bcc"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 192045,
+    "sha256": "43eb101354d3db49bc2f48235d4c0cb6b320853d5e8847f3701adb514dafcf9b"
+  },
+  {
+    "path": "requests.jsonl",
+    "bytes": 12074,
+    "sha256": "68d63cab20071c6fcbafea45031ea650a37490c194a450e8f819e750a2e5b494"
+  },
+  {
+    "path": "skills_4320017_none.json",
+    "bytes": 170,
+    "sha256": "abb32cae0e1d868f347582dd5f190e1ba351b9ba09a5613d8b76b27b40ae230a"
+  },
+  {
+    "path": "skills_4320017_random.json",
+    "bytes": 254,
+    "sha256": "43c7d621bb97cee0803b5b91ce1303b4227724ca130b2fa8742f7ae64e04c2c6"
+  },
+  {
+    "path": "skills_4320017_targeted.json",
+    "bytes": 288,
+    "sha256": "651fbf8747809db45a14d15c7d49bfa05c49b8d1f547525ee14ac85dc367a03a"
+  },
+  {
+    "path": "skills_4350023_none.json",
+    "bytes": 170,
+    "sha256": "abb32cae0e1d868f347582dd5f190e1ba351b9ba09a5613d8b76b27b40ae230a"
+  },
+  {
+    "path": "skills_4350023_random.json",
+    "bytes": 292,
+    "sha256": "e1927a7d75d9f3132ab395c4323eecc79b4e10079261b1ed0f2531c07ad204dc"
+  },
+  {
+    "path": "skills_4350023_targeted.json",
+    "bytes": 295,
+    "sha256": "e5f2cd5cf8f88a3b114a94d68a6e39941e43aa522910d2f5be7a5a8cc075bd66"
+  },
+  {
+    "path": "skills_4380031_none.json",
+    "bytes": 170,
+    "sha256": "abb32cae0e1d868f347582dd5f190e1ba351b9ba09a5613d8b76b27b40ae230a"
+  },
+  {
+    "path": "skills_4380031_random.json",
+    "bytes": 257,
+    "sha256": "70fad814de45303a3277e1605f93ff743a9eb633497bb305ec3e5b3291a49ec4"
+  },
+  {
+    "path": "skills_4380031_targeted.json",
+    "bytes": 290,
+    "sha256": "44a21f7d865e70be48692dadf59ba74b6063c6e421f449d702657f4817ef6ee6"
+  },
+  {
+    "path": "skills_4410041_none.json",
+    "bytes": 170,
+    "sha256": "abb32cae0e1d868f347582dd5f190e1ba351b9ba09a5613d8b76b27b40ae230a"
+  },
+  {
+    "path": "skills_4410041_random.json",
+    "bytes": 259,
+    "sha256": "f46b4e80371ab2891062498a9775faed7919f6501995581627df50922bec7c30"
+  },
+  {
+    "path": "skills_4410041_targeted.json",
+    "bytes": 272,
+    "sha256": "7ecff035580457e4e27e37f3f6db66e480c73b42b8b3daa48bd505204c984de1"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 26670,
+    "sha256": "e35b686727f2445c8cd17f0f20bb7a0380fcdaa1268c7bdcbb0656a35801b81c"
+  }
+]
