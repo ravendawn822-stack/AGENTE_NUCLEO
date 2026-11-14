@@ -1,0 +1,308 @@
+{
+  "protocol": "05A-v1",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "episodes": 72,
+  "candidate_limit": 9000,
+  "aggregate": [
+    {
+      "mode": "single",
+      "n": 36,
+      "correct": 0,
+      "found": 0,
+      "mean_candidates": 9000.0
+    },
+    {
+      "mode": "fold",
+      "n": 36,
+      "correct": 21,
+      "found": 21,
+      "mean_candidates": 4133.666666666667
+    }
+  ],
+  "by_task": [
+    {
+      "task": "sum",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "sum",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "product",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "product",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "length",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "length",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "sum_squares",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "sum_squares",
+      "mode": "fold",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "sum_abs",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "sum_abs",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "positive_count",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "positive_count",
+      "mode": "fold",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "negative_count",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "negative_count",
+      "mode": "fold",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "even_count",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "even_count",
+      "mode": "fold",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "max_zero",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "max_zero",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "min_zero",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "min_zero",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "alternating",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "alternating",
+      "mode": "fold",
+      "correct": 3,
+      "n": 3
+    },
+    {
+      "task": "range_zero",
+      "mode": "single",
+      "correct": 0,
+      "n": 3
+    },
+    {
+      "task": "range_zero",
+      "mode": "fold",
+      "correct": 0,
+      "n": 3
+    }
+  ],
+  "examples": [
+    {
+      "task": "sum",
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "task": "product",
+      "program": [
+        30,
+        1,
+        [
+          12,
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "task": "length",
+      "program": [
+        30,
+        0,
+        [
+          11,
+          [
+            0
+          ],
+          [
+            2,
+            -1
+          ]
+        ]
+      ]
+    },
+    {
+      "task": "sum_abs",
+      "program": [
+        30,
+        0,
+        [
+          10,
+          [
+            3,
+            [
+              1
+            ]
+          ],
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "task": "max_zero",
+      "program": [
+        30,
+        0,
+        [
+          20,
+          [
+            14,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "task": "min_zero",
+      "program": [
+        30,
+        0,
+        [
+          20,
+          [
+            14,
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "task": "alternating",
+      "program": [
+        30,
+        0,
+        [
+          11,
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "path": "04B/ci_04b/memory.sqlite3",
+    "bytes": 3641344,
+    "sha256": "7ec9a284891339a020b781276c5e3f3bc3fbc981914ba9b4f0a73c3b81405e9d"
+  },
+  {
+    "path": "04B/ci_04b/raw.jsonl",
+    "bytes": 3441339,
+    "sha256": "78daaa2a76b21eac89db3194823e0c57b99896c6dd3c8187c620ae80ed876df3"
+  },
+  {
+    "path": "04B/ci_04b/summary.json",
+    "bytes": 12395,
+    "sha256": "26557d7a416c24ee006805abca25fa02161e849eee570990fa2251ac202939cb"
+  },
+  {
+    "path": "04B/ci_pilot/memory.sqlite3",
+    "bytes": 24576,
+    "sha256": "1488bc203e485ce97f2218d44ad1b48ea434be60b184f241f389fd6032c7847f"
+  },
+  {
+    "path": "04B/ci_pilot/result.json",
+    "bytes": 6437,
+    "sha256": "47a780d44cdfa3a5086fef988730f8a3a3a40e3a3a8ece686e7edce3e68b2547"
+  },
+  {
+    "path": "04CD_05A/EXPERIMENTO_04/ci_04cd/raw.jsonl",
+    "bytes": 1586527,
+    "sha256": "8bbf4673c5bffc866356164a033f7d7745982858fb6b11650bbc6a107638fc50"
+  },
+  {
+    "path": "04CD_05A/EXPERIMENTO_04/ci_04cd/summary.json",
+    "bytes": 9882,
+    "sha256": "d699964dd70257c663040efbf77c138de427f8dbd5048b69ba1ffc19e4cef8c0"
+  },
+  {
+    "path": "04CD_05A/EXPERIMENTO_05/ci_05a/raw.jsonl",
+    "bytes": 75019,
+    "sha256": "09c12855197388ebf999c3225ee096f8be7a8e1b3f863d94aa290ce2a71bc560"
+  },
+  {
+    "path": "04CD_05A/EXPERIMENTO_05/ci_05a/summary.json",
+    "bytes": 4460,
+    "sha256": "987d9660230c495191d96516eafec5f9710f34afd560dcef7f7c0042d1814bf2"
+  },
+  {
+    "path": "05B_07B_08B/memory.sqlite3",
+    "bytes": 872448,
+    "sha256": "78e7fe95717508135c804085c4b3c404b03096c80b209068689535b068bcd9ca"
+  },
+  {
+    "path": "05B_07B_08B/raw.jsonl",
+    "bytes": 789004,
+    "sha256": "a9e31116d78db93a394b451717b81b9ae2ac283938ce5c3139ed41b71d010f06"
+  },
+  {
+    "path": "05B_07B_08B/summary.json",
+    "bytes": 24026,
+    "sha256": "31f21366d5cec281b7e80007e9845dbe251ff7746ead7f13b39d06120dbf0725"
+  },
+  {
+    "path": "05C_09A/raw.jsonl",
+    "bytes": 336006,
+    "sha256": "7f4c53b2f6f9cbd8cce5684428d23109cf95fec4beddbd53cc2269ace5e3cbf1"
+  },
+  {
+    "path": "05C_09A/summary.json",
+    "bytes": 1876,
+    "sha256": "b4279ccc10a8e045f1f9e752acb9f5e32c784c8c573d0861822f19809b36e8ec"
+  },
+  {
+    "path": "05C_09A/teacher_validation.json",
+    "bytes": 87932,
+    "sha256": "d7e9b4d702469ed7095be6c09cc3e99bdf219b4225ea87b991868ca3d4591f9f"
+  },
+  {
+    "path": "0608A/projects.jsonl",
+    "bytes": 477168,
+    "sha256": "e6efcd9172e9965bc0cdcd30d8a38e0d19eca383c937581f3b84ae000aaeb6aa"
+  },
+  {
+    "path": "0608A/raw.jsonl",
+    "bytes": 823941,
+    "sha256": "c86435c7cdf0bef42214edbdc52afa32bc427c3ec62864b1cfe4640155b799d3"
+  },
+  {
+    "path": "0608A/summary.json",
+    "bytes": 6499,
+    "sha256": "73b3a4484a372a47a20ddca9327211873d62eba54bccd31a035d81e7367342ec"
+  }
+]

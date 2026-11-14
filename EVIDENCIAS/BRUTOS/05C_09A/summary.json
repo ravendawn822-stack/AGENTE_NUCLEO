@@ -1,0 +1,84 @@
+{
+  "protocol": "05C-09A-v1",
+  "episodes": 432,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "teacher_accepted": [
+    "square",
+    "positive",
+    "negative",
+    "even",
+    "absolute",
+    "double"
+  ],
+  "teacher_rejected": [
+    "negative_control_wrong_square",
+    "negative_control_unknown_opcode"
+  ],
+  "aggregate": [
+    {
+      "policy": "cold_1800",
+      "n": 72,
+      "correct": 12,
+      "losses_vs_cold": 0,
+      "gains_vs_cold": 0,
+      "mean_candidates": 1635.0416666666667,
+      "mean_total_ns": 4357768.625,
+      "fallback": 0
+    },
+    {
+      "policy": "learned_1800",
+      "n": 72,
+      "correct": 5,
+      "losses_vs_cold": 9,
+      "gains_vs_cold": 2,
+      "mean_candidates": 1629.263888888889,
+      "mean_total_ns": 4704182.222222222,
+      "fallback": 0
+    },
+    {
+      "policy": "teacher_1800",
+      "n": 72,
+      "correct": 9,
+      "losses_vs_cold": 6,
+      "gains_vs_cold": 3,
+      "mean_candidates": 1535.486111111111,
+      "mean_total_ns": 4448320.972222222,
+      "fallback": 0
+    },
+    {
+      "policy": "cold_3600",
+      "n": 72,
+      "correct": 13,
+      "losses_vs_cold": 0,
+      "gains_vs_cold": 1,
+      "mean_candidates": 3010.8888888888887,
+      "mean_total_ns": 8366165.847222222,
+      "fallback": 0
+    },
+    {
+      "policy": "guarded_learned",
+      "n": 72,
+      "correct": 14,
+      "losses_vs_cold": 0,
+      "gains_vs_cold": 2,
+      "mean_candidates": 2993.3333333333335,
+      "mean_total_ns": 8252005.791666667,
+      "fallback": 56
+    },
+    {
+      "policy": "guarded_teacher",
+      "n": 72,
+      "correct": 14,
+      "losses_vs_cold": 0,
+      "gains_vs_cold": 2,
+      "mean_candidates": 2988.3194444444443,
+      "mean_total_ns": 8243526.847222222,
+      "fallback": 56
+    }
+  ],
+  "snapshot_bytes_sha256": "78e7fe95717508135c804085c4b3c404b03096c80b209068689535b068bcd9ca"
+}

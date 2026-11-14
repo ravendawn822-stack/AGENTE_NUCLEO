@@ -1,0 +1,460 @@
+{
+  "protocol": "04CD-v1",
+  "seeds": [
+    104729,
+    130363,
+    155921,
+    196613,
+    262147
+  ],
+  "episodes": 4000,
+  "aggregate": [
+    {
+      "policy": "single",
+      "n": 800,
+      "correct": 300,
+      "abstained": 0,
+      "wrong_answer": 500,
+      "mean_queries": 9.0,
+      "mean_search_ns": 584166.04
+    },
+    {
+      "policy": "portfolio",
+      "n": 800,
+      "correct": 300,
+      "abstained": 0,
+      "wrong_answer": 500,
+      "mean_queries": 9.0,
+      "mean_search_ns": 776676.65875
+    },
+    {
+      "policy": "composition",
+      "n": 800,
+      "correct": 400,
+      "abstained": 0,
+      "wrong_answer": 400,
+      "mean_queries": 9.0,
+      "mean_search_ns": 913662.845
+    },
+    {
+      "policy": "guard_fixed",
+      "n": 800,
+      "correct": 400,
+      "abstained": 300,
+      "wrong_answer": 100,
+      "mean_queries": 11.875,
+      "mean_search_ns": 1126784.66375
+    },
+    {
+      "policy": "guard_disagreement",
+      "n": 800,
+      "correct": 400,
+      "abstained": 300,
+      "wrong_answer": 100,
+      "mean_queries": 11.875,
+      "mean_search_ns": 3420278.3375
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "single",
+      "family": "constant",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 5644.41
+    },
+    {
+      "policy": "single",
+      "family": "periodic",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 10309.31
+    },
+    {
+      "policy": "single",
+      "family": "poly",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 763270.41
+    },
+    {
+      "policy": "single",
+      "family": "mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 787821.99
+    },
+    {
+      "policy": "single",
+      "family": "step",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 777031.49
+    },
+    {
+      "policy": "single",
+      "family": "cubic_mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 774752.51
+    },
+    {
+      "policy": "single",
+      "family": "exponential",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 767630.89
+    },
+    {
+      "policy": "single",
+      "family": "hidden_bump",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 786867.31
+    },
+    {
+      "policy": "portfolio",
+      "family": "constant",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 772050.55
+    },
+    {
+      "policy": "portfolio",
+      "family": "periodic",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 807710.6
+    },
+    {
+      "policy": "portfolio",
+      "family": "poly",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 751990.74
+    },
+    {
+      "policy": "portfolio",
+      "family": "mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 766494.39
+    },
+    {
+      "policy": "portfolio",
+      "family": "step",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 784803.09
+    },
+    {
+      "policy": "portfolio",
+      "family": "cubic_mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 776691.58
+    },
+    {
+      "policy": "portfolio",
+      "family": "exponential",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 770938.15
+    },
+    {
+      "policy": "portfolio",
+      "family": "hidden_bump",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 782734.17
+    },
+    {
+      "policy": "composition",
+      "family": "constant",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 1123752.75
+    },
+    {
+      "policy": "composition",
+      "family": "periodic",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 923047.95
+    },
+    {
+      "policy": "composition",
+      "family": "poly",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 809567.81
+    },
+    {
+      "policy": "composition",
+      "family": "mixed",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 9.0,
+      "mean_search_ns": 878319.64
+    },
+    {
+      "policy": "composition",
+      "family": "step",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 842090.21
+    },
+    {
+      "policy": "composition",
+      "family": "cubic_mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 806243.25
+    },
+    {
+      "policy": "composition",
+      "family": "exponential",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 795400.21
+    },
+    {
+      "policy": "composition",
+      "family": "hidden_bump",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 9.0,
+      "mean_search_ns": 1130880.94
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "constant",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 1537468.96
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "periodic",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 1032340.41
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "poly",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 1180080.49
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "mixed",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 998741.86
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "step",
+      "n": 100,
+      "correct": 0,
+      "abstained": 100,
+      "wrong_answer": 0,
+      "mean_queries": 10.0,
+      "mean_search_ns": 939093.71
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "cubic_mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 100,
+      "wrong_answer": 0,
+      "mean_queries": 10.0,
+      "mean_search_ns": 890166.15
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "exponential",
+      "n": 100,
+      "correct": 0,
+      "abstained": 100,
+      "wrong_answer": 0,
+      "mean_queries": 10.0,
+      "mean_search_ns": 874328.97
+    },
+    {
+      "policy": "guard_fixed",
+      "family": "hidden_bump",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 13.0,
+      "mean_search_ns": 1562056.76
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "constant",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 5895818.17
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "periodic",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 2324021.22
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "poly",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 4900636.91
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "mixed",
+      "n": 100,
+      "correct": 100,
+      "abstained": 0,
+      "wrong_answer": 0,
+      "mean_queries": 13.0,
+      "mean_search_ns": 2280023.5
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "step",
+      "n": 100,
+      "correct": 0,
+      "abstained": 100,
+      "wrong_answer": 0,
+      "mean_queries": 10.0,
+      "mean_search_ns": 2030114.13
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "cubic_mixed",
+      "n": 100,
+      "correct": 0,
+      "abstained": 100,
+      "wrong_answer": 0,
+      "mean_queries": 10.0,
+      "mean_search_ns": 1946408.95
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "exponential",
+      "n": 100,
+      "correct": 0,
+      "abstained": 100,
+      "wrong_answer": 0,
+      "mean_queries": 10.0,
+      "mean_search_ns": 1933285.06
+    },
+    {
+      "policy": "guard_disagreement",
+      "family": "hidden_bump",
+      "n": 100,
+      "correct": 0,
+      "abstained": 0,
+      "wrong_answer": 100,
+      "mean_queries": 13.0,
+      "mean_search_ns": 6051918.76
+    }
+  ]
+}

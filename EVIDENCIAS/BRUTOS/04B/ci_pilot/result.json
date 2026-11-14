@@ -1,0 +1,460 @@
+{
+  "kind": "infrastructure_pilot_not_scientific_benchmark",
+  "initially_active": [],
+  "acquisition": {
+    "constant": true,
+    "periodic": true,
+    "polynomial": true
+  },
+  "after_reopen": [
+    "constant",
+    "periodic",
+    "polynomial"
+  ],
+  "evaluations": [
+    {
+      "problem": "constant_new",
+      "skill": "constant",
+      "success": true,
+      "checks": [
+        [
+          -11,
+          -7,
+          "-7"
+        ],
+        [
+          -9,
+          -7,
+          "-7"
+        ],
+        [
+          -7,
+          -7,
+          "-7"
+        ],
+        [
+          7,
+          -7,
+          "-7"
+        ],
+        [
+          9,
+          -7,
+          "-7"
+        ],
+        [
+          11,
+          -7,
+          "-7"
+        ]
+      ]
+    },
+    {
+      "problem": "constant_new",
+      "skill": "periodic",
+      "success": true,
+      "checks": [
+        [
+          -11,
+          -7,
+          "-7"
+        ],
+        [
+          -9,
+          -7,
+          "-7"
+        ],
+        [
+          -7,
+          -7,
+          "-7"
+        ],
+        [
+          7,
+          -7,
+          "-7"
+        ],
+        [
+          9,
+          -7,
+          "-7"
+        ],
+        [
+          11,
+          -7,
+          "-7"
+        ]
+      ]
+    },
+    {
+      "problem": "constant_new",
+      "skill": "polynomial",
+      "success": true,
+      "checks": [
+        [
+          -11,
+          -7,
+          "-7"
+        ],
+        [
+          -9,
+          -7,
+          "-7"
+        ],
+        [
+          -7,
+          -7,
+          "-7"
+        ],
+        [
+          7,
+          -7,
+          "-7"
+        ],
+        [
+          9,
+          -7,
+          "-7"
+        ],
+        [
+          11,
+          -7,
+          "-7"
+        ]
+      ]
+    },
+    {
+      "problem": "periodic_new",
+      "skill": "constant",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          1,
+          null
+        ],
+        [
+          -9,
+          9,
+          null
+        ],
+        [
+          -7,
+          1,
+          null
+        ],
+        [
+          7,
+          9,
+          null
+        ],
+        [
+          9,
+          1,
+          null
+        ],
+        [
+          11,
+          9,
+          null
+        ]
+      ]
+    },
+    {
+      "problem": "periodic_new",
+      "skill": "periodic",
+      "success": true,
+      "checks": [
+        [
+          -11,
+          1,
+          "1"
+        ],
+        [
+          -9,
+          9,
+          "9"
+        ],
+        [
+          -7,
+          1,
+          "1"
+        ],
+        [
+          7,
+          9,
+          "9"
+        ],
+        [
+          9,
+          1,
+          "1"
+        ],
+        [
+          11,
+          9,
+          "9"
+        ]
+      ]
+    },
+    {
+      "problem": "periodic_new",
+      "skill": "polynomial",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          1,
+          "-1808543"
+        ],
+        [
+          -9,
+          9,
+          "-320151"
+        ],
+        [
+          -7,
+          1,
+          "-32351"
+        ],
+        [
+          7,
+          9,
+          "-27863"
+        ],
+        [
+          9,
+          1,
+          "-282399"
+        ],
+        [
+          11,
+          9,
+          "-1626647"
+        ]
+      ]
+    },
+    {
+      "problem": "polynomial_new",
+      "skill": "constant",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          -3978,
+          null
+        ],
+        [
+          -9,
+          -2174,
+          null
+        ],
+        [
+          -7,
+          -1018,
+          null
+        ],
+        [
+          7,
+          1026,
+          null
+        ],
+        [
+          9,
+          2182,
+          null
+        ],
+        [
+          11,
+          3986,
+          null
+        ]
+      ]
+    },
+    {
+      "problem": "polynomial_new",
+      "skill": "periodic",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          -3978,
+          null
+        ],
+        [
+          -9,
+          -2174,
+          null
+        ],
+        [
+          -7,
+          -1018,
+          null
+        ],
+        [
+          7,
+          1026,
+          null
+        ],
+        [
+          9,
+          2182,
+          null
+        ],
+        [
+          11,
+          3986,
+          null
+        ]
+      ]
+    },
+    {
+      "problem": "polynomial_new",
+      "skill": "polynomial",
+      "success": true,
+      "checks": [
+        [
+          -11,
+          -3978,
+          "-3978"
+        ],
+        [
+          -9,
+          -2174,
+          "-2174"
+        ],
+        [
+          -7,
+          -1018,
+          "-1018"
+        ],
+        [
+          7,
+          1026,
+          "1026"
+        ],
+        [
+          9,
+          2182,
+          "2182"
+        ],
+        [
+          11,
+          3986,
+          "3986"
+        ]
+      ]
+    },
+    {
+      "problem": "unsupported_step",
+      "skill": "constant",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          -3,
+          null
+        ],
+        [
+          -9,
+          -3,
+          null
+        ],
+        [
+          -7,
+          -3,
+          null
+        ],
+        [
+          7,
+          9,
+          null
+        ],
+        [
+          9,
+          9,
+          null
+        ],
+        [
+          11,
+          9,
+          null
+        ]
+      ]
+    },
+    {
+      "problem": "unsupported_step",
+      "skill": "periodic",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          -3,
+          null
+        ],
+        [
+          -9,
+          -3,
+          null
+        ],
+        [
+          -7,
+          -3,
+          null
+        ],
+        [
+          7,
+          9,
+          null
+        ],
+        [
+          9,
+          9,
+          null
+        ],
+        [
+          11,
+          9,
+          null
+        ]
+      ]
+    },
+    {
+      "problem": "unsupported_step",
+      "skill": "polynomial",
+      "success": false,
+      "checks": [
+        [
+          -11,
+          -3,
+          "1808673"
+        ],
+        [
+          -9,
+          -3,
+          "319185"
+        ],
+        [
+          -7,
+          -3,
+          "32085"
+        ],
+        [
+          7,
+          9,
+          "27321"
+        ],
+        [
+          9,
+          9,
+          "281421"
+        ],
+        [
+          11,
+          9,
+          "1631133"
+        ]
+      ]
+    }
+  ]
+}
