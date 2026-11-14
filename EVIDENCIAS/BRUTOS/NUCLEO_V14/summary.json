@@ -1,0 +1,260 @@
+{
+  "protocol": "V14-method-selection-v1",
+  "seeds": [
+    2400013,
+    2430017,
+    2460023,
+    2490031
+  ],
+  "training_extra_candidates": 1800741,
+  "training_acquisition_candidates": 1187623,
+  "aggregate": [
+    {
+      "policy": "restart",
+      "n": 128,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 104,
+      "additional_correct": 0,
+      "candidates": 1285725
+    },
+    {
+      "policy": "reverse_binding",
+      "n": 128,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 104,
+      "additional_correct": 0,
+      "candidates": 744925
+    },
+    {
+      "policy": "factorized",
+      "n": 128,
+      "correct": 27,
+      "wrong": 0,
+      "abstained": 101,
+      "additional_correct": 3,
+      "candidates": 1268974
+    },
+    {
+      "policy": "random",
+      "n": 128,
+      "correct": 25,
+      "wrong": 0,
+      "abstained": 103,
+      "additional_correct": 1,
+      "candidates": 1117080
+    },
+    {
+      "policy": "adaptive",
+      "n": 128,
+      "correct": 27,
+      "wrong": 0,
+      "abstained": 101,
+      "additional_correct": 3,
+      "candidates": 1268974
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 2400013,
+      "policy": "restart",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 321450
+    },
+    {
+      "seed": 2400013,
+      "policy": "reverse_binding",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 186250
+    },
+    {
+      "seed": 2400013,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 25,
+      "additional_correct": 1,
+      "candidates": 316701
+    },
+    {
+      "seed": 2400013,
+      "policy": "random",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 269450
+    },
+    {
+      "seed": 2400013,
+      "policy": "adaptive",
+      "n": 32,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 25,
+      "additional_correct": 1,
+      "candidates": 316701
+    },
+    {
+      "seed": 2430017,
+      "policy": "restart",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 321793
+    },
+    {
+      "seed": 2430017,
+      "policy": "reverse_binding",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 186593
+    },
+    {
+      "seed": 2430017,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 24,
+      "additional_correct": 2,
+      "candidates": 309791
+    },
+    {
+      "seed": 2430017,
+      "policy": "random",
+      "n": 32,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 25,
+      "additional_correct": 1,
+      "candidates": 272748
+    },
+    {
+      "seed": 2430017,
+      "policy": "adaptive",
+      "n": 32,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 24,
+      "additional_correct": 2,
+      "candidates": 309791
+    },
+    {
+      "seed": 2460023,
+      "policy": "restart",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 322185
+    },
+    {
+      "seed": 2460023,
+      "policy": "reverse_binding",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 186985
+    },
+    {
+      "seed": 2460023,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 322185
+    },
+    {
+      "seed": 2460023,
+      "policy": "random",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 296185
+    },
+    {
+      "seed": 2460023,
+      "policy": "adaptive",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 322185
+    },
+    {
+      "seed": 2490031,
+      "policy": "restart",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 320297
+    },
+    {
+      "seed": 2490031,
+      "policy": "reverse_binding",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 185097
+    },
+    {
+      "seed": 2490031,
+      "policy": "factorized",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 320297
+    },
+    {
+      "seed": 2490031,
+      "policy": "random",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 278697
+    },
+    {
+      "seed": 2490031,
+      "policy": "adaptive",
+      "n": 32,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 26,
+      "additional_correct": 0,
+      "candidates": 320297
+    }
+  ]
+}
