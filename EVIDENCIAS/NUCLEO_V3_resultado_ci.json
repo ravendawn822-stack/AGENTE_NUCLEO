@@ -1,0 +1,1210 @@
+{
+  "source_run": 43645893047,
+  "source_commit": "8834a3bc900f716660a776c5988897301605e50c",
+  "artifacts": [
+    {
+      "id": 14134480925,
+      "name": "nucleo-v3-results",
+      "size_in_bytes": 79815,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134480925",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134480925/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:02:02Z",
+      "expires_at": "2026-12-14T22:02:01Z",
+      "updated_at": "2026-11-14T22:02:02Z",
+      "digest": "sha256:c46ce08b5756c05ff7c95ae76411361bba98c9451c28ba519539246c6b434b1f",
+      "workflow_run": {
+        "id": 43645893047,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "8834a3bc900f716660a776c5988897301605e50c"
+      }
+    }
+  ],
+  "result": {
+    "aggregate": [
+      {
+        "abstained": 30,
+        "correct": 60,
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 1,
+        "mean_search_ns": 6942353.625,
+        "mean_spent": 1716.9791666666667,
+        "n": 96,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 6
+      },
+      {
+        "abstained": 29,
+        "correct": 61,
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 7179590.833333333,
+        "mean_spent": 1993.6770833333333,
+        "n": 96,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 6
+      },
+      {
+        "abstained": 30,
+        "correct": 60,
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 1,
+        "mean_search_ns": 6108531.729166667,
+        "mean_spent": 1722.9270833333333,
+        "n": 96,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 6
+      },
+      {
+        "abstained": 18,
+        "correct": 72,
+        "gain_vs_extended": 11,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 7621406.5625,
+        "mean_spent": 1889.46875,
+        "n": 96,
+        "policy": "schema",
+        "recalled": 12,
+        "recalled_correct": 12,
+        "wrong": 6
+      },
+      {
+        "abstained": 18,
+        "correct": 72,
+        "gain_vs_extended": 11,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 9401547.135416666,
+        "mean_spent": 1889.46875,
+        "n": 96,
+        "policy": "gated",
+        "recalled": 12,
+        "recalled_correct": 12,
+        "wrong": 6
+      }
+    ],
+    "by_family": [
+      {
+        "abstained": 4,
+        "correct": 12,
+        "family": "linear",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 7142168.125,
+        "mean_spent": 1855.75,
+        "n": 16,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "absolute",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 7392641.1875,
+        "mean_spent": 1791.75,
+        "n": 16,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 14,
+        "correct": 2,
+        "family": "square",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 13332369.875,
+        "mean_spent": 3160.6875,
+        "n": 16,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 12,
+        "family": "threshold",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 1810442.25,
+        "mean_spent": 471.9375,
+        "n": 16,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 4
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "extreme",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 354572.4375,
+        "mean_spent": 92.625,
+        "n": 16,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "correct": 2,
+        "family": "mod_count",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 1,
+        "mean_search_ns": 11621927.875,
+        "mean_spent": 2929.125,
+        "n": 16,
+        "policy": "base",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 2
+      },
+      {
+        "abstained": 4,
+        "correct": 12,
+        "family": "linear",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 7394028.875,
+        "mean_spent": 2080.75,
+        "n": 16,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "absolute",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 6348581.25,
+        "mean_spent": 1791.75,
+        "n": 16,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 14,
+        "correct": 2,
+        "family": "square",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 14723227.8125,
+        "mean_spent": 3948.1875,
+        "n": 16,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 12,
+        "family": "threshold",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 1427055.75,
+        "mean_spent": 471.9375,
+        "n": 16,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 4
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "extreme",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 314728.125,
+        "mean_spent": 92.625,
+        "n": 16,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 11,
+        "correct": 3,
+        "family": "mod_count",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 12869923.1875,
+        "mean_spent": 3576.8125,
+        "n": 16,
+        "policy": "extended",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 2
+      },
+      {
+        "abstained": 4,
+        "correct": 12,
+        "family": "linear",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 6499490.375,
+        "mean_spent": 1860.625,
+        "n": 16,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "absolute",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 6354206.375,
+        "mean_spent": 1791.75,
+        "n": 16,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 14,
+        "correct": 2,
+        "family": "square",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 11516993.625,
+        "mean_spent": 3177.25,
+        "n": 16,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 12,
+        "family": "threshold",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 1423014.3125,
+        "mean_spent": 471.9375,
+        "n": 16,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 4
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "extreme",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 322677.5625,
+        "mean_spent": 92.625,
+        "n": 16,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "correct": 2,
+        "family": "mod_count",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 1,
+        "mean_search_ns": 10534808.125,
+        "mean_spent": 2943.375,
+        "n": 16,
+        "policy": "exact",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 2
+      },
+      {
+        "abstained": 4,
+        "correct": 12,
+        "family": "linear",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 8093238.75,
+        "mean_spent": 2041.125,
+        "n": 16,
+        "policy": "schema",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "absolute",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 6628912.4375,
+        "mean_spent": 1791.75,
+        "n": 16,
+        "policy": "schema",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 14,
+        "correct": 2,
+        "family": "square",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 17014084.125,
+        "mean_spent": 3835.75,
+        "n": 16,
+        "policy": "schema",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 12,
+        "family": "threshold",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 1459211.125,
+        "mean_spent": 471.9375,
+        "n": 16,
+        "policy": "schema",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 4
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "extreme",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 320794.125,
+        "mean_spent": 92.625,
+        "n": 16,
+        "policy": "schema",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 14,
+        "family": "mod_count",
+        "gain_vs_extended": 11,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 12212198.8125,
+        "mean_spent": 3103.625,
+        "n": 16,
+        "policy": "schema",
+        "recalled": 12,
+        "recalled_correct": 12,
+        "wrong": 2
+      },
+      {
+        "abstained": 4,
+        "correct": 12,
+        "family": "linear",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 12924038.0625,
+        "mean_spent": 2041.125,
+        "n": 16,
+        "policy": "gated",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "absolute",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 7782770.125,
+        "mean_spent": 1791.75,
+        "n": 16,
+        "policy": "gated",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 14,
+        "correct": 2,
+        "family": "square",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 19418922.8125,
+        "mean_spent": 3835.75,
+        "n": 16,
+        "policy": "gated",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 12,
+        "family": "threshold",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 1555712.75,
+        "mean_spent": 471.9375,
+        "n": 16,
+        "policy": "gated",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 4
+      },
+      {
+        "abstained": 0,
+        "correct": 16,
+        "family": "extreme",
+        "gain_vs_extended": 0,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 371410.5,
+        "mean_spent": 92.625,
+        "n": 16,
+        "policy": "gated",
+        "recalled": 0,
+        "recalled_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 14,
+        "family": "mod_count",
+        "gain_vs_extended": 11,
+        "loss_vs_extended": 0,
+        "mean_search_ns": 14356428.5625,
+        "mean_spent": 3103.625,
+        "n": 16,
+        "policy": "gated",
+        "recalled": 12,
+        "recalled_correct": 12,
+        "wrong": 2
+      }
+    ],
+    "decisions": [
+      {
+        "gate": {
+          "accepted": true,
+          "base_wrong": 1,
+          "gains": 3,
+          "losses": 0,
+          "new_wrong": 1
+        },
+        "memory_sha": "56ac69ba7cba620d50115a118792b9b2bffecddfcf0d80f4f42da6734e4f5ac8",
+        "programs": 19,
+        "rules": 15,
+        "rules_total": 15,
+        "seed": 750019,
+        "selected": "schema"
+      },
+      {
+        "gate": {
+          "accepted": true,
+          "base_wrong": 0,
+          "gains": 5,
+          "losses": 0,
+          "new_wrong": 0
+        },
+        "memory_sha": "8f32d0932f702d932ab54aed83523768ab3bfdf181535ba6bda00d2d364018a6",
+        "programs": 18,
+        "rules": 21,
+        "rules_total": 21,
+        "seed": 780023,
+        "selected": "schema"
+      },
+      {
+        "gate": {
+          "accepted": true,
+          "base_wrong": 1,
+          "gains": 2,
+          "losses": 0,
+          "new_wrong": 1
+        },
+        "memory_sha": "4a431780d60c411498dd56f20a14de6437614754d4acd65a574c6421577eb3d1",
+        "programs": 19,
+        "rules": 17,
+        "rules_total": 17,
+        "seed": 810013,
+        "selected": "schema"
+      },
+      {
+        "gate": {
+          "accepted": true,
+          "base_wrong": 1,
+          "gains": 2,
+          "losses": 0,
+          "new_wrong": 1
+        },
+        "memory_sha": "987d20bdafea7aa4b1985f4dbb6145643161c9c477df2b6a86c05c9b4a0be654",
+        "programs": 20,
+        "rules": 18,
+        "rules_total": 18,
+        "seed": 840037,
+        "selected": "schema"
+      }
+    ],
+    "episodes": 792,
+    "examples": [
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -6
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 750019,
+        "source": {
+          "binding": [
+            -6
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                -5
+              ]
+            ],
+            "origins": [
+              "750019/23"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  2,
+                  -1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            6,
+            5
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -3
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 750019,
+        "source": {
+          "binding": [
+            -3
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                -1
+              ]
+            ],
+            "origins": [
+              "750019/23"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  90,
+                  0
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -5
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -2
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 750019,
+        "source": {
+          "binding": [
+            -2
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                -1
+              ]
+            ],
+            "origins": [
+              "750019/23"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  90,
+                  0
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -5
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                0
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -2
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 750019,
+        "source": {
+          "binding": [
+            -2,
+            0
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                -5,
+                -1
+              ]
+            ],
+            "origins": [
+              "750019/23"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  90,
+                  1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -4
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 780023,
+        "source": {
+          "binding": [
+            -1
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                0
+              ]
+            ],
+            "origins": [
+              "780023/20"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  90,
+                  0
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -4
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 780023,
+        "source": {
+          "binding": [
+            -1,
+            -5
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                1,
+                6
+              ]
+            ],
+            "origins": [
+              "780023/9"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  90,
+                  0
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    1
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -2
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 780023,
+        "source": {
+          "binding": [
+            -5
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                -6
+              ],
+              [
+                -3
+              ]
+            ],
+            "origins": [
+              "780023/16",
+              "780023/23"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  2,
+                  -2
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "program": [
+          30,
+          0,
+          [
+            10,
+            [
+              0
+            ],
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -6
+                ]
+              ]
+            ]
+          ]
+        ],
+        "seed": 810013,
+        "source": {
+          "binding": [
+            -6
+          ],
+          "kind": "schema",
+          "source": {
+            "bindings": [
+              [
+                -4
+              ],
+              [
+                -5
+              ]
+            ],
+            "origins": [
+              "810013/1",
+              "810013/15"
+            ],
+            "template": [
+              10,
+              [
+                0
+              ],
+              [
+                15,
+                [
+                  2,
+                  -1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        "task": [
+          "mod_count",
+          [
+            6,
+            5
+          ]
+        ]
+      }
+    ],
+    "protocol": "NUCLEO_V3-schema-v1",
+    "seeds": [
+      750019,
+      780023,
+      810013,
+      840037
+    ],
+    "training_correct": 76,
+    "training_n": 96
+  }
+}
