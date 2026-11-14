@@ -1,0 +1,17 @@
+[
+  {
+    "path": "raw.jsonl",
+    "bytes": 244206,
+    "sha256": "9b8711cd2f97559f2f0ca82e500b008f138ad58dc4ef7dc6e71a5f5ad5eea007"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 11184,
+    "sha256": "dff7fbb8c604d2c31289bc9874fc64e9028d6ddd19a52324c9e7b6e09f23d930"
+  },
+  {
+    "path": "teacher_validation.json",
+    "bytes": 87932,
+    "sha256": "d7e9b4d702469ed7095be6c09cc3e99bdf219b4225ea87b991868ca3d4591f9f"
+  }
+]
