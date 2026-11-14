@@ -1,0 +1,119 @@
+{
+  "source_run": 43648474286,
+  "source_commit": "074d92f1075f48ca58dbb67e28ce47f15e4ace7c",
+  "artifacts": [
+    {
+      "id": 14135455135,
+      "name": "nucleo-v6-1-results",
+      "size_in_bytes": 51984,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14135455135",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14135455135/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:31:04Z",
+      "expires_at": "2026-12-14T22:31:03Z",
+      "updated_at": "2026-11-14T22:31:04Z",
+      "digest": "sha256:60ff834d147c0b392b3dbde88629ebfb1c2dbd67f8f91b1a3eec17c1e95c0597",
+      "workflow_run": {
+        "id": 43648474286,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "074d92f1075f48ca58dbb67e28ce47f15e4ace7c"
+      }
+    }
+  ],
+  "result": {
+    "protocol": "V6.1-example-repair-v1",
+    "episodes": 90,
+    "aggregate": [
+      {
+        "policy": "fixed",
+        "n": 45,
+        "correct": 17,
+        "wrong": 0,
+        "abstained": 28,
+        "mean_examples": 6.466666666666667,
+        "mean_decision_ns": 17957725.044444446,
+        "mean_shared_build_ns": 145842782
+      },
+      {
+        "policy": "active",
+        "n": 45,
+        "correct": 43,
+        "wrong": 0,
+        "abstained": 2,
+        "mean_examples": 3.7111111111111112,
+        "mean_decision_ns": 13748431.222222222,
+        "mean_shared_build_ns": 145842782
+      }
+    ],
+    "by_family": [
+      {
+        "policy": "fixed",
+        "family": "clean",
+        "n": 15,
+        "correct": 3,
+        "wrong": 0,
+        "abstained": 12,
+        "mean_examples": 6.8,
+        "mean_decision_ns": 18158404.066666666,
+        "mean_shared_build_ns": 142338130.6
+      },
+      {
+        "policy": "fixed",
+        "family": "single",
+        "n": 15,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 8,
+        "mean_examples": 6.4,
+        "mean_decision_ns": 18082062.533333335,
+        "mean_shared_build_ns": 143140034.6
+      },
+      {
+        "policy": "fixed",
+        "family": "double",
+        "n": 15,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 8,
+        "mean_examples": 6.2,
+        "mean_decision_ns": 17632708.533333335,
+        "mean_shared_build_ns": 152050180.8
+      },
+      {
+        "policy": "active",
+        "family": "clean",
+        "n": 15,
+        "correct": 14,
+        "wrong": 0,
+        "abstained": 1,
+        "mean_examples": 4.2,
+        "mean_decision_ns": 15622075.333333334,
+        "mean_shared_build_ns": 142338130.6
+      },
+      {
+        "policy": "active",
+        "family": "single",
+        "n": 15,
+        "correct": 15,
+        "wrong": 0,
+        "abstained": 0,
+        "mean_examples": 3.6666666666666665,
+        "mean_decision_ns": 14226636.933333334,
+        "mean_shared_build_ns": 143140034.6
+      },
+      {
+        "policy": "active",
+        "family": "double",
+        "n": 15,
+        "correct": 14,
+        "wrong": 0,
+        "abstained": 1,
+        "mean_examples": 3.2666666666666666,
+        "mean_decision_ns": 11396581.4,
+        "mean_shared_build_ns": 152050180.8
+      }
+    ]
+  }
+}
