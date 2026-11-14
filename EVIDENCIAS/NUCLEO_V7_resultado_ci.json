@@ -1,0 +1,226 @@
+{
+  "source_run": 43649253834,
+  "source_commit": "7e0e137932955e03f8584e9badddc8d4e6ec2a81",
+  "artifacts": [
+    {
+      "id": 14134834187,
+      "name": "nucleo-v7-results",
+      "size_in_bytes": 80675,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134834187",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134834187/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:40:07Z",
+      "expires_at": "2026-12-14T22:40:06Z",
+      "updated_at": "2026-11-14T22:40:07Z",
+      "digest": "sha256:aa81df43963c647fc2a9df7322dc2c168649ecaea1331298fd5d16c3585932ae",
+      "workflow_run": {
+        "id": 43649253834,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "7e0e137932955e03f8584e9badddc8d4e6ec2a81"
+      }
+    }
+  ],
+  "result": {
+    "aggregate": [
+      {
+        "abstained": 3,
+        "correct": 42,
+        "gains": 0,
+        "losses": 0,
+        "mean_queries": 3.3555555555555556,
+        "n": 45,
+        "policy": "diversity",
+        "queries": 151,
+        "wrong": 0
+      },
+      {
+        "abstained": 3,
+        "correct": 42,
+        "gains": 0,
+        "losses": 0,
+        "mean_queries": 3.311111111111111,
+        "n": 45,
+        "policy": "entropy",
+        "queries": 149,
+        "wrong": 0
+      },
+      {
+        "abstained": 3,
+        "correct": 42,
+        "gains": 0,
+        "losses": 0,
+        "mean_queries": 3.488888888888889,
+        "n": 45,
+        "policy": "minimax",
+        "queries": 157,
+        "wrong": 0
+      },
+      {
+        "abstained": 3,
+        "correct": 42,
+        "gains": 0,
+        "losses": 0,
+        "mean_queries": 3.4444444444444446,
+        "n": 45,
+        "policy": "learned",
+        "queries": 155,
+        "wrong": 0
+      },
+      {
+        "abstained": 3,
+        "correct": 42,
+        "gains": 0,
+        "losses": 0,
+        "mean_queries": 3.3555555555555556,
+        "n": 45,
+        "policy": "gated",
+        "queries": 151,
+        "wrong": 0
+      }
+    ],
+    "decisions": [
+      {
+        "active": [
+          0,
+          0
+        ],
+        "gate": {
+          "accepted": false,
+          "base": {
+            "abstained": 1,
+            "correct": 13,
+            "mean_queries": 3.6,
+            "n": 15,
+            "queries": 54,
+            "wrong": 1
+          },
+          "gains": 0,
+          "losses": 0,
+          "proposal": {
+            "abstained": 0,
+            "correct": 13,
+            "mean_queries": 3.6,
+            "n": 15,
+            "queries": 54,
+            "wrong": 2
+          }
+        },
+        "learned": [
+          0,
+          3
+        ],
+        "seed": 1620011,
+        "train_score": [
+          24,
+          0,
+          -69
+        ]
+      },
+      {
+        "active": [
+          0,
+          0
+        ],
+        "gate": {
+          "accepted": false,
+          "base": {
+            "abstained": 0,
+            "correct": 14,
+            "mean_queries": 3.466666666666667,
+            "n": 15,
+            "queries": 52,
+            "wrong": 1
+          },
+          "gains": 0,
+          "losses": 0,
+          "proposal": {
+            "abstained": 0,
+            "correct": 14,
+            "mean_queries": 3.533333333333333,
+            "n": 15,
+            "queries": 53,
+            "wrong": 1
+          }
+        },
+        "learned": [
+          2,
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "seed": 1650013,
+        "train_score": [
+          24,
+          0,
+          -70
+        ]
+      },
+      {
+        "active": [
+          0,
+          0
+        ],
+        "gate": {
+          "accepted": false,
+          "base": {
+            "abstained": 2,
+            "correct": 13,
+            "mean_queries": 3.4,
+            "n": 15,
+            "queries": 51,
+            "wrong": 0
+          },
+          "gains": 0,
+          "losses": 0,
+          "proposal": {
+            "abstained": 2,
+            "correct": 13,
+            "mean_queries": 3.7333333333333334,
+            "n": 15,
+            "queries": 56,
+            "wrong": 0
+          }
+        },
+        "learned": [
+          2,
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "seed": 1680017,
+        "train_score": [
+          23,
+          0,
+          -86
+        ]
+      }
+    ],
+    "episodes": 2043,
+    "features": [
+      "diversity",
+      "entropy",
+      "expected_elimination",
+      "worst_elimination",
+      "short_input",
+      "small_input"
+    ],
+    "protocol": "V7-score-synthesis-v1",
+    "seeds": [
+      1620011,
+      1650013,
+      1680017
+    ]
+  }
+}
