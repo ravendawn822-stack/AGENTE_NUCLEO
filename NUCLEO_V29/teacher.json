@@ -1,0 +1,95 @@
+{
+  "source": "ChatGPT: propostas estáticas produzidas antes da execução",
+  "lessons": [
+    {
+      "name": "total",
+      "proposals": [
+        [
+          "sum"
+        ],
+        [
+          "count"
+        ],
+        [
+          "unknown"
+        ]
+      ]
+    },
+    {
+      "name": "prefix",
+      "proposals": [
+        [
+          "scan"
+        ],
+        [
+          "sort"
+        ],
+        [
+          "unknown"
+        ]
+      ]
+    },
+    {
+      "name": "count_positive",
+      "proposals": [
+        [
+          "positive",
+          "count"
+        ],
+        [
+          "even",
+          "count"
+        ],
+        [
+          "unknown"
+        ]
+      ]
+    },
+    {
+      "name": "distinct_count",
+      "proposals": [
+        [
+          "unique",
+          "count"
+        ],
+        [
+          "count"
+        ],
+        [
+          "unknown"
+        ]
+      ]
+    },
+    {
+      "name": "span",
+      "proposals": [
+        [
+          "bounds",
+          "difference"
+        ],
+        [
+          "maximum"
+        ],
+        [
+          "unknown"
+        ]
+      ]
+    },
+    {
+      "name": "minimum",
+      "proposals": [
+        [
+          "neg",
+          "maximum",
+          "neg"
+        ],
+        [
+          "maximum"
+        ],
+        [
+          "unknown"
+        ]
+      ]
+    }
+  ]
+}
