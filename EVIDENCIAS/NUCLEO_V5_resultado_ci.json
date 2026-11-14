@@ -1,0 +1,351 @@
+{
+  "source_run": 43646824754,
+  "source_commit": "b0745c8ec8971671fd9413e6849c7d837fb6f564",
+  "artifacts": [
+    {
+      "id": 14134761330,
+      "name": "nucleo-v5-results",
+      "size_in_bytes": 452823,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134761330",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14134761330/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:12:16Z",
+      "expires_at": "2026-12-14T22:12:15Z",
+      "updated_at": "2026-11-14T22:12:16Z",
+      "digest": "sha256:b27edaf50bb2d59e5e249e1b42f6405039be11d6c5c7bd682ab64c5a3f9e8b1b",
+      "workflow_run": {
+        "id": 43646824754,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "b0745c8ec8971671fd9413e6849c7d837fb6f564"
+      }
+    }
+  ],
+  "result": {
+    "aggregate": [
+      {
+        "abstained": 100,
+        "correct": 20,
+        "mean_ns": 703719.5916666667,
+        "mean_rounds": 1.3333333333333333,
+        "mean_samples": 100.83333333333333,
+        "n": 120,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 51,
+        "correct": 57,
+        "mean_ns": 3266722.3583333334,
+        "mean_rounds": 2.7916666666666665,
+        "mean_samples": 145.75,
+        "n": 120,
+        "policy": "primitive",
+        "wrong": 12
+      },
+      {
+        "abstained": 20,
+        "correct": 100,
+        "mean_ns": 2445920.8333333335,
+        "mean_rounds": 3,
+        "mean_samples": 147,
+        "n": 120,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 100,
+        "mean_ns": 5423991.641666667,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 120,
+        "policy": "dense",
+        "wrong": 0
+      }
+    ],
+    "by_family": [
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "stateless",
+        "mean_ns": 1956711.55,
+        "mean_rounds": 3,
+        "mean_samples": 115,
+        "n": 20,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "phase2",
+        "mean_ns": 488323.15,
+        "mean_rounds": 1,
+        "mean_samples": 98,
+        "n": 20,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "phase3",
+        "mean_ns": 517959.35,
+        "mean_rounds": 1,
+        "mean_samples": 98,
+        "n": 20,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "phase4",
+        "mean_ns": 447358.8,
+        "mean_rounds": 1,
+        "mean_samples": 98,
+        "n": 20,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "prev_sign",
+        "mean_ns": 487990,
+        "mean_rounds": 1,
+        "mean_samples": 98,
+        "n": 20,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "prev_exact",
+        "mean_ns": 323974.7,
+        "mean_rounds": 1,
+        "mean_samples": 98,
+        "n": 20,
+        "policy": "fixed",
+        "wrong": 0
+      },
+      {
+        "abstained": 5,
+        "correct": 15,
+        "family": "stateless",
+        "mean_ns": 3975274.05,
+        "mean_rounds": 2.8,
+        "mean_samples": 161.8,
+        "n": 20,
+        "policy": "primitive",
+        "wrong": 0
+      },
+      {
+        "abstained": 5,
+        "correct": 14,
+        "family": "phase2",
+        "mean_ns": 3241127.7,
+        "mean_rounds": 2.75,
+        "mean_samples": 149.5,
+        "n": 20,
+        "policy": "primitive",
+        "wrong": 1
+      },
+      {
+        "abstained": 6,
+        "correct": 10,
+        "family": "phase3",
+        "mean_ns": 3501385.4,
+        "mean_rounds": 2.8,
+        "mean_samples": 137.8,
+        "n": 20,
+        "policy": "primitive",
+        "wrong": 4
+      },
+      {
+        "abstained": 10,
+        "correct": 6,
+        "family": "phase4",
+        "mean_ns": 3226686.25,
+        "mean_rounds": 2.6,
+        "mean_samples": 148.6,
+        "n": 20,
+        "policy": "primitive",
+        "wrong": 4
+      },
+      {
+        "abstained": 5,
+        "correct": 12,
+        "family": "prev_sign",
+        "mean_ns": 3463401.45,
+        "mean_rounds": 2.85,
+        "mean_samples": 138.1,
+        "n": 20,
+        "policy": "primitive",
+        "wrong": 3
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "prev_exact",
+        "mean_ns": 2192459.3,
+        "mean_rounds": 2.95,
+        "mean_samples": 138.7,
+        "n": 20,
+        "policy": "primitive",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "stateless",
+        "mean_ns": 2371842.35,
+        "mean_rounds": 3,
+        "mean_samples": 163,
+        "n": 20,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "phase2",
+        "mean_ns": 2646062.7,
+        "mean_rounds": 3,
+        "mean_samples": 151,
+        "n": 20,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "phase3",
+        "mean_ns": 2772036.15,
+        "mean_rounds": 3,
+        "mean_samples": 139,
+        "n": 20,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "phase4",
+        "mean_ns": 2801563.05,
+        "mean_rounds": 3,
+        "mean_samples": 151,
+        "n": 20,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "prev_sign",
+        "mean_ns": 2784330.75,
+        "mean_rounds": 3,
+        "mean_samples": 139,
+        "n": 20,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "prev_exact",
+        "mean_ns": 1299690,
+        "mean_rounds": 3,
+        "mean_samples": 139,
+        "n": 20,
+        "policy": "memory",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "stateless",
+        "mean_ns": 5355303.35,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 20,
+        "policy": "dense",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "phase2",
+        "mean_ns": 5856323.9,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 20,
+        "policy": "dense",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "phase3",
+        "mean_ns": 6263154.05,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 20,
+        "policy": "dense",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "phase4",
+        "mean_ns": 5834124.1,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 20,
+        "policy": "dense",
+        "wrong": 0
+      },
+      {
+        "abstained": 0,
+        "correct": 20,
+        "family": "prev_sign",
+        "mean_ns": 6428260.75,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 20,
+        "policy": "dense",
+        "wrong": 0
+      },
+      {
+        "abstained": 20,
+        "correct": 0,
+        "family": "prev_exact",
+        "mean_ns": 2806783.7,
+        "mean_rounds": 2,
+        "mean_samples": 403,
+        "n": 20,
+        "policy": "dense",
+        "wrong": 0
+      }
+    ],
+    "episodes": 480,
+    "exports": 100,
+    "protocol": "NUCLEO_V5-example-contract-v1",
+    "seeds": [
+      1230007,
+      1260011,
+      1290017,
+      1320013
+    ]
+  },
+  "exported": {
+    "functions": 100,
+    "equivalent": 100,
+    "correct": 100,
+    "checks": 7100,
+    "passed": 7100
+  }
+}
