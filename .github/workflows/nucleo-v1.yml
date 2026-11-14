@@ -1,0 +1,72 @@
+name: NUCLEO V1
+on:
+  push:
+    branches: [experimento-04]
+    paths:
+      - 'NUCLEO_V1/**'
+      - '.github/workflows/nucleo-v1.yml'
+permissions:
+  contents: read
+concurrency:
+  group: nucleo-v1
+  cancel-in-progress: true
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify historical artifacts
+        run: python3 MIGRACAO/verify_integrity.py --all
+      - name: Test unified core
+        run: python3 NUCLEO_V1/core.py --self-test
+      - name: Run frozen unified protocol
+        run: python3 NUCLEO_V1/core.py --output NUCLEO_V1/ci_v1
+      - name: Verify historical artifacts again
+        run: python3 MIGRACAO/verify_integrity.py --all
+      - name: Preserve integrated records
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nucleo-v1-results
+          path: NUCLEO_V1/ci_v1/
+          retention-days: 30
+          if-no-files-found: warn
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - name: Download records only
+        uses: actions/download-artifact@v4
+        with:
+          name: nucleo-v1-results
+          path: EVIDENCIAS/BRUTOS/NUCLEO_V1
+      - name: Archive records
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('EVIDENCIAS/BRUTOS/NUCLEO_V1')
+          files=[dict(path=str(f.relative_to(p)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(p.rglob('*')) if f.is_file() and not f.is_symlink()]
+          assert files
+          (p/'SHA256.json').write_text(json.dumps(files,indent=2))
+          print('ARCHIVED_FILES='+str(len(files)))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V1
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\/NUCLEO_V1\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive NUCLEO V1 integrated experimental records'
+          git push origin HEAD:refs/heads/evidencias-cientificas
