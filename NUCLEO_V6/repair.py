@@ -92,7 +92,17 @@ def balance(z):
     return a
 
 def safe_tree(src):
-    t=ast.parse(src)
+    # Normalize signed integer syntax and clone operator nodes individually:
+    # ast.parse shares operator singleton objects across occurrences.
+    class Normalize(ast.NodeTransformer):
+        def visit_UnaryOp(self,n):
+            if isinstance(n.op,ast.USub) and isinstance(n.operand,ast.Constant) and type(n.operand.value)==int:
+                return ast.copy_location(ast.Constant(-n.operand.value),n)
+            return self.generic_visit(n)
+        def visit(self,n):
+            if type(n) in (*BIN,*CMP):return type(n)()
+            return super().visit(n)
+    t=Normalize().visit(ast.parse(src))
     allowed=(ast.Module,ast.FunctionDef,ast.arguments,ast.arg,ast.For,ast.If,ast.Assign,ast.AugAssign,ast.Return,
              ast.Name,ast.Load,ast.Store,ast.Constant,ast.BinOp,ast.Compare,*BIN,*CMP)
     for n in ast.walk(t):
@@ -237,6 +247,13 @@ class Tests(unittest.TestCase):
             self.assertEqual(evaluate(safe_tree(src),[-1,1,101,100]),ref([-1,1,101,100]))
     def test_mutation(self):
         tree=safe_tree(FIXTURES["points"][0]);m=next(mutations(tree));self.assertNotEqual(ast.unparse(tree),ast.unparse(patch(tree,[m])))
+    def test_independent_operators_and_negative_constant(self):
+        tree=safe_tree("def solve(items):\n    total = -1\n    for x in items:\n        total += x + 1\n    return total\n")
+        i=next(i for i,n in enumerate(ast.walk(tree)) if isinstance(n,ast.Add))
+        altered=patch(tree,[(i,"Sub")])
+        self.assertEqual(sum(isinstance(n,ast.Sub) for n in ast.walk(altered)),1)
+        self.assertEqual(sum(isinstance(n,ast.Add) for n in ast.walk(altered)),1)
+        self.assertEqual(evaluate(tree,[2]),2)
     def test_reject(self):
         with self.assertRaises(ValueError):safe_tree("def solve(items):\n    return open('secret')")
     def test_repair(self):
