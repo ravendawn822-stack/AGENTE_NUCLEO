@@ -1,0 +1,6 @@
+# Scientific files, SQLite, WAL/SHM, logs, results and existing bytecode are tracked.
+# Only future disposable environments and isolated runtime directories are ignored.
+/.venv/
+/WORKSPACES_EXECUCAO/
+/.env
+/.env.*

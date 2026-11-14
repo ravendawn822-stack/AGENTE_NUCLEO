@@ -1,0 +1,499 @@
+[
+  {
+    "original": "EXPERIMENTO_02/run_20261114_172605/memory.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/EXPERIMENTO_02/run_20261114_172605/memory.sqlite3",
+    "sha256": "a7dcdd2f3b21b968518b211afa4da26a0ca32a0a62f905455251a8242ca61389",
+    "bytes": 8192,
+    "integrity": "ok",
+    "tables": {
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "EXPERIMENTO_02/run_20261114_172627/memory.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/EXPERIMENTO_02/run_20261114_172627/memory.sqlite3",
+    "sha256": "a7dcdd2f3b21b968518b211afa4da26a0ca32a0a62f905455251a8242ca61389",
+    "bytes": 8192,
+    "integrity": "ok",
+    "tables": {
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "EXPERIMENTO_02/run_20261114_172715/memory.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/EXPERIMENTO_02/run_20261114_172715/memory.sqlite3",
+    "sha256": "a7dcdd2f3b21b968518b211afa4da26a0ca32a0a62f905455251a8242ca61389",
+    "bytes": 8192,
+    "integrity": "ok",
+    "tables": {
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "EXPERIMENTO_02/run_20261114_172735/memory.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/EXPERIMENTO_02/run_20261114_172735/memory.sqlite3",
+    "sha256": "b0e2fedcf35cea4686ee20c6fc3706da70573597ff54e092b09b50008bd4f6ad",
+    "bytes": 40960,
+    "integrity": "ok",
+    "tables": {
+      "skills": 419
+    },
+    "companions": []
+  },
+  {
+    "original": "EXPERIMENTO_03/pilot_resource/experiment.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/EXPERIMENTO_03/pilot_resource/experiment.sqlite3",
+    "sha256": "09810a4156838f77948106bb989a7ebfe4cfd2005dec94dcfea922094a39a05b",
+    "bytes": 4538368,
+    "integrity": "ok",
+    "tables": {
+      "episodes": 1495,
+      "snapshots": 225,
+      "skills": 57,
+      "auxiliary": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "EXPERIMENTO_03/results/experiment.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/EXPERIMENTO_03/results/experiment.sqlite3",
+    "sha256": "046957795a9bc0d125627f41ef03a651abe4cb01230067f1952914e44a4446a7",
+    "bytes": 19333120,
+    "integrity": "ok",
+    "tables": {
+      "episodes": 7680,
+      "snapshots": 1680,
+      "skills": 609,
+      "auxiliary": 82
+    },
+    "companions": []
+  },
+  {
+    "original": "memoria.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/memoria.sqlite3",
+    "sha256": "d816f39747b09f2d83e02e4395467865f23167dc947fa86084ebcfdb5291f66b",
+    "bytes": 20480,
+    "integrity": "ok",
+    "tables": {
+      "skills": 12,
+      "episodes": 6,
+      "events": 0
+    },
+    "companions": [
+      "-wal",
+      "-shm"
+    ]
+  },
+  {
+    "original": "PAINEL_01/sessions/20261114_174104/memory.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_01/sessions/20261114_174104/memory.sqlite3",
+    "sha256": "ff52f954a0b9cf50233a160526115ff127ca23df0d7a78abe8683a9cc40f65cd",
+    "bytes": 8192,
+    "integrity": "ok",
+    "tables": {
+      "skills": 11
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_01/sessions/20261114_174234/memory.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_01/sessions/20261114_174234/memory.sqlite3",
+    "sha256": "ff52f954a0b9cf50233a160526115ff127ca23df0d7a78abe8683a9cc40f65cd",
+    "bytes": 8192,
+    "integrity": "ok",
+    "tables": {
+      "skills": 11
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690559963680100/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690559963680100/diagnostic.sqlite3",
+    "sha256": "733aee6324fe79d8f0fe743d38abf91a9b058dc7c71676305baffbc157374cf3",
+    "bytes": 57344,
+    "integrity": "ok",
+    "tables": {
+      "events": 93,
+      "entities": 42,
+      "states": 42,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690560258843300/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690560258843300/diagnostic.sqlite3",
+    "sha256": "08c1aff815d51312f6b14dab2d26399c735c27280d34169fcb07a0def7345971",
+    "bytes": 94208,
+    "integrity": "ok",
+    "tables": {
+      "events": 161,
+      "entities": 76,
+      "states": 76,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690560924266400/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690560924266400/diagnostic.sqlite3",
+    "sha256": "2675b0da82c296f3e0f8b823d5d0581a1de9c62e383ff1a34f578a45df4e60a4",
+    "bytes": 176128,
+    "integrity": "ok",
+    "tables": {
+      "events": 345,
+      "entities": 168,
+      "states": 168,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690562071467200/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690562071467200/diagnostic.sqlite3",
+    "sha256": "298ff04b9e5eb7d85ab09205a2d2fb7b9583465c1160e24f60aabbdd1f64a6fc",
+    "bytes": 106496,
+    "integrity": "ok",
+    "tables": {
+      "events": 199,
+      "entities": 95,
+      "states": 95,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690562683709800/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690562683709800/diagnostic.sqlite3",
+    "sha256": "4f68414ae6db0c665490c674d9049cde0a1a1f17a27361a2ab611988c644e48d",
+    "bytes": 57344,
+    "integrity": "ok",
+    "tables": {
+      "events": 93,
+      "entities": 42,
+      "states": 42,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690562954797800/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690562954797800/diagnostic.sqlite3",
+    "sha256": "40d811fcc172aa2405f1fc434c1b59fedb61bb1b144ef479d05baa6008b0ddea",
+    "bytes": 94208,
+    "integrity": "ok",
+    "tables": {
+      "events": 161,
+      "entities": 76,
+      "states": 76,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690563548881200/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690563548881200/diagnostic.sqlite3",
+    "sha256": "c09bdd5fbe1a68cac09f406662f4706aacfda458cc27f20e82645a9eee4d0015",
+    "bytes": 176128,
+    "integrity": "ok",
+    "tables": {
+      "events": 345,
+      "entities": 168,
+      "states": 168,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690565134213300/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690565134213300/diagnostic.sqlite3",
+    "sha256": "68b2f686c911a3c64de9a707ae6d2620f1b8634a0183d241c216fc2d0f0be620",
+    "bytes": 106496,
+    "integrity": "ok",
+    "tables": {
+      "events": 199,
+      "entities": 95,
+      "states": 95,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690565811855500/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690565811855500/diagnostic.sqlite3",
+    "sha256": "d1a4ae3eee318cf009edce104c5a98ddac650ca40d62e7929325d5fbd494b42f",
+    "bytes": 57344,
+    "integrity": "ok",
+    "tables": {
+      "events": 93,
+      "entities": 42,
+      "states": 42,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690566129791600/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690566129791600/diagnostic.sqlite3",
+    "sha256": "1514adbda05a6114e952194b4ae13aaebf6d2ccb39e59846a04ebfc439a53aaf",
+    "bytes": 94208,
+    "integrity": "ok",
+    "tables": {
+      "events": 161,
+      "entities": 76,
+      "states": 76,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690566781724200/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690566781724200/diagnostic.sqlite3",
+    "sha256": "14d9f073353068eace53f1dcc1320d77b399686a72ffc3f8cbb74ee362fceca3",
+    "bytes": 176128,
+    "integrity": "ok",
+    "tables": {
+      "events": 345,
+      "entities": 168,
+      "states": 168,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690568121132100/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690568121132100/diagnostic.sqlite3",
+    "sha256": "0bf7b82b5973cc6db4ab278ac9fe16b60a028c0546e3a9d63198db9bd1f89d51",
+    "bytes": 106496,
+    "integrity": "ok",
+    "tables": {
+      "events": 199,
+      "entities": 95,
+      "states": 95,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690636988724100/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690636988724100/diagnostic.sqlite3",
+    "sha256": "8c88569b174e2ecc3aed8eb332797dd35994f7d925fc640b70fb12b46197147d",
+    "bytes": 57344,
+    "integrity": "ok",
+    "tables": {
+      "events": 93,
+      "entities": 42,
+      "states": 42,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690637178931600/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690637178931600/diagnostic.sqlite3",
+    "sha256": "93ffc0da98f8bfc1d5257620a3ef12a5fb595a61e64afcb27b3fb66e91702efd",
+    "bytes": 94208,
+    "integrity": "ok",
+    "tables": {
+      "events": 161,
+      "entities": 76,
+      "states": 76,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690637495128900/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690637495128900/diagnostic.sqlite3",
+    "sha256": "86c6ecf44d5982e06579aa8e2e85edc9c55770dc265f175fe76b914ae5a25b1a",
+    "bytes": 176128,
+    "integrity": "ok",
+    "tables": {
+      "events": 345,
+      "entities": 168,
+      "states": 168,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690638241346700/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690638241346700/diagnostic.sqlite3",
+    "sha256": "ea78e234979a08a9b89a3d37e35d63e68080feefc942e9d381b6f13468af9c28",
+    "bytes": 106496,
+    "integrity": "ok",
+    "tables": {
+      "events": 199,
+      "entities": 95,
+      "states": 95,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690638628587800/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690638628587800/diagnostic.sqlite3",
+    "sha256": "8e5b1e5bd232611641709e9ff024c83901259216d4d88ae9af23386899fc854a",
+    "bytes": 57344,
+    "integrity": "ok",
+    "tables": {
+      "events": 93,
+      "entities": 42,
+      "states": 42,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690638814164900/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690638814164900/diagnostic.sqlite3",
+    "sha256": "d1677c8cbe72cb97f776c588e50897168ababed2c2f76e50b8f3e568d155fa36",
+    "bytes": 94208,
+    "integrity": "ok",
+    "tables": {
+      "events": 161,
+      "entities": 76,
+      "states": 76,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690639245662700/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690639245662700/diagnostic.sqlite3",
+    "sha256": "04142e7d94bbf3ec2689778441cc1cdbb721633f75a7a1ffa832e2febf175e4d",
+    "bytes": 176128,
+    "integrity": "ok",
+    "tables": {
+      "events": 345,
+      "entities": 168,
+      "states": 168,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690640241087500/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690640241087500/diagnostic.sqlite3",
+    "sha256": "430aa03c6d20a6916c00fc0780731002d6e65202c86cb94053a296ab451c3cb6",
+    "bytes": 106496,
+    "integrity": "ok",
+    "tables": {
+      "events": 199,
+      "entities": 95,
+      "states": 95,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690640687620600/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690640687620600/diagnostic.sqlite3",
+    "sha256": "472efd4414d5206c886e937a4dbeb4cde29dca1487f483c605dad9d45722b31c",
+    "bytes": 57344,
+    "integrity": "ok",
+    "tables": {
+      "events": 93,
+      "entities": 42,
+      "states": 42,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690640872359300/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690640872359300/diagnostic.sqlite3",
+    "sha256": "be5eb35f17e809fe09c593ee3e54f505a610835eb9c77dbf6d17d11a9782f2a9",
+    "bytes": 94208,
+    "integrity": "ok",
+    "tables": {
+      "events": 161,
+      "entities": 76,
+      "states": 76,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690641202006900/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690641202006900/diagnostic.sqlite3",
+    "sha256": "860396e9675181b53f7edf9e3ac96862f3eb77e1a7bf91952003e4d49559131a",
+    "bytes": 176128,
+    "integrity": "ok",
+    "tables": {
+      "events": 345,
+      "entities": 168,
+      "states": 168,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/overhead/1794690641980510800/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/overhead/1794690641980510800/diagnostic.sqlite3",
+    "sha256": "f3d4222986c8cd44337c63b8ce98346662f8d2b8bbf9c078dd305b634a882fc0",
+    "bytes": 106496,
+    "integrity": "ok",
+    "tables": {
+      "events": 199,
+      "entities": 95,
+      "states": 95,
+      "skills": 0
+    },
+    "companions": []
+  },
+  {
+    "original": "PAINEL_02/sessions/20261114_180823/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/sessions/20261114_180823/diagnostic.sqlite3",
+    "sha256": "0187a64883330ca6038fbb70632a95fa1946480c227cdf716f77de4ae1354600",
+    "bytes": 1204224,
+    "integrity": "ok",
+    "tables": {
+      "events": 2678,
+      "entities": 851,
+      "states": 1309,
+      "skills": 3
+    },
+    "companions": [
+      "-wal",
+      "-shm"
+    ]
+  },
+  {
+    "original": "PAINEL_02/sessions/20261114_180903/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/sessions/20261114_180903/diagnostic.sqlite3",
+    "sha256": "8afd1555c5213623f6bc94f8e3fda5c6dba5faf10980d6e19af4da9913780806",
+    "bytes": 1204224,
+    "integrity": "ok",
+    "tables": {
+      "events": 2678,
+      "entities": 851,
+      "states": 1309,
+      "skills": 3
+    },
+    "companions": [
+      "-wal",
+      "-shm"
+    ]
+  },
+  {
+    "original": "PAINEL_02/sessions/20261114_181027/diagnostic.sqlite3",
+    "snapshot": "MIGRACAO/sqlite_consistentes/PAINEL_02/sessions/20261114_181027/diagnostic.sqlite3",
+    "sha256": "b52b6b86b8b1628ab0387d23ba6db0c85349858fe7dafa4a658fea8d7726e3cb",
+    "bytes": 1204224,
+    "integrity": "ok",
+    "tables": {
+      "events": 2678,
+      "entities": 851,
+      "states": 1309,
+      "skills": 3
+    },
+    "companions": [
+      "-wal",
+      "-shm"
+    ]
+  }
+]

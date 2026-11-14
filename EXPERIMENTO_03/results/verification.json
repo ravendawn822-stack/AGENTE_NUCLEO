@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "main_episodes": 7200,
+  "total_episodes": 7680,
+  "original_files_unchanged": 65,
+  "interpolation_success": 72,
+  "interpolation_n": 72,
+  "audited_ablations": 10,
+  "ablation_corrections": 0
+}

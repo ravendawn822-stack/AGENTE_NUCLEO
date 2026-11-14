@@ -1,0 +1,64 @@
+{
+  "files": 178,
+  "original_bytes": 55889872,
+  "databases": 36,
+  "findings": [
+    {
+      "path": "__pycache__/agent.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "__pycache__/expressions.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "__pycache__/memory.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "__pycache__/oracle.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "EXPERIMENTO_02/__pycache__/core.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "EXPERIMENTO_03/__pycache__/engine.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "EXPERIMENTO_03/__pycache__/model.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "EXPERIMENTO_03/__pycache__/protocol.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "EXPERIMENTO_03/__pycache__/run.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "PAINEL_01/__pycache__/data.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    },
+    {
+      "path": "PAINEL_01/__pycache__/diagnostic.cpython-313.pyc",
+      "rule": "local_path",
+      "count": 1
+    }
+  ],
+  "larger_than_50MiB": [],
+  "source_unchanged": true
+}

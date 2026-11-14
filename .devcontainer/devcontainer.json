@@ -1,0 +1,23 @@
+{
+  "name": "AGENTE_NUCLEO - Python, SQLite e Tkinter",
+  "build": {"dockerfile": "Dockerfile"},
+  "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "password": "noPassword",
+      "webPort": "6080",
+      "vncPort": "5901"
+    }
+  },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {"label": "Desktop local para Tkinter - manter porta privada", "onAutoForward": "notify"}
+  },
+  "otherPortsAttributes": {"onAutoForward": "ignore"},
+  "containerEnv": {"PYTHONDONTWRITEBYTECODE": "1", "PYTHONUNBUFFERED": "1"},
+  "customizations": {
+    "vscode": {"settings": {"python.defaultInterpreterPath": "/usr/bin/python3"}}
+  },
+  "postCreateCommand": "python3 MIGRACAO/check_portability.py --require-linux",
+  "shutdownAction": "stopContainer"
+}

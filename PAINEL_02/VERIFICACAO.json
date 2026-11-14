@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "events": 2678,
+  "entities": 851,
+  "control_tests": "passed",
+  "tk_smoke": "passed",
+  "render_mean_seconds": 0.04759131666681545,
+  "render_max_seconds": 0.08096199999999953,
+  "overhead_median_ratio": 55.059078093309544,
+  "equivalence_pairs": 12,
+  "original_files": 65
+}

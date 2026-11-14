@@ -1,0 +1,98 @@
+[
+  {
+    "repeat": 0,
+    "problem": 0,
+    "plain_seconds": 0.003299600000900682,
+    "logged_seconds": 0.16580249999969965,
+    "ratio": 50.24927262530035,
+    "equivalent": true
+  },
+  {
+    "repeat": 0,
+    "problem": 1,
+    "plain_seconds": 0.005286999999952968,
+    "logged_seconds": 0.2862688999994134,
+    "ratio": 54.145810478902966,
+    "equivalent": true
+  },
+  {
+    "repeat": 0,
+    "problem": 2,
+    "plain_seconds": 0.011857400000735652,
+    "logged_seconds": 0.7237607999995816,
+    "ratio": 61.03874373426539,
+    "equivalent": true
+  },
+  {
+    "repeat": 0,
+    "problem": 3,
+    "plain_seconds": 0.006213499998921179,
+    "logged_seconds": 0.367964099999881,
+    "ratio": 59.220101402393,
+    "equivalent": true
+  },
+  {
+    "repeat": 1,
+    "problem": 0,
+    "plain_seconds": 0.0032642000005580485,
+    "logged_seconds": 0.16526770000018587,
+    "ratio": 50.630384159037945,
+    "equivalent": true
+  },
+  {
+    "repeat": 1,
+    "problem": 1,
+    "plain_seconds": 0.00827229999958945,
+    "logged_seconds": 0.4038841000001412,
+    "ratio": 48.8236766099133,
+    "equivalent": true
+  },
+  {
+    "repeat": 1,
+    "problem": 2,
+    "plain_seconds": 0.014587700001357007,
+    "logged_seconds": 0.9515271999989636,
+    "ratio": 65.22804828111688,
+    "equivalent": true
+  },
+  {
+    "repeat": 1,
+    "problem": 3,
+    "plain_seconds": 0.0074724000005517155,
+    "logged_seconds": 0.41374460000042745,
+    "ratio": 55.36970718509169,
+    "equivalent": true
+  },
+  {
+    "repeat": 2,
+    "problem": 0,
+    "plain_seconds": 0.0039158999989012955,
+    "logged_seconds": 0.15802780000012717,
+    "ratio": 40.35542277496,
+    "equivalent": true
+  },
+  {
+    "repeat": 2,
+    "problem": 1,
+    "plain_seconds": 0.0055126000006566755,
+    "logged_seconds": 0.3018063000017719,
+    "ratio": 54.7484490015274,
+    "equivalent": true
+  },
+  {
+    "repeat": 2,
+    "problem": 2,
+    "plain_seconds": 0.011316999998598476,
+    "logged_seconds": 0.7522360999992088,
+    "ratio": 66.46956791485088,
+    "equivalent": true
+  },
+  {
+    "repeat": 2,
+    "problem": 3,
+    "plain_seconds": 0.0064950999985740054,
+    "logged_seconds": 0.40241409999907773,
+    "ratio": 61.95656727185531,
+    "equivalent": true
+  }
+]

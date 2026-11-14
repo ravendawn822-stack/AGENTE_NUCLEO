@@ -1,0 +1,13 @@
+agent,phase,problem,success,expr,experiments,hypotheses,seconds,peak_kb,calls
+A_sem_reuso,treino,T01,True,(1-(-2*x)),1179,1139,0.08575279999968188,543,7
+A_sem_reuso,treino,T02,True,(-1+(x*x)),770,760,0.04157310000027792,227,7
+A_sem_reuso,treino,T03,False,,2001,2001,0.11878820000038104,896,4
+A_sem_reuso,inedito,N01,False,,2001,2001,0.1201320999998643,896,4
+A_sem_reuso,inedito,N02,False,,2010,2001,0.12355730000035692,896,4
+A_sem_reuso,inedito,N03,True,(x*(2+x)),2115,1998,0.11982190000071569,894,7
+B_com_memoria,treino,T01,True,(1-(-2*x)),1179,1139,0.07821270000022196,402,7
+B_com_memoria,treino,T02,True,(-1+(x*x)),1012,997,0.07311389999995299,369,7
+B_com_memoria,treino,T03,True,(-2+(x-(-2*x))),726,716,0.05600179999964894,245,7
+B_com_memoria,inedito,N01,True,(x*(1-(-2*x))),200,197,0.019016600000213657,33,7
+B_com_memoria,inedito,N02,False,,2036,2001,0.1805091000005632,1046,4
+B_com_memoria,inedito,N03,True,((1-(-2*x))+(-1+(x*x))),245,233,0.02595629999996163,38,7

@@ -1,0 +1,56 @@
+{
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "capacities": [
+    16,
+    64
+  ],
+  "checkpoints": [
+    0,
+    10,
+    25,
+    50,
+    100
+  ],
+  "train": 100,
+  "test": 100,
+  "agents": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "ORDER"
+  ],
+  "candidates": 1600,
+  "seconds": 0.012,
+  "limit": 8,
+  "weights": [
+    0.45,
+    0.35,
+    0.2
+  ],
+  "dev_seed": 99001,
+  "sensitivity": [
+    [
+      0.6,
+      0.2,
+      0.2
+    ],
+    [
+      0.2,
+      0.6,
+      0.2
+    ],
+    [
+      0.45,
+      0.35,
+      0.2
+    ]
+  ],
+  "expansion_train": 30,
+  "expansion_test": 30,
+  "expansion_budget": 6000
+}

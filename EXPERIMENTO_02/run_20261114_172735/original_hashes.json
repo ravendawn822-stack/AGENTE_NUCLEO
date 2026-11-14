@@ -1,0 +1,18 @@
+{
+  "agent.py": "ec03fdf5cb2189af41ed6b74f59ef8b9fe3597815343a871e13b519b30f03f99",
+  "config.json": "e890aa8c74696b1dbd3acf302b39a2e34bfe4406c30e4d7ed5e4533beb5228e2",
+  "expressions.py": "8d71b1a2b3dbef6caa3bce14bb3de36e7012e1e9121a5061fdebfd7614aaa992",
+  "memoria.sqlite3": "1459388a04b5ed99fff1cbfbe758bdba91104f4f356fc384f5a8d94c00174657",
+  "memory.py": "3678668da06e1986b0975bb9d1c1deb9525bc024a53eaa646b8500386f732e7b",
+  "oracle.py": "fe05fe43133126800c5ce6bafd266a2d0aa82ed900fc5e2df27c3848aa704d98",
+  "README.md": "cff2c202c4c5ca26c6b6dea4b6aadaec6232418094a5dfc673778c2ccbce5051",
+  "RELATORIO.md": "86f9e6ea82c3737f382004d0b640ff20b9442d16920ad0c571fc6aeeb5975cf5",
+  "run_experiment.py": "0fb775ebdffdeea5fe53f986140ce990e127326a8919d3bf1854d2647c6c8dcd",
+  "logs\\experimento.log": "92ba6bcc6702cdb44eb2876b5752b6344d3db5eebe89bd474b9166264c4e4d2f",
+  "resultados\\resultados_brutos.csv": "6ed2ea86e145fdc78677e430b344d4c2929d2b36d94406c1c1cb020e5180a79b",
+  "__pycache__\\agent.cpython-313.pyc": "e065748e4700146a621fad504fd48eb70195df3650addd8aac8a967b0061a9d0",
+  "__pycache__\\expressions.cpython-313.pyc": "762f94b7d3fbbaa582880b89f85c435056f42c596c5ff601e3ee3a91239c13bd",
+  "__pycache__\\memory.cpython-313.pyc": "b63996bab5a896d15a3cee6d82e8a04136e3a03a98820f1d32565a72f7cd307b",
+  "__pycache__\\oracle.cpython-313.pyc": "23e6bbac8c4876252ad4a046b58daaff1db83e615da595c96919d22004bd869f",
+  "__pycache__\\run_experiment.cpython-313.pyc": "48ea0ac1762b5ba14d0b144481cf04523a68ef338d72699b7092fb69db5980f3"
+}

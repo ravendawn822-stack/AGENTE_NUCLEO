@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "original_files_unchanged": 47,
+  "equivalent_episodes": 12,
+  "diagnostic_episodes": 12,
+  "events": 19827,
+  "skills": 11,
+  "tk_smoke": "passed"
+}
