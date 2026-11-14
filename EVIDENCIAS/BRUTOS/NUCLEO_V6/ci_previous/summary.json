@@ -1,0 +1,203 @@
+{
+  "protocol": "V5.1-v1",
+  "episodes": 540,
+  "aggregate": [
+    {
+      "policy": "old",
+      "n": 180,
+      "correct": 70,
+      "wrong": 0,
+      "abstained": 110,
+      "mean_queries": 129.01111111111112,
+      "mean_ns": 1141822.8666666667,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_primitive",
+      "n": 180,
+      "correct": 117,
+      "wrong": 2,
+      "abstained": 61,
+      "mean_queries": 137.50555555555556,
+      "mean_ns": 1736632.0555555555,
+      "extension_correct": 60
+    },
+    {
+      "policy": "extended_memory",
+      "n": 180,
+      "correct": 142,
+      "wrong": 0,
+      "abstained": 38,
+      "mean_queries": 136.7722222222222,
+      "mean_ns": 1154499.1833333333,
+      "extension_correct": 72
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "old",
+      "family": "stateless",
+      "n": 36,
+      "correct": 35,
+      "wrong": 0,
+      "abstained": 1,
+      "mean_queries": 116.19444444444444,
+      "mean_ns": 423444.5,
+      "extension_correct": 0
+    },
+    {
+      "policy": "old",
+      "family": "phase2",
+      "n": 36,
+      "correct": 35,
+      "wrong": 0,
+      "abstained": 1,
+      "mean_queries": 127.5,
+      "mean_ns": 837958.6111111111,
+      "extension_correct": 0
+    },
+    {
+      "policy": "old",
+      "family": "prev_linear",
+      "n": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 36,
+      "mean_queries": 133.80555555555554,
+      "mean_ns": 1293169.8333333333,
+      "extension_correct": 0
+    },
+    {
+      "policy": "old",
+      "family": "prev_abs",
+      "n": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 36,
+      "mean_queries": 133.83333333333334,
+      "mean_ns": 1279970.0,
+      "extension_correct": 0
+    },
+    {
+      "policy": "old",
+      "family": "prev_square",
+      "n": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 36,
+      "mean_queries": 133.72222222222223,
+      "mean_ns": 1874571.388888889,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_primitive",
+      "family": "stateless",
+      "n": 36,
+      "correct": 31,
+      "wrong": 1,
+      "abstained": 4,
+      "mean_queries": 120.44444444444444,
+      "mean_ns": 1235760.4166666667,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_primitive",
+      "family": "phase2",
+      "n": 36,
+      "correct": 26,
+      "wrong": 0,
+      "abstained": 10,
+      "mean_queries": 132.22222222222223,
+      "mean_ns": 1859394.4722222222,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_primitive",
+      "family": "prev_linear",
+      "n": 36,
+      "correct": 31,
+      "wrong": 0,
+      "abstained": 5,
+      "mean_queries": 148.91666666666666,
+      "mean_ns": 1870689.4444444445,
+      "extension_correct": 31
+    },
+    {
+      "policy": "extended_primitive",
+      "family": "prev_abs",
+      "n": 36,
+      "correct": 29,
+      "wrong": 1,
+      "abstained": 6,
+      "mean_queries": 148.77777777777777,
+      "mean_ns": 1723974.0833333333,
+      "extension_correct": 29
+    },
+    {
+      "policy": "extended_primitive",
+      "family": "prev_square",
+      "n": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 36,
+      "mean_queries": 137.16666666666666,
+      "mean_ns": 1993341.861111111,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_memory",
+      "family": "stateless",
+      "n": 36,
+      "correct": 35,
+      "wrong": 0,
+      "abstained": 1,
+      "mean_queries": 116.52777777777777,
+      "mean_ns": 420923.6666666667,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_memory",
+      "family": "phase2",
+      "n": 36,
+      "correct": 35,
+      "wrong": 0,
+      "abstained": 1,
+      "mean_queries": 127.61111111111111,
+      "mean_ns": 840735.3888888889,
+      "extension_correct": 0
+    },
+    {
+      "policy": "extended_memory",
+      "family": "prev_linear",
+      "n": 36,
+      "correct": 36,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_queries": 151.0,
+      "mean_ns": 1413526.7777777778,
+      "extension_correct": 36
+    },
+    {
+      "policy": "extended_memory",
+      "family": "prev_abs",
+      "n": 36,
+      "correct": 36,
+      "wrong": 0,
+      "abstained": 0,
+      "mean_queries": 151.0,
+      "mean_ns": 1344510.5,
+      "extension_correct": 36
+    },
+    {
+      "policy": "extended_memory",
+      "family": "prev_square",
+      "n": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 36,
+      "mean_queries": 137.72222222222223,
+      "mean_ns": 1752799.5833333333,
+      "extension_correct": 0
+    }
+  ]
+}
