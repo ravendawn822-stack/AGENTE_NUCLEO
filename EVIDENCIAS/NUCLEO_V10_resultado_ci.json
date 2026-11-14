@@ -1,0 +1,435 @@
+{
+  "source_run": 43650509537,
+  "source_commit": "0cae9b5f3d17b1959a74e93a68c85423c8a8b63f",
+  "artifacts": [
+    {
+      "id": 14135639161,
+      "name": "nucleo-v10-results",
+      "size_in_bytes": 531651,
+      "url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14135639161",
+      "archive_download_url": "https://api.github.com/repos/ravendawn822-stack/AGENTE_NUCLEO/actions/artifacts/14135639161/zip",
+      "expired": false,
+      "created_at": "2026-11-14T22:54:57Z",
+      "expires_at": "2026-12-14T22:54:55Z",
+      "updated_at": "2026-11-14T22:54:57Z",
+      "digest": "sha256:07bd5a9f8b17d57c4ebeb7c316214788fec24d38ffec36df31fb9814e1c90a50",
+      "workflow_run": {
+        "id": 43650509537,
+        "repository_id": 1458190757,
+        "head_repository_id": 1458190757,
+        "head_branch": "experimento-04",
+        "head_sha": "0cae9b5f3d17b1959a74e93a68c85423c8a8b63f"
+      }
+    }
+  ],
+  "result": {
+    "agents": [
+      {
+        "policy": "fixed",
+        "remaining": 211140,
+        "seed": 1980011,
+        "sha256": "0d43f6f18b526b97b9883a42c19fc5f745baa7b6592fb3ee3e2faf6dcdd4b948",
+        "skills": 0
+      },
+      {
+        "policy": "no_memory",
+        "remaining": 0,
+        "seed": 1980011,
+        "sha256": "d23406b524669da317e9c13a86a631f45353ead9ccdf889730d7acbf03e7dd88",
+        "skills": 0
+      },
+      {
+        "policy": "frozen",
+        "remaining": 0,
+        "seed": 1980011,
+        "sha256": "b0dc48b43da20698a3bb999b64d242880e878e220706a35b498a4eaca41ea1dd",
+        "skills": 2
+      },
+      {
+        "policy": "continuous",
+        "remaining": 0,
+        "seed": 1980011,
+        "sha256": "a051aabbf642decfe63ce0a0a00c7bed33ea55afb346711bd8025281e8df0ec2",
+        "skills": 5
+      },
+      {
+        "policy": "fixed",
+        "remaining": 211140,
+        "seed": 2010013,
+        "sha256": "0d43f6f18b526b97b9883a42c19fc5f745baa7b6592fb3ee3e2faf6dcdd4b948",
+        "skills": 0
+      },
+      {
+        "policy": "no_memory",
+        "remaining": 0,
+        "seed": 2010013,
+        "sha256": "d23406b524669da317e9c13a86a631f45353ead9ccdf889730d7acbf03e7dd88",
+        "skills": 0
+      },
+      {
+        "policy": "frozen",
+        "remaining": 0,
+        "seed": 2010013,
+        "sha256": "6b0e7e2c00bb99f9daf98c4d0f3c29bf8638fa849bad3ebbd59e76473995f94d",
+        "skills": 1
+      },
+      {
+        "policy": "continuous",
+        "remaining": 0,
+        "seed": 2010013,
+        "sha256": "89062dbcc826b81aa125ea8c408cd941a177be6ca5f58d70ba344846c02b0895",
+        "skills": 3
+      },
+      {
+        "policy": "fixed",
+        "remaining": 211140,
+        "seed": 2040017,
+        "sha256": "0d43f6f18b526b97b9883a42c19fc5f745baa7b6592fb3ee3e2faf6dcdd4b948",
+        "skills": 0
+      },
+      {
+        "policy": "no_memory",
+        "remaining": 0,
+        "seed": 2040017,
+        "sha256": "d23406b524669da317e9c13a86a631f45353ead9ccdf889730d7acbf03e7dd88",
+        "skills": 0
+      },
+      {
+        "policy": "frozen",
+        "remaining": 0,
+        "seed": 2040017,
+        "sha256": "9f989bea66a046bc8b8361ff334beb6753fdd4348f6328bdfe78c5522fad9e30",
+        "skills": 2
+      },
+      {
+        "policy": "continuous",
+        "remaining": 0,
+        "seed": 2040017,
+        "sha256": "fc5086211c644474dd439cb560598c094ef21fd7552c23010db0029487599ecd",
+        "skills": 4
+      }
+    ],
+    "aggregate": [
+      {
+        "abstained": 95,
+        "candidates": 342427,
+        "checkpoint": 0,
+        "correct": 1,
+        "mean_candidates": 3566.9479166666665,
+        "mean_search_ns": 7337809.760416667,
+        "n": 96,
+        "policy": "fixed",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 95,
+        "candidates": 342427,
+        "checkpoint": 32,
+        "correct": 1,
+        "mean_candidates": 3566.9479166666665,
+        "mean_search_ns": 7070350.34375,
+        "n": 96,
+        "policy": "fixed",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 95,
+        "candidates": 342427,
+        "checkpoint": 0,
+        "correct": 1,
+        "mean_candidates": 3566.9479166666665,
+        "mean_search_ns": 7078238.125,
+        "n": 96,
+        "policy": "no_memory",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 95,
+        "candidates": 342427,
+        "checkpoint": 32,
+        "correct": 1,
+        "mean_candidates": 3566.9479166666665,
+        "mean_search_ns": 7043339.395833333,
+        "n": 96,
+        "policy": "no_memory",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 95,
+        "candidates": 342427,
+        "checkpoint": 0,
+        "correct": 1,
+        "mean_candidates": 3566.9479166666665,
+        "mean_search_ns": 7044905.854166667,
+        "n": 96,
+        "policy": "frozen",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 82,
+        "candidates": 315537,
+        "checkpoint": 32,
+        "correct": 14,
+        "mean_candidates": 3286.84375,
+        "mean_search_ns": 7310006.84375,
+        "n": 96,
+        "policy": "frozen",
+        "registered": 0,
+        "reused_correct": 13,
+        "wrong": 0
+      },
+      {
+        "abstained": 95,
+        "candidates": 342427,
+        "checkpoint": 0,
+        "correct": 1,
+        "mean_candidates": 3566.9479166666665,
+        "mean_search_ns": 7045864.229166667,
+        "n": 96,
+        "policy": "continuous",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 64,
+        "candidates": 278253,
+        "checkpoint": 32,
+        "correct": 32,
+        "mean_candidates": 2898.46875,
+        "mean_search_ns": 7149129.09375,
+        "n": 96,
+        "policy": "continuous",
+        "registered": 0,
+        "reused_correct": 31,
+        "wrong": 0
+      }
+    ],
+    "by_family": [
+      {
+        "abstained": 71,
+        "candidates": 256027,
+        "correct": 1,
+        "family": "linked",
+        "mean_candidates": 3555.9305555555557,
+        "mean_search_ns": 7048839.625,
+        "n": 72,
+        "policy": "fixed",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7152134.166666667,
+        "n": 12,
+        "policy": "fixed",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7117630.833333333,
+        "n": 12,
+        "policy": "fixed",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 71,
+        "candidates": 256027,
+        "correct": 1,
+        "family": "linked",
+        "mean_candidates": 3555.9305555555557,
+        "mean_search_ns": 7002799.722222222,
+        "n": 72,
+        "policy": "no_memory",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7325468.25,
+        "n": 12,
+        "policy": "no_memory",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7004448.583333333,
+        "n": 12,
+        "policy": "no_memory",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 58,
+        "candidates": 229137,
+        "correct": 14,
+        "family": "linked",
+        "mean_candidates": 3182.4583333333335,
+        "mean_search_ns": 7095078.208333333,
+        "n": 72,
+        "policy": "frozen",
+        "registered": 0,
+        "reused_correct": 13,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 8048572.833333333,
+        "n": 12,
+        "policy": "frozen",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 7861012.666666667,
+        "n": 12,
+        "policy": "frozen",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 40,
+        "candidates": 191853,
+        "correct": 32,
+        "family": "linked",
+        "mean_candidates": 2664.625,
+        "mean_search_ns": 6630123.055555556,
+        "n": 72,
+        "policy": "continuous",
+        "registered": 0,
+        "reused_correct": 31,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "unrelated",
+        "mean_candidates": 3600,
+        "mean_search_ns": 8688313.416666666,
+        "n": 12,
+        "policy": "continuous",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 12,
+        "candidates": 43200,
+        "correct": 0,
+        "family": "outside",
+        "mean_candidates": 3600,
+        "mean_search_ns": 8723981,
+        "n": 12,
+        "policy": "continuous",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      }
+    ],
+    "episodes": 1152,
+    "protocol": "V10-continuous-v1",
+    "seeds": [
+      1980011,
+      2010013,
+      2040017
+    ],
+    "train_budget_per_agent": 320000,
+    "training": [
+      {
+        "abstained": 90,
+        "candidates": 326580,
+        "correct": 6,
+        "mean_candidates": 3401.875,
+        "mean_search_ns": 7626340.145833333,
+        "n": 96,
+        "policy": "fixed",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 81,
+        "candidates": 960000,
+        "correct": 15,
+        "mean_candidates": 10000,
+        "mean_search_ns": 22519338.84375,
+        "n": 96,
+        "policy": "no_memory",
+        "registered": 0,
+        "reused_correct": 0,
+        "wrong": 0
+      },
+      {
+        "abstained": 65,
+        "candidates": 960000,
+        "correct": 31,
+        "mean_candidates": 10000,
+        "mean_search_ns": 26195668.760416668,
+        "n": 96,
+        "policy": "frozen",
+        "registered": 5,
+        "reused_correct": 19,
+        "wrong": 0
+      },
+      {
+        "abstained": 47,
+        "candidates": 960000,
+        "correct": 49,
+        "mean_candidates": 10000,
+        "mean_search_ns": 27786330.447916668,
+        "n": 96,
+        "policy": "continuous",
+        "registered": 12,
+        "reused_correct": 37,
+        "wrong": 0
+      }
+    ]
+  }
+}
