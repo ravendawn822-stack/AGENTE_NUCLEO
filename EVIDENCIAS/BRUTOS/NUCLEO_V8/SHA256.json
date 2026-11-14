@@ -1,0 +1,17 @@
+[
+  {
+    "path": "cases.json",
+    "bytes": 2688487,
+    "sha256": "9037c591994437ee1c0dcc23ae0ed214ab40c59d6e2a55c3a739c84379a7d9f5"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 231815,
+    "sha256": "1989ddf3fa8e02305c174b6a32e68e5125a05adcd3cda5910bd6e98daf8ae325"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 7201,
+    "sha256": "22bd93052c5044ffb23bea0d17db63d65cde7e817a6905002ae09ae9ad145412"
+  }
+]
