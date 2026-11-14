@@ -1,0 +1,201 @@
+{
+  "protocol": "V7-score-synthesis-v1",
+  "episodes": 2043,
+  "seeds": [
+    1620011,
+    1650013,
+    1680017
+  ],
+  "aggregate": [
+    {
+      "policy": "diversity",
+      "n": 45,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 3,
+      "queries": 151,
+      "mean_queries": 3.3555555555555556,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "policy": "entropy",
+      "n": 45,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 3,
+      "queries": 149,
+      "mean_queries": 3.311111111111111,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "policy": "minimax",
+      "n": 45,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 3,
+      "queries": 157,
+      "mean_queries": 3.488888888888889,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "policy": "learned",
+      "n": 45,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 3,
+      "queries": 155,
+      "mean_queries": 3.4444444444444446,
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "policy": "gated",
+      "n": 45,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 3,
+      "queries": 151,
+      "mean_queries": 3.3555555555555556,
+      "gains": 0,
+      "losses": 0
+    }
+  ],
+  "decisions": [
+    {
+      "seed": 1620011,
+      "learned": [
+        0,
+        3
+      ],
+      "active": [
+        0,
+        0
+      ],
+      "train_score": [
+        24,
+        0,
+        -69
+      ],
+      "gate": {
+        "accepted": false,
+        "losses": 0,
+        "gains": 0,
+        "base": {
+          "n": 15,
+          "correct": 13,
+          "wrong": 1,
+          "abstained": 1,
+          "queries": 54,
+          "mean_queries": 3.6
+        },
+        "proposal": {
+          "n": 15,
+          "correct": 13,
+          "wrong": 2,
+          "abstained": 0,
+          "queries": 54,
+          "mean_queries": 3.6
+        }
+      }
+    },
+    {
+      "seed": 1650013,
+      "learned": [
+        2,
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "active": [
+        0,
+        0
+      ],
+      "train_score": [
+        24,
+        0,
+        -70
+      ],
+      "gate": {
+        "accepted": false,
+        "losses": 0,
+        "gains": 0,
+        "base": {
+          "n": 15,
+          "correct": 14,
+          "wrong": 1,
+          "abstained": 0,
+          "queries": 52,
+          "mean_queries": 3.466666666666667
+        },
+        "proposal": {
+          "n": 15,
+          "correct": 14,
+          "wrong": 1,
+          "abstained": 0,
+          "queries": 53,
+          "mean_queries": 3.533333333333333
+        }
+      }
+    },
+    {
+      "seed": 1680017,
+      "learned": [
+        2,
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "active": [
+        0,
+        0
+      ],
+      "train_score": [
+        23,
+        0,
+        -86
+      ],
+      "gate": {
+        "accepted": false,
+        "losses": 0,
+        "gains": 0,
+        "base": {
+          "n": 15,
+          "correct": 13,
+          "wrong": 0,
+          "abstained": 2,
+          "queries": 51,
+          "mean_queries": 3.4
+        },
+        "proposal": {
+          "n": 15,
+          "correct": 13,
+          "wrong": 0,
+          "abstained": 2,
+          "queries": 56,
+          "mean_queries": 3.7333333333333334
+        }
+      }
+    }
+  ],
+  "features": [
+    "diversity",
+    "entropy",
+    "expected_elimination",
+    "worst_elimination",
+    "short_input",
+    "small_input"
+  ]
+}

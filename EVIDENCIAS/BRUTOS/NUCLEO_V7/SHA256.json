@@ -1,0 +1,22 @@
+[
+  {
+    "path": "final_fixtures.json",
+    "bytes": 458286,
+    "sha256": "b67ac4e347926578952ba55d5ffd48613d5ccfd2e2bafc7f6d5eefb027ff4ca8"
+  },
+  {
+    "path": "learning.sqlite3",
+    "bytes": 28672,
+    "sha256": "602176ab23abd3ee8cb88f16aed8407991feb381131a7e952398c88d9041c1f9"
+  },
+  {
+    "path": "raw.jsonl",
+    "bytes": 989216,
+    "sha256": "c418fa3ab0143255e5d1952ad2ea7a9a2da1273e653fb7904ff05fab94efb20a"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 3526,
+    "sha256": "a7957348fc788c00059b6c9319797dcadef819116942573115066e4e261f50f2"
+  }
+]
