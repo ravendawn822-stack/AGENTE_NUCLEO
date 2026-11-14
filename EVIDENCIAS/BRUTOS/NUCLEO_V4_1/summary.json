@@ -1,0 +1,1617 @@
+{
+  "protocol": "NUCLEO_V4_1-state-v1",
+  "episodes": 1440,
+  "seeds": [
+    1110011,
+    1140017,
+    1170013,
+    1200007
+  ],
+  "aggregate": [
+    {
+      "policy": "stateless",
+      "n": 240,
+      "correct": 40,
+      "abstained": 200,
+      "wrong": 0,
+      "mean_queries": 100.95,
+      "mean_decision_ns": 225361.05416666667,
+      "selected": {
+        "none": 40,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "phase2",
+      "n": 240,
+      "correct": 79,
+      "abstained": 161,
+      "wrong": 0,
+      "mean_queries": 107.64583333333333,
+      "mean_decision_ns": 266223.475,
+      "selected": {
+        "none": 0,
+        "phase2": 79,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "primitive_active",
+      "n": 240,
+      "correct": 124,
+      "abstained": 100,
+      "wrong": 16,
+      "mean_queries": 136.63333333333333,
+      "mean_decision_ns": 1146519.4208333334,
+      "selected": {
+        "none": 27,
+        "phase2": 29,
+        "phase3": 31,
+        "phase4": 27,
+        "prev_sign": 26
+      },
+      "guard_refutations": 100
+    },
+    {
+      "policy": "memory_active",
+      "n": 240,
+      "correct": 193,
+      "abstained": 46,
+      "wrong": 1,
+      "mean_queries": 134.2,
+      "mean_decision_ns": 686607.4291666667,
+      "selected": {
+        "none": 40,
+        "phase2": 39,
+        "phase3": 37,
+        "phase4": 39,
+        "prev_sign": 39
+      },
+      "guard_refutations": 48
+    },
+    {
+      "policy": "lesson_active",
+      "n": 240,
+      "correct": 194,
+      "abstained": 45,
+      "wrong": 1,
+      "mean_queries": 134.225,
+      "mean_decision_ns": 421289.79583333334,
+      "selected": {
+        "none": 40,
+        "phase2": 39,
+        "phase3": 38,
+        "phase4": 39,
+        "prev_sign": 39
+      },
+      "guard_refutations": 48
+    },
+    {
+      "policy": "lesson_dense",
+      "n": 240,
+      "correct": 194,
+      "abstained": 45,
+      "wrong": 1,
+      "mean_queries": 402.125,
+      "mean_decision_ns": 1188342.125,
+      "selected": {
+        "none": 40,
+        "phase2": 39,
+        "phase3": 38,
+        "phase4": 39,
+        "prev_sign": 39
+      },
+      "guard_refutations": 46
+    }
+  ],
+  "by_family": [
+    {
+      "policy": "stateless",
+      "family": "stateless",
+      "n": 40,
+      "correct": 40,
+      "abstained": 0,
+      "wrong": 0,
+      "mean_queries": 115.0,
+      "mean_decision_ns": 334391.05,
+      "selected": {
+        "none": 40,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "stateless",
+      "family": "phase2",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.7,
+      "mean_decision_ns": 233120.6,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "stateless",
+      "family": "phase3",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 231147.825,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "stateless",
+      "family": "phase4",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 236356.75,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "stateless",
+      "family": "prev_sign",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 216564.2,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "stateless",
+      "family": "prev_exact",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 100585.9,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "phase2",
+      "family": "stateless",
+      "n": 40,
+      "correct": 40,
+      "abstained": 0,
+      "wrong": 0,
+      "mean_queries": 127.0,
+      "mean_decision_ns": 451173.375,
+      "selected": {
+        "none": 0,
+        "phase2": 40,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "phase2",
+      "family": "phase2",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 126.875,
+      "mean_decision_ns": 375990.125,
+      "selected": {
+        "none": 0,
+        "phase2": 39,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "phase2",
+      "family": "phase3",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 231448.475,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "phase2",
+      "family": "phase4",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 236598.875,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "phase2",
+      "family": "prev_sign",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 209281.8,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "phase2",
+      "family": "prev_exact",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 98.0,
+      "mean_decision_ns": 92848.2,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "primitive_active",
+      "family": "stateless",
+      "n": 40,
+      "correct": 26,
+      "abstained": 13,
+      "wrong": 1,
+      "mean_queries": 129.175,
+      "mean_decision_ns": 2143494.0,
+      "selected": {
+        "none": 27,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 40
+    },
+    {
+      "policy": "primitive_active",
+      "family": "phase2",
+      "n": 40,
+      "correct": 25,
+      "abstained": 11,
+      "wrong": 4,
+      "mean_queries": 132.275,
+      "mean_decision_ns": 1038296.225,
+      "selected": {
+        "none": 0,
+        "phase2": 29,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 14
+    },
+    {
+      "policy": "primitive_active",
+      "family": "phase3",
+      "n": 40,
+      "correct": 28,
+      "abstained": 9,
+      "wrong": 3,
+      "mean_queries": 137.95,
+      "mean_decision_ns": 921286.5,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 31,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 3
+    },
+    {
+      "policy": "primitive_active",
+      "family": "phase4",
+      "n": 40,
+      "correct": 20,
+      "abstained": 13,
+      "wrong": 7,
+      "mean_queries": 149.275,
+      "mean_decision_ns": 1228123.775,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 27,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "primitive_active",
+      "family": "prev_sign",
+      "n": 40,
+      "correct": 25,
+      "abstained": 14,
+      "wrong": 1,
+      "mean_queries": 137.2,
+      "mean_decision_ns": 972636.6,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 26
+      },
+      "guard_refutations": 4
+    },
+    {
+      "policy": "primitive_active",
+      "family": "prev_exact",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 133.925,
+      "mean_decision_ns": 575279.425,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 37
+    },
+    {
+      "policy": "memory_active",
+      "family": "stateless",
+      "n": 40,
+      "correct": 40,
+      "abstained": 0,
+      "wrong": 0,
+      "mean_queries": 115.0,
+      "mean_decision_ns": 399433.55,
+      "selected": {
+        "none": 40,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "memory_active",
+      "family": "phase2",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 127.475,
+      "mean_decision_ns": 608135.375,
+      "selected": {
+        "none": 0,
+        "phase2": 39,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 4
+    },
+    {
+      "policy": "memory_active",
+      "family": "phase3",
+      "n": 40,
+      "correct": 37,
+      "abstained": 3,
+      "wrong": 0,
+      "mean_queries": 138.725,
+      "mean_decision_ns": 746760.05,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 37,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "memory_active",
+      "family": "phase4",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 151.0,
+      "mean_decision_ns": 1097640.775,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 39,
+        "prev_sign": 0
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "memory_active",
+      "family": "prev_sign",
+      "n": 40,
+      "correct": 38,
+      "abstained": 1,
+      "wrong": 1,
+      "mean_queries": 139.0,
+      "mean_decision_ns": 814393.65,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 39
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "memory_active",
+      "family": "prev_exact",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 134.0,
+      "mean_decision_ns": 453281.175,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 40
+    },
+    {
+      "policy": "lesson_active",
+      "family": "stateless",
+      "n": 40,
+      "correct": 40,
+      "abstained": 0,
+      "wrong": 0,
+      "mean_queries": 115.0,
+      "mean_decision_ns": 303840.25,
+      "selected": {
+        "none": 40,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "lesson_active",
+      "family": "phase2",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 127.475,
+      "mean_decision_ns": 388108.5,
+      "selected": {
+        "none": 0,
+        "phase2": 39,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 4
+    },
+    {
+      "policy": "lesson_active",
+      "family": "phase3",
+      "n": 40,
+      "correct": 38,
+      "abstained": 2,
+      "wrong": 0,
+      "mean_queries": 138.875,
+      "mean_decision_ns": 453849.125,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 38,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "lesson_active",
+      "family": "phase4",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 151.0,
+      "mean_decision_ns": 539063.85,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 39,
+        "prev_sign": 0
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "lesson_active",
+      "family": "prev_sign",
+      "n": 40,
+      "correct": 38,
+      "abstained": 1,
+      "wrong": 1,
+      "mean_queries": 139.0,
+      "mean_decision_ns": 508323.125,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 39
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "lesson_active",
+      "family": "prev_exact",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 134.0,
+      "mean_decision_ns": 334553.925,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 40
+    },
+    {
+      "policy": "lesson_dense",
+      "family": "stateless",
+      "n": 40,
+      "correct": 40,
+      "abstained": 0,
+      "wrong": 0,
+      "mean_queries": 403.0,
+      "mean_decision_ns": 901314.0,
+      "selected": {
+        "none": 40,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 0
+    },
+    {
+      "policy": "lesson_dense",
+      "family": "phase2",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 402.875,
+      "mean_decision_ns": 1407593.0,
+      "selected": {
+        "none": 0,
+        "phase2": 39,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "lesson_dense",
+      "family": "phase3",
+      "n": 40,
+      "correct": 38,
+      "abstained": 2,
+      "wrong": 0,
+      "mean_queries": 402.875,
+      "mean_decision_ns": 1366931.35,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 38,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 2
+    },
+    {
+      "policy": "lesson_dense",
+      "family": "phase4",
+      "n": 40,
+      "correct": 39,
+      "abstained": 1,
+      "wrong": 0,
+      "mean_queries": 403.0,
+      "mean_decision_ns": 1293317.75,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 39,
+        "prev_sign": 0
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "lesson_dense",
+      "family": "prev_sign",
+      "n": 40,
+      "correct": 38,
+      "abstained": 1,
+      "wrong": 1,
+      "mean_queries": 403.0,
+      "mean_decision_ns": 1327497.475,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 39
+      },
+      "guard_refutations": 1
+    },
+    {
+      "policy": "lesson_dense",
+      "family": "prev_exact",
+      "n": 40,
+      "correct": 0,
+      "abstained": 40,
+      "wrong": 0,
+      "mean_queries": 398.0,
+      "mean_decision_ns": 833399.175,
+      "selected": {
+        "none": 0,
+        "phase2": 0,
+        "phase3": 0,
+        "phase4": 0,
+        "prev_sign": 0
+      },
+      "guard_refutations": 40
+    }
+  ],
+  "index_cost": [
+    {
+      "seed": 1110011,
+      "indexes": {
+        "primitive": {
+          "pool": 401,
+          "entries": 38061,
+          "build_ns": 52226826
+        },
+        "memory": {
+          "pool": 343,
+          "entries": 43224,
+          "build_ns": 62375432
+        },
+        "lesson": {
+          "pool": 353,
+          "entries": 45125,
+          "build_ns": 50501949
+        }
+      }
+    },
+    {
+      "seed": 1140017,
+      "indexes": {
+        "primitive": {
+          "pool": 401,
+          "entries": 38061,
+          "build_ns": 52317351
+        },
+        "memory": {
+          "pool": 450,
+          "entries": 40370,
+          "build_ns": 52337212
+        },
+        "lesson": {
+          "pool": 460,
+          "entries": 41818,
+          "build_ns": 52766869
+        }
+      }
+    },
+    {
+      "seed": 1170013,
+      "indexes": {
+        "primitive": {
+          "pool": 401,
+          "entries": 38061,
+          "build_ns": 51407171
+        },
+        "memory": {
+          "pool": 331,
+          "entries": 40961,
+          "build_ns": 67475489
+        },
+        "lesson": {
+          "pool": 341,
+          "entries": 43044,
+          "build_ns": 78781006
+        }
+      }
+    },
+    {
+      "seed": 1200007,
+      "indexes": {
+        "primitive": {
+          "pool": 401,
+          "entries": 38061,
+          "build_ns": 53720804
+        },
+        "memory": {
+          "pool": 500,
+          "entries": 42579,
+          "build_ns": 53598080
+        },
+        "lesson": {
+          "pool": 500,
+          "entries": 46740,
+          "build_ns": 57423253
+        }
+      }
+    }
+  ],
+  "prior_sha256": "2ada096e165e1ce8da73c2ba1218fd7de7c9d8c8ecd6c0dfaa9a1b9cd8b5bbfe",
+  "banks_sha256": "849011c7c6201a23f66ff2490eca6a29aee96ced9eb8bed7b4343780e770686e",
+  "examples": [
+    {
+      "task": {
+        "family": "prev_sign",
+        "terms": [
+          [
+            [
+              "square",
+              5,
+              1
+            ],
+            [
+              "mod",
+              5,
+              3
+            ]
+          ],
+          [
+            [
+              "lt",
+              -5,
+              1
+            ]
+          ],
+          [
+            [
+              "linear",
+              2,
+              2
+            ]
+          ]
+        ],
+        "id": "1110011/prev_sign/9"
+      },
+      "program": {
+        "model": "prev_sign",
+        "rules": [
+          [
+            10,
+            [
+              12,
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  5
+                ]
+              ],
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  5
+                ]
+              ]
+            ],
+            [
+              15,
+              [
+                2,
+                -2
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -5
+                ]
+              ]
+            ]
+          ],
+          [
+            14,
+            [
+              2,
+              -5
+            ],
+            [
+              1
+            ]
+          ],
+          [
+            10,
+            [
+              1
+            ],
+            [
+              10,
+              [
+                1
+              ],
+              [
+                2,
+                2
+              ]
+            ]
+          ]
+        ],
+        "origins": [
+          [
+            {
+              "kind": "offline_lesson",
+              "group": "shape",
+              "contract": [
+                "square",
+                5,
+                1
+              ]
+            },
+            {
+              "kind": "schema",
+              "template": [
+                15,
+                [
+                  90,
+                  0
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    2,
+                    -5
+                  ]
+                ]
+              ],
+              "binding": [
+                -2
+              ],
+              "origins": [
+                "750019/23"
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "schema",
+              "template": [
+                14,
+                [
+                  90,
+                  0
+                ],
+                [
+                  1
+                ]
+              ],
+              "binding": [
+                -5
+              ],
+              "origins": [
+                "750019/14",
+                "750019/4"
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "schema",
+              "template": [
+                10,
+                [
+                  1
+                ],
+                [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ],
+              "binding": [
+                2
+              ],
+              "origins": [
+                "750019/0",
+                "750019/12",
+                "750019/16"
+              ]
+            }
+          ]
+        ]
+      },
+      "events": [
+        {
+          "model": "none",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase2",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase3",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase4",
+          "status": "contradicted"
+        },
+        {
+          "model": "prev_sign",
+          "status": "candidate",
+          "rules": 3
+        }
+      ]
+    },
+    {
+      "task": {
+        "family": "phase3",
+        "terms": [
+          [
+            [
+              "mod",
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              "square",
+              -4,
+              1
+            ]
+          ],
+          [
+            [
+              "abs",
+              -3,
+              1
+            ],
+            [
+              "abs",
+              1,
+              1
+            ]
+          ]
+        ],
+        "id": "1110011/phase3/4"
+      },
+      "program": {
+        "model": "phase3",
+        "rules": [
+          [
+            15,
+            [
+              2,
+              0
+            ],
+            [
+              13,
+              [
+                1
+              ],
+              [
+                2,
+                -3
+              ]
+            ]
+          ],
+          [
+            12,
+            [
+              11,
+              [
+                1
+              ],
+              [
+                2,
+                -4
+              ]
+            ],
+            [
+              11,
+              [
+                1
+              ],
+              [
+                2,
+                -4
+              ]
+            ]
+          ],
+          [
+            10,
+            [
+              3,
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -3
+                ]
+              ]
+            ],
+            [
+              3,
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  1
+                ]
+              ]
+            ]
+          ]
+        ],
+        "origins": [
+          [
+            {
+              "kind": "schema",
+              "template": [
+                15,
+                [
+                  90,
+                  1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ],
+              "binding": [
+                -3,
+                0
+              ],
+              "origins": [
+                "750019/23"
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "offline_lesson",
+              "group": "shape",
+              "contract": [
+                "square",
+                -4,
+                1
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "offline_lesson",
+              "group": "shape",
+              "contract": [
+                "abs",
+                -3,
+                1
+              ]
+            },
+            {
+              "kind": "offline_lesson",
+              "group": "shape",
+              "contract": [
+                "abs",
+                1,
+                1
+              ]
+            }
+          ]
+        ]
+      },
+      "events": [
+        {
+          "model": "none",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase2",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase3",
+          "status": "candidate",
+          "rules": 3
+        }
+      ]
+    },
+    {
+      "task": {
+        "family": "phase2",
+        "terms": [
+          [
+            [
+              "mod",
+              3,
+              1
+            ],
+            [
+              "mod",
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              "gt",
+              0,
+              1
+            ]
+          ]
+        ],
+        "id": "1110011/phase2/0"
+      },
+      "program": {
+        "model": "phase2",
+        "rules": [
+          [
+            10,
+            [
+              15,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -2
+                ]
+              ]
+            ],
+            [
+              14,
+              [
+                2,
+                -1
+              ],
+              [
+                13,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -3
+                ]
+              ]
+            ]
+          ],
+          [
+            14,
+            [
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        ],
+        "origins": [
+          [
+            {
+              "kind": "schema",
+              "template": [
+                15,
+                [
+                  2,
+                  -1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ],
+              "binding": [
+                -2
+              ],
+              "origins": [
+                "750019/23"
+              ]
+            },
+            {
+              "kind": "schema",
+              "template": [
+                14,
+                [
+                  90,
+                  1
+                ],
+                [
+                  13,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ],
+              "binding": [
+                -3,
+                -1
+              ],
+              "origins": [
+                "750019/7"
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "schema",
+              "template": [
+                14,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ],
+              "binding": [
+                0
+              ],
+              "origins": [
+                "750019/17"
+              ]
+            }
+          ]
+        ]
+      },
+      "events": [
+        {
+          "model": "none",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase2",
+          "status": "candidate",
+          "rules": 2
+        }
+      ]
+    },
+    {
+      "task": {
+        "family": "prev_sign",
+        "terms": [
+          [
+            [
+              "gt",
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              "gt",
+              -3,
+              1
+            ]
+          ],
+          [
+            [
+              "linear",
+              2,
+              0
+            ],
+            [
+              "square",
+              -1,
+              1
+            ]
+          ]
+        ],
+        "id": "1110011/prev_sign/6"
+      },
+      "program": {
+        "model": "prev_sign",
+        "rules": [
+          [
+            14,
+            [
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          [
+            14,
+            [
+              1
+            ],
+            [
+              2,
+              -3
+            ]
+          ],
+          [
+            11,
+            [
+              12,
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -3
+                ]
+              ],
+              [
+                11,
+                [
+                  1
+                ],
+                [
+                  2,
+                  -3
+                ]
+              ]
+            ],
+            [
+              10,
+              [
+                1
+              ],
+              [
+                10,
+                [
+                  1
+                ],
+                [
+                  2,
+                  8
+                ]
+              ]
+            ]
+          ]
+        ],
+        "origins": [
+          [
+            {
+              "kind": "literal",
+              "origins": [
+                "750019/17"
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "schema",
+              "template": [
+                14,
+                [
+                  1
+                ],
+                [
+                  90,
+                  0
+                ]
+              ],
+              "binding": [
+                -3
+              ],
+              "origins": [
+                "750019/17"
+              ]
+            }
+          ],
+          [
+            {
+              "kind": "offline_lesson",
+              "group": "shape",
+              "contract": [
+                "square",
+                -3,
+                1
+              ]
+            },
+            {
+              "kind": "schema",
+              "template": [
+                10,
+                [
+                  1
+                ],
+                [
+                  10,
+                  [
+                    1
+                  ],
+                  [
+                    90,
+                    0
+                  ]
+                ]
+              ],
+              "binding": [
+                8
+              ],
+              "origins": [
+                "750019/0",
+                "750019/12",
+                "750019/16"
+              ]
+            }
+          ]
+        ]
+      },
+      "events": [
+        {
+          "model": "none",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase2",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase3",
+          "status": "contradicted"
+        },
+        {
+          "model": "phase4",
+          "status": "contradicted"
+        },
+        {
+          "model": "prev_sign",
+          "status": "candidate",
+          "rules": 3
+        }
+      ]
+    }
+  ]
+}
