@@ -1,0 +1,2 @@
+# V89 — avaliação final independente
+Congelar candidata e recomendação após validação. Avaliar referência e candidata em teste novo mesmo se reprovada (diagnóstico pré-registrado, não elegível a promoção); relatar critérios também no teste. Recomendação permanece a decisão da validação; se teste contradiz, registrar ausência de confirmação, não reajustar. Incluir resultados por contexto/estrato; não confundir vantagem amostral com significância.
