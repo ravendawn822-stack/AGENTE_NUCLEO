@@ -1,0 +1,13 @@
+test_csv (__main__.Tests.test_csv) ... ok
+test_dependency (__main__.Tests.test_dependency) ... ok
+test_dialogue (__main__.Tests.test_dialogue) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_operations (__main__.Tests.test_operations) ... ok
+test_search (__main__.Tests.test_search) ... ok
+test_seeds (__main__.Tests.test_seeds) ... ok
+test_vm (__main__.Tests.test_vm) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.227s
+
+OK

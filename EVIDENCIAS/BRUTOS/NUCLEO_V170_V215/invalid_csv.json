@@ -1,0 +1,18 @@
+[
+  {
+    "input": "value,bad\n1,A\n",
+    "rejected": true
+  },
+  {
+    "input": "value,category\nxyz,A\n",
+    "rejected": true
+  },
+  {
+    "input": "value,category\n1,Z\n",
+    "rejected": true
+  },
+  {
+    "input": "value,category\n1,A,other\n",
+    "rejected": true
+  }
+]

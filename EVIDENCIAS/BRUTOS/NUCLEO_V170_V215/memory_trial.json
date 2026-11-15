@@ -1,0 +1,375 @@
+{
+  "after": [
+    {
+      "deps": [],
+      "id": 1,
+      "kind": "list_solve",
+      "payload": {
+        "audit": [
+          [
+            [
+              2,
+              -5
+            ],
+            [
+              4,
+              -10
+            ]
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          [
+            [
+              -3,
+              -1
+            ],
+            [
+              -6,
+              -2
+            ]
+          ]
+        ],
+        "fit": [
+          [
+            [
+              -2,
+              0,
+              3
+            ],
+            [
+              -4,
+              0,
+              6
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          [
+            [
+              -4,
+              5,
+              1
+            ],
+            [
+              -8,
+              10,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              -1
+            ],
+            [
+              6,
+              -2
+            ]
+          ]
+        ]
+      },
+      "result": {
+        "atom_evaluations": 5,
+        "audit_rejected": 0,
+        "candidates": 1,
+        "elapsed_ns": 921411,
+        "memory_checks": 0,
+        "program": [
+          "double"
+        ],
+        "retried": 0
+      },
+      "status": "done"
+    },
+    {
+      "deps": [
+        1
+      ],
+      "id": 2,
+      "kind": "list_apply",
+      "payload": {
+        "input": [
+          2,
+          -3
+        ],
+        "program": 1
+      },
+      "result": {
+        "value": [
+          4,
+          -6
+        ]
+      },
+      "status": "done"
+    },
+    {
+      "deps": [],
+      "id": 3,
+      "kind": "list_solve",
+      "payload": {
+        "audit": [
+          [
+            [
+              2,
+              -5
+            ],
+            [
+              4,
+              -10
+            ]
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          [
+            [
+              -3,
+              -1
+            ],
+            [
+              -6,
+              -2
+            ]
+          ]
+        ],
+        "fit": [
+          [
+            [
+              -2,
+              0,
+              3
+            ],
+            [
+              -4,
+              0,
+              6
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          [
+            [
+              -4,
+              5,
+              1
+            ],
+            [
+              -8,
+              10,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              -1
+            ],
+            [
+              6,
+              -2
+            ]
+          ]
+        ]
+      },
+      "result": {
+        "atom_evaluations": 0,
+        "audit_rejected": 0,
+        "candidates": 0,
+        "elapsed_ns": 0,
+        "memory_checks": 1,
+        "program": [
+          "double"
+        ],
+        "retried": 0
+      },
+      "status": "done"
+    }
+  ],
+  "before": [
+    {
+      "deps": [],
+      "id": 1,
+      "kind": "list_solve",
+      "payload": {
+        "audit": [
+          [
+            [
+              2,
+              -5
+            ],
+            [
+              4,
+              -10
+            ]
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          [
+            [
+              -3,
+              -1
+            ],
+            [
+              -6,
+              -2
+            ]
+          ]
+        ],
+        "fit": [
+          [
+            [
+              -2,
+              0,
+              3
+            ],
+            [
+              -4,
+              0,
+              6
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          [
+            [
+              -4,
+              5,
+              1
+            ],
+            [
+              -8,
+              10,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              -1
+            ],
+            [
+              6,
+              -2
+            ]
+          ]
+        ]
+      },
+      "result": {
+        "atom_evaluations": 5,
+        "audit_rejected": 0,
+        "candidates": 1,
+        "elapsed_ns": 921411,
+        "memory_checks": 0,
+        "program": [
+          "double"
+        ],
+        "retried": 0
+      },
+      "status": "done"
+    },
+    {
+      "deps": [
+        1
+      ],
+      "id": 2,
+      "kind": "list_apply",
+      "payload": {
+        "input": [
+          2,
+          -3
+        ],
+        "program": 1
+      },
+      "result": null,
+      "status": "pending"
+    }
+  ],
+  "candidates_saved": 1,
+  "counts": {
+    "evidence": 3,
+    "goals": 3,
+    "knowledge": 1
+  },
+  "memory_reused": true,
+  "resumed_output": [
+    4,
+    -6
+  ]
+}

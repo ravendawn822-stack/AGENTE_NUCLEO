@@ -1,0 +1,298 @@
+{
+  "deployment": false,
+  "invalid_csv": 4,
+  "language": {
+    "cases": 12,
+    "completed": 2,
+    "correct": 12,
+    "goals": 2,
+    "open_language": false,
+    "unknown_actions": 0
+  },
+  "memory": {
+    "candidates_saved": 1,
+    "counts": {
+      "evidence": 3,
+      "goals": 3,
+      "knowledge": 1
+    },
+    "memory_reused": true,
+    "resumed_output": [
+      4,
+      -6
+    ]
+  },
+  "operations": [
+    {
+      "actions": 332,
+      "arithmetic_correct": 13,
+      "blocked": 8,
+      "candidates": 6520,
+      "incorrect": 0,
+      "mode": "baseline",
+      "navigation_correct": 16,
+      "output_correct": 14,
+      "second_correct": 14,
+      "second_stats": 14,
+      "solved": 14,
+      "stats_correct": 14,
+      "success": 12,
+      "tasks": 16
+    },
+    {
+      "actions": 332,
+      "arithmetic_correct": 13,
+      "blocked": 8,
+      "candidates": 6520,
+      "incorrect": 0,
+      "mode": "gate",
+      "navigation_correct": 16,
+      "output_correct": 14,
+      "second_correct": 14,
+      "second_stats": 14,
+      "solved": 14,
+      "stats_correct": 14,
+      "success": 12,
+      "tasks": 16
+    }
+  ],
+  "policy": {
+    "candidate": "direct",
+    "deployment": false,
+    "selected": "direct",
+    "test": [
+      {
+        "abstained": 64,
+        "atom_evaluations": 43702,
+        "audit_rejected": 8,
+        "candidates": 13752,
+        "correct": 698,
+        "elapsed_ns": 1569743031,
+        "incorrect": 2,
+        "mode": "direct",
+        "retried": 0,
+        "solved": 86,
+        "tasks": 96,
+        "utility": 780,
+        "wrong": 6
+      },
+      {
+        "abstained": 32,
+        "atom_evaluations": 21840,
+        "audit_rejected": 4,
+        "candidates": 5326,
+        "correct": 729,
+        "elapsed_ns": 786217156,
+        "incorrect": 2,
+        "mode": "learned",
+        "retried": 0,
+        "solved": 90,
+        "tasks": 96,
+        "utility": 820,
+        "wrong": 7
+      },
+      {
+        "abstained": 136,
+        "atom_evaluations": 51161,
+        "audit_rejected": 8,
+        "candidates": 14304,
+        "correct": 626,
+        "elapsed_ns": 1772855805,
+        "incorrect": 2,
+        "mode": "retry",
+        "retried": 8,
+        "solved": 77,
+        "tasks": 96,
+        "utility": 690,
+        "wrong": 6
+      },
+      {
+        "abstained": 768,
+        "atom_evaluations": 4280,
+        "audit_rejected": 2,
+        "candidates": 856,
+        "correct": 0,
+        "elapsed_ns": 124679527,
+        "incorrect": 0,
+        "mode": "single",
+        "retried": 0,
+        "solved": 0,
+        "tasks": 96,
+        "utility": 0,
+        "wrong": 0
+      }
+    ],
+    "training": [
+      {
+        "abstained": 40,
+        "atom_evaluations": 29475,
+        "audit_rejected": 5,
+        "candidates": 10080,
+        "correct": 469,
+        "elapsed_ns": 1022347654,
+        "incorrect": 1,
+        "mode": "direct",
+        "retried": 0,
+        "solved": 58,
+        "tasks": 64,
+        "utility": 540,
+        "wrong": 3
+      },
+      {
+        "abstained": 8,
+        "atom_evaluations": 13516,
+        "audit_rejected": 1,
+        "candidates": 3509,
+        "correct": 499,
+        "elapsed_ns": 467612525,
+        "incorrect": 2,
+        "mode": "learned",
+        "retried": 0,
+        "solved": 61,
+        "tasks": 64,
+        "utility": 530,
+        "wrong": 5
+      },
+      {
+        "abstained": 112,
+        "atom_evaluations": 31531,
+        "audit_rejected": 5,
+        "candidates": 9064,
+        "correct": 397,
+        "elapsed_ns": 1103478785,
+        "incorrect": 1,
+        "mode": "retry",
+        "retried": 5,
+        "solved": 49,
+        "tasks": 64,
+        "utility": 450,
+        "wrong": 3
+      }
+    ],
+    "validation": [
+      {
+        "abstained": 48,
+        "atom_evaluations": 28427,
+        "audit_rejected": 6,
+        "candidates": 9654,
+        "correct": 462,
+        "elapsed_ns": 1099771521,
+        "incorrect": 1,
+        "mode": "direct",
+        "retried": 0,
+        "solved": 57,
+        "tasks": 64,
+        "utility": 530,
+        "wrong": 2
+      }
+    ],
+    "validation_passed": false
+  },
+  "practical": [
+    {
+      "incorrect": 0,
+      "mode": "baseline",
+      "solved": 22,
+      "stats_correct": 24,
+      "tasks": 24,
+      "transformed": 22,
+      "wrong": 0
+    },
+    {
+      "incorrect": 0,
+      "mode": "gate",
+      "solved": 22,
+      "stats_correct": 24,
+      "tasks": 24,
+      "transformed": 22,
+      "wrong": 0
+    }
+  ],
+  "programming": {
+    "acquisition_candidates": 7693,
+    "acquisition_tasks": 64,
+    "aggregate": [
+      {
+        "abstained": 64,
+        "atom_evaluations": 43702,
+        "audit_rejected": 8,
+        "candidates": 13752,
+        "correct": 698,
+        "elapsed_ns": 1569743031,
+        "incorrect": 2,
+        "mode": "direct",
+        "retried": 0,
+        "solved": 86,
+        "tasks": 96,
+        "utility": 780,
+        "wrong": 6
+      },
+      {
+        "abstained": 32,
+        "atom_evaluations": 21840,
+        "audit_rejected": 4,
+        "candidates": 5326,
+        "correct": 729,
+        "elapsed_ns": 786217156,
+        "incorrect": 2,
+        "mode": "learned",
+        "retried": 0,
+        "solved": 90,
+        "tasks": 96,
+        "utility": 820,
+        "wrong": 7
+      },
+      {
+        "abstained": 136,
+        "atom_evaluations": 51161,
+        "audit_rejected": 8,
+        "candidates": 14304,
+        "correct": 626,
+        "elapsed_ns": 1772855805,
+        "incorrect": 2,
+        "mode": "retry",
+        "retried": 8,
+        "solved": 77,
+        "tasks": 96,
+        "utility": 690,
+        "wrong": 6
+      },
+      {
+        "abstained": 768,
+        "atom_evaluations": 4280,
+        "audit_rejected": 2,
+        "candidates": 856,
+        "correct": 0,
+        "elapsed_ns": 124679527,
+        "incorrect": 0,
+        "mode": "single",
+        "retried": 0,
+        "solved": 0,
+        "tasks": 96,
+        "utility": 0,
+        "wrong": 0
+      }
+    ],
+    "library": [
+      [
+        "double",
+        "inc",
+        "reverse"
+      ],
+      [
+        "sort",
+        "nonnegative"
+      ],
+      [
+        "unique",
+        "sum"
+      ],
+      [
+        "nonzero",
+        "unique",
+        "count"
+      ]
+    ]
+  },
+  "protocol": "V170-V215-integrated-pilot-v1"
+}

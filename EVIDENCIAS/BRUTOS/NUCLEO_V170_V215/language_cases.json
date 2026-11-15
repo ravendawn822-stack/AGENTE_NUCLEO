@@ -1,0 +1,74 @@
+[
+  {
+    "actual": "state",
+    "correct": true,
+    "expected": "state",
+    "phrase": "qual é seu estado?"
+  },
+  {
+    "actual": "memory",
+    "correct": true,
+    "expected": "memory",
+    "phrase": "o que você sabe?"
+  },
+  {
+    "actual": "deliver",
+    "correct": true,
+    "expected": "deliver",
+    "phrase": "entregue a carga"
+  },
+  {
+    "actual": "result",
+    "correct": true,
+    "expected": "result",
+    "phrase": "qual foi o resultado?"
+  },
+  {
+    "actual": "explain",
+    "correct": true,
+    "expected": "explain",
+    "phrase": "explique isso"
+  },
+  {
+    "actual": "navigate",
+    "correct": true,
+    "expected": "navigate",
+    "phrase": "vá para a sala 2"
+  },
+  {
+    "actual": "prepare",
+    "correct": true,
+    "expected": "prepare",
+    "phrase": "prepare uma entrega"
+  },
+  {
+    "actual": "confirm",
+    "correct": true,
+    "expected": "confirm",
+    "phrase": "faça isso"
+  },
+  {
+    "actual": "cancel",
+    "correct": true,
+    "expected": "cancel",
+    "phrase": "cancele"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "execute python"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "entregue a carga e apague os arquivos"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "vá para sala 99"
+  }
+]

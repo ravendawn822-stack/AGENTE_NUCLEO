@@ -1,0 +1,298 @@
+{
+  "protocol": "V170-V215-integrated-pilot-v1",
+  "deployment": false,
+  "memory": {
+    "resumed_output": [
+      4,
+      -6
+    ],
+    "memory_reused": true,
+    "candidates_saved": 1,
+    "counts": {
+      "goals": 3,
+      "evidence": 3,
+      "knowledge": 1
+    }
+  },
+  "programming": {
+    "library": [
+      [
+        "double",
+        "inc",
+        "reverse"
+      ],
+      [
+        "sort",
+        "nonnegative"
+      ],
+      [
+        "unique",
+        "sum"
+      ],
+      [
+        "nonzero",
+        "unique",
+        "count"
+      ]
+    ],
+    "acquisition_tasks": 64,
+    "acquisition_candidates": 7693,
+    "aggregate": [
+      {
+        "mode": "direct",
+        "tasks": 96,
+        "solved": 86,
+        "incorrect": 2,
+        "correct": 698,
+        "wrong": 6,
+        "abstained": 64,
+        "utility": 780,
+        "candidates": 13752,
+        "atom_evaluations": 43702,
+        "audit_rejected": 8,
+        "retried": 0,
+        "elapsed_ns": 1569743031
+      },
+      {
+        "mode": "learned",
+        "tasks": 96,
+        "solved": 90,
+        "incorrect": 2,
+        "correct": 729,
+        "wrong": 7,
+        "abstained": 32,
+        "utility": 820,
+        "candidates": 5326,
+        "atom_evaluations": 21840,
+        "audit_rejected": 4,
+        "retried": 0,
+        "elapsed_ns": 786217156
+      },
+      {
+        "mode": "retry",
+        "tasks": 96,
+        "solved": 77,
+        "incorrect": 2,
+        "correct": 626,
+        "wrong": 6,
+        "abstained": 136,
+        "utility": 690,
+        "candidates": 14304,
+        "atom_evaluations": 51161,
+        "audit_rejected": 8,
+        "retried": 8,
+        "elapsed_ns": 1772855805
+      },
+      {
+        "mode": "single",
+        "tasks": 96,
+        "solved": 0,
+        "incorrect": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 768,
+        "utility": 0,
+        "candidates": 856,
+        "atom_evaluations": 4280,
+        "audit_rejected": 2,
+        "retried": 0,
+        "elapsed_ns": 124679527
+      }
+    ]
+  },
+  "policy": {
+    "candidate": "direct",
+    "selected": "direct",
+    "validation_passed": false,
+    "deployment": false,
+    "training": [
+      {
+        "mode": "direct",
+        "tasks": 64,
+        "solved": 58,
+        "incorrect": 1,
+        "correct": 469,
+        "wrong": 3,
+        "abstained": 40,
+        "utility": 540,
+        "candidates": 10080,
+        "atom_evaluations": 29475,
+        "audit_rejected": 5,
+        "retried": 0,
+        "elapsed_ns": 1022347654
+      },
+      {
+        "mode": "learned",
+        "tasks": 64,
+        "solved": 61,
+        "incorrect": 2,
+        "correct": 499,
+        "wrong": 5,
+        "abstained": 8,
+        "utility": 530,
+        "candidates": 3509,
+        "atom_evaluations": 13516,
+        "audit_rejected": 1,
+        "retried": 0,
+        "elapsed_ns": 467612525
+      },
+      {
+        "mode": "retry",
+        "tasks": 64,
+        "solved": 49,
+        "incorrect": 1,
+        "correct": 397,
+        "wrong": 3,
+        "abstained": 112,
+        "utility": 450,
+        "candidates": 9064,
+        "atom_evaluations": 31531,
+        "audit_rejected": 5,
+        "retried": 5,
+        "elapsed_ns": 1103478785
+      }
+    ],
+    "validation": [
+      {
+        "mode": "direct",
+        "tasks": 64,
+        "solved": 57,
+        "incorrect": 1,
+        "correct": 462,
+        "wrong": 2,
+        "abstained": 48,
+        "utility": 530,
+        "candidates": 9654,
+        "atom_evaluations": 28427,
+        "audit_rejected": 6,
+        "retried": 0,
+        "elapsed_ns": 1099771521
+      }
+    ],
+    "test": [
+      {
+        "mode": "direct",
+        "tasks": 96,
+        "solved": 86,
+        "incorrect": 2,
+        "correct": 698,
+        "wrong": 6,
+        "abstained": 64,
+        "utility": 780,
+        "candidates": 13752,
+        "atom_evaluations": 43702,
+        "audit_rejected": 8,
+        "retried": 0,
+        "elapsed_ns": 1569743031
+      },
+      {
+        "mode": "learned",
+        "tasks": 96,
+        "solved": 90,
+        "incorrect": 2,
+        "correct": 729,
+        "wrong": 7,
+        "abstained": 32,
+        "utility": 820,
+        "candidates": 5326,
+        "atom_evaluations": 21840,
+        "audit_rejected": 4,
+        "retried": 0,
+        "elapsed_ns": 786217156
+      },
+      {
+        "mode": "retry",
+        "tasks": 96,
+        "solved": 77,
+        "incorrect": 2,
+        "correct": 626,
+        "wrong": 6,
+        "abstained": 136,
+        "utility": 690,
+        "candidates": 14304,
+        "atom_evaluations": 51161,
+        "audit_rejected": 8,
+        "retried": 8,
+        "elapsed_ns": 1772855805
+      },
+      {
+        "mode": "single",
+        "tasks": 96,
+        "solved": 0,
+        "incorrect": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 768,
+        "utility": 0,
+        "candidates": 856,
+        "atom_evaluations": 4280,
+        "audit_rejected": 2,
+        "retried": 0,
+        "elapsed_ns": 124679527
+      }
+    ]
+  },
+  "operations": [
+    {
+      "mode": "baseline",
+      "tasks": 16,
+      "success": 12,
+      "solved": 14,
+      "incorrect": 0,
+      "output_correct": 14,
+      "stats_correct": 14,
+      "arithmetic_correct": 13,
+      "second_correct": 14,
+      "second_stats": 14,
+      "navigation_correct": 16,
+      "blocked": 8,
+      "actions": 332,
+      "candidates": 6520
+    },
+    {
+      "mode": "gate",
+      "tasks": 16,
+      "success": 12,
+      "solved": 14,
+      "incorrect": 0,
+      "output_correct": 14,
+      "stats_correct": 14,
+      "arithmetic_correct": 13,
+      "second_correct": 14,
+      "second_stats": 14,
+      "navigation_correct": 16,
+      "blocked": 8,
+      "actions": 332,
+      "candidates": 6520
+    }
+  ],
+  "practical": [
+    {
+      "mode": "baseline",
+      "tasks": 24,
+      "transformed": 22,
+      "stats_correct": 24,
+      "solved": 22,
+      "incorrect": 0,
+      "wrong": 0
+    },
+    {
+      "mode": "gate",
+      "tasks": 24,
+      "transformed": 22,
+      "stats_correct": 24,
+      "solved": 22,
+      "incorrect": 0,
+      "wrong": 0
+    }
+  ],
+  "invalid_csv": 4,
+  "language": {
+    "cases": 12,
+    "correct": 12,
+    "goals": 2,
+    "completed": 2,
+    "unknown_actions": 0,
+    "open_language": false
+  }
+}

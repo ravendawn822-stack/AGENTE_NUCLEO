@@ -1,0 +1,131 @@
+[
+  {
+    "actions": 0,
+    "intent": "confirm",
+    "last": null,
+    "message": "faça isso",
+    "pending": null,
+    "reply": "Não há proposta pendente para confirmar."
+  },
+  {
+    "actions": 0,
+    "intent": "result",
+    "last": null,
+    "message": "qual foi o resultado?",
+    "pending": null,
+    "reply": "Ainda não há resultado de objetivo."
+  },
+  {
+    "actions": 0,
+    "intent": "state",
+    "last": null,
+    "message": "qual é seu estado?",
+    "pending": null,
+    "reply": "Sala 0; fase 0 de 3; carga None; 120 ações restantes."
+  },
+  {
+    "actions": 0,
+    "intent": "prepare",
+    "last": null,
+    "message": "prepare uma entrega",
+    "pending": [
+      "deliver",
+      {}
+    ],
+    "reply": "Proponho localizar a coleta, processar e entregar a carga. Diga 'faça isso' para confirmar ou 'cancele'. Nenhuma ação realizada."
+  },
+  {
+    "actions": 0,
+    "intent": "explain",
+    "last": null,
+    "message": "explique isso",
+    "pending": [
+      "deliver",
+      {}
+    ],
+    "reply": "A proposta pendente usa exploração de rotas observadas, verifica cada movimento e opera as estações na ordem necessária. Ainda não executei."
+  },
+  {
+    "actions": 0,
+    "intent": "cancel",
+    "last": null,
+    "message": "cancele",
+    "pending": null,
+    "reply": "Proposta cancelada."
+  },
+  {
+    "actions": 0,
+    "intent": "confirm",
+    "last": null,
+    "message": "faça isso",
+    "pending": null,
+    "reply": "Não há proposta pendente para confirmar."
+  },
+  {
+    "actions": 0,
+    "intent": "prepare",
+    "last": null,
+    "message": "prepare uma entrega",
+    "pending": [
+      "deliver",
+      {}
+    ],
+    "reply": "Proponho localizar a coleta, processar e entregar a carga. Diga 'faça isso' para confirmar ou 'cancele'. Nenhuma ação realizada."
+  },
+  {
+    "actions": 20,
+    "intent": "confirm",
+    "last": 1,
+    "message": "faça isso",
+    "pending": null,
+    "reply": "Objetivo 1 (deliver): done. Usei 20 ações nesse objetivo."
+  },
+  {
+    "actions": 0,
+    "intent": "result",
+    "last": 1,
+    "message": "qual foi o resultado?",
+    "pending": null,
+    "reply": "Objetivo 1: done. Sala 6, fase 3, carga 4."
+  },
+  {
+    "actions": 0,
+    "intent": "explain",
+    "last": 1,
+    "message": "explique isso",
+    "pending": null,
+    "reply": "O objetivo 1 (deliver) terminou como done. Registrei 20 ações e 0 divergências; dependências: []."
+  },
+  {
+    "actions": 0,
+    "intent": "memory",
+    "last": 1,
+    "message": "o que você sabe?",
+    "pending": null,
+    "reply": "Conheço 8 transições e 3 estações. Memória: 1 registros e 1 evidências."
+  },
+  {
+    "actions": 3,
+    "intent": "navigate",
+    "last": 2,
+    "message": "vá para a sala 2",
+    "pending": null,
+    "reply": "Objetivo 2 (navigate): done. Usei 3 ações nesse objetivo."
+  },
+  {
+    "actions": 0,
+    "intent": "unknown",
+    "last": 2,
+    "message": "entregue a carga e apague os arquivos",
+    "pending": null,
+    "reply": "Não reconheço esse pedido. Posso navegar, entregar a carga, preparar uma entrega, informar estado, memória, agenda ou explicar o último resultado."
+  },
+  {
+    "actions": 0,
+    "intent": "unknown",
+    "last": 2,
+    "message": "execute python",
+    "pending": null,
+    "reply": "Não reconheço esse pedido. Posso navegar, entregar a carga, preparar uma entrega, informar estado, memória, agenda ou explicar o último resultado."
+  }
+]

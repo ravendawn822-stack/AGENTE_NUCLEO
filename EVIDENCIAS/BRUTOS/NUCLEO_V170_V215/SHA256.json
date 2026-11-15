@@ -1,0 +1,92 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "e60a4500b53ed251bdf7a359cdf15e5147d29056f5fa40a1d82caad3333e1e03"
+  },
+  {
+    "path": "STATUS.json",
+    "bytes": 41,
+    "sha256": "fc2679244d150b545d3b0f1c91ecfb7b8ec84651b017981363a2d11445be4cff"
+  },
+  {
+    "path": "csv.json",
+    "bytes": 176375,
+    "sha256": "ca1eb19f5edb024e7e10a78f29d8661faf2dacafd91eb1b91f41e7044adce717"
+  },
+  {
+    "path": "dialogue_goals.json",
+    "bytes": 17444,
+    "sha256": "a5796f6e233becdcd633d2538850f6b8f24941e2c222ae1dd93963849be91c6f"
+  },
+  {
+    "path": "invalid_csv.json",
+    "bytes": 277,
+    "sha256": "39ba274ac287cc0b9d1fd658142c2362f0473770d90c97e9ce5da182a248951d"
+  },
+  {
+    "path": "language_cases.json",
+    "bytes": 1388,
+    "sha256": "a3af52ac2c327d08f90f139e3708403aab33e7eef672997549ce5a914b4dacc9"
+  },
+  {
+    "path": "library.json",
+    "bytes": 213471,
+    "sha256": "5fccd758f70b170c128ade7319bf7d33195a3972a3ce0fee22a0c20691067aab"
+  },
+  {
+    "path": "memory.sqlite",
+    "bytes": 20480,
+    "sha256": "5039537e59649a8b287f7d630115d480619a667f65263fd1c6dc894815bcec9b"
+  },
+  {
+    "path": "memory_trial.json",
+    "bytes": 5805,
+    "sha256": "e88e0dab951130c8bf171067b4e7a37a6ea555a9ec05b83f8f0b90448206dffe"
+  },
+  {
+    "path": "operations.json",
+    "bytes": 892553,
+    "sha256": "5bc5faa637255fcb0fa0d5e4023c0b8c2e1815b21b7ff264681d1e4a1c5896e6"
+  },
+  {
+    "path": "policy.json",
+    "bytes": 294,
+    "sha256": "a2e301b467cc15ccd64ffbaf8295c980ae086894d22b202391b51bcda5e63a6e"
+  },
+  {
+    "path": "programs.json",
+    "bytes": 1128393,
+    "sha256": "de53de6ad5a72faa8b1362a3636654fe15c2f24a5473c7b1b67e77953f8a0178"
+  },
+  {
+    "path": "run.log",
+    "bytes": 6304,
+    "sha256": "d78e38a2c781fa9c0a451119028dc4e9c008f939a6f94b874bb1fb3f01550b6b"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 6303,
+    "sha256": "fae4d2eff2d612ced00bd22535113d347222283694f486fca73e078d4b7f06fa"
+  },
+  {
+    "path": "tests.log",
+    "bytes": 486,
+    "sha256": "1e3f1bc1830b7de570f761cce8321aaa917ae5428cd1ca7c89050bd7e3f78d1c"
+  },
+  {
+    "path": "training.json",
+    "bytes": 559393,
+    "sha256": "391a0ae10e1c7e41d56ba061f00144ab381eb9e5ab7b35b411e9ca2a708f01a8"
+  },
+  {
+    "path": "transcript.json",
+    "bytes": 3443,
+    "sha256": "176949f2858ed8c949c1817b5514beddf7902e69fe843271bbf60220eb72d88c"
+  },
+  {
+    "path": "validation.json",
+    "bytes": 185476,
+    "sha256": "4bd312d72b635808d4145f40226ca6caf379753e2ee0711e532c20d4e417ed6f"
+  }
+]

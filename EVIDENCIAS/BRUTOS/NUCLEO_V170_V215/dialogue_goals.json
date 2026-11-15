@@ -1,0 +1,821 @@
+[
+  {
+    "deps": [],
+    "id": 1,
+    "kind": "deliver",
+    "payload": {},
+    "result": {
+      "actions": 20,
+      "decisions": 20,
+      "divergences": 0,
+      "end": {
+        "actions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "cargo": 4,
+        "phase": 3,
+        "programming": false,
+        "remaining": 100,
+        "room": 6,
+        "station": "entregar"
+      },
+      "events": [
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 119,
+            "room": 6,
+            "station": "entregar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 120,
+            "room": 0,
+            "station": null
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 118,
+            "room": 4,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 119,
+            "room": 6,
+            "station": "entregar"
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 117,
+            "room": 5,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 118,
+            "room": 4,
+            "station": null
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 116,
+            "room": 2,
+            "station": "processar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 117,
+            "room": 5,
+            "station": null
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 115,
+            "room": 3,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 116,
+            "room": 2,
+            "station": "processar"
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 114,
+            "room": 7,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 115,
+            "room": 3,
+            "station": null
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 113,
+            "room": 1,
+            "station": "coletar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 114,
+            "room": 7,
+            "station": null
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 3,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 112,
+            "room": 1,
+            "station": "coletar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": null,
+            "phase": 0,
+            "programming": false,
+            "remaining": 113,
+            "room": 1,
+            "station": "coletar"
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 111,
+            "room": 0,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 112,
+            "room": 1,
+            "station": "coletar"
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 110,
+            "room": 6,
+            "station": "entregar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 111,
+            "room": 0,
+            "station": null
+          },
+          "expected": 6,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 109,
+            "room": 4,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 110,
+            "room": 6,
+            "station": "entregar"
+          },
+          "expected": 4,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 108,
+            "room": 5,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 109,
+            "room": 4,
+            "station": null
+          },
+          "expected": 5,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 107,
+            "room": 2,
+            "station": "processar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 108,
+            "room": 5,
+            "station": null
+          },
+          "expected": 2,
+          "mismatch": false
+        },
+        {
+          "action": 3,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 106,
+            "room": 2,
+            "station": "processar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 3,
+            "phase": 1,
+            "programming": false,
+            "remaining": 107,
+            "room": 2,
+            "station": "processar"
+          },
+          "expected": null,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 105,
+            "room": 3,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 106,
+            "room": 2,
+            "station": "processar"
+          },
+          "expected": 3,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 104,
+            "room": 7,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 105,
+            "room": 3,
+            "station": null
+          },
+          "expected": 7,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 103,
+            "room": 1,
+            "station": "coletar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 104,
+            "room": 7,
+            "station": null
+          },
+          "expected": 1,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 102,
+            "room": 0,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 103,
+            "room": 1,
+            "station": "coletar"
+          },
+          "expected": 0,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 101,
+            "room": 6,
+            "station": "entregar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 102,
+            "room": 0,
+            "station": null
+          },
+          "expected": 6,
+          "mismatch": false
+        },
+        {
+          "action": 3,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 100,
+            "room": 6,
+            "station": "entregar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 2,
+            "programming": false,
+            "remaining": 101,
+            "room": 6,
+            "station": "entregar"
+          },
+          "expected": null,
+          "mismatch": false
+        }
+      ],
+      "success": true
+    },
+    "status": "done"
+  },
+  {
+    "deps": [],
+    "id": 2,
+    "kind": "navigate",
+    "payload": {
+      "room": 2
+    },
+    "result": {
+      "actions": 3,
+      "decisions": 3,
+      "divergences": 0,
+      "end": {
+        "actions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "cargo": 4,
+        "phase": 3,
+        "programming": false,
+        "remaining": 97,
+        "room": 2,
+        "station": "processar"
+      },
+      "events": [
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 99,
+            "room": 4,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 100,
+            "room": 6,
+            "station": "entregar"
+          },
+          "expected": 4,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 98,
+            "room": 5,
+            "station": null
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 99,
+            "room": 4,
+            "station": null
+          },
+          "expected": 5,
+          "mismatch": false
+        },
+        {
+          "action": 0,
+          "after": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 97,
+            "room": 2,
+            "station": "processar"
+          },
+          "before": {
+            "actions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "cargo": 4,
+            "phase": 3,
+            "programming": false,
+            "remaining": 98,
+            "room": 5,
+            "station": null
+          },
+          "expected": 2,
+          "mismatch": false
+        }
+      ],
+      "success": true
+    },
+    "status": "done"
+  }
+]
