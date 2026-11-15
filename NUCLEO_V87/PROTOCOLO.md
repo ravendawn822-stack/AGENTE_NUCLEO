@@ -1,0 +1,2 @@
+# V87 — ordenação e risco estrutural
+Acrescentar três configurações fixas a V86: ratio sem auditoria, ratio com uma auditoria e ratio com auditoria de duas observações quando tarefa aparece em >=2 objetivos ainda viáveis, uma caso contrário. Ratio da V81; risco estrutural é impacto potencial, não probabilidade de erro. Mesma memória contextual V77 congelada e mesmos dados, dependências e orçamento. Sem geração de código ou modificação autônoma.
