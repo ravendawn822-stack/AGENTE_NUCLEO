@@ -33,7 +33,7 @@ Esse comando não chama o Codex.
 python3 NUCLEO_V39/feedback_learning.py repair --dir /tmp/nucleo-v39-pilot --index 1
 ```
 
-Modelo solicitado: `gpt-6-luna`, raciocínio `low`. O script não tenta novamente e não troca de modelo. A autenticação ChatGPT do Codex CLI é reutilizada. A execução é temporária, read-only e fora do repositório.
+Modelo solicitado: `gpt-6-luna`, raciocínio `low`. O script não tenta novamente e não troca de modelo. A autenticação ChatGPT do Codex CLI é reutilizada. A execução usa diretório temporário e sandbox read-only. Isso limita escrita, mas não garante isolamento absoluto contra leituras de outros caminhos acessíveis ao Codex. Execute somente em Codespace sem outros dados sensíveis acessíveis.
 
 ## Avaliar sem IA
 
