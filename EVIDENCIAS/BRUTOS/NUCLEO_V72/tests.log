@@ -1,0 +1,8 @@
+test_gap_budget (__main__.Tests.test_gap_budget) ... ok
+test_reference (__main__.Tests.test_reference) ... ok
+test_split (__main__.Tests.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK

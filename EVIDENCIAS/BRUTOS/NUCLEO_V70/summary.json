@@ -1,0 +1,230 @@
+{
+  "protocol": "V70-strategy-v1",
+  "aggregate": [
+    {
+      "mode": "exact",
+      "rules": 216,
+      "correct": 676,
+      "wrong": 31,
+      "abstained": 805,
+      "utility": 552,
+      "model_fits": 216
+    },
+    {
+      "mode": "repair",
+      "rules": 216,
+      "correct": 1215,
+      "wrong": 94,
+      "abstained": 203,
+      "utility": 839,
+      "model_fits": 216
+    },
+    {
+      "mode": "map",
+      "rules": 216,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 1512,
+      "utility": 0,
+      "model_fits": 0
+    },
+    {
+      "mode": "selector",
+      "rules": 216,
+      "correct": 1215,
+      "wrong": 94,
+      "abstained": 203,
+      "utility": 839,
+      "model_fits": 432
+    }
+  ],
+  "by_stratum": [
+    {
+      "exceptions": 0,
+      "mode": "exact",
+      "rules": 72,
+      "correct": 504,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 504,
+      "model_fits": 72
+    },
+    {
+      "exceptions": 0,
+      "mode": "repair",
+      "rules": 72,
+      "correct": 504,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 504,
+      "model_fits": 72
+    },
+    {
+      "exceptions": 0,
+      "mode": "map",
+      "rules": 72,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 504,
+      "utility": 0,
+      "model_fits": 0
+    },
+    {
+      "exceptions": 0,
+      "mode": "selector",
+      "rules": 72,
+      "correct": 504,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 504,
+      "model_fits": 144
+    },
+    {
+      "exceptions": 1,
+      "mode": "exact",
+      "rules": 72,
+      "correct": 168,
+      "wrong": 28,
+      "abstained": 308,
+      "utility": 56,
+      "model_fits": 72
+    },
+    {
+      "exceptions": 1,
+      "mode": "repair",
+      "rules": 72,
+      "correct": 476,
+      "wrong": 28,
+      "abstained": 0,
+      "utility": 364,
+      "model_fits": 72
+    },
+    {
+      "exceptions": 1,
+      "mode": "map",
+      "rules": 72,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 504,
+      "utility": 0,
+      "model_fits": 0
+    },
+    {
+      "exceptions": 1,
+      "mode": "selector",
+      "rules": 72,
+      "correct": 476,
+      "wrong": 28,
+      "abstained": 0,
+      "utility": 364,
+      "model_fits": 144
+    },
+    {
+      "exceptions": 3,
+      "mode": "exact",
+      "rules": 72,
+      "correct": 4,
+      "wrong": 3,
+      "abstained": 497,
+      "utility": -8,
+      "model_fits": 72
+    },
+    {
+      "exceptions": 3,
+      "mode": "repair",
+      "rules": 72,
+      "correct": 235,
+      "wrong": 66,
+      "abstained": 203,
+      "utility": -29,
+      "model_fits": 72
+    },
+    {
+      "exceptions": 3,
+      "mode": "map",
+      "rules": 72,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 504,
+      "utility": 0,
+      "model_fits": 0
+    },
+    {
+      "exceptions": 3,
+      "mode": "selector",
+      "rules": 72,
+      "correct": 235,
+      "wrong": 66,
+      "abstained": 203,
+      "utility": -29,
+      "model_fits": 144
+    }
+  ],
+  "choices": {
+    "exact": 101,
+    "repair": 86,
+    "map": 29
+  },
+  "history": {
+    "((True, (6, 4)), 'exact')": [
+      132,
+      102.00000000000004
+    ],
+    "((True, (6, 4)), 'repair')": [
+      132,
+      102.00000000000004
+    ],
+    "((True, (6, 4)), 'map')": [
+      132,
+      0.0
+    ],
+    "((False, (6, 3)), 'exact')": [
+      37,
+      0.0
+    ],
+    "((False, (6, 3)), 'repair')": [
+      37,
+      18.428571428571434
+    ],
+    "((False, (6, 3)), 'map')": [
+      37,
+      0.0
+    ],
+    "((False, (5, 4)), 'exact')": [
+      55,
+      0.0
+    ],
+    "((False, (5, 4)), 'repair')": [
+      55,
+      32.14285714285715
+    ],
+    "((False, (5, 4)), 'map')": [
+      55,
+      0.0
+    ],
+    "((False, (5, 3)), 'exact')": [
+      26,
+      0.0
+    ],
+    "((False, (5, 3)), 'repair')": [
+      26,
+      7.428571428571426
+    ],
+    "((False, (5, 3)), 'map')": [
+      26,
+      0.0
+    ],
+    "((False, None), 'exact')": [
+      38,
+      0.0
+    ],
+    "((False, None), 'repair')": [
+      38,
+      0.0
+    ],
+    "((False, None), 'map')": [
+      38,
+      0.0
+    ]
+  }
+}

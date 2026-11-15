@@ -1,0 +1,181 @@
+{
+  "protocol": "V72-self-model-v1",
+  "seeds": [
+    18000019,
+    18030020,
+    18060021,
+    18090022,
+    18120023,
+    18150024,
+    18180025,
+    18210026,
+    18240027,
+    18270028,
+    18300029,
+    18330030
+  ],
+  "cost": [
+    {
+      "mode": "cap",
+      "n": 205,
+      "mae": 7560.039024390244,
+      "bias": 7560.039024390244
+    },
+    {
+      "mode": "global",
+      "n": 205,
+      "mae": 4175.2878048780485,
+      "bias": -1941.9609756097561
+    },
+    {
+      "mode": "context",
+      "n": 205,
+      "mae": 3293.9560975609756,
+      "bias": -2294.5365853658536
+    }
+  ],
+  "math_final": {
+    "n": 168,
+    "correct": 144,
+    "wrong": 0,
+    "abstained": 24
+  },
+  "aggregate": [
+    {
+      "mode": "reference",
+      "tasks": 144,
+      "correct": 252,
+      "wrong": 0,
+      "abstained": 756,
+      "utility": 252,
+      "extra": 0,
+      "rechecks": 0
+    },
+    {
+      "mode": "integrated",
+      "tasks": 144,
+      "correct": 760,
+      "wrong": 3,
+      "abstained": 245,
+      "utility": 748,
+      "extra": 179,
+      "rechecks": 108
+    }
+  ],
+  "by_stratum": [
+    {
+      "stratum": "linear",
+      "mode": "reference",
+      "tasks": 36,
+      "correct": 252,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 252,
+      "extra": 0,
+      "rechecks": 0
+    },
+    {
+      "stratum": "linear",
+      "mode": "integrated",
+      "tasks": 36,
+      "correct": 252,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 252,
+      "extra": 0,
+      "rechecks": 0
+    },
+    {
+      "stratum": "quadratic",
+      "mode": "reference",
+      "tasks": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 252,
+      "utility": 0,
+      "extra": 0,
+      "rechecks": 0
+    },
+    {
+      "stratum": "quadratic",
+      "mode": "integrated",
+      "tasks": 36,
+      "correct": 252,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 252,
+      "extra": 36,
+      "rechecks": 36
+    },
+    {
+      "stratum": "cubic",
+      "mode": "reference",
+      "tasks": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 252,
+      "utility": 0,
+      "extra": 0,
+      "rechecks": 0
+    },
+    {
+      "stratum": "cubic",
+      "mode": "integrated",
+      "tasks": 36,
+      "correct": 252,
+      "wrong": 0,
+      "abstained": 0,
+      "utility": 252,
+      "extra": 72,
+      "rechecks": 36
+    },
+    {
+      "stratum": "outside",
+      "mode": "reference",
+      "tasks": 36,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 252,
+      "utility": 0,
+      "extra": 0,
+      "rechecks": 0
+    },
+    {
+      "stratum": "outside",
+      "mode": "integrated",
+      "tasks": 36,
+      "correct": 4,
+      "wrong": 3,
+      "abstained": 245,
+      "utility": -8,
+      "extra": 71,
+      "rechecks": 36
+    }
+  ],
+  "decisions": {
+    "exact": 36,
+    "repair": 0,
+    "map": 0,
+    "expand": 73,
+    "map_gap": 35,
+    "map_budget": 0
+  },
+  "confidence": {
+    "n": 0,
+    "transition_brier": null
+  },
+  "spent": [
+    14,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15
+  ]
+}

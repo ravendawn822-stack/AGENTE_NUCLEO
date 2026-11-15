@@ -1,0 +1,11363 @@
+[
+  {
+    "seed": 15000019,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        2
+      ],
+      "repair": [
+        7,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        6,
+        8
+      ],
+      "repair": [
+        6,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        9
+      ],
+      "repair": [
+        5,
+        9
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        6,
+        8
+      ],
+      "repair": [
+        6,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        5,
+        9
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        6,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15000019,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        5,
+        9
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        1,
+        2
+      ],
+      "repair": [
+        1,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        1
+      ],
+      "repair": [
+        14,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        10,
+        5
+      ],
+      "repair": [
+        10,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        1,
+        2
+      ],
+      "repair": [
+        1,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        1
+      ],
+      "repair": [
+        14,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        10,
+        5
+      ],
+      "repair": [
+        10,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        1,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15030020,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        10,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        1
+      ],
+      "repair": [
+        14,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        10
+      ],
+      "repair": [
+        4,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        9
+      ],
+      "repair": [
+        9,
+        9
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        14,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        10
+      ],
+      "repair": [
+        4,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        9
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15060021,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        10
+      ],
+      "repair": [
+        5,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        6
+      ],
+      "repair": [
+        12,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        8,
+        6
+      ],
+      "repair": [
+        8,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        5,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        12,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        8,
+        6
+      ],
+      "repair": [
+        8,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        12,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15090022,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        8,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        16
+      ],
+      "repair": [
+        5,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        12
+      ],
+      "repair": [
+        9,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        16
+      ],
+      "repair": [
+        5,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        5,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        16
+      ],
+      "repair": [
+        5,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15120023,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        0
+      ],
+      "repair": [
+        15,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        13,
+        1
+      ],
+      "repair": [
+        13,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        0,
+        13
+      ],
+      "repair": [
+        0,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        0
+      ],
+      "repair": [
+        15,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        13,
+        1
+      ],
+      "repair": [
+        13,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        0,
+        13
+      ],
+      "repair": [
+        0,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        13,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15150024,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        0
+      ],
+      "repair": [
+        4,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        7
+      ],
+      "repair": [
+        5,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        16,
+        5
+      ],
+      "repair": [
+        16,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        5,
+        7
+      ],
+      "repair": [
+        5,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        16,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15180025,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        1
+      ],
+      "repair": [
+        14,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        6
+      ],
+      "repair": [
+        2,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        0,
+        6
+      ],
+      "repair": [
+        0,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        14,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        2,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        2,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15210026,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        10,
+        6
+      ],
+      "repair": [
+        10,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        16,
+        6
+      ],
+      "repair": [
+        16,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        16,
+        14
+      ],
+      "repair": [
+        16,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        10,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        16,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        16,
+        14
+      ],
+      "repair": [
+        16,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        10,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15240027,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        16,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        1
+      ],
+      "repair": [
+        2,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        6,
+        12
+      ],
+      "repair": [
+        6,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        8
+      ],
+      "repair": [
+        3,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        1
+      ],
+      "repair": [
+        2,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        6,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        8
+      ],
+      "repair": [
+        3,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15270028,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        3,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        11
+      ],
+      "repair": [
+        7,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        2
+      ],
+      "repair": [
+        3,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        5
+      ],
+      "repair": [
+        4,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        3,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        3,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15300029,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        2
+      ],
+      "repair": [
+        14,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        0
+      ],
+      "repair": [
+        4,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        13,
+        5
+      ],
+      "repair": [
+        13,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        14,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        13,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        0
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15330030,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        13,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        4
+      ],
+      "repair": [
+        2,
+        4
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        13
+      ],
+      "repair": [
+        15,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        6
+      ],
+      "repair": [
+        12,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        2,
+        4
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        15,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        6
+      ],
+      "repair": [
+        12,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15360031,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        12,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        6
+      ],
+      "repair": [
+        2,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        1,
+        16
+      ],
+      "repair": [
+        1,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        5
+      ],
+      "repair": [
+        4,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        6
+      ],
+      "repair": [
+        2,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        1,
+        16
+      ],
+      "repair": [
+        1,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        2,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        1,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15390032,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        2,
+        15
+      ],
+      "repair": [
+        2,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        11,
+        14
+      ],
+      "repair": [
+        11,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        11
+      ],
+      "repair": [
+        9,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        2,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        11,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        11
+      ],
+      "repair": [
+        9,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15420033,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        11
+      ],
+      "repair": [
+        9,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 0,
+        "utility": -8
+      },
+      "repair": {
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 0,
+        "utility": -8
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 0,
+        "utility": -8
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        14
+      ],
+      "repair": [
+        12,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        7
+      ],
+      "repair": [
+        15,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        6
+      ],
+      "repair": [
+        15,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        14
+      ],
+      "repair": [
+        12,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        7
+      ],
+      "repair": [
+        15,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        6
+      ],
+      "repair": [
+        15,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        12,
+        14
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15450034,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        0,
+        10
+      ],
+      "repair": [
+        0,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        12
+      ],
+      "repair": [
+        15,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        8
+      ],
+      "repair": [
+        14,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        15,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        8
+      ],
+      "repair": [
+        14,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        10
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        15,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15480035,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        14,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        7
+      ],
+      "repair": [
+        7,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        8,
+        3
+      ],
+      "repair": [
+        8,
+        3
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        11
+      ],
+      "repair": [
+        3,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        7
+      ],
+      "repair": [
+        7,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        8,
+        3
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        11
+      ],
+      "repair": [
+        3,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15510036,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        3,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        11
+      ],
+      "repair": [
+        15,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        16
+      ],
+      "repair": [
+        3,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        3
+      ],
+      "repair": [
+        12,
+        3
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        11
+      ],
+      "repair": [
+        15,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        3,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        12,
+        3
+      ],
+      "repair": [
+        12,
+        3
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        15,
+        11
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15540037,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        12,
+        3
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        4,
+        13
+      ],
+      "repair": [
+        4,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        1
+      ],
+      "repair": [
+        9,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        10,
+        15
+      ],
+      "repair": [
+        10,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        4,
+        13
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        1
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        10,
+        15
+      ],
+      "repair": [
+        10,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15570038,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        10,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        2
+      ],
+      "repair": [
+        7,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        12
+      ],
+      "repair": [
+        7,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        15
+      ],
+      "repair": [
+        15,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        15,
+        15
+      ],
+      "repair": [
+        15,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        12
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15600039,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        15,
+        15
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        3,
+        5
+      ],
+      "repair": [
+        3,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        14,
+        6
+      ],
+      "repair": [
+        14,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        7
+      ],
+      "repair": [
+        9,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        3,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        14,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        14,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 0,
+        "utility": -3
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15630040,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        7
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        13,
+        5
+      ],
+      "repair": [
+        13,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        7,
+        8
+      ],
+      "repair": [
+        7,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        0,
+        16
+      ],
+      "repair": [
+        0,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        13,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        4
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.5639097744360904,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      null
+    ],
+    "models": {
+      "exact": null,
+      "repair": null,
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      }
+    },
+    "choice": "map",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.0,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        7,
+        8
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15660041,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        16
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 0,
+    "action": 0,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        0,
+        2
+      ],
+      "repair": [
+        0,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 0,
+    "action": 1,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        11,
+        6
+      ],
+      "repair": [
+        11,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 0,
+    "action": 2,
+    "key": [
+      true,
+      [
+        6,
+        4
+      ]
+    ],
+    "models": {
+      "exact": [
+        9,
+        5
+      ],
+      "repair": [
+        9,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "exact",
+    "scores": {
+      "exact": 0.7611940298507466,
+      "repair": 0.7611940298507466,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 1,
+    "action": 0,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 1,
+    "action": 1,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        11,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 1,
+    "action": 2,
+    "key": [
+      false,
+      [
+        6,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.4725274725274727,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 3,
+    "action": 0,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        0,
+        2
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 3,
+    "action": 1,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        11,
+        6
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  },
+  {
+    "seed": 15690042,
+    "exceptions": 3,
+    "action": 2,
+    "key": [
+      false,
+      [
+        5,
+        3
+      ]
+    ],
+    "models": {
+      "exact": null,
+      "repair": [
+        9,
+        5
+      ],
+      "map": null
+    },
+    "results": {
+      "exact": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "repair": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      },
+      "map": {
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0
+      },
+      "selector": {
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 0,
+        "utility": 2
+      }
+    },
+    "choice": "repair",
+    "scores": {
+      "exact": 0.0,
+      "repair": 0.2653061224489795,
+      "map": 0.0
+    }
+  }
+]

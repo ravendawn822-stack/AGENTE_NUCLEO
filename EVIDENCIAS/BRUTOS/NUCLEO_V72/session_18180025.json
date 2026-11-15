@@ -1,0 +1,2368 @@
+{
+  "seed": 18180025,
+  "math": [
+    {
+      "step": 0,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 12000,
+      "status": "deferred"
+    },
+    {
+      "step": 1,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 2,
+      "status": "accepted"
+    },
+    {
+      "step": 2,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 5178,
+      "status": "accepted"
+    },
+    {
+      "step": 3,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 12000,
+      "status": "deferred"
+    },
+    {
+      "step": 4,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 12000,
+      "status": "deferred"
+    },
+    {
+      "step": 5,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 1,
+      "status": "accepted"
+    },
+    {
+      "step": 6,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 22,
+      "status": "accepted"
+    },
+    {
+      "step": 7,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 12000,
+      "status": "deferred"
+    },
+    {
+      "step": 8,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 4676,
+      "status": "accepted"
+    },
+    {
+      "step": 9,
+      "features": [
+        0,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 5351.0
+      },
+      "cost": 5405,
+      "status": "accepted"
+    },
+    {
+      "step": 10,
+      "features": [
+        1,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 97.5
+      },
+      "cost": 11796,
+      "status": "accepted"
+    },
+    {
+      "step": 11,
+      "features": [
+        1,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 97.5
+      },
+      "cost": 70,
+      "status": "accepted"
+    },
+    {
+      "step": 12,
+      "features": [
+        1,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 97.5
+      },
+      "cost": 81,
+      "status": "accepted"
+    },
+    {
+      "step": 13,
+      "features": [
+        1,
+        0,
+        0
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 97.5
+      },
+      "cost": 3595,
+      "status": "accepted"
+    },
+    {
+      "step": 14,
+      "features": [
+        1,
+        1,
+        1
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 10.5
+      },
+      "cost": 12,
+      "status": "accepted"
+    },
+    {
+      "step": 15,
+      "features": [
+        1,
+        1,
+        1
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 10.5
+      },
+      "cost": 1390,
+      "status": "accepted"
+    },
+    {
+      "step": 16,
+      "features": [
+        1,
+        1,
+        1
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 10.5
+      },
+      "cost": 8,
+      "status": "accepted"
+    },
+    {
+      "step": 17,
+      "features": [
+        1,
+        1,
+        1
+      ],
+      "predictions": {
+        "cap": 12000,
+        "global": 2498,
+        "context": 10.5
+      },
+      "cost": 14,
+      "status": "accepted"
+    }
+  ],
+  "math_final": {
+    "n": 14,
+    "correct": 12,
+    "wrong": 0,
+    "abstained": 2,
+    "single_examined": 342629,
+    "single_checks": 343597,
+    "shared_single_ns": 1017098710,
+    "pair_examined": 25048,
+    "pair_checks": 25265,
+    "pair_wall_ns": 119541178,
+    "extension_used": 9,
+    "sources": {
+      "single": 2,
+      "priority_pair": 10,
+      "mixed_pair": 0,
+      "default": 0
+    }
+  },
+  "environment": [
+    {
+      "step": 0,
+      "stratum": "quadratic",
+      "points": [
+        [
+          11,
+          9
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "held": [
+        [
+          6,
+          11
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          5
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            11
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            8
+          ],
+          [
+            null,
+            15
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            15
+          ],
+          [
+            null,
+            5
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "expand",
+        "key": [
+          false,
+          null
+        ],
+        "model": [
+          6,
+          3,
+          2
+        ],
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": false,
+        "extra": 1,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            11,
+            11
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "step": 1,
+      "stratum": "outside",
+      "points": [
+        [
+          8,
+          3
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "held": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          10
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            0
+          ],
+          [
+            null,
+            13
+          ],
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            13
+          ],
+          [
+            null,
+            10
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "map_gap",
+        "key": [
+          false,
+          null
+        ],
+        "model": null,
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": true,
+        "extra": 2,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            0
+          ],
+          [
+            null,
+            13
+          ],
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            13
+          ],
+          [
+            null,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "stratum": "linear",
+      "points": [
+        [
+          8,
+          3
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          6,
+          10
+        ]
+      ],
+      "held": [
+        [
+          0,
+          14
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          4
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": [
+          5,
+          14
+        ],
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            14,
+            14
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "exact",
+        "key": [
+          true,
+          [
+            6,
+            4
+          ]
+        ],
+        "model": [
+          5,
+          14
+        ],
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "scores": {
+          "exact": 0.7611940298507466,
+          "repair": 0.7611940298507466,
+          "map": 0.0
+        },
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            14,
+            14
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "step": 3,
+      "stratum": "cubic",
+      "points": [
+        [
+          11,
+          10
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          16,
+          15
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          16
+        ]
+      ],
+      "held": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          8
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            0
+          ],
+          [
+            null,
+            6
+          ],
+          [
+            null,
+            8
+          ],
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            0
+          ],
+          [
+            null,
+            14
+          ],
+          [
+            null,
+            8
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "expand",
+        "key": [
+          false,
+          null
+        ],
+        "model": [
+          2,
+          10,
+          14,
+          8
+        ],
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": true,
+        "extra": 2,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            8,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "stratum": "quadratic",
+      "points": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          13
+        ]
+      ],
+      "held": [
+        [
+          2,
+          11
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          12,
+          2
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            11
+          ],
+          [
+            null,
+            6
+          ],
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            6
+          ],
+          [
+            null,
+            10
+          ],
+          [
+            null,
+            11
+          ],
+          [
+            null,
+            2
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "expand",
+        "key": [
+          false,
+          null
+        ],
+        "model": [
+          4,
+          15,
+          7
+        ],
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": false,
+        "extra": 1,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            11,
+            11
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "stratum": "cubic",
+      "points": [
+        [
+          2,
+          10
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "held": [
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          15,
+          3
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            2
+          ],
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            15
+          ],
+          [
+            null,
+            11
+          ],
+          [
+            null,
+            11
+          ],
+          [
+            null,
+            3
+          ],
+          [
+            null,
+            3
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "expand",
+        "key": [
+          false,
+          null
+        ],
+        "model": [
+          8,
+          3,
+          6,
+          5
+        ],
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": true,
+        "extra": 2,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            2,
+            2
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "step": 6,
+      "stratum": "outside",
+      "points": [
+        [
+          13,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "held": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          16,
+          8
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            12
+          ],
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            10
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            8
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "map_gap",
+        "key": [
+          false,
+          null
+        ],
+        "model": null,
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": true,
+        "extra": 2,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            12
+          ],
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            10
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            5
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "step": 7,
+      "stratum": "outside",
+      "points": [
+        [
+          7,
+          2
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "held": [
+        [
+          1,
+          15
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          6
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            15
+          ],
+          [
+            null,
+            8
+          ],
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            2
+          ],
+          [
+            null,
+            14
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            6
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "map_gap",
+        "key": [
+          false,
+          null
+        ],
+        "model": null,
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": true,
+        "extra": 2,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            15
+          ],
+          [
+            null,
+            8
+          ],
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            2
+          ],
+          [
+            null,
+            14
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "step": 8,
+      "stratum": "linear",
+      "points": [
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "held": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": [
+          8,
+          12
+        ],
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            12,
+            12
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "exact",
+        "key": [
+          true,
+          [
+            6,
+            4
+          ]
+        ],
+        "model": [
+          8,
+          12
+        ],
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "scores": {
+          "exact": 0.7611940298507466,
+          "repair": 0.7611940298507466,
+          "map": 0.0
+        },
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            12,
+            12
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "step": 9,
+      "stratum": "cubic",
+      "points": [
+        [
+          13,
+          13
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "held": [
+        [
+          0,
+          16
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          10
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            1
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            2
+          ],
+          [
+            null,
+            9
+          ],
+          [
+            null,
+            14
+          ],
+          [
+            null,
+            10
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "expand",
+        "key": [
+          false,
+          null
+        ],
+        "model": [
+          16,
+          11,
+          0,
+          6
+        ],
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": true,
+        "extra": 2,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            16,
+            16
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            10,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "step": 10,
+      "stratum": "linear",
+      "points": [
+        [
+          6,
+          2
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          4,
+          15
+        ]
+      ],
+      "held": [
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          14
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": [
+          2,
+          7
+        ],
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            7,
+            7
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            14,
+            14
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "exact",
+        "key": [
+          true,
+          [
+            6,
+            4
+          ]
+        ],
+        "model": [
+          2,
+          7
+        ],
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "scores": {
+          "exact": 0.7611940298507466,
+          "repair": 0.7611940298507466,
+          "map": 0.0
+        },
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            7,
+            7
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            14,
+            14
+          ]
+        ]
+      }
+    },
+    {
+      "step": 11,
+      "stratum": "quadratic",
+      "points": [
+        [
+          13,
+          16
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "held": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          16,
+          12
+        ]
+      ],
+      "reference": {
+        "choice": "exact",
+        "model": null,
+        "kind": "affine",
+        "confidence": null,
+        "gap": false,
+        "extra": 0,
+        "rechecks": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 7,
+        "utility": 0,
+        "predictions": [
+          [
+            null,
+            9
+          ],
+          [
+            null,
+            4
+          ],
+          [
+            null,
+            8
+          ],
+          [
+            null,
+            16
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            null,
+            10
+          ],
+          [
+            null,
+            12
+          ]
+        ]
+      },
+      "integrated": {
+        "choice": "expand",
+        "key": [
+          false,
+          null
+        ],
+        "model": [
+          6,
+          7,
+          13
+        ],
+        "kind": "polynomial",
+        "confidence": null,
+        "gap": false,
+        "extra": 1,
+        "rechecks": 1,
+        "scores": null,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 7,
+        "predictions": [
+          [
+            9,
+            9
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            12,
+            12
+          ]
+        ]
+      }
+    }
+  ],
+  "additional_family_budget": 24,
+  "additional_family_spent": 15
+}

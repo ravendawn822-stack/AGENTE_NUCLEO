@@ -1,0 +1,41 @@
+[
+  {
+    "mode": "uniform",
+    "spent": 600,
+    "solved": 320,
+    "correct": 3520,
+    "wrong": 0,
+    "abstained": 880,
+    "coverage": {
+      "1": 200,
+      "2": 120,
+      "3": 0
+    }
+  },
+  {
+    "mode": "sequential",
+    "spent": 640,
+    "solved": 370,
+    "correct": 4070,
+    "wrong": 0,
+    "abstained": 330,
+    "coverage": {
+      "1": 186,
+      "2": 110,
+      "3": 74
+    }
+  },
+  {
+    "mode": "adaptive",
+    "spent": 640,
+    "solved": 360,
+    "correct": 3960,
+    "wrong": 0,
+    "abstained": 440,
+    "coverage": {
+      "1": 200,
+      "2": 120,
+      "3": 40
+    }
+  }
+]

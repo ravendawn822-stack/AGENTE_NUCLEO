@@ -1,0 +1,125 @@
+{
+  "protocol": "V69-gaps-v1",
+  "aggregate": [
+    {
+      "stratum": "linear",
+      "mode": "limited",
+      "gap": 0,
+      "persistent": 0,
+      "families": 48,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "linear",
+      "mode": "selective",
+      "gap": 0,
+      "persistent": 0,
+      "families": 48,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "linear",
+      "mode": "expanded",
+      "gap": 0,
+      "persistent": 0,
+      "families": 72,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "quadratic",
+      "mode": "limited",
+      "gap": 0,
+      "persistent": 0,
+      "families": 48,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "quadratic",
+      "mode": "selective",
+      "gap": 0,
+      "persistent": 0,
+      "families": 48,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "quadratic",
+      "mode": "expanded",
+      "gap": 0,
+      "persistent": 0,
+      "families": 72,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "cubic",
+      "mode": "limited",
+      "gap": 24,
+      "persistent": 24,
+      "families": 48,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 168
+    },
+    {
+      "stratum": "cubic",
+      "mode": "selective",
+      "gap": 24,
+      "persistent": 0,
+      "families": 72,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "cubic",
+      "mode": "expanded",
+      "gap": 24,
+      "persistent": 0,
+      "families": 72,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "stratum": "outside",
+      "mode": "limited",
+      "gap": 23,
+      "persistent": 23,
+      "families": 48,
+      "correct": 4,
+      "wrong": 3,
+      "abstained": 161
+    },
+    {
+      "stratum": "outside",
+      "mode": "selective",
+      "gap": 23,
+      "persistent": 23,
+      "families": 71,
+      "correct": 4,
+      "wrong": 3,
+      "abstained": 161
+    },
+    {
+      "stratum": "outside",
+      "mode": "expanded",
+      "gap": 23,
+      "persistent": 23,
+      "families": 72,
+      "correct": 4,
+      "wrong": 3,
+      "abstained": 161
+    }
+  ]
+}

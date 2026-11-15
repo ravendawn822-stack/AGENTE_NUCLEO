@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "exact",
+    "rules": 216,
+    "correct": 676,
+    "wrong": 31,
+    "abstained": 805,
+    "utility": 552,
+    "model_fits": 216
+  },
+  {
+    "mode": "repair",
+    "rules": 216,
+    "correct": 1215,
+    "wrong": 94,
+    "abstained": 203,
+    "utility": 839,
+    "model_fits": 216
+  },
+  {
+    "mode": "map",
+    "rules": 216,
+    "correct": 0,
+    "wrong": 0,
+    "abstained": 1512,
+    "utility": 0,
+    "model_fits": 0
+  },
+  {
+    "mode": "selector",
+    "rules": 216,
+    "correct": 1215,
+    "wrong": 94,
+    "abstained": 203,
+    "utility": 839,
+    "model_fits": 432
+  }
+]
