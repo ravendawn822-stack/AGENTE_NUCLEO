@@ -1,0 +1,2 @@
+# V110 — decomposição por predicados
+Dividir pares conhecidos somente pelos predicados paridade e sinal da entrada, ambos disponíveis em V91. Exigir ao menos 2 exemplos por ramo, ordenar predicados por maior tamanho do menor ramo, desempate ordem paridade/sinal. Não receber família verdadeira, estados reservados nem AST alvo. Registrar partições e opções disponíveis. Não implica decomposição geral de problemas.
