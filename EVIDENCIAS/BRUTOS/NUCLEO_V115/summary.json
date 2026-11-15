@@ -1,0 +1,7 @@
+{
+  "ambiguous": 32,
+  "disagreement_states": 201,
+  "nonempty": 48,
+  "protocol": "V115-ambiguity-v1",
+  "tasks": 64
+}

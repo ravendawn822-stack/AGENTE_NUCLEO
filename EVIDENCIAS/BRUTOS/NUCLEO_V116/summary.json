@@ -1,0 +1,9 @@
+{
+  "assembled": 239,
+  "candidates": 16815,
+  "hypotheses": 226,
+  "interpreter_evaluations": 281792,
+  "max_pool": 24,
+  "protocol": "V116-bounded-hypotheses-v1",
+  "tasks": 64
+}

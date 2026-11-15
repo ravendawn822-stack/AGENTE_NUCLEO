@@ -1,0 +1,114 @@
+{
+  "protocol": "V120-adaptive-investigation-v1",
+  "aggregate": [
+    {
+      "mode": "pool_random",
+      "sessions": 16,
+      "correct_goals": 3,
+      "wrong_goals": 5,
+      "incomplete_goals": 24,
+      "spent": 17094,
+      "observations": 102,
+      "blocked": 31,
+      "correct": 326,
+      "wrong": 17,
+      "abstained": 329,
+      "solved": 44
+    },
+    {
+      "mode": "pool_active",
+      "sessions": 16,
+      "correct_goals": 3,
+      "wrong_goals": 7,
+      "incomplete_goals": 22,
+      "spent": 17617,
+      "observations": 106,
+      "blocked": 29,
+      "correct": 347,
+      "wrong": 17,
+      "abstained": 308,
+      "solved": 47
+    },
+    {
+      "mode": "pool_consensus",
+      "sessions": 16,
+      "correct_goals": 1,
+      "wrong_goals": 0,
+      "incomplete_goals": 31,
+      "spent": 13423,
+      "observations": 80,
+      "blocked": 45,
+      "correct": 203,
+      "wrong": 0,
+      "abstained": 469,
+      "solved": 29
+    },
+    {
+      "mode": "split_random2",
+      "sessions": 16,
+      "correct_goals": 8,
+      "wrong_goals": 11,
+      "incomplete_goals": 13,
+      "spent": 19701,
+      "observations": 160,
+      "blocked": 16,
+      "correct": 469,
+      "wrong": 35,
+      "abstained": 168,
+      "solved": 61
+    },
+    {
+      "mode": "split_known4",
+      "sessions": 16,
+      "correct_goals": 13,
+      "wrong_goals": 10,
+      "incomplete_goals": 9,
+      "spent": 21086,
+      "observations": 348,
+      "blocked": 9,
+      "correct": 536,
+      "wrong": 31,
+      "abstained": 105,
+      "solved": 71
+    },
+    {
+      "mode": "pool_memory",
+      "sessions": 16,
+      "correct_goals": 3,
+      "wrong_goals": 7,
+      "incomplete_goals": 22,
+      "spent": 17617,
+      "observations": 106,
+      "blocked": 29,
+      "correct": 347,
+      "wrong": 17,
+      "abstained": 308,
+      "solved": 47
+    }
+  ],
+  "budget": 3600,
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "goals": [
+    4,
+    5
+  ],
+  "deployment": false
+}

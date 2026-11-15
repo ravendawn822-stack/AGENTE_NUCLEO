@@ -1,0 +1,80 @@
+{
+  "aggregate": [
+    {
+      "abstained": 147,
+      "candidates": 25261,
+      "correct": 510,
+      "emitted": 75,
+      "initial_pool": 367,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_random",
+      "observations": 153,
+      "rejected": 0,
+      "remaining_pool": 184,
+      "solved": 69,
+      "tasks": 96,
+      "wrong": 15
+    },
+    {
+      "abstained": 147,
+      "candidates": 25261,
+      "correct": 520,
+      "emitted": 75,
+      "initial_pool": 367,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_active",
+      "observations": 154,
+      "rejected": 0,
+      "remaining_pool": 121,
+      "solved": 73,
+      "tasks": 96,
+      "wrong": 5
+    },
+    {
+      "abstained": 301,
+      "candidates": 25261,
+      "correct": 371,
+      "emitted": 53,
+      "initial_pool": 367,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_consensus",
+      "observations": 154,
+      "rejected": 0,
+      "remaining_pool": 121,
+      "solved": 53,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 28,
+      "candidates": 23715,
+      "correct": 611,
+      "emitted": 92,
+      "initial_pool": 0,
+      "interpreter_evaluations": 0,
+      "mode": "split_random2",
+      "observations": 192,
+      "rejected": 0,
+      "remaining_pool": 0,
+      "solved": 79,
+      "tasks": 96,
+      "wrong": 33
+    },
+    {
+      "abstained": 35,
+      "candidates": 25288,
+      "correct": 622,
+      "emitted": 91,
+      "initial_pool": 0,
+      "interpreter_evaluations": 0,
+      "mode": "split_known4",
+      "observations": 384,
+      "rejected": 0,
+      "remaining_pool": 0,
+      "solved": 85,
+      "tasks": 96,
+      "wrong": 15
+    }
+  ],
+  "protocol": "V118-active-observations-v1"
+}

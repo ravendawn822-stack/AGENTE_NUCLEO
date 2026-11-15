@@ -1,0 +1,11 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_information (__main__.Tests.test_information) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_oracle (__main__.Tests.test_oracle) ... ok
+test_pool (__main__.Tests.test_pool) ... ok
+test_splits (__main__.Tests.test_splits) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.023s
+
+OK

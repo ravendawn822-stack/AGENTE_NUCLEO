@@ -1,0 +1,139 @@
+{
+  "aggregate": [
+    {
+      "abstained": 168,
+      "candidates": 25228,
+      "correct": 482,
+      "emitted": 72,
+      "initial_pool": 343,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_random",
+      "observations": 150,
+      "rejected": 0,
+      "remaining_pool": 139,
+      "solved": 64,
+      "tasks": 96,
+      "wrong": 22
+    },
+    {
+      "abstained": 182,
+      "candidates": 25228,
+      "correct": 473,
+      "emitted": 70,
+      "initial_pool": 343,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_active",
+      "observations": 148,
+      "rejected": 0,
+      "remaining_pool": 103,
+      "solved": 65,
+      "tasks": 96,
+      "wrong": 17
+    },
+    {
+      "abstained": 308,
+      "candidates": 25228,
+      "correct": 363,
+      "emitted": 52,
+      "initial_pool": 343,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_consensus",
+      "observations": 148,
+      "rejected": 0,
+      "remaining_pool": 103,
+      "solved": 51,
+      "tasks": 96,
+      "wrong": 1
+    },
+    {
+      "abstained": 77,
+      "candidates": 28569,
+      "correct": 551,
+      "emitted": 85,
+      "initial_pool": 0,
+      "interpreter_evaluations": 0,
+      "mode": "split_random2",
+      "observations": 192,
+      "rejected": 0,
+      "remaining_pool": 0,
+      "solved": 69,
+      "tasks": 96,
+      "wrong": 44
+    },
+    {
+      "abstained": 70,
+      "candidates": 28427,
+      "correct": 582,
+      "emitted": 86,
+      "initial_pool": 0,
+      "interpreter_evaluations": 0,
+      "mode": "split_known4",
+      "observations": 384,
+      "rejected": 0,
+      "remaining_pool": 0,
+      "solved": 79,
+      "tasks": 96,
+      "wrong": 20
+    },
+    {
+      "abstained": 182,
+      "candidates": 25228,
+      "correct": 473,
+      "emitted": 70,
+      "initial_pool": 343,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_memory",
+      "observations": 148,
+      "rejected": 0,
+      "remaining_pool": 103,
+      "solved": 65,
+      "tasks": 96,
+      "wrong": 17
+    }
+  ],
+  "counts": {
+    "even:large": [
+      371,
+      253
+    ],
+    "even:medium": [
+      74,
+      38
+    ],
+    "even:small": [
+      7,
+      1
+    ],
+    "global": [
+      889,
+      551
+    ],
+    "negative:large": [
+      294,
+      218
+    ],
+    "negative:medium": [
+      49,
+      15
+    ],
+    "negative:small": [
+      0,
+      0
+    ],
+    "sequence:large": [
+      0,
+      0
+    ],
+    "sequence:medium": [
+      63,
+      21
+    ],
+    "sequence:small": [
+      31,
+      5
+    ]
+  },
+  "protocol": "V119-frozen-error-memory-v1",
+  "training_candidates": 25238,
+  "training_tasks": 96
+}

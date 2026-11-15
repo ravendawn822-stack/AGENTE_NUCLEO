@@ -1,0 +1,114 @@
+{
+  "aggregate": [
+    {
+      "abstained": 329,
+      "blocked": 31,
+      "correct": 326,
+      "correct_goals": 3,
+      "incomplete_goals": 24,
+      "mode": "pool_random",
+      "observations": 102,
+      "sessions": 16,
+      "solved": 44,
+      "spent": 17094,
+      "wrong": 17,
+      "wrong_goals": 5
+    },
+    {
+      "abstained": 308,
+      "blocked": 29,
+      "correct": 347,
+      "correct_goals": 3,
+      "incomplete_goals": 22,
+      "mode": "pool_active",
+      "observations": 106,
+      "sessions": 16,
+      "solved": 47,
+      "spent": 17617,
+      "wrong": 17,
+      "wrong_goals": 7
+    },
+    {
+      "abstained": 469,
+      "blocked": 45,
+      "correct": 203,
+      "correct_goals": 1,
+      "incomplete_goals": 31,
+      "mode": "pool_consensus",
+      "observations": 80,
+      "sessions": 16,
+      "solved": 29,
+      "spent": 13423,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 168,
+      "blocked": 16,
+      "correct": 469,
+      "correct_goals": 8,
+      "incomplete_goals": 13,
+      "mode": "split_random2",
+      "observations": 160,
+      "sessions": 16,
+      "solved": 61,
+      "spent": 19701,
+      "wrong": 35,
+      "wrong_goals": 11
+    },
+    {
+      "abstained": 105,
+      "blocked": 9,
+      "correct": 536,
+      "correct_goals": 13,
+      "incomplete_goals": 9,
+      "mode": "split_known4",
+      "observations": 348,
+      "sessions": 16,
+      "solved": 71,
+      "spent": 21086,
+      "wrong": 31,
+      "wrong_goals": 10
+    },
+    {
+      "abstained": 308,
+      "blocked": 29,
+      "correct": 347,
+      "correct_goals": 3,
+      "incomplete_goals": 22,
+      "mode": "pool_memory",
+      "observations": 106,
+      "sessions": 16,
+      "solved": 47,
+      "spent": 17617,
+      "wrong": 17,
+      "wrong_goals": 7
+    }
+  ],
+  "budget": 3600,
+  "deployment": false,
+  "goals": [
+    4,
+    5
+  ],
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "protocol": "V120-adaptive-investigation-v1"
+}
