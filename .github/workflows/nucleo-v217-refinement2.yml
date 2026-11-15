@@ -1,0 +1,59 @@
+name: V217 cognitive refinement 2
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V217_V330_REFINO2/**','.github/workflows/nucleo-v217-refinement2.yml']
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - run: |
+          mkdir -p /tmp/nucleo-refine2
+          rc=0
+          timeout 180 python3 NUCLEO_V217_V330_REFINO2/online.py --out /tmp/nucleo-refine2/experiment > /tmp/nucleo-refine2/run.log 2>&1 || rc=$?
+          printf '{"exit":%s}\n' "$rc" > /tmp/nucleo-refine2/STATUS.json
+          printf '%s\n' "$GITHUB_SHA" > /tmp/nucleo-refine2/SOURCE_COMMIT.txt
+          cat /tmp/nucleo-refine2/STATUS.json
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cognitive-refinement2
+          path: /tmp/nucleo-refine2
+  archive:
+    needs: evaluate
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: cognitive-refinement2
+          path: /tmp/nucleo-refine2
+      - run: |
+          python3 - <<'PY'
+          import shutil,hashlib,json
+          from pathlib import Path
+          target=Path('EVIDENCIAS/BRUTOS/NUCLEO_V217_V330_REFINO2')
+          assert not target.exists()
+          shutil.copytree('/tmp/nucleo-refine2',target)
+          (target/'SHA256.json').write_text(json.dumps([dict(path=str(f.relative_to(target)),sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(target.rglob('*')) if f.is_file()],indent=2))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V217_V330_REFINO2
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive matched cognitive refinement 2'
+          git push origin HEAD:refs/heads/evidencias-cientificas
