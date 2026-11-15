@@ -1,0 +1,30 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "sha256": "826334d2132ed4104fb02f74906390ca4d5d4ff5789fdc36792e18bf46efdbca"
+  },
+  {
+    "path": "STATUS.json",
+    "sha256": "8105264899a6cef65d89313cb15b88d73fd58d892a3de899d3767c0698a98cf7"
+  },
+  {
+    "path": "experiment/gate.json",
+    "sha256": "9412fa9c2af18ce549ecef5c22149ce7e588b0a03603aa48cbe97b1323ae8788"
+  },
+  {
+    "path": "experiment/summary.json",
+    "sha256": "aa186e784939d78f3fa5a3b4dd52a0948a137ef096c2572801737e197ce72c80"
+  },
+  {
+    "path": "experiment/test.jsonl",
+    "sha256": "f0363d5a91632c31dbf921236ade056a0fb65c703f61008252348d4a019b43db"
+  },
+  {
+    "path": "experiment/validation.jsonl",
+    "sha256": "4f93195f0374d1a20b6a014de5cc27d5b9a86a41785c26a39128210ffaca6ab6"
+  },
+  {
+    "path": "run.log",
+    "sha256": "7a7e0cf056d25e6db0162b208b8556f9587c3853d7b85544b9cb81214f8c44cb"
+  }
+]
