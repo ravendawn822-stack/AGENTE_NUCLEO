@@ -12,7 +12,7 @@ SEEDS=(5580017,5610023,5640031,5670041)
 POLICIES=("seq","expanded","memory")
 DIRECT=("square","duplicate","pair_product","mirror_sum","abs_delta","reverse_concat")
 TRANSFER=("square_sum","square_even","duplicate_sort","duplicate_count",
-          "mirror_positive","pair_sum","delta_count","reverse_concat_difference")
+          "mirror_positive","pair_sum","delta_sum","reverse_concat_difference")
 LEGACY=("span","prefix","minimum")
 OUTSIDE=("product_prefix","repeat_three")
 PROTOCOL="V41-fork-memory-v1"
@@ -102,7 +102,7 @@ def oracle(name,x):
     if name=="duplicate_count":return (2*len(x),)
     if name=="mirror_positive":return tuple(z for z in (x[i]+x[-1-i] for i in range(len(x))) if z>0)
     if name=="pair_sum":return (sum(z*z+z for z in x),)
-    if name=="delta_count":return (sum(1 for _ in x),)
+    if name=="delta_sum":return (sum(abs(z)-z for z in x),)
     if name=="reverse_concat_difference":
         y=(*x,*reversed(x));return tuple(y[i+1]-y[i] for i in range(len(y)-1))
     if name in LEGACY:return t.oracle(name,x)
