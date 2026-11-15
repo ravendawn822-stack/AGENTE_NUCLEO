@@ -1,0 +1,80 @@
+name: V127-V132 finite contextual strategy selection
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V127/**','NUCLEO_V128/**','NUCLEO_V129/**','NUCLEO_V130/**','NUCLEO_V131/**','NUCLEO_V132/**','.github/workflows/nucleo-v127-v132.yml']
+permissions:
+  contents: read
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - name: Fixed offline evaluation
+        run: |
+          mkdir -p /tmp/nucleo-suite
+          test_status=0
+          run_status=125
+          timeout 90 python3 NUCLEO_V132/integration.py --self-test > /tmp/tests-v132.log 2>&1 || test_status=$?
+          if [ "$test_status" -eq 0 ]; then
+            run_status=0
+            timeout 120 python3 NUCLEO_V132/integration.py --output NUCLEO_V132/ci > /tmp/run-v132.log 2>&1 || run_status=$?
+          else
+            printf 'Skipped because self-tests failed\n' > /tmp/run-v132.log
+          fi
+          for v in 127 128 129 130 131 132; do
+            target="/tmp/nucleo-suite/NUCLEO_V$v"
+            mkdir "$target"
+            if [ -d "NUCLEO_V132/ci/NUCLEO_V$v" ]; then cp -a "NUCLEO_V132/ci/NUCLEO_V$v/." "$target/"; fi
+            printf '{"suite_test_exit":%s,"suite_run_exit":%s}\n' "$test_status" "$run_status" > "$target/STATUS.json"
+            printf '%s\n' "$GITHUB_SHA" > "$target/SOURCE_COMMIT.txt"
+          done
+          cp /tmp/tests-v132.log /tmp/run-v132.log /tmp/nucleo-suite/NUCLEO_V132/
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nucleo-v127-v132-results
+          path: /tmp/nucleo-suite/
+          retention-days: 30
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: nucleo-v127-v132-results
+          path: /tmp/nucleo-suite
+      - name: Append-only archive
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,shutil
+          from pathlib import Path
+          base=Path('EVIDENCIAS/BRUTOS')
+          source=Path('/tmp/nucleo-suite')
+          names=['NUCLEO_V'+str(n) for n in range(127,133)]
+          assert all(not (base/n).exists() and (source/n/'STATUS.json').is_file() for n in names)
+          for n in names:
+              p=base/n
+              shutil.copytree(source/n,p)
+              files=[dict(path=str(f.relative_to(p)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(p.rglob('*')) if f.is_file() and not f.is_symlink()]
+              (p/'SHA256.json').write_text(json.dumps(files,indent=2))
+          PY
+          for v in 127 128 129 130 131 132; do git add -f "EVIDENCIAS/BRUTOS/NUCLEO_V$v"; done
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\/NUCLEO_V(127|128|129|130|131|132)\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive V127-V132 fixed offline strategy experiment'
+          git push origin HEAD:refs/heads/evidencias-cientificas
