@@ -1,0 +1,371 @@
+{
+  "gate": {
+    "candidate": "factor",
+    "promoted": true,
+    "policy": "factor"
+  },
+  "validation": [
+    {
+      "family": "all",
+      "mode": "old",
+      "worlds": 40,
+      "total": 2126,
+      "correct": 1434,
+      "wrong": 23,
+      "abstained": 669,
+      "candidates": 8240
+    },
+    {
+      "family": "all",
+      "mode": "factor",
+      "worlds": 40,
+      "total": 2126,
+      "correct": 1630,
+      "wrong": 23,
+      "abstained": 473,
+      "candidates": 30660
+    },
+    {
+      "family": "all",
+      "mode": "consensus",
+      "worlds": 40,
+      "total": 2126,
+      "correct": 1623,
+      "wrong": 23,
+      "abstained": 480,
+      "candidates": 30660
+    },
+    {
+      "family": "bounded",
+      "mode": "old",
+      "worlds": 8,
+      "total": 406,
+      "correct": 402,
+      "wrong": 4,
+      "abstained": 0,
+      "candidates": 1238
+    },
+    {
+      "family": "bounded",
+      "mode": "factor",
+      "worlds": 8,
+      "total": 406,
+      "correct": 402,
+      "wrong": 4,
+      "abstained": 0,
+      "candidates": 3338
+    },
+    {
+      "family": "bounded",
+      "mode": "consensus",
+      "worlds": 8,
+      "total": 406,
+      "correct": 402,
+      "wrong": 4,
+      "abstained": 0,
+      "candidates": 3338
+    },
+    {
+      "family": "cycle",
+      "mode": "old",
+      "worlds": 8,
+      "total": 398,
+      "correct": 398,
+      "wrong": 0,
+      "abstained": 0,
+      "candidates": 1437
+    },
+    {
+      "family": "cycle",
+      "mode": "factor",
+      "worlds": 8,
+      "total": 398,
+      "correct": 398,
+      "wrong": 0,
+      "abstained": 0,
+      "candidates": 3280
+    },
+    {
+      "family": "cycle",
+      "mode": "consensus",
+      "worlds": 8,
+      "total": 398,
+      "correct": 391,
+      "wrong": 0,
+      "abstained": 7,
+      "candidates": 3280
+    },
+    {
+      "family": "conditional",
+      "mode": "old",
+      "worlds": 8,
+      "total": 489,
+      "correct": 315,
+      "wrong": 5,
+      "abstained": 169,
+      "candidates": 1244
+    },
+    {
+      "family": "conditional",
+      "mode": "factor",
+      "worlds": 8,
+      "total": 489,
+      "correct": 435,
+      "wrong": 5,
+      "abstained": 49,
+      "candidates": 4337
+    },
+    {
+      "family": "conditional",
+      "mode": "consensus",
+      "worlds": 8,
+      "total": 489,
+      "correct": 435,
+      "wrong": 5,
+      "abstained": 49,
+      "candidates": 4337
+    },
+    {
+      "family": "coupled",
+      "mode": "old",
+      "worlds": 8,
+      "total": 409,
+      "correct": 319,
+      "wrong": 14,
+      "abstained": 76,
+      "candidates": 1393
+    },
+    {
+      "family": "coupled",
+      "mode": "factor",
+      "worlds": 8,
+      "total": 409,
+      "correct": 395,
+      "wrong": 14,
+      "abstained": 0,
+      "candidates": 3739
+    },
+    {
+      "family": "coupled",
+      "mode": "consensus",
+      "worlds": 8,
+      "total": 409,
+      "correct": 395,
+      "wrong": 14,
+      "abstained": 0,
+      "candidates": 3739
+    },
+    {
+      "family": "table",
+      "mode": "old",
+      "worlds": 8,
+      "total": 424,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 424,
+      "candidates": 2928
+    },
+    {
+      "family": "table",
+      "mode": "factor",
+      "worlds": 8,
+      "total": 424,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 424,
+      "candidates": 15966
+    },
+    {
+      "family": "table",
+      "mode": "consensus",
+      "worlds": 8,
+      "total": 424,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 424,
+      "candidates": 15966
+    }
+  ],
+  "test": [
+    {
+      "family": "all",
+      "mode": "old",
+      "worlds": 80,
+      "total": 4105,
+      "correct": 2771,
+      "wrong": 58,
+      "abstained": 1276,
+      "candidates": 16233
+    },
+    {
+      "family": "all",
+      "mode": "factor",
+      "worlds": 80,
+      "total": 4105,
+      "correct": 3180,
+      "wrong": 58,
+      "abstained": 867,
+      "candidates": 57679
+    },
+    {
+      "family": "all",
+      "mode": "consensus",
+      "worlds": 80,
+      "total": 4105,
+      "correct": 3153,
+      "wrong": 58,
+      "abstained": 894,
+      "candidates": 57679
+    },
+    {
+      "family": "bounded",
+      "mode": "old",
+      "worlds": 16,
+      "total": 778,
+      "correct": 773,
+      "wrong": 5,
+      "abstained": 0,
+      "candidates": 2493
+    },
+    {
+      "family": "bounded",
+      "mode": "factor",
+      "worlds": 16,
+      "total": 778,
+      "correct": 773,
+      "wrong": 5,
+      "abstained": 0,
+      "candidates": 6008
+    },
+    {
+      "family": "bounded",
+      "mode": "consensus",
+      "worlds": 16,
+      "total": 778,
+      "correct": 773,
+      "wrong": 5,
+      "abstained": 0,
+      "candidates": 6008
+    },
+    {
+      "family": "cycle",
+      "mode": "old",
+      "worlds": 16,
+      "total": 769,
+      "correct": 769,
+      "wrong": 0,
+      "abstained": 0,
+      "candidates": 2778
+    },
+    {
+      "family": "cycle",
+      "mode": "factor",
+      "worlds": 16,
+      "total": 769,
+      "correct": 769,
+      "wrong": 0,
+      "abstained": 0,
+      "candidates": 5463
+    },
+    {
+      "family": "cycle",
+      "mode": "consensus",
+      "worlds": 16,
+      "total": 769,
+      "correct": 769,
+      "wrong": 0,
+      "abstained": 0,
+      "candidates": 5463
+    },
+    {
+      "family": "conditional",
+      "mode": "old",
+      "worlds": 16,
+      "total": 932,
+      "correct": 577,
+      "wrong": 23,
+      "abstained": 332,
+      "candidates": 2504
+    },
+    {
+      "family": "conditional",
+      "mode": "factor",
+      "worlds": 16,
+      "total": 932,
+      "correct": 880,
+      "wrong": 23,
+      "abstained": 29,
+      "candidates": 7715
+    },
+    {
+      "family": "conditional",
+      "mode": "consensus",
+      "worlds": 16,
+      "total": 932,
+      "correct": 853,
+      "wrong": 23,
+      "abstained": 56,
+      "candidates": 7715
+    },
+    {
+      "family": "coupled",
+      "mode": "old",
+      "worlds": 16,
+      "total": 788,
+      "correct": 652,
+      "wrong": 30,
+      "abstained": 106,
+      "candidates": 2819
+    },
+    {
+      "family": "coupled",
+      "mode": "factor",
+      "worlds": 16,
+      "total": 788,
+      "correct": 758,
+      "wrong": 30,
+      "abstained": 0,
+      "candidates": 6888
+    },
+    {
+      "family": "coupled",
+      "mode": "consensus",
+      "worlds": 16,
+      "total": 788,
+      "correct": 758,
+      "wrong": 30,
+      "abstained": 0,
+      "candidates": 6888
+    },
+    {
+      "family": "table",
+      "mode": "old",
+      "worlds": 16,
+      "total": 838,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 838,
+      "candidates": 5639
+    },
+    {
+      "family": "table",
+      "mode": "factor",
+      "worlds": 16,
+      "total": 838,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 838,
+      "candidates": 31605
+    },
+    {
+      "family": "table",
+      "mode": "consensus",
+      "worlds": 16,
+      "total": 838,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 838,
+      "candidates": 31605
+    }
+  ]
+}
