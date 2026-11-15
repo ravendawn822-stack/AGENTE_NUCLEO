@@ -1,0 +1,24 @@
+test_budget (__main__.Tests.test_budget) ... ERROR
+test_propose (__main__.Tests.test_propose) ... ok
+test_select (__main__.Tests.test_select) ... ok
+test_split (__main__.Tests.test_split) ... ok
+test_traced_reference (__main__.Tests.test_traced_reference) ... ok
+
+======================================================================
+ERROR: test_budget (__main__.Tests.test_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/runner/work/AGENTE_NUCLEO/AGENTE_NUCLEO/NUCLEO_V108/integration.py", line 105, in test_budget
+    models,ledger,spent=plan(public,m,(),(),60)
+                        ~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/AGENTE_NUCLEO/AGENTE_NUCLEO/NUCLEO_V108/integration.py", line 41, in plan
+    r=ins.search(public[i]["fit"],mode,library,novel,control,min(s.CAP,left))
+  File "/home/runner/work/AGENTE_NUCLEO/AGENTE_NUCLEO/NUCLEO_V106/instances.py", line 55, in search
+    macros={"weighted":(),"learned":library,"generalized":library+novel,"random":library+control}[mode]
+                                                                                 ~~~~~~~^~~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.038s
+
+FAILED (errors=1)
