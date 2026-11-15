@@ -1,0 +1,2 @@
+# V111 — soluções parciais
+Para cada partição admissível, procurar um programa em cada ramo com busca primitiva V93, cap máximo 4 átomos, mesmo contador de candidatos. Dividir orçamento disponível entre predicados ainda não tentados e entre ramos; reservar 1 unidade para montagem. Cada chamada contabiliza todas tentativas, inclusive rejeitadas; se um ramo não obtém candidato, passar ao próximo predicado. Nenhuma execução externa. Registrar buscas parciais, candidatos, falhas, predicados.
