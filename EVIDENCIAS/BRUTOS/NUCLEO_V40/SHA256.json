@@ -1,0 +1,107 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "6dbf5738aa017daacaf8cc2138dc78df6b86eba155fee9fc284cc0ccffb847fc"
+  },
+  {
+    "path": "final.jsonl",
+    "bytes": 235132,
+    "sha256": "7d2b74c555b399a11cfed44cb0ac6301de5155f79b6a88ca20d413554b22e70b"
+  },
+  {
+    "path": "requests.jsonl",
+    "bytes": 163993,
+    "sha256": "457a0ccec81f10a597fd89f70ed7a1e4c7d0df26429684088a79decf60980d44"
+  },
+  {
+    "path": "skills_5460017_baseline.json",
+    "bytes": 88,
+    "sha256": "f1793481be77a047f7580bbf1a444bcafaa5ce78b983068719f975f1ed3bae7c"
+  },
+  {
+    "path": "skills_5460017_hybrid.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5460017_local_full.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5460017_teacher_only.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5490023_baseline.json",
+    "bytes": 88,
+    "sha256": "f1793481be77a047f7580bbf1a444bcafaa5ce78b983068719f975f1ed3bae7c"
+  },
+  {
+    "path": "skills_5490023_hybrid.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5490023_local_full.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5490023_teacher_only.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5520031_baseline.json",
+    "bytes": 88,
+    "sha256": "f1793481be77a047f7580bbf1a444bcafaa5ce78b983068719f975f1ed3bae7c"
+  },
+  {
+    "path": "skills_5520031_hybrid.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5520031_local_full.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5520031_teacher_only.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5550041_baseline.json",
+    "bytes": 88,
+    "sha256": "f1793481be77a047f7580bbf1a444bcafaa5ce78b983068719f975f1ed3bae7c"
+  },
+  {
+    "path": "skills_5550041_hybrid.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5550041_local_full.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "skills_5550041_teacher_only.json",
+    "bytes": 371,
+    "sha256": "7fc9f892e3f761d0f9e8b08878ff6376914d831ae52064792b11a1d1b043e848"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 40827,
+    "sha256": "cafa4621d34e8860619b5265abb6e68792741af009f830a653a4c7a65ba349b5"
+  },
+  {
+    "path": "training.jsonl",
+    "bytes": 236770,
+    "sha256": "f67c4198c052144de90eacae030f7690220bf8dbd704e7281d00569b6686af95"
+  }
+]
