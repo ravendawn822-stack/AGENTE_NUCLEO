@@ -1,0 +1,2 @@
+# V88 — comparação controlada
+Executar seis configurações em dev. Utilidade U=10*objetivos corretos-40*objetivos errados-unidades gastas. Escolher única candidata dentre não referência pela maior utilidade agregada, desempate lexicográfico. Comparar candidata e referência em validação disjunta; critérios pré-fixados: U estritamente maior, não aumentar objetivos ou previsões incorretas, não reduzir objetivos corretos, U não inferior em cada estrato. Todos os resultados preservados. Sem ajuste após validação.
