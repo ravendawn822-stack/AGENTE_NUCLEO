@@ -1,0 +1,182 @@
+[
+  {
+    "exceptions": 0,
+    "mode": "exact",
+    "held": {
+      "n": 504,
+      "correct": 504,
+      "wrong": 0,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 288,
+      "success": 288,
+      "wrong": 0,
+      "abstained": 0,
+      "step_mismatches": 0
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 0
+  },
+  {
+    "exceptions": 0,
+    "mode": "repair",
+    "held": {
+      "n": 504,
+      "correct": 504,
+      "wrong": 0,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 288,
+      "success": 288,
+      "wrong": 0,
+      "abstained": 0,
+      "step_mismatches": 0
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 0
+  },
+  {
+    "exceptions": 0,
+    "mode": "map",
+    "held": {
+      "n": 504,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 504
+    },
+    "plans": {
+      "n": 288,
+      "success": 192,
+      "wrong": 0,
+      "abstained": 96,
+      "step_mismatches": 0
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 0
+  },
+  {
+    "exceptions": 1,
+    "mode": "exact",
+    "held": {
+      "n": 504,
+      "correct": 138,
+      "wrong": 23,
+      "abstained": 343
+    },
+    "plans": {
+      "n": 288,
+      "success": 206,
+      "wrong": 24,
+      "abstained": 58,
+      "step_mismatches": 25
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 49
+  },
+  {
+    "exceptions": 1,
+    "mode": "repair",
+    "held": {
+      "n": 504,
+      "correct": 481,
+      "wrong": 23,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 288,
+      "success": 270,
+      "wrong": 16,
+      "abstained": 2,
+      "step_mismatches": 16
+    },
+    "queries": 720,
+    "revised": 49,
+    "contradicted": 0
+  },
+  {
+    "exceptions": 1,
+    "mode": "map",
+    "held": {
+      "n": 504,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 504
+    },
+    "plans": {
+      "n": 288,
+      "success": 185,
+      "wrong": 0,
+      "abstained": 103,
+      "step_mismatches": 0
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 0
+  },
+  {
+    "exceptions": 3,
+    "mode": "exact",
+    "held": {
+      "n": 504,
+      "correct": 12,
+      "wrong": 9,
+      "abstained": 483
+    },
+    "plans": {
+      "n": 288,
+      "success": 185,
+      "wrong": 14,
+      "abstained": 89,
+      "step_mismatches": 24
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 69
+  },
+  {
+    "exceptions": 3,
+    "mode": "repair",
+    "held": {
+      "n": 504,
+      "correct": 191,
+      "wrong": 54,
+      "abstained": 259
+    },
+    "plans": {
+      "n": 288,
+      "success": 207,
+      "wrong": 41,
+      "abstained": 40,
+      "step_mismatches": 49
+    },
+    "queries": 720,
+    "revised": 32,
+    "contradicted": 37
+  },
+  {
+    "exceptions": 3,
+    "mode": "map",
+    "held": {
+      "n": 504,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 504
+    },
+    "plans": {
+      "n": 288,
+      "success": 185,
+      "wrong": 0,
+      "abstained": 103,
+      "step_mismatches": 0
+    },
+    "queries": 720,
+    "revised": 0,
+    "contradicted": 0
+  }
+]

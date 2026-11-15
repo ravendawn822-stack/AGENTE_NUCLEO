@@ -1,0 +1,8 @@
+test_exact (__main__.Tests.test_exact) ... ok
+test_repair (__main__.Tests.test_repair) ... ok
+test_tie (__main__.Tests.test_tie) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

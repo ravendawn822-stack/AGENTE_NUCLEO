@@ -1,0 +1,20 @@
+{
+  "math": {
+    "n": 56,
+    "correct": 48,
+    "wrong": 0,
+    "abstained": 8
+  },
+  "environment": {
+    "n": 84,
+    "correct": 80,
+    "wrong": 4,
+    "abstained": 0
+  },
+  "plans": {
+    "n": 48,
+    "success": 46,
+    "wrong": 0,
+    "abstained": 2
+  }
+}

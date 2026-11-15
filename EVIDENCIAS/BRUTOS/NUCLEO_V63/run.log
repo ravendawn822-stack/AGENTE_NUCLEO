@@ -1,0 +1,173 @@
+[
+  {
+    "stratum": "affine",
+    "mode": "affine",
+    "held": {
+      "n": 336,
+      "correct": 336,
+      "wrong": 0,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 192,
+      "success": 192,
+      "wrong": 0,
+      "abstained": 0,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 13872
+  },
+  {
+    "stratum": "affine",
+    "mode": "expanded",
+    "held": {
+      "n": 336,
+      "correct": 336,
+      "wrong": 0,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 192,
+      "success": 192,
+      "wrong": 0,
+      "abstained": 0,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 235824
+  },
+  {
+    "stratum": "affine",
+    "mode": "map",
+    "held": {
+      "n": 336,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 336
+    },
+    "plans": {
+      "n": 192,
+      "success": 140,
+      "wrong": 0,
+      "abstained": 52,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 0
+  },
+  {
+    "stratum": "quadratic",
+    "mode": "affine",
+    "held": {
+      "n": 336,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 336
+    },
+    "plans": {
+      "n": 192,
+      "success": 110,
+      "wrong": 0,
+      "abstained": 82,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 13872
+  },
+  {
+    "stratum": "quadratic",
+    "mode": "expanded",
+    "held": {
+      "n": 336,
+      "correct": 336,
+      "wrong": 0,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 192,
+      "success": 170,
+      "wrong": 0,
+      "abstained": 22,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 235824
+  },
+  {
+    "stratum": "quadratic",
+    "mode": "map",
+    "held": {
+      "n": 336,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 336
+    },
+    "plans": {
+      "n": 192,
+      "success": 110,
+      "wrong": 0,
+      "abstained": 82,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 0
+  },
+  {
+    "stratum": "outside",
+    "mode": "affine",
+    "held": {
+      "n": 336,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 336
+    },
+    "plans": {
+      "n": 192,
+      "success": 108,
+      "wrong": 0,
+      "abstained": 84,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 13872
+  },
+  {
+    "stratum": "outside",
+    "mode": "expanded",
+    "held": {
+      "n": 336,
+      "correct": 12,
+      "wrong": 9,
+      "abstained": 315
+    },
+    "plans": {
+      "n": 192,
+      "success": 113,
+      "wrong": 2,
+      "abstained": 77,
+      "step_mismatches": 2
+    },
+    "queries": 480,
+    "candidates": 235824
+  },
+  {
+    "stratum": "outside",
+    "mode": "map",
+    "held": {
+      "n": 336,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 336
+    },
+    "plans": {
+      "n": 192,
+      "success": 108,
+      "wrong": 0,
+      "abstained": 84,
+      "step_mismatches": 0
+    },
+    "queries": 480,
+    "candidates": 0
+  }
+]

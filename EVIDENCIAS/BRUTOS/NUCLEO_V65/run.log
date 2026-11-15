@@ -1,0 +1,82 @@
+[
+  {
+    "context": "A",
+    "mode": "fixed",
+    "tasks": 96,
+    "solved": 72,
+    "probes": 120,
+    "correct": 792,
+    "wrong": 0,
+    "abstained": 264
+  },
+  {
+    "context": "A",
+    "mode": "reverse",
+    "tasks": 96,
+    "solved": 24,
+    "probes": 168,
+    "correct": 264,
+    "wrong": 0,
+    "abstained": 792
+  },
+  {
+    "context": "A",
+    "mode": "learned",
+    "tasks": 96,
+    "solved": 96,
+    "probes": 120,
+    "correct": 1056,
+    "wrong": 0,
+    "abstained": 0
+  },
+  {
+    "context": "A",
+    "mode": "swap",
+    "tasks": 96,
+    "solved": 24,
+    "probes": 192,
+    "correct": 264,
+    "wrong": 0,
+    "abstained": 792
+  },
+  {
+    "context": "B",
+    "mode": "fixed",
+    "tasks": 96,
+    "solved": 72,
+    "probes": 192,
+    "correct": 792,
+    "wrong": 0,
+    "abstained": 264
+  },
+  {
+    "context": "B",
+    "mode": "reverse",
+    "tasks": 96,
+    "solved": 96,
+    "probes": 168,
+    "correct": 1056,
+    "wrong": 0,
+    "abstained": 0
+  },
+  {
+    "context": "B",
+    "mode": "learned",
+    "tasks": 96,
+    "solved": 96,
+    "probes": 120,
+    "correct": 1056,
+    "wrong": 0,
+    "abstained": 0
+  },
+  {
+    "context": "B",
+    "mode": "swap",
+    "tasks": 96,
+    "solved": 24,
+    "probes": 192,
+    "correct": 264,
+    "wrong": 0,
+    "abstained": 792
+  }
+]

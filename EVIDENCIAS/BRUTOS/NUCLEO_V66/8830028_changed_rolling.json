@@ -1,0 +1,550 @@
+{
+  "result": {
+    "seed": 8830028,
+    "stratum": "changed",
+    "mode": "rolling",
+    "before": {
+      "n": 20,
+      "correct": 18,
+      "wrong": 0,
+      "abstained": 2,
+      "alerts": 0
+    },
+    "after": {
+      "n": 20,
+      "correct": 18,
+      "wrong": 2,
+      "abstained": 0,
+      "alerts": 2
+    },
+    "first_correct": 2,
+    "three_correct": 2
+  },
+  "first": [
+    11,
+    2
+  ],
+  "second": [
+    5,
+    11
+  ],
+  "events": [
+    {
+      "step": 0,
+      "state": 7,
+      "target": 11,
+      "prediction": null,
+      "alert": false,
+      "epoch": 0,
+      "rule": null,
+      "audit": 0
+    },
+    {
+      "step": 1,
+      "state": 12,
+      "target": 15,
+      "prediction": null,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 2,
+      "state": 0,
+      "target": 2,
+      "prediction": 2,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 3,
+      "state": 9,
+      "target": 16,
+      "prediction": 16,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 4,
+      "state": 10,
+      "target": 10,
+      "prediction": 10,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 5,
+      "state": 2,
+      "target": 7,
+      "prediction": 7,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 6,
+      "state": 15,
+      "target": 14,
+      "prediction": 14,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 7,
+      "state": 3,
+      "target": 1,
+      "prediction": 1,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 8,
+      "state": 13,
+      "target": 9,
+      "prediction": 9,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 9,
+      "state": 16,
+      "target": 8,
+      "prediction": 8,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 10,
+      "state": 14,
+      "target": 3,
+      "prediction": 3,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 11,
+      "state": 1,
+      "target": 13,
+      "prediction": 13,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 12,
+      "state": 5,
+      "target": 6,
+      "prediction": 6,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 13,
+      "state": 4,
+      "target": 12,
+      "prediction": 12,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 14,
+      "state": 11,
+      "target": 4,
+      "prediction": 4,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 15,
+      "state": 8,
+      "target": 5,
+      "prediction": 5,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 16,
+      "state": 6,
+      "target": 0,
+      "prediction": 0,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 17,
+      "state": 0,
+      "target": 2,
+      "prediction": 2,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 18,
+      "state": 10,
+      "target": 10,
+      "prediction": 10,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 19,
+      "state": 12,
+      "target": 15,
+      "prediction": 15,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        11,
+        2
+      ],
+      "audit": 0
+    },
+    {
+      "step": 20,
+      "state": 15,
+      "target": 1,
+      "prediction": 14,
+      "alert": true,
+      "epoch": 0,
+      "rule": [
+        1,
+        3
+      ],
+      "audit": 0
+    },
+    {
+      "step": 21,
+      "state": 7,
+      "target": 12,
+      "prediction": 10,
+      "alert": true,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 22,
+      "state": 9,
+      "target": 5,
+      "prediction": 5,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 23,
+      "state": 2,
+      "target": 4,
+      "prediction": 4,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 24,
+      "state": 13,
+      "target": 8,
+      "prediction": 8,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 25,
+      "state": 16,
+      "target": 6,
+      "prediction": 6,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 26,
+      "state": 6,
+      "target": 7,
+      "prediction": 7,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 27,
+      "state": 1,
+      "target": 16,
+      "prediction": 16,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 28,
+      "state": 8,
+      "target": 0,
+      "prediction": 0,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 29,
+      "state": 5,
+      "target": 2,
+      "prediction": 2,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 30,
+      "state": 4,
+      "target": 14,
+      "prediction": 14,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 31,
+      "state": 3,
+      "target": 9,
+      "prediction": 9,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 32,
+      "state": 14,
+      "target": 13,
+      "prediction": 13,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 33,
+      "state": 11,
+      "target": 15,
+      "prediction": 15,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 34,
+      "state": 13,
+      "target": 8,
+      "prediction": 8,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 35,
+      "state": 5,
+      "target": 2,
+      "prediction": 2,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 36,
+      "state": 8,
+      "target": 0,
+      "prediction": 0,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 37,
+      "state": 2,
+      "target": 4,
+      "prediction": 4,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 38,
+      "state": 0,
+      "target": 11,
+      "prediction": 11,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    },
+    {
+      "step": 39,
+      "state": 14,
+      "target": 13,
+      "prediction": 13,
+      "alert": false,
+      "epoch": 0,
+      "rule": [
+        5,
+        11
+      ],
+      "audit": 0
+    }
+  ]
+}

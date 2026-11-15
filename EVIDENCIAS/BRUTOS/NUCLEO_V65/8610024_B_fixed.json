@@ -1,0 +1,1414 @@
+{
+  "result": {
+    "seed": 8610024,
+    "context": "B",
+    "mode": "fixed",
+    "order": [
+      1,
+      2,
+      3
+    ],
+    "tasks": 8,
+    "solved": 6,
+    "probes": 16,
+    "correct": 66,
+    "wrong": 0,
+    "abstained": 22
+  },
+  "train": {
+    "A": [
+      {
+        "degree": 3,
+        "coefficients": [
+          13,
+          15,
+          8,
+          10
+        ],
+        "points": [
+          [
+            12,
+            10
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            0,
+            13
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficients": [
+          0,
+          4
+        ],
+        "points": [
+          [
+            8,
+            15
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            4,
+            16
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            12,
+            14
+          ]
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficients": [
+          13,
+          9
+        ],
+        "points": [
+          [
+            4,
+            15
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            2,
+            14
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            16
+          ]
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficients": [
+          13,
+          2
+        ],
+        "points": [
+          [
+            14,
+            7
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficients": [
+          9,
+          7
+        ],
+        "points": [
+          [
+            6,
+            0
+          ],
+          [
+            14,
+            5
+          ],
+          [
+            15,
+            12
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficients": [
+          12,
+          11
+        ],
+        "points": [
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            16,
+            1
+          ]
+        ]
+      },
+      {
+        "degree": 1,
+        "coefficients": [
+          13,
+          2
+        ],
+        "points": [
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            13
+          ],
+          [
+            9,
+            14
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            14,
+            7
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "degree": 3,
+        "coefficients": [
+          2,
+          16,
+          12,
+          2
+        ],
+        "points": [
+          [
+            6,
+            10
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    ],
+    "B": [
+      {
+        "degree": 2,
+        "coefficients": [
+          7,
+          2,
+          1
+        ],
+        "points": [
+          [
+            8,
+            2
+          ],
+          [
+            15,
+            7
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            16,
+            6
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      {
+        "degree": 3,
+        "coefficients": [
+          13,
+          14,
+          15,
+          6
+        ],
+        "points": [
+          [
+            1,
+            14
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            0,
+            13
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            15,
+            14
+          ]
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficients": [
+          4,
+          11,
+          10
+        ],
+        "points": [
+          [
+            1,
+            8
+          ],
+          [
+            14,
+            10
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            16,
+            3
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            15,
+            5
+          ]
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficients": [
+          4,
+          8,
+          16
+        ],
+        "points": [
+          [
+            3,
+            2
+          ],
+          [
+            14,
+            5
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficients": [
+          3,
+          7,
+          3
+        ],
+        "points": [
+          [
+            12,
+            9
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            13,
+            6
+          ],
+          [
+            9,
+            3
+          ]
+        ]
+      },
+      {
+        "degree": 3,
+        "coefficients": [
+          9,
+          14,
+          9,
+          11
+        ],
+        "points": [
+          [
+            1,
+            9
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            4,
+            12
+          ]
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficients": [
+          12,
+          14,
+          13
+        ],
+        "points": [
+          [
+            7,
+            16
+          ],
+          [
+            16,
+            11
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      {
+        "degree": 2,
+        "coefficients": [
+          3,
+          6,
+          12
+        ],
+        "points": [
+          [
+            5,
+            10
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            6,
+            12
+          ]
+        ]
+      }
+    ]
+  },
+  "prior": {
+    "A": [
+      [
+        1,
+        3,
+        2
+      ],
+      {
+        "1": 6,
+        "2": 0,
+        "3": 2
+      }
+    ],
+    "B": [
+      [
+        2,
+        3,
+        1
+      ],
+      {
+        "1": 0,
+        "2": 6,
+        "3": 2
+      }
+    ]
+  },
+  "test": [
+    {
+      "degree": 2,
+      "coefficients": [
+        8,
+        12,
+        12
+      ],
+      "points": [
+        [
+          7,
+          0
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "coefficients": [
+        2,
+        10,
+        13
+      ],
+      "points": [
+        [
+          16,
+          5
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          9,
+          6
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "coefficients": [
+        5,
+        15,
+        6
+      ],
+      "points": [
+        [
+          12,
+          12
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6,
+          5
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "coefficients": [
+        7,
+        5,
+        3
+      ],
+      "points": [
+        [
+          1,
+          15
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "coefficients": [
+        15,
+        9,
+        16
+      ],
+      "points": [
+        [
+          6,
+          16
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "coefficients": [
+        5,
+        4,
+        7,
+        14
+      ],
+      "points": [
+        [
+          16,
+          11
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          3
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "coefficients": [
+        0,
+        13,
+        11
+      ],
+      "points": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          16,
+          15
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "coefficients": [
+        9,
+        1,
+        12,
+        1
+      ],
+      "points": [
+        [
+          6,
+          0
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          11,
+          15
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "degree": 2,
+      "h": [
+        8,
+        12,
+        12
+      ],
+      "probes": 2,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0,
+      "rows": [
+        {
+          "state": 1,
+          "prediction": 15,
+          "target": 15
+        },
+        {
+          "state": 2,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 3,
+          "prediction": 16,
+          "target": 16
+        },
+        {
+          "state": 8,
+          "prediction": 5,
+          "target": 5
+        },
+        {
+          "state": 9,
+          "prediction": 0,
+          "target": 0
+        },
+        {
+          "state": 11,
+          "prediction": 11,
+          "target": 11
+        },
+        {
+          "state": 12,
+          "prediction": 10,
+          "target": 10
+        },
+        {
+          "state": 13,
+          "prediction": 16,
+          "target": 16
+        },
+        {
+          "state": 14,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 15,
+          "prediction": 15,
+          "target": 15
+        },
+        {
+          "state": 16,
+          "prediction": 8,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "degree": 2,
+      "h": [
+        2,
+        10,
+        13
+      ],
+      "probes": 2,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0,
+      "rows": [
+        {
+          "state": 1,
+          "prediction": 8,
+          "target": 8
+        },
+        {
+          "state": 2,
+          "prediction": 6,
+          "target": 6
+        },
+        {
+          "state": 3,
+          "prediction": 13,
+          "target": 13
+        },
+        {
+          "state": 4,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 6,
+          "prediction": 3,
+          "target": 3
+        },
+        {
+          "state": 7,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 10,
+          "prediction": 8,
+          "target": 8
+        },
+        {
+          "state": 11,
+          "prediction": 2,
+          "target": 2
+        },
+        {
+          "state": 12,
+          "prediction": 5,
+          "target": 5
+        },
+        {
+          "state": 13,
+          "prediction": 0,
+          "target": 0
+        },
+        {
+          "state": 15,
+          "prediction": 0,
+          "target": 0
+        }
+      ]
+    },
+    {
+      "degree": 2,
+      "h": [
+        5,
+        15,
+        6
+      ],
+      "probes": 2,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0,
+      "rows": [
+        {
+          "state": 1,
+          "prediction": 9,
+          "target": 9
+        },
+        {
+          "state": 2,
+          "prediction": 8,
+          "target": 8
+        },
+        {
+          "state": 4,
+          "prediction": 8,
+          "target": 8
+        },
+        {
+          "state": 5,
+          "prediction": 9,
+          "target": 9
+        },
+        {
+          "state": 7,
+          "prediction": 13,
+          "target": 13
+        },
+        {
+          "state": 9,
+          "prediction": 14,
+          "target": 14
+        },
+        {
+          "state": 10,
+          "prediction": 7,
+          "target": 7
+        },
+        {
+          "state": 11,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 13,
+          "prediction": 7,
+          "target": 7
+        },
+        {
+          "state": 15,
+          "prediction": 16,
+          "target": 16
+        },
+        {
+          "state": 16,
+          "prediction": 13,
+          "target": 13
+        }
+      ]
+    },
+    {
+      "degree": 2,
+      "h": [
+        7,
+        5,
+        3
+      ],
+      "probes": 2,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0,
+      "rows": [
+        {
+          "state": 0,
+          "prediction": 7,
+          "target": 7
+        },
+        {
+          "state": 2,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 3,
+          "prediction": 15,
+          "target": 15
+        },
+        {
+          "state": 5,
+          "prediction": 5,
+          "target": 5
+        },
+        {
+          "state": 6,
+          "prediction": 9,
+          "target": 9
+        },
+        {
+          "state": 7,
+          "prediction": 2,
+          "target": 2
+        },
+        {
+          "state": 8,
+          "prediction": 1,
+          "target": 1
+        },
+        {
+          "state": 9,
+          "prediction": 6,
+          "target": 6
+        },
+        {
+          "state": 12,
+          "prediction": 6,
+          "target": 6
+        },
+        {
+          "state": 13,
+          "prediction": 1,
+          "target": 1
+        },
+        {
+          "state": 15,
+          "prediction": 9,
+          "target": 9
+        }
+      ]
+    },
+    {
+      "degree": 2,
+      "h": [
+        15,
+        9,
+        16
+      ],
+      "probes": 2,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0,
+      "rows": [
+        {
+          "state": 0,
+          "prediction": 15,
+          "target": 15
+        },
+        {
+          "state": 2,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 3,
+          "prediction": 16,
+          "target": 16
+        },
+        {
+          "state": 5,
+          "prediction": 1,
+          "target": 1
+        },
+        {
+          "state": 7,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 8,
+          "prediction": 6,
+          "target": 6
+        },
+        {
+          "state": 9,
+          "prediction": 15,
+          "target": 15
+        },
+        {
+          "state": 10,
+          "prediction": 5,
+          "target": 5
+        },
+        {
+          "state": 13,
+          "prediction": 14,
+          "target": 14
+        },
+        {
+          "state": 15,
+          "prediction": 10,
+          "target": 10
+        },
+        {
+          "state": 16,
+          "prediction": 5,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "degree": null,
+      "h": null,
+      "probes": 2,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11,
+      "rows": [
+        {
+          "state": 0,
+          "prediction": null,
+          "target": 5
+        },
+        {
+          "state": 1,
+          "prediction": null,
+          "target": 13
+        },
+        {
+          "state": 4,
+          "prediction": null,
+          "target": 9
+        },
+        {
+          "state": 5,
+          "prediction": null,
+          "target": 12
+        },
+        {
+          "state": 6,
+          "prediction": null,
+          "target": 7
+        },
+        {
+          "state": 9,
+          "prediction": null,
+          "target": 2
+        },
+        {
+          "state": 10,
+          "prediction": null,
+          "target": 6
+        },
+        {
+          "state": 12,
+          "prediction": null,
+          "target": 8
+        },
+        {
+          "state": 13,
+          "prediction": null,
+          "target": 4
+        },
+        {
+          "state": 14,
+          "prediction": null,
+          "target": 1
+        },
+        {
+          "state": 15,
+          "prediction": null,
+          "target": 15
+        }
+      ]
+    },
+    {
+      "degree": 2,
+      "h": [
+        0,
+        13,
+        11
+      ],
+      "probes": 2,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0,
+      "rows": [
+        {
+          "state": 0,
+          "prediction": 0,
+          "target": 0
+        },
+        {
+          "state": 1,
+          "prediction": 7,
+          "target": 7
+        },
+        {
+          "state": 2,
+          "prediction": 2,
+          "target": 2
+        },
+        {
+          "state": 5,
+          "prediction": 0,
+          "target": 0
+        },
+        {
+          "state": 6,
+          "prediction": 15,
+          "target": 15
+        },
+        {
+          "state": 7,
+          "prediction": 1,
+          "target": 1
+        },
+        {
+          "state": 8,
+          "prediction": 9,
+          "target": 9
+        },
+        {
+          "state": 11,
+          "prediction": 12,
+          "target": 12
+        },
+        {
+          "state": 13,
+          "prediction": 5,
+          "target": 5
+        },
+        {
+          "state": 14,
+          "prediction": 9,
+          "target": 9
+        },
+        {
+          "state": 15,
+          "prediction": 1,
+          "target": 1
+        }
+      ]
+    },
+    {
+      "degree": null,
+      "h": null,
+      "probes": 2,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11,
+      "rows": [
+        {
+          "state": 0,
+          "prediction": null,
+          "target": 9
+        },
+        {
+          "state": 1,
+          "prediction": null,
+          "target": 6
+        },
+        {
+          "state": 2,
+          "prediction": null,
+          "target": 16
+        },
+        {
+          "state": 4,
+          "prediction": null,
+          "target": 14
+        },
+        {
+          "state": 5,
+          "prediction": null,
+          "target": 14
+        },
+        {
+          "state": 7,
+          "prediction": null,
+          "target": 12
+        },
+        {
+          "state": 8,
+          "prediction": null,
+          "target": 5
+        },
+        {
+          "state": 10,
+          "prediction": null,
+          "target": 9
+        },
+        {
+          "state": 12,
+          "prediction": null,
+          "target": 9
+        },
+        {
+          "state": 14,
+          "prediction": null,
+          "target": 2
+        },
+        {
+          "state": 15,
+          "prediction": null,
+          "target": 13
+        }
+      ]
+    }
+  ]
+}

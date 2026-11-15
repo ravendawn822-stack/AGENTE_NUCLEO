@@ -1,0 +1,202 @@
+{
+  "protocol": "V64-integrated-session-v1",
+  "experiment_passed": true,
+  "by_seed": [
+    {
+      "seed": 8300017,
+      "checks": {
+        "start": true,
+        "trajectory": true,
+        "math_state": true,
+        "environment": true,
+        "final": true
+      },
+      "passed": true,
+      "math": {
+        "n": 14,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 2,
+        "single_examined": 342629,
+        "single_checks": 343343,
+        "shared_single_ns": 1602026717,
+        "pair_examined": 25447,
+        "pair_checks": 25745,
+        "pair_wall_ns": 194210582,
+        "extension_used": 9,
+        "sources": {
+          "single": 2,
+          "priority_pair": 10,
+          "mixed_pair": 0,
+          "default": 0
+        }
+      },
+      "environment": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "checkpoint_bytes": 1147723
+    },
+    {
+      "seed": 8330018,
+      "checks": {
+        "start": true,
+        "trajectory": true,
+        "math_state": true,
+        "environment": true,
+        "final": true
+      },
+      "passed": true,
+      "math": {
+        "n": 14,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 2,
+        "single_examined": 342629,
+        "single_checks": 342700,
+        "shared_single_ns": 1663433659,
+        "pair_examined": 25048,
+        "pair_checks": 25182,
+        "pair_wall_ns": 207763774,
+        "extension_used": 9,
+        "sources": {
+          "single": 2,
+          "priority_pair": 10,
+          "mixed_pair": 0,
+          "default": 0
+        }
+      },
+      "environment": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "checkpoint_bytes": 696710
+    },
+    {
+      "seed": 8360019,
+      "checks": {
+        "start": true,
+        "trajectory": true,
+        "math_state": true,
+        "environment": true,
+        "final": true
+      },
+      "passed": true,
+      "math": {
+        "n": 14,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 2,
+        "single_examined": 342629,
+        "single_checks": 342895,
+        "shared_single_ns": 1675486134,
+        "pair_examined": 25035,
+        "pair_checks": 25223,
+        "pair_wall_ns": 206213585,
+        "extension_used": 9,
+        "sources": {
+          "single": 2,
+          "priority_pair": 10,
+          "mixed_pair": 0,
+          "default": 0
+        }
+      },
+      "environment": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "checkpoint_bytes": 1593589
+    },
+    {
+      "seed": 8390020,
+      "checks": {
+        "start": true,
+        "trajectory": true,
+        "math_state": true,
+        "environment": true,
+        "final": true
+      },
+      "passed": true,
+      "math": {
+        "n": 14,
+        "correct": 12,
+        "wrong": 0,
+        "abstained": 2,
+        "single_examined": 342629,
+        "single_checks": 343601,
+        "shared_single_ns": 1775111340,
+        "pair_examined": 25428,
+        "pair_checks": 25678,
+        "pair_wall_ns": 191392353,
+        "extension_used": 9,
+        "sources": {
+          "single": 2,
+          "priority_pair": 10,
+          "mixed_pair": 0,
+          "default": 0
+        }
+      },
+      "environment": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 0,
+        "abstained": 2,
+        "step_mismatches": 0
+      },
+      "checkpoint_bytes": 1467721
+    }
+  ],
+  "aggregate": {
+    "math": {
+      "n": 56,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 8
+    },
+    "environment": {
+      "n": 84,
+      "correct": 80,
+      "wrong": 4,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 48,
+      "success": 46,
+      "wrong": 0,
+      "abstained": 2
+    }
+  }
+}

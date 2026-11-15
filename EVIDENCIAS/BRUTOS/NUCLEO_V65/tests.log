@@ -1,0 +1,8 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_interpolation (__main__.Tests.test_interpolation) ... ok
+test_priority (__main__.Tests.test_priority) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

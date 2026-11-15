@@ -1,0 +1,499 @@
+{
+  "result": {
+    "seed": 8760039,
+    "exceptions": 0,
+    "mode": "exact",
+    "held": {
+      "n": 21,
+      "correct": 21,
+      "wrong": 0,
+      "abstained": 0
+    },
+    "plans": {
+      "n": 12,
+      "success": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "step_mismatches": 0
+    },
+    "queries": 30,
+    "revised": 0,
+    "contradicted": 0
+  },
+  "observations": [
+    [
+      0,
+      10,
+      12
+    ],
+    [
+      0,
+      6,
+      5
+    ],
+    [
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      7,
+      11
+    ],
+    [
+      0,
+      4,
+      10
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      0,
+      14,
+      2
+    ],
+    [
+      0,
+      16,
+      14
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      5,
+      16
+    ],
+    [
+      1,
+      5,
+      0
+    ],
+    [
+      1,
+      0,
+      16
+    ],
+    [
+      1,
+      13,
+      5
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      1,
+      1,
+      6
+    ],
+    [
+      1,
+      6,
+      7
+    ],
+    [
+      1,
+      16,
+      9
+    ],
+    [
+      1,
+      15,
+      2
+    ],
+    [
+      1,
+      8,
+      4
+    ],
+    [
+      1,
+      14,
+      12
+    ],
+    [
+      2,
+      2,
+      5
+    ],
+    [
+      2,
+      9,
+      3
+    ],
+    [
+      2,
+      1,
+      15
+    ],
+    [
+      2,
+      12,
+      7
+    ],
+    [
+      2,
+      13,
+      14
+    ],
+    [
+      2,
+      16,
+      1
+    ],
+    [
+      2,
+      0,
+      8
+    ],
+    [
+      2,
+      8,
+      13
+    ],
+    [
+      2,
+      7,
+      6
+    ],
+    [
+      2,
+      6,
+      16
+    ]
+  ],
+  "rules": {
+    "0": [
+      6,
+      3
+    ],
+    "1": [
+      7,
+      16
+    ],
+    "2": [
+      7,
+      8
+    ]
+  },
+  "changed": [],
+  "models": {
+    "0": [
+      6,
+      3
+    ],
+    "1": [
+      7,
+      16
+    ],
+    "2": [
+      7,
+      8
+    ]
+  },
+  "held": [
+    {
+      "state": 0,
+      "action": 0,
+      "prediction": 3,
+      "evidence": "inferred",
+      "target": 3
+    },
+    {
+      "state": 2,
+      "action": 0,
+      "prediction": 15,
+      "evidence": "inferred",
+      "target": 15
+    },
+    {
+      "state": 2,
+      "action": 1,
+      "prediction": 13,
+      "evidence": "inferred",
+      "target": 13
+    },
+    {
+      "state": 3,
+      "action": 2,
+      "prediction": 12,
+      "evidence": "inferred",
+      "target": 12
+    },
+    {
+      "state": 4,
+      "action": 1,
+      "prediction": 10,
+      "evidence": "inferred",
+      "target": 10
+    },
+    {
+      "state": 4,
+      "action": 2,
+      "prediction": 2,
+      "evidence": "inferred",
+      "target": 2
+    },
+    {
+      "state": 5,
+      "action": 2,
+      "prediction": 9,
+      "evidence": "inferred",
+      "target": 9
+    },
+    {
+      "state": 7,
+      "action": 1,
+      "prediction": 14,
+      "evidence": "inferred",
+      "target": 14
+    },
+    {
+      "state": 9,
+      "action": 0,
+      "prediction": 6,
+      "evidence": "inferred",
+      "target": 6
+    },
+    {
+      "state": 9,
+      "action": 1,
+      "prediction": 11,
+      "evidence": "inferred",
+      "target": 11
+    },
+    {
+      "state": 10,
+      "action": 1,
+      "prediction": 1,
+      "evidence": "inferred",
+      "target": 1
+    },
+    {
+      "state": 10,
+      "action": 2,
+      "prediction": 10,
+      "evidence": "inferred",
+      "target": 10
+    },
+    {
+      "state": 11,
+      "action": 0,
+      "prediction": 1,
+      "evidence": "inferred",
+      "target": 1
+    },
+    {
+      "state": 11,
+      "action": 1,
+      "prediction": 8,
+      "evidence": "inferred",
+      "target": 8
+    },
+    {
+      "state": 11,
+      "action": 2,
+      "prediction": 0,
+      "evidence": "inferred",
+      "target": 0
+    },
+    {
+      "state": 12,
+      "action": 0,
+      "prediction": 7,
+      "evidence": "inferred",
+      "target": 7
+    },
+    {
+      "state": 12,
+      "action": 1,
+      "prediction": 15,
+      "evidence": "inferred",
+      "target": 15
+    },
+    {
+      "state": 13,
+      "action": 0,
+      "prediction": 13,
+      "evidence": "inferred",
+      "target": 13
+    },
+    {
+      "state": 14,
+      "action": 2,
+      "prediction": 4,
+      "evidence": "inferred",
+      "target": 4
+    },
+    {
+      "state": 15,
+      "action": 0,
+      "prediction": 8,
+      "evidence": "inferred",
+      "target": 8
+    },
+    {
+      "state": 15,
+      "action": 2,
+      "prediction": 11,
+      "evidence": "inferred",
+      "target": 11
+    }
+  ],
+  "plans": [
+    {
+      "start": 6,
+      "goal": 9,
+      "route": [
+        0,
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 8,
+      "goal": 16,
+      "route": [
+        0,
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 14,
+      "goal": 16,
+      "route": [
+        0,
+        2,
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 14,
+      "goal": 8,
+      "route": [
+        0,
+        0,
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 0,
+      "goal": 11,
+      "route": [
+        1,
+        1,
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 13,
+      "goal": 14,
+      "route": [
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 4,
+      "goal": 10,
+      "route": [
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 4,
+      "goal": 2,
+      "route": [
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 2,
+      "goal": 13,
+      "route": [
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 11,
+      "goal": 10,
+      "route": [
+        1,
+        1,
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 7,
+      "goal": 11,
+      "route": [
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 6,
+      "goal": 8,
+      "route": [
+        0,
+        1,
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    }
+  ]
+}

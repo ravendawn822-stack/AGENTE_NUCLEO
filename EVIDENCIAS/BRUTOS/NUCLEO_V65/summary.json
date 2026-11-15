@@ -1,0 +1,1623 @@
+{
+  "protocol": "V65-context-transfer-v1",
+  "aggregate": [
+    {
+      "context": "A",
+      "mode": "fixed",
+      "tasks": 96,
+      "solved": 72,
+      "probes": 120,
+      "correct": 792,
+      "wrong": 0,
+      "abstained": 264
+    },
+    {
+      "context": "A",
+      "mode": "reverse",
+      "tasks": 96,
+      "solved": 24,
+      "probes": 168,
+      "correct": 264,
+      "wrong": 0,
+      "abstained": 792
+    },
+    {
+      "context": "A",
+      "mode": "learned",
+      "tasks": 96,
+      "solved": 96,
+      "probes": 120,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "context": "A",
+      "mode": "swap",
+      "tasks": 96,
+      "solved": 24,
+      "probes": 192,
+      "correct": 264,
+      "wrong": 0,
+      "abstained": 792
+    },
+    {
+      "context": "B",
+      "mode": "fixed",
+      "tasks": 96,
+      "solved": 72,
+      "probes": 192,
+      "correct": 792,
+      "wrong": 0,
+      "abstained": 264
+    },
+    {
+      "context": "B",
+      "mode": "reverse",
+      "tasks": 96,
+      "solved": 96,
+      "probes": 168,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "context": "B",
+      "mode": "learned",
+      "tasks": 96,
+      "solved": 96,
+      "probes": 120,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "context": "B",
+      "mode": "swap",
+      "tasks": 96,
+      "solved": 24,
+      "probes": 192,
+      "correct": 264,
+      "wrong": 0,
+      "abstained": 792
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 8400017,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8400017,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8400017,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8400017,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8400017,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8400017,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8400017,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8400017,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8430018,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8430018,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8430018,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8430018,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8430018,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8430018,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8430018,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8430018,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8460019,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8460019,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8460019,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8460019,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8460019,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8460019,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8460019,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8460019,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8490020,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8490020,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8490020,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8490020,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8490020,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8490020,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8490020,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8490020,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8520021,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8520021,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8520021,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8520021,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8520021,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8520021,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8520021,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8520021,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8550022,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8550022,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8550022,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8550022,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8550022,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8550022,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8550022,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8550022,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8580023,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8580023,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8580023,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8580023,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8580023,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8580023,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8580023,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8580023,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8610024,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8610024,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8610024,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8610024,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8610024,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8610024,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8610024,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8610024,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8640025,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8640025,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8640025,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8640025,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8640025,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8640025,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8640025,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8640025,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8670026,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8670026,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8670026,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8670026,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8670026,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8670026,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8670026,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8670026,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8700027,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8700027,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8700027,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8700027,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8700027,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8700027,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8700027,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8700027,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8730028,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 10,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8730028,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 14,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8730028,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8730028,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    },
+    {
+      "seed": 8730028,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "tasks": 8,
+      "solved": 6,
+      "probes": 16,
+      "correct": 66,
+      "wrong": 0,
+      "abstained": 22
+    },
+    {
+      "seed": 8730028,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 14,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8730028,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "tasks": 8,
+      "solved": 8,
+      "probes": 10,
+      "correct": 88,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "seed": 8730028,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "tasks": 8,
+      "solved": 2,
+      "probes": 16,
+      "correct": 22,
+      "wrong": 0,
+      "abstained": 66
+    }
+  ]
+}
