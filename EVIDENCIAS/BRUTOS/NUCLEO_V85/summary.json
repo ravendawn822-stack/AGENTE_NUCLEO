@@ -1,0 +1,31 @@
+{
+  "aggregate": {
+    "potential_dependency_impact": 31,
+    "sessions": 96,
+    "shared_wrong_tasks": 9,
+    "wrong_goals": 24,
+    "wrong_predictions": 39,
+    "wrong_tasks": 16
+  },
+  "by_condition": [
+    {
+      "condition": "compatible",
+      "potential_dependency_impact": 0,
+      "sessions": 48,
+      "shared_wrong_tasks": 0,
+      "wrong_goals": 0,
+      "wrong_predictions": 0,
+      "wrong_tasks": 0
+    },
+    {
+      "condition": "exceptions",
+      "potential_dependency_impact": 31,
+      "sessions": 48,
+      "shared_wrong_tasks": 9,
+      "wrong_goals": 24,
+      "wrong_predictions": 39,
+      "wrong_tasks": 16
+    }
+  ],
+  "protocol": "V85-error-diagnosis-v1"
+}

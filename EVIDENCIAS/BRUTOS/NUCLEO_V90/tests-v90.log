@@ -1,0 +1,11 @@
+test_audit_rejection (__main__.Tests.test_audit_rejection) ... ok
+test_baseline (__main__.Tests.test_baseline) ... ok
+test_budget (__main__.Tests.test_budget) ... ok
+test_integrity (__main__.Tests.test_integrity) ... ok
+test_observations (__main__.Tests.test_observations) ... ok
+test_split (__main__.Tests.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+OK

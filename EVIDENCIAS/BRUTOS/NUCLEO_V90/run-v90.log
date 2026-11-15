@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "protocol": "V90-consolidation-v1",
+  "options": [
+    "baseline",
+    "dfs_audit1",
+    "dfs_audit2",
+    "ratio",
+    "ratio_audit1",
+    "ratio_impact"
+  ],
+  "candidate": "ratio",
+  "validation_approved": false,
+  "test_replicated": false,
+  "confirmed_advantage": false,
+  "validation_recommendation": "baseline",
+  "validation_checks": {
+    "utility_improved": false,
+    "no_more_wrong_goals": true,
+    "no_more_wrong_predictions": true,
+    "no_fewer_correct_goals": true,
+    "no_stratum_utility_regression": true
+  },
+  "test_checks": {
+    "utility_improved": false,
+    "no_more_wrong_goals": true,
+    "no_more_wrong_predictions": true,
+    "no_fewer_correct_goals": true,
+    "no_stratum_utility_regression": true
+  },
+  "test_delta": {
+    "goals": 0,
+    "correct_goals": 0,
+    "wrong_goals": 0,
+    "incomplete_goals": 0,
+    "spent": 0,
+    "solved": 0,
+    "failed": 0,
+    "blocked": -2,
+    "revisions": 0,
+    "correct_predictions": 0,
+    "wrong_predictions": 0,
+    "abstained": 0,
+    "utility": 0,
+    "probes": 0,
+    "audits": 0,
+    "audit_rejections": 0,
+    "unfinished_audits": 0
+  },
+  "origin": "V85-V89 fixed offline suite",
+  "deployment": false,
+  "human_review_required": true
+}

@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "candidate": "ratio",
+    "confirmed_advantage": false,
+    "deployment": false,
+    "human_review_required": true,
+    "options": [
+      "baseline",
+      "dfs_audit1",
+      "dfs_audit2",
+      "ratio",
+      "ratio_audit1",
+      "ratio_impact"
+    ],
+    "origin": "V85-V89 fixed offline suite",
+    "protocol": "V90-consolidation-v1",
+    "schema": 1,
+    "test_checks": {
+      "no_fewer_correct_goals": true,
+      "no_more_wrong_goals": true,
+      "no_more_wrong_predictions": true,
+      "no_stratum_utility_regression": true,
+      "utility_improved": false
+    },
+    "test_delta": {
+      "abstained": 0,
+      "audit_rejections": 0,
+      "audits": 0,
+      "blocked": -2,
+      "correct_goals": 0,
+      "correct_predictions": 0,
+      "failed": 0,
+      "goals": 0,
+      "incomplete_goals": 0,
+      "probes": 0,
+      "revisions": 0,
+      "solved": 0,
+      "spent": 0,
+      "unfinished_audits": 0,
+      "utility": 0,
+      "wrong_goals": 0,
+      "wrong_predictions": 0
+    },
+    "test_replicated": false,
+    "validation_approved": false,
+    "validation_checks": {
+      "no_fewer_correct_goals": true,
+      "no_more_wrong_goals": true,
+      "no_more_wrong_predictions": true,
+      "no_stratum_utility_regression": true,
+      "utility_improved": false
+    },
+    "validation_recommendation": "baseline"
+  },
+  "sha256": "e69d392ba09329411d233e000664c3373399517813c8dfc284aa3542aa1da8dc"
+}

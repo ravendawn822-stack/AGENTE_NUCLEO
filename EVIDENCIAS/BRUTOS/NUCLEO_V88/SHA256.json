@@ -1,0 +1,57 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "e0ecaaab616f670ab5c9696379ed8c34ccf1b5c555e69e5cd5e1add77394af43"
+  },
+  {
+    "path": "STATUS.json",
+    "bytes": 41,
+    "sha256": "fc2679244d150b545d3b0f1c91ecfb7b8ec84651b017981363a2d11445be4cff"
+  },
+  {
+    "path": "dev_baseline.json",
+    "bytes": 1972505,
+    "sha256": "e1aae10dd57c9366656c560a7b3d5498c8aa36ea9f0baab93cb5aaa7d2d124ad"
+  },
+  {
+    "path": "dev_dfs_audit1.json",
+    "bytes": 1942119,
+    "sha256": "1ef8fb434e034081fed7b2df21559bbc2d3f060234006bee033ce2bfcf5737fd"
+  },
+  {
+    "path": "dev_dfs_audit2.json",
+    "bytes": 1904956,
+    "sha256": "6fc596d236c876de1c4fcfd540c299e5187d30684038b2434ef0422d92c8c4b8"
+  },
+  {
+    "path": "dev_ratio.json",
+    "bytes": 1972339,
+    "sha256": "0864164d2909369894b3f7d2b54830b6a1d52fd407315004799ef56be251fa10"
+  },
+  {
+    "path": "dev_ratio_audit1.json",
+    "bytes": 1944809,
+    "sha256": "6a0c1120dd3b51d10ef5564ff80dcecc8cf9957c047da010fae71d45727c95ea"
+  },
+  {
+    "path": "dev_ratio_impact.json",
+    "bytes": 1910575,
+    "sha256": "19778965c2006b6291e32c8af3ebc3c48cca13367ae6d0720b38236bc1d5af45"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 23295,
+    "sha256": "6d347adb1d72d46a0ea0070c5f55fafcdcb96c3495f89750cf69796814676d69"
+  },
+  {
+    "path": "validation_baseline.json",
+    "bytes": 1959210,
+    "sha256": "2afcf47d309e197ec78dab98af2c7b4cde42f425fc895191558a5683e976f0bb"
+  },
+  {
+    "path": "validation_ratio.json",
+    "bytes": 1958912,
+    "sha256": "6d0487b58d7dd6518e85bc8c98265f2682f6011107913e3dc2ace2a8d1ea7f1c"
+  }
+]

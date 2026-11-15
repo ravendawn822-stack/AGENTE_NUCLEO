@@ -1,0 +1,962 @@
+[
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38000019,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 5,
+    "seed": 38000019,
+    "shared_wrong_tasks": 2,
+    "wrong_goals": 4,
+    "wrong_predictions": 5,
+    "wrong_tasks": 2
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38000019,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38000019,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38030020,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38030020,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38030020,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38030020,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38060021,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38060021,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38060021,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38060021,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38090022,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38090022,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38090022,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38090022,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38120023,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38120023,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38120023,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38120023,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38150024,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 3,
+    "seed": 38150024,
+    "shared_wrong_tasks": 1,
+    "wrong_goals": 2,
+    "wrong_predictions": 3,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38150024,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 3,
+    "seed": 38150024,
+    "shared_wrong_tasks": 1,
+    "wrong_goals": 2,
+    "wrong_predictions": 2,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38180025,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 3,
+    "seed": 38180025,
+    "shared_wrong_tasks": 1,
+    "wrong_goals": 3,
+    "wrong_predictions": 6,
+    "wrong_tasks": 2
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38180025,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38180025,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38210026,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38210026,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38210026,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 1,
+    "seed": 38210026,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 1,
+    "wrong_predictions": 2,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38240027,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38240027,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38240027,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38240027,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38270028,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 1,
+    "seed": 38270028,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 1,
+    "wrong_predictions": 3,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38270028,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38270028,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38300029,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38300029,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38300029,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 1,
+    "seed": 38300029,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 1,
+    "wrong_predictions": 2,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38330030,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38330030,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38330030,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 4,
+    "seed": 38330030,
+    "shared_wrong_tasks": 1,
+    "wrong_goals": 3,
+    "wrong_predictions": 3,
+    "wrong_tasks": 2
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38360031,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38360031,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38360031,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38360031,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38390032,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38390032,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38390032,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38390032,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38420033,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38420033,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38420033,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38420033,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38450034,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38450034,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38450034,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38450034,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38480035,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38480035,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38480035,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38480035,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38510036,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 1,
+    "seed": 38510036,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 1,
+    "wrong_predictions": 3,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38510036,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 1,
+    "seed": 38510036,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 1,
+    "wrong_predictions": 3,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38540037,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 6,
+    "seed": 38540037,
+    "shared_wrong_tasks": 2,
+    "wrong_goals": 4,
+    "wrong_predictions": 4,
+    "wrong_tasks": 2
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38540037,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38540037,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38570038,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 2,
+    "seed": 38570038,
+    "shared_wrong_tasks": 1,
+    "wrong_goals": 1,
+    "wrong_predictions": 3,
+    "wrong_tasks": 1
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38570038,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38570038,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38600039,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38600039,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38600039,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38600039,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38630040,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38630040,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38630040,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38630040,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38660041,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38660041,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38660041,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38660041,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38690042,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "A",
+    "potential_dependency_impact": 0,
+    "seed": 38690042,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "compatible",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38690042,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  },
+  {
+    "condition": "exceptions",
+    "context": "B",
+    "potential_dependency_impact": 0,
+    "seed": 38690042,
+    "shared_wrong_tasks": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0,
+    "wrong_tasks": 0
+  }
+]
