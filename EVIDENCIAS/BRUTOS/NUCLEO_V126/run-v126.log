@@ -1,0 +1,151 @@
+{
+  "protocol": "V126-uncertainty-planning-v1",
+  "aggregate": [
+    {
+      "mode": "pool_active",
+      "sessions": 16,
+      "correct_goals": 13,
+      "wrong_goals": 1,
+      "incomplete_goals": 18,
+      "utility": 90,
+      "spent": 20566,
+      "observations": 129,
+      "blocked": 18,
+      "correct": 438,
+      "wrong": 10,
+      "abstained": 224,
+      "solved": 62
+    },
+    {
+      "mode": "pool_consensus",
+      "sessions": 16,
+      "correct_goals": 6,
+      "wrong_goals": 1,
+      "incomplete_goals": 25,
+      "utility": 20,
+      "spent": 17384,
+      "observations": 113,
+      "blocked": 30,
+      "correct": 312,
+      "wrong": 10,
+      "abstained": 350,
+      "solved": 44
+    },
+    {
+      "mode": "split_random2",
+      "sessions": 16,
+      "correct_goals": 15,
+      "wrong_goals": 13,
+      "incomplete_goals": 4,
+      "utility": -370,
+      "spent": 18651,
+      "observations": 184,
+      "blocked": 4,
+      "correct": 584,
+      "wrong": 32,
+      "abstained": 56,
+      "solved": 76
+    },
+    {
+      "mode": "split_known4",
+      "sessions": 16,
+      "correct_goals": 18,
+      "wrong_goals": 8,
+      "incomplete_goals": 6,
+      "utility": -140,
+      "spent": 17928,
+      "observations": 360,
+      "blocked": 6,
+      "correct": 579,
+      "wrong": 16,
+      "abstained": 77,
+      "solved": 79
+    },
+    {
+      "mode": "expand_random",
+      "sessions": 16,
+      "correct_goals": 11,
+      "wrong_goals": 3,
+      "incomplete_goals": 18,
+      "utility": -10,
+      "spent": 34862,
+      "observations": 162,
+      "blocked": 15,
+      "correct": 458,
+      "wrong": 11,
+      "abstained": 203,
+      "solved": 64
+    },
+    {
+      "mode": "expand_active",
+      "sessions": 16,
+      "correct_goals": 14,
+      "wrong_goals": 2,
+      "incomplete_goals": 16,
+      "utility": 60,
+      "spent": 33914,
+      "observations": 162,
+      "blocked": 15,
+      "correct": 474,
+      "wrong": 9,
+      "abstained": 189,
+      "solved": 66
+    },
+    {
+      "mode": "risk_gate",
+      "sessions": 16,
+      "correct_goals": 7,
+      "wrong_goals": 2,
+      "incomplete_goals": 23,
+      "utility": -10,
+      "spent": 26968,
+      "observations": 138,
+      "blocked": 27,
+      "correct": 348,
+      "wrong": 9,
+      "abstained": 315,
+      "solved": 48
+    },
+    {
+      "mode": "adaptive_budget",
+      "sessions": 16,
+      "correct_goals": 14,
+      "wrong_goals": 2,
+      "incomplete_goals": 16,
+      "utility": 60,
+      "spent": 29776,
+      "observations": 162,
+      "blocked": 15,
+      "correct": 474,
+      "wrong": 9,
+      "abstained": 189,
+      "solved": 66
+    }
+  ],
+  "budget": 3600,
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "goals": [
+    4,
+    5
+  ],
+  "utility_definition": "10 correct -40 wrong goals",
+  "deployment": false
+}

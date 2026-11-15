@@ -1,0 +1,10 @@
+test_expansion (__main__.Tests.test_expansion) ... ok
+test_planner (__main__.Tests.test_planner) ... ok
+test_policies (__main__.Tests.test_policies) ... ok
+test_risk (__main__.Tests.test_risk) ... ok
+test_splits (__main__.Tests.test_splits) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.091s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "eliminated_all": 5,
+  "emitted": 79,
+  "expanded": 21,
+  "final_ambiguous": 16,
+  "final_empty": 17,
+  "initial_empty": 17,
+  "protocol": "V122-pool-insufficiency-v1",
+  "recovered_pool": 5,
+  "tasks": 96
+}

@@ -1,0 +1,41 @@
+{
+  "calibration": {
+    "actual": 0.9620253164556962,
+    "brier": 0.03221897238470068,
+    "emitted": 79,
+    "mean_estimate": 0.9261487086901224
+  },
+  "counts": {
+    "few:expanded": [
+      0,
+      0
+    ],
+    "few:initial": [
+      10,
+      2
+    ],
+    "global": [
+      75,
+      5
+    ],
+    "many:expanded": [
+      0,
+      0
+    ],
+    "many:initial": [
+      5,
+      1
+    ],
+    "one:expanded": [
+      2,
+      1
+    ],
+    "one:initial": [
+      58,
+      1
+    ]
+  },
+  "protocol": "V121-empirical-risk-v1",
+  "training_candidates": 42650,
+  "training_tasks": 96
+}

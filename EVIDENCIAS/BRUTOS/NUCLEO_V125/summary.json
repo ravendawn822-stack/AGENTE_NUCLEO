@@ -1,0 +1,36 @@
+{
+  "aggregate": [
+    {
+      "abstained": 189,
+      "blocked": 15,
+      "correct": 474,
+      "correct_goals": 14,
+      "incomplete_goals": 16,
+      "mode": "expand_active",
+      "observations": 162,
+      "sessions": 16,
+      "solved": 66,
+      "spent": 33914,
+      "utility": 60,
+      "wrong": 9,
+      "wrong_goals": 2
+    },
+    {
+      "abstained": 189,
+      "blocked": 15,
+      "correct": 474,
+      "correct_goals": 14,
+      "incomplete_goals": 16,
+      "mode": "adaptive_budget",
+      "observations": 162,
+      "sessions": 16,
+      "solved": 66,
+      "spent": 29776,
+      "utility": 60,
+      "wrong": 9,
+      "wrong_goals": 2
+    }
+  ],
+  "budget": 3600,
+  "protocol": "V125-budget-allocation-v1"
+}

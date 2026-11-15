@@ -1,0 +1,45 @@
+{
+  "aggregate": [
+    {
+      "abstained": 147,
+      "candidates": 25340,
+      "correct": 515,
+      "emitted": 75,
+      "expanded": 0,
+      "gated": 0,
+      "incorrect_programs": 3,
+      "initial_pool": 450,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_active",
+      "observations": 157,
+      "rejected": 0,
+      "remaining_pool": 110,
+      "signature_evaluations": 0,
+      "solved": 72,
+      "tasks": 96,
+      "wrong": 10
+    },
+    {
+      "abstained": 119,
+      "candidates": 44855,
+      "correct": 543,
+      "emitted": 79,
+      "expanded": 21,
+      "gated": 0,
+      "incorrect_programs": 3,
+      "initial_pool": 450,
+      "interpreter_evaluations": 422688,
+      "mode": "expand_active",
+      "observations": 192,
+      "rejected": 0,
+      "remaining_pool": 114,
+      "signature_evaluations": 85,
+      "solved": 76,
+      "tasks": 96,
+      "wrong": 10
+    }
+  ],
+  "expanded_correct": 4,
+  "expanded_with_candidate": 5,
+  "protocol": "V123-selective-expansion-v1"
+}
