@@ -1,0 +1,8 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_conflict (__main__.Tests.test_conflict) ... ok
+test_path (__main__.Tests.test_path) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

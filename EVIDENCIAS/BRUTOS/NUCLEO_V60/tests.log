@@ -1,0 +1,8 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_identification (__main__.Tests.test_identification) ... ok
+test_map (__main__.Tests.test_map) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

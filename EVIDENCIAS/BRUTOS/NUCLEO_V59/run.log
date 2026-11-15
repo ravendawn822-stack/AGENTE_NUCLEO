@@ -1,0 +1,24 @@
+[
+  {
+    "mode": "explore",
+    "observations": 320,
+    "coverage": 294,
+    "resets": 0,
+    "model_errors": 0,
+    "success": 48,
+    "wrong": 0,
+    "abstained": 0,
+    "plan_cost": 122
+  },
+  {
+    "mode": "random",
+    "observations": 320,
+    "coverage": 203,
+    "resets": 0,
+    "model_errors": 0,
+    "success": 42,
+    "wrong": 0,
+    "abstained": 6,
+    "plan_cost": 123
+  }
+]

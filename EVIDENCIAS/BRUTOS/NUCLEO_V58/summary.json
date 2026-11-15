@@ -1,0 +1,348 @@
+{
+  "protocol": "V58-portable-knowledge-v1",
+  "aggregate": [
+    {
+      "mode": "base",
+      "n": 32,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 20,
+      "pair_examined": 280220,
+      "pair_checks": 282517
+    },
+    {
+      "mode": "learned",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "pair_examined": 4625,
+      "pair_checks": 5126
+    },
+    {
+      "mode": "random",
+      "n": 32,
+      "correct": 9,
+      "wrong": 0,
+      "abstained": 23,
+      "pair_examined": 325395,
+      "pair_checks": 326876
+    }
+  ],
+  "memory_bytes": [
+    5103,
+    5103,
+    4647,
+    4872
+  ],
+  "by_seed": [
+    {
+      "seed": 7620017,
+      "test_seed": 8620020,
+      "library_sizes": {
+        "base": 6,
+        "learned": 14,
+        "random": 14
+      },
+      "library_sha": {
+        "base": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+        "learned": "b335be8727193d5e3c20cc430dc567177efc0f03ed8b4bf8c54769c76a1ae273",
+        "random": "d30d0ca6a32394879d1475ef0a560ff1feccfdc53b770cf0bc3baa414bf2e81d"
+      },
+      "results": [
+        {
+          "mode": "base",
+          "n": 8,
+          "correct": 3,
+          "wrong": 0,
+          "abstained": 5,
+          "single_examined": 228384,
+          "single_checks": 230233,
+          "shared_single_ns": 1088540148,
+          "pair_examined": 70055,
+          "pair_checks": 71795,
+          "pair_wall_ns": 536092944,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 3,
+            "default": 0
+          }
+        },
+        {
+          "mode": "learned",
+          "n": 8,
+          "correct": 8,
+          "wrong": 0,
+          "abstained": 0,
+          "single_examined": 228384,
+          "single_checks": 230233,
+          "shared_single_ns": 1088540148,
+          "pair_examined": 1320,
+          "pair_checks": 1491,
+          "pair_wall_ns": 12913107,
+          "extension_used": 8,
+          "sources": {
+            "single": 0,
+            "priority_pair": 8,
+            "mixed_pair": 0,
+            "default": 0
+          }
+        },
+        {
+          "mode": "random",
+          "n": 8,
+          "correct": 2,
+          "wrong": 0,
+          "abstained": 6,
+          "single_examined": 228384,
+          "single_checks": 230233,
+          "shared_single_ns": 1088540148,
+          "pair_examined": 81956,
+          "pair_checks": 83106,
+          "pair_wall_ns": 644432089,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 2,
+            "default": 0
+          }
+        }
+      ],
+      "memory_bytes": 5103
+    },
+    {
+      "seed": 7650023,
+      "test_seed": 8650026,
+      "library_sizes": {
+        "base": 6,
+        "learned": 14,
+        "random": 14
+      },
+      "library_sha": {
+        "base": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+        "learned": "8197965631fe87c6da6a3163a42e2d097f3ed28a626f6926b6671a7049d3f4b6",
+        "random": "2ec4ea0b0418dd3577fcbdaeff90aa884c01cd75ea85ee14352ddbfecf9ba71b"
+      },
+      "results": [
+        {
+          "mode": "base",
+          "n": 8,
+          "correct": 3,
+          "wrong": 0,
+          "abstained": 5,
+          "single_examined": 228384,
+          "single_checks": 228384,
+          "shared_single_ns": 1132713289,
+          "pair_examined": 70055,
+          "pair_checks": 70098,
+          "pair_wall_ns": 593916268,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 3,
+            "default": 0
+          }
+        },
+        {
+          "mode": "learned",
+          "n": 8,
+          "correct": 8,
+          "wrong": 0,
+          "abstained": 0,
+          "single_examined": 228384,
+          "single_checks": 228384,
+          "shared_single_ns": 1132713289,
+          "pair_examined": 1263,
+          "pair_checks": 1369,
+          "pair_wall_ns": 13484547,
+          "extension_used": 8,
+          "sources": {
+            "single": 0,
+            "priority_pair": 8,
+            "mixed_pair": 0,
+            "default": 0
+          }
+        },
+        {
+          "mode": "random",
+          "n": 8,
+          "correct": 2,
+          "wrong": 0,
+          "abstained": 6,
+          "single_examined": 228384,
+          "single_checks": 228384,
+          "shared_single_ns": 1132713289,
+          "pair_examined": 82012,
+          "pair_checks": 82042,
+          "pair_wall_ns": 612001402,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 2,
+            "default": 0
+          }
+        }
+      ],
+      "memory_bytes": 5103
+    },
+    {
+      "seed": 7680031,
+      "test_seed": 8680034,
+      "library_sizes": {
+        "base": 6,
+        "learned": 12,
+        "random": 12
+      },
+      "library_sha": {
+        "base": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+        "learned": "602fefab6f1adf4be8168321f52c6588e804e20a585c186616f5abbf6ea81d05",
+        "random": "f75f80e6c75d92175b37eba569aa5007f6caccab3d93fc24ba2d6e3b235e89f5"
+      },
+      "results": [
+        {
+          "mode": "base",
+          "n": 8,
+          "correct": 3,
+          "wrong": 0,
+          "abstained": 5,
+          "single_examined": 228384,
+          "single_checks": 228384,
+          "shared_single_ns": 1165450079,
+          "pair_examined": 70055,
+          "pair_checks": 70094,
+          "pair_wall_ns": 603904429,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 3,
+            "default": 0
+          }
+        },
+        {
+          "mode": "learned",
+          "n": 8,
+          "correct": 8,
+          "wrong": 0,
+          "abstained": 0,
+          "single_examined": 228384,
+          "single_checks": 228384,
+          "shared_single_ns": 1165450079,
+          "pair_examined": 893,
+          "pair_checks": 997,
+          "pair_wall_ns": 10267981,
+          "extension_used": 8,
+          "sources": {
+            "single": 0,
+            "priority_pair": 8,
+            "mixed_pair": 0,
+            "default": 0
+          }
+        },
+        {
+          "mode": "random",
+          "n": 8,
+          "correct": 3,
+          "wrong": 0,
+          "abstained": 5,
+          "single_examined": 228384,
+          "single_checks": 228384,
+          "shared_single_ns": 1165450079,
+          "pair_examined": 80207,
+          "pair_checks": 80246,
+          "pair_wall_ns": 638684683,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 3,
+            "default": 0
+          }
+        }
+      ],
+      "memory_bytes": 4647
+    },
+    {
+      "seed": 7710041,
+      "test_seed": 8710044,
+      "library_sizes": {
+        "base": 6,
+        "learned": 13,
+        "random": 13
+      },
+      "library_sha": {
+        "base": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+        "learned": "9efb5a82af206f754644c16681ea4c01a0711901f4fc4e6cfb508c2582892c49",
+        "random": "07b82913edf234d317ad97ac001cce272ae5425da64b3aa927b5a449439b0314"
+      },
+      "results": [
+        {
+          "mode": "base",
+          "n": 8,
+          "correct": 3,
+          "wrong": 0,
+          "abstained": 5,
+          "single_examined": 228384,
+          "single_checks": 228555,
+          "shared_single_ns": 1106668435,
+          "pair_examined": 70055,
+          "pair_checks": 70530,
+          "pair_wall_ns": 549109248,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 3,
+            "default": 0
+          }
+        },
+        {
+          "mode": "learned",
+          "n": 8,
+          "correct": 8,
+          "wrong": 0,
+          "abstained": 0,
+          "single_examined": 228384,
+          "single_checks": 228555,
+          "shared_single_ns": 1106668435,
+          "pair_examined": 1149,
+          "pair_checks": 1269,
+          "pair_wall_ns": 11896415,
+          "extension_used": 8,
+          "sources": {
+            "single": 0,
+            "priority_pair": 8,
+            "mixed_pair": 0,
+            "default": 0
+          }
+        },
+        {
+          "mode": "random",
+          "n": 8,
+          "correct": 2,
+          "wrong": 0,
+          "abstained": 6,
+          "single_examined": 228384,
+          "single_checks": 228555,
+          "shared_single_ns": 1106668435,
+          "pair_examined": 81220,
+          "pair_checks": 81482,
+          "pair_wall_ns": 590507595,
+          "extension_used": 0,
+          "sources": {
+            "single": 0,
+            "priority_pair": 0,
+            "mixed_pair": 2,
+            "default": 0
+          }
+        }
+      ],
+      "memory_bytes": 4872
+    }
+  ]
+}

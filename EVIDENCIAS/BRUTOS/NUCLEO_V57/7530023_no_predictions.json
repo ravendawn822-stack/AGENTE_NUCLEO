@@ -1,0 +1,1902 @@
+{
+  "result": {
+    "seed": 7530023,
+    "mode": "no_predictions",
+    "training": {
+      "attempted": 17,
+      "idle": 3,
+      "accepted": 14,
+      "wrong": 0,
+      "abstained": 3,
+      "recovered": 3,
+      "peak_prediction_entries": 0,
+      "peak_prediction_storage_bytes": 0,
+      "peak_negative_storage_bytes": 638555,
+      "pair_examined": 67751,
+      "pair_checks": 67940,
+      "positions_scanned": 70119,
+      "cached_skips": 2368,
+      "pair_wall_ns": 664326865,
+      "validation_checks": 336,
+      "real_motif_evaluations": 119504,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    "final": {
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1697271118,
+      "pair_examined": 25022,
+      "pair_checks": 25153,
+      "pair_wall_ns": 210504217,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    "library_size": 12
+  },
+  "training": [
+    {
+      "seed": 7530023,
+      "step": 0,
+      "name": "mirror_square",
+      "id": 4,
+      "context": "7b4c82af12b48a3bff520637b93b062f1d4e05aa5bf94f2f99cb56270116d2ba",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "after_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_size": 6,
+      "after_size": 6,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 0,
+      "cache_peak_round": 18,
+      "cache_storage_checkpoint_bytes": 2015,
+      "bitmap_payload_checkpoint_bytes": 1536,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 19,
+      "pair_checks": 32,
+      "positions_scanned": 19,
+      "cached_skips": 0,
+      "pair_wall_ns": 350339,
+      "source": "priority_pair",
+      "real_motif_evaluations": 64,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 1,
+      "name": "sorted_concat_neg_concat",
+      "id": 7,
+      "context": "d1fd87d4e95e34bd158d55f3621455b79599475a17d8d525de1ecc822edcd5a5",
+      "status": "deferred",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "after_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_size": 6,
+      "after_size": 6,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 12000,
+      "cache_peak_round": 12000,
+      "cache_storage_checkpoint_bytes": 199150,
+      "bitmap_payload_checkpoint_bytes": 162816,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "positions_scanned": 12000,
+      "cached_skips": 0,
+      "pair_wall_ns": 117852454,
+      "source": null,
+      "real_motif_evaluations": 21270,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 2,
+      "name": "mirror_product_sorted_delta",
+      "id": 6,
+      "context": "2224bd555b1f40ddd5564fc24217be705267349f236d1dd3162590e934454474",
+      "status": "deferred",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "after_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_size": 6,
+      "after_size": 6,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24000,
+      "cache_storage_checkpoint_bytes": 398300,
+      "bitmap_payload_checkpoint_bytes": 325632,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 12000,
+      "pair_checks": 12002,
+      "positions_scanned": 12000,
+      "cached_skips": 0,
+      "pair_wall_ns": 119359908,
+      "source": null,
+      "real_motif_evaluations": 21274,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 3,
+      "name": "sorted_concat_square",
+      "id": 2,
+      "context": "12420d26caab1b8a81d5a371de27c85addefcacfbcd4d254dfa9f4dcdac085bf",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "after_sha": "2becdd30d41892581437a96080609a905dfcd7a286a9ee1d90af8ae912f55f8c",
+      "before_size": 6,
+      "after_size": 7,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "",
+            "sort",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "fbb93884d453ff0788ebfae9075290ee5dfc585fcbd96997233a642839cdb9d2"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 28045,
+      "cache_storage_checkpoint_bytes": 468061,
+      "bitmap_payload_checkpoint_bytes": 381440,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 4046,
+      "pair_checks": 4060,
+      "positions_scanned": 4046,
+      "cached_skips": 0,
+      "pair_wall_ns": 36734883,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 6800,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 4,
+      "name": "sorted_concat_mirror_product",
+      "id": 1,
+      "context": "cdea557b6d240ee6821e6a54a8a49f7c99ea0cdf32a29f064ed7e6ebfd74490e",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "2becdd30d41892581437a96080609a905dfcd7a286a9ee1d90af8ae912f55f8c",
+      "after_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "before_size": 7,
+      "after_size": 8,
+      "added": [
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "a5ce1cbcbcb0a06d8dbbdcd61119af151a76ba1ab67de5731d1f7a09aaf1ff8c"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 33189,
+      "cache_storage_checkpoint_bytes": 532377,
+      "bitmap_payload_checkpoint_bytes": 432640,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 9190,
+      "pair_checks": 9203,
+      "positions_scanned": 9190,
+      "cached_skips": 0,
+      "pair_wall_ns": 93302326,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 16824,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 5,
+      "name": "square_duplicate",
+      "id": 8,
+      "context": "66bffadb630d503783eb23493c7cbf1d46239f658ee747460c8caf67c2feedf4",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "after_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "before_size": 8,
+      "after_size": 8,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24001,
+      "cache_storage_checkpoint_bytes": 399121,
+      "bitmap_payload_checkpoint_bytes": 326144,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 2,
+      "pair_checks": 15,
+      "positions_scanned": 2,
+      "cached_skips": 0,
+      "pair_wall_ns": 108965,
+      "source": "priority_pair",
+      "real_motif_evaluations": 30,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 6,
+      "name": "neg_concat_sorted_delta",
+      "id": 9,
+      "context": "53442bbd48eefcd88a5e291624fb6663a53a3d899c11b2153d630b08dfee0e85",
+      "status": "deferred",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "after_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "before_size": 8,
+      "after_size": 8,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36000,
+      "cache_storage_checkpoint_bytes": 550287,
+      "bitmap_payload_checkpoint_bytes": 448000,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "positions_scanned": 12000,
+      "cached_skips": 0,
+      "pair_wall_ns": 119899171,
+      "source": null,
+      "real_motif_evaluations": 21616,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 7,
+      "name": "fourth_power",
+      "id": 3,
+      "context": "107621fcb7420ee5d2a449cc22ec3e45961d5d235c0ff5300b242015b6c7dbf8",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "after_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "before_size": 8,
+      "after_size": 8,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36000,
+      "cache_storage_checkpoint_bytes": 550351,
+      "bitmap_payload_checkpoint_bytes": 448000,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 1,
+      "pair_checks": 14,
+      "positions_scanned": 1,
+      "cached_skips": 0,
+      "pair_wall_ns": 102823,
+      "source": "priority_pair",
+      "real_motif_evaluations": 28,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 8,
+      "name": "even_concat_pair",
+      "id": 11,
+      "context": "6a638f8311d3fb49b6cb6fd0413817b12b2c71e90df90af57beae96cf12f4a9f",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "after_sha": "cf73ad9e2afa66af135b78740d4923395e733ec56919c2fae1e1651d69bea47f",
+      "before_size": 8,
+      "after_size": 9,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "even",
+            "",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "49a641ee5a789a4f0d72f5fa378f30c2a6e2eedcff58d51bc25b0a2fa4d834c6"
+        }
+      ],
+      "cache_entries": 36000,
+      "cache_peak_round": 42901,
+      "cache_storage_checkpoint_bytes": 638555,
+      "bitmap_payload_checkpoint_bytes": 519680,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 6902,
+      "pair_checks": 6917,
+      "positions_scanned": 6902,
+      "cached_skips": 0,
+      "pair_wall_ns": 65538307,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 12074,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 9,
+      "name": "even_concat_sorted_concat",
+      "id": 5,
+      "context": "8a206541de3afa00db3f850f299803ca686f15bb12606e7fe3e6c9fd7c667dca",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "cf73ad9e2afa66af135b78740d4923395e733ec56919c2fae1e1651d69bea47f",
+      "after_sha": "cf73ad9e2afa66af135b78740d4923395e733ec56919c2fae1e1651d69bea47f",
+      "before_size": 9,
+      "after_size": 9,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36078,
+      "cache_storage_checkpoint_bytes": 556609,
+      "bitmap_payload_checkpoint_bytes": 453120,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 79,
+      "pair_checks": 93,
+      "positions_scanned": 79,
+      "cached_skips": 0,
+      "pair_wall_ns": 1017473,
+      "source": "priority_pair",
+      "real_motif_evaluations": 186,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 10,
+      "name": "even_concat_mirror_product",
+      "id": 10,
+      "context": "5d157133a8ee2b38995b5efef5c1ee72ef1e5396c3e269baf1f29b6bc292aadf",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "cf73ad9e2afa66af135b78740d4923395e733ec56919c2fae1e1651d69bea47f",
+      "after_sha": "cf73ad9e2afa66af135b78740d4923395e733ec56919c2fae1e1651d69bea47f",
+      "before_size": 9,
+      "after_size": 9,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36079,
+      "cache_storage_checkpoint_bytes": 556609,
+      "bitmap_payload_checkpoint_bytes": 453120,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 80,
+      "pair_checks": 94,
+      "positions_scanned": 80,
+      "cached_skips": 0,
+      "pair_wall_ns": 987927,
+      "source": "priority_pair",
+      "real_motif_evaluations": 188,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 11,
+      "name": "mirror_neg_concat",
+      "id": 0,
+      "context": "893d7e5f7bdbdf15d0fca67c8649fb95ffa1e87b6a267650ed6e4927bfa62227",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "cf73ad9e2afa66af135b78740d4923395e733ec56919c2fae1e1651d69bea47f",
+      "after_sha": "5751932b48792e22996dbe7f25b3b3c09afd15d97ca54dfdc3fe6f163b7cfa73",
+      "before_size": 9,
+      "after_size": 10,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "",
+            "neg",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "399555da9961d74e7b33aa66caf9a851e896acf2867646ecaf9d3cfb68d068c2"
+        }
+      ],
+      "cache_entries": 36000,
+      "cache_peak_round": 42027,
+      "cache_storage_checkpoint_bytes": 621839,
+      "bitmap_payload_checkpoint_bytes": 505344,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 6028,
+      "pair_checks": 6041,
+      "positions_scanned": 6028,
+      "cached_skips": 0,
+      "pair_wall_ns": 57953218,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 10102,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 12,
+      "name": "neg_concat_mirror_product",
+      "id": 12,
+      "context": "32502b64a87e930dfe015e145bafcd6ade0b5f15a15928259d27372cc1a55adf",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "5751932b48792e22996dbe7f25b3b3c09afd15d97ca54dfdc3fe6f163b7cfa73",
+      "after_sha": "5751932b48792e22996dbe7f25b3b3c09afd15d97ca54dfdc3fe6f163b7cfa73",
+      "before_size": 10,
+      "after_size": 10,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36097,
+      "cache_storage_checkpoint_bytes": 556609,
+      "bitmap_payload_checkpoint_bytes": 453120,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 98,
+      "pair_checks": 111,
+      "positions_scanned": 98,
+      "cached_skips": 0,
+      "pair_wall_ns": 1200697,
+      "source": "priority_pair",
+      "real_motif_evaluations": 222,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 13,
+      "name": "reverse_delta_mirror_product",
+      "id": 13,
+      "context": "9cd8fabea40a9fd7730faf4e48c91f1c739a8919f61884fc1266249131e9bc02",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "5751932b48792e22996dbe7f25b3b3c09afd15d97ca54dfdc3fe6f163b7cfa73",
+      "after_sha": "2460e715052d87a057cb35f3f749565110f05df44abf05e9bdf97bb347007892",
+      "before_size": 10,
+      "after_size": 11,
+      "added": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "934d41636fb3b88e278920039f70e36d6d9de8e94a5b187fce2397f095092387"
+        }
+      ],
+      "cache_entries": 36000,
+      "cache_peak_round": 39535,
+      "cache_storage_checkpoint_bytes": 590162,
+      "bitmap_payload_checkpoint_bytes": 480256,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 3536,
+      "pair_checks": 3549,
+      "positions_scanned": 3536,
+      "cached_skips": 0,
+      "pair_wall_ns": 31611371,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 5838,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 14,
+      "name": "sorted_concat_neg_concat",
+      "id": 7,
+      "context": "d1fd87d4e95e34bd158d55f3621455b79599475a17d8d525de1ecc822edcd5a5",
+      "status": "accepted",
+      "prior_status": "deferred",
+      "prior_trial_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_sha": "2460e715052d87a057cb35f3f749565110f05df44abf05e9bdf97bb347007892",
+      "after_sha": "2460e715052d87a057cb35f3f749565110f05df44abf05e9bdf97bb347007892",
+      "before_size": 11,
+      "after_size": 11,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 36003,
+      "cache_storage_checkpoint_bytes": 550287,
+      "bitmap_payload_checkpoint_bytes": 448000,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 4,
+      "pair_checks": 17,
+      "positions_scanned": 76,
+      "cached_skips": 72,
+      "pair_wall_ns": 234932,
+      "source": "priority_pair",
+      "real_motif_evaluations": 34,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 15,
+      "name": "mirror_product_sorted_delta",
+      "id": 6,
+      "context": "2224bd555b1f40ddd5564fc24217be705267349f236d1dd3162590e934454474",
+      "status": "accepted",
+      "prior_status": "deferred",
+      "prior_trial_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_sha": "2460e715052d87a057cb35f3f749565110f05df44abf05e9bdf97bb347007892",
+      "after_sha": "77054dbf480752bf7e60bbe5fe30b0110a9a1f6e8b91e778de707c84f904fdbb",
+      "before_size": 11,
+      "after_size": 12,
+      "added": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "65d9a9b999dfe77b9cee37199f63af629ffa4de417b558602e202d764385655f"
+        }
+      ],
+      "cache_entries": 12000,
+      "cache_peak_round": 25757,
+      "cache_storage_checkpoint_bytes": 351137,
+      "bitmap_payload_checkpoint_bytes": 285184,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 1758,
+      "pair_checks": 1771,
+      "positions_scanned": 3942,
+      "cached_skips": 2184,
+      "pair_wall_ns": 17708728,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 2912,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 16,
+      "name": "neg_concat_sorted_delta",
+      "id": 9,
+      "context": "53442bbd48eefcd88a5e291624fb6663a53a3d899c11b2153d630b08dfee0e85",
+      "status": "accepted",
+      "prior_status": "deferred",
+      "prior_trial_sha": "10fc05f930e1e1c80fee01ddbc4ede012a253c5ec225450a6128fb1ec8fe480b",
+      "before_sha": "77054dbf480752bf7e60bbe5fe30b0110a9a1f6e8b91e778de707c84f904fdbb",
+      "after_sha": "77054dbf480752bf7e60bbe5fe30b0110a9a1f6e8b91e778de707c84f904fdbb",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 0,
+      "cache_peak_round": 12007,
+      "cache_storage_checkpoint_bytes": 151987,
+      "bitmap_payload_checkpoint_bytes": 122368,
+      "prediction_entries": 0,
+      "prediction_storage_bytes": 0,
+      "pair_examined": 8,
+      "pair_checks": 21,
+      "positions_scanned": 120,
+      "cached_skips": 112,
+      "pair_wall_ns": 363343,
+      "source": "priority_pair",
+      "real_motif_evaluations": 42,
+      "prediction_hits": 0,
+      "prediction_misses": 0,
+      "cross_task_hits": 0,
+      "prediction_evictions": 0
+    },
+    {
+      "seed": 7530023,
+      "step": 17,
+      "id": null,
+      "status": "idle"
+    },
+    {
+      "seed": 7530023,
+      "step": 18,
+      "id": null,
+      "status": "idle"
+    },
+    {
+      "seed": 7530023,
+      "step": 19,
+      "id": null,
+      "status": "idle"
+    }
+  ],
+  "final": [
+    {
+      "stratum": "new",
+      "name": "mirror_product_neg_concat",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "neg",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 94,
+      "pair_checks": 107,
+      "pair_wall_ns": 1000210,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 142289740
+    },
+    {
+      "stratum": "new",
+      "name": "sorted_delta_duplicate",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 134,
+      "pair_checks": 147,
+      "pair_wall_ns": 1385754,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 139477384
+    },
+    {
+      "stratum": "new",
+      "name": "even_concat_sorted_delta",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "concat",
+            "even",
+            "",
+            ""
+          ],
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 108,
+      "pair_checks": 121,
+      "pair_wall_ns": 1124214,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 141316009
+    },
+    {
+      "stratum": "new",
+      "name": "reverse_delta_neg_concat",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 126,
+      "pair_checks": 139,
+      "pair_wall_ns": 1277441,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 140610614
+    },
+    {
+      "stratum": "new",
+      "name": "mirror_product_even_concat",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "even",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 93,
+      "pair_checks": 106,
+      "pair_wall_ns": 974703,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 143166468
+    },
+    {
+      "stratum": "new",
+      "name": "sorted_delta_mirror_product",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 140,
+      "pair_checks": 153,
+      "pair_wall_ns": 1453402,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 140034571
+    },
+    {
+      "stratum": "new",
+      "name": "reverse_delta_sorted_concat",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "sort",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 127,
+      "pair_checks": 140,
+      "pair_wall_ns": 1311285,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 143104181
+    },
+    {
+      "stratum": "new",
+      "name": "negative_concat_reverse_delta",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "concat",
+            "",
+            "neg",
+            ""
+          ],
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 119,
+      "pair_checks": 132,
+      "pair_wall_ns": 1216957,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 140010256
+    },
+    {
+      "stratum": "anchor",
+      "name": "fourth_power",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "mul",
+            "",
+            "",
+            ""
+          ],
+          [
+            "fork",
+            "mul",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 1,
+      "pair_checks": 14,
+      "pair_wall_ns": 105127,
+      "source": "priority_pair",
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 145397011
+    },
+    {
+      "stratum": "anchor",
+      "name": "sorted_concat_mirror_product",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "concat",
+            "",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 80,
+      "pair_checks": 93,
+      "pair_wall_ns": 918567,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 139780654
+    },
+    {
+      "stratum": "simple",
+      "name": "span",
+      "program": [
+        "single",
+        [
+          "pipe",
+          [
+            "bounds",
+            "difference"
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "source": "single",
+      "extension_used": false,
+      "single_examined": 39,
+      "single_checks": 52,
+      "shared_single_ns": 196490
+    },
+    {
+      "stratum": "simple",
+      "name": "prefix",
+      "program": [
+        "single",
+        [
+          "pipe",
+          [
+            "scan"
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "source": "single",
+      "extension_used": false,
+      "single_examined": 14,
+      "single_checks": 27,
+      "shared_single_ns": 80241
+    },
+    {
+      "stratum": "control",
+      "name": "product_prefix_mod97",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 99766868,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 140660357
+    },
+    {
+      "stratum": "control",
+      "name": "repeat_three",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12001,
+      "pair_wall_ns": 99969689,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 141147142
+    }
+  ],
+  "base_acquisition": [
+    {
+      "seed": 7530023,
+      "policy": "active",
+      "name": "square",
+      "retained": true,
+      "program": [
+        "fork",
+        "mul",
+        "",
+        "",
+        ""
+      ],
+      "remaining_classes": 1,
+      "remaining_programs": 3,
+      "trace": [
+        {
+          "index": 2,
+          "input": [
+            3
+          ],
+          "output": [
+            9
+          ],
+          "cost": 2,
+          "cumulative_cost": 2,
+          "before": 2,
+          "after": 1,
+          "disagreement": 2
+        }
+      ],
+      "queries": 1,
+      "spent": 2,
+      "stop": "consensus",
+      "selection_checks": 64,
+      "filter_checks": 2,
+      "selection_ns": 95280,
+      "emitted": true,
+      "accepted": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "proposal": [
+        "fork",
+        "mul",
+        "",
+        "",
+        ""
+      ],
+      "initial_classes": 2,
+      "initial_matches": 5,
+      "preparation_examined": 1296,
+      "initial_checks": 1402,
+      "prediction_checks": 280,
+      "shared_preparation_ns": 6876606
+    },
+    {
+      "seed": 7530023,
+      "policy": "active",
+      "name": "duplicate",
+      "retained": true,
+      "program": [
+        "fork",
+        "concat",
+        "",
+        "",
+        ""
+      ],
+      "remaining_classes": 1,
+      "remaining_programs": 1,
+      "trace": [],
+      "queries": 0,
+      "spent": 0,
+      "stop": "consensus",
+      "selection_checks": 0,
+      "filter_checks": 0,
+      "selection_ns": 1883,
+      "emitted": true,
+      "accepted": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "proposal": [
+        "fork",
+        "concat",
+        "",
+        "",
+        ""
+      ],
+      "initial_classes": 1,
+      "initial_matches": 1,
+      "preparation_examined": 1296,
+      "initial_checks": 1398,
+      "prediction_checks": 56,
+      "shared_preparation_ns": 5487985
+    },
+    {
+      "seed": 7530023,
+      "policy": "active",
+      "name": "pair_product",
+      "retained": true,
+      "program": [
+        "fork",
+        "mul",
+        "",
+        "inc",
+        ""
+      ],
+      "remaining_classes": 1,
+      "remaining_programs": 2,
+      "trace": [],
+      "queries": 0,
+      "spent": 0,
+      "stop": "consensus",
+      "selection_checks": 0,
+      "filter_checks": 0,
+      "selection_ns": 1723,
+      "emitted": true,
+      "accepted": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "proposal": [
+        "fork",
+        "mul",
+        "",
+        "inc",
+        ""
+      ],
+      "initial_classes": 1,
+      "initial_matches": 2,
+      "preparation_examined": 1296,
+      "initial_checks": 1346,
+      "prediction_checks": 112,
+      "shared_preparation_ns": 5578556
+    },
+    {
+      "seed": 7530023,
+      "policy": "active",
+      "name": "mirror_sum",
+      "retained": true,
+      "program": [
+        "fork",
+        "add",
+        "",
+        "reverse",
+        ""
+      ],
+      "remaining_classes": 1,
+      "remaining_programs": 3,
+      "trace": [
+        {
+          "index": 2,
+          "input": [
+            3
+          ],
+          "output": [
+            6
+          ],
+          "cost": 2,
+          "cumulative_cost": 2,
+          "before": 2,
+          "after": 1,
+          "disagreement": 2
+        }
+      ],
+      "queries": 1,
+      "spent": 2,
+      "stop": "consensus",
+      "selection_checks": 64,
+      "filter_checks": 2,
+      "selection_ns": 83096,
+      "emitted": true,
+      "accepted": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "proposal": [
+        "fork",
+        "add",
+        "",
+        "reverse",
+        ""
+      ],
+      "initial_classes": 2,
+      "initial_matches": 4,
+      "preparation_examined": 1296,
+      "initial_checks": 1429,
+      "prediction_checks": 224,
+      "shared_preparation_ns": 6494407
+    },
+    {
+      "seed": 7530023,
+      "policy": "active",
+      "name": "abs_delta",
+      "retained": true,
+      "program": [
+        "fork",
+        "add",
+        "abs",
+        "neg",
+        ""
+      ],
+      "remaining_classes": 1,
+      "remaining_programs": 3,
+      "trace": [
+        {
+          "index": 2,
+          "input": [
+            3
+          ],
+          "output": [
+            0
+          ],
+          "cost": 2,
+          "cumulative_cost": 2,
+          "before": 3,
+          "after": 1,
+          "disagreement": 6
+        }
+      ],
+      "queries": 1,
+      "spent": 2,
+      "stop": "consensus",
+      "selection_checks": 96,
+      "filter_checks": 3,
+      "selection_ns": 79319,
+      "emitted": true,
+      "accepted": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "proposal": [
+        "fork",
+        "add",
+        "abs",
+        "neg",
+        ""
+      ],
+      "initial_classes": 3,
+      "initial_matches": 6,
+      "preparation_examined": 1296,
+      "initial_checks": 1354,
+      "prediction_checks": 336,
+      "shared_preparation_ns": 6782057
+    },
+    {
+      "seed": 7530023,
+      "policy": "active",
+      "name": "reverse_concat",
+      "retained": true,
+      "program": [
+        "fork",
+        "concat",
+        "",
+        "reverse",
+        ""
+      ],
+      "remaining_classes": 1,
+      "remaining_programs": 1,
+      "trace": [],
+      "queries": 0,
+      "spent": 0,
+      "stop": "consensus",
+      "selection_checks": 0,
+      "filter_checks": 0,
+      "selection_ns": 1643,
+      "emitted": true,
+      "accepted": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "proposal": [
+        "fork",
+        "concat",
+        "",
+        "reverse",
+        ""
+      ],
+      "initial_classes": 1,
+      "initial_matches": 1,
+      "preparation_examined": 1296,
+      "initial_checks": 1396,
+      "prediction_checks": 56,
+      "shared_preparation_ns": 5487886
+    }
+  ],
+  "library": [
+    [
+      "fork",
+      "mul",
+      "",
+      "",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "",
+      ""
+    ],
+    [
+      "fork",
+      "mul",
+      "",
+      "inc",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "abs",
+      "neg",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "sort",
+      ""
+    ],
+    [
+      "fork",
+      "mul",
+      "",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "even",
+      "",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "neg",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "neg",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "neg",
+      "sort",
+      ""
+    ]
+  ]
+}

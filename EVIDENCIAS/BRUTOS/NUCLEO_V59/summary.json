@@ -1,0 +1,125 @@
+{
+  "protocol": "V59-environment-v1",
+  "aggregate": [
+    {
+      "mode": "explore",
+      "observations": 320,
+      "coverage": 294,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 48,
+      "wrong": 0,
+      "abstained": 0,
+      "plan_cost": 122
+    },
+    {
+      "mode": "random",
+      "observations": 320,
+      "coverage": 203,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 42,
+      "wrong": 0,
+      "abstained": 6,
+      "plan_cost": 123
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 7740017,
+      "mode": "explore",
+      "observations": 80,
+      "coverage": 70,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "plan_cost": 37
+    },
+    {
+      "seed": 7740017,
+      "mode": "random",
+      "observations": 80,
+      "coverage": 52,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 10,
+      "wrong": 0,
+      "abstained": 2,
+      "plan_cost": 33
+    },
+    {
+      "seed": 7770023,
+      "mode": "explore",
+      "observations": 80,
+      "coverage": 77,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "plan_cost": 27
+    },
+    {
+      "seed": 7770023,
+      "mode": "random",
+      "observations": 80,
+      "coverage": 51,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 11,
+      "wrong": 0,
+      "abstained": 1,
+      "plan_cost": 30
+    },
+    {
+      "seed": 7800031,
+      "mode": "explore",
+      "observations": 80,
+      "coverage": 74,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "plan_cost": 29
+    },
+    {
+      "seed": 7800031,
+      "mode": "random",
+      "observations": 80,
+      "coverage": 57,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 10,
+      "wrong": 0,
+      "abstained": 2,
+      "plan_cost": 23
+    },
+    {
+      "seed": 7830041,
+      "mode": "explore",
+      "observations": 80,
+      "coverage": 73,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "plan_cost": 29
+    },
+    {
+      "seed": 7830041,
+      "mode": "random",
+      "observations": 80,
+      "coverage": 43,
+      "resets": 0,
+      "model_errors": 0,
+      "success": 11,
+      "wrong": 0,
+      "abstained": 1,
+      "plan_cost": 37
+    }
+  ]
+}

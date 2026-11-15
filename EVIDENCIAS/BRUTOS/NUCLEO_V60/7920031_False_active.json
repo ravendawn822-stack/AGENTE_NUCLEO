@@ -1,0 +1,431 @@
+{
+  "result": {
+    "seed": 7920031,
+    "outside": false,
+    "mode": "active",
+    "held": 24,
+    "correct": 24,
+    "wrong": 0,
+    "abstained": 0,
+    "goals": 12,
+    "goal_success": 12,
+    "goal_wrong": 0,
+    "goal_abstained": 0,
+    "empty_hypothesis_sets": 0,
+    "identified_actions": 3,
+    "identification_queries": [
+      2,
+      2,
+      2
+    ]
+  },
+  "rules": {
+    "0": [
+      1,
+      7
+    ],
+    "1": [
+      1,
+      10
+    ],
+    "2": [
+      2,
+      8
+    ]
+  },
+  "changed": [],
+  "observations": [
+    {
+      "action": 0,
+      "state": 0,
+      "target": 7,
+      "hypotheses": 17
+    },
+    {
+      "action": 0,
+      "state": 1,
+      "target": 8,
+      "hypotheses": 1
+    },
+    {
+      "action": 0,
+      "state": 2,
+      "target": 9,
+      "hypotheses": 1
+    },
+    {
+      "action": 0,
+      "state": 3,
+      "target": 10,
+      "hypotheses": 1
+    },
+    {
+      "action": 0,
+      "state": 4,
+      "target": 11,
+      "hypotheses": 1
+    },
+    {
+      "action": 0,
+      "state": 5,
+      "target": 12,
+      "hypotheses": 1
+    },
+    {
+      "action": 1,
+      "state": 0,
+      "target": 10,
+      "hypotheses": 17
+    },
+    {
+      "action": 1,
+      "state": 1,
+      "target": 11,
+      "hypotheses": 1
+    },
+    {
+      "action": 1,
+      "state": 2,
+      "target": 12,
+      "hypotheses": 1
+    },
+    {
+      "action": 1,
+      "state": 3,
+      "target": 13,
+      "hypotheses": 1
+    },
+    {
+      "action": 1,
+      "state": 4,
+      "target": 14,
+      "hypotheses": 1
+    },
+    {
+      "action": 1,
+      "state": 5,
+      "target": 15,
+      "hypotheses": 1
+    },
+    {
+      "action": 2,
+      "state": 0,
+      "target": 8,
+      "hypotheses": 17
+    },
+    {
+      "action": 2,
+      "state": 1,
+      "target": 10,
+      "hypotheses": 1
+    },
+    {
+      "action": 2,
+      "state": 2,
+      "target": 12,
+      "hypotheses": 1
+    },
+    {
+      "action": 2,
+      "state": 3,
+      "target": 14,
+      "hypotheses": 1
+    },
+    {
+      "action": 2,
+      "state": 4,
+      "target": 16,
+      "hypotheses": 1
+    },
+    {
+      "action": 2,
+      "state": 5,
+      "target": 1,
+      "hypotheses": 1
+    }
+  ],
+  "predictions": [
+    {
+      "state": 6,
+      "action": 0,
+      "prediction": 13,
+      "target": 13
+    },
+    {
+      "state": 8,
+      "action": 0,
+      "prediction": 15,
+      "target": 15
+    },
+    {
+      "state": 10,
+      "action": 0,
+      "prediction": 0,
+      "target": 0
+    },
+    {
+      "state": 11,
+      "action": 0,
+      "prediction": 1,
+      "target": 1
+    },
+    {
+      "state": 12,
+      "action": 0,
+      "prediction": 2,
+      "target": 2
+    },
+    {
+      "state": 13,
+      "action": 0,
+      "prediction": 3,
+      "target": 3
+    },
+    {
+      "state": 14,
+      "action": 0,
+      "prediction": 4,
+      "target": 4
+    },
+    {
+      "state": 16,
+      "action": 0,
+      "prediction": 6,
+      "target": 6
+    },
+    {
+      "state": 6,
+      "action": 1,
+      "prediction": 16,
+      "target": 16
+    },
+    {
+      "state": 7,
+      "action": 1,
+      "prediction": 0,
+      "target": 0
+    },
+    {
+      "state": 9,
+      "action": 1,
+      "prediction": 2,
+      "target": 2
+    },
+    {
+      "state": 10,
+      "action": 1,
+      "prediction": 3,
+      "target": 3
+    },
+    {
+      "state": 12,
+      "action": 1,
+      "prediction": 5,
+      "target": 5
+    },
+    {
+      "state": 14,
+      "action": 1,
+      "prediction": 7,
+      "target": 7
+    },
+    {
+      "state": 15,
+      "action": 1,
+      "prediction": 8,
+      "target": 8
+    },
+    {
+      "state": 16,
+      "action": 1,
+      "prediction": 9,
+      "target": 9
+    },
+    {
+      "state": 6,
+      "action": 2,
+      "prediction": 3,
+      "target": 3
+    },
+    {
+      "state": 9,
+      "action": 2,
+      "prediction": 9,
+      "target": 9
+    },
+    {
+      "state": 10,
+      "action": 2,
+      "prediction": 11,
+      "target": 11
+    },
+    {
+      "state": 11,
+      "action": 2,
+      "prediction": 13,
+      "target": 13
+    },
+    {
+      "state": 12,
+      "action": 2,
+      "prediction": 15,
+      "target": 15
+    },
+    {
+      "state": 13,
+      "action": 2,
+      "prediction": 0,
+      "target": 0
+    },
+    {
+      "state": 15,
+      "action": 2,
+      "prediction": 4,
+      "target": 4
+    },
+    {
+      "state": 16,
+      "action": 2,
+      "prediction": 6,
+      "target": 6
+    }
+  ],
+  "plans": [
+    {
+      "start": 9,
+      "goal": 5,
+      "plan": [
+        1,
+        1,
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 14,
+      "goal": 3,
+      "plan": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 7,
+      "goal": 5,
+      "plan": [
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 5,
+      "goal": 15,
+      "plan": [
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 4,
+      "goal": 2,
+      "plan": [
+        1,
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 7,
+      "goal": 6,
+      "plan": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 11,
+      "goal": 6,
+      "plan": [
+        2,
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 9,
+      "goal": 2,
+      "plan": [
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 3,
+      "goal": 12,
+      "plan": [
+        2,
+        2,
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 4,
+      "goal": 5,
+      "plan": [
+        1,
+        1,
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 0,
+      "goal": 11,
+      "plan": [
+        1,
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    },
+    {
+      "start": 15,
+      "goal": 1,
+      "plan": [
+        0,
+        2
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false
+    }
+  ]
+}

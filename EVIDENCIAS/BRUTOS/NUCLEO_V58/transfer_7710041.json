@@ -1,0 +1,768 @@
+{
+  "seed": 7710041,
+  "test_seed": 8710044,
+  "library_sizes": {
+    "base": 6,
+    "learned": 13,
+    "random": 13
+  },
+  "library_sha": {
+    "base": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+    "learned": "9efb5a82af206f754644c16681ea4c01a0711901f4fc4e6cfb508c2582892c49",
+    "random": "07b82913edf234d317ad97ac001cce272ae5425da64b3aa927b5a449439b0314"
+  },
+  "rows": [
+    {
+      "mode": "base",
+      "name": "mirror_product_neg_concat",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 94167801,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137676046
+    },
+    {
+      "mode": "learned",
+      "name": "mirror_product_neg_concat",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "neg",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 140,
+      "pair_checks": 153,
+      "pair_wall_ns": 1388123,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137676046
+    },
+    {
+      "mode": "random",
+      "name": "mirror_product_neg_concat",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 87536811,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137676046
+    },
+    {
+      "mode": "base",
+      "name": "sorted_delta_duplicate",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 2128,
+      "pair_checks": 2141,
+      "pair_wall_ns": 14878288,
+      "source": "mixed_pair",
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 136132620
+    },
+    {
+      "mode": "learned",
+      "name": "sorted_delta_duplicate",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 145,
+      "pair_checks": 158,
+      "pair_wall_ns": 1435572,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 136132620
+    },
+    {
+      "mode": "random",
+      "name": "sorted_delta_duplicate",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 4645,
+      "pair_checks": 4658,
+      "pair_wall_ns": 30457306,
+      "source": "mixed_pair",
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 136132620
+    },
+    {
+      "mode": "base",
+      "name": "even_concat_sorted_delta",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 93456442,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 138544077
+    },
+    {
+      "mode": "learned",
+      "name": "even_concat_sorted_delta",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "concat",
+            "even",
+            "",
+            ""
+          ],
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 116,
+      "pair_checks": 129,
+      "pair_wall_ns": 1231308,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 138544077
+    },
+    {
+      "mode": "random",
+      "name": "even_concat_sorted_delta",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 87872250,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 138544077
+    },
+    {
+      "mode": "base",
+      "name": "reverse_delta_neg_concat",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 2100,
+      "pair_checks": 2113,
+      "pair_wall_ns": 14801624,
+      "source": "mixed_pair",
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137376963
+    },
+    {
+      "mode": "learned",
+      "name": "reverse_delta_neg_concat",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 162,
+      "pair_checks": 175,
+      "pair_wall_ns": 1606544,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137376963
+    },
+    {
+      "mode": "random",
+      "name": "reverse_delta_neg_concat",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 4575,
+      "pair_checks": 4588,
+      "pair_wall_ns": 29994655,
+      "source": "mixed_pair",
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137376963
+    },
+    {
+      "mode": "base",
+      "name": "mirror_product_even_concat",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 93542474,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 138933332
+    },
+    {
+      "mode": "learned",
+      "name": "mirror_product_even_concat",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "even",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 139,
+      "pair_checks": 152,
+      "pair_wall_ns": 1365120,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 138933332
+    },
+    {
+      "mode": "random",
+      "name": "mirror_product_even_concat",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 87037108,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 138933332
+    },
+    {
+      "mode": "base",
+      "name": "sorted_delta_mirror_product",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12436,
+      "pair_wall_ns": 98928853,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28719,
+      "shared_single_ns": 142949663
+    },
+    {
+      "mode": "learned",
+      "name": "sorted_delta_mirror_product",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 154,
+      "pair_checks": 183,
+      "pair_wall_ns": 1810188,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28719,
+      "shared_single_ns": 142949663
+    },
+    {
+      "mode": "random",
+      "name": "sorted_delta_mirror_product",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12236,
+      "pair_wall_ns": 92309062,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28719,
+      "shared_single_ns": 142949663
+    },
+    {
+      "mode": "base",
+      "name": "reverse_delta_sorted_concat",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 93592067,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137145988
+    },
+    {
+      "mode": "learned",
+      "name": "reverse_delta_sorted_concat",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "",
+            "sort",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 163,
+      "pair_checks": 176,
+      "pair_wall_ns": 1638334,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137145988
+    },
+    {
+      "mode": "random",
+      "name": "reverse_delta_sorted_concat",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 87554581,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137145988
+    },
+    {
+      "mode": "base",
+      "name": "negative_concat_reverse_delta",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "add",
+            "",
+            "reverse",
+            ""
+          ],
+          [
+            "fork",
+            "concat",
+            "neg",
+            "",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 5827,
+      "pair_checks": 5840,
+      "pair_wall_ns": 45741699,
+      "source": "mixed_pair",
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137909746
+    },
+    {
+      "mode": "learned",
+      "name": "negative_concat_reverse_delta",
+      "stratum": "new",
+      "program": [
+        "pair",
+        [
+          [
+            "fork",
+            "concat",
+            "",
+            "neg",
+            ""
+          ],
+          [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ]
+        ]
+      ],
+      "emitted": true,
+      "correct": true,
+      "held_matches": 80,
+      "held_tests": 80,
+      "first_failure": null,
+      "pair_examined": 130,
+      "pair_checks": 143,
+      "pair_wall_ns": 1421226,
+      "source": "priority_pair",
+      "extension_used": true,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137909746
+    },
+    {
+      "mode": "random",
+      "name": "negative_concat_reverse_delta",
+      "stratum": "new",
+      "program": null,
+      "emitted": false,
+      "correct": false,
+      "held_matches": 0,
+      "held_tests": 0,
+      "first_failure": null,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "pair_wall_ns": 87745822,
+      "source": null,
+      "extension_used": false,
+      "single_examined": 28548,
+      "single_checks": 28548,
+      "shared_single_ns": 137909746
+    }
+  ],
+  "results": [
+    {
+      "mode": "base",
+      "n": 8,
+      "correct": 3,
+      "wrong": 0,
+      "abstained": 5,
+      "single_examined": 228384,
+      "single_checks": 228555,
+      "shared_single_ns": 1106668435,
+      "pair_examined": 70055,
+      "pair_checks": 70530,
+      "pair_wall_ns": 549109248,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "mode": "learned",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 228384,
+      "single_checks": 228555,
+      "shared_single_ns": 1106668435,
+      "pair_examined": 1149,
+      "pair_checks": 1269,
+      "pair_wall_ns": 11896415,
+      "extension_used": 8,
+      "sources": {
+        "single": 0,
+        "priority_pair": 8,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "mode": "random",
+      "n": 8,
+      "correct": 2,
+      "wrong": 0,
+      "abstained": 6,
+      "single_examined": 228384,
+      "single_checks": 228555,
+      "shared_single_ns": 1106668435,
+      "pair_examined": 81220,
+      "pair_checks": 81482,
+      "pair_wall_ns": 590507595,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 2,
+        "default": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+test_roundtrip (__main__.Tests.test_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK

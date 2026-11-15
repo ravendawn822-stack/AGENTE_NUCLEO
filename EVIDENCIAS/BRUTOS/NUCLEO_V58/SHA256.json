@@ -1,0 +1,87 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "080f92ef0c5f6ee0274da32b477019f9c8ee316c931ce68253157d2084039b17"
+  },
+  {
+    "path": "STATUS.json",
+    "bytes": 29,
+    "sha256": "a3f849d4fc161dfb1d51788a935fb9f788a808735387d93a3e732752c31e49ee"
+  },
+  {
+    "path": "acquisition_7620017.json",
+    "bytes": 36379,
+    "sha256": "e9edf732242d47e940dbd35c8f4b9001cb7cf9829ff052e068c69bdcb3e8adab"
+  },
+  {
+    "path": "acquisition_7650023.json",
+    "bytes": 37710,
+    "sha256": "6ea1a6f597ef760f94e30a4b1e8ce5196506a620812d0f4708865897032232cd"
+  },
+  {
+    "path": "acquisition_7680031.json",
+    "bytes": 34275,
+    "sha256": "73e9a7a946888ef32f734f3109cc7e6c7320e7fc481efad76f2e2f4af38d40ce"
+  },
+  {
+    "path": "acquisition_7710041.json",
+    "bytes": 38490,
+    "sha256": "c120e321953dbec43d5721f52897f38c6aeca71573f4bd86f8a7edb30e966ea4"
+  },
+  {
+    "path": "knowledge_7620017.json",
+    "bytes": 5103,
+    "sha256": "6b181c8e755131149721d70255ef74d8b1b4e834bc622198cc1077ceaaab4b6c"
+  },
+  {
+    "path": "knowledge_7650023.json",
+    "bytes": 5103,
+    "sha256": "622a658d4b6f5c82d98da83035c88d6e5929e6615adce667edf77e96305b980f"
+  },
+  {
+    "path": "knowledge_7680031.json",
+    "bytes": 4647,
+    "sha256": "46d4abb75e83eef6a2ac5a1c04b4740b6e788b1f91bbbfd311c4808878957999"
+  },
+  {
+    "path": "knowledge_7710041.json",
+    "bytes": 4872,
+    "sha256": "781d4e4bcfff0648c47f553c3f0f589489b911f853d75021dfb3fa4f370cc6f3"
+  },
+  {
+    "path": "run.log",
+    "bytes": 461,
+    "sha256": "1f952ff441a6b1240259a3e8c1d58e88d96f79342f9ff380a658ee66d2ee6e04"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 9052,
+    "sha256": "f4d53045d3a8e40edffbd371f8f288d218e49199a91ea8a84d3a81d8d1470024"
+  },
+  {
+    "path": "tests.log",
+    "bytes": 151,
+    "sha256": "6d7e0a27f31ceb324024de7239a78786243aa8c8dc26f41363cf2af1bbf5af4f"
+  },
+  {
+    "path": "transfer_7620017.json",
+    "bytes": 17284,
+    "sha256": "b6435bdd7cffe4a35340e3680e78fac5802ce643e84145e400acaad4f9a00414"
+  },
+  {
+    "path": "transfer_7650023.json",
+    "bytes": 17285,
+    "sha256": "d59e336f4293d4e8b252b3a4509ec752a99e3072be249cf27ca0d0a4639b27be"
+  },
+  {
+    "path": "transfer_7680031.json",
+    "bytes": 17563,
+    "sha256": "703e285ecdf91d6e7db47146f2bca5b7933d1d9e464bea48b0afe2b6fddb0100"
+  },
+  {
+    "path": "transfer_7710041.json",
+    "bytes": 17284,
+    "sha256": "4c6cc7d884a98c4f931df99040d33e47f4d88e57d16d97c91408f6ae14f0979b"
+  }
+]

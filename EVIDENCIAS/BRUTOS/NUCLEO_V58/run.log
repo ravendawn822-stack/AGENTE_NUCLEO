@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "base",
+    "n": 32,
+    "correct": 12,
+    "wrong": 0,
+    "abstained": 20,
+    "pair_examined": 280220,
+    "pair_checks": 282517
+  },
+  {
+    "mode": "learned",
+    "n": 32,
+    "correct": 32,
+    "wrong": 0,
+    "abstained": 0,
+    "pair_examined": 4625,
+    "pair_checks": 5126
+  },
+  {
+    "mode": "random",
+    "n": 32,
+    "correct": 9,
+    "wrong": 0,
+    "abstained": 23,
+    "pair_examined": 325395,
+    "pair_checks": 326876
+  }
+]
