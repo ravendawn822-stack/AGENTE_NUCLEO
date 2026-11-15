@@ -1,0 +1,728 @@
+{
+  "result": {
+    "seed": 8670040,
+    "exceptions": 3,
+    "mode": "map6",
+    "own": {
+      "n": 33,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 33
+    },
+    "common6": {
+      "n": 23,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 23
+    },
+    "nested": null,
+    "plans": {
+      "n": 12,
+      "success": 3,
+      "wrong": 0,
+      "abstained": 9,
+      "step_mismatches": 0
+    },
+    "queries": 18,
+    "contradicted": 2,
+    "bounds": [
+      null,
+      null,
+      null
+    ]
+  },
+  "rules": {
+    "0": [
+      5,
+      14
+    ],
+    "1": [
+      13,
+      7
+    ],
+    "2": [
+      9,
+      3
+    ]
+  },
+  "changed": [
+    [
+      2,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      11,
+      2
+    ]
+  ],
+  "observations": [
+    {
+      "action": 0,
+      "state": 0,
+      "target": 8,
+      "phase": "fit",
+      "contradicted": false
+    },
+    {
+      "action": 0,
+      "state": 1,
+      "target": 3,
+      "phase": "fit",
+      "contradicted": false
+    },
+    {
+      "action": 0,
+      "state": 7,
+      "target": 15,
+      "phase": "audit",
+      "contradicted": true
+    },
+    {
+      "action": 0,
+      "state": 12,
+      "target": 6,
+      "phase": "audit",
+      "contradicted": true
+    },
+    {
+      "action": 0,
+      "state": 9,
+      "target": 8,
+      "phase": "audit",
+      "contradicted": true
+    },
+    {
+      "action": 0,
+      "state": 11,
+      "target": 1,
+      "phase": "audit",
+      "contradicted": true
+    },
+    {
+      "action": 1,
+      "state": 0,
+      "target": 7,
+      "phase": "fit",
+      "contradicted": false
+    },
+    {
+      "action": 1,
+      "state": 1,
+      "target": 3,
+      "phase": "fit",
+      "contradicted": false
+    },
+    {
+      "action": 1,
+      "state": 10,
+      "target": 1,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 1,
+      "state": 11,
+      "target": 14,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 1,
+      "state": 16,
+      "target": 11,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 1,
+      "state": 5,
+      "target": 4,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 2,
+      "state": 0,
+      "target": 3,
+      "phase": "fit",
+      "contradicted": false
+    },
+    {
+      "action": 2,
+      "state": 1,
+      "target": 12,
+      "phase": "fit",
+      "contradicted": false
+    },
+    {
+      "action": 2,
+      "state": 2,
+      "target": 4,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 2,
+      "state": 8,
+      "target": 7,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 2,
+      "state": 13,
+      "target": 1,
+      "phase": "audit",
+      "contradicted": false
+    },
+    {
+      "action": 2,
+      "state": 12,
+      "target": 14,
+      "phase": "audit",
+      "contradicted": true
+    }
+  ],
+  "own": [
+    {
+      "state": 2,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 10
+    },
+    {
+      "state": 2,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 16
+    },
+    {
+      "state": 3,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 12
+    },
+    {
+      "state": 3,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 12
+    },
+    {
+      "state": 3,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 4,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 0
+    },
+    {
+      "state": 4,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 8
+    },
+    {
+      "state": 4,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 5
+    },
+    {
+      "state": 5,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 5
+    },
+    {
+      "state": 5,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 14
+    },
+    {
+      "state": 6,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 10
+    },
+    {
+      "state": 6,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 0
+    },
+    {
+      "state": 6,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 15
+    },
+    {
+      "state": 7,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 7,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 15
+    },
+    {
+      "state": 8,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 3
+    },
+    {
+      "state": 8,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 9,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 3
+    },
+    {
+      "state": 9,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 16
+    },
+    {
+      "state": 10,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 10,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 8
+    },
+    {
+      "state": 11,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 3
+    },
+    {
+      "state": 12,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 5
+    },
+    {
+      "state": 13,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 11
+    },
+    {
+      "state": 13,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 6
+    },
+    {
+      "state": 14,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 16
+    },
+    {
+      "state": 14,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 2
+    },
+    {
+      "state": 14,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 10
+    },
+    {
+      "state": 15,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 4
+    },
+    {
+      "state": 15,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 15
+    },
+    {
+      "state": 15,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 2
+    },
+    {
+      "state": 16,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 9
+    },
+    {
+      "state": 16,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 11
+    }
+  ],
+  "common6": [
+    {
+      "state": 6,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 10
+    },
+    {
+      "state": 6,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 0
+    },
+    {
+      "state": 6,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 15
+    },
+    {
+      "state": 7,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 7,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 15
+    },
+    {
+      "state": 8,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 3
+    },
+    {
+      "state": 8,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 9,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 3
+    },
+    {
+      "state": 9,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 16
+    },
+    {
+      "state": 10,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 13
+    },
+    {
+      "state": 10,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 8
+    },
+    {
+      "state": 11,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 3
+    },
+    {
+      "state": 12,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 5
+    },
+    {
+      "state": 13,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 11
+    },
+    {
+      "state": 13,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 6
+    },
+    {
+      "state": 14,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 16
+    },
+    {
+      "state": 14,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 2
+    },
+    {
+      "state": 14,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 10
+    },
+    {
+      "state": 15,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 4
+    },
+    {
+      "state": 15,
+      "action": 1,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 15
+    },
+    {
+      "state": 15,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 2
+    },
+    {
+      "state": 16,
+      "action": 0,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 9
+    },
+    {
+      "state": 16,
+      "action": 2,
+      "prediction": null,
+      "evidence": "unknown",
+      "target": 11
+    }
+  ],
+  "nested": [],
+  "plans": [
+    {
+      "start": 11,
+      "goal": 14,
+      "route": [
+        1
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 11,
+      "goal": 1,
+      "route": [
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 1,
+      "goal": 0,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 1,
+      "goal": 6,
+      "route": [
+        2,
+        0
+      ],
+      "success": true,
+      "wrong": false,
+      "abstained": false,
+      "step_mismatches": 0
+    },
+    {
+      "start": 4,
+      "goal": 0,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 7,
+      "goal": 8,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 12,
+      "goal": 10,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 9,
+      "goal": 4,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 13,
+      "goal": 16,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 8,
+      "goal": 12,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 11,
+      "goal": 2,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    },
+    {
+      "start": 4,
+      "goal": 9,
+      "route": null,
+      "success": false,
+      "wrong": false,
+      "abstained": true,
+      "step_mismatches": 0
+    }
+  ]
+}

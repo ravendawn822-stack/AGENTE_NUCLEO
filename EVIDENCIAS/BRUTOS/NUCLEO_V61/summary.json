@@ -1,0 +1,9938 @@
+{
+  "protocol": "V61-epistemic-audit-v1",
+  "seeds": [
+    7980017,
+    8010018,
+    8040019,
+    8070020,
+    8100021,
+    8130022,
+    8160023,
+    8190024,
+    8220025,
+    8250026,
+    8280027,
+    8310028,
+    8340029,
+    8370030,
+    8400031,
+    8430032,
+    8460033,
+    8490034,
+    8520035,
+    8550036,
+    8580037,
+    8610038,
+    8640039,
+    8670040
+  ],
+  "bound_audit6": 7,
+  "bound_audit10": 3,
+  "aggregate": [
+    {
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "queries": 432,
+      "contradicted": 0,
+      "own": {
+        "n": 792,
+        "correct": 792,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 581,
+        "correct": 581,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 288,
+        "success": 288,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      }
+    },
+    {
+      "exceptions": 0,
+      "mode": "audit6",
+      "queries": 432,
+      "contradicted": 0,
+      "own": {
+        "n": 792,
+        "correct": 792,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 581,
+        "correct": 581,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 504,
+        "correct": 504,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 288,
+        "success": 288,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      }
+    },
+    {
+      "exceptions": 0,
+      "mode": "audit10",
+      "queries": 720,
+      "contradicted": 0,
+      "own": {
+        "n": 504,
+        "correct": 504,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 504,
+        "correct": 504,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 288,
+        "success": 288,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      }
+    },
+    {
+      "exceptions": 0,
+      "mode": "map6",
+      "queries": 432,
+      "contradicted": 0,
+      "own": {
+        "n": 792,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 792
+      },
+      "common6": {
+        "n": 581,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 581
+      },
+      "nested": null,
+      "plans": {
+        "n": 288,
+        "success": 36,
+        "wrong": 0,
+        "abstained": 252,
+        "step_mismatches": 0
+      }
+    },
+    {
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "queries": 432,
+      "contradicted": 25,
+      "own": {
+        "n": 792,
+        "correct": 470,
+        "wrong": 47,
+        "abstained": 275
+      },
+      "common6": {
+        "n": 581,
+        "correct": 346,
+        "wrong": 38,
+        "abstained": 197
+      },
+      "nested": null,
+      "plans": {
+        "n": 288,
+        "success": 226,
+        "wrong": 35,
+        "abstained": 27,
+        "step_mismatches": 51
+      }
+    },
+    {
+      "exceptions": 1,
+      "mode": "audit6",
+      "queries": 432,
+      "contradicted": 24,
+      "own": {
+        "n": 792,
+        "correct": 480,
+        "wrong": 48,
+        "abstained": 264
+      },
+      "common6": {
+        "n": 581,
+        "correct": 356,
+        "wrong": 38,
+        "abstained": 187
+      },
+      "nested": {
+        "n": 504,
+        "correct": 305,
+        "wrong": 31,
+        "abstained": 168
+      },
+      "plans": {
+        "n": 288,
+        "success": 207,
+        "wrong": 43,
+        "abstained": 38,
+        "step_mismatches": 65
+      }
+    },
+    {
+      "exceptions": 1,
+      "mode": "audit10",
+      "queries": 720,
+      "contradicted": 41,
+      "own": {
+        "n": 504,
+        "correct": 186,
+        "wrong": 31,
+        "abstained": 287
+      },
+      "common6": null,
+      "nested": {
+        "n": 504,
+        "correct": 186,
+        "wrong": 31,
+        "abstained": 287
+      },
+      "plans": {
+        "n": 288,
+        "success": 217,
+        "wrong": 25,
+        "abstained": 46,
+        "step_mismatches": 31
+      }
+    },
+    {
+      "exceptions": 1,
+      "mode": "map6",
+      "queries": 432,
+      "contradicted": 24,
+      "own": {
+        "n": 792,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 792
+      },
+      "common6": {
+        "n": 581,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 581
+      },
+      "nested": null,
+      "plans": {
+        "n": 288,
+        "success": 36,
+        "wrong": 0,
+        "abstained": 252,
+        "step_mismatches": 0
+      }
+    },
+    {
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "queries": 432,
+      "contradicted": 46,
+      "own": {
+        "n": 792,
+        "correct": 208,
+        "wrong": 78,
+        "abstained": 506
+      },
+      "common6": {
+        "n": 581,
+        "correct": 150,
+        "wrong": 62,
+        "abstained": 369
+      },
+      "nested": null,
+      "plans": {
+        "n": 288,
+        "success": 113,
+        "wrong": 93,
+        "abstained": 82,
+        "step_mismatches": 188
+      }
+    },
+    {
+      "exceptions": 3,
+      "mode": "audit6",
+      "queries": 432,
+      "contradicted": 55,
+      "own": {
+        "n": 792,
+        "correct": 136,
+        "wrong": 51,
+        "abstained": 605
+      },
+      "common6": {
+        "n": 581,
+        "correct": 95,
+        "wrong": 46,
+        "abstained": 440
+      },
+      "nested": {
+        "n": 504,
+        "correct": 89,
+        "wrong": 30,
+        "abstained": 385
+      },
+      "plans": {
+        "n": 288,
+        "success": 101,
+        "wrong": 53,
+        "abstained": 134,
+        "step_mismatches": 89
+      }
+    },
+    {
+      "exceptions": 3,
+      "mode": "audit10",
+      "queries": 720,
+      "contradicted": 69,
+      "own": {
+        "n": 504,
+        "correct": 12,
+        "wrong": 9,
+        "abstained": 483
+      },
+      "common6": null,
+      "nested": {
+        "n": 504,
+        "correct": 12,
+        "wrong": 9,
+        "abstained": 483
+      },
+      "plans": {
+        "n": 288,
+        "success": 167,
+        "wrong": 15,
+        "abstained": 106,
+        "step_mismatches": 25
+      }
+    },
+    {
+      "exceptions": 3,
+      "mode": "map6",
+      "queries": 432,
+      "contradicted": 55,
+      "own": {
+        "n": 792,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 792
+      },
+      "common6": {
+        "n": 581,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 581
+      },
+      "nested": null,
+      "plans": {
+        "n": 288,
+        "success": 49,
+        "wrong": 0,
+        "abstained": 239,
+        "step_mismatches": 0
+      }
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 7980017,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 16,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 23,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 25,
+        "correct": 6,
+        "wrong": 3,
+        "abstained": 16
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 4,
+        "abstained": 1,
+        "step_mismatches": 11
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 11,
+        "wrong": 5,
+        "abstained": 9
+      },
+      "nested": {
+        "n": 21,
+        "correct": 9,
+        "wrong": 5,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 4,
+        "abstained": 0,
+        "step_mismatches": 5
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 7980017,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 15,
+        "wrong": 2,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 15,
+        "wrong": 2,
+        "abstained": 8
+      },
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        7,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 25,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 17
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 5,
+        "wrong": 6,
+        "abstained": 1,
+        "step_mismatches": 10
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8010018,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 21,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 15
+      },
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 8,
+        "abstained": 0,
+        "step_mismatches": 15
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 7
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 15
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 8,
+        "abstained": 0,
+        "step_mismatches": 17
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 0,
+        "abstained": 5,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8040019,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 15
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 1,
+        "abstained": 2,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 0,
+        "abstained": 1,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 15
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 6,
+        "abstained": 2,
+        "step_mismatches": 16
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 0,
+        "abstained": 4,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8070020,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 22,
+        "correct": 13,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 7
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 5
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 15
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 6,
+        "abstained": 2,
+        "step_mismatches": 17
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 14
+      },
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 7,
+        "abstained": 2,
+        "step_mismatches": 13
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 5,
+        "wrong": 0,
+        "abstained": 7,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8100021,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 24,
+        "correct": 24,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 24,
+        "correct": 24,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 24,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 16
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 7
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 24,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 16
+      },
+      "nested": {
+        "n": 21,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 4,
+        "abstained": 0,
+        "step_mismatches": 8
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 0,
+        "abstained": 4,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 24,
+        "correct": 5,
+        "wrong": 3,
+        "abstained": 16
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 4,
+        "abstained": 0,
+        "step_mismatches": 11
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 24,
+        "correct": 5,
+        "wrong": 3,
+        "abstained": 16
+      },
+      "nested": {
+        "n": 21,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 13
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 0,
+        "abstained": 3,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8130022,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 14,
+        "wrong": 2,
+        "abstained": 9
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 8
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 14,
+        "wrong": 2,
+        "abstained": 9
+      },
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 6
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        7,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 6
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 11,
+        "wrong": 5,
+        "abstained": 9
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 6,
+        "abstained": 0,
+        "step_mismatches": 14
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 25,
+        "correct": 5,
+        "wrong": 3,
+        "abstained": 17
+      },
+      "nested": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 1,
+        "abstained": 8,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        7,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 6,
+        "abstained": 0,
+        "step_mismatches": 14
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        3,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8160023,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 15
+      },
+      "nested": {
+        "n": 21,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 0,
+        "abstained": 2,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8190024,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 21,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 7,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "nested": {
+        "n": 21,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 4
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 0,
+        "abstained": 5,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 5,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 14
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 5,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "nested": {
+        "n": 21,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 6
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 0,
+        "abstained": 3,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8220025,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 23,
+        "correct": 14,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 23,
+        "correct": 14,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        7,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 0,
+        "abstained": 1,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8250026,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 23,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 16
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 10,
+        "abstained": 0,
+        "step_mismatches": 20
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8280027,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 27,
+        "correct": 27,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 27,
+        "correct": 27,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 27,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 27
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 27,
+        "correct": 8,
+        "wrong": 1,
+        "abstained": 18
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 1,
+        "abstained": 1,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 27,
+        "correct": 17,
+        "wrong": 1,
+        "abstained": 9
+      },
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 27,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 27
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 27,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 27
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 27,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 27
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 0,
+        "abstained": 5,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8310028,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 27,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 27
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 26,
+        "correct": 9,
+        "wrong": 1,
+        "abstained": 16
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 25,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 20,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 0,
+        "abstained": 2,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        3,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 0,
+        "abstained": 4,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8340029,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 23,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 15,
+        "wrong": 2,
+        "abstained": 8
+      },
+      "nested": {
+        "n": 21,
+        "correct": 13,
+        "wrong": 1,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 4
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 11,
+        "wrong": 6,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 6,
+        "abstained": 0,
+        "step_mismatches": 7
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 11,
+        "wrong": 6,
+        "abstained": 8
+      },
+      "nested": {
+        "n": 21,
+        "correct": 10,
+        "wrong": 4,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 6,
+        "abstained": 0,
+        "step_mismatches": 7
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 5,
+        "wrong": 7,
+        "abstained": 0,
+        "step_mismatches": 9
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8370030,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 24,
+        "correct": 24,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 24,
+        "correct": 24,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 24,
+        "correct": 13,
+        "wrong": 2,
+        "abstained": 9
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 24,
+        "correct": 13,
+        "wrong": 2,
+        "abstained": 9
+      },
+      "nested": {
+        "n": 21,
+        "correct": 13,
+        "wrong": 1,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        7,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 5,
+        "wrong": 0,
+        "abstained": 7,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 24,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 17
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 10,
+        "abstained": 0,
+        "step_mismatches": 16
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8400031,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 24
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 26,
+        "correct": 16,
+        "wrong": 2,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 4,
+        "abstained": 0,
+        "step_mismatches": 4
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 24,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 20,
+        "wrong": 1,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 26,
+        "correct": 13,
+        "wrong": 5,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 6,
+        "abstained": 0,
+        "step_mismatches": 11
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 26,
+        "correct": 6,
+        "wrong": 3,
+        "abstained": 17
+      },
+      "nested": {
+        "n": 21,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 5
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8430032,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 23,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 23,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 26,
+        "correct": 13,
+        "wrong": 4,
+        "abstained": 9
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 6
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 0,
+        "abstained": 3,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8460033,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 23,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 23,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 26,
+        "correct": 11,
+        "wrong": 6,
+        "abstained": 9
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 26,
+        "correct": 11,
+        "wrong": 6,
+        "abstained": 9
+      },
+      "nested": {
+        "n": 21,
+        "correct": 11,
+        "wrong": 3,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        7,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 0,
+        "abstained": 2,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8490034,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 15,
+        "wrong": 2,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 23,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 18,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 18,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 18,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 0,
+        "wrong": 0,
+        "abstained": 12,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 12,
+        "wrong": 5,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 25,
+        "correct": 6,
+        "wrong": 3,
+        "abstained": 16
+      },
+      "nested": {
+        "n": 21,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 6,
+        "abstained": 2,
+        "step_mismatches": 11
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 5,
+        "wrong": 0,
+        "abstained": 7,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8520035,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 22,
+        "correct": 22,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 15
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 2,
+        "abstained": 2,
+        "step_mismatches": 6
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 15
+      },
+      "nested": {
+        "n": 21,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 4,
+        "abstained": 2,
+        "step_mismatches": 8
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 0,
+        "abstained": 5,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 22,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 15
+      },
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 8,
+        "abstained": 2,
+        "step_mismatches": 12
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        7
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 0,
+        "abstained": 6,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8550036,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 22,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 22
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 22,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 22,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 6
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 25,
+        "correct": 6,
+        "wrong": 2,
+        "abstained": 17
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 0,
+        "abstained": 2,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8580037,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 25,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 15,
+        "wrong": 2,
+        "abstained": 8
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 25,
+        "correct": 23,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 10,
+        "wrong": 2,
+        "abstained": 0,
+        "step_mismatches": 2
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 25,
+        "correct": 6,
+        "wrong": 3,
+        "abstained": 16
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 5,
+        "abstained": 0,
+        "step_mismatches": 9
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 25,
+        "correct": 13,
+        "wrong": 4,
+        "abstained": 8
+      },
+      "nested": {
+        "n": 21,
+        "correct": 11,
+        "wrong": 3,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 5,
+        "wrong": 7,
+        "abstained": 0,
+        "step_mismatches": 10
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8610038,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 25,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 25
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 26,
+        "correct": 26,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 26,
+        "correct": 8,
+        "wrong": 1,
+        "abstained": 17
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 10,
+        "wrong": 1,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 26,
+        "correct": 8,
+        "wrong": 1,
+        "abstained": 17
+      },
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 6,
+        "wrong": 1,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        3,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 1,
+        "wrong": 0,
+        "abstained": 11,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 26,
+        "correct": 6,
+        "wrong": 3,
+        "abstained": 17
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 2,
+        "wrong": 0,
+        "abstained": 10,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 26,
+        "correct": 6,
+        "wrong": 3,
+        "abstained": 17
+      },
+      "nested": {
+        "n": 21,
+        "correct": 5,
+        "wrong": 2,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 7,
+        "wrong": 0,
+        "abstained": 5,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8640039,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 26,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 26
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 0,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 0,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 33,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 23,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 0,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 21,
+        "wrong": 0,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 0,
+      "bounds": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 0,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 1,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 20,
+        "wrong": 2,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 23,
+        "correct": 14,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 1,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 30,
+        "wrong": 3,
+        "abstained": 0
+      },
+      "common6": {
+        "n": 23,
+        "correct": 21,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "nested": {
+        "n": 21,
+        "correct": 19,
+        "wrong": 2,
+        "abstained": 0
+      },
+      "plans": {
+        "n": 12,
+        "success": 11,
+        "wrong": 1,
+        "abstained": 0,
+        "step_mismatches": 1
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 1,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 12,
+        "wrong": 2,
+        "abstained": 7
+      },
+      "plans": {
+        "n": 12,
+        "success": 12,
+        "wrong": 0,
+        "abstained": 0,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 1,
+      "bounds": [
+        3,
+        null,
+        3
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 1,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 4,
+        "wrong": 0,
+        "abstained": 8,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 0,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 3,
+      "mode": "deterministic6",
+      "own": {
+        "n": 33,
+        "correct": 16,
+        "wrong": 6,
+        "abstained": 11
+      },
+      "common6": {
+        "n": 23,
+        "correct": 11,
+        "wrong": 5,
+        "abstained": 7
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 8,
+        "wrong": 4,
+        "abstained": 0,
+        "step_mismatches": 4
+      },
+      "queries": 18,
+      "contradicted": 1,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 3,
+      "mode": "audit6",
+      "own": {
+        "n": 33,
+        "correct": 8,
+        "wrong": 3,
+        "abstained": 22
+      },
+      "common6": {
+        "n": 23,
+        "correct": 5,
+        "wrong": 3,
+        "abstained": 15
+      },
+      "nested": {
+        "n": 21,
+        "correct": 7,
+        "wrong": 0,
+        "abstained": 14
+      },
+      "plans": {
+        "n": 12,
+        "success": 9,
+        "wrong": 3,
+        "abstained": 0,
+        "step_mismatches": 3
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        7,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 3,
+      "mode": "audit10",
+      "own": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "common6": null,
+      "nested": {
+        "n": 21,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 21
+      },
+      "plans": {
+        "n": 12,
+        "success": 6,
+        "wrong": 0,
+        "abstained": 6,
+        "step_mismatches": 0
+      },
+      "queries": 30,
+      "contradicted": 3,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 8670040,
+      "exceptions": 3,
+      "mode": "map6",
+      "own": {
+        "n": 33,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 33
+      },
+      "common6": {
+        "n": 23,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 23
+      },
+      "nested": null,
+      "plans": {
+        "n": 12,
+        "success": 3,
+        "wrong": 0,
+        "abstained": 9,
+        "step_mismatches": 0
+      },
+      "queries": 18,
+      "contradicted": 2,
+      "bounds": [
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
