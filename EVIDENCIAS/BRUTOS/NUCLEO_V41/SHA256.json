@@ -1,0 +1,102 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "18eb20e6a09dafb75429f03deb31347d45075135867f0d0da3720f3d575b378e"
+  },
+  {
+    "path": "acquisition.jsonl",
+    "bytes": 36488,
+    "sha256": "3b8b89ce2f9a3f004b680e63b5ad6be3c1c6f37dfa093ec0afc19e2c19a46937"
+  },
+  {
+    "path": "final.jsonl",
+    "bytes": 75277,
+    "sha256": "a81a95ed0694ae0af0f437ad0453963ec2b6d7cbff2fc750800a6b23bc9c3fa2"
+  },
+  {
+    "path": "inputs_5580017.json",
+    "bytes": 1787,
+    "sha256": "a5a2891855b1a1ec1d0e9f4dabd4807a62ca313136d5295ab8bd3cd858bd9675"
+  },
+  {
+    "path": "inputs_5610023.json",
+    "bytes": 1741,
+    "sha256": "718ce79b6c7922137cbdebb1d582c53afcfad888df424b74d36518ea596bbfc9"
+  },
+  {
+    "path": "inputs_5640031.json",
+    "bytes": 1771,
+    "sha256": "ac34016c45b82c94aa844488d639283d818bc61af282a3be4ef5e3e468439394"
+  },
+  {
+    "path": "inputs_5670041.json",
+    "bytes": 1727,
+    "sha256": "cbf6886a18601f70a142db14bdeede56b79b630e79a7a59f0a5c78a313b7d374"
+  },
+  {
+    "path": "skills_5580017_expanded.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5580017_memory.json",
+    "bytes": 260,
+    "sha256": "1144786a4325f9c6b8fc51e63aa3a71563f8cb17a2a301668fa75e6f3ecf6f23"
+  },
+  {
+    "path": "skills_5580017_seq.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5610023_expanded.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5610023_memory.json",
+    "bytes": 260,
+    "sha256": "1144786a4325f9c6b8fc51e63aa3a71563f8cb17a2a301668fa75e6f3ecf6f23"
+  },
+  {
+    "path": "skills_5610023_seq.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5640031_expanded.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5640031_memory.json",
+    "bytes": 260,
+    "sha256": "1144786a4325f9c6b8fc51e63aa3a71563f8cb17a2a301668fa75e6f3ecf6f23"
+  },
+  {
+    "path": "skills_5640031_seq.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5670041_expanded.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "skills_5670041_memory.json",
+    "bytes": 260,
+    "sha256": "1144786a4325f9c6b8fc51e63aa3a71563f8cb17a2a301668fa75e6f3ecf6f23"
+  },
+  {
+    "path": "skills_5670041_seq.json",
+    "bytes": 88,
+    "sha256": "f4e440772adf0e151c670e8bbe70c12da0f67cc2c35130216f673cb9896de91e"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 15377,
+    "sha256": "1cfa951f970f2c42ea9d82b82cc9ee652e2ad52d02c5d6fd2a1ac7c1aba1a71c"
+  }
+]

@@ -1,0 +1,742 @@
+{
+  "protocol": "V41-fork-memory-v1",
+  "seeds": [
+    5580017,
+    5610023,
+    5640031,
+    5670041
+  ],
+  "budgets": {
+    "sequential": 5220,
+    "acquisition": 6516,
+    "final": 28548
+  },
+  "snapshots": [
+    {
+      "seed": 5580017,
+      "policy": "seq",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5580017,
+      "policy": "expanded",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5580017,
+      "policy": "memory",
+      "registry": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "8dd93432ad40d9428dc531dc65fc3544ee8fc922a13025407816f89e15d1b87c"
+    },
+    {
+      "seed": 5610023,
+      "policy": "seq",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5610023,
+      "policy": "expanded",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5610023,
+      "policy": "memory",
+      "registry": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "8dd93432ad40d9428dc531dc65fc3544ee8fc922a13025407816f89e15d1b87c"
+    },
+    {
+      "seed": 5640031,
+      "policy": "seq",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5640031,
+      "policy": "expanded",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5640031,
+      "policy": "memory",
+      "registry": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "8dd93432ad40d9428dc531dc65fc3544ee8fc922a13025407816f89e15d1b87c"
+    },
+    {
+      "seed": 5670041,
+      "policy": "seq",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5670041,
+      "policy": "expanded",
+      "registry": [],
+      "sha": "1c445e5457e5569211c37ddad90075a2acd54289488c6d0a013e1493fda41433"
+    },
+    {
+      "seed": 5670041,
+      "policy": "memory",
+      "registry": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "8dd93432ad40d9428dc531dc65fc3544ee8fc922a13025407816f89e15d1b87c"
+    }
+  ],
+  "acquisition": [
+    {
+      "policy": "seq",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "examined": 125280,
+      "checks": 205544,
+      "wall_ns": 405256222,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 576,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "expanded",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 156384,
+      "checks": 264448,
+      "wall_ns": 523850499,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 576,
+      "teaching_checks": 1248,
+      "retained": 0
+    },
+    {
+      "policy": "memory",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 156384,
+      "checks": 264448,
+      "wall_ns": 500809699,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 576,
+      "teaching_checks": 1248,
+      "retained": 24
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "seq",
+      "n": 76,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 60,
+      "examined": 320164,
+      "checks": 369652,
+      "wall_ns": 764986164,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "expanded",
+      "n": 76,
+      "correct": 68,
+      "wrong": 0,
+      "abstained": 8,
+      "examined": 841812,
+      "checks": 951064,
+      "wall_ns": 2112342550,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "memory",
+      "n": 76,
+      "correct": 68,
+      "wrong": 0,
+      "abstained": 8,
+      "examined": 235592,
+      "checks": 262784,
+      "wall_ns": 610897866,
+      "priority_examined": 4776,
+      "first_from_memory": 56,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "seq",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "examined": 125280,
+      "checks": 141408,
+      "wall_ns": 328258688,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "seq",
+      "stratum": "transfer",
+      "n": 32,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 28,
+      "examined": 149828,
+      "checks": 174588,
+      "wall_ns": 336798978,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "seq",
+      "stratum": "legacy",
+      "n": 12,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 3296,
+      "checks": 5064,
+      "wall_ns": 8483404,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "seq",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "examined": 41760,
+      "checks": 48592,
+      "wall_ns": 91445094,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "expanded",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 269304,
+      "checks": 303336,
+      "wall_ns": 663830896,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "expanded",
+      "stratum": "transfer",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 340828,
+      "checks": 390328,
+      "wall_ns": 857596277,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "expanded",
+      "stratum": "legacy",
+      "n": 12,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 3296,
+      "checks": 5064,
+      "wall_ns": 8645538,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "expanded",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "examined": 228384,
+      "checks": 252336,
+      "wall_ns": 582269839,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "direct",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 1104,
+      "checks": 1516,
+      "wall_ns": 3081587,
+      "priority_examined": 1104,
+      "first_from_memory": 24,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "transfer",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 1512,
+      "checks": 2284,
+      "wall_ns": 5559661,
+      "priority_examined": 1512,
+      "first_from_memory": 32,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "legacy",
+      "n": 12,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 0,
+      "examined": 4592,
+      "checks": 6648,
+      "wall_ns": 12831199,
+      "priority_examined": 1296,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "examined": 228384,
+      "checks": 252336,
+      "wall_ns": 589425419,
+      "priority_examined": 864,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 5580017,
+      "policy": "seq",
+      "n": 19,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 15,
+      "examined": 80041,
+      "checks": 92413,
+      "wall_ns": 209533183,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5580017,
+      "policy": "expanded",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 210453,
+      "checks": 237766,
+      "wall_ns": 528156553,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5580017,
+      "policy": "memory",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 58898,
+      "checks": 65696,
+      "wall_ns": 150045414,
+      "priority_examined": 1194,
+      "first_from_memory": 14,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5610023,
+      "policy": "seq",
+      "n": 19,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 15,
+      "examined": 80041,
+      "checks": 92413,
+      "wall_ns": 180717451,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5610023,
+      "policy": "expanded",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 210453,
+      "checks": 237766,
+      "wall_ns": 536343869,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5610023,
+      "policy": "memory",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 58898,
+      "checks": 65696,
+      "wall_ns": 154465122,
+      "priority_examined": 1194,
+      "first_from_memory": 14,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5640031,
+      "policy": "seq",
+      "n": 19,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 15,
+      "examined": 80041,
+      "checks": 92413,
+      "wall_ns": 202697890,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5640031,
+      "policy": "expanded",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 210453,
+      "checks": 237766,
+      "wall_ns": 525168865,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5640031,
+      "policy": "memory",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 58898,
+      "checks": 65696,
+      "wall_ns": 153127054,
+      "priority_examined": 1194,
+      "first_from_memory": 14,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5670041,
+      "policy": "seq",
+      "n": 19,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 15,
+      "examined": 80041,
+      "checks": 92413,
+      "wall_ns": 172037640,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5670041,
+      "policy": "expanded",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 210453,
+      "checks": 237766,
+      "wall_ns": 522673263,
+      "priority_examined": 0,
+      "first_from_memory": 0,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    },
+    {
+      "seed": 5670041,
+      "policy": "memory",
+      "n": 19,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 2,
+      "examined": 58898,
+      "checks": 65696,
+      "wall_ns": 153260276,
+      "priority_examined": 1194,
+      "first_from_memory": 14,
+      "teaching_observations": 0,
+      "teaching_checks": 0,
+      "retained": 0
+    }
+  ]
+}
