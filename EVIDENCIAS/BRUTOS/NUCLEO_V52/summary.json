@@ -1,0 +1,1843 @@
+{
+  "protocol": "V52-contextual-negative-memory-v1",
+  "seeds": [
+    6900017,
+    6930023,
+    6960031,
+    6990041
+  ],
+  "attempts": 20,
+  "round_budget": 12000,
+  "common_attempts": 14,
+  "scan_cap": 24000,
+  "menu_public_observations_per_seed_per_policy": 196,
+  "timing": "Final single-stage search shared. Negative cache only in acquisition. Selection order shared until policies diverge.",
+  "menus": [
+    {
+      "seed": 6900017,
+      "id_to_target": [
+        "square_duplicate",
+        "even_concat_sorted_concat",
+        "mirror_product_sorted_delta",
+        "sorted_concat_neg_concat",
+        "mirror_neg_concat",
+        "mirror_square",
+        "neg_concat_mirror_product",
+        "sorted_concat_square",
+        "fourth_power",
+        "even_concat_mirror_product",
+        "neg_concat_sorted_delta",
+        "reverse_delta_mirror_product",
+        "sorted_concat_mirror_product",
+        "even_concat_pair"
+      ]
+    },
+    {
+      "seed": 6930023,
+      "id_to_target": [
+        "sorted_concat_square",
+        "sorted_concat_mirror_product",
+        "even_concat_pair",
+        "fourth_power",
+        "mirror_neg_concat",
+        "mirror_square",
+        "even_concat_mirror_product",
+        "square_duplicate",
+        "sorted_concat_neg_concat",
+        "even_concat_sorted_concat",
+        "neg_concat_mirror_product",
+        "mirror_product_sorted_delta",
+        "reverse_delta_mirror_product",
+        "neg_concat_sorted_delta"
+      ]
+    },
+    {
+      "seed": 6960031,
+      "id_to_target": [
+        "mirror_square",
+        "reverse_delta_mirror_product",
+        "square_duplicate",
+        "mirror_product_sorted_delta",
+        "neg_concat_sorted_delta",
+        "sorted_concat_square",
+        "even_concat_pair",
+        "sorted_concat_mirror_product",
+        "even_concat_mirror_product",
+        "mirror_neg_concat",
+        "fourth_power",
+        "neg_concat_mirror_product",
+        "even_concat_sorted_concat",
+        "sorted_concat_neg_concat"
+      ]
+    },
+    {
+      "seed": 6990041,
+      "id_to_target": [
+        "neg_concat_sorted_delta",
+        "sorted_concat_square",
+        "square_duplicate",
+        "sorted_concat_mirror_product",
+        "even_concat_sorted_concat",
+        "mirror_square",
+        "mirror_neg_concat",
+        "reverse_delta_mirror_product",
+        "even_concat_pair",
+        "mirror_product_sorted_delta",
+        "neg_concat_mirror_product",
+        "even_concat_mirror_product",
+        "fourth_power",
+        "sorted_concat_neg_concat"
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "seed": 6900017,
+      "policy": "restart",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "b94b1996c746c7bf906b8e7f118acf50ffb2961df5741db5a471e901f1e8aae6",
+      "extra_count": 6
+    },
+    {
+      "seed": 6900017,
+      "policy": "cached_prefix",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "b94b1996c746c7bf906b8e7f118acf50ffb2961df5741db5a471e901f1e8aae6",
+      "extra_count": 6
+    },
+    {
+      "seed": 6900017,
+      "policy": "cached_extend",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "b94b1996c746c7bf906b8e7f118acf50ffb2961df5741db5a471e901f1e8aae6",
+      "extra_count": 6
+    },
+    {
+      "seed": 6930023,
+      "policy": "restart",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "74c7b8524be787cc1dea885c63e7b695ca4dc3cc7de88e6b47ef12c92a33ed7f",
+      "extra_count": 6
+    },
+    {
+      "seed": 6930023,
+      "policy": "cached_prefix",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "74c7b8524be787cc1dea885c63e7b695ca4dc3cc7de88e6b47ef12c92a33ed7f",
+      "extra_count": 6
+    },
+    {
+      "seed": 6930023,
+      "policy": "cached_extend",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "74c7b8524be787cc1dea885c63e7b695ca4dc3cc7de88e6b47ef12c92a33ed7f",
+      "extra_count": 6
+    },
+    {
+      "seed": 6960031,
+      "policy": "restart",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "04bc742bb27136d0b28aaf519ed5749c445f2881f05be197fbc894ee32290ea9",
+      "extra_count": 4
+    },
+    {
+      "seed": 6960031,
+      "policy": "cached_prefix",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "04bc742bb27136d0b28aaf519ed5749c445f2881f05be197fbc894ee32290ea9",
+      "extra_count": 4
+    },
+    {
+      "seed": 6960031,
+      "policy": "cached_extend",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "d79b3dc6b15f526a3d7f0261dce8b807a2bedce578331b8b891b46d1ae30016d",
+      "extra_count": 6
+    },
+    {
+      "seed": 6990041,
+      "policy": "restart",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "0b120012b588b4fddd1f2ab8297e8b1163075e5fd12a3d6bee9671f54b638add",
+      "extra_count": 6
+    },
+    {
+      "seed": 6990041,
+      "policy": "cached_prefix",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "0b120012b588b4fddd1f2ab8297e8b1163075e5fd12a3d6bee9671f54b638add",
+      "extra_count": 6
+    },
+    {
+      "seed": 6990041,
+      "policy": "cached_extend",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "d7050ec0b9733bd01ddb452453f282c81e1f60100dec50baabf6f1003334d5c9",
+      "extra_count": 8
+    }
+  ],
+  "base_acquisition": {
+    "n": 24,
+    "accepted": 24,
+    "rejected": 0,
+    "abstained": 0,
+    "retained": 24,
+    "spent": 24,
+    "queries": 12,
+    "selection_checks": 896,
+    "filter_checks": 28,
+    "validation_checks": 576,
+    "initial_checks": 33300,
+    "prediction_checks": 4256,
+    "preparation_examined": 31104,
+    "shared_preparation_ns": 149659627,
+    "selection_ns": 1384002
+  },
+  "training": [
+    {
+      "policy": "restart",
+      "n": 80,
+      "attempted": 63,
+      "accepted": 48,
+      "rejected": 0,
+      "abstained": 15,
+      "idle": 17,
+      "retried": 7,
+      "recovered": 2,
+      "acquired_motifs": 22,
+      "peak_cache_entries_one_replica": 0,
+      "pair_examined": 310620,
+      "pair_checks": 318163,
+      "positions_scanned": 310620,
+      "cached_skips": 0,
+      "pair_wall_ns": 2640663419,
+      "validation_checks": 1152
+    },
+    {
+      "policy": "cached_prefix",
+      "n": 80,
+      "attempted": 63,
+      "accepted": 48,
+      "rejected": 0,
+      "abstained": 15,
+      "idle": 17,
+      "retried": 7,
+      "recovered": 2,
+      "acquired_motifs": 22,
+      "peak_cache_entries_one_replica": 65967,
+      "pair_examined": 261344,
+      "pair_checks": 267775,
+      "positions_scanned": 310620,
+      "cached_skips": 49276,
+      "pair_wall_ns": 2351407270,
+      "validation_checks": 1152
+    },
+    {
+      "policy": "cached_extend",
+      "n": 80,
+      "attempted": 66,
+      "accepted": 56,
+      "rejected": 0,
+      "abstained": 10,
+      "idle": 14,
+      "retried": 10,
+      "recovered": 10,
+      "acquired_motifs": 26,
+      "peak_cache_entries_one_replica": 65210,
+      "pair_examined": 261163,
+      "pair_checks": 267454,
+      "positions_scanned": 288470,
+      "cached_skips": 27307,
+      "pair_wall_ns": 2246871332,
+      "validation_checks": 1344
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "restart",
+      "n": 56,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 14,
+      "single_examined": 1370516,
+      "single_checks": 1370620,
+      "shared_single_ns": 6834653662,
+      "pair_examined": 205615,
+      "pair_checks": 206219,
+      "pair_wall_ns": 1801464492,
+      "extension_used": 28,
+      "sources": {
+        "single": 8,
+        "priority_pair": 27,
+        "mixed_pair": 7,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_prefix",
+      "n": 56,
+      "correct": 42,
+      "wrong": 0,
+      "abstained": 14,
+      "single_examined": 1370516,
+      "single_checks": 1370620,
+      "shared_single_ns": 6834653662,
+      "pair_examined": 205615,
+      "pair_checks": 206219,
+      "pair_wall_ns": 1810534600,
+      "extension_used": 28,
+      "sources": {
+        "single": 8,
+        "priority_pair": 27,
+        "mixed_pair": 7,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_extend",
+      "n": 56,
+      "correct": 48,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 1370516,
+      "single_checks": 1370620,
+      "shared_single_ns": 6834653662,
+      "pair_examined": 100559,
+      "pair_checks": 101134,
+      "pair_wall_ns": 870327872,
+      "extension_used": 36,
+      "sources": {
+        "single": 8,
+        "priority_pair": 40,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "restart",
+      "stratum": "new",
+      "n": 32,
+      "correct": 27,
+      "wrong": 0,
+      "abstained": 5,
+      "single_examined": 913536,
+      "single_checks": 913536,
+      "shared_single_ns": 4552510685,
+      "pair_examined": 97343,
+      "pair_checks": 97851,
+      "pair_wall_ns": 844158628,
+      "extension_used": 25,
+      "sources": {
+        "single": 0,
+        "priority_pair": 20,
+        "mixed_pair": 7,
+        "default": 0
+      }
+    },
+    {
+      "policy": "restart",
+      "stratum": "anchor",
+      "n": 8,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 1,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 1148731596,
+      "pair_examined": 12272,
+      "pair_checks": 12363,
+      "pair_wall_ns": 113747647,
+      "extension_used": 3,
+      "sources": {
+        "single": 0,
+        "priority_pair": 7,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "restart",
+      "stratum": "simple",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 212,
+      "single_checks": 316,
+      "shared_single_ns": 1179015,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "extension_used": 0,
+      "sources": {
+        "single": 8,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "restart",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 1132232366,
+      "pair_examined": 96000,
+      "pair_checks": 96005,
+      "pair_wall_ns": 843558217,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_prefix",
+      "stratum": "new",
+      "n": 32,
+      "correct": 27,
+      "wrong": 0,
+      "abstained": 5,
+      "single_examined": 913536,
+      "single_checks": 913536,
+      "shared_single_ns": 4552510685,
+      "pair_examined": 97343,
+      "pair_checks": 97851,
+      "pair_wall_ns": 854411933,
+      "extension_used": 25,
+      "sources": {
+        "single": 0,
+        "priority_pair": 20,
+        "mixed_pair": 7,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_prefix",
+      "stratum": "anchor",
+      "n": 8,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 1,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 1148731596,
+      "pair_examined": 12272,
+      "pair_checks": 12363,
+      "pair_wall_ns": 117752025,
+      "extension_used": 3,
+      "sources": {
+        "single": 0,
+        "priority_pair": 7,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_prefix",
+      "stratum": "simple",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 212,
+      "single_checks": 316,
+      "shared_single_ns": 1179015,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "extension_used": 0,
+      "sources": {
+        "single": 8,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_prefix",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 1132232366,
+      "pair_examined": 96000,
+      "pair_checks": 96005,
+      "pair_wall_ns": 838370642,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_extend",
+      "stratum": "new",
+      "n": 32,
+      "correct": 32,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 913536,
+      "single_checks": 913536,
+      "shared_single_ns": 4552510685,
+      "pair_examined": 4176,
+      "pair_checks": 4643,
+      "pair_wall_ns": 45354567,
+      "extension_used": 32,
+      "sources": {
+        "single": 0,
+        "priority_pair": 32,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_extend",
+      "stratum": "anchor",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 1148731596,
+      "pair_examined": 383,
+      "pair_checks": 487,
+      "pair_wall_ns": 5184368,
+      "extension_used": 4,
+      "sources": {
+        "single": 0,
+        "priority_pair": 8,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_extend",
+      "stratum": "simple",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 212,
+      "single_checks": 316,
+      "shared_single_ns": 1179015,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "extension_used": 0,
+      "sources": {
+        "single": 8,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "cached_extend",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 1132232366,
+      "pair_examined": 96000,
+      "pair_checks": 96004,
+      "pair_wall_ns": 819788937,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 6900017,
+      "policy": "restart",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1728763941,
+      "pair_examined": 25048,
+      "pair_checks": 25188,
+      "pair_wall_ns": 222335613,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6900017,
+      "policy": "cached_prefix",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1728763941,
+      "pair_examined": 25048,
+      "pair_checks": 25188,
+      "pair_wall_ns": 222200986,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6900017,
+      "policy": "cached_extend",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1728763941,
+      "pair_examined": 25048,
+      "pair_checks": 25188,
+      "pair_wall_ns": 221469025,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6930023,
+      "policy": "restart",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1682163038,
+      "pair_examined": 25048,
+      "pair_checks": 25184,
+      "pair_wall_ns": 217709780,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6930023,
+      "policy": "cached_prefix",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1682163038,
+      "pair_examined": 25048,
+      "pair_checks": 25184,
+      "pair_wall_ns": 219195354,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6930023,
+      "policy": "cached_extend",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1682163038,
+      "pair_examined": 25048,
+      "pair_checks": 25184,
+      "pair_wall_ns": 214344492,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6960031,
+      "policy": "restart",
+      "n": 14,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 6,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1740045699,
+      "pair_examined": 82768,
+      "pair_checks": 82848,
+      "pair_wall_ns": 745471373,
+      "extension_used": 4,
+      "sources": {
+        "single": 2,
+        "priority_pair": 3,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6960031,
+      "policy": "cached_prefix",
+      "n": 14,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 6,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1740045699,
+      "pair_examined": 82768,
+      "pair_checks": 82848,
+      "pair_wall_ns": 750153033,
+      "extension_used": 4,
+      "sources": {
+        "single": 2,
+        "priority_pair": 3,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6960031,
+      "policy": "cached_extend",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1740045699,
+      "pair_examined": 25049,
+      "pair_checks": 25180,
+      "pair_wall_ns": 217870433,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6990041,
+      "policy": "restart",
+      "n": 14,
+      "correct": 10,
+      "wrong": 0,
+      "abstained": 4,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1683680984,
+      "pair_examined": 72751,
+      "pair_checks": 72999,
+      "pair_wall_ns": 615947726,
+      "extension_used": 6,
+      "sources": {
+        "single": 2,
+        "priority_pair": 4,
+        "mixed_pair": 4,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6990041,
+      "policy": "cached_prefix",
+      "n": 14,
+      "correct": 10,
+      "wrong": 0,
+      "abstained": 4,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1683680984,
+      "pair_examined": 72751,
+      "pair_checks": 72999,
+      "pair_wall_ns": 618985227,
+      "extension_used": 6,
+      "sources": {
+        "single": 2,
+        "priority_pair": 4,
+        "mixed_pair": 4,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6990041,
+      "policy": "cached_extend",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342655,
+      "shared_single_ns": 1683680984,
+      "pair_examined": 25414,
+      "pair_checks": 25582,
+      "pair_wall_ns": 216643922,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    }
+  ]
+}
