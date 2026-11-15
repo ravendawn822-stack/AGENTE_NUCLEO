@@ -1,0 +1,147 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "94fc61272025938bb62ee25770c1ae499d218486632f3a8470987f3a61d234e6"
+  },
+  {
+    "path": "base_6540017.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_6570023.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_6600031.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_6630041.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_acquisition.jsonl",
+    "bytes": 14589,
+    "sha256": "d80c5ba168eb219b699695425ce2c107485a0ebb28901fb8bf3b1d30ada0bfcd"
+  },
+  {
+    "path": "curriculum.jsonl",
+    "bytes": 121645,
+    "sha256": "a8f63cd4af0b5b152e386a0b196377ec5145958bfd368a2b5abf10fae0f59d9d"
+  },
+  {
+    "path": "final.jsonl",
+    "bytes": 89164,
+    "sha256": "46d6d892c3016b56d2e19e18ae0245847def62ff98b113d8f360f6acb6786fee"
+  },
+  {
+    "path": "inputs_6540017.json",
+    "bytes": 2912,
+    "sha256": "82030eedc5dc7042bccddf93cc27d2cff2cc0b4739d2bb1b860b3033ef7af824"
+  },
+  {
+    "path": "inputs_6570023.json",
+    "bytes": 2949,
+    "sha256": "5286f2890fc6ede2dea5ea9b9c0043ac99c9663e01215893110fbfe3f744bef6"
+  },
+  {
+    "path": "inputs_6600031.json",
+    "bytes": 3064,
+    "sha256": "c257267ddedbbbe77f11299c322942d02a5f817cc0cde3e390189a65a2b27e32"
+  },
+  {
+    "path": "inputs_6630041.json",
+    "bytes": 3027,
+    "sha256": "c77f84835428301c442b71df5953c9b0d62982544b6463fa7a1f9aea1db97d93"
+  },
+  {
+    "path": "library_6540017_cumulative.json",
+    "bytes": 447,
+    "sha256": "b24529fd6a303a248b2fb0c67bc573a6939c889fe8a19f3853278d72a3258696"
+  },
+  {
+    "path": "library_6540017_delayed.json",
+    "bytes": 385,
+    "sha256": "209550a8664562338364cf077a286c3eea7388ec23476d324364c589d5e68d4a"
+  },
+  {
+    "path": "library_6540017_frozen.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "library_6540017_random_growth.json",
+    "bytes": 482,
+    "sha256": "82484367352b071b91f0ccebe4ff2d071d4558a32dc53cb43c677c6e49f175a3"
+  },
+  {
+    "path": "library_6570023_cumulative.json",
+    "bytes": 447,
+    "sha256": "b24529fd6a303a248b2fb0c67bc573a6939c889fe8a19f3853278d72a3258696"
+  },
+  {
+    "path": "library_6570023_delayed.json",
+    "bytes": 385,
+    "sha256": "209550a8664562338364cf077a286c3eea7388ec23476d324364c589d5e68d4a"
+  },
+  {
+    "path": "library_6570023_frozen.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "library_6570023_random_growth.json",
+    "bytes": 460,
+    "sha256": "7953b67be3ba13d0f7315176a08420677f4106412d5387147cbd3aa2d319c164"
+  },
+  {
+    "path": "library_6600031_cumulative.json",
+    "bytes": 447,
+    "sha256": "b24529fd6a303a248b2fb0c67bc573a6939c889fe8a19f3853278d72a3258696"
+  },
+  {
+    "path": "library_6600031_delayed.json",
+    "bytes": 385,
+    "sha256": "209550a8664562338364cf077a286c3eea7388ec23476d324364c589d5e68d4a"
+  },
+  {
+    "path": "library_6600031_frozen.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "library_6600031_random_growth.json",
+    "bytes": 457,
+    "sha256": "95267e6da9b64531143cb526f00415b33f255cd72f45e22ed9f50320ae4bbb42"
+  },
+  {
+    "path": "library_6630041_cumulative.json",
+    "bytes": 447,
+    "sha256": "b24529fd6a303a248b2fb0c67bc573a6939c889fe8a19f3853278d72a3258696"
+  },
+  {
+    "path": "library_6630041_delayed.json",
+    "bytes": 385,
+    "sha256": "209550a8664562338364cf077a286c3eea7388ec23476d324364c589d5e68d4a"
+  },
+  {
+    "path": "library_6630041_frozen.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "library_6630041_random_growth.json",
+    "bytes": 469,
+    "sha256": "87a9abf707435e6bc26ee3379086a0f75d29903384ec47728a742f2feae1955c"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 79434,
+    "sha256": "567d564d2802db3770022ffd611816dfc29b31b5f029be1ae4161c889d72f75a"
+  }
+]
