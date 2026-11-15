@@ -1,0 +1,80 @@
+name: V68-V72 functional self-model
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V68/**','NUCLEO_V69/**','NUCLEO_V70/**','NUCLEO_V71/**','NUCLEO_V72/**','.github/workflows/nucleo-v68-v72.yml']
+permissions:
+  contents: read
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - name: Run preregistered experiments
+        run: |
+          mkdir -p /tmp/nucleo-suite
+          for spec in '68 cost_model.py' '69 gaps.py' '70 strategy.py' '71 budget.py' '72 self_model.py'; do
+            read -r version script <<< "$spec"
+            folder="NUCLEO_V${version}"
+            target="/tmp/nucleo-suite/$folder"
+            mkdir "$target"
+            test_status=0
+            run_status=125
+            timeout 90 python3 "$folder/$script" --self-test > "$target/tests.log" 2>&1 || test_status=$?
+            if [ "$test_status" -eq 0 ]; then
+              run_status=0
+              timeout 120 python3 "$folder/$script" --output "$folder/ci" > "$target/run.log" 2>&1 || run_status=$?
+            fi
+            if [ -d "$folder/ci" ]; then cp -a "$folder/ci/." "$target/"; fi
+            printf '{"test_exit":%s,"run_exit":%s}\n' "$test_status" "$run_status" > "$target/STATUS.json"
+            printf '%s\n' "$GITHUB_SHA" > "$target/SOURCE_COMMIT.txt"
+            cat "$target/STATUS.json"
+          done
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nucleo-v68-v72-results
+          path: /tmp/nucleo-suite/
+          retention-days: 30
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: nucleo-v68-v72-results
+          path: /tmp/nucleo-suite
+      - name: Archive new evidence without replacement
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,shutil
+          from pathlib import Path
+          base=Path('EVIDENCIAS/BRUTOS')
+          source=Path('/tmp/nucleo-suite')
+          names=['NUCLEO_V'+str(n) for n in range(68,73)]
+          assert all(not (base/n).exists() and (source/n/'STATUS.json').is_file() for n in names)
+          for n in names:
+              p=base/n
+              shutil.copytree(source/n,p)
+              files=[dict(path=str(f.relative_to(p)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(p.rglob('*')) if f.is_file() and not f.is_symlink()]
+              (p/'SHA256.json').write_text(json.dumps(files,indent=2))
+          PY
+          for v in 68 69 70 71 72; do git add -f "EVIDENCIAS/BRUTOS/NUCLEO_V$v"; done
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\/NUCLEO_V(68|69|70|71|72)\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive V68-V72 bounded experiment suite'
+          git push origin HEAD:refs/heads/evidencias-cientificas
