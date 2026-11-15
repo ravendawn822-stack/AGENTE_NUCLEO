@@ -1,0 +1,3322 @@
+[
+  {
+    "seed": 23000019,
+    "maximum": 11902.5,
+    "rows": [
+      {
+        "seed": 23000019,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23000019,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23000019,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 9819,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23000019,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23000019,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23000019,
+        "step": 7,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 22,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 8,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4727,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 9,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 6902,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23000019,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 8987,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6707,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 6520,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 14,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 16,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 1774,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 17,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 4,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 18,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 24,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23000019,
+        "step": 19,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 1390,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23030020,
+    "maximum": 11902.5,
+    "rows": [
+      {
+        "seed": 23030020,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 9819,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4676,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23030020,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23030020,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5394,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 6,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 7755,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3595,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 34,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 96,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 108,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 10959,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23030020,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 5203,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 15,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 23,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23030020,
+        "step": 16,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 369,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23060021,
+    "maximum": 7657.5,
+    "rows": [
+      {
+        "seed": 23060021,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4003,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23060021,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23060021,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 22,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4713,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 10495,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 7755,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 98,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 77,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3597,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 75,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 77,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 1388,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23060021,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 12,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23090022,
+    "maximum": 8508.5,
+    "rows": [
+      {
+        "seed": 23090022,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23090022,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4046,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4682,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23090022,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23090022,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 10495,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 35,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3228,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 8606,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 117,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 34,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 75,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 14,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23090022,
+        "step": 16,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 1037,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23120023,
+    "maximum": 9876.5,
+    "rows": [
+      {
+        "seed": 23120023,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23120023,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23120023,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 19,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 9819,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23120023,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23120023,
+        "step": 7,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4676,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 8,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 9,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5408,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 7767,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 81,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 9974,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 102,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 6522,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 2135,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 16,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 2098,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23120023,
+        "step": 17,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 6,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23150024,
+    "maximum": 6649.0,
+    "rows": [
+      {
+        "seed": 23150024,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 19,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 7,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5178,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 8,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 9,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4727,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 10,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 11,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23150024,
+        "step": 12,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 10495,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6028,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 1413,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 16,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 3,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 17,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 9,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 18,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 1741,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23150024,
+        "step": 19,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 14,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23180025,
+    "maximum": 11902.5,
+    "rows": [
+      {
+        "seed": 23180025,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5178,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 11448,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 10509,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 4,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23180025,
+        "step": 5,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 6,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3177,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23180025,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6778,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 7366,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 83,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 121,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 37,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 4313,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 14,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 12,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23180025,
+        "step": 15,
+        "features": [
+          2,
+          1,
+          1
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 45
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23210026,
+    "maximum": 11696.5,
+    "rows": [
+      {
+        "seed": 23210026,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23210026,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5178,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 22,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4727,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5359,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 6,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 11794,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 90,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3599,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 87,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 42,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 74,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3903,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23210026,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 17,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23240027,
+    "maximum": 11716.5,
+    "rows": [
+      {
+        "seed": 23240027,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23240027,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23240027,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 9819,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 6047,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 25,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5410,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 11814,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 90,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6707,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 99,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3970,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 93,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 24,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23240027,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 2096,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23270028,
+    "maximum": 11989.5,
+    "rows": [
+      {
+        "seed": 23270028,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 4,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5178,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 5,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 6,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 7,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 22,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 8,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 11448,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 9,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 5351,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6077,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 14,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 4,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 15,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 3964,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 16,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 18,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 17,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 12000,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "deferred"
+      },
+      {
+        "seed": 23270028,
+        "step": 18,
+        "features": [
+          1,
+          1,
+          1
+        ],
+        "cost": 1411,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 10.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23270028,
+        "step": 19,
+        "features": [
+          1,
+          1,
+          2
+        ],
+        "cost": 1989,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 2498
+        },
+        "status": "deferred"
+      }
+    ]
+  },
+  {
+    "seed": 23300029,
+    "maximum": 5936.5,
+    "rows": [
+      {
+        "seed": 23300029,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4046,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 9190,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 6910,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 3,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6034,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 4,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 31,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 5,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 98,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 6,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3599,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 43,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3899,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 99,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 95,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23300029,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 104,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      }
+    ]
+  },
+  {
+    "seed": 23330030,
+    "maximum": 8522.5,
+    "rows": [
+      {
+        "seed": 23330030,
+        "step": 0,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 4003,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 1,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 9190,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 2,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 25,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 3,
+        "features": [
+          0,
+          0,
+          0
+        ],
+        "cost": 2863,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 5351.0
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 4,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 5,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 6059,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 6,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 98,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 7,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 8620,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 8,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 113,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 9,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 75,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 10,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 106,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 11,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 118,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 12,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 3899,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      },
+      {
+        "seed": 23330030,
+        "step": 13,
+        "features": [
+          1,
+          0,
+          0
+        ],
+        "cost": 2,
+        "predictions": {
+          "cap": 12000,
+          "global": 2498,
+          "context": 97.5
+        },
+        "status": "accepted"
+      }
+    ]
+  }
+]

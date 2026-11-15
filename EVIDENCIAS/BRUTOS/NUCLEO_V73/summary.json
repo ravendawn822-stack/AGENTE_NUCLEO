@@ -1,0 +1,442 @@
+{
+  "protocol": "V73-operational-self-model-v1",
+  "reliability": {
+    "counts": {
+      "global": [
+        217,
+        1464,
+        179
+      ],
+      "(1, 6, 4)": [
+        63,
+        422,
+        48
+      ],
+      "(1, 5, 4)": [
+        30,
+        196,
+        23
+      ],
+      "(2, 6, 4)": [
+        50,
+        344,
+        48
+      ],
+      "(3, 6, 4)": [
+        48,
+        336,
+        48
+      ],
+      "(1, 6, 3)": [
+        14,
+        94,
+        12
+      ],
+      "(1, 5, 3)": [
+        12,
+        72,
+        0
+      ]
+    },
+    "aggregate": [
+      {
+        "mode": "ungated",
+        "tasks": 192,
+        "correct": 981,
+        "wrong": 48,
+        "abstained": 315,
+        "utility": 789,
+        "blocked": 0
+      },
+      {
+        "mode": "context_gate",
+        "tasks": 192,
+        "correct": 981,
+        "wrong": 48,
+        "abstained": 315,
+        "utility": 789,
+        "blocked": 0
+      },
+      {
+        "mode": "global_gate",
+        "tasks": 192,
+        "correct": 981,
+        "wrong": 48,
+        "abstained": 315,
+        "utility": 789,
+        "blocked": 0
+      },
+      {
+        "mode": "exact",
+        "tasks": 192,
+        "correct": 318,
+        "wrong": 25,
+        "abstained": 1001,
+        "utility": 218,
+        "blocked": 98
+      }
+    ],
+    "by_stratum": [
+      {
+        "stratum": [
+          1,
+          0
+        ],
+        "mode": "ungated",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          0
+        ],
+        "mode": "context_gate",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          0
+        ],
+        "mode": "global_gate",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          0
+        ],
+        "mode": "exact",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          1
+        ],
+        "mode": "ungated",
+        "tasks": 32,
+        "correct": 211,
+        "wrong": 13,
+        "abstained": 0,
+        "utility": 159,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          1
+        ],
+        "mode": "context_gate",
+        "tasks": 32,
+        "correct": 211,
+        "wrong": 13,
+        "abstained": 0,
+        "utility": 159,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          1
+        ],
+        "mode": "global_gate",
+        "tasks": 32,
+        "correct": 211,
+        "wrong": 13,
+        "abstained": 0,
+        "utility": 159,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          1
+        ],
+        "mode": "exact",
+        "tasks": 32,
+        "correct": 78,
+        "wrong": 13,
+        "abstained": 133,
+        "utility": 26,
+        "blocked": 19
+      },
+      {
+        "stratum": [
+          1,
+          3
+        ],
+        "mode": "ungated",
+        "tasks": 32,
+        "correct": 94,
+        "wrong": 32,
+        "abstained": 98,
+        "utility": -34,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          3
+        ],
+        "mode": "context_gate",
+        "tasks": 32,
+        "correct": 94,
+        "wrong": 32,
+        "abstained": 98,
+        "utility": -34,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          3
+        ],
+        "mode": "global_gate",
+        "tasks": 32,
+        "correct": 94,
+        "wrong": 32,
+        "abstained": 98,
+        "utility": -34,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          1,
+          3
+        ],
+        "mode": "exact",
+        "tasks": 32,
+        "correct": 16,
+        "wrong": 12,
+        "abstained": 196,
+        "utility": -32,
+        "blocked": 14
+      },
+      {
+        "stratum": [
+          2,
+          0
+        ],
+        "mode": "ungated",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          2,
+          0
+        ],
+        "mode": "context_gate",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          2,
+          0
+        ],
+        "mode": "global_gate",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          2,
+          0
+        ],
+        "mode": "exact",
+        "tasks": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 224,
+        "utility": 0,
+        "blocked": 32
+      },
+      {
+        "stratum": [
+          3,
+          0
+        ],
+        "mode": "ungated",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          3,
+          0
+        ],
+        "mode": "context_gate",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          3,
+          0
+        ],
+        "mode": "global_gate",
+        "tasks": 32,
+        "correct": 224,
+        "wrong": 0,
+        "abstained": 0,
+        "utility": 224,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          3,
+          0
+        ],
+        "mode": "exact",
+        "tasks": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 224,
+        "utility": 0,
+        "blocked": 32
+      },
+      {
+        "stratum": [
+          2,
+          3
+        ],
+        "mode": "ungated",
+        "tasks": 32,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 217,
+        "utility": -8,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          2,
+          3
+        ],
+        "mode": "context_gate",
+        "tasks": 32,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 217,
+        "utility": -8,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          2,
+          3
+        ],
+        "mode": "global_gate",
+        "tasks": 32,
+        "correct": 4,
+        "wrong": 3,
+        "abstained": 217,
+        "utility": -8,
+        "blocked": 0
+      },
+      {
+        "stratum": [
+          2,
+          3
+        ],
+        "mode": "exact",
+        "tasks": 32,
+        "correct": 0,
+        "wrong": 0,
+        "abstained": 224,
+        "utility": 0,
+        "blocked": 1
+      }
+    ],
+    "calibration": {
+      "context": {
+        "n": 147,
+        "transition_brier": 0.04325182868613535,
+        "whole_rule_brier": 0.1175022605636869
+      },
+      "global_estimate": {
+        "n": 147,
+        "transition_brier": 0.04456788229341402,
+        "whole_rule_brier": 0.17186795904325325
+      }
+    }
+  },
+  "cost": {
+    "q": 11989.5,
+    "calibration_sessions": 12,
+    "aggregate": [
+      {
+        "mode": "cap",
+        "attempts": 144,
+        "covered": 144,
+        "sessions": 8,
+        "sessions_covered": 8,
+        "average_estimate": 12000.0,
+        "mean_excess": 7053.930555555556,
+        "mean_shortfall": 0.0
+      },
+      {
+        "mode": "median",
+        "attempts": 144,
+        "covered": 62,
+        "sessions": 8,
+        "sessions_covered": 0,
+        "average_estimate": 2341.527777777778,
+        "mean_excess": 502.80555555555554,
+        "mean_shortfall": 3107.347222222222
+      },
+      {
+        "mode": "upper",
+        "attempts": 144,
+        "covered": 144,
+        "sessions": 8,
+        "sessions_covered": 8,
+        "average_estimate": 12000.0,
+        "mean_excess": 7053.930555555556,
+        "mean_shortfall": 0.0
+      }
+    ]
+  }
+}
