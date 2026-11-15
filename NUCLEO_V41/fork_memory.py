@@ -14,7 +14,7 @@ DIRECT=("square","duplicate","pair_product","mirror_sum","abs_delta","reverse_co
 TRANSFER=("square_sum","square_even","duplicate_sort","duplicate_count",
           "mirror_positive","pair_sum","delta_sum","reverse_concat_difference")
 LEGACY=("span","prefix","minimum")
-OUTSIDE=("product_prefix","repeat_three")
+OUTSIDE=("product_prefix_mod97","repeat_three")
 PROTOCOL="V41-fork-memory-v1"
 SEQ_CAP=sum(len(OPS)**n for n in range(4))
 ACQ_CAP=SEQ_CAP+len(COMB)*len(LEAVES)**2
@@ -106,9 +106,9 @@ def oracle(name,x):
     if name=="reverse_concat_difference":
         y=(*x,*reversed(x));return tuple(y[i+1]-y[i] for i in range(len(y)-1))
     if name in LEGACY:return t.oracle(name,x)
-    if name=="product_prefix":
+    if name=="product_prefix_mod97":
         y=[];p=1
-        for z in x:p*=z;y.append(p)
+        for z in x:p=(p*z)%97;y.append(p)
         return tuple(y)
     if name=="repeat_three":return x*3
     raise ValueError("unknown evaluator behavior")
