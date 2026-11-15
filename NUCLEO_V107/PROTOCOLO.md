@@ -1,0 +1,2 @@
+# V107 — transferência e extrapolação
+Sementes 66000019+30001*i (24). Quatro famílias aleatórias de V103 com novos arranjos, exemplos fit e auditoria em -8..8; avaliar sete reservas internas e adicionalmente 12 valores de magnitude 9..14 (positivos/negativos) inéditos. Comparar cinco políticas V106, mesmas partições e cap. Nenhum ajuste por teste. Domínio aritmético permanece idêntico, somente mudança de composição/distribuição de entradas, não aprendizagem em domínio real distinto. Registrar extrapolação separadamente.
