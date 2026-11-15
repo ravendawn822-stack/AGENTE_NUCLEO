@@ -1,0 +1,2 @@
+# V94 — auditoria independente de programas
+Reutilizar os candidatos da V93, sem reajustar nem repetir busca. Comparar emissão sem auditoria e emissão somente se acertar os quatro exemplos de auditoria não usados na busca. Teste final comum sete estados; reportar programas rejeitados, corretos no domínio reservado, erros e abstenções; não confundir auditoria finita com prova. Nenhuma mudança de parâmetros após observar resultados.
