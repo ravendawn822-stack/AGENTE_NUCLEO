@@ -239,8 +239,8 @@ class Tests(unittest.TestCase):
         *_,points,final_points=validation_environment()
         self.assertEqual(len(points),24);self.assertEqual(len(final_points),116)
         self.assertFalse(set(points)&set(final_points))
-        self.assertTrue(all(t.module(("bounds","difference"),x)==t.oracle(("span",),x) for x in points))
-        self.assertFalse(all(t.module(("abs","sum"),x)==t.oracle(("span",),x) for x in points))
+        self.assertTrue(all(t.module(("bounds","difference"),x)==t.oracle("span",x) for x in points))
+        self.assertFalse(all(t.module(("abs","sum"),x)==t.oracle("span",x) for x in points))
     def test_response(self):
         packets,tasks,_,_=v38.plan();body,_=build_repair(packets[0],("abs","sum"))
         response=dict(version=VERSION,repair_sha=body["repair_sha"],proposals=[["bounds","difference"]])
