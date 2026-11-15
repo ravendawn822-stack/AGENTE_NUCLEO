@@ -1,0 +1,2 @@
+# V115 — ambiguidades observáveis
+Pré-registro V115–V120: DSL V91, domínio inteiro -8..8, gerador V109, cap 1200 candidatos por tarefa, 6 exemplos iniciais, 4 entradas consultáveis e 7 reservas finais. Novas sementes 78000019+30001*i (16). Construir conjunto limitado de hipóteses que concordam nos seis exemplos, distinguir por vetor de saída no domínio declarado, registrar desacordos, sem acessar valores reservados. A lista é incompleta, unanimidade não implica verdade.
