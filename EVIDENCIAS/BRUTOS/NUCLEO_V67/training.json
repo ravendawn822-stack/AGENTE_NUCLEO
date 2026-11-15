@@ -1,0 +1,5066 @@
+[
+  {
+    "seed": 8600017,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8600017,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8630018,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8660019,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8690020,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8720021,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8750022,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8780023,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8810024,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 8840025,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 8870026,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8900027,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8930028,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8960029,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 8990030,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9020031,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9050032,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9080033,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9110034,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9140035,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9170036,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9200037,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9230038,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9260039,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9290040,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9320041,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9350042,
+    "exceptions": 3,
+    "action": 2,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9380043,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9410044,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 3,
+    "action": 0,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9440045,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9470046,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 3,
+    "action": 1,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9500047,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 0,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 0,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 0,
+    "action": 2,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 1,
+    "action": 0,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 1,
+    "action": 1,
+    "features": [
+      "inferred",
+      6,
+      4
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 1,
+    "action": 2,
+    "features": [
+      "revised",
+      6,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 3,
+    "action": 0,
+    "features": [
+      "revised",
+      5,
+      4
+    ],
+    "outcomes": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 3,
+    "action": 1,
+    "features": null,
+    "outcomes": []
+  },
+  {
+    "seed": 9530048,
+    "exceptions": 3,
+    "action": 2,
+    "features": [
+      "revised",
+      5,
+      3
+    ],
+    "outcomes": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]
