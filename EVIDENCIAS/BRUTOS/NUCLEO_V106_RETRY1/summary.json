@@ -1,0 +1,75 @@
+{
+  "aggregate": [
+    {
+      "abstained": 203,
+      "candidates": 48754,
+      "correct": 467,
+      "emitted": 67,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "weighted",
+      "ranking_evaluations": 0,
+      "rejected": 5,
+      "solved": 65,
+      "tasks": 96,
+      "wrong": 2
+    },
+    {
+      "abstained": 259,
+      "candidates": 58515,
+      "correct": 408,
+      "emitted": 59,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "learned",
+      "ranking_evaluations": 0,
+      "rejected": 6,
+      "solved": 57,
+      "tasks": 96,
+      "wrong": 5
+    },
+    {
+      "abstained": 196,
+      "candidates": 48178,
+      "correct": 475,
+      "emitted": 68,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "selected",
+      "ranking_evaluations": 4608,
+      "rejected": 4,
+      "solved": 67,
+      "tasks": 96,
+      "wrong": 1
+    },
+    {
+      "abstained": 259,
+      "candidates": 50020,
+      "correct": 411,
+      "emitted": 59,
+      "extra_accepted": 33,
+      "extra_used": 39,
+      "mode": "generalized",
+      "ranking_evaluations": 0,
+      "rejected": 6,
+      "solved": 57,
+      "tasks": 96,
+      "wrong": 2
+    },
+    {
+      "abstained": 301,
+      "candidates": 53638,
+      "correct": 365,
+      "emitted": 53,
+      "extra_accepted": 28,
+      "extra_used": 36,
+      "mode": "random",
+      "ranking_evaluations": 0,
+      "rejected": 8,
+      "solved": 50,
+      "tasks": 96,
+      "wrong": 6
+    }
+  ],
+  "protocol": "V106-instance-transfer-v1"
+}

@@ -1,0 +1,137 @@
+{
+  "aggregate": [
+    {
+      "abstained": 301,
+      "blocked": 29,
+      "correct": 371,
+      "correct_goals": 11,
+      "extra_accepted": 0,
+      "extrapolation": {
+        "abstained": 516,
+        "correct": 636,
+        "solved": 53,
+        "wrong": 0
+      },
+      "incomplete_goals": 21,
+      "mode": "weighted",
+      "ranking_evaluations": 0,
+      "sessions": 16,
+      "solved": 53,
+      "spent": 19908,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 301,
+      "blocked": 29,
+      "correct": 371,
+      "correct_goals": 11,
+      "extra_accepted": 0,
+      "extrapolation": {
+        "abstained": 516,
+        "correct": 636,
+        "solved": 53,
+        "wrong": 0
+      },
+      "incomplete_goals": 21,
+      "mode": "learned",
+      "ranking_evaluations": 0,
+      "sessions": 16,
+      "solved": 53,
+      "spent": 24860,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 322,
+      "blocked": 31,
+      "correct": 350,
+      "correct_goals": 9,
+      "extra_accepted": 0,
+      "extrapolation": {
+        "abstained": 552,
+        "correct": 600,
+        "solved": 50,
+        "wrong": 0
+      },
+      "incomplete_goals": 23,
+      "mode": "selected",
+      "ranking_evaluations": 3120,
+      "sessions": 16,
+      "solved": 50,
+      "spent": 22296,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 259,
+      "blocked": 24,
+      "correct": 413,
+      "correct_goals": 12,
+      "extra_accepted": 21,
+      "extrapolation": {
+        "abstained": 444,
+        "correct": 708,
+        "solved": 59,
+        "wrong": 0
+      },
+      "incomplete_goals": 20,
+      "mode": "generalized",
+      "ranking_evaluations": 0,
+      "sessions": 16,
+      "solved": 59,
+      "spent": 27171,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 308,
+      "blocked": 27,
+      "correct": 364,
+      "correct_goals": 10,
+      "extra_accepted": 15,
+      "extrapolation": {
+        "abstained": 528,
+        "correct": 624,
+        "solved": 52,
+        "wrong": 0
+      },
+      "incomplete_goals": 22,
+      "mode": "random",
+      "ranking_evaluations": 0,
+      "sessions": 16,
+      "solved": 52,
+      "spent": 29226,
+      "wrong": 0,
+      "wrong_goals": 0
+    }
+  ],
+  "budget": 3600,
+  "deployment": false,
+  "goals": [
+    4,
+    5
+  ],
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "library_size": 8,
+  "novel_count": 8,
+  "protocol": "V108-generalization-planning-v1"
+}

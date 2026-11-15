@@ -1,0 +1,2946 @@
+[
+  {
+    "features": {
+      "distinct": 1,
+      "median_improvement": [
+        0.0,
+        -4.5,
+        -2.0,
+        -4.5,
+        -3.5,
+        0.5,
+        0.5,
+        2.0
+      ],
+      "monotonic": true,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -2,
+        -1
+      ],
+      [
+        -6,
+        -1
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        6,
+        -1
+      ],
+      [
+        7,
+        -1
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62000019
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        -5.0,
+        -5.5,
+        -2.0,
+        -5.0,
+        -10.0,
+        -5.0,
+        0.0,
+        1.5
+      ],
+      "monotonic": true,
+      "parity_match": 4,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        6,
+        3
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        -4,
+        -2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62000019
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        5.5,
+        -8.0,
+        4.5,
+        -7.0,
+        8.0,
+        5.5,
+        1.0,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        -3,
+        -4
+      ],
+      [
+        7,
+        -8
+      ],
+      [
+        5,
+        -6
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        -8,
+        18
+      ],
+      [
+        -6,
+        14
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62000019
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        7.0,
+        -2.0,
+        9.0,
+        -3.0,
+        4.0,
+        9.0,
+        -1.0,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -7,
+        8
+      ],
+      [
+        -3,
+        4
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -5,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        -6,
+        24
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62000019
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        2.0,
+        -2.0,
+        3.0,
+        -3.0,
+        -6.0,
+        0.5,
+        0.0,
+        3.0
+      ],
+      "monotonic": false,
+      "parity_match": 5,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -2,
+        4
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62030020
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        0.0,
+        -3.0,
+        1.0,
+        -4.0,
+        -3.0,
+        1.5,
+        0.0,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        5,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        -7,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -3,
+        2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62030020
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        1.5,
+        -3.5,
+        0.5,
+        -4.5,
+        -4.5,
+        1.0,
+        0.0,
+        3.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -5,
+        1
+      ],
+      [
+        -7,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        -6,
+        0
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62030020
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        11.0,
+        -0.5,
+        -4.0,
+        0.5,
+        16.5,
+        9.0,
+        0.5,
+        -0.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        6,
+        -12
+      ],
+      [
+        -5,
+        -20
+      ],
+      [
+        4,
+        -8
+      ],
+      [
+        7,
+        -14
+      ],
+      [
+        -7,
+        -28
+      ],
+      [
+        2,
+        -4
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62030020
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        3.0,
+        -6.0,
+        -3.0,
+        -5.0,
+        -1.5,
+        4.0,
+        1.0,
+        1.5
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -6,
+        -3
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        3,
+        -2
+      ],
+      [
+        5,
+        -3
+      ],
+      [
+        8,
+        -4
+      ],
+      [
+        6,
+        -3
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62060021
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        0.0,
+        -4.5,
+        0.5,
+        -4.5,
+        -4.5,
+        0.0,
+        0.5,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -4,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        -7,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62060021
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        0.5,
+        -3.5,
+        1.0,
+        -3.5,
+        -3.0,
+        1.0,
+        -0.5,
+        0.0
+      ],
+      "monotonic": false,
+      "parity_match": 5,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        2,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -4,
+        -2
+      ],
+      [
+        -7,
+        7
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62060021
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        2.0,
+        -2.5,
+        2.0,
+        -2.5,
+        0.5,
+        2.0,
+        0.5,
+        1.5
+      ],
+      "monotonic": false,
+      "parity_match": 5,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62060021
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        3.0,
+        -0.5,
+        5.0,
+        -1.5,
+        7.5,
+        5.0,
+        -0.5,
+        0.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -1,
+        2
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -6,
+        12
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        -4,
+        8
+      ],
+      [
+        -3,
+        6
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62090022
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        2.0,
+        -4.5,
+        1.0,
+        -4.5,
+        -4.5,
+        0.5,
+        0.5,
+        1.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        1,
+        0
+      ],
+      [
+        -8,
+        6
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        -6,
+        4
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62090022
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        -5.5,
+        0.0,
+        -2.0,
+        -1.0,
+        -7.0,
+        -4.0,
+        -0.5,
+        1.0
+      ],
+      "monotonic": true,
+      "parity_match": 2,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        -7,
+        -4
+      ],
+      [
+        -8,
+        -5
+      ],
+      [
+        -4,
+        -1
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62090022
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        7.5,
+        -4.0,
+        5.5,
+        -4.0,
+        5.0,
+        7.0,
+        0.0,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -7,
+        5
+      ],
+      [
+        -6,
+        6
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        -8,
+        5
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62090022
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        8.0,
+        -4.5,
+        8.0,
+        -4.5,
+        4.5,
+        8.0,
+        -0.5,
+        2.5
+      ],
+      "monotonic": true,
+      "parity_match": 6,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        -6,
+        6
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -7,
+        7
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        3,
+        -3
+      ],
+      [
+        6,
+        -6
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62120023
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        0.0,
+        -3.0,
+        0.5,
+        -3.5,
+        -3.0,
+        0.0,
+        0.5,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -2,
+        1
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        -8,
+        1
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62120023
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        0.0,
+        -1.5,
+        3.0,
+        -1.5,
+        -3.0,
+        1.0,
+        -1.0,
+        0.5
+      ],
+      "monotonic": false,
+      "parity_match": 6,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -6,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        -5,
+        5
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62120023
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        4.0,
+        -4.0,
+        0.0,
+        -4.0,
+        1.0,
+        2.0,
+        0.0,
+        2.0
+      ],
+      "monotonic": true,
+      "parity_match": 4,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        4,
+        -16
+      ],
+      [
+        -6,
+        1
+      ],
+      [
+        2,
+        -8
+      ],
+      [
+        8,
+        -32
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -4,
+        1
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62120023
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        8.5,
+        -3.0,
+        6.5,
+        -4.0,
+        9.0,
+        8.5,
+        0.0,
+        2.0
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        -9
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        -4,
+        11
+      ],
+      [
+        -3,
+        9
+      ],
+      [
+        5,
+        -7
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62150024
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        3.0,
+        -3.0,
+        0.0,
+        -3.0,
+        0.0,
+        2.5,
+        0.0,
+        1.5
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        4,
+        -3
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        3,
+        -2
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -7,
+        2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62150024
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        -0.5,
+        -6.5,
+        1.5,
+        -6.5,
+        -4.5,
+        0.5,
+        -0.5,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        2,
+        4
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        -7,
+        4
+      ],
+      [
+        -8,
+        2
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62150024
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        0.0,
+        -3.5,
+        -1.0,
+        -3.5,
+        -4.5,
+        -1.0,
+        -0.5,
+        1.5
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        -5,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        1
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62150024
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        0.0,
+        4.0,
+        3.5,
+        5.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -3,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -4,
+        8
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62180025
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        0.5,
+        -3.0,
+        0.5,
+        -2.5,
+        -2.0,
+        1.5,
+        0.0,
+        1.5
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        2,
+        1
+      ],
+      [
+        -8,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62180025
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -2.5,
+        -1.5,
+        2.0,
+        -1.5,
+        -3.0,
+        -0.5,
+        -0.5,
+        1.0
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        2,
+        3
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        -8,
+        1
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62180025
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        4.0,
+        -4.5,
+        4.0,
+        -4.5,
+        -1.5,
+        4.0,
+        -0.5,
+        1.0
+      ],
+      "monotonic": false,
+      "parity_match": 6,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        7,
+        7
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -5,
+        5
+      ],
+      [
+        -8,
+        8
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62180025
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        3.0,
+        -4.5,
+        1.5,
+        -4.5,
+        -2.0,
+        1.0,
+        -0.5,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -4,
+        3
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62210026
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -2.5,
+        -6.0,
+        -1.0,
+        -5.0,
+        -7.0,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        0
+      ],
+      [
+        -7,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62210026
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        10.0,
+        -4.0,
+        10.0,
+        -5.0,
+        14.0,
+        11.0,
+        0.0,
+        3.0
+      ],
+      "monotonic": true,
+      "parity_match": 4,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        7,
+        -15
+      ],
+      [
+        6,
+        -13
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -3
+      ],
+      [
+        -4,
+        7
+      ],
+      [
+        -7,
+        13
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62210026
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        1.5,
+        -4.0,
+        0.5,
+        -4.0,
+        -4.0,
+        -0.5,
+        0.0,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -4,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -5,
+        2
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62210026
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        -1.5,
+        -5.5,
+        -0.5,
+        -4.5,
+        -4.5,
+        0.5,
+        0.0,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -1,
+        1
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62240027
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        -4.5,
+        -1.5,
+        -3.5,
+        -2.5,
+        -7.5,
+        -4.5,
+        -0.5,
+        0.5
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        -4,
+        0
+      ],
+      [
+        8,
+        24
+      ],
+      [
+        -8,
+        -8
+      ],
+      [
+        -5,
+        -2
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62240027
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        -1.5,
+        -3.0,
+        -2.5,
+        -3.0,
+        -5.0,
+        -2.0,
+        0.0,
+        -0.5
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        8,
+        -9
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        -6,
+        -5
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62240027
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        2.0,
+        -1.5,
+        3.5,
+        -1.5,
+        0.5,
+        3.0,
+        -0.5,
+        1.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -4,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62240027
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        3.0,
+        -5.0,
+        1.0,
+        -5.0,
+        -3.0,
+        1.5,
+        0.0,
+        3.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        8,
+        2
+      ],
+      [
+        -7,
+        2
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        -2,
+        1
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62270028
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -0.5,
+        -6.5,
+        -1.0,
+        -6.0,
+        -5.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        1,
+        2
+      ],
+      [
+        -7,
+        1
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62270028
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        0.0,
+        -5.0,
+        -2.0,
+        -5.0,
+        -4.0,
+        0.5,
+        0.0,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -1,
+        -2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        -2
+      ],
+      [
+        -4,
+        -2
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62270028
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        -2.5,
+        -8.0,
+        -1.0,
+        -7.0,
+        -8.0,
+        -1.5,
+        1.0,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        -8,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62270028
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        0.5,
+        -5.0,
+        -0.5,
+        -5.0,
+        -6.0,
+        -1.5,
+        0.0,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -8,
+        2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62300029
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        -3.5,
+        -2.0,
+        0.5,
+        -1.0,
+        -5.0,
+        -3.5,
+        0.0,
+        -1.0
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        -3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        -5,
+        -19
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62300029
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        2.0,
+        3.5,
+        -4.0,
+        3.5,
+        -0.5,
+        0.0,
+        0.5,
+        -1.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -6,
+        -12
+      ],
+      [
+        -8,
+        -16
+      ],
+      [
+        4,
+        -8
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        3,
+        -2
+      ],
+      [
+        -3,
+        -2
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62300029
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        2.0,
+        0.5,
+        -12.0,
+        1.5,
+        6.5,
+        0.0,
+        0.5,
+        -2.5
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        -8
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        -7,
+        -14
+      ],
+      [
+        7,
+        -16
+      ],
+      [
+        6,
+        -14
+      ],
+      [
+        -8,
+        -16
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62300029
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -1.0,
+        -4.0,
+        0.5,
+        -3.0,
+        -5.0,
+        -0.5,
+        0.0,
+        1.5
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        1,
+        2
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        -7,
+        2
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62330030
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        -5.0,
+        -3.5,
+        -5.0,
+        -3.5,
+        -11.5,
+        -7.0,
+        -0.5,
+        1.5
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        -2,
+        0
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        -4,
+        -2
+      ],
+      [
+        -5,
+        -2
+      ],
+      [
+        -6,
+        -4
+      ],
+      [
+        -7,
+        -4
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62330030
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        0.0,
+        -4.5,
+        -1.0,
+        -4.5,
+        -4.5,
+        -0.5,
+        -0.5,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -3,
+        0
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        -7,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62330030
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -0.5,
+        -2.0,
+        3.5,
+        -3.0,
+        -2.0,
+        1.5,
+        0.5,
+        3.0
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -3,
+        4
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62330030
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        -6.0,
+        2.5,
+        -2.5,
+        2.5,
+        -8.5,
+        -5.5,
+        -0.5,
+        -1.0
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        6,
+        14
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        -3,
+        -6
+      ],
+      [
+        -5,
+        -10
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        -2,
+        -2
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62360031
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -1.5,
+        -7.5,
+        -1.0,
+        -6.5,
+        -7.5,
+        -1.0,
+        0.5,
+        2.0
+      ],
+      "monotonic": false,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -3,
+        0
+      ],
+      [
+        -8,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62360031
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        -0.5,
+        -5.0,
+        1.0,
+        -5.0,
+        -5.0,
+        -0.5,
+        0.5,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        2
+      ],
+      [
+        -6,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        -2,
+        4
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62360031
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        3.0,
+        -4.5,
+        -7.0,
+        -4.5,
+        5.5,
+        1.0,
+        0.5,
+        -0.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        8,
+        -15
+      ],
+      [
+        7,
+        -13
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        4,
+        -7
+      ],
+      [
+        -7,
+        -7
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62360031
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        0.5,
+        -2.5,
+        1.5,
+        -1.5,
+        -0.5,
+        2.0,
+        -0.5,
+        0.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -7,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        -1,
+        4
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62390032
+  },
+  {
+    "features": {
+      "distinct": 4,
+      "median_improvement": [
+        4.0,
+        -4.5,
+        2.0,
+        -4.5,
+        -1.5,
+        2.0,
+        0.5,
+        2.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -5,
+        3
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -6,
+        3
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62390032
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        6.0,
+        -6.0,
+        3.0,
+        -6.0,
+        0.0,
+        6.0,
+        0.0,
+        3.0
+      ],
+      "monotonic": true,
+      "parity_match": 5,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        8,
+        -4
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        7,
+        -3
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        -5,
+        3
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62390032
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        -8.0,
+        -4.5,
+        1.0,
+        -3.5,
+        -10.5,
+        -6.0,
+        -1.0,
+        -1.5
+      ],
+      "monotonic": false,
+      "parity_match": 0,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        -5,
+        4
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62390032
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        7.0,
+        -5.0,
+        -1.0,
+        -4.0,
+        3.5,
+        5.0,
+        0.0,
+        0.5
+      ],
+      "monotonic": false,
+      "parity_match": 0,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -3,
+        -2
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        6,
+        -7
+      ],
+      [
+        5,
+        -6
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        4,
+        -5
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62420033
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        5.0,
+        -5.5,
+        4.0,
+        -5.5,
+        -1.5,
+        4.0,
+        0.5,
+        3.0
+      ],
+      "monotonic": true,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        0,
+        0
+      ],
+      [
+        -7,
+        4
+      ],
+      [
+        -6,
+        4
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62420033
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        0.5,
+        -1.5,
+        1.0,
+        -2.5,
+        -2.5,
+        1.5,
+        -0.5,
+        0.5
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        -4,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        -6
+      ],
+      [
+        -5,
+        -4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62420033
+  },
+  {
+    "features": {
+      "distinct": 5,
+      "median_improvement": [
+        2.0,
+        -4.0,
+        0.0,
+        -4.0,
+        -2.0,
+        1.5,
+        0.0,
+        2.0
+      ],
+      "monotonic": true,
+      "parity_match": 3,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -8,
+        2
+      ],
+      [
+        -6,
+        1
+      ],
+      [
+        8,
+        -2
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62420033
+  },
+  {
+    "features": {
+      "distinct": 3,
+      "median_improvement": [
+        1.0,
+        -2.5,
+        1.0,
+        -2.5,
+        -1.5,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "monotonic": false,
+      "parity_match": 3,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -1,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -5,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "kind": "primitive",
+    "seed": 62450034
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        -2.0,
+        -4.0,
+        -5.0,
+        -4.0,
+        -6.0,
+        -2.0,
+        0.0,
+        -0.5
+      ],
+      "monotonic": true,
+      "parity_match": 2,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -1,
+        -4
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        -4,
+        -4
+      ],
+      [
+        7,
+        -2
+      ],
+      [
+        -7,
+        -4
+      ]
+    ],
+    "kind": "control_first",
+    "seed": 62450034
+  },
+  {
+    "features": {
+      "distinct": 2,
+      "median_improvement": [
+        0.5,
+        -4.5,
+        -1.0,
+        -4.5,
+        -5.5,
+        -1.0,
+        -0.5,
+        3.5
+      ],
+      "monotonic": false,
+      "parity_match": 4,
+      "sign_change": false
+    },
+    "fit": [
+      [
+        -7,
+        -1
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        -5,
+        0
+      ],
+      [
+        -8,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "kind": "control_last",
+    "seed": 62450034
+  },
+  {
+    "features": {
+      "distinct": 6,
+      "median_improvement": [
+        -3.5,
+        -1.0,
+        -1.5,
+        -1.0,
+        -7.0,
+        -4.0,
+        -1.0,
+        0.5
+      ],
+      "monotonic": true,
+      "parity_match": 4,
+      "sign_change": true
+    },
+    "fit": [
+      [
+        3,
+        5
+      ],
+      [
+        -5,
+        -3
+      ],
+      [
+        -8,
+        -5
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        -3,
+        -1
+      ]
+    ],
+    "kind": "mixed",
+    "seed": 62450034
+  }
+]

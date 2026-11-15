@@ -1,0 +1,61 @@
+{
+  "aggregate": [
+    {
+      "abstained": 189,
+      "candidates": 37558,
+      "correct": 259,
+      "emitted": 37,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "weighted",
+      "ranking_evaluations": 0,
+      "rejected": 4,
+      "solved": 37,
+      "tasks": 64,
+      "wrong": 0
+    },
+    {
+      "abstained": 196,
+      "candidates": 42779,
+      "correct": 252,
+      "emitted": 36,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "learned",
+      "ranking_evaluations": 0,
+      "rejected": 2,
+      "solved": 36,
+      "tasks": 64,
+      "wrong": 0
+    },
+    {
+      "abstained": 182,
+      "candidates": 37949,
+      "correct": 266,
+      "emitted": 38,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "selected",
+      "ranking_evaluations": 3072,
+      "rejected": 3,
+      "solved": 38,
+      "tasks": 64,
+      "wrong": 0
+    },
+    {
+      "abstained": 189,
+      "candidates": 39609,
+      "correct": 259,
+      "emitted": 37,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "subset_random",
+      "ranking_evaluations": 0,
+      "rejected": 3,
+      "solved": 37,
+      "tasks": 64,
+      "wrong": 0
+    }
+  ],
+  "protocol": "V104-fragment-selection-v1"
+}

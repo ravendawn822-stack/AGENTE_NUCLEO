@@ -1,0 +1,22 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "9315f301c2dbac43a37980d2721243c9f83e21a9cbd8985b3769ed3e54a30bb0"
+  },
+  {
+    "path": "STATUS.json",
+    "bytes": 41,
+    "sha256": "fc2679244d150b545d3b0f1c91ecfb7b8ec84651b017981363a2d11445be4cff"
+  },
+  {
+    "path": "records.json",
+    "bytes": 551090,
+    "sha256": "dfcd9dd0a37bd6d0f4aed246df250d93c43c65a0b285cb5c027319b044643911"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 1242,
+    "sha256": "f42b6cee87e1abec6d10f549de6b8c4f3bb35a9aa2ac5d71343266abdf1760d3"
+  }
+]

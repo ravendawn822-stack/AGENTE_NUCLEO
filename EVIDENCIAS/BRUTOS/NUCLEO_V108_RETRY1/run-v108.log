@@ -1,0 +1,137 @@
+{
+  "protocol": "V108-generalization-planning-v1",
+  "aggregate": [
+    {
+      "mode": "weighted",
+      "sessions": 16,
+      "correct_goals": 11,
+      "wrong_goals": 0,
+      "incomplete_goals": 21,
+      "spent": 19908,
+      "correct": 371,
+      "wrong": 0,
+      "abstained": 301,
+      "solved": 53,
+      "blocked": 29,
+      "ranking_evaluations": 0,
+      "extra_accepted": 0,
+      "extrapolation": {
+        "correct": 636,
+        "wrong": 0,
+        "abstained": 516,
+        "solved": 53
+      }
+    },
+    {
+      "mode": "learned",
+      "sessions": 16,
+      "correct_goals": 11,
+      "wrong_goals": 0,
+      "incomplete_goals": 21,
+      "spent": 24860,
+      "correct": 371,
+      "wrong": 0,
+      "abstained": 301,
+      "solved": 53,
+      "blocked": 29,
+      "ranking_evaluations": 0,
+      "extra_accepted": 0,
+      "extrapolation": {
+        "correct": 636,
+        "wrong": 0,
+        "abstained": 516,
+        "solved": 53
+      }
+    },
+    {
+      "mode": "selected",
+      "sessions": 16,
+      "correct_goals": 9,
+      "wrong_goals": 0,
+      "incomplete_goals": 23,
+      "spent": 22296,
+      "correct": 350,
+      "wrong": 0,
+      "abstained": 322,
+      "solved": 50,
+      "blocked": 31,
+      "ranking_evaluations": 3120,
+      "extra_accepted": 0,
+      "extrapolation": {
+        "correct": 600,
+        "wrong": 0,
+        "abstained": 552,
+        "solved": 50
+      }
+    },
+    {
+      "mode": "generalized",
+      "sessions": 16,
+      "correct_goals": 12,
+      "wrong_goals": 0,
+      "incomplete_goals": 20,
+      "spent": 27171,
+      "correct": 413,
+      "wrong": 0,
+      "abstained": 259,
+      "solved": 59,
+      "blocked": 24,
+      "ranking_evaluations": 0,
+      "extra_accepted": 21,
+      "extrapolation": {
+        "correct": 708,
+        "wrong": 0,
+        "abstained": 444,
+        "solved": 59
+      }
+    },
+    {
+      "mode": "random",
+      "sessions": 16,
+      "correct_goals": 10,
+      "wrong_goals": 0,
+      "incomplete_goals": 22,
+      "spent": 29226,
+      "correct": 364,
+      "wrong": 0,
+      "abstained": 308,
+      "solved": 52,
+      "blocked": 27,
+      "ranking_evaluations": 0,
+      "extra_accepted": 15,
+      "extrapolation": {
+        "correct": 624,
+        "wrong": 0,
+        "abstained": 528,
+        "solved": 52
+      }
+    }
+  ],
+  "budget": 3600,
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "goals": [
+    4,
+    5
+  ],
+  "library_size": 8,
+  "novel_count": 8,
+  "deployment": false
+}

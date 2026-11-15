@@ -1,0 +1,10 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_propose (__main__.Tests.test_propose) ... ok
+test_select (__main__.Tests.test_select) ... ok
+test_split (__main__.Tests.test_split) ... ok
+test_traced_reference (__main__.Tests.test_traced_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.076s
+
+OK

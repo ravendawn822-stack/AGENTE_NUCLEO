@@ -1,0 +1,107 @@
+{
+  "by_kind": [
+    {
+      "kind": "primitive",
+      "mean_best_improvement": 3.9375,
+      "mean_distinct": 3.8125,
+      "mean_parity_match": 3.125,
+      "monotonic": 4,
+      "sign_change": 3,
+      "tasks": 16
+    },
+    {
+      "kind": "control_first",
+      "mean_best_improvement": 1.96875,
+      "mean_distinct": 3.5625,
+      "mean_parity_match": 3.125,
+      "monotonic": 8,
+      "sign_change": 5,
+      "tasks": 16
+    },
+    {
+      "kind": "control_last",
+      "mean_best_improvement": 3.5625,
+      "mean_distinct": 4.0625,
+      "mean_parity_match": 3.625,
+      "monotonic": 4,
+      "sign_change": 7,
+      "tasks": 16
+    },
+    {
+      "kind": "mixed",
+      "mean_best_improvement": 4.46875,
+      "mean_distinct": 4.3125,
+      "mean_parity_match": 3,
+      "monotonic": 3,
+      "sign_change": 4,
+      "tasks": 16
+    }
+  ],
+  "library": [
+    [
+      [
+        "inc"
+      ],
+      [
+        "neg"
+      ]
+    ],
+    [
+      [
+        "inc"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "abs"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "double"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "neg"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "neg"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "inc"
+      ]
+    ]
+  ],
+  "protocol": "V103-observable-features-v1"
+}

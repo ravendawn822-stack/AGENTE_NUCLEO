@@ -1,0 +1,112 @@
+{
+  "aggregate": [
+    {
+      "abstained": 231,
+      "candidates": 40842,
+      "correct": 441,
+      "emitted": 63,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "weighted",
+      "ranking_evaluations": 0,
+      "rejected": 7,
+      "solved": 63,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 252,
+      "candidates": 50157,
+      "correct": 420,
+      "emitted": 60,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "learned",
+      "ranking_evaluations": 0,
+      "rejected": 8,
+      "solved": 60,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 252,
+      "candidates": 44716,
+      "correct": 420,
+      "emitted": 60,
+      "extra_accepted": 0,
+      "extra_used": 0,
+      "mode": "selected",
+      "ranking_evaluations": 4608,
+      "rejected": 7,
+      "solved": 60,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 245,
+      "candidates": 46078,
+      "correct": 427,
+      "emitted": 61,
+      "extra_accepted": 22,
+      "extra_used": 27,
+      "mode": "generalized",
+      "ranking_evaluations": 0,
+      "rejected": 8,
+      "solved": 61,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 280,
+      "candidates": 47934,
+      "correct": 392,
+      "emitted": 56,
+      "extra_accepted": 20,
+      "extra_used": 26,
+      "mode": "random",
+      "ranking_evaluations": 0,
+      "rejected": 7,
+      "solved": 56,
+      "tasks": 96,
+      "wrong": 0
+    }
+  ],
+  "outside": [
+    {
+      "abstained": 396,
+      "correct": 756,
+      "mode": "weighted",
+      "solved": 63,
+      "wrong": 0
+    },
+    {
+      "abstained": 432,
+      "correct": 720,
+      "mode": "learned",
+      "solved": 60,
+      "wrong": 0
+    },
+    {
+      "abstained": 432,
+      "correct": 720,
+      "mode": "selected",
+      "solved": 60,
+      "wrong": 0
+    },
+    {
+      "abstained": 420,
+      "correct": 732,
+      "mode": "generalized",
+      "solved": 61,
+      "wrong": 0
+    },
+    {
+      "abstained": 480,
+      "correct": 672,
+      "mode": "random",
+      "solved": 56,
+      "wrong": 0
+    }
+  ],
+  "protocol": "V107-extrapolation-v1"
+}
