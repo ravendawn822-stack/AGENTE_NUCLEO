@@ -86,9 +86,9 @@ def overall(rows,mode):return next(r for r in aggregate(rows) if r["family"]=="a
 def main():
     p=argparse.ArgumentParser();p.add_argument("--out",type=Path,required=True);a=p.parse_args()
     a.out.mkdir(parents=True,exist_ok=False)
-    training=phase(TRAIN,FAMILIES[:2],[("random","random",DEFAULT),("novel","novel",DEFAULT),("active","active",DEFAULT)])
+    training=phase(TRAIN,FAMILIES[:2],[("random","random",DEFAULT),("novel","novel",DEFAULT),("active","active",DEFAULT),("planned","planned",DEFAULT)])
     order=learn_order([r for r in training if r["mode"]=="active"])
-    train_scores={m:overall(training,m) for m in ("random","novel","active")}
+    train_scores={m:overall(training,m) for m in ("random","novel","active","planned")}
     candidate=max(train_scores,key=lambda m:(train_scores[m]["common_correct"],-train_scores[m]["common_wrong"],-train_scores[m]["candidates"]))
     validation=phase(VAL,FAMILIES[2:4],[("novel","novel",DEFAULT),("candidate",candidate,order)])
     x=overall(validation,"candidate");y=overall(validation,"novel")
@@ -96,7 +96,7 @@ def main():
     gate=dict(candidate=candidate,learned_order=order,promoted=promote,policy=candidate if promote else "novel",
         order=order if promote else DEFAULT)
     frozen=json.dumps(gate,sort_keys=True);(a.out/"gate.json").write_text(frozen)
-    configs=[("random","random",DEFAULT),("novel","novel",DEFAULT),("active","active",DEFAULT),
+    configs=[("random","random",DEFAULT),("novel","novel",DEFAULT),("active","active",DEFAULT),("planned","planned",DEFAULT),
              ("transfer","active",order),("gate",gate["policy"],gate["order"])]
     final=phase(TEST,FAMILIES,configs)
     for name,rows in (("train",training),("validation",validation),("test",final)):
