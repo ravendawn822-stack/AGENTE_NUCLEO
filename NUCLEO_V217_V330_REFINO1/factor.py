@@ -34,7 +34,6 @@ def fit_component(rows,i):
         item=(error,complexity,h);ranked.append(item);return item
     for _,_,f in leaf_fit(rows,i):add(((),f,f))
     singles=[(axis,op,k) for axis in range(2) for k in sorted({s[axis] for s,t in rows}) for op in ("eq","le","ne","gt")]
-    scores=[[],[]]
     def guarded(gs):
         yes=[(s,t) for s,t in rows if all(test_guard(g,s) for g in gs)]
         no=[(s,t) for s,t in rows if not all(test_guard(g,s) for g in gs)]
@@ -42,12 +41,10 @@ def fit_component(rows,i):
         l=leaf_fit(yes,i)[0][2];r=leaf_fit(no,i)[0][2]
         if l==r:return None
         return add((gs,l,r))
-    for g in singles:
-        item=guarded((g,))
-        if item is not None:scores[g[0]].append((item[:2],g))
-    # Rank by fit on observed data alone; fixed width, no evaluation labels.
-    best=[[g for _,g in sorted(sc)[:8]] for sc in scores]
-    for g,h in itertools.product(*best):
+    for g in singles:guarded((g,))
+    # A guard may be informative only in conjunction; do not filter on marginal effect.
+    groups=[[g for g in singles if g[0]==axis] for axis in range(2)]
+    for g,h in itertools.product(*groups):
         if len(seen)>=CAP:break
         guarded((g,h))
     ranked.sort()
