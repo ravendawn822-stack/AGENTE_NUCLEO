@@ -1,0 +1,14 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "sha256": "b3ca0a795601a078a440e7aa45bbccf77e776df56db7786b2c842e143a7d3015"
+  },
+  {
+    "path": "STATUS.json",
+    "sha256": "1c3ba8fbf1f3969d7cbc051cc8fe621454f57836b927464be29a39047a77b89c"
+  },
+  {
+    "path": "tests.log",
+    "sha256": "1061328379af45978c2cccf6e19f7bb8a92c23e21168c0cd0c69357cfc946de8"
+  }
+]
