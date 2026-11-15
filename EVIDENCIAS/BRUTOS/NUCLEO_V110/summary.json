@@ -1,0 +1,10 @@
+{
+  "admissible": 63,
+  "available": {
+    "even": 55,
+    "negative": 52
+  },
+  "protocol": "V110-observed-partition-v1",
+  "tasks": 64,
+  "two_options": 44
+}

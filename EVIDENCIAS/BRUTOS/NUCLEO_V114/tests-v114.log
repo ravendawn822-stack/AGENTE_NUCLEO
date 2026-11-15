@@ -1,0 +1,10 @@
+test_disjoint (__main__.Tests.test_disjoint) ... ok
+test_partition (__main__.Tests.test_partition) ... ok
+test_planner (__main__.Tests.test_planner) ... ok
+test_repair_cap (__main__.Tests.test_repair_cap) ... ok
+test_split (__main__.Tests.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK

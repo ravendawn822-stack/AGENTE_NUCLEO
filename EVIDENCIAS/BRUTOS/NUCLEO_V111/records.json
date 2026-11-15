@@ -1,0 +1,4655 @@
+[
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 48,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 35,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 9
+            },
+            {
+              "branch": "no",
+              "candidates": 12,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 48
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70000019
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 32,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 30,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 10
+            },
+            {
+              "branch": "no",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 32
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          []
+        ]
+      ]
+    },
+    "seed": 70000019
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 13,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 13
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70000019
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 127,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 120,
+              "program": [
+                [
+                  "double"
+                ],
+                [
+                  "abs"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 52
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 127
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "double"
+            ],
+            [
+              "abs"
+            ],
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70000019
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 35,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 33,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 11
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 35
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [],
+          [
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70030020
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 97,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 48,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 19
+            },
+            {
+              "branch": "no",
+              "candidates": 48,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 17
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 97
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70030020
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 749,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 158
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 450,
+              "program": null,
+              "pruned": 237
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 450
+        }
+      ],
+      "program": null
+    },
+    "seed": 70030020
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 630,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 142
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 331,
+              "program": null,
+              "pruned": 225
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 331
+        }
+      ],
+      "program": null
+    },
+    "seed": 70030020
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 21,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 9,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 11,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 1
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 21
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70060021
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 245,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 12,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 2
+            },
+            {
+              "branch": "no",
+              "candidates": 232,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 106
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 245
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70060021
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 114,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 86,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 36
+            },
+            {
+              "branch": "no",
+              "candidates": 27,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 6
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 114
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70060021
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 45,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 17,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 2
+            },
+            {
+              "branch": "no",
+              "candidates": 27,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 7
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 45
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70060021
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 447,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 172
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 131,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "abs"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 53
+            },
+            {
+              "branch": "no",
+              "candidates": 16,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 1
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 148
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "half"
+            ],
+            [
+              "abs"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70090022
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 104,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 76,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 28
+            },
+            {
+              "branch": "no",
+              "candidates": 27,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 8
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 104
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70090022
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 381,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 256,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 146
+            },
+            {
+              "branch": "no",
+              "candidates": 124,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 54
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 381
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ],
+            [
+              "half"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "half"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70090022
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 433,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 207,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 113
+            },
+            {
+              "branch": "no",
+              "candidates": 225,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 113
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 433
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70090022
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 59,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 56,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 19
+            },
+            {
+              "branch": "no",
+              "candidates": 2,
+              "program": [
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 59
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70120023
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 404,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 162
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 88,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 35
+            },
+            {
+              "branch": "no",
+              "candidates": 16,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 3
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 105
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70120023
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 345,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 10,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 1
+            },
+            {
+              "branch": "no",
+              "candidates": 334,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 197
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 345
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70120023
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 599,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 88,
+              "program": [
+                [
+                  "double"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 47
+            },
+            {
+              "branch": "no",
+              "candidates": 511,
+              "program": null,
+              "pruned": 292
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 599
+        }
+      ],
+      "program": null
+    },
+    "seed": 70120023
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 22,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 10,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 1
+            },
+            {
+              "branch": "no",
+              "candidates": 11,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 22
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70150024
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 682,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 35,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 15
+            },
+            {
+              "branch": "no",
+              "candidates": 559,
+              "program": null,
+              "pruned": 338
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 594
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 83,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 32
+            },
+            {
+              "branch": "no",
+              "candidates": 4,
+              "program": [
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 88
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70150024
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 347,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 119,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 74
+            },
+            {
+              "branch": "no",
+              "candidates": 227,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 106
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 347
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "half"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "half"
+            ],
+            [
+              "half"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70150024
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 646,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 17,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 4
+            },
+            {
+              "branch": "no",
+              "candidates": 582,
+              "program": null,
+              "pruned": 311
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 599
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 29,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 10
+            },
+            {
+              "branch": "no",
+              "candidates": 17,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 3
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 47
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70150024
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 127,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 125,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 60
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 127
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [],
+          [
+            [
+              "half"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70180025
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 3,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 3
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [],
+          []
+        ]
+      ]
+    },
+    "seed": 70180025
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 101,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 94,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 34
+            },
+            {
+              "branch": "no",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 101
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70180025
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 385,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 207,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 97
+            },
+            {
+              "branch": "no",
+              "candidates": 177,
+              "program": [
+                [
+                  "abs"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 99
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 385
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "abs"
+            ],
+            [
+              "half"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70180025
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 17,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 10,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 17
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70210026
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 617,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 16,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 3
+            },
+            {
+              "branch": "no",
+              "candidates": 583,
+              "program": null,
+              "pruned": 320
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 599
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 16,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 3
+            },
+            {
+              "branch": "no",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 18
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "double"
+            ]
+          ],
+          []
+        ]
+      ]
+    },
+    "seed": 70210026
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 95,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 14,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 1
+            },
+            {
+              "branch": "no",
+              "candidates": 80,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 26
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 95
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70210026
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 387,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 28,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 8
+            },
+            {
+              "branch": "no",
+              "candidates": 358,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 200
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 387
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70210026
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 141,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 122,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 50
+            },
+            {
+              "branch": "no",
+              "candidates": 18,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 1
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 141
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "half"
+            ],
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70240027
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 31,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 29,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 8
+            },
+            {
+              "branch": "no",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 31
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "half"
+            ]
+          ],
+          []
+        ]
+      ]
+    },
+    "seed": 70240027
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 331,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 267,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 151
+            },
+            {
+              "branch": "no",
+              "candidates": 63,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 24
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 331
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70240027
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 20,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 10,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 9,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 1
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 20
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70240027
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 32,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 3,
+              "program": [
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 28,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 6
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 32
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70270028
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 128,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 124,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 61
+            },
+            {
+              "branch": "no",
+              "candidates": 3,
+              "program": [
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 128
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70270028
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 97,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 33,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 9
+            },
+            {
+              "branch": "no",
+              "candidates": 63,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 32
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 97
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70270028
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 317,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 92,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 35
+            },
+            {
+              "branch": "no",
+              "candidates": 224,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 119
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 317
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70270028
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 50,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 8,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 1
+            },
+            {
+              "branch": "no",
+              "candidates": 41,
+              "program": [
+                [
+                  "abs"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 10
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 50
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "abs"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70300029
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 41,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 18,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 3
+            },
+            {
+              "branch": "no",
+              "candidates": 22,
+              "program": [
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 5
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 41
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70300029
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 195,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 53,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 20
+            },
+            {
+              "branch": "no",
+              "candidates": 141,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 61
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 195
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70300029
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 899,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 254,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "abs"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 134
+            },
+            {
+              "branch": "no",
+              "candidates": 345,
+              "program": null,
+              "pruned": 182
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 599
+        },
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 300,
+              "program": null,
+              "pruned": 174
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 300
+        }
+      ],
+      "program": null
+    },
+    "seed": 70300029
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 157,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 124,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 53
+            },
+            {
+              "branch": "no",
+              "candidates": 32,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 7
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 157
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "half"
+            ],
+            [
+              "half"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70330030
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 340,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 162
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 34,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 11
+            },
+            {
+              "branch": "no",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 41
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70330030
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 68,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 39,
+              "program": [
+                [
+                  "abs"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 11
+            },
+            {
+              "branch": "no",
+              "candidates": 28,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 10
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 68
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "abs"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70330030
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 778,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 155
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 104,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 58
+            },
+            {
+              "branch": "no",
+              "candidates": 374,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 197
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 479
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "half"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70330030
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 103,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 93,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 40
+            },
+            {
+              "branch": "no",
+              "candidates": 9,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 103
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70360031
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 35,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 17,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 2
+            },
+            {
+              "branch": "no",
+              "candidates": 17,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 3
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 35
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70360031
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 875,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 150
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 213,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ]
+              ],
+              "pruned": 115
+            },
+            {
+              "branch": "no",
+              "candidates": 362,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 180
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 576
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70360031
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 813,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 364,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 223
+            },
+            {
+              "branch": "no",
+              "candidates": 448,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 254
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 813
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70360031
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 20,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 18,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 2
+            },
+            {
+              "branch": "no",
+              "candidates": 1,
+              "program": [],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 20
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          []
+        ]
+      ]
+    },
+    "seed": 70390032
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 47,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 14,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 2
+            },
+            {
+              "branch": "no",
+              "candidates": 32,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 9
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 47
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70390032
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 99,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 32,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 9
+            },
+            {
+              "branch": "no",
+              "candidates": 66,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 30
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 99
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70390032
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 11,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 5,
+              "program": [
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 5,
+              "program": [
+                [
+                  "half"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 11
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "half"
+            ]
+          ],
+          [
+            [
+              "half"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70390032
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 117,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 7,
+              "program": [
+                [
+                  "abs"
+                ]
+              ],
+              "pruned": 0
+            },
+            {
+              "branch": "no",
+              "candidates": 109,
+              "program": [
+                [
+                  "double"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "abs"
+                ]
+              ],
+              "pruned": 49
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 117
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "abs"
+            ]
+          ],
+          [
+            [
+              "double"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "abs"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70420033
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 328,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 143
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 8,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 1
+            },
+            {
+              "branch": "no",
+              "candidates": 20,
+              "program": [
+                [
+                  "double"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 5
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 29
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "double"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70420033
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 335,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 176,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 88
+            },
+            {
+              "branch": "no",
+              "candidates": 158,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 85
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 335
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70420033
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 884,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 183
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 136,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 82
+            },
+            {
+              "branch": "no",
+              "candidates": 448,
+              "program": [
+                [
+                  "mod3"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 242
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 585
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ],
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70420033
+  },
+  {
+    "kind": "parity",
+    "search": {
+      "candidates": 121,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 114,
+              "program": [
+                [
+                  "half"
+                ],
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 51
+            },
+            {
+              "branch": "no",
+              "candidates": 6,
+              "program": [
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 0
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 121
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "half"
+            ],
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "mod3"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70450034
+  },
+  {
+    "kind": "sign",
+    "search": {
+      "candidates": 53,
+      "events": [
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 14,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 2
+            },
+            {
+              "branch": "no",
+              "candidates": 38,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ],
+                [
+                  "inc"
+                ]
+              ],
+              "pruned": 11
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            3,
+            3
+          ],
+          "spent": 53
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "inc"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ],
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70450034
+  },
+  {
+    "kind": "primitive",
+    "search": {
+      "candidates": 550,
+      "events": [
+        {
+          "assembled": false,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 299,
+              "program": null,
+              "pruned": 135
+            }
+          ],
+          "predicate": "even",
+          "sizes": [
+            4,
+            2
+          ],
+          "spent": 299
+        },
+        {
+          "assembled": true,
+          "parts": [
+            {
+              "branch": "yes",
+              "candidates": 18,
+              "program": [
+                [
+                  "neg"
+                ],
+                [
+                  "mod3"
+                ]
+              ],
+              "pruned": 4
+            },
+            {
+              "branch": "no",
+              "candidates": 232,
+              "program": [
+                [
+                  "inc"
+                ],
+                [
+                  "half"
+                ],
+                [
+                  "mod3"
+                ],
+                [
+                  "double"
+                ]
+              ],
+              "pruned": 110
+            }
+          ],
+          "predicate": "negative",
+          "sizes": [
+            2,
+            4
+          ],
+          "spent": 251
+        }
+      ],
+      "program": [
+        [
+          "if",
+          "negative",
+          [
+            [
+              "neg"
+            ],
+            [
+              "mod3"
+            ]
+          ],
+          [
+            [
+              "inc"
+            ],
+            [
+              "half"
+            ],
+            [
+              "mod3"
+            ],
+            [
+              "double"
+            ]
+          ]
+        ]
+      ]
+    },
+    "seed": 70450034
+  },
+  {
+    "kind": "mixed",
+    "search": {
+      "candidates": 0,
+      "events": [],
+      "program": null
+    },
+    "seed": 70450034
+  }
+]

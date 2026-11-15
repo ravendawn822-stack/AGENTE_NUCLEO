@@ -1,0 +1,121 @@
+{
+  "aggregate": [
+    {
+      "abstained": 511,
+      "blocked": 50,
+      "correct": 158,
+      "correct_goals": 2,
+      "incomplete_goals": 30,
+      "mode": "weighted",
+      "sessions": 16,
+      "solved": 22,
+      "spent": 24697,
+      "wrong": 3,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 546,
+      "blocked": 54,
+      "correct": 121,
+      "correct_goals": 0,
+      "incomplete_goals": 32,
+      "mode": "generalized",
+      "sessions": 16,
+      "solved": 16,
+      "spent": 28157,
+      "wrong": 5,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 511,
+      "blocked": 50,
+      "correct": 158,
+      "correct_goals": 2,
+      "incomplete_goals": 30,
+      "mode": "all_known",
+      "sessions": 16,
+      "solved": 22,
+      "spent": 31647,
+      "wrong": 3,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 518,
+      "blocked": 53,
+      "correct": 151,
+      "correct_goals": 0,
+      "incomplete_goals": 32,
+      "mode": "split",
+      "sessions": 16,
+      "solved": 21,
+      "spent": 7238,
+      "wrong": 3,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 161,
+      "blocked": 13,
+      "correct": 500,
+      "correct_goals": 15,
+      "incomplete_goals": 14,
+      "mode": "split_known",
+      "sessions": 16,
+      "solved": 69,
+      "spent": 21762,
+      "wrong": 11,
+      "wrong_goals": 3
+    },
+    {
+      "abstained": 518,
+      "blocked": 51,
+      "correct": 154,
+      "correct_goals": 2,
+      "incomplete_goals": 30,
+      "mode": "repair_direct",
+      "sessions": 16,
+      "solved": 22,
+      "spent": 31029,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 245,
+      "blocked": 20,
+      "correct": 418,
+      "correct_goals": 12,
+      "incomplete_goals": 19,
+      "mode": "repair_split",
+      "sessions": 16,
+      "solved": 58,
+      "spent": 30052,
+      "wrong": 9,
+      "wrong_goals": 1
+    }
+  ],
+  "budget": 3600,
+  "deployment": false,
+  "goals": [
+    4,
+    5
+  ],
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "protocol": "V114-bounded-partial-planning-v1"
+}

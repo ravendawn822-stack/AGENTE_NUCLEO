@@ -1,0 +1,9 @@
+{
+  "assembled": 59,
+  "branch_candidates": 16314,
+  "branch_searches": 141,
+  "branches_with_candidate": 123,
+  "partitions_attempted": 77,
+  "protocol": "V111-partial-search-v1",
+  "tasks": 64
+}

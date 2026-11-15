@@ -1,0 +1,121 @@
+{
+  "protocol": "V114-bounded-partial-planning-v1",
+  "aggregate": [
+    {
+      "mode": "weighted",
+      "sessions": 16,
+      "correct_goals": 2,
+      "wrong_goals": 0,
+      "incomplete_goals": 30,
+      "spent": 24697,
+      "correct": 158,
+      "wrong": 3,
+      "abstained": 511,
+      "solved": 22,
+      "blocked": 50
+    },
+    {
+      "mode": "generalized",
+      "sessions": 16,
+      "correct_goals": 0,
+      "wrong_goals": 0,
+      "incomplete_goals": 32,
+      "spent": 28157,
+      "correct": 121,
+      "wrong": 5,
+      "abstained": 546,
+      "solved": 16,
+      "blocked": 54
+    },
+    {
+      "mode": "all_known",
+      "sessions": 16,
+      "correct_goals": 2,
+      "wrong_goals": 0,
+      "incomplete_goals": 30,
+      "spent": 31647,
+      "correct": 158,
+      "wrong": 3,
+      "abstained": 511,
+      "solved": 22,
+      "blocked": 50
+    },
+    {
+      "mode": "split",
+      "sessions": 16,
+      "correct_goals": 0,
+      "wrong_goals": 0,
+      "incomplete_goals": 32,
+      "spent": 7238,
+      "correct": 151,
+      "wrong": 3,
+      "abstained": 518,
+      "solved": 21,
+      "blocked": 53
+    },
+    {
+      "mode": "split_known",
+      "sessions": 16,
+      "correct_goals": 15,
+      "wrong_goals": 3,
+      "incomplete_goals": 14,
+      "spent": 21762,
+      "correct": 500,
+      "wrong": 11,
+      "abstained": 161,
+      "solved": 69,
+      "blocked": 13
+    },
+    {
+      "mode": "repair_direct",
+      "sessions": 16,
+      "correct_goals": 2,
+      "wrong_goals": 0,
+      "incomplete_goals": 30,
+      "spent": 31029,
+      "correct": 154,
+      "wrong": 0,
+      "abstained": 518,
+      "solved": 22,
+      "blocked": 51
+    },
+    {
+      "mode": "repair_split",
+      "sessions": 16,
+      "correct_goals": 12,
+      "wrong_goals": 1,
+      "incomplete_goals": 19,
+      "spent": 30052,
+      "correct": 418,
+      "wrong": 9,
+      "abstained": 245,
+      "solved": 58,
+      "blocked": 20
+    }
+  ],
+  "budget": 3600,
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "goals": [
+    4,
+    5
+  ],
+  "deployment": false
+}
