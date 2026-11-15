@@ -1,0 +1,2 @@
+# V92 — interpretador
+Interpretador determinístico, sem eval/exec, somente AST validada e operações definidas em V91. Validar tipos estritos (bool não é int), intervalo, tamanho e profundidade; cada instrução executada custa uma unidade, inclusive controle; exceder orçamento ou intervalo provoca rejeição. Testar aritmética, condição, repetição, limites, erros e parsing; registrar exemplos e traces. Nenhum acesso externo a partir da DSL.
