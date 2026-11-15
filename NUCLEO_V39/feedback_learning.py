@@ -111,6 +111,13 @@ def read_bundle(directory):
         raise ValueError("manifest mismatch")
     if original["previous_proposal"]!=body["previous_proposal"]:
         raise ValueError("previous proposal mismatch")
+    packets,tasks,_,_=v38.plan()
+    if original["request"]!=packets[0] or original["reconstructed_goal"]!=list(tasks[0]["program"]):
+        raise ValueError("original V38 bundle differs from deterministic plan")
+    q.validate_response(original["request"],original["response"])
+    expected_body,expected_check=build_repair(original["request"],tuple(original["previous_proposal"]))
+    if expected_body!=body or expected_check!=original["public_check"]:
+        raise ValueError("repair feedback differs from deterministic reconstruction")
     return manifest,body,original
 
 def query(directory,index=1):
