@@ -1,0 +1,15 @@
+{
+  "alternatives": [
+    "near",
+    "shared",
+    "ratio"
+  ],
+  "generated_code": false,
+  "policies": [
+    "baseline",
+    "near",
+    "ratio",
+    "shared"
+  ],
+  "protocol": "V81-allowlisted-alternatives-v1"
+}

@@ -1,0 +1,91 @@
+{
+  "aggregate": {
+    "abstained": 5170,
+    "blocked": 116,
+    "correct_goals": 154,
+    "correct_predictions": 7472,
+    "failed": 37,
+    "goals": 384,
+    "incomplete_goals": 225,
+    "revisions": 37,
+    "sessions": 96,
+    "solved": 682,
+    "spent": 1123,
+    "utility": 217,
+    "wrong_goals": 5,
+    "wrong_predictions": 30
+  },
+  "by_condition": [
+    {
+      "abstained": 2002,
+      "blocked": 0,
+      "condition": "compatible",
+      "correct_goals": 100,
+      "correct_predictions": 4334,
+      "failed": 0,
+      "goals": 192,
+      "incomplete_goals": 92,
+      "revisions": 0,
+      "sessions": 48,
+      "solved": 394,
+      "spent": 576,
+      "utility": 424,
+      "wrong_goals": 0,
+      "wrong_predictions": 0
+    },
+    {
+      "abstained": 3168,
+      "blocked": 116,
+      "condition": "exceptions",
+      "correct_goals": 54,
+      "correct_predictions": 3138,
+      "failed": 37,
+      "goals": 192,
+      "incomplete_goals": 133,
+      "revisions": 37,
+      "sessions": 48,
+      "solved": 288,
+      "spent": 547,
+      "utility": -207,
+      "wrong_goals": 5,
+      "wrong_predictions": 30
+    }
+  ],
+  "by_context": [
+    {
+      "abstained": 2574,
+      "blocked": 58,
+      "context": "A",
+      "correct_goals": 80,
+      "correct_predictions": 3753,
+      "failed": 19,
+      "goals": 192,
+      "incomplete_goals": 109,
+      "revisions": 19,
+      "sessions": 48,
+      "solved": 342,
+      "spent": 563,
+      "utility": 117,
+      "wrong_goals": 3,
+      "wrong_predictions": 9
+    },
+    {
+      "abstained": 2596,
+      "blocked": 58,
+      "context": "B",
+      "correct_goals": 74,
+      "correct_predictions": 3719,
+      "failed": 18,
+      "goals": 192,
+      "incomplete_goals": 116,
+      "revisions": 18,
+      "sessions": 48,
+      "solved": 340,
+      "spent": 560,
+      "utility": 100,
+      "wrong_goals": 2,
+      "wrong_predictions": 21
+    }
+  ],
+  "protocol": "V79-instrumentation-v1"
+}

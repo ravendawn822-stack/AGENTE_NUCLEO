@@ -1,0 +1,10 @@
+test_baseline_equivalence (__main__.Tests.test_baseline_equivalence) ... ok
+test_budget_dependencies (__main__.Tests.test_budget_dependencies) ... ok
+test_recommendation (__main__.Tests.test_recommendation) ... ok
+test_scenario (__main__.Tests.test_scenario) ... ok
+test_splits (__main__.Tests.test_splits) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.107s
+
+OK

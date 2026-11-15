@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "approved": false,
+    "baseline": {
+      "abstained": 5335,
+      "blocked": 126,
+      "correct_goals": 133,
+      "correct_predictions": 7286,
+      "failed": 36,
+      "goals": 384,
+      "incomplete_goals": 236,
+      "revisions": 36,
+      "sessions": 96,
+      "solved": 667,
+      "spent": 1097,
+      "utility": -367,
+      "wrong_goals": 15,
+      "wrong_predictions": 51
+    },
+    "candidate": "ratio",
+    "challenger": {
+      "abstained": 5203,
+      "blocked": 132,
+      "correct_goals": 165,
+      "correct_predictions": 7424,
+      "failed": 36,
+      "goals": 384,
+      "incomplete_goals": 201,
+      "revisions": 36,
+      "sessions": 96,
+      "solved": 679,
+      "spent": 1097,
+      "utility": -167,
+      "wrong_goals": 18,
+      "wrong_predictions": 45
+    },
+    "checks": {
+      "no_fewer_correct_goals": true,
+      "no_more_wrong_goals": false,
+      "no_more_wrong_predictions": true,
+      "no_stratum_utility_regression": false,
+      "utility_improved": true
+    },
+    "deployment": false,
+    "human_review_required": true,
+    "recommended": "baseline",
+    "schema": 1
+  },
+  "sha256": "fd98b0356f798a5533e76082179d4e67ff9a7eee638030868a92b17a96954676"
+}

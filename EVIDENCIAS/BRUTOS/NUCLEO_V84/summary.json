@@ -1,0 +1,266 @@
+{
+  "baseline": {
+    "aggregate": {
+      "abstained": 6842,
+      "blocked": 136,
+      "correct_goals": 190,
+      "correct_predictions": 10000,
+      "failed": 47,
+      "goals": 512,
+      "incomplete_goals": 301,
+      "revisions": 47,
+      "sessions": 128,
+      "solved": 914,
+      "spent": 1484,
+      "utility": -424,
+      "wrong_goals": 21,
+      "wrong_predictions": 54
+    },
+    "by_condition": [
+      {
+        "abstained": 2541,
+        "blocked": 0,
+        "condition": "compatible",
+        "correct_goals": 142,
+        "correct_predictions": 5907,
+        "failed": 0,
+        "goals": 256,
+        "incomplete_goals": 114,
+        "revisions": 0,
+        "sessions": 64,
+        "solved": 537,
+        "spent": 766,
+        "utility": 654,
+        "wrong_goals": 0,
+        "wrong_predictions": 0
+      },
+      {
+        "abstained": 4301,
+        "blocked": 136,
+        "condition": "exceptions",
+        "correct_goals": 48,
+        "correct_predictions": 4093,
+        "failed": 47,
+        "goals": 256,
+        "incomplete_goals": 187,
+        "revisions": 47,
+        "sessions": 64,
+        "solved": 377,
+        "spent": 718,
+        "utility": -1078,
+        "wrong_goals": 21,
+        "wrong_predictions": 54
+      }
+    ],
+    "by_context": [
+      {
+        "abstained": 3377,
+        "blocked": 64,
+        "context": "A",
+        "correct_goals": 97,
+        "correct_predictions": 5041,
+        "failed": 20,
+        "goals": 256,
+        "incomplete_goals": 146,
+        "revisions": 20,
+        "sessions": 64,
+        "solved": 461,
+        "spent": 744,
+        "utility": -294,
+        "wrong_goals": 13,
+        "wrong_predictions": 30
+      },
+      {
+        "abstained": 3465,
+        "blocked": 72,
+        "context": "B",
+        "correct_goals": 93,
+        "correct_predictions": 4959,
+        "failed": 27,
+        "goals": 256,
+        "incomplete_goals": 155,
+        "revisions": 27,
+        "sessions": 64,
+        "solved": 453,
+        "spent": 740,
+        "utility": -130,
+        "wrong_goals": 8,
+        "wrong_predictions": 24
+      }
+    ]
+  },
+  "counts": {
+    "A": [
+      128,
+      48,
+      16
+    ],
+    "B": [
+      16,
+      48,
+      128
+    ]
+  },
+  "delta": {
+    "abstained": 0,
+    "blocked": 0,
+    "correct_goals": 0,
+    "correct_predictions": 0,
+    "failed": 0,
+    "goals": 0,
+    "incomplete_goals": 0,
+    "revisions": 0,
+    "solved": 0,
+    "spent": 0,
+    "utility": 0,
+    "wrong_goals": 0,
+    "wrong_predictions": 0
+  },
+  "deployment": false,
+  "final_advantage": false,
+  "protocol": "V84-frozen-evaluation-v1",
+  "recommendation": {
+    "approved": false,
+    "baseline": {
+      "abstained": 5335,
+      "blocked": 126,
+      "correct_goals": 133,
+      "correct_predictions": 7286,
+      "failed": 36,
+      "goals": 384,
+      "incomplete_goals": 236,
+      "revisions": 36,
+      "sessions": 96,
+      "solved": 667,
+      "spent": 1097,
+      "utility": -367,
+      "wrong_goals": 15,
+      "wrong_predictions": 51
+    },
+    "candidate": "ratio",
+    "challenger": {
+      "abstained": 5203,
+      "blocked": 132,
+      "correct_goals": 165,
+      "correct_predictions": 7424,
+      "failed": 36,
+      "goals": 384,
+      "incomplete_goals": 201,
+      "revisions": 36,
+      "sessions": 96,
+      "solved": 679,
+      "spent": 1097,
+      "utility": -167,
+      "wrong_goals": 18,
+      "wrong_predictions": 45
+    },
+    "checks": {
+      "no_fewer_correct_goals": true,
+      "no_more_wrong_goals": false,
+      "no_more_wrong_predictions": true,
+      "no_stratum_utility_regression": false,
+      "utility_improved": true
+    },
+    "deployment": false,
+    "human_review_required": true,
+    "recommended": "baseline",
+    "schema": 1
+  },
+  "recommended": {
+    "aggregate": {
+      "abstained": 6842,
+      "blocked": 136,
+      "correct_goals": 190,
+      "correct_predictions": 10000,
+      "failed": 47,
+      "goals": 512,
+      "incomplete_goals": 301,
+      "revisions": 47,
+      "sessions": 128,
+      "solved": 914,
+      "spent": 1484,
+      "utility": -424,
+      "wrong_goals": 21,
+      "wrong_predictions": 54
+    },
+    "by_condition": [
+      {
+        "abstained": 2541,
+        "blocked": 0,
+        "condition": "compatible",
+        "correct_goals": 142,
+        "correct_predictions": 5907,
+        "failed": 0,
+        "goals": 256,
+        "incomplete_goals": 114,
+        "revisions": 0,
+        "sessions": 64,
+        "solved": 537,
+        "spent": 766,
+        "utility": 654,
+        "wrong_goals": 0,
+        "wrong_predictions": 0
+      },
+      {
+        "abstained": 4301,
+        "blocked": 136,
+        "condition": "exceptions",
+        "correct_goals": 48,
+        "correct_predictions": 4093,
+        "failed": 47,
+        "goals": 256,
+        "incomplete_goals": 187,
+        "revisions": 47,
+        "sessions": 64,
+        "solved": 377,
+        "spent": 718,
+        "utility": -1078,
+        "wrong_goals": 21,
+        "wrong_predictions": 54
+      }
+    ],
+    "by_context": [
+      {
+        "abstained": 3377,
+        "blocked": 64,
+        "context": "A",
+        "correct_goals": 97,
+        "correct_predictions": 5041,
+        "failed": 20,
+        "goals": 256,
+        "incomplete_goals": 146,
+        "revisions": 20,
+        "sessions": 64,
+        "solved": 461,
+        "spent": 744,
+        "utility": -294,
+        "wrong_goals": 13,
+        "wrong_predictions": 30
+      },
+      {
+        "abstained": 3465,
+        "blocked": 72,
+        "context": "B",
+        "correct_goals": 93,
+        "correct_predictions": 4959,
+        "failed": 27,
+        "goals": 256,
+        "incomplete_goals": 155,
+        "revisions": 27,
+        "sessions": 64,
+        "solved": 453,
+        "spent": 740,
+        "utility": -130,
+        "wrong_goals": 8,
+        "wrong_predictions": 24
+      }
+    ]
+  },
+  "test_checks": {
+    "no_fewer_correct_goals": true,
+    "no_more_wrong_goals": true,
+    "no_more_wrong_predictions": true,
+    "utility_improved": false
+  },
+  "test_sessions": 256
+}

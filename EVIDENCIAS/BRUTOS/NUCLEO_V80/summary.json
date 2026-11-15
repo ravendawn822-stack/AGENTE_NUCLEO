@@ -1,0 +1,34 @@
+{
+  "aggregate": {
+    "blocked_stop": 15,
+    "budget_exhausted": 81,
+    "completed": 154,
+    "cost_per_completed": 7.292207792207792,
+    "failed_probes": 441,
+    "outside_completed_closure": 388,
+    "spent": 1123
+  },
+  "by_condition": [
+    {
+      "blocked_stop": 0,
+      "budget_exhausted": 48,
+      "completed": 100,
+      "condition": "compatible",
+      "cost_per_completed": 5.76,
+      "failed_probes": 182,
+      "outside_completed_closure": 90,
+      "spent": 576
+    },
+    {
+      "blocked_stop": 15,
+      "budget_exhausted": 33,
+      "completed": 54,
+      "condition": "exceptions",
+      "cost_per_completed": 10.12962962962963,
+      "failed_probes": 259,
+      "outside_completed_closure": 298,
+      "spent": 547
+    }
+  ],
+  "protocol": "V80-diagnosis-v1"
+}

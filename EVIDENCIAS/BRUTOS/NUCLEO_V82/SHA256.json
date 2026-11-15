@@ -1,0 +1,47 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "d9b179f32ceb3cb72b4fb03e81315709d04826ec49abc41d98a0b72b295279e1"
+  },
+  {
+    "path": "STATUS.json",
+    "bytes": 41,
+    "sha256": "fc2679244d150b545d3b0f1c91ecfb7b8ec84651b017981363a2d11445be4cff"
+  },
+  {
+    "path": "dev_baseline.json",
+    "bytes": 1762011,
+    "sha256": "bc23f25cb02eac0873acc8611751f76d035f9e7c62499b90cf2cdb7d2be4292d"
+  },
+  {
+    "path": "dev_near.json",
+    "bytes": 1761958,
+    "sha256": "bb80ef66b2e05e1e8126e0fad5b773ed662163843bb61f2498a57036cfa0c4ff"
+  },
+  {
+    "path": "dev_ratio.json",
+    "bytes": 1763929,
+    "sha256": "d042a34c5a14c251ad8b39c5c852378f34cc06eacc41e9b682bbd4157b574839"
+  },
+  {
+    "path": "dev_shared.json",
+    "bytes": 1760027,
+    "sha256": "02d2a474f7b734747bc50b2ff28d47397791f0ae0034d86dd947f867557df919"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 13876,
+    "sha256": "34c5b5211b680c27dd34c887c1d89f15a85b1af6f254e9b78296d2ec51e7bf90"
+  },
+  {
+    "path": "validation_baseline.json",
+    "bytes": 1757867,
+    "sha256": "ee08b99842fb876fada96ca344cbd9bd022e4475c4ae2fcc30088a581a8991fd"
+  },
+  {
+    "path": "validation_ratio.json",
+    "bytes": 1760054,
+    "sha256": "3506cbe72111edce161f5ae6a29e8dc5f52d20a1a97944814a14ced388b9bef9"
+  }
+]
