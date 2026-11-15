@@ -1,0 +1,913 @@
+[
+  {
+    "accepted": true,
+    "assessment": {
+      "abstained": 0,
+      "candidates": 54,
+      "correct": 7,
+      "emitted": 1,
+      "program": [
+        [
+          "inc"
+        ],
+        [
+          "double"
+        ]
+      ],
+      "rejected": 0,
+      "solved": 1,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          -6,
+          -10
+        ],
+        [
+          -3,
+          -4
+        ]
+      ],
+      "fit": [
+        [
+          -7,
+          -12
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          -8,
+          -14
+        ]
+      ],
+      "held": [
+        [
+          4,
+          10
+        ],
+        [
+          -5,
+          -8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          -4,
+          -6
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "inc"
+        ],
+        [
+          "double"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 54,
+      "program": [
+        [
+          "inc"
+        ],
+        [
+          "double"
+        ]
+      ],
+      "pruned": 15
+    },
+    "seed": 46000019
+  },
+  {
+    "accepted": false,
+    "assessment": {
+      "abstained": 7,
+      "candidates": 1200,
+      "correct": 0,
+      "emitted": 0,
+      "program": null,
+      "rejected": 0,
+      "solved": 0,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          5,
+          -8
+        ],
+        [
+          8,
+          -14
+        ],
+        [
+          -4,
+          10
+        ],
+        [
+          7,
+          -12
+        ]
+      ],
+      "fit": [
+        [
+          -7,
+          16
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          -8,
+          18
+        ],
+        [
+          6,
+          -10
+        ],
+        [
+          -3,
+          8
+        ]
+      ],
+      "held": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          -6
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          -6,
+          14
+        ],
+        [
+          -5,
+          12
+        ],
+        [
+          2,
+          -2
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "neg"
+        ],
+        [
+          "inc"
+        ],
+        [
+          "double"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 1200,
+      "program": null,
+      "pruned": 587
+    },
+    "seed": 46030020
+  },
+  {
+    "accepted": false,
+    "assessment": {
+      "abstained": 7,
+      "candidates": 1200,
+      "correct": 0,
+      "emitted": 0,
+      "program": null,
+      "rejected": 0,
+      "solved": 0,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          3,
+          4
+        ],
+        [
+          -5,
+          -4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "fit": [
+        [
+          6,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          -7,
+          -6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          -8,
+          -6
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "held": [
+        [
+          -4,
+          -2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          -6,
+          -4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "half"
+        ],
+        [
+          "inc"
+        ],
+        [
+          "double"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 1200,
+      "program": null,
+      "pruned": 524
+    },
+    "seed": 46060021
+  },
+  {
+    "accepted": true,
+    "assessment": {
+      "abstained": 0,
+      "candidates": 302,
+      "correct": 7,
+      "emitted": 1,
+      "program": [
+        [
+          "abs"
+        ],
+        [
+          "inc"
+        ]
+      ],
+      "rejected": 0,
+      "solved": 1,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          -5,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -3,
+          4
+        ]
+      ],
+      "fit": [
+        [
+          -4,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          -7,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "held": [
+        [
+          -2,
+          3
+        ],
+        [
+          -6,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -8,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "abs"
+        ],
+        [
+          "inc"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 302,
+      "program": [
+        [
+          "abs"
+        ],
+        [
+          "inc"
+        ]
+      ],
+      "pruned": 132
+    },
+    "seed": 46090022
+  },
+  {
+    "accepted": true,
+    "assessment": {
+      "abstained": 0,
+      "candidates": 253,
+      "correct": 7,
+      "emitted": 1,
+      "program": [
+        [
+          "mod3"
+        ],
+        [
+          "neg"
+        ]
+      ],
+      "rejected": 0,
+      "solved": 1,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          -6,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -5,
+          -1
+        ]
+      ],
+      "fit": [
+        [
+          -2,
+          -1
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          -8,
+          -1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          -4,
+          -2
+        ]
+      ],
+      "held": [
+        [
+          8,
+          -2
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -7,
+          -2
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "mod3"
+        ],
+        [
+          "neg"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 253,
+      "program": [
+        [
+          "mod3"
+        ],
+        [
+          "neg"
+        ]
+      ],
+      "pruned": 99
+    },
+    "seed": 46120023
+  },
+  {
+    "accepted": true,
+    "assessment": {
+      "abstained": 0,
+      "candidates": 55,
+      "correct": 7,
+      "emitted": 1,
+      "program": [
+        [
+          "inc"
+        ],
+        [
+          "half"
+        ]
+      ],
+      "rejected": 0,
+      "solved": 1,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          -5,
+          -2
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          -4,
+          -2
+        ]
+      ],
+      "fit": [
+        [
+          5,
+          3
+        ],
+        [
+          -8,
+          -4
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          -3,
+          -1
+        ]
+      ],
+      "held": [
+        [
+          -7,
+          -3
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -6,
+          -3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "inc"
+        ],
+        [
+          "half"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 55,
+      "program": [
+        [
+          "inc"
+        ],
+        [
+          "half"
+        ]
+      ],
+      "pruned": 15
+    },
+    "seed": 46150024
+  },
+  {
+    "accepted": false,
+    "assessment": {
+      "abstained": 7,
+      "candidates": 1200,
+      "correct": 0,
+      "emitted": 0,
+      "program": null,
+      "rejected": 0,
+      "solved": 0,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          -4,
+          7
+        ],
+        [
+          -8,
+          15
+        ],
+        [
+          5,
+          -11
+        ],
+        [
+          1,
+          -3
+        ]
+      ],
+      "fit": [
+        [
+          7,
+          -15
+        ],
+        [
+          4,
+          -9
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          8,
+          -17
+        ],
+        [
+          2,
+          -5
+        ],
+        [
+          -3,
+          5
+        ]
+      ],
+      "held": [
+        [
+          3,
+          -7
+        ],
+        [
+          6,
+          -13
+        ],
+        [
+          -6,
+          11
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -7,
+          13
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -5,
+          9
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "double"
+        ],
+        [
+          "inc"
+        ],
+        [
+          "neg"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 1200,
+      "program": null,
+      "pruned": 560
+    },
+    "seed": 46180025
+  },
+  {
+    "accepted": true,
+    "assessment": {
+      "abstained": 0,
+      "candidates": 152,
+      "correct": 7,
+      "emitted": 1,
+      "program": [
+        [
+          "double"
+        ],
+        [
+          "inc"
+        ]
+      ],
+      "rejected": 0,
+      "solved": 1,
+      "wrong": 0
+    },
+    "case": {
+      "audit": [
+        [
+          0,
+          1
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "fit": [
+        [
+          2,
+          5
+        ],
+        [
+          -5,
+          -9
+        ],
+        [
+          -6,
+          -11
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          8,
+          17
+        ]
+      ],
+      "held": [
+        [
+          -7,
+          -13
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          -2,
+          -3
+        ]
+      ],
+      "kind": "training",
+      "target": [
+        [
+          "double"
+        ],
+        [
+          "inc"
+        ]
+      ]
+    },
+    "search": {
+      "candidates": 152,
+      "program": [
+        [
+          "double"
+        ],
+        [
+          "inc"
+        ]
+      ],
+      "pruned": 46
+    },
+    "seed": 46210026
+  }
+]

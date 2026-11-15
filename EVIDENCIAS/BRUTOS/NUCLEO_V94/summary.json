@@ -1,0 +1,53 @@
+{
+  "aggregate": [
+    {
+      "abstained": 301,
+      "audited": false,
+      "candidates": 36442,
+      "correct": 357,
+      "emitted": 53,
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 48,
+      "tasks": 96,
+      "wrong": 14
+    },
+    {
+      "abstained": 329,
+      "audited": true,
+      "candidates": 36442,
+      "correct": 340,
+      "emitted": 49,
+      "mode": "primitive",
+      "rejected": 4,
+      "solved": 48,
+      "tasks": 96,
+      "wrong": 3
+    },
+    {
+      "abstained": 308,
+      "audited": false,
+      "candidates": 54802,
+      "correct": 350,
+      "emitted": 52,
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 47,
+      "tasks": 96,
+      "wrong": 14
+    },
+    {
+      "abstained": 336,
+      "audited": true,
+      "candidates": 54802,
+      "correct": 333,
+      "emitted": 48,
+      "mode": "structured",
+      "rejected": 4,
+      "solved": 47,
+      "tasks": 96,
+      "wrong": 3
+    }
+  ],
+  "protocol": "V94-independent-audit-v1"
+}

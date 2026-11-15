@@ -1,0 +1,139 @@
+{
+  "acquired": 5,
+  "aggregate": [
+    {
+      "abstained": 343,
+      "candidates": 40561,
+      "correct": 329,
+      "emitted": 47,
+      "mode": "primitive",
+      "rejected": 2,
+      "solved": 47,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 87839,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "structured",
+      "rejected": 1,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 336,
+      "candidates": 65947,
+      "correct": 336,
+      "emitted": 48,
+      "mode": "learned",
+      "rejected": 1,
+      "solved": 48,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 87234,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "random",
+      "rejected": 2,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    }
+  ],
+  "control": [
+    [
+      [
+        "double"
+      ],
+      [
+        "mod3"
+      ]
+    ],
+    [
+      [
+        "inc"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "double"
+      ],
+      [
+        "half"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "inc"
+      ],
+      [
+        "inc"
+      ]
+    ]
+  ],
+  "library": [
+    [
+      [
+        "inc"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "abs"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "mod3"
+      ],
+      [
+        "neg"
+      ]
+    ],
+    [
+      [
+        "inc"
+      ],
+      [
+        "half"
+      ]
+    ],
+    [
+      [
+        "double"
+      ],
+      [
+        "inc"
+      ]
+    ]
+  ],
+  "protocol": "V95-frozen-program-memory-v1",
+  "redundancy": {
+    "learned": 0,
+    "random": 1
+  },
+  "training_candidates": 4416
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "1fe1c6fba8511a81d90073c4b5d0566870d44414a7374f45e875489fd0d917ca"
+  },
+  {
+    "path": "STATUS.json",
+    "bytes": 41,
+    "sha256": "fc2679244d150b545d3b0f1c91ecfb7b8ec84651b017981363a2d11445be4cff"
+  },
+  {
+    "path": "memory.json",
+    "bytes": 321,
+    "sha256": "375e82ab220e4ea4e32ae493644e5f6ca2f7777a55aa6f2392d083ecf50bff85"
+  },
+  {
+    "path": "records.json",
+    "bytes": 588715,
+    "sha256": "04f5ee6d5778e9251455c61a3d3b2799f6174f8a1f8f3485aef30523652dbd48"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 1809,
+    "sha256": "fbaaa6ed82aa0915766ffd1643faec47c4ce9b85a0e411db3c788e0d4f31f6b6"
+  },
+  {
+    "path": "training.json",
+    "bytes": 11775,
+    "sha256": "9098fb33eca3dc86142c65f34e5de8cf31c339a92fffdb30379b12b961c32924"
+  }
+]

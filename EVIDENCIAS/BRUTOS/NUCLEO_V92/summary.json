@@ -1,0 +1,106 @@
+{
+  "examples": [
+    {
+      "input": 3,
+      "output": 8,
+      "program": [
+        [
+          "inc"
+        ],
+        [
+          "double"
+        ]
+      ],
+      "trace": [
+        {
+          "after": 4,
+          "before": 3,
+          "operation": "inc",
+          "remaining": 63
+        },
+        {
+          "after": 8,
+          "before": 4,
+          "operation": "double",
+          "remaining": 62
+        }
+      ]
+    },
+    {
+      "input": 5,
+      "output": 2,
+      "program": [
+        [
+          "if",
+          "even",
+          [
+            [
+              "double"
+            ]
+          ],
+          [
+            [
+              "half"
+            ]
+          ]
+        ]
+      ],
+      "trace": [
+        {
+          "after": 2,
+          "before": 5,
+          "operation": "half",
+          "remaining": 62
+        },
+        {
+          "after": 2,
+          "before": 5,
+          "operation": "if",
+          "remaining": 62
+        }
+      ]
+    },
+    {
+      "input": -2,
+      "output": 1,
+      "program": [
+        [
+          "repeat",
+          3,
+          [
+            [
+              "inc"
+            ]
+          ]
+        ]
+      ],
+      "trace": [
+        {
+          "after": -1,
+          "before": -2,
+          "operation": "inc",
+          "remaining": 62
+        },
+        {
+          "after": 0,
+          "before": -1,
+          "operation": "inc",
+          "remaining": 61
+        },
+        {
+          "after": 1,
+          "before": 0,
+          "operation": "inc",
+          "remaining": 60
+        },
+        {
+          "after": 1,
+          "before": -2,
+          "operation": "repeat",
+          "remaining": 60
+        }
+      ]
+    }
+  ],
+  "protocol": "V92-restricted-interpreter-v1"
+}

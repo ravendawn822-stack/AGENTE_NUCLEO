@@ -1,0 +1,67 @@
+{
+  "acquired": 5,
+  "aggregate": [
+    {
+      "abstained": 539,
+      "correct": 133,
+      "correct_goals": 0,
+      "incomplete_goals": 32,
+      "mode": "structured",
+      "sessions": 16,
+      "solved": 19,
+      "spent": 33512,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 469,
+      "correct": 203,
+      "correct_goals": 1,
+      "incomplete_goals": 31,
+      "mode": "learned",
+      "sessions": 16,
+      "solved": 29,
+      "spent": 29771,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 539,
+      "correct": 133,
+      "correct_goals": 0,
+      "incomplete_goals": 32,
+      "mode": "random",
+      "sessions": 16,
+      "solved": 19,
+      "spent": 33608,
+      "wrong": 0,
+      "wrong_goals": 0
+    }
+  ],
+  "budget": 3600,
+  "external_actions": false,
+  "goals": [
+    4,
+    5
+  ],
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "protocol": "V96-bounded-program-planning-v1"
+}

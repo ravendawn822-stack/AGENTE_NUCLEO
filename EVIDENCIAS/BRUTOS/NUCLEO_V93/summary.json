@@ -1,0 +1,125 @@
+{
+  "aggregate": [
+    {
+      "abstained": 301,
+      "candidates": 36442,
+      "correct": 357,
+      "emitted": 53,
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 48,
+      "tasks": 96,
+      "wrong": 14
+    },
+    {
+      "abstained": 308,
+      "candidates": 54802,
+      "correct": 350,
+      "emitted": 52,
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 47,
+      "tasks": 96,
+      "wrong": 14
+    }
+  ],
+  "by_kind": [
+    {
+      "abstained": 0,
+      "candidates": 2292,
+      "correct": 224,
+      "emitted": 32,
+      "kind": "primitive",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 32,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 217,
+      "candidates": 24036,
+      "correct": 2,
+      "emitted": 1,
+      "kind": "condition",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 0,
+      "tasks": 32,
+      "wrong": 5
+    },
+    {
+      "abstained": 0,
+      "candidates": 704,
+      "correct": 112,
+      "emitted": 16,
+      "kind": "repeat",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 16,
+      "tasks": 16,
+      "wrong": 0
+    },
+    {
+      "abstained": 84,
+      "candidates": 9410,
+      "correct": 19,
+      "emitted": 4,
+      "kind": "outside",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 0,
+      "tasks": 16,
+      "wrong": 9
+    },
+    {
+      "abstained": 224,
+      "candidates": 38400,
+      "correct": 0,
+      "emitted": 0,
+      "kind": "primitive",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 0,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 738,
+      "correct": 219,
+      "emitted": 32,
+      "kind": "condition",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 31,
+      "tasks": 32,
+      "wrong": 5
+    },
+    {
+      "abstained": 0,
+      "candidates": 656,
+      "correct": 112,
+      "emitted": 16,
+      "kind": "repeat",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 16,
+      "tasks": 16,
+      "wrong": 0
+    },
+    {
+      "abstained": 84,
+      "candidates": 15008,
+      "correct": 19,
+      "emitted": 4,
+      "kind": "outside",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 0,
+      "tasks": 16,
+      "wrong": 9
+    }
+  ],
+  "protocol": "V93-synthesis-v1"
+}

@@ -1,0 +1,11 @@
+test_audit (__main__.Tests.test_audit) ... ok
+test_interpreter (__main__.Tests.test_interpreter) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_planner (__main__.Tests.test_planner) ... ok
+test_split (__main__.Tests.test_split) ... ok
+test_synthesis (__main__.Tests.test_synthesis) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK

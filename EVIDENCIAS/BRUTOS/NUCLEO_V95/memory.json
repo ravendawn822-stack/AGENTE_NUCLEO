@@ -1,0 +1,1 @@
+{"payload":{"control":[[["double"],["mod3"]],[["inc"],["inc"]],[["double"],["half"]],[["half"],["inc"]],[["inc"],["inc"]]],"library":[[["inc"],["double"]],[["abs"],["inc"]],[["mod3"],["neg"]],[["inc"],["half"]],[["double"],["inc"]]],"schema":1},"sha256":"c879fe98e9943954e00ec8235bf9ac98554152640158d918b70abad7eac6ff5a"}

@@ -1,0 +1,22 @@
+{
+  "grammar_atoms": 50,
+  "limits": {
+    "depth": 4,
+    "fuel": 64,
+    "integer": 4096,
+    "nodes": 32
+  },
+  "operations": [
+    "inc",
+    "neg",
+    "double",
+    "half",
+    "mod3",
+    "abs"
+  ],
+  "predicates": [
+    "even",
+    "negative"
+  ],
+  "protocol": "V91-symbolic-language-v1"
+}
