@@ -1,0 +1,852 @@
+{
+  "protocol": "V42-composed-memory-v1",
+  "seeds": [
+    5700017,
+    5730023,
+    5760031,
+    5790041
+  ],
+  "pair_budget": 12000,
+  "motifs": 1296,
+  "pair_universe": 1679616,
+  "snapshots": [
+    {
+      "seed": 5700017,
+      "policy": "plain",
+      "library": [],
+      "sha": "25a1765b7ea79703f185cbb575c800e4cf7c35bef6a4904feb063073dc38b936"
+    },
+    {
+      "seed": 5700017,
+      "policy": "random",
+      "library": [
+        [
+          "fork",
+          "add",
+          "rotate",
+          "sum",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "maximum",
+          "maximum",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "inc",
+          "difference",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "sum",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "count",
+          "even",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "sum",
+          "neg",
+          ""
+        ]
+      ],
+      "sha": "79938cdf582bf9035c8e14fdee226c37ca6388b3f7e758d37c473929034755b3"
+    },
+    {
+      "seed": 5700017,
+      "policy": "memory",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a"
+    },
+    {
+      "seed": 5730023,
+      "policy": "plain",
+      "library": [],
+      "sha": "25a1765b7ea79703f185cbb575c800e4cf7c35bef6a4904feb063073dc38b936"
+    },
+    {
+      "seed": 5730023,
+      "policy": "random",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "sum",
+          "even",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "difference",
+          "rotate",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "difference",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "drop1",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "drop1",
+          "bounds",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "sort",
+          "unique",
+          ""
+        ]
+      ],
+      "sha": "84aee5211f1977a97aba4109093e98655ed0733f15ff590c665d7483a9807146"
+    },
+    {
+      "seed": 5730023,
+      "policy": "memory",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a"
+    },
+    {
+      "seed": 5760031,
+      "policy": "plain",
+      "library": [],
+      "sha": "25a1765b7ea79703f185cbb575c800e4cf7c35bef6a4904feb063073dc38b936"
+    },
+    {
+      "seed": 5760031,
+      "policy": "random",
+      "library": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "maximum",
+          "unique",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "drop1",
+          "difference",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "take2",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "count",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "bounds",
+          "bounds",
+          ""
+        ]
+      ],
+      "sha": "e6ec5d08def42bcd6b5ec57a7b461cea07150c2380d1543032b9cd233a1ddbb7"
+    },
+    {
+      "seed": 5760031,
+      "policy": "memory",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a"
+    },
+    {
+      "seed": 5790041,
+      "policy": "plain",
+      "library": [],
+      "sha": "25a1765b7ea79703f185cbb575c800e4cf7c35bef6a4904feb063073dc38b936"
+    },
+    {
+      "seed": 5790041,
+      "policy": "random",
+      "library": [
+        [
+          "fork",
+          "sub",
+          "bounds",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "sub",
+          "sort",
+          "take2",
+          ""
+        ],
+        [
+          "fork",
+          "sub",
+          "inc",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "sub",
+          "even",
+          "positive",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "sum",
+          "unique",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "neg",
+          "maximum",
+          ""
+        ]
+      ],
+      "sha": "c8d24f03b6c8c2a0d31cf7a0c823d1956fb306353675749dbfdf93fd0d2408d5"
+    },
+    {
+      "seed": 5790041,
+      "policy": "memory",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a"
+    }
+  ],
+  "acquisition": {
+    "n": 24,
+    "correct": 24,
+    "wrong": 0,
+    "abstained": 0,
+    "examined": 156384,
+    "checks": 157477,
+    "wall_ns": 492689584,
+    "priority_examined": 0,
+    "first_from_memory": 0,
+    "teaching_observations": 576,
+    "teaching_checks": 1248,
+    "retained": 24
+  },
+  "aggregate": [
+    {
+      "policy": "plain",
+      "n": 72,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 52,
+      "single_examined": 1711504,
+      "single_checks": 1711935,
+      "single_wall_ns": 5977851759,
+      "pair_examined": 626596,
+      "pair_checks": 626886,
+      "pair_wall_ns": 2075152128,
+      "from_priority": 0
+    },
+    {
+      "policy": "random",
+      "n": 72,
+      "correct": 20,
+      "wrong": 0,
+      "abstained": 52,
+      "single_examined": 1711504,
+      "single_checks": 1711935,
+      "single_wall_ns": 5882357890,
+      "pair_examined": 626740,
+      "pair_checks": 627010,
+      "pair_wall_ns": 2072645670,
+      "from_priority": 0
+    },
+    {
+      "policy": "memory",
+      "n": 72,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 28,
+      "single_examined": 1711504,
+      "single_checks": 1711935,
+      "single_wall_ns": 6026261806,
+      "pair_examined": 338956,
+      "pair_checks": 339459,
+      "pair_wall_ns": 1157257651,
+      "from_priority": 24
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "plain",
+      "stratum": "related",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "single_examined": 685152,
+      "single_checks": 685152,
+      "single_wall_ns": 2414427484,
+      "pair_examined": 288000,
+      "pair_checks": 288072,
+      "pair_wall_ns": 951580738,
+      "from_priority": 0
+    },
+    {
+      "policy": "plain",
+      "stratum": "novel",
+      "n": 24,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 20,
+      "single_examined": 685152,
+      "single_checks": 685388,
+      "single_wall_ns": 2388384625,
+      "pair_examined": 242596,
+      "pair_checks": 242814,
+      "pair_wall_ns": 808513563,
+      "from_priority": 0
+    },
+    {
+      "policy": "plain",
+      "stratum": "simple",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 112816,
+      "single_checks": 113011,
+      "single_wall_ns": 387057898,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "from_priority": 0
+    },
+    {
+      "policy": "plain",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "single_wall_ns": 787981752,
+      "pair_examined": 96000,
+      "pair_checks": 96000,
+      "pair_wall_ns": 315057827,
+      "from_priority": 0
+    },
+    {
+      "policy": "random",
+      "stratum": "related",
+      "n": 24,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 24,
+      "single_examined": 685152,
+      "single_checks": 685152,
+      "single_wall_ns": 2351637775,
+      "pair_examined": 288000,
+      "pair_checks": 288052,
+      "pair_wall_ns": 948275095,
+      "from_priority": 0
+    },
+    {
+      "policy": "random",
+      "stratum": "novel",
+      "n": 24,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 20,
+      "single_examined": 685152,
+      "single_checks": 685388,
+      "single_wall_ns": 2354643150,
+      "pair_examined": 242740,
+      "pair_checks": 242958,
+      "pair_wall_ns": 807508871,
+      "from_priority": 0
+    },
+    {
+      "policy": "random",
+      "stratum": "simple",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 112816,
+      "single_checks": 113011,
+      "single_wall_ns": 382530335,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "from_priority": 0
+    },
+    {
+      "policy": "random",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "single_wall_ns": 793546630,
+      "pair_examined": 96000,
+      "pair_checks": 96000,
+      "pair_wall_ns": 316861704,
+      "from_priority": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "related",
+      "n": 24,
+      "correct": 24,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 685152,
+      "single_checks": 685152,
+      "single_wall_ns": 2426492520,
+      "pair_examined": 216,
+      "pair_checks": 480,
+      "pair_wall_ns": 3359234,
+      "from_priority": 24
+    },
+    {
+      "policy": "memory",
+      "stratum": "novel",
+      "n": 24,
+      "correct": 4,
+      "wrong": 0,
+      "abstained": 20,
+      "single_examined": 685152,
+      "single_checks": 685388,
+      "single_wall_ns": 2404372498,
+      "pair_examined": 242740,
+      "pair_checks": 242979,
+      "pair_wall_ns": 833260680,
+      "from_priority": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "simple",
+      "n": 16,
+      "correct": 16,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 112816,
+      "single_checks": 113011,
+      "single_wall_ns": 390929810,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "from_priority": 0
+    },
+    {
+      "policy": "memory",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "single_wall_ns": 804466978,
+      "pair_examined": 96000,
+      "pair_checks": 96000,
+      "pair_wall_ns": 320637737,
+      "from_priority": 0
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 5700017,
+      "policy": "plain",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 427921,
+      "single_wall_ns": 1534280635,
+      "pair_examined": 156649,
+      "pair_checks": 156665,
+      "pair_wall_ns": 542713456,
+      "from_priority": 0
+    },
+    {
+      "seed": 5700017,
+      "policy": "random",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 427921,
+      "single_wall_ns": 1500523387,
+      "pair_examined": 156685,
+      "pair_checks": 156696,
+      "pair_wall_ns": 543835629,
+      "from_priority": 0
+    },
+    {
+      "seed": 5700017,
+      "policy": "memory",
+      "n": 18,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 7,
+      "single_examined": 427876,
+      "single_checks": 427921,
+      "single_wall_ns": 1542480858,
+      "pair_examined": 84739,
+      "pair_checks": 84818,
+      "pair_wall_ns": 299581626,
+      "from_priority": 6
+    },
+    {
+      "seed": 5730023,
+      "policy": "plain",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 427923,
+      "single_wall_ns": 1461056131,
+      "pair_examined": 156649,
+      "pair_checks": 156665,
+      "pair_wall_ns": 499816515,
+      "from_priority": 0
+    },
+    {
+      "seed": 5730023,
+      "policy": "random",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 427923,
+      "single_wall_ns": 1461529420,
+      "pair_examined": 156685,
+      "pair_checks": 156696,
+      "pair_wall_ns": 501022902,
+      "from_priority": 0
+    },
+    {
+      "seed": 5730023,
+      "policy": "memory",
+      "n": 18,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 7,
+      "single_examined": 427876,
+      "single_checks": 427923,
+      "single_wall_ns": 1505866174,
+      "pair_examined": 84739,
+      "pair_checks": 84818,
+      "pair_wall_ns": 279546584,
+      "from_priority": 6
+    },
+    {
+      "seed": 5760031,
+      "policy": "plain",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 427922,
+      "single_wall_ns": 1533411344,
+      "pair_examined": 156649,
+      "pair_checks": 156665,
+      "pair_wall_ns": 535724527,
+      "from_priority": 0
+    },
+    {
+      "seed": 5760031,
+      "policy": "random",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 427922,
+      "single_wall_ns": 1499534115,
+      "pair_examined": 156685,
+      "pair_checks": 156696,
+      "pair_wall_ns": 535008953,
+      "from_priority": 0
+    },
+    {
+      "seed": 5760031,
+      "policy": "memory",
+      "n": 18,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 7,
+      "single_examined": 427876,
+      "single_checks": 427922,
+      "single_wall_ns": 1534920968,
+      "pair_examined": 84739,
+      "pair_checks": 84818,
+      "pair_wall_ns": 306250311,
+      "from_priority": 6
+    },
+    {
+      "seed": 5790041,
+      "policy": "plain",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 428169,
+      "single_wall_ns": 1449103649,
+      "pair_examined": 156649,
+      "pair_checks": 156891,
+      "pair_wall_ns": 496897630,
+      "from_priority": 0
+    },
+    {
+      "seed": 5790041,
+      "policy": "random",
+      "n": 18,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 13,
+      "single_examined": 427876,
+      "single_checks": 428169,
+      "single_wall_ns": 1420770968,
+      "pair_examined": 156685,
+      "pair_checks": 156922,
+      "pair_wall_ns": 492778186,
+      "from_priority": 0
+    },
+    {
+      "seed": 5790041,
+      "policy": "memory",
+      "n": 18,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 7,
+      "single_examined": 427876,
+      "single_checks": 428169,
+      "single_wall_ns": 1442993806,
+      "pair_examined": 84739,
+      "pair_checks": 85005,
+      "pair_wall_ns": 271879130,
+      "from_priority": 6
+    }
+  ]
+}
