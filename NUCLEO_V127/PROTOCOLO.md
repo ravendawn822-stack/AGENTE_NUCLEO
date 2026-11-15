@@ -1,0 +1,2 @@
+# V127 — contextos observáveis
+Pré-registro V127–V132. DSL V91, interpretador V92, gerador V109, domínio -8..8; seis exemplos iniciais, quatro entradas disponíveis, no máximo duas observações consultadas e sete reservas finais. Contexto calculado só por pares iniciais: monotonicidade das saídas ordenadas por entrada (crescente ou decrescente não estrita) e diversidade baixa (<=3 saídas) ou alta. Quatro categorias; sem rótulo de família, AST alvo ou reservas. Registrar distribuição de contextos e desempenho por contexto.
