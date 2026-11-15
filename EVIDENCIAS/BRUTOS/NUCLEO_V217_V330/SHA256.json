@@ -1,0 +1,46 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "sha256": "d4a4d9436717d3d15768b6a87a40c3eafd7622df5cf9f0d06a5a61cf40e28f18"
+  },
+  {
+    "path": "STATUS.json",
+    "sha256": "89ffa889c7bae56f67e2ff8254c4985140c2132a65b791e11f0e6c52a8991211"
+  },
+  {
+    "path": "bridge.json",
+    "sha256": "0f454b18185f2e4a611e8daf0661ace5c6ce2323f96830720a318b3c091eec0e"
+  },
+  {
+    "path": "bridge.log",
+    "sha256": "1d30bbe1cb1788e8cba175b6e9bdb292a38627d825b0ee06a15711d12cae624d"
+  },
+  {
+    "path": "experiment/gate.json",
+    "sha256": "cb6b26beb72be48207234c42f24707a76f06b8f5546d8fddcbb814bb594d82bc"
+  },
+  {
+    "path": "experiment/summary.json",
+    "sha256": "9cf0d92f138fce4027411b1cca18d9193bc8d4014db25e56bca1bd0b9a6214d6"
+  },
+  {
+    "path": "experiment/test.jsonl",
+    "sha256": "cc95f018e7990bc459709bc09622992583efe5ebb31914f83697ab4f1ae24605"
+  },
+  {
+    "path": "experiment/train.jsonl",
+    "sha256": "42e51b2f95e91c76807d251aa52f10a283e489e0250d15ed2f1796580ddf38ce"
+  },
+  {
+    "path": "experiment/validation.jsonl",
+    "sha256": "f35a14aa9df069b6caf5bf66d327dc41fcfa165c24f975a91774587caef8370b"
+  },
+  {
+    "path": "experiment.log",
+    "sha256": "d4458ac546b99a759fa37407a4cad585f741bf7be3edd956dfaabe4ccc22a05b"
+  },
+  {
+    "path": "tests.log",
+    "sha256": "fb9e61e1f3b4dac54c6283e1e23ab3d870eba135d0b40ad9ac2c267a2543440b"
+  }
+]
