@@ -1,0 +1,2 @@
+# V82 — Comparação controlada
+Avaliador externo executa as quatro ordenações em dev. Escolhe no máximo uma alternativa com maior utilidade U=10*objetivos corretos-40*objetivos errados-sondagens; desempate por nome lexicográfico. Só comparar candidata selecionada e referência na validação disjunta; manter todos resultados, inclusive se regressão. Mesmas entradas para todas políticas; não reajustar após validação. Custos de experimentação não incluídos no custo por sessão, reportar número de sessões avaliadas. Não alegar significância estatística.
