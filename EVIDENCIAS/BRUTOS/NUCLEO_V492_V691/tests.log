@@ -1,0 +1,8 @@
+test_bounds (__main__.Tests.test_bounds) ... ok
+test_contract_and_pipeline (__main__.Tests.test_contract_and_pipeline) ... ok
+test_http_resume_and_self_model (__main__.Tests.test_http_resume_and_self_model) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.810s
+
+OK
