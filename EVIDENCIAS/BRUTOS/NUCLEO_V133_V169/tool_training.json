@@ -1,0 +1,194 @@
+[
+  {
+    "actions": 20,
+    "bytes": 728,
+    "coverage": 17,
+    "seed": 100000019,
+    "success": true,
+    "tools": 33
+  },
+  {
+    "actions": 20,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100030020,
+    "success": true,
+    "tools": 48
+  },
+  {
+    "actions": 16,
+    "bytes": 532,
+    "coverage": 8,
+    "seed": 100060021,
+    "success": true,
+    "tools": 22
+  },
+  {
+    "actions": 18,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100090022,
+    "success": true,
+    "tools": 48
+  },
+  {
+    "actions": 16,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100120023,
+    "success": true,
+    "tools": 48
+  },
+  {
+    "actions": 30,
+    "bytes": 808,
+    "coverage": 21,
+    "seed": 100150024,
+    "success": true,
+    "tools": 37
+  },
+  {
+    "actions": 12,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100180025,
+    "success": true,
+    "tools": 48
+  },
+  {
+    "actions": 18,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100210026,
+    "success": true,
+    "tools": 48
+  },
+  {
+    "actions": 17,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100240027,
+    "success": true,
+    "tools": 48
+  },
+  {
+    "actions": 32,
+    "bytes": 852,
+    "coverage": 22,
+    "seed": 100270028,
+    "success": true,
+    "tools": 39
+  },
+  {
+    "actions": 15,
+    "bytes": 404,
+    "coverage": 8,
+    "seed": 100300029,
+    "success": true,
+    "tools": 13
+  },
+  {
+    "actions": 18,
+    "bytes": 692,
+    "coverage": 10,
+    "seed": 100330030,
+    "success": true,
+    "tools": 29
+  },
+  {
+    "actions": 15,
+    "bytes": 588,
+    "coverage": 7,
+    "seed": 100360031,
+    "success": true,
+    "tools": 24
+  },
+  {
+    "actions": 27,
+    "bytes": 892,
+    "coverage": 19,
+    "seed": 100390032,
+    "success": true,
+    "tools": 42
+  },
+  {
+    "actions": 15,
+    "bytes": 586,
+    "coverage": 10,
+    "seed": 100420033,
+    "success": true,
+    "tools": 23
+  },
+  {
+    "actions": 23,
+    "bytes": 852,
+    "coverage": 17,
+    "seed": 100450034,
+    "success": true,
+    "tools": 41
+  },
+  {
+    "actions": 7,
+    "bytes": 266,
+    "coverage": 4,
+    "seed": 100480035,
+    "success": true,
+    "tools": 5
+  },
+  {
+    "actions": 16,
+    "bytes": 472,
+    "coverage": 11,
+    "seed": 100510036,
+    "success": true,
+    "tools": 16
+  },
+  {
+    "actions": 24,
+    "bytes": 906,
+    "coverage": 16,
+    "seed": 100540037,
+    "success": true,
+    "tools": 43
+  },
+  {
+    "actions": 25,
+    "bytes": 906,
+    "coverage": 15,
+    "seed": 100570038,
+    "success": true,
+    "tools": 44
+  },
+  {
+    "actions": 21,
+    "bytes": 710,
+    "coverage": 14,
+    "seed": 100600039,
+    "success": true,
+    "tools": 31
+  },
+  {
+    "actions": 23,
+    "bytes": 580,
+    "coverage": 16,
+    "seed": 100630040,
+    "success": true,
+    "tools": 22
+  },
+  {
+    "actions": 18,
+    "bytes": 574,
+    "coverage": 12,
+    "seed": 100660041,
+    "success": true,
+    "tools": 22
+  },
+  {
+    "actions": 18,
+    "bytes": 1052,
+    "coverage": 8,
+    "seed": 100690042,
+    "success": true,
+    "tools": 48
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "actual": "deliver",
+    "correct": true,
+    "expected": "deliver",
+    "phrase": "entregar a carga"
+  },
+  {
+    "actual": "deliver",
+    "correct": true,
+    "expected": "deliver",
+    "phrase": "complete a entrega"
+  },
+  {
+    "actual": "deliver",
+    "correct": true,
+    "expected": "deliver",
+    "phrase": "quero que você entregue a carga"
+  },
+  {
+    "actual": "deliver",
+    "correct": true,
+    "expected": "deliver",
+    "phrase": "leve a carga processada ao destino"
+  },
+  {
+    "actual": "navigate",
+    "correct": true,
+    "expected": "navigate",
+    "phrase": "vá para a sala 4"
+  },
+  {
+    "actual": "navigate",
+    "correct": true,
+    "expected": "navigate",
+    "phrase": "ir até sala 2"
+  },
+  {
+    "actual": "status",
+    "correct": true,
+    "expected": "status",
+    "phrase": "qual é seu estado?"
+  },
+  {
+    "actual": "knowledge",
+    "correct": true,
+    "expected": "knowledge",
+    "phrase": "o que você sabe?"
+  },
+  {
+    "actual": "plan",
+    "correct": true,
+    "expected": "plan",
+    "phrase": "explique seu plano"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "apague os arquivos"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "execute python"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "entregue a carga e apague os arquivos"
+  },
+  {
+    "actual": "unknown",
+    "correct": true,
+    "expected": "unknown",
+    "phrase": "vá para sala 99"
+  }
+]

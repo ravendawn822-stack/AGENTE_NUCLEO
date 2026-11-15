@@ -1,0 +1,270 @@
+{
+  "deployment": false,
+  "exploration": [
+    {
+      "actions": 464,
+      "coverage": 283,
+      "decisions": 464,
+      "divergences": 0,
+      "episodes": 24,
+      "macro_uses": 0,
+      "mode": "directed",
+      "stations_found": 72,
+      "success": 24
+    },
+    {
+      "actions": 2375,
+      "coverage": 500,
+      "decisions": 2375,
+      "divergences": 0,
+      "episodes": 24,
+      "macro_uses": 0,
+      "mode": "random",
+      "stations_found": 72,
+      "success": 12
+    },
+    {
+      "actions": 884,
+      "coverage": 352,
+      "decisions": 884,
+      "divergences": 0,
+      "episodes": 24,
+      "macro_uses": 0,
+      "mode": "reactive",
+      "stations_found": 72,
+      "success": 24
+    }
+  ],
+  "language": {
+    "cases": 13,
+    "correct": 13,
+    "delivery_actions": 18,
+    "delivery_success": true,
+    "grammar_limited": true,
+    "unknown_request_actions": 0
+  },
+  "open_language": false,
+  "policy": {
+    "aggregate": [
+      {
+        "actions": 426,
+        "decisions": 426,
+        "episodes": 24,
+        "policy": "baseline",
+        "success": 24
+      },
+      {
+        "actions": 397,
+        "decisions": 397,
+        "episodes": 24,
+        "policy": "candidate",
+        "success": 24
+      },
+      {
+        "actions": 397,
+        "decisions": 397,
+        "episodes": 24,
+        "policy": "gate",
+        "success": 24
+      }
+    ],
+    "candidate_order": [
+      2,
+      0,
+      1
+    ],
+    "deployment": false,
+    "selected_order": [
+      2,
+      0,
+      1
+    ],
+    "training": [
+      {
+        "order": [
+          0,
+          1,
+          2
+        ],
+        "result": {
+          "actions": 271,
+          "decisions": 271,
+          "episodes": 16,
+          "success": 16
+        }
+      },
+      {
+        "order": [
+          1,
+          2,
+          0
+        ],
+        "result": {
+          "actions": 249,
+          "decisions": 249,
+          "episodes": 16,
+          "success": 16
+        }
+      },
+      {
+        "order": [
+          2,
+          0,
+          1
+        ],
+        "result": {
+          "actions": 243,
+          "decisions": 243,
+          "episodes": 16,
+          "success": 16
+        }
+      }
+    ],
+    "validation": {
+      "baseline": {
+        "actions": 292,
+        "decisions": 292,
+        "episodes": 16,
+        "success": 16
+      },
+      "candidate": {
+        "actions": 266,
+        "decisions": 266,
+        "episodes": 16,
+        "success": 16
+      }
+    },
+    "validation_passed": true
+  },
+  "programming": [
+    {
+      "abstained": 168,
+      "actions": 1608,
+      "candidates": 25221,
+      "correct": 487,
+      "correct_cargo": 69,
+      "delivered": 72,
+      "full_success": 68,
+      "mode": "pool_active",
+      "program_correct": 68,
+      "program_wrong": 4,
+      "queries": 147,
+      "tasks": 96,
+      "wrong": 17,
+      "wrong_cargo": 3
+    },
+    {
+      "abstained": 126,
+      "actions": 1641,
+      "candidates": 46425,
+      "correct": 522,
+      "correct_cargo": 74,
+      "delivered": 78,
+      "full_success": 72,
+      "mode": "expand_active",
+      "program_correct": 72,
+      "program_wrong": 6,
+      "queries": 192,
+      "tasks": 96,
+      "wrong": 24,
+      "wrong_cargo": 4
+    },
+    {
+      "abstained": 77,
+      "actions": 1686,
+      "candidates": 27767,
+      "correct": 545,
+      "correct_cargo": 79,
+      "delivered": 85,
+      "full_success": 68,
+      "mode": "split_random2",
+      "program_correct": 68,
+      "program_wrong": 17,
+      "queries": 192,
+      "tasks": 96,
+      "wrong": 50,
+      "wrong_cargo": 6
+    }
+  ],
+  "protocol": "V133-V169-integrated-pilot-v1",
+  "tools": {
+    "acquired": 822,
+    "aggregate": [
+      {
+        "actions": 444,
+        "changed": false,
+        "coverage": 270,
+        "decisions": 444,
+        "divergences": 0,
+        "episodes": 24,
+        "macro_uses": 0,
+        "mode": "cold",
+        "stations_found": 72,
+        "success": 24
+      },
+      {
+        "actions": 302,
+        "changed": false,
+        "coverage": 289,
+        "decisions": 145,
+        "divergences": 0,
+        "episodes": 24,
+        "macro_uses": 58,
+        "mode": "macro",
+        "stations_found": 72,
+        "success": 24
+      },
+      {
+        "actions": 302,
+        "changed": false,
+        "coverage": 289,
+        "decisions": 302,
+        "divergences": 0,
+        "episodes": 24,
+        "macro_uses": 0,
+        "mode": "map",
+        "stations_found": 72,
+        "success": 24
+      },
+      {
+        "actions": 438,
+        "changed": true,
+        "coverage": 276,
+        "decisions": 438,
+        "divergences": 0,
+        "episodes": 24,
+        "macro_uses": 0,
+        "mode": "cold",
+        "stations_found": 72,
+        "success": 24
+      },
+      {
+        "actions": 339,
+        "changed": true,
+        "coverage": 314,
+        "decisions": 229,
+        "divergences": 29,
+        "episodes": 24,
+        "macro_uses": 43,
+        "mode": "macro",
+        "stations_found": 72,
+        "success": 24
+      },
+      {
+        "actions": 339,
+        "changed": true,
+        "coverage": 314,
+        "decisions": 339,
+        "divergences": 29,
+        "episodes": 24,
+        "macro_uses": 0,
+        "mode": "map",
+        "stations_found": 72,
+        "success": 24
+      }
+    ],
+    "memory_bytes": 18712,
+    "training_actions": 464,
+    "training_episodes": 24
+  }
+}

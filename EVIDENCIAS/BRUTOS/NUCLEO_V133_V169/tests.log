@@ -1,0 +1,12 @@
+test_changed (__main__.Tests.test_changed) ... ok
+test_closed_loop (__main__.Tests.test_closed_loop) ... ok
+test_language (__main__.Tests.test_language) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_programming (__main__.Tests.test_programming) ... ok
+test_seeds (__main__.Tests.test_seeds) ... ok
+test_world (__main__.Tests.test_world) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.013s
+
+OK
