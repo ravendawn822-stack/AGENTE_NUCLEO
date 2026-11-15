@@ -1,5 +1,5 @@
 """Symbolic transition learning, bounded model search, intrinsic action selection."""
-from collections import Counter
+from collections import Counter,deque
 from itertools import product
 import random, json
 CAP=512
@@ -45,10 +45,10 @@ class Learner:
     def __init__(self,actions,mode="active",seed=0,order=("delta","constant","eq","le")):
         self.actions=tuple(actions)
         if not 1<=len(self.actions)<=16 or len(set(self.actions))!=len(self.actions):raise ValueError("actions")
-        if mode not in ("random","novel","active"):raise ValueError("mode")
+        if mode not in ("random","novel","active","planned"):raise ValueError("mode")
         self.mode=mode;self.rng=random.Random(seed);self.order=tuple(order)
         if sorted(self.order)!=["constant","delta","eq","le"]:raise ValueError("order")
-        self.edges={};self.models={};self.cost=0;self.counts=Counter();self.visits=Counter();self.events=[]
+        self.edges={};self.models={};self.cost=0;self.counts=Counter();self.visits=Counter();self.events=[];self.last_plan=None
     def predict(self,s,a,exact=False):
         if (s,a) in self.edges:return self.edges[s,a],"memory"
         if exact or not self.models.get(a):return None,"unknown"
@@ -56,8 +56,7 @@ class Learner:
         # Uncertain and erroneous fit must not become asserted knowledge.
         if errs:return None,"conflict"
         return apply(h,s),"hypothesis"
-    def choose(self,s):
-        if self.mode=="random":return self.rng.choice(self.actions),{}
+    def score(self,s):
         scores={}
         for a in self.actions:
             unseen=int((s,a) not in self.edges)
@@ -68,9 +67,27 @@ class Learner:
             p,_=self.predict(s,a)
             # Exact state repetition gets less value; uncertainty is not reward from the environment.
             novelty=1/(1+self.visits[p]) if p is not None else 1
-            scores[a]=round(2*unseen+novelty+1/(1+self.counts[a])+(disagreement if self.mode=="active" else 0),8)
-        best=max(scores.values())
-        return self.rng.choice([a for a in self.actions if scores[a]==best]),scores
+            scores[a]=round(2*unseen+novelty+1/(1+self.counts[a])+(disagreement if self.mode in ("active","planned") else 0),8)
+        return scores
+    def choose(self,s):
+        self.last_plan=None
+        if self.mode=="random":return self.rng.choice(self.actions),{}
+        scores=self.score(s)
+        best=max(scores.values());a=self.rng.choice([a for a in self.actions if scores[a]==best])
+        if self.mode!="planned":return a,scores
+        # Form an operational question (state/action to investigate), not a supplied world goal.
+        frontier=deque([(s,())]);seen={s};goal=(s,a);route=(a,)
+        while frontier:
+            x,path=frontier.popleft()
+            for b,v in self.score(x).items():
+                value=v-0.5*len(path)
+                if value>best:
+                    best=value;goal=(x,b);route=path+(b,)
+                t,_=self.predict(x,b)
+                if t is not None and t not in seen and len(path)<2 and len(seen)<64:
+                    seen.add(t);frontier.append((t,path+(b,)))
+        self.last_plan=dict(question=goal,route=route,score=best,states_considered=len(seen))
+        return route[0],scores
     def observe(self,s,a,t,scores=None):
         if a not in self.actions or not 1<=len(s)<=4 or len(t)!=len(s) or any(type(x) is not int or abs(x)>1000000 for x in s+t):raise ValueError("observation")
         p,source=self.predict(s,a)
@@ -83,7 +100,7 @@ class Learner:
         event=dict(step=len(self.events)+1,before=s,action=a,after=t,prediction=p,source=source,
             correct=None if p is None else p==t,changed=old is not None and old!=t,novel=old is None,
             revised=bool(before and after and before[0][2]!=after[0][2]),model=after[0] if after else None,
-            candidates=n,scores=scores or {})
+            candidates=n,scores=scores or {},experiment=self.last_plan)
         self.events.append(event);return event
     def step(self,env):
         s=tuple(env.observe());a,scores=self.choose(s);t=tuple(env.act(a))
