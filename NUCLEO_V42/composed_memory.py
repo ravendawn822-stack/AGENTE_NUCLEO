@@ -11,7 +11,7 @@ PAIR_CAP=12000
 MOTIFS=tuple(("fork",c,a,b,"") for c,a,b in itertools.product(f.COMB,f.LEAVES,f.LEAVES))
 MOTIF_SET=frozenset(MOTIFS)
 RELATED=("fourth_power","square_duplicate","mirror_square","repeat_four","pair_product_square","delta_duplicate")
-NOVEL=("double_square","mirror_product_duplicate","neg_concat_square","sorted_neg_mirror","reverse_delta_product","positive_concat_square")
+NOVEL=("double_square","mirror_product_duplicate","neg_concat_mirror_product","sorted_neg_mirror","reverse_delta_product","positive_concat_square")
 SIMPLE=("span","prefix","square_sum","reverse_concat")
 CONTROL=("product_prefix_mod97","repeat_three")
 PROTOCOL="V42-composed-memory-v1"
@@ -43,7 +43,9 @@ def oracle(name,x):
     if name=="delta_duplicate":return tuple(abs(z)-z for z in x)*2
     if name=="double_square":return tuple(4*z*z for z in x)
     if name=="mirror_product_duplicate":return tuple(u*v for u,v in zip(x,reversed(x)))*2
-    if name=="neg_concat_square":return tuple(z*z for z in x)*2
+    if name=="neg_concat_mirror_product":
+        y=tuple(-z for z in x)+x
+        return tuple(u*v for u,v in zip(y,reversed(y)))
     if name=="sorted_neg_mirror":
         y=tuple(sorted(x))+tuple(-z for z in x)
         return tuple(u+v for u,v in zip(y,reversed(y)))
