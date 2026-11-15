@@ -1,0 +1,77 @@
+{
+  "aggregate": [
+    {
+      "abstained_predictions": 147,
+      "abstained_programs": 21,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 25211,
+      "correct_predictions": 517,
+      "hypothesis_eliminations": 215,
+      "incorrect_programs": 2,
+      "initial_pool": 324,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_active",
+      "queries": 152,
+      "remaining_pool": 109,
+      "selected": {
+        "pool_active": 96
+      },
+      "signature_evaluations": 0,
+      "solved": 73,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": 650,
+      "wrong_predictions": 8
+    },
+    {
+      "abstained_predictions": 105,
+      "abstained_programs": 15,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 44199,
+      "correct_predictions": 557,
+      "hypothesis_eliminations": 215,
+      "incorrect_programs": 3,
+      "initial_pool": 324,
+      "interpreter_evaluations": 422688,
+      "mode": "expand_active",
+      "queries": 192,
+      "remaining_pool": 115,
+      "selected": {
+        "expand_active": 96
+      },
+      "signature_evaluations": 119,
+      "solved": 78,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": 660,
+      "wrong_predictions": 10
+    },
+    {
+      "abstained_predictions": 56,
+      "abstained_programs": 8,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 36869,
+      "correct_predictions": 594,
+      "hypothesis_eliminations": 215,
+      "incorrect_programs": 7,
+      "initial_pool": 324,
+      "interpreter_evaluations": 422688,
+      "mode": "switch",
+      "queries": 192,
+      "remaining_pool": 109,
+      "selected": {
+        "switch": 96
+      },
+      "signature_evaluations": 0,
+      "solved": 81,
+      "switch_attempts": 21,
+      "tasks": 96,
+      "utility": 530,
+      "wrong_predictions": 22
+    }
+  ],
+  "protocol": "V130-switch-v1"
+}

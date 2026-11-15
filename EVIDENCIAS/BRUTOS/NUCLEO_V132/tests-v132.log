@@ -1,0 +1,10 @@
+test_context (__main__.Tests.test_context) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_planner (__main__.Tests.test_planner) ... ok
+test_policies (__main__.Tests.test_policies) ... ok
+test_split (__main__.Tests.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.576s
+
+OK

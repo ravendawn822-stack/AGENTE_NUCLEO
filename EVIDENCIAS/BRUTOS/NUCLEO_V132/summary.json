@@ -1,0 +1,176 @@
+{
+  "aggregate": [
+    {
+      "abstained": 301,
+      "blocked": 29,
+      "correct": 371,
+      "correct_goals": 9,
+      "incomplete_goals": 23,
+      "mode": "pool_active",
+      "observations": 110,
+      "selected": {
+        "pool_active": 67
+      },
+      "sessions": 16,
+      "solved": 53,
+      "spent": 17582,
+      "utility": 90,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 399,
+      "blocked": 38,
+      "correct": 273,
+      "correct_goals": 4,
+      "incomplete_goals": 28,
+      "mode": "pool_consensus",
+      "observations": 94,
+      "selected": {
+        "pool_consensus": 58
+      },
+      "sessions": 16,
+      "solved": 39,
+      "spent": 15212,
+      "utility": 40,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 98,
+      "blocked": 8,
+      "correct": 529,
+      "correct_goals": 9,
+      "incomplete_goals": 8,
+      "mode": "split_random2",
+      "observations": 176,
+      "selected": {
+        "split_random2": 88
+      },
+      "sessions": 16,
+      "solved": 68,
+      "spent": 20599,
+      "utility": -510,
+      "wrong": 45,
+      "wrong_goals": 15
+    },
+    {
+      "abstained": 189,
+      "blocked": 16,
+      "correct": 483,
+      "correct_goals": 16,
+      "incomplete_goals": 16,
+      "mode": "expand_active",
+      "observations": 160,
+      "selected": {
+        "expand_active": 80
+      },
+      "sessions": 16,
+      "solved": 69,
+      "spent": 35208,
+      "utility": 160,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 182,
+      "blocked": 16,
+      "correct": 485,
+      "correct_goals": 16,
+      "incomplete_goals": 15,
+      "mode": "switch",
+      "observations": 160,
+      "selected": {
+        "switch": 80
+      },
+      "sessions": 16,
+      "solved": 69,
+      "spent": 29633,
+      "utility": 120,
+      "wrong": 5,
+      "wrong_goals": 1
+    },
+    {
+      "abstained": 301,
+      "blocked": 29,
+      "correct": 367,
+      "correct_goals": 7,
+      "incomplete_goals": 23,
+      "mode": "crosscheck",
+      "observations": 134,
+      "selected": {
+        "crosscheck": 67
+      },
+      "sessions": 16,
+      "solved": 52,
+      "spent": 25483,
+      "utility": -10,
+      "wrong": 4,
+      "wrong_goals": 2
+    },
+    {
+      "abstained": 301,
+      "blocked": 29,
+      "correct": 371,
+      "correct_goals": 9,
+      "incomplete_goals": 23,
+      "mode": "global",
+      "observations": 110,
+      "selected": {
+        "pool_active": 67
+      },
+      "sessions": 16,
+      "solved": 53,
+      "spent": 17582,
+      "utility": 90,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 322,
+      "blocked": 31,
+      "correct": 350,
+      "correct_goals": 7,
+      "incomplete_goals": 25,
+      "mode": "contextual",
+      "observations": 106,
+      "selected": {
+        "pool_active": 36,
+        "pool_consensus": 29
+      },
+      "sessions": 16,
+      "solved": 50,
+      "spent": 17058,
+      "utility": 70,
+      "wrong": 0,
+      "wrong_goals": 0
+    }
+  ],
+  "budget": 3600,
+  "deployment": false,
+  "global_choice": "pool_active",
+  "goals": [
+    4,
+    5
+  ],
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "protocol": "V132-meta-control-v1"
+}

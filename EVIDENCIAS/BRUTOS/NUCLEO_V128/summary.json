@@ -1,0 +1,313 @@
+{
+  "aggregate": [
+    {
+      "abstained_predictions": 175,
+      "abstained_programs": 25,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 25200,
+      "correct_predictions": 485,
+      "hypothesis_eliminations": 221,
+      "incorrect_programs": 5,
+      "initial_pool": 318,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_active",
+      "queries": 150,
+      "remaining_pool": 97,
+      "selected": {
+        "pool_active": 96
+      },
+      "signature_evaluations": 0,
+      "solved": 66,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": 460,
+      "wrong_predictions": 12
+    },
+    {
+      "abstained_predictions": 266,
+      "abstained_programs": 38,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 25200,
+      "correct_predictions": 400,
+      "hypothesis_eliminations": 221,
+      "incorrect_programs": 3,
+      "initial_pool": 318,
+      "interpreter_evaluations": 422688,
+      "mode": "pool_consensus",
+      "queries": 150,
+      "remaining_pool": 97,
+      "selected": {
+        "pool_consensus": 96
+      },
+      "signature_evaluations": 0,
+      "solved": 55,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": 430,
+      "wrong_predictions": 6
+    },
+    {
+      "abstained_predictions": 70,
+      "abstained_programs": 10,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 30387,
+      "correct_predictions": 536,
+      "hypothesis_eliminations": 0,
+      "incorrect_programs": 20,
+      "initial_pool": 0,
+      "interpreter_evaluations": 0,
+      "mode": "split_random2",
+      "queries": 192,
+      "remaining_pool": 0,
+      "selected": {
+        "split_random2": 96
+      },
+      "signature_evaluations": 0,
+      "solved": 66,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": -140,
+      "wrong_predictions": 66
+    },
+    {
+      "abstained_predictions": 133,
+      "abstained_programs": 19,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 48711,
+      "correct_predictions": 512,
+      "hypothesis_eliminations": 222,
+      "incorrect_programs": 9,
+      "initial_pool": 318,
+      "interpreter_evaluations": 422688,
+      "mode": "expand_active",
+      "queries": 192,
+      "remaining_pool": 103,
+      "selected": {
+        "expand_active": 96
+      },
+      "signature_evaluations": 119,
+      "solved": 68,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": 320,
+      "wrong_predictions": 27
+    },
+    {
+      "abstained_predictions": 98,
+      "abstained_programs": 14,
+      "agreement_attempts": 0,
+      "agreements": 0,
+      "candidates": 38612,
+      "correct_predictions": 542,
+      "hypothesis_eliminations": 221,
+      "incorrect_programs": 11,
+      "initial_pool": 318,
+      "interpreter_evaluations": 422688,
+      "mode": "switch",
+      "queries": 192,
+      "remaining_pool": 97,
+      "selected": {
+        "switch": 96
+      },
+      "signature_evaluations": 0,
+      "solved": 71,
+      "switch_attempts": 25,
+      "tasks": 96,
+      "utility": 270,
+      "wrong_predictions": 32
+    },
+    {
+      "abstained_predictions": 182,
+      "abstained_programs": 26,
+      "agreement_attempts": 71,
+      "agreements": 70,
+      "candidates": 36160,
+      "correct_predictions": 474,
+      "hypothesis_eliminations": 221,
+      "incorrect_programs": 6,
+      "initial_pool": 318,
+      "interpreter_evaluations": 422688,
+      "mode": "crosscheck",
+      "queries": 192,
+      "remaining_pool": 97,
+      "selected": {
+        "crosscheck": 96
+      },
+      "signature_evaluations": 1207,
+      "solved": 64,
+      "switch_attempts": 0,
+      "tasks": 96,
+      "utility": 400,
+      "wrong_predictions": 16
+    }
+  ],
+  "counts": {
+    "global": {
+      "crosscheck": [
+        96,
+        400,
+        36160
+      ],
+      "expand_active": [
+        96,
+        320,
+        48711
+      ],
+      "pool_active": [
+        96,
+        460,
+        25200
+      ],
+      "pool_consensus": [
+        96,
+        430,
+        25200
+      ],
+      "split_random2": [
+        96,
+        -140,
+        30387
+      ],
+      "switch": [
+        96,
+        270,
+        38612
+      ]
+    },
+    "monotone:high": {
+      "crosscheck": [
+        19,
+        110,
+        6339
+      ],
+      "expand_active": [
+        19,
+        40,
+        12491
+      ],
+      "pool_active": [
+        19,
+        110,
+        4970
+      ],
+      "pool_consensus": [
+        19,
+        90,
+        4970
+      ],
+      "split_random2": [
+        19,
+        20,
+        7143
+      ],
+      "switch": [
+        19,
+        50,
+        8842
+      ]
+    },
+    "monotone:low": {
+      "crosscheck": [
+        5,
+        -60,
+        2138
+      ],
+      "expand_active": [
+        5,
+        -10,
+        2288
+      ],
+      "pool_active": [
+        5,
+        -10,
+        1347
+      ],
+      "pool_consensus": [
+        5,
+        -20,
+        1347
+      ],
+      "split_random2": [
+        5,
+        -10,
+        1400
+      ],
+      "switch": [
+        5,
+        -10,
+        1934
+      ]
+    },
+    "nonmonotone:high": {
+      "crosscheck": [
+        44,
+        280,
+        17842
+      ],
+      "expand_active": [
+        44,
+        210,
+        17136
+      ],
+      "pool_active": [
+        44,
+        280,
+        11491
+      ],
+      "pool_consensus": [
+        44,
+        300,
+        11491
+      ],
+      "split_random2": [
+        44,
+        -30,
+        11852
+      ],
+      "switch": [
+        44,
+        170,
+        14466
+      ]
+    },
+    "nonmonotone:low": {
+      "crosscheck": [
+        28,
+        70,
+        9841
+      ],
+      "expand_active": [
+        28,
+        80,
+        16796
+      ],
+      "pool_active": [
+        28,
+        80,
+        7392
+      ],
+      "pool_consensus": [
+        28,
+        60,
+        7392
+      ],
+      "split_random2": [
+        28,
+        -120,
+        9992
+      ],
+      "switch": [
+        28,
+        60,
+        13370
+      ]
+    }
+  },
+  "global_choice": "pool_active",
+  "protocol": "V128-frozen-selector-v1",
+  "training_candidates": 204270
+}
