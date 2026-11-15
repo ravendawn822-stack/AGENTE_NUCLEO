@@ -1,0 +1,2 @@
+# V122 — insuficiência de hipóteses
+Em teste separado de treino, 24 seeds 90000019+30001*i, registrar pool inicial ausente, eliminação de todas hipóteses por nova observação, desacordo restante e emissão. Um pool vazio evidencia insuficiência do conjunto explorado, não impossibilidade matemática; unanimidade não implica verdade. Mesmos alvos V109, sem acesso ao AST verdadeiro ou saídas reservadas.
