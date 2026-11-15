@@ -1,0 +1,2 @@
+# V101 — transferência para alvos diferentes
+24 seeds 58000019+30001*i, quatro alvos inéditos misturando condição, repetição e operações aritméticas; mesmas cinco políticas V100 e partição. Alvos fixados em código antes de qualquer execução; sem selecionar retrospectivamente. Biblioteca congelada; nenhum aprendizado em teste. Registrar diferença entre transferência próxima e distante, incluindo casos negativos. Novas amostras de seis/quatro/sete entradas de um domínio finito, não prova universal.
