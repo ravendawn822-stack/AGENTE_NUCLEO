@@ -1,0 +1,60 @@
+name: V216 SQM adapter tests
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V216_SQM/**','.github/workflows/nucleo-v216-sqm.yml']
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - name: HTTP fixture and persistence
+        run: |
+          mkdir -p /tmp/sqm-v216
+          rc=0
+          timeout 60 python3 NUCLEO_V216_SQM/test_sqm.py -v > /tmp/sqm-v216/tests.log 2>&1 || rc=$?
+          printf '{"test_exit":%s}\n' "$rc" > /tmp/sqm-v216/STATUS.json
+          printf '%s\n' "$GITHUB_SHA" > /tmp/sqm-v216/SOURCE_COMMIT.txt
+          cat /tmp/sqm-v216/tests.log
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sqm-v216-tests
+          path: /tmp/sqm-v216
+  archive:
+    needs: checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: sqm-v216-tests
+          path: /tmp/sqm-v216
+      - run: |
+          python3 - <<'PY'
+          import shutil,hashlib,json
+          from pathlib import Path
+          target=Path('EVIDENCIAS/BRUTOS/NUCLEO_V216_SQM')
+          assert not target.exists()
+          shutil.copytree('/tmp/sqm-v216',target)
+          (target/'SHA256.json').write_text(json.dumps([dict(path=f.name,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(target.iterdir())],indent=2))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V216_SQM
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive V216 SQM adapter tests'
+          git push origin HEAD:refs/heads/evidencias-cientificas
