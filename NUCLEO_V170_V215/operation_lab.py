@@ -17,6 +17,11 @@ def episode(seed,mode,library):
     ids["stats"]=core.add("stats",dict(source=ids["apply"]),(ids["apply"],))
     ac=nucleus.amb.lab.cases(seed)[0]
     ids["arithmetic"]=core.add("arithmetic",dict(fit=ac["fit"],audit=ac["audit"],seed=seed))
+    xs2=tuple(rng.randrange(-5,6) for _ in range(5))
+    ids["apply2"]=core.add("list_apply",dict(program=ids["solve"],input=xs2),(ids["solve"],))
+    ids["stats2"]=core.add("stats",dict(source=ids["apply2"]),(ids["apply2"],))
+    destination=rng.randrange(8)
+    ids["navigate"]=core.add("navigate",dict(room=destination),(ids["delivery"],))
     rows=core.run()
     delivery=get(rows,ids["delivery"]);solved=get(rows,ids["solve"]);applied=get(rows,ids["apply"]);stat=get(rows,ids["stats"]);arith=get(rows,ids["arithmetic"])
     expected=synth.reference(c["target"],xs+(4,))
@@ -28,11 +33,20 @@ def episode(seed,mode,library):
         frequencies={str(k):v for k,v in sorted(Counter(exp_values).items())})
     stat_correct=stat["status"]=="done" and stat["result"]==expected_stats
     arithmetic_correct=arith["status"]=="done" and nucleus.amb.s.score(arith["result"]["program"],ac["held"])["solved"]
+    applied2=get(rows,ids["apply2"]);stat2=get(rows,ids["stats2"]);nav=get(rows,ids["navigate"])
+    expected2=synth.reference(c["target"],xs2)
+    second_correct=applied2["status"]=="done" and vm.value(applied2["result"]["value"])==expected2
+    v2=(expected2,) if type(expected2) is int else expected2
+    m2=Fraction(sum(v2),len(v2)) if v2 else None
+    ref2=dict(count=len(v2),total=sum(v2),mean=[m2.numerator,m2.denominator] if v2 else None,frequencies={str(k):v for k,v in sorted(Counter(v2).items())})
+    second_stats=stat2["status"]=="done" and stat2["result"]==ref2
+    nav_correct=nav["status"]=="done" and nav["result"]["end"]["room"]==destination
     result=dict(seed=seed,mode=mode,goals=rows,knowledge=core.mem.counts(),case=c,expected=expected,
         solved=int(assess["solved"]),incorrect=int(assess["incorrect"]),output_correct=int(output_correct),
-        stats_correct=int(stat_correct),arithmetic_correct=int(arithmetic_correct),
-        success=int(delivery["status"]=="done" and assess["solved"] and output_correct and stat_correct and arithmetic_correct),
-        blocked=sum(g["status"]=="blocked" for g in rows),actions=delivery["result"].get("actions",0),
+        stats_correct=int(stat_correct),arithmetic_correct=int(arithmetic_correct),second_correct=int(second_correct),
+        second_stats=int(second_stats),navigation_correct=int(nav_correct),
+        success=int(delivery["status"]=="done" and assess["solved"] and output_correct and stat_correct and arithmetic_correct and second_correct and second_stats and nav_correct),
+        blocked=sum(g["status"]=="blocked" for g in rows),actions=delivery["result"].get("actions",0)+nav["result"].get("actions",0),
         candidates=solved["result"].get("candidates",0)+arith["result"].get("candidates",0))
     core.mem.close();return result
 def parse_csv(text):
