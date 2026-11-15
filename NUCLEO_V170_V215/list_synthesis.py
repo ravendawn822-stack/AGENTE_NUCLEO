@@ -34,7 +34,10 @@ def cases(seed,library=False):
     chosen=[motifs[(seed//30001+i)%len(motifs)] for i in range(4)]
     rows=[]
     for seq in chosen:
-        xs=[tuple(rng.randrange(-5,6) for _ in range(rng.randrange(2,7))) for j in range(16)]
+        xs=[]
+        while len(xs)<16:
+            x=tuple(rng.randrange(-5,6) for _ in range(rng.randrange(2,7)))
+            if x not in xs:xs.append(x)
         examples=[(x,reference(seq,x)) for x in xs]
         rows.append(dict(fit=examples[:5],audit=examples[5:8],held=examples[8:],target=seq))
     return rows
