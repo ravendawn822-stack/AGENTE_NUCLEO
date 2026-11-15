@@ -1,0 +1,2 @@
+# V90 — consolidação de evidências
+Relatório externo fixo com recomendação validada ou manutenção da referência; distinguir aprovação na validação e replicação no teste. Exportar JSON com schema, lista fixa de opções, origem e SHA256 do conteúdo, validar leitura e tamanho; checksum não é autenticação. Nenhuma promoção, mudança de código, alteração de permissões, execução de programas gerados ou ciclo recursivo. Qualquer adoção fora do laboratório requer revisão humana. Suite offline de uma rodada; resultados nulos/negativos preservados.
