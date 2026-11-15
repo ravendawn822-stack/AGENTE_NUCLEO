@@ -1,0 +1,1731 @@
+{
+  "protocol": "V51-contextual-reconsideration-v1",
+  "seeds": [
+    6780017,
+    6810023,
+    6840031,
+    6870041
+  ],
+  "attempts": 14,
+  "round_budget": 12000,
+  "common_attempts": 8,
+  "menu_public_observations_per_seed_per_policy": 196,
+  "timing": "Final single-stage search shared. No extra probes; scheduler sees states and library hash.",
+  "menus": [
+    {
+      "seed": 6780017,
+      "id_to_target": [
+        "sorted_concat_mirror_product",
+        "fourth_power",
+        "reverse_delta_mirror_product",
+        "mirror_product_sorted_delta",
+        "sorted_concat_neg_concat",
+        "even_concat_pair",
+        "mirror_neg_concat",
+        "square_duplicate",
+        "neg_concat_mirror_product",
+        "mirror_square",
+        "neg_concat_sorted_delta",
+        "even_concat_sorted_concat",
+        "even_concat_mirror_product",
+        "sorted_concat_square"
+      ]
+    },
+    {
+      "seed": 6810023,
+      "id_to_target": [
+        "fourth_power",
+        "even_concat_pair",
+        "mirror_neg_concat",
+        "sorted_concat_mirror_product",
+        "neg_concat_sorted_delta",
+        "even_concat_sorted_concat",
+        "square_duplicate",
+        "sorted_concat_neg_concat",
+        "sorted_concat_square",
+        "neg_concat_mirror_product",
+        "mirror_product_sorted_delta",
+        "even_concat_mirror_product",
+        "reverse_delta_mirror_product",
+        "mirror_square"
+      ]
+    },
+    {
+      "seed": 6840031,
+      "id_to_target": [
+        "sorted_concat_square",
+        "neg_concat_sorted_delta",
+        "even_concat_pair",
+        "square_duplicate",
+        "neg_concat_mirror_product",
+        "sorted_concat_neg_concat",
+        "even_concat_mirror_product",
+        "mirror_neg_concat",
+        "sorted_concat_mirror_product",
+        "mirror_square",
+        "mirror_product_sorted_delta",
+        "fourth_power",
+        "reverse_delta_mirror_product",
+        "even_concat_sorted_concat"
+      ]
+    },
+    {
+      "seed": 6870041,
+      "id_to_target": [
+        "neg_concat_mirror_product",
+        "sorted_concat_neg_concat",
+        "sorted_concat_mirror_product",
+        "even_concat_sorted_concat",
+        "reverse_delta_mirror_product",
+        "even_concat_pair",
+        "mirror_neg_concat",
+        "sorted_concat_square",
+        "mirror_square",
+        "neg_concat_sorted_delta",
+        "square_duplicate",
+        "fourth_power",
+        "mirror_product_sorted_delta",
+        "even_concat_mirror_product"
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "seed": 6780017,
+      "policy": "new_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "8ba6078a2e70a0194d6946457d1880c35fffa84dc9d2e872f80e061e83028005",
+      "extra_count": 5
+    },
+    {
+      "seed": 6780017,
+      "policy": "retry_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "04bc742bb27136d0b28aaf519ed5749c445f2881f05be197fbc894ee32290ea9",
+      "extra_count": 4
+    },
+    {
+      "seed": 6780017,
+      "policy": "random",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "library_sha": "af07c030e3c8d675006b5e7b52d46e565641b4ef3216eb7a659a66ae9965743b",
+      "extra_count": 6
+    },
+    {
+      "seed": 6810023,
+      "policy": "new_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "library_sha": "9c5b7cc2392112ef149f059998342933042e8b716e157b165a9beb8e99b4bd2b",
+      "extra_count": 6
+    },
+    {
+      "seed": 6810023,
+      "policy": "retry_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "library_sha": "9c5b7cc2392112ef149f059998342933042e8b716e157b165a9beb8e99b4bd2b",
+      "extra_count": 6
+    },
+    {
+      "seed": 6810023,
+      "policy": "random",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "library_sha": "9c5b7cc2392112ef149f059998342933042e8b716e157b165a9beb8e99b4bd2b",
+      "extra_count": 6
+    },
+    {
+      "seed": 6840031,
+      "policy": "new_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "9879c82e3fb6d794954e0a47c75bbbb6076feabd86664ce56c3dbd17f41ac959",
+      "extra_count": 4
+    },
+    {
+      "seed": 6840031,
+      "policy": "retry_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "ac84472bd7fa9b253fe458fe63b593eedb9abdc0abc620cdfab9cecc7d8c67bf",
+      "extra_count": 3
+    },
+    {
+      "seed": 6840031,
+      "policy": "random",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ]
+      ],
+      "library_sha": "69d1dc818663fe5159d39a89c338a3cab5816d5f9df871481b9e62b93b2f650d",
+      "extra_count": 3
+    },
+    {
+      "seed": 6870041,
+      "policy": "new_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "e68289e7cc3b10e92a14bb51a1beb4edd8918382de3e56a14bb5af1d98fe4b74",
+      "extra_count": 4
+    },
+    {
+      "seed": 6870041,
+      "policy": "retry_first",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "library_sha": "e68289e7cc3b10e92a14bb51a1beb4edd8918382de3e56a14bb5af1d98fe4b74",
+      "extra_count": 4
+    },
+    {
+      "seed": 6870041,
+      "policy": "random",
+      "base_sha": "59b196f825ed5b27a47f96d62a7d1052b001a8ea77bbf695c0e3d5140c9c4b6a",
+      "library": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "abs",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "library_sha": "1e631220f49a93a3bcf16b28ddfe371ddcee57d91b8a58a68ec11c847d72789d",
+      "extra_count": 4
+    }
+  ],
+  "base_acquisition": {
+    "n": 24,
+    "accepted": 24,
+    "rejected": 0,
+    "abstained": 0,
+    "retained": 24,
+    "spent": 24,
+    "queries": 12,
+    "selection_checks": 896,
+    "filter_checks": 28,
+    "validation_checks": 576,
+    "initial_checks": 33300,
+    "prediction_checks": 4256,
+    "preparation_examined": 31104,
+    "shared_preparation_ns": 108736426,
+    "selection_ns": 934292
+  },
+  "training": [
+    {
+      "policy": "new_first",
+      "n": 56,
+      "attempted": 56,
+      "accepted": 40,
+      "rejected": 0,
+      "abstained": 16,
+      "idle": 0,
+      "retried": 0,
+      "recovered": 0,
+      "acquired_motifs": 19,
+      "pair_examined": 303339,
+      "pair_checks": 303945,
+      "pair_wall_ns": 1820187071,
+      "scheduling_ns": 222816,
+      "validation_checks": 960
+    },
+    {
+      "policy": "retry_first",
+      "n": 56,
+      "attempted": 56,
+      "accepted": 35,
+      "rejected": 0,
+      "abstained": 21,
+      "idle": 0,
+      "retried": 13,
+      "recovered": 5,
+      "acquired_motifs": 17,
+      "pair_examined": 335894,
+      "pair_checks": 336446,
+      "pair_wall_ns": 1985581275,
+      "scheduling_ns": 230963,
+      "validation_checks": 840
+    },
+    {
+      "policy": "random",
+      "n": 56,
+      "attempted": 56,
+      "accepted": 40,
+      "rejected": 0,
+      "abstained": 16,
+      "idle": 0,
+      "retried": 7,
+      "recovered": 3,
+      "acquired_motifs": 19,
+      "pair_examined": 304810,
+      "pair_checks": 305418,
+      "pair_wall_ns": 1751438647,
+      "scheduling_ns": 277995,
+      "validation_checks": 960
+    }
+  ],
+  "aggregate": [
+    {
+      "policy": "new_first",
+      "n": 56,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 12,
+      "single_examined": 1370516,
+      "single_checks": 1371469,
+      "shared_single_ns": 4748590054,
+      "pair_examined": 189730,
+      "pair_checks": 190825,
+      "pair_wall_ns": 1084723480,
+      "extension_used": 28,
+      "sources": {
+        "single": 8,
+        "priority_pair": 24,
+        "mixed_pair": 12,
+        "default": 0
+      }
+    },
+    {
+      "policy": "retry_first",
+      "n": 56,
+      "correct": 39,
+      "wrong": 0,
+      "abstained": 17,
+      "single_examined": 1370516,
+      "single_checks": 1371469,
+      "shared_single_ns": 4748590054,
+      "pair_examined": 279286,
+      "pair_checks": 280882,
+      "pair_wall_ns": 1652160997,
+      "extension_used": 24,
+      "sources": {
+        "single": 8,
+        "priority_pair": 18,
+        "mixed_pair": 13,
+        "default": 0
+      }
+    },
+    {
+      "policy": "random",
+      "n": 56,
+      "correct": 47,
+      "wrong": 0,
+      "abstained": 9,
+      "single_examined": 1370516,
+      "single_checks": 1371469,
+      "shared_single_ns": 4748590054,
+      "pair_examined": 183028,
+      "pair_checks": 184213,
+      "pair_wall_ns": 1024888829,
+      "extension_used": 31,
+      "sources": {
+        "single": 8,
+        "priority_pair": 25,
+        "mixed_pair": 14,
+        "default": 0
+      }
+    }
+  ],
+  "by_stratum": [
+    {
+      "policy": "new_first",
+      "stratum": "new",
+      "n": 32,
+      "correct": 29,
+      "wrong": 0,
+      "abstained": 3,
+      "single_examined": 913536,
+      "single_checks": 914340,
+      "shared_single_ns": 3187258547,
+      "pair_examined": 81467,
+      "pair_checks": 82445,
+      "pair_wall_ns": 454313594,
+      "extension_used": 25,
+      "sources": {
+        "single": 0,
+        "priority_pair": 17,
+        "mixed_pair": 12,
+        "default": 0
+      }
+    },
+    {
+      "policy": "new_first",
+      "stratum": "anchor",
+      "n": 8,
+      "correct": 7,
+      "wrong": 0,
+      "abstained": 1,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 776182171,
+      "pair_examined": 12263,
+      "pair_checks": 12356,
+      "pair_wall_ns": 75158861,
+      "extension_used": 3,
+      "sources": {
+        "single": 0,
+        "priority_pair": 7,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "new_first",
+      "stratum": "simple",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 212,
+      "single_checks": 322,
+      "shared_single_ns": 788904,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "extension_used": 0,
+      "sources": {
+        "single": 8,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "new_first",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228423,
+      "shared_single_ns": 784360432,
+      "pair_examined": 96000,
+      "pair_checks": 96024,
+      "pair_wall_ns": 555251025,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "retry_first",
+      "stratum": "new",
+      "n": 32,
+      "correct": 25,
+      "wrong": 0,
+      "abstained": 7,
+      "single_examined": 913536,
+      "single_checks": 914340,
+      "shared_single_ns": 3187258547,
+      "pair_examined": 147393,
+      "pair_checks": 148869,
+      "pair_wall_ns": 879146563,
+      "extension_used": 22,
+      "sources": {
+        "single": 0,
+        "priority_pair": 13,
+        "mixed_pair": 12,
+        "default": 0
+      }
+    },
+    {
+      "policy": "retry_first",
+      "stratum": "anchor",
+      "n": 8,
+      "correct": 6,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 776182171,
+      "pair_examined": 35893,
+      "pair_checks": 35977,
+      "pair_wall_ns": 208330700,
+      "extension_used": 2,
+      "sources": {
+        "single": 0,
+        "priority_pair": 5,
+        "mixed_pair": 1,
+        "default": 0
+      }
+    },
+    {
+      "policy": "retry_first",
+      "stratum": "simple",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 212,
+      "single_checks": 322,
+      "shared_single_ns": 788904,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "extension_used": 0,
+      "sources": {
+        "single": 8,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "retry_first",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228423,
+      "shared_single_ns": 784360432,
+      "pair_examined": 96000,
+      "pair_checks": 96036,
+      "pair_wall_ns": 564683734,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "random",
+      "stratum": "new",
+      "n": 32,
+      "correct": 31,
+      "wrong": 0,
+      "abstained": 1,
+      "single_examined": 913536,
+      "single_checks": 914340,
+      "shared_single_ns": 3187258547,
+      "pair_examined": 74972,
+      "pair_checks": 76012,
+      "pair_wall_ns": 402989577,
+      "extension_used": 27,
+      "sources": {
+        "single": 0,
+        "priority_pair": 18,
+        "mixed_pair": 13,
+        "default": 0
+      }
+    },
+    {
+      "policy": "random",
+      "stratum": "anchor",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 228384,
+      "single_checks": 228384,
+      "shared_single_ns": 776182171,
+      "pair_examined": 12056,
+      "pair_checks": 12166,
+      "pair_wall_ns": 67869223,
+      "extension_used": 4,
+      "sources": {
+        "single": 0,
+        "priority_pair": 7,
+        "mixed_pair": 1,
+        "default": 0
+      }
+    },
+    {
+      "policy": "random",
+      "stratum": "simple",
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 0,
+      "single_examined": 212,
+      "single_checks": 322,
+      "shared_single_ns": 788904,
+      "pair_examined": 0,
+      "pair_checks": 0,
+      "pair_wall_ns": 0,
+      "extension_used": 0,
+      "sources": {
+        "single": 8,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "policy": "random",
+      "stratum": "control",
+      "n": 8,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 8,
+      "single_examined": 228384,
+      "single_checks": 228423,
+      "shared_single_ns": 784360432,
+      "pair_examined": 96000,
+      "pair_checks": 96035,
+      "pair_wall_ns": 554030029,
+      "extension_used": 0,
+      "sources": {
+        "single": 0,
+        "priority_pair": 0,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 6780017,
+      "policy": "new_first",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342792,
+      "shared_single_ns": 1207046834,
+      "pair_examined": 36284,
+      "pair_checks": 36520,
+      "pair_wall_ns": 197775726,
+      "extension_used": 8,
+      "sources": {
+        "single": 2,
+        "priority_pair": 7,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6780017,
+      "policy": "retry_first",
+      "n": 14,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 6,
+      "single_examined": 342629,
+      "single_checks": 342792,
+      "shared_single_ns": 1207046834,
+      "pair_examined": 82768,
+      "pair_checks": 82983,
+      "pair_wall_ns": 495235013,
+      "extension_used": 4,
+      "sources": {
+        "single": 2,
+        "priority_pair": 3,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6780017,
+      "policy": "random",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342792,
+      "shared_single_ns": 1207046834,
+      "pair_examined": 25011,
+      "pair_checks": 25174,
+      "pair_wall_ns": 138851225,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6810023,
+      "policy": "new_first",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342687,
+      "shared_single_ns": 1183221622,
+      "pair_examined": 25011,
+      "pair_checks": 25154,
+      "pair_wall_ns": 148303604,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6810023,
+      "policy": "retry_first",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342687,
+      "shared_single_ns": 1183221622,
+      "pair_examined": 25011,
+      "pair_checks": 25154,
+      "pair_wall_ns": 149037834,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6810023,
+      "policy": "random",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342687,
+      "shared_single_ns": 1183221622,
+      "pair_examined": 25011,
+      "pair_checks": 25154,
+      "pair_wall_ns": 148714411,
+      "extension_used": 9,
+      "sources": {
+        "single": 2,
+        "priority_pair": 10,
+        "mixed_pair": 0,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6840031,
+      "policy": "new_first",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 343162,
+      "shared_single_ns": 1160985911,
+      "pair_examined": 45659,
+      "pair_checks": 46052,
+      "pair_wall_ns": 240577407,
+      "extension_used": 7,
+      "sources": {
+        "single": 2,
+        "priority_pair": 4,
+        "mixed_pair": 6,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6840031,
+      "policy": "retry_first",
+      "n": 14,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 3,
+      "single_examined": 342629,
+      "single_checks": 343162,
+      "shared_single_ns": 1160985911,
+      "pair_examined": 88731,
+      "pair_checks": 89646,
+      "pair_wall_ns": 511925005,
+      "extension_used": 7,
+      "sources": {
+        "single": 2,
+        "priority_pair": 2,
+        "mixed_pair": 7,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6840031,
+      "policy": "random",
+      "n": 14,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 3,
+      "single_examined": 342629,
+      "single_checks": 343162,
+      "shared_single_ns": 1160985911,
+      "pair_examined": 87356,
+      "pair_checks": 87983,
+      "pair_wall_ns": 479871936,
+      "extension_used": 6,
+      "sources": {
+        "single": 2,
+        "priority_pair": 1,
+        "mixed_pair": 8,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6870041,
+      "policy": "new_first",
+      "n": 14,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 6,
+      "single_examined": 342629,
+      "single_checks": 342828,
+      "shared_single_ns": 1197335687,
+      "pair_examined": 82776,
+      "pair_checks": 83099,
+      "pair_wall_ns": 498066743,
+      "extension_used": 4,
+      "sources": {
+        "single": 2,
+        "priority_pair": 3,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6870041,
+      "policy": "retry_first",
+      "n": 14,
+      "correct": 8,
+      "wrong": 0,
+      "abstained": 6,
+      "single_examined": 342629,
+      "single_checks": 342828,
+      "shared_single_ns": 1197335687,
+      "pair_examined": 82776,
+      "pair_checks": 83099,
+      "pair_wall_ns": 495963145,
+      "extension_used": 4,
+      "sources": {
+        "single": 2,
+        "priority_pair": 3,
+        "mixed_pair": 3,
+        "default": 0
+      }
+    },
+    {
+      "seed": 6870041,
+      "policy": "random",
+      "n": 14,
+      "correct": 12,
+      "wrong": 0,
+      "abstained": 2,
+      "single_examined": 342629,
+      "single_checks": 342828,
+      "shared_single_ns": 1197335687,
+      "pair_examined": 45650,
+      "pair_checks": 45902,
+      "pair_wall_ns": 257451257,
+      "extension_used": 7,
+      "sources": {
+        "single": 2,
+        "priority_pair": 4,
+        "mixed_pair": 6,
+        "default": 0
+      }
+    }
+  ]
+}
