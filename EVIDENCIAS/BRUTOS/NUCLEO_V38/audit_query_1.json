@@ -156,7 +156,6 @@
   },
   "attempt": {
     "index": 1,
-    "model": "gpt-6-luna",
     "request_sha": "235d516212915186ae1bae4b06e0e866cd3df2a46cfd7f090b820136b9b21ac8",
     "status": "ok",
     "usage": {
@@ -166,7 +165,10 @@
       "reasoning_output_tokens": 0
     },
     "exit_code": 0,
-    "seconds": 8.399
+    "seconds": 8.399,
+    "model_requested": "gpt-6-luna",
+    "model_identity_confirmed": false,
+    "model_field_source": "MODEL constant in NUCLEO_V38/codex_pilot.py; not independently returned by the captured CLI usage event"
   },
   "audit": {
     "request_hash_recomputed": "235d516212915186ae1bae4b06e0e866cd3df2a46cfd7f090b820136b9b21ac8",
@@ -808,6 +810,8 @@
       }
     ],
     "decision": "reject",
-    "limitations": "Nao autentica identidade do modelo, origem do arquivo ou integridade dos arquivos locais originais. Status, tempo e uso declarados pelo CLI e informados pelo operador. Uma consulta nao mede desempenho geral do modelo. Avaliacao final anteriormente reportada pelo operador nao foi reproduzida integralmente nesta auditoria."
+    "limitations": "Nao autentica identidade do modelo, origem do arquivo ou integridade dos arquivos locais originais. Status, tempo e uso declarados pelo CLI e informados pelo operador. Uma consulta nao mede desempenho geral do modelo. Avaliacao final anteriormente reportada pelo operador nao foi reproduzida integralmente nesta auditoria.",
+    "model_identity_confirmed": false,
+    "provenance_note": "CLI exit code, status, duration and usage are copied from operator terminal output. The model label is the requested script constant, not independently verified metadata."
   }
 }
