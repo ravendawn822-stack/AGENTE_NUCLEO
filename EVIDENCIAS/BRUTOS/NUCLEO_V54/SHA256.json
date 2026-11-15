@@ -1,0 +1,127 @@
+[
+  {
+    "path": "SOURCE_COMMIT.txt",
+    "bytes": 41,
+    "sha256": "c05f9731cca281fa768af068934d8d3b510e3354d8cccc701b3cb8fd61aeaa05"
+  },
+  {
+    "path": "base_7140017.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_7170023.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_7200031.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_7230041.json",
+    "bytes": 259,
+    "sha256": "e13834954c49afa9fbf65ed33b2a25082c16a66c8ab5cccb6c6d701dcbe4b2b3"
+  },
+  {
+    "path": "base_acquisition.jsonl",
+    "bytes": 14595,
+    "sha256": "28e2688e4124db11c7ada9a62e9cceafeb6df948747031307b9fd67199056822"
+  },
+  {
+    "path": "curriculum.jsonl",
+    "bytes": 233906,
+    "sha256": "faf34c69f5afb592bf28c8d834a2195a8757225656669b41be6bda8d698be2d5"
+  },
+  {
+    "path": "final.jsonl",
+    "bytes": 69781,
+    "sha256": "c888f1eb10d7deb762fb4ea10fb85ce68f1adf20ee2cd9a9a3012a542de398e3"
+  },
+  {
+    "path": "inputs_7140017.json",
+    "bytes": 2975,
+    "sha256": "d0b6a513e7c65a45cb102a7f978cde023588d90c2b38f437686e805dbe94d025"
+  },
+  {
+    "path": "inputs_7170023.json",
+    "bytes": 2945,
+    "sha256": "65c2a7e1c43ebbaad0b9bad9299b3f0849030ed42ec183006c2abdfe2b69a503"
+  },
+  {
+    "path": "inputs_7200031.json",
+    "bytes": 2945,
+    "sha256": "1549caa4e14e262307aa34492d9b11a97eb93e539eb34563903229f888550e84"
+  },
+  {
+    "path": "inputs_7230041.json",
+    "bytes": 2888,
+    "sha256": "8f8bd4f16b23028bde5742ef7e1673f5d21bb974ee9abec9b1fee8550cadabe1"
+  },
+  {
+    "path": "library_7140017_direct.json",
+    "bytes": 515,
+    "sha256": "d9a543193cc4df0f300336b9b8b2558dec1eab956bed2fb038b81db039a1d414"
+  },
+  {
+    "path": "library_7140017_motif_lru.json",
+    "bytes": 515,
+    "sha256": "d9a543193cc4df0f300336b9b8b2558dec1eab956bed2fb038b81db039a1d414"
+  },
+  {
+    "path": "library_7140017_pair_lru.json",
+    "bytes": 515,
+    "sha256": "d9a543193cc4df0f300336b9b8b2558dec1eab956bed2fb038b81db039a1d414"
+  },
+  {
+    "path": "library_7170023_direct.json",
+    "bytes": 515,
+    "sha256": "1534407c246acf1e2ea2621c41ad2373d1deb396325ae8a32e0e2188d8826619"
+  },
+  {
+    "path": "library_7170023_motif_lru.json",
+    "bytes": 515,
+    "sha256": "1534407c246acf1e2ea2621c41ad2373d1deb396325ae8a32e0e2188d8826619"
+  },
+  {
+    "path": "library_7170023_pair_lru.json",
+    "bytes": 515,
+    "sha256": "1534407c246acf1e2ea2621c41ad2373d1deb396325ae8a32e0e2188d8826619"
+  },
+  {
+    "path": "library_7200031_direct.json",
+    "bytes": 447,
+    "sha256": "2bfefde0436dc191661c2f4a7715def505a3bd6219f03c3bc8bc9994fde99eb3"
+  },
+  {
+    "path": "library_7200031_motif_lru.json",
+    "bytes": 447,
+    "sha256": "2bfefde0436dc191661c2f4a7715def505a3bd6219f03c3bc8bc9994fde99eb3"
+  },
+  {
+    "path": "library_7200031_pair_lru.json",
+    "bytes": 447,
+    "sha256": "2bfefde0436dc191661c2f4a7715def505a3bd6219f03c3bc8bc9994fde99eb3"
+  },
+  {
+    "path": "library_7230041_direct.json",
+    "bytes": 515,
+    "sha256": "28b87414a27e79e7167e1d17a2e0e023964e9fb4a4d09c8b8a28076b4e507036"
+  },
+  {
+    "path": "library_7230041_motif_lru.json",
+    "bytes": 515,
+    "sha256": "28b87414a27e79e7167e1d17a2e0e023964e9fb4a4d09c8b8a28076b4e507036"
+  },
+  {
+    "path": "library_7230041_pair_lru.json",
+    "bytes": 515,
+    "sha256": "28b87414a27e79e7167e1d17a2e0e023964e9fb4a4d09c8b8a28076b4e507036"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 38947,
+    "sha256": "5951a9f714538006a22adff509361345065e8389727ae2bf86be1d59d9fb4ae9"
+  }
+]
