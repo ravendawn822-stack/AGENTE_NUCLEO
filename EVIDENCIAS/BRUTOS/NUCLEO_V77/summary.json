@@ -1,0 +1,3959 @@
+{
+  "protocol": "V77-strategy-memory-v1",
+  "counts": {
+    "A": [
+      128,
+      48,
+      16
+    ],
+    "B": [
+      16,
+      48,
+      128
+    ]
+  },
+  "aggregate": [
+    {
+      "context": "A",
+      "mode": "fixed",
+      "solved": 264,
+      "probes": 384,
+      "correct": 2904,
+      "wrong": 0,
+      "abstained": 264,
+      "utility": 2904
+    },
+    {
+      "context": "A",
+      "mode": "reverse",
+      "solved": 96,
+      "probes": 552,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 2112,
+      "utility": 1056
+    },
+    {
+      "context": "A",
+      "mode": "learned",
+      "solved": 264,
+      "probes": 384,
+      "correct": 2904,
+      "wrong": 0,
+      "abstained": 264,
+      "utility": 2904
+    },
+    {
+      "context": "A",
+      "mode": "swap",
+      "solved": 96,
+      "probes": 552,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 2112,
+      "utility": 1056
+    },
+    {
+      "context": "A",
+      "mode": "global",
+      "solved": 216,
+      "probes": 384,
+      "correct": 2376,
+      "wrong": 0,
+      "abstained": 792,
+      "utility": 2376
+    },
+    {
+      "context": "B",
+      "mode": "fixed",
+      "solved": 96,
+      "probes": 552,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 2112,
+      "utility": 1056
+    },
+    {
+      "context": "B",
+      "mode": "reverse",
+      "solved": 264,
+      "probes": 384,
+      "correct": 2904,
+      "wrong": 0,
+      "abstained": 264,
+      "utility": 2904
+    },
+    {
+      "context": "B",
+      "mode": "learned",
+      "solved": 264,
+      "probes": 384,
+      "correct": 2904,
+      "wrong": 0,
+      "abstained": 264,
+      "utility": 2904
+    },
+    {
+      "context": "B",
+      "mode": "swap",
+      "solved": 96,
+      "probes": 552,
+      "correct": 1056,
+      "wrong": 0,
+      "abstained": 2112,
+      "utility": 1056
+    },
+    {
+      "context": "B",
+      "mode": "global",
+      "solved": 216,
+      "probes": 552,
+      "correct": 2376,
+      "wrong": 0,
+      "abstained": 792,
+      "utility": 2376
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 29000019,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29000019,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29000019,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29000019,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29000019,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29000019,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29000019,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29000019,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29000019,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29000019,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29030020,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29030020,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29030020,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29030020,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29030020,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29030020,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29030020,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29030020,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29030020,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29030020,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29060021,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29060021,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29060021,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29060021,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29060021,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29060021,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29060021,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29060021,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29060021,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29060021,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29090022,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29090022,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29090022,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29090022,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29090022,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29090022,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29090022,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29090022,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29090022,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29090022,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29120023,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29120023,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29120023,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29120023,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29120023,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29120023,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29120023,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29120023,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29120023,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29120023,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29150024,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29150024,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29150024,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29150024,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29150024,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29150024,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29150024,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29150024,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29150024,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29150024,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29180025,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29180025,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29180025,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29180025,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29180025,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29180025,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29180025,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29180025,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29180025,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29180025,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29210026,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29210026,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29210026,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29210026,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29210026,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29210026,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29210026,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29210026,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29210026,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29210026,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29240027,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29240027,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29240027,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29240027,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29240027,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29240027,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29240027,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29240027,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29240027,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29240027,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29270028,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29270028,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29270028,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29270028,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29270028,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29270028,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29270028,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29270028,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29270028,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29270028,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29300029,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29300029,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29300029,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29300029,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29300029,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29300029,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29300029,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29300029,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29300029,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29300029,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29330030,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29330030,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29330030,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29330030,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29330030,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29330030,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29330030,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29330030,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29330030,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29330030,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29360031,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29360031,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29360031,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29360031,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29360031,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29360031,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29360031,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29360031,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29360031,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29360031,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29390032,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29390032,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29390032,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29390032,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29390032,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29390032,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29390032,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29390032,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29390032,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29390032,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29420033,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29420033,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29420033,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29420033,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29420033,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29420033,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29420033,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29420033,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29420033,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29420033,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29450034,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29450034,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29450034,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29450034,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29450034,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29450034,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29450034,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29450034,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29450034,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29450034,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29480035,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29480035,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29480035,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29480035,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29480035,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29480035,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29480035,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29480035,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29480035,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29480035,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29510036,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29510036,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29510036,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29510036,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29510036,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29510036,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29510036,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29510036,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29510036,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29510036,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29540037,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29540037,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29540037,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29540037,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29540037,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29540037,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29540037,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29540037,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29540037,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29540037,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29570038,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29570038,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29570038,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29570038,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29570038,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29570038,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29570038,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29570038,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29570038,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29570038,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29600039,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29600039,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29600039,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29600039,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29600039,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29600039,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29600039,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29600039,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29600039,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29600039,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29630040,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29630040,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29630040,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29630040,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29630040,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29630040,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29630040,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29630040,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29630040,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29630040,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29660041,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29660041,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29660041,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29660041,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29660041,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29660041,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29660041,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29660041,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29660041,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29660041,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29690042,
+      "context": "A",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29690042,
+      "context": "A",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29690042,
+      "context": "A",
+      "mode": "learned",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29690042,
+      "context": "A",
+      "mode": "swap",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29690042,
+      "context": "A",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 16,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    },
+    {
+      "seed": 29690042,
+      "context": "B",
+      "mode": "fixed",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29690042,
+      "context": "B",
+      "mode": "reverse",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29690042,
+      "context": "B",
+      "mode": "learned",
+      "order": [
+        3,
+        2,
+        1
+      ],
+      "solved": 11,
+      "probes": 16,
+      "correct": 121,
+      "wrong": 0,
+      "abstained": 11,
+      "utility": 121
+    },
+    {
+      "seed": 29690042,
+      "context": "B",
+      "mode": "swap",
+      "order": [
+        1,
+        2,
+        3
+      ],
+      "solved": 4,
+      "probes": 23,
+      "correct": 44,
+      "wrong": 0,
+      "abstained": 88,
+      "utility": 44
+    },
+    {
+      "seed": 29690042,
+      "context": "B",
+      "mode": "global",
+      "order": [
+        1,
+        3,
+        2
+      ],
+      "solved": 9,
+      "probes": 23,
+      "correct": 99,
+      "wrong": 0,
+      "abstained": 33,
+      "utility": 99
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "mode": "sequential",
+    "spent": 720,
+    "solved": 360,
+    "correct": 2520,
+    "wrong": 0,
+    "abstained": 0,
+    "coverage": {
+      "1": 120,
+      "2": 120,
+      "3": 120
+    }
+  },
+  {
+    "mode": "round",
+    "spent": 720,
+    "solved": 360,
+    "correct": 2520,
+    "wrong": 0,
+    "abstained": 0,
+    "coverage": {
+      "1": 120,
+      "2": 120,
+      "3": 120
+    }
+  },
+  {
+    "mode": "return",
+    "spent": 720,
+    "solved": 360,
+    "correct": 2520,
+    "wrong": 0,
+    "abstained": 0,
+    "coverage": {
+      "1": 120,
+      "2": 120,
+      "3": 120
+    }
+  }
+]

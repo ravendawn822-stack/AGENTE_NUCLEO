@@ -1,0 +1,8 @@
+test_identify (__main__.Tests.test_identify) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_split (__main__.Tests.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK

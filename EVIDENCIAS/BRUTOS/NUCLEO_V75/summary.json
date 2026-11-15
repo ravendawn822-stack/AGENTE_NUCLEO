@@ -1,0 +1,1059 @@
+{
+  "protocol": "V75-investigation-v1",
+  "probabilities": {
+    "1": 0.33516483516483514,
+    "2": 0.5,
+    "3": 0.9838709677419355
+  },
+  "aggregate": [
+    {
+      "mode": "sequential",
+      "spent": 720,
+      "solved": 360,
+      "correct": 2520,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 120,
+        "2": 120,
+        "3": 120
+      }
+    },
+    {
+      "mode": "round",
+      "spent": 720,
+      "solved": 360,
+      "correct": 2520,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 120,
+        "2": 120,
+        "3": 120
+      }
+    },
+    {
+      "mode": "return",
+      "spent": 720,
+      "solved": 360,
+      "correct": 2520,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 120,
+        "2": 120,
+        "3": 120
+      }
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 26000019,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26000019,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26000019,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26030020,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26030020,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26030020,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26060021,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26060021,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26060021,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26090022,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26090022,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26090022,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26120023,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26120023,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26120023,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26150024,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26150024,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26150024,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26180025,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26180025,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26180025,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26210026,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26210026,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26210026,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26240027,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26240027,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26240027,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26270028,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26270028,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26270028,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26300029,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26300029,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26300029,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26330030,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26330030,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26330030,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26360031,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26360031,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26360031,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26390032,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26390032,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26390032,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26420033,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26420033,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26420033,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26450034,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26450034,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26450034,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26480035,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26480035,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26480035,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26510036,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26510036,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26510036,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26540037,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26540037,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26540037,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26570038,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26570038,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26570038,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26600039,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26600039,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26600039,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26630040,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26630040,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26630040,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26660041,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26660041,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26660041,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26690042,
+      "mode": "sequential",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26690042,
+      "mode": "round",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    },
+    {
+      "seed": 26690042,
+      "mode": "return",
+      "spent": 30,
+      "solved": 15,
+      "correct": 105,
+      "wrong": 0,
+      "abstained": 0,
+      "coverage": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      }
+    }
+  ]
+}

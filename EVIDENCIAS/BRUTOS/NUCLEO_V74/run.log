@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "random",
+    "goals": 96,
+    "complete": 96,
+    "executed": 402,
+    "irrelevant": 104,
+    "violations": 0,
+    "abstained": 0
+  },
+  {
+    "mode": "all",
+    "goals": 96,
+    "complete": 96,
+    "executed": 411,
+    "irrelevant": 113,
+    "violations": 0,
+    "abstained": 0
+  },
+  {
+    "mode": "closure",
+    "goals": 96,
+    "complete": 96,
+    "executed": 298,
+    "irrelevant": 0,
+    "violations": 0,
+    "abstained": 0
+  }
+]

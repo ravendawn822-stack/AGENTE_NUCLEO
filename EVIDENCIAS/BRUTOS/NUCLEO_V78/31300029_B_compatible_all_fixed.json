@@ -1,0 +1,1298 @@
+{
+  "result": {
+    "seed": 31300029,
+    "context": "B",
+    "condition": "compatible",
+    "mode": "all_fixed",
+    "goals": 4,
+    "correct_goals": 0,
+    "wrong_goals": 0,
+    "incomplete_goals": 4,
+    "solved": 7,
+    "spent": 18,
+    "blocked": 0,
+    "failed": 0,
+    "revisions": 0,
+    "irrelevant": 1,
+    "wrong_predictions": 0,
+    "correct_predictions": 77,
+    "abstained": 55
+  },
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [
+      0,
+      3
+    ],
+    "5": [
+      0,
+      2
+    ],
+    "6": [
+      2,
+      3
+    ],
+    "7": [
+      2,
+      3
+    ],
+    "8": [
+      5,
+      6
+    ],
+    "9": [
+      6
+    ],
+    "10": [
+      6,
+      7
+    ],
+    "11": [
+      4,
+      5
+    ]
+  },
+  "data": [
+    {
+      "degree": 3,
+      "points": [
+        [
+          0,
+          4
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "held": [
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          16,
+          14
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          8,
+          7
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "held": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          14
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "points": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "held": [
+        [
+          0,
+          10
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          16,
+          7
+        ]
+      ]
+    },
+    {
+      "degree": 1,
+      "points": [
+        [
+          3,
+          15
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "held": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          16,
+          12
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          1,
+          9
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "held": [
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          4
+        ],
+        [
+          16,
+          13
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          5,
+          11
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "held": [
+        [
+          1,
+          11
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          5
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          0,
+          4
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          4,
+          12
+        ]
+      ],
+      "held": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          16,
+          15
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          9,
+          6
+        ]
+      ],
+      "held": [
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          15,
+          3
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          12,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          10,
+          14
+        ]
+      ],
+      "held": [
+        [
+          0,
+          9
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          3
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "points": [
+        [
+          12,
+          16
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "held": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          14
+        ]
+      ]
+    },
+    {
+      "degree": 2,
+      "points": [
+        [
+          14,
+          8
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "held": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "degree": 3,
+      "points": [
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      "held": [
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          15,
+          11
+        ]
+      ]
+    }
+  ],
+  "edits": [],
+  "required": [
+    0,
+    2,
+    5,
+    3,
+    6,
+    8,
+    9,
+    7,
+    10,
+    4,
+    11
+  ],
+  "models": {
+    "0": [
+      4,
+      12,
+      15,
+      10
+    ],
+    "1": [
+      12,
+      4,
+      4,
+      15
+    ],
+    "2": [
+      10,
+      6,
+      3
+    ],
+    "3": [
+      0,
+      5
+    ],
+    "4": [
+      1,
+      11,
+      10,
+      4
+    ],
+    "5": [
+      13,
+      14,
+      12,
+      6
+    ],
+    "6": [
+      4,
+      4,
+      3,
+      14
+    ]
+  },
+  "events": [
+    {
+      "type": "goal_decomposition",
+      "task": 0,
+      "requires": [],
+      "spent": 0
+    },
+    {
+      "type": "investigate",
+      "task": 0,
+      "family": 1,
+      "accepted": false,
+      "spent": 1
+    },
+    {
+      "type": "investigate",
+      "task": 0,
+      "family": 2,
+      "accepted": false,
+      "spent": 2
+    },
+    {
+      "type": "investigate",
+      "task": 0,
+      "family": 3,
+      "accepted": true,
+      "spent": 3
+    },
+    {
+      "type": "goal_decomposition",
+      "task": 1,
+      "requires": [],
+      "spent": 3
+    },
+    {
+      "type": "investigate",
+      "task": 1,
+      "family": 1,
+      "accepted": false,
+      "spent": 4
+    },
+    {
+      "type": "investigate",
+      "task": 1,
+      "family": 2,
+      "accepted": false,
+      "spent": 5
+    },
+    {
+      "type": "investigate",
+      "task": 1,
+      "family": 3,
+      "accepted": true,
+      "spent": 6
+    },
+    {
+      "type": "goal_decomposition",
+      "task": 2,
+      "requires": [],
+      "spent": 6
+    },
+    {
+      "type": "investigate",
+      "task": 2,
+      "family": 1,
+      "accepted": false,
+      "spent": 7
+    },
+    {
+      "type": "investigate",
+      "task": 2,
+      "family": 2,
+      "accepted": true,
+      "spent": 8
+    },
+    {
+      "type": "goal_decomposition",
+      "task": 3,
+      "requires": [],
+      "spent": 8
+    },
+    {
+      "type": "investigate",
+      "task": 3,
+      "family": 1,
+      "accepted": true,
+      "spent": 9
+    },
+    {
+      "type": "goal_decomposition",
+      "task": 4,
+      "requires": [
+        0,
+        3
+      ],
+      "spent": 9
+    },
+    {
+      "type": "investigate",
+      "task": 4,
+      "family": 1,
+      "accepted": false,
+      "spent": 10
+    },
+    {
+      "type": "investigate",
+      "task": 4,
+      "family": 2,
+      "accepted": false,
+      "spent": 11
+    },
+    {
+      "type": "investigate",
+      "task": 4,
+      "family": 3,
+      "accepted": true,
+      "spent": 12
+    },
+    {
+      "type": "goal_decomposition",
+      "task": 5,
+      "requires": [
+        0,
+        2
+      ],
+      "spent": 12
+    },
+    {
+      "type": "investigate",
+      "task": 5,
+      "family": 1,
+      "accepted": false,
+      "spent": 13
+    },
+    {
+      "type": "investigate",
+      "task": 5,
+      "family": 2,
+      "accepted": false,
+      "spent": 14
+    },
+    {
+      "type": "investigate",
+      "task": 5,
+      "family": 3,
+      "accepted": true,
+      "spent": 15
+    },
+    {
+      "type": "goal_decomposition",
+      "task": 6,
+      "requires": [
+        2,
+        3
+      ],
+      "spent": 15
+    },
+    {
+      "type": "investigate",
+      "task": 6,
+      "family": 1,
+      "accepted": false,
+      "spent": 16
+    },
+    {
+      "type": "investigate",
+      "task": 6,
+      "family": 2,
+      "accepted": false,
+      "spent": 17
+    },
+    {
+      "type": "investigate",
+      "task": 6,
+      "family": 3,
+      "accepted": true,
+      "spent": 18
+    }
+  ],
+  "rows": [
+    {
+      "id": 0,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 1,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 2,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 3,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 4,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 5,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 6,
+      "emitted": true,
+      "correct": 11,
+      "wrong": 0,
+      "abstained": 0
+    },
+    {
+      "id": 7,
+      "emitted": false,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11
+    },
+    {
+      "id": 8,
+      "emitted": false,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11
+    },
+    {
+      "id": 9,
+      "emitted": false,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11
+    },
+    {
+      "id": 10,
+      "emitted": false,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11
+    },
+    {
+      "id": 11,
+      "emitted": false,
+      "correct": 0,
+      "wrong": 0,
+      "abstained": 11
+    }
+  ],
+  "goals": [
+    {
+      "goal": 8,
+      "status": "incomplete"
+    },
+    {
+      "goal": 9,
+      "status": "incomplete"
+    },
+    {
+      "goal": 10,
+      "status": "incomplete"
+    },
+    {
+      "goal": 11,
+      "status": "incomplete"
+    }
+  ]
+}

@@ -1,0 +1,2383 @@
+{
+  "protocol": "V76-replanning-v1",
+  "aggregate": [
+    {
+      "condition": "stable",
+      "mode": "frozen",
+      "sessions": 32,
+      "success": 32,
+      "steps": 66,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "condition": "stable",
+      "mode": "replan",
+      "sessions": 32,
+      "success": 32,
+      "steps": 66,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "condition": "stable",
+      "mode": "explore",
+      "sessions": 32,
+      "success": 32,
+      "steps": 66,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "condition": "stable",
+      "mode": "oracle",
+      "sessions": 32,
+      "success": 32,
+      "steps": 66,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "condition": "changed",
+      "mode": "frozen",
+      "sessions": 32,
+      "success": 28,
+      "steps": 66,
+      "divergences": 6,
+      "replans": 0
+    },
+    {
+      "condition": "changed",
+      "mode": "replan",
+      "sessions": 32,
+      "success": 32,
+      "steps": 70,
+      "divergences": 5,
+      "replans": 5
+    },
+    {
+      "condition": "changed",
+      "mode": "explore",
+      "sessions": 32,
+      "success": 32,
+      "steps": 70,
+      "divergences": 5,
+      "replans": 5
+    },
+    {
+      "condition": "changed",
+      "mode": "oracle",
+      "sessions": 32,
+      "success": 32,
+      "steps": 67,
+      "divergences": 0,
+      "replans": 0
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 28000019,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28000019,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28030020,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28060021,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28090022,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28090022,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28090022,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28090022,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28090022,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": false,
+      "steps": 3,
+      "divergences": 1,
+      "replans": 0
+    },
+    {
+      "seed": 28090022,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 4,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28090022,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 4,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28090022,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 4,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28120023,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28120023,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28120023,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28120023,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28120023,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": false,
+      "steps": 2,
+      "divergences": 1,
+      "replans": 0
+    },
+    {
+      "seed": 28120023,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 5,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28120023,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 5,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28120023,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28150024,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28150024,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28150024,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28150024,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28150024,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": false,
+      "steps": 3,
+      "divergences": 1,
+      "replans": 0
+    },
+    {
+      "seed": 28150024,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28150024,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28150024,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28180025,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28180025,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28180025,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28180025,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28180025,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": false,
+      "steps": 3,
+      "divergences": 1,
+      "replans": 0
+    },
+    {
+      "seed": 28180025,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 4,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28180025,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 4,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28180025,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28210026,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28240027,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28270028,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28300029,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28330030,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28360031,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28390032,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28420033,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28450034,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28480035,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28510036,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28540037,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28570038,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28600039,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28600039,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28600039,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28600039,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28600039,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 2,
+      "replans": 0
+    },
+    {
+      "seed": 28600039,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28600039,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 1,
+      "replans": 1
+    },
+    {
+      "seed": 28600039,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28630040,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28660041,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28690042,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28720043,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28750044,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28780045,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 3,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28810046,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28840047,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28870048,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28900049,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 2,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "stable",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "stable",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "stable",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "stable",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "changed",
+      "mode": "frozen",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "changed",
+      "mode": "replan",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "changed",
+      "mode": "explore",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    },
+    {
+      "seed": 28930050,
+      "condition": "changed",
+      "mode": "oracle",
+      "success": true,
+      "steps": 1,
+      "divergences": 0,
+      "replans": 0
+    }
+  ]
+}

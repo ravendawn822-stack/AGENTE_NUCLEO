@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "stable",
+    "mode": "frozen",
+    "sessions": 32,
+    "success": 32,
+    "steps": 66,
+    "divergences": 0,
+    "replans": 0
+  },
+  {
+    "condition": "stable",
+    "mode": "replan",
+    "sessions": 32,
+    "success": 32,
+    "steps": 66,
+    "divergences": 0,
+    "replans": 0
+  },
+  {
+    "condition": "stable",
+    "mode": "explore",
+    "sessions": 32,
+    "success": 32,
+    "steps": 66,
+    "divergences": 0,
+    "replans": 0
+  },
+  {
+    "condition": "stable",
+    "mode": "oracle",
+    "sessions": 32,
+    "success": 32,
+    "steps": 66,
+    "divergences": 0,
+    "replans": 0
+  },
+  {
+    "condition": "changed",
+    "mode": "frozen",
+    "sessions": 32,
+    "success": 28,
+    "steps": 66,
+    "divergences": 6,
+    "replans": 0
+  },
+  {
+    "condition": "changed",
+    "mode": "replan",
+    "sessions": 32,
+    "success": 32,
+    "steps": 70,
+    "divergences": 5,
+    "replans": 5
+  },
+  {
+    "condition": "changed",
+    "mode": "explore",
+    "sessions": 32,
+    "success": 32,
+    "steps": 70,
+    "divergences": 5,
+    "replans": 5
+  },
+  {
+    "condition": "changed",
+    "mode": "oracle",
+    "sessions": 32,
+    "success": 32,
+    "steps": 67,
+    "divergences": 0,
+    "replans": 0
+  }
+]
