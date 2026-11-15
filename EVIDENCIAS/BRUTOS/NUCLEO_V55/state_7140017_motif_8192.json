@@ -1,0 +1,1243 @@
+{
+  "policy": "motif_8192",
+  "library": [
+    [
+      "fork",
+      "mul",
+      "",
+      "",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "",
+      ""
+    ],
+    [
+      "fork",
+      "mul",
+      "",
+      "inc",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "abs",
+      "neg",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "mul",
+      "neg",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "neg",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "",
+      "sort",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "even",
+      "",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "neg",
+      "sort",
+      ""
+    ],
+    [
+      "fork",
+      "concat",
+      "neg",
+      "sort",
+      ""
+    ],
+    [
+      "fork",
+      "mul",
+      "",
+      "reverse",
+      ""
+    ],
+    [
+      "fork",
+      "add",
+      "neg",
+      "reverse",
+      ""
+    ]
+  ],
+  "library_sha": "5a834c0181e4e73fce7d84acb83909bb7009552f8fe3cefbb375bbad431f28da",
+  "frozen": true,
+  "tasks": [
+    {
+      "id": 0,
+      "context": "702492fdb83aa1107e65104b3f273fd805969bed2f960c037270f91c9d2133ee",
+      "status": "accepted",
+      "last_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "attempts": 1
+    },
+    {
+      "id": 1,
+      "context": "a476472702080c978b4b3df00caf3065e556aaadcadc719d2d8586790e690e27",
+      "status": "accepted",
+      "last_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "attempts": 1
+    },
+    {
+      "id": 2,
+      "context": "f62d024e8594cdfd8d0562a617c57ffbab6df90a7451495dd64152798d23391e",
+      "status": "accepted",
+      "last_sha": "e98e05a0e6608054e28aeb132097539727a536f9b690f535f79fd00e7f6a1bf7",
+      "attempts": 1
+    },
+    {
+      "id": 3,
+      "context": "da93f9f9b9ad19ebfbc5503064d93a415954ec928af500d87973b5aad3477e47",
+      "status": "accepted",
+      "last_sha": "5a834c0181e4e73fce7d84acb83909bb7009552f8fe3cefbb375bbad431f28da",
+      "attempts": 2
+    },
+    {
+      "id": 4,
+      "context": "2f1c5c623c5e23e650506d0ed34bf10558056d86c321efc9760d900992423672",
+      "status": "accepted",
+      "last_sha": "3b0c4715abeb6455a76779db3ba1fd6ea899868f1bcdce7a949320c659610bbf",
+      "attempts": 3
+    },
+    {
+      "id": 5,
+      "context": "3dfff5014c7f7fc43014f18ad7cd8c992d5b36d8d2fae3b9c7d6e3f2530c6e2e",
+      "status": "accepted",
+      "last_sha": "f899fced3baf1429fc115a1061332132c0964f4746279173b755169a833a90b2",
+      "attempts": 1
+    },
+    {
+      "id": 6,
+      "context": "a5b8775026e983b4f9018c23e1453d9d3327676cb4347cc5229b6f781af751b2",
+      "status": "accepted",
+      "last_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "attempts": 2
+    },
+    {
+      "id": 7,
+      "context": "bf61d3df3dfbc7d3a5b5b6d86304fb7fdb35fb1ef6b07c19204eb69aa02bdf9e",
+      "status": "accepted",
+      "last_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "attempts": 1
+    },
+    {
+      "id": 8,
+      "context": "87101a803a3aebf4cae2c5391cb30e912d162067d87a61affe571ce6f08b8b8e",
+      "status": "accepted",
+      "last_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "attempts": 1
+    },
+    {
+      "id": 9,
+      "context": "dcf3c0e9838b0c97621cf7e20bc239747bf452c3aa29e0ac5655835215ec37c2",
+      "status": "accepted",
+      "last_sha": "cf76581fc2d48b12b44a42fbafacff525174adce800d8bea3ea00e4e191d3f6e",
+      "attempts": 1
+    },
+    {
+      "id": 10,
+      "context": "be5243cc883f39f83456595044a6829536bcb3acadd396a92e1b47542f4d27bd",
+      "status": "accepted",
+      "last_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "attempts": 1
+    },
+    {
+      "id": 11,
+      "context": "949d18e9bb9700fdebd155ddbe7ffeb96a4317c40abbff7950f24dfbef50d159",
+      "status": "accepted",
+      "last_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "attempts": 1
+    },
+    {
+      "id": 12,
+      "context": "19740026e0cb087bb679042b80ba38804def5f48402b1d1dbff8a0dd2260081d",
+      "status": "accepted",
+      "last_sha": "3ce865479961f2d828be1b30958571fa0760ffe643278d5408b14b4bd356f52d",
+      "attempts": 1
+    },
+    {
+      "id": 13,
+      "context": "0190942b082257c8fad68a5d0db4409245d74d608cf6b5d656c896732419dcac",
+      "status": "accepted",
+      "last_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "attempts": 1
+    }
+  ],
+  "events": [
+    {
+      "id": 4,
+      "context": "2f1c5c623c5e23e650506d0ed34bf10558056d86c321efc9760d900992423672",
+      "status": "deferred",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "after_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_size": 6,
+      "after_size": 6,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 12000,
+      "cache_peak_round": 12000,
+      "cache_storage_checkpoint_bytes": 199150,
+      "bitmap_payload_checkpoint_bytes": 162816,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3360232,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "positions_scanned": 12000,
+      "cached_skips": 0,
+      "pair_wall_ns": 48519715,
+      "source": null,
+      "real_motif_evaluations": 8863,
+      "prediction_hits": 12455,
+      "prediction_misses": 8863,
+      "cross_task_hits": 0,
+      "prediction_evictions": 671
+    },
+    {
+      "id": 10,
+      "context": "be5243cc883f39f83456595044a6829536bcb3acadd396a92e1b47542f4d27bd",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "after_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "before_size": 6,
+      "after_size": 7,
+      "added": [
+        [
+          "fork",
+          "mul",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "mul",
+            "neg",
+            "reverse",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "91dc22586407f50c99c6e15ef277720ab0176b18a2ef487539643fefb1e56885"
+        }
+      ],
+      "cache_entries": 12000,
+      "cache_peak_round": 21818,
+      "cache_storage_checkpoint_bytes": 363674,
+      "bitmap_payload_checkpoint_bytes": 295936,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3768280,
+      "pair_examined": 9819,
+      "pair_checks": 9832,
+      "positions_scanned": 9819,
+      "cached_skips": 0,
+      "pair_wall_ns": 38516444,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 7115,
+      "prediction_hits": 10515,
+      "prediction_misses": 7115,
+      "cross_task_hits": 6110,
+      "prediction_evictions": 7115
+    },
+    {
+      "id": 6,
+      "context": "a5b8775026e983b4f9018c23e1453d9d3327676cb4347cc5229b6f781af751b2",
+      "status": "deferred",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "after_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "before_size": 7,
+      "after_size": 7,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24000,
+      "cache_storage_checkpoint_bytes": 371435,
+      "bitmap_payload_checkpoint_bytes": 302592,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3805032,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "positions_scanned": 12000,
+      "cached_skips": 0,
+      "pair_wall_ns": 44083507,
+      "source": null,
+      "real_motif_evaluations": 4159,
+      "prediction_hits": 17342,
+      "prediction_misses": 4159,
+      "cross_task_hits": 15047,
+      "prediction_evictions": 4159
+    },
+    {
+      "id": 0,
+      "context": "702492fdb83aa1107e65104b3f273fd805969bed2f960c037270f91c9d2133ee",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "after_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "before_size": 7,
+      "after_size": 7,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24000,
+      "cache_storage_checkpoint_bytes": 371499,
+      "bitmap_payload_checkpoint_bytes": 302592,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3805144,
+      "pair_examined": 1,
+      "pair_checks": 14,
+      "positions_scanned": 1,
+      "cached_skips": 0,
+      "pair_wall_ns": 145480,
+      "source": "priority_pair",
+      "real_motif_evaluations": 25,
+      "prediction_hits": 3,
+      "prediction_misses": 25,
+      "cross_task_hits": 3,
+      "prediction_evictions": 25
+    },
+    {
+      "id": 8,
+      "context": "87101a803a3aebf4cae2c5391cb30e912d162067d87a61affe571ce6f08b8b8e",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "after_sha": "3ce865479961f2d828be1b30958571fa0760ffe643278d5408b14b4bd356f52d",
+      "before_size": 7,
+      "after_size": 8,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "",
+            "neg",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "399555da9961d74e7b33aa66caf9a851e896acf2867646ecaf9d3cfb68d068c2"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 28675,
+      "cache_storage_checkpoint_bytes": 441793,
+      "bitmap_payload_checkpoint_bytes": 358912,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3742992,
+      "pair_examined": 4676,
+      "pair_checks": 4689,
+      "positions_scanned": 4676,
+      "cached_skips": 0,
+      "pair_wall_ns": 19948793,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 2860,
+      "prediction_hits": 5006,
+      "prediction_misses": 2860,
+      "cross_task_hits": 2919,
+      "prediction_evictions": 2860
+    },
+    {
+      "id": 12,
+      "context": "19740026e0cb087bb679042b80ba38804def5f48402b1d1dbff8a0dd2260081d",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "3ce865479961f2d828be1b30958571fa0760ffe643278d5408b14b4bd356f52d",
+      "after_sha": "cf76581fc2d48b12b44a42fbafacff525174adce800d8bea3ea00e4e191d3f6e",
+      "before_size": 8,
+      "after_size": 9,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "",
+            "sort",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "6007f4e31dc404a4b8a76abbb1b762d61ab61055a55c54f35438debe6cf6c43a"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 29407,
+      "cache_storage_checkpoint_bytes": 442390,
+      "bitmap_payload_checkpoint_bytes": 359424,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3722576,
+      "pair_examined": 5408,
+      "pair_checks": 5421,
+      "positions_scanned": 5408,
+      "cached_skips": 0,
+      "pair_wall_ns": 9987236,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 446,
+      "prediction_hits": 8668,
+      "prediction_misses": 446,
+      "cross_task_hits": 8580,
+      "prediction_evictions": 446
+    },
+    {
+      "id": 9,
+      "context": "dcf3c0e9838b0c97621cf7e20bc239747bf452c3aa29e0ac5655835215ec37c2",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "cf76581fc2d48b12b44a42fbafacff525174adce800d8bea3ea00e4e191d3f6e",
+      "after_sha": "f899fced3baf1429fc115a1061332132c0964f4746279173b755169a833a90b2",
+      "before_size": 9,
+      "after_size": 10,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "even",
+            "",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "b5e1a2b10866e647b041a36861e8cada4c584477663c6b59cefa6b386d35eb2a"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 31766,
+      "cache_storage_checkpoint_bytes": 459703,
+      "bitmap_payload_checkpoint_bytes": 374272,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3690960,
+      "pair_examined": 7767,
+      "pair_checks": 7780,
+      "positions_scanned": 7767,
+      "cached_skips": 0,
+      "pair_wall_ns": 20027883,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 1894,
+      "prediction_hits": 11722,
+      "prediction_misses": 1894,
+      "cross_task_hits": 10791,
+      "prediction_evictions": 1894
+    },
+    {
+      "id": 5,
+      "context": "3dfff5014c7f7fc43014f18ad7cd8c992d5b36d8d2fae3b9c7d6e3f2530c6e2e",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "f899fced3baf1429fc115a1061332132c0964f4746279173b755169a833a90b2",
+      "after_sha": "e98e05a0e6608054e28aeb132097539727a536f9b690f535f79fd00e7f6a1bf7",
+      "before_size": 10,
+      "after_size": 11,
+      "added": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "neg",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "add",
+            "neg",
+            "sort",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "4a1cee0bcacfd206a7bedb11bbcb18cd756cb0a184f6be590fe67312d1252fdf"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 27594,
+      "cache_storage_checkpoint_bytes": 411907,
+      "bitmap_payload_checkpoint_bytes": 335360,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3676224,
+      "pair_examined": 3595,
+      "pair_checks": 3608,
+      "positions_scanned": 3595,
+      "cached_skips": 0,
+      "pair_wall_ns": 6435607,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 229,
+      "prediction_hits": 5757,
+      "prediction_misses": 229,
+      "cross_task_hits": 5739,
+      "prediction_evictions": 229
+    },
+    {
+      "id": 2,
+      "context": "f62d024e8594cdfd8d0562a617c57ffbab6df90a7451495dd64152798d23391e",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "e98e05a0e6608054e28aeb132097539727a536f9b690f535f79fd00e7f6a1bf7",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 11,
+      "after_size": 12,
+      "added": [
+        [
+          "fork",
+          "concat",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "neg",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "concat",
+            "neg",
+            "sort",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "801e3226f081f51b8f0b4321d6404c3545e33a31b477199462afa39e9a039083"
+        }
+      ],
+      "cache_entries": 24000,
+      "cache_peak_round": 34958,
+      "cache_storage_checkpoint_bytes": 472837,
+      "bitmap_payload_checkpoint_bytes": 385536,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3798576,
+      "pair_examined": 10959,
+      "pair_checks": 10972,
+      "positions_scanned": 10959,
+      "cached_skips": 0,
+      "pair_wall_ns": 25645491,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 2333,
+      "prediction_hits": 17235,
+      "prediction_misses": 2333,
+      "cross_task_hits": 16346,
+      "prediction_evictions": 2333
+    },
+    {
+      "id": 11,
+      "context": "949d18e9bb9700fdebd155ddbe7ffeb96a4317c40abbff7950f24dfbef50d159",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "add",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24036,
+      "cache_storage_checkpoint_bytes": 373450,
+      "bitmap_payload_checkpoint_bytes": 304128,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3797968,
+      "pair_examined": 37,
+      "pair_checks": 50,
+      "positions_scanned": 37,
+      "cached_skips": 0,
+      "pair_wall_ns": 131570,
+      "source": "priority_pair",
+      "real_motif_evaluations": 12,
+      "prediction_hits": 88,
+      "prediction_misses": 12,
+      "cross_task_hits": 88,
+      "prediction_evictions": 12
+    },
+    {
+      "id": 7,
+      "context": "bf61d3df3dfbc7d3a5b5b6d86304fb7fdb35fb1ef6b07c19204eb69aa02bdf9e",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "",
+          "sort",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24096,
+      "cache_storage_checkpoint_bytes": 376563,
+      "bitmap_payload_checkpoint_bytes": 306688,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3799440,
+      "pair_examined": 97,
+      "pair_checks": 111,
+      "positions_scanned": 97,
+      "cached_skips": 0,
+      "pair_wall_ns": 242918,
+      "source": "priority_pair",
+      "real_motif_evaluations": 14,
+      "prediction_hits": 208,
+      "prediction_misses": 14,
+      "cross_task_hits": 208,
+      "prediction_evictions": 14
+    },
+    {
+      "id": 13,
+      "context": "0190942b082257c8fad68a5d0db4409245d74d608cf6b5d656c896732419dcac",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "inc",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 24000,
+      "cache_peak_round": 24110,
+      "cache_storage_checkpoint_bytes": 377757,
+      "bitmap_payload_checkpoint_bytes": 307712,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3800416,
+      "pair_examined": 111,
+      "pair_checks": 124,
+      "positions_scanned": 111,
+      "cached_skips": 0,
+      "pair_wall_ns": 268216,
+      "source": "priority_pair",
+      "real_motif_evaluations": 14,
+      "prediction_hits": 234,
+      "prediction_misses": 14,
+      "cross_task_hits": 234,
+      "prediction_evictions": 14
+    },
+    {
+      "id": 3,
+      "context": "da93f9f9b9ad19ebfbc5503064d93a415954ec928af500d87973b5aad3477e47",
+      "status": "deferred",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36000,
+      "cache_storage_checkpoint_bytes": 473434,
+      "bitmap_payload_checkpoint_bytes": 386048,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3839448,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "positions_scanned": 12000,
+      "cached_skips": 0,
+      "pair_wall_ns": 39498672,
+      "source": null,
+      "real_motif_evaluations": 5960,
+      "prediction_hits": 15448,
+      "prediction_misses": 5960,
+      "cross_task_hits": 11572,
+      "prediction_evictions": 5960
+    },
+    {
+      "id": 1,
+      "context": "a476472702080c978b4b3df00caf3065e556aaadcadc719d2d8586790e690e27",
+      "status": "accepted",
+      "prior_status": "unseen",
+      "prior_trial_sha": null,
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "mul",
+          "",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "concat",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": false,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 36000,
+      "cache_peak_round": 36001,
+      "cache_storage_checkpoint_bytes": 474255,
+      "bitmap_payload_checkpoint_bytes": 386560,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3837896,
+      "pair_examined": 2,
+      "pair_checks": 15,
+      "positions_scanned": 2,
+      "cached_skips": 0,
+      "pair_wall_ns": 84418,
+      "source": "priority_pair",
+      "real_motif_evaluations": 28,
+      "prediction_hits": 2,
+      "prediction_misses": 28,
+      "cross_task_hits": 2,
+      "prediction_evictions": 28
+    },
+    {
+      "id": 4,
+      "context": "2f1c5c623c5e23e650506d0ed34bf10558056d86c321efc9760d900992423672",
+      "status": "deferred",
+      "prior_status": "deferred",
+      "prior_trial_sha": "057e8d5e3f52da40d206cbecbf549a5434ab5c29453da75d7d8ea46f41404150",
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_size": 12,
+      "after_size": 12,
+      "added": [],
+      "pair": null,
+      "emitted": false,
+      "accepted": false,
+      "recovered": false,
+      "validation_checks": 0,
+      "validation_matches": 0,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 48000,
+      "cache_peak_round": 48000,
+      "cache_storage_checkpoint_bytes": 474031,
+      "bitmap_payload_checkpoint_bytes": 386560,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3885280,
+      "pair_examined": 12000,
+      "pair_checks": 12000,
+      "positions_scanned": 24000,
+      "cached_skips": 12000,
+      "pair_wall_ns": 41259950,
+      "source": null,
+      "real_motif_evaluations": 4810,
+      "prediction_hits": 16496,
+      "prediction_misses": 4810,
+      "cross_task_hits": 13134,
+      "prediction_evictions": 4810
+    },
+    {
+      "id": 6,
+      "context": "a5b8775026e983b4f9018c23e1453d9d3327676cb4347cc5229b6f781af751b2",
+      "status": "accepted",
+      "prior_status": "deferred",
+      "prior_trial_sha": "700bf087b5a72d5aae8a348a388823879e8c1515d8f5289f4f21e02090c9c363",
+      "before_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "after_sha": "3b0c4715abeb6455a76779db3ba1fd6ea899868f1bcdce7a949320c659610bbf",
+      "before_size": 12,
+      "after_size": 13,
+      "added": [
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "concat",
+          "even",
+          "",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "mul",
+            "",
+            "reverse",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "56e955e605226f2cbd5d2ce9598566e0722f7cd37ae18f0e9c83eac0751c7c50"
+        }
+      ],
+      "cache_entries": 36000,
+      "cache_peak_round": 54509,
+      "cache_storage_checkpoint_bytes": 474031,
+      "bitmap_payload_checkpoint_bytes": 386560,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3874152,
+      "pair_examined": 6510,
+      "pair_checks": 6523,
+      "positions_scanned": 15715,
+      "cached_skips": 9205,
+      "pair_wall_ns": 27057780,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 3797,
+      "prediction_hits": 8139,
+      "prediction_misses": 3797,
+      "cross_task_hits": 5945,
+      "prediction_evictions": 3797
+    },
+    {
+      "id": 4,
+      "context": "2f1c5c623c5e23e650506d0ed34bf10558056d86c321efc9760d900992423672",
+      "status": "accepted",
+      "prior_status": "deferred",
+      "prior_trial_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_sha": "3b0c4715abeb6455a76779db3ba1fd6ea899868f1bcdce7a949320c659610bbf",
+      "after_sha": "5a834c0181e4e73fce7d84acb83909bb7009552f8fe3cefbb375bbad431f28da",
+      "before_size": 13,
+      "after_size": 14,
+      "added": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ]
+      ],
+      "pair": [
+        [
+          "fork",
+          "add",
+          "neg",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [
+        {
+          "motif": [
+            "fork",
+            "add",
+            "neg",
+            "reverse",
+            ""
+          ],
+          "individually_verified": false,
+          "source_pair_sha": "934d41636fb3b88e278920039f70e36d6d9de8e94a5b187fce2397f095092387"
+        }
+      ],
+      "cache_entries": 12000,
+      "cache_peak_round": 36344,
+      "cache_storage_checkpoint_bytes": 301746,
+      "bitmap_payload_checkpoint_bytes": 246784,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3856312,
+      "pair_examined": 345,
+      "pair_checks": 358,
+      "positions_scanned": 4641,
+      "cached_skips": 4296,
+      "pair_wall_ns": 2829806,
+      "source": "mixed_pair",
+      "real_motif_evaluations": 227,
+      "prediction_hits": 366,
+      "prediction_misses": 227,
+      "cross_task_hits": 172,
+      "prediction_evictions": 227
+    },
+    {
+      "id": 3,
+      "context": "da93f9f9b9ad19ebfbc5503064d93a415954ec928af500d87973b5aad3477e47",
+      "status": "accepted",
+      "prior_status": "deferred",
+      "prior_trial_sha": "6c308dc51d61443c98485df44268d50bcfd921f9275900e9959d8f3424051de5",
+      "before_sha": "5a834c0181e4e73fce7d84acb83909bb7009552f8fe3cefbb375bbad431f28da",
+      "after_sha": "5a834c0181e4e73fce7d84acb83909bb7009552f8fe3cefbb375bbad431f28da",
+      "before_size": 14,
+      "after_size": 14,
+      "added": [],
+      "pair": [
+        [
+          "fork",
+          "mul",
+          "",
+          "reverse",
+          ""
+        ],
+        [
+          "fork",
+          "add",
+          "neg",
+          "sort",
+          ""
+        ]
+      ],
+      "emitted": true,
+      "accepted": true,
+      "recovered": true,
+      "validation_checks": 24,
+      "validation_matches": 24,
+      "validation_failure": null,
+      "provenance": [],
+      "cache_entries": 0,
+      "cache_peak_round": 12022,
+      "cache_storage_checkpoint_bytes": 102596,
+      "bitmap_payload_checkpoint_bytes": 83968,
+      "prediction_entries": 8192,
+      "prediction_storage_bytes": 3856520,
+      "pair_examined": 23,
+      "pair_checks": 36,
+      "positions_scanned": 179,
+      "cached_skips": 156,
+      "pair_wall_ns": 271190,
+      "source": "priority_pair",
+      "real_motif_evaluations": 36,
+      "prediction_hits": 36,
+      "prediction_misses": 36,
+      "cross_task_hits": 36,
+      "prediction_evictions": 36
+    }
+  ]
+}
