@@ -1,0 +1,67 @@
+name: V217–330 cognitive pilot
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V217_V330/**','.github/workflows/nucleo-v217-v330.yml']
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - name: Bounded tests and experiments
+        run: |
+          mkdir -p /tmp/nucleo-v217
+          t=0; e=0; i=0
+          timeout 60 python3 NUCLEO_V217_V330/test_bridge.py > /tmp/nucleo-v217/tests.log 2>&1 || t=$?
+          if [ "$t" = 0 ]; then
+            timeout 210 python3 NUCLEO_V217_V330/experiment.py --out /tmp/nucleo-v217/experiment > /tmp/nucleo-v217/experiment.log 2>&1 || e=$?
+            timeout 45 python3 NUCLEO_V217_V330/test_bridge.py --integration /tmp/nucleo-v217/bridge.json > /tmp/nucleo-v217/bridge.log 2>&1 || i=$?
+          else
+            e=125; i=125
+          fi
+          printf '{"test_exit":%s,"experiment_exit":%s,"integration_exit":%s}\n' "$t" "$e" "$i" > /tmp/nucleo-v217/STATUS.json
+          printf '%s\n' "$GITHUB_SHA" > /tmp/nucleo-v217/SOURCE_COMMIT.txt
+          cat /tmp/nucleo-v217/tests.log
+          cat /tmp/nucleo-v217/STATUS.json
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cognitive-v217
+          path: /tmp/nucleo-v217
+  archive:
+    needs: evaluate
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: cognitive-v217
+          path: /tmp/nucleo-v217
+      - run: |
+          python3 - <<'PY'
+          import shutil,hashlib,json
+          from pathlib import Path
+          target=Path('EVIDENCIAS/BRUTOS/NUCLEO_V217_V330')
+          assert not target.exists()
+          shutil.copytree('/tmp/nucleo-v217',target)
+          (target/'SHA256.json').write_text(json.dumps([dict(path=str(f.relative_to(target)),sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(target.rglob('*')) if f.is_file()],indent=2))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V217_V330
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive V217–330 cognitive pilot, including failures'
+          git push origin HEAD:refs/heads/evidencias-cientificas
