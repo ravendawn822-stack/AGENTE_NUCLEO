@@ -1,0 +1,1 @@
+{"library":[["fork","mul","","",""],["fork","concat","","",""],["fork","mul","","inc",""],["fork","add","","reverse",""],["fork","add","abs","neg",""],["fork","concat","","reverse",""],["fork","concat","rotate","maximum",""],["fork","sub","sort","sum",""],["fork","add","bounds","",""]],"sha":"0249786625df3cbe75aa518e3b443bd32e6869391972adc4b8089f7ac00da7fc"}

@@ -1,0 +1,1 @@
+{"library":[["fork","mul","","",""],["fork","concat","","",""],["fork","mul","","inc",""],["fork","add","","reverse",""],["fork","add","abs","neg",""],["fork","concat","","reverse",""],["fork","concat","neg","rotate",""],["fork","mul","rotate","bounds",""],["fork","mul","take2","abs",""]],"sha":"f9014a5746edf197354ccbafad4d60a495d0dbf63cff3ab3b671444ee560f4c8"}
