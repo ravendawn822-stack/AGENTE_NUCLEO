@@ -1,0 +1,2 @@
+# V80 — Diagnóstico de ineficiências observadas
+Reutilizar execução dev V79. Categorizar paradas por orçamento e impossibilidade de iniciar tarefas; medir objetivos concluídos, sondagens em tarefas sem contribuição a objetivos concluídos (diagnóstico retrospectivo, não causal nem informação disponível durante execução), sondagens em modelos rejeitados e custo por objetivo. Diagnóstico não dá acesso às respostas reservadas ao planejador. Não fazer novos ajustes de parâmetros nesta etapa.
