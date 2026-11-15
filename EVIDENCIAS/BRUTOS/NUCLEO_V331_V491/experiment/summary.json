@@ -1,0 +1,396 @@
+{
+  "acquisition": {
+    "tasks": 64,
+    "solved": 64,
+    "wrong": 0,
+    "candidates": 30720,
+    "queries": 192,
+    "macros": [
+      [
+        "inc",
+        "double",
+        "neg"
+      ],
+      [
+        "abs",
+        "inc",
+        "double"
+      ],
+      [
+        "half",
+        "inc",
+        "neg"
+      ],
+      [
+        "mod3",
+        "double",
+        "inc"
+      ]
+    ]
+  },
+  "gate": {
+    "policy": "active",
+    "promoted": true,
+    "library": [
+      [
+        "inc",
+        "double",
+        "neg"
+      ],
+      [
+        "abs",
+        "inc",
+        "double"
+      ],
+      [
+        "half",
+        "inc",
+        "neg"
+      ],
+      [
+        "mod3",
+        "double",
+        "inc"
+      ]
+    ],
+    "random_library": [
+      [
+        "dec",
+        "abs",
+        "neg"
+      ],
+      [
+        "neg",
+        "inc",
+        "neg"
+      ],
+      [
+        "mod3",
+        "abs",
+        "abs"
+      ],
+      [
+        "neg",
+        "neg",
+        "inc"
+      ]
+    ]
+  },
+  "gate_sha256": "cebe9552a82b1b89cade4fe0d5f1b0af51eea09cd9571dddaa2a768acf6f7d5e",
+  "validation": [
+    {
+      "family": "all",
+      "mode": "base",
+      "tasks": 64,
+      "solved": 24,
+      "incorrect": 1,
+      "correct": 297,
+      "wrong": 3,
+      "abstained": 468,
+      "candidates": 30720,
+      "queries": 81,
+      "macro_present": 0
+    },
+    {
+      "family": "all",
+      "mode": "random",
+      "tasks": 64,
+      "solved": 21,
+      "incorrect": 0,
+      "correct": 252,
+      "wrong": 0,
+      "abstained": 516,
+      "candidates": 30720,
+      "queries": 72,
+      "macro_present": 1
+    },
+    {
+      "family": "all",
+      "mode": "learned",
+      "tasks": 64,
+      "solved": 39,
+      "incorrect": 0,
+      "correct": 468,
+      "wrong": 0,
+      "abstained": 300,
+      "candidates": 30720,
+      "queries": 123,
+      "macro_present": 19
+    },
+    {
+      "family": "all",
+      "mode": "active",
+      "tasks": 64,
+      "solved": 39,
+      "incorrect": 0,
+      "correct": 468,
+      "wrong": 0,
+      "abstained": 300,
+      "candidates": 30720,
+      "queries": 121,
+      "macro_present": 19
+    },
+    {
+      "family": "related",
+      "mode": "base",
+      "tasks": 32,
+      "solved": 9,
+      "incorrect": 0,
+      "correct": 108,
+      "wrong": 0,
+      "abstained": 276,
+      "candidates": 15360,
+      "queries": 30,
+      "macro_present": 0
+    },
+    {
+      "family": "related",
+      "mode": "random",
+      "tasks": 32,
+      "solved": 7,
+      "incorrect": 0,
+      "correct": 84,
+      "wrong": 0,
+      "abstained": 300,
+      "candidates": 15360,
+      "queries": 24,
+      "macro_present": 0
+    },
+    {
+      "family": "related",
+      "mode": "learned",
+      "tasks": 32,
+      "solved": 26,
+      "incorrect": 0,
+      "correct": 312,
+      "wrong": 0,
+      "abstained": 72,
+      "candidates": 15360,
+      "queries": 78,
+      "macro_present": 19
+    },
+    {
+      "family": "related",
+      "mode": "active",
+      "tasks": 32,
+      "solved": 26,
+      "incorrect": 0,
+      "correct": 312,
+      "wrong": 0,
+      "abstained": 72,
+      "candidates": 15360,
+      "queries": 78,
+      "macro_present": 19
+    },
+    {
+      "family": "unrelated",
+      "mode": "base",
+      "tasks": 32,
+      "solved": 15,
+      "incorrect": 1,
+      "correct": 189,
+      "wrong": 3,
+      "abstained": 192,
+      "candidates": 15360,
+      "queries": 51,
+      "macro_present": 0
+    },
+    {
+      "family": "unrelated",
+      "mode": "random",
+      "tasks": 32,
+      "solved": 14,
+      "incorrect": 0,
+      "correct": 168,
+      "wrong": 0,
+      "abstained": 216,
+      "candidates": 15360,
+      "queries": 48,
+      "macro_present": 1
+    },
+    {
+      "family": "unrelated",
+      "mode": "learned",
+      "tasks": 32,
+      "solved": 13,
+      "incorrect": 0,
+      "correct": 156,
+      "wrong": 0,
+      "abstained": 228,
+      "candidates": 15360,
+      "queries": 45,
+      "macro_present": 0
+    },
+    {
+      "family": "unrelated",
+      "mode": "active",
+      "tasks": 32,
+      "solved": 13,
+      "incorrect": 0,
+      "correct": 156,
+      "wrong": 0,
+      "abstained": 228,
+      "candidates": 15360,
+      "queries": 43,
+      "macro_present": 0
+    }
+  ],
+  "test": [
+    {
+      "family": "all",
+      "mode": "base",
+      "tasks": 128,
+      "solved": 34,
+      "incorrect": 9,
+      "correct": 488,
+      "wrong": 28,
+      "abstained": 1020,
+      "candidates": 61440,
+      "queries": 150,
+      "macro_present": 0
+    },
+    {
+      "family": "all",
+      "mode": "random",
+      "tasks": 128,
+      "solved": 29,
+      "incorrect": 7,
+      "correct": 408,
+      "wrong": 24,
+      "abstained": 1104,
+      "candidates": 61440,
+      "queries": 124,
+      "macro_present": 2
+    },
+    {
+      "family": "all",
+      "mode": "learned",
+      "tasks": 128,
+      "solved": 67,
+      "incorrect": 9,
+      "correct": 878,
+      "wrong": 34,
+      "abstained": 624,
+      "candidates": 61440,
+      "queries": 241,
+      "macro_present": 42
+    },
+    {
+      "family": "all",
+      "mode": "active",
+      "tasks": 128,
+      "solved": 68,
+      "incorrect": 8,
+      "correct": 880,
+      "wrong": 32,
+      "abstained": 624,
+      "candidates": 61440,
+      "queries": 243,
+      "macro_present": 43
+    },
+    {
+      "family": "related",
+      "mode": "base",
+      "tasks": 64,
+      "solved": 11,
+      "incorrect": 2,
+      "correct": 150,
+      "wrong": 6,
+      "abstained": 612,
+      "candidates": 30720,
+      "queries": 52,
+      "macro_present": 0
+    },
+    {
+      "family": "related",
+      "mode": "random",
+      "tasks": 64,
+      "solved": 8,
+      "incorrect": 1,
+      "correct": 104,
+      "wrong": 4,
+      "abstained": 660,
+      "candidates": 30720,
+      "queries": 36,
+      "macro_present": 0
+    },
+    {
+      "family": "related",
+      "mode": "learned",
+      "tasks": 64,
+      "solved": 44,
+      "incorrect": 1,
+      "correct": 536,
+      "wrong": 4,
+      "abstained": 228,
+      "candidates": 30720,
+      "queries": 140,
+      "macro_present": 36
+    },
+    {
+      "family": "related",
+      "mode": "active",
+      "tasks": 64,
+      "solved": 44,
+      "incorrect": 1,
+      "correct": 536,
+      "wrong": 4,
+      "abstained": 228,
+      "candidates": 30720,
+      "queries": 139,
+      "macro_present": 36
+    },
+    {
+      "family": "unrelated",
+      "mode": "base",
+      "tasks": 64,
+      "solved": 23,
+      "incorrect": 7,
+      "correct": 338,
+      "wrong": 22,
+      "abstained": 408,
+      "candidates": 30720,
+      "queries": 98,
+      "macro_present": 0
+    },
+    {
+      "family": "unrelated",
+      "mode": "random",
+      "tasks": 64,
+      "solved": 21,
+      "incorrect": 6,
+      "correct": 304,
+      "wrong": 20,
+      "abstained": 444,
+      "candidates": 30720,
+      "queries": 88,
+      "macro_present": 2
+    },
+    {
+      "family": "unrelated",
+      "mode": "learned",
+      "tasks": 64,
+      "solved": 23,
+      "incorrect": 8,
+      "correct": 342,
+      "wrong": 30,
+      "abstained": 396,
+      "candidates": 30720,
+      "queries": 101,
+      "macro_present": 6
+    },
+    {
+      "family": "unrelated",
+      "mode": "active",
+      "tasks": 64,
+      "solved": 24,
+      "incorrect": 7,
+      "correct": 344,
+      "wrong": 28,
+      "abstained": 396,
+      "candidates": 30720,
+      "queries": 104,
+      "macro_present": 7
+    }
+  ]
+}

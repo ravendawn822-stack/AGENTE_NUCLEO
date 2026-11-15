@@ -1,0 +1,11 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_contract_rejection (__main__.Tests.test_contract_rejection) ... ok
+test_export (__main__.Tests.test_export) ... ok
+test_failed_audit (__main__.Tests.test_failed_audit) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_oracle (__main__.Tests.test_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.040s
+
+OK
