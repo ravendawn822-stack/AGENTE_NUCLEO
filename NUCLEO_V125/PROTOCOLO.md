@@ -1,0 +1,2 @@
+# V125 — adaptação de orçamento
+Sessões com 6 subtarefas, DAG V96 e 2 metas, quatro tarefas V109 + duas elementares (primitiva de 2 operações e controle V91), ordem sorteada. 16 seeds 92000019+30001*i, cap sessão 3600, cap tarefa 1200. Comparar expansão ativa fixa vs expansão ativa com orçamento por tarefa min(1200, restante // número de tarefas ainda não visitadas); se não houver orçamento, abster. Mesma ordem topológica. Não usar dados ocultos durante o planejamento; candidato e consultas têm contadores separados, não são CPU.
