@@ -1,0 +1,91 @@
+{
+  "aggregate": [
+    {
+      "abstained": 532,
+      "correct": 140,
+      "correct_goals": 0,
+      "incomplete_goals": 32,
+      "mode": "primitive",
+      "sessions": 16,
+      "solved": 20,
+      "spent": 18270,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 588,
+      "correct": 84,
+      "correct_goals": 0,
+      "incomplete_goals": 32,
+      "mode": "structured",
+      "sessions": 16,
+      "solved": 12,
+      "spent": 30928,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 476,
+      "correct": 196,
+      "correct_goals": 1,
+      "incomplete_goals": 31,
+      "mode": "weighted",
+      "sessions": 16,
+      "solved": 28,
+      "spent": 26802,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 329,
+      "correct": 343,
+      "correct_goals": 7,
+      "incomplete_goals": 25,
+      "mode": "learned",
+      "sessions": 16,
+      "solved": 49,
+      "spent": 30793,
+      "wrong": 0,
+      "wrong_goals": 0
+    },
+    {
+      "abstained": 476,
+      "correct": 196,
+      "correct_goals": 1,
+      "incomplete_goals": 31,
+      "mode": "random",
+      "sessions": 16,
+      "solved": 28,
+      "spent": 32260,
+      "wrong": 0,
+      "wrong_goals": 0
+    }
+  ],
+  "budget": 3600,
+  "deployment": false,
+  "goals": [
+    4,
+    5
+  ],
+  "graph": {
+    "0": [],
+    "1": [],
+    "2": [
+      0
+    ],
+    "3": [
+      0,
+      1
+    ],
+    "4": [
+      2,
+      3
+    ],
+    "5": [
+      3,
+      1
+    ]
+  },
+  "library_size": 8,
+  "protocol": "V102-bounded-planning-v1"
+}

@@ -1,0 +1,52 @@
+{
+  "instances": 11,
+  "novel_instances": 0,
+  "protocol": "V99-finite-abstractions-v1",
+  "represented_members": 8,
+  "template_count": 4,
+  "templates": [
+    {
+      "pattern": [
+        null,
+        "inc"
+      ],
+      "values": [
+        "abs",
+        "double",
+        "half",
+        "neg"
+      ]
+    },
+    {
+      "pattern": [
+        null,
+        "double"
+      ],
+      "values": [
+        "half",
+        "inc",
+        "neg"
+      ]
+    },
+    {
+      "pattern": [
+        "half",
+        null
+      ],
+      "values": [
+        "double",
+        "inc"
+      ]
+    },
+    {
+      "pattern": [
+        "inc",
+        null
+      ],
+      "values": [
+        "double",
+        "neg"
+      ]
+    }
+  ]
+}

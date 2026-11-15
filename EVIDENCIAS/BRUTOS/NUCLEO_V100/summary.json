@@ -1,0 +1,192 @@
+{
+  "aggregate": [
+    {
+      "abstained": 357,
+      "candidates": 40429,
+      "correct": 315,
+      "emitted": 45,
+      "mode": "primitive",
+      "rejected": 4,
+      "solved": 45,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 87800,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "structured",
+      "rejected": 1,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 357,
+      "candidates": 61634,
+      "correct": 315,
+      "emitted": 45,
+      "mode": "weighted",
+      "rejected": 4,
+      "solved": 45,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 168,
+      "candidates": 50627,
+      "correct": 504,
+      "emitted": 72,
+      "mode": "learned",
+      "rejected": 1,
+      "solved": 72,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 357,
+      "candidates": 77818,
+      "correct": 315,
+      "emitted": 45,
+      "mode": "random",
+      "rejected": 4,
+      "solved": 45,
+      "tasks": 96,
+      "wrong": 0
+    }
+  ],
+  "control": [
+    [
+      [
+        "double"
+      ],
+      [
+        "neg"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "abs"
+      ]
+    ],
+    [
+      [
+        "neg"
+      ],
+      [
+        "half"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "abs"
+      ],
+      [
+        "mod3"
+      ]
+    ],
+    [
+      [
+        "neg"
+      ],
+      [
+        "mod3"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "abs"
+      ],
+      [
+        "neg"
+      ]
+    ]
+  ],
+  "library": [
+    [
+      [
+        "inc"
+      ],
+      [
+        "neg"
+      ]
+    ],
+    [
+      [
+        "inc"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "abs"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "double"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "neg"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "neg"
+      ],
+      [
+        "inc"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "double"
+      ]
+    ],
+    [
+      [
+        "half"
+      ],
+      [
+        "inc"
+      ]
+    ]
+  ],
+  "protocol": "V100-composition-v1"
+}

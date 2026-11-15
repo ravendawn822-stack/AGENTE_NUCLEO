@@ -1,0 +1,184 @@
+{
+  "aggregate": [
+    {
+      "abstained": 329,
+      "candidates": 38285,
+      "correct": 340,
+      "emitted": 49,
+      "mode": "primitive",
+      "rejected": 2,
+      "solved": 48,
+      "tasks": 96,
+      "wrong": 3
+    },
+    {
+      "abstained": 329,
+      "candidates": 55864,
+      "correct": 340,
+      "emitted": 49,
+      "mode": "structured",
+      "rejected": 2,
+      "solved": 48,
+      "tasks": 96,
+      "wrong": 3
+    },
+    {
+      "abstained": 105,
+      "candidates": 22604,
+      "correct": 564,
+      "emitted": 81,
+      "mode": "weighted",
+      "rejected": 2,
+      "solved": 80,
+      "tasks": 96,
+      "wrong": 3
+    }
+  ],
+  "by_kind": [
+    {
+      "abstained": 0,
+      "candidates": 2292,
+      "correct": 224,
+      "emitted": 32,
+      "kind": "primitive",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 32,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 224,
+      "candidates": 38400,
+      "correct": 0,
+      "emitted": 0,
+      "kind": "primitive",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 0,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 3808,
+      "correct": 224,
+      "emitted": 32,
+      "kind": "primitive",
+      "mode": "weighted",
+      "rejected": 0,
+      "solved": 32,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 224,
+      "candidates": 25028,
+      "correct": 0,
+      "emitted": 0,
+      "kind": "condition",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 0,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 752,
+      "correct": 224,
+      "emitted": 32,
+      "kind": "condition",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 32,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 1904,
+      "correct": 224,
+      "emitted": 32,
+      "kind": "condition",
+      "mode": "weighted",
+      "rejected": 0,
+      "solved": 32,
+      "tasks": 32,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 704,
+      "correct": 112,
+      "emitted": 16,
+      "kind": "repeat",
+      "mode": "primitive",
+      "rejected": 0,
+      "solved": 16,
+      "tasks": 16,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 656,
+      "correct": 112,
+      "emitted": 16,
+      "kind": "repeat",
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 16,
+      "tasks": 16,
+      "wrong": 0
+    },
+    {
+      "abstained": 0,
+      "candidates": 1232,
+      "correct": 112,
+      "emitted": 16,
+      "kind": "repeat",
+      "mode": "weighted",
+      "rejected": 0,
+      "solved": 16,
+      "tasks": 16,
+      "wrong": 0
+    },
+    {
+      "abstained": 105,
+      "candidates": 10261,
+      "correct": 4,
+      "emitted": 1,
+      "kind": "outside",
+      "mode": "primitive",
+      "rejected": 2,
+      "solved": 0,
+      "tasks": 16,
+      "wrong": 3
+    },
+    {
+      "abstained": 105,
+      "candidates": 16056,
+      "correct": 4,
+      "emitted": 1,
+      "kind": "outside",
+      "mode": "structured",
+      "rejected": 2,
+      "solved": 0,
+      "tasks": 16,
+      "wrong": 3
+    },
+    {
+      "abstained": 105,
+      "candidates": 15660,
+      "correct": 4,
+      "emitted": 1,
+      "kind": "outside",
+      "mode": "weighted",
+      "rejected": 2,
+      "solved": 0,
+      "tasks": 16,
+      "wrong": 3
+    }
+  ],
+  "protocol": "V97-cost-stratified-v1"
+}

@@ -1,0 +1,10 @@
+test_budget (__main__.Tests.test_budget) ... ok
+test_control (__main__.Tests.test_control) ... ok
+test_memory (__main__.Tests.test_memory) ... ok
+test_split (__main__.Tests.test_split) ... ok
+test_weighted (__main__.Tests.test_weighted) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK

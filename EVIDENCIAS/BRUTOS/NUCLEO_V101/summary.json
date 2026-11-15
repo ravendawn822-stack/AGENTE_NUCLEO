@@ -1,0 +1,60 @@
+{
+  "aggregate": [
+    {
+      "abstained": 504,
+      "candidates": 52221,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "primitive",
+      "rejected": 8,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 86520,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "structured",
+      "rejected": 0,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 80977,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "weighted",
+      "rejected": 7,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 81981,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "learned",
+      "rejected": 5,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    },
+    {
+      "abstained": 504,
+      "candidates": 81432,
+      "correct": 168,
+      "emitted": 24,
+      "mode": "random",
+      "rejected": 5,
+      "solved": 24,
+      "tasks": 96,
+      "wrong": 0
+    }
+  ],
+  "protocol": "V101-transfer-v1"
+}
