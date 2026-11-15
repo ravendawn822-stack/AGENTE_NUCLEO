@@ -1,0 +1,72 @@
+name: V133-V169 integrated simulated agent
+on:
+  push:
+    branches: [nucleo-v12]
+    paths: ['NUCLEO_V133_V169/**','.github/workflows/nucleo-v133-v169.yml']
+permissions:
+  contents: read
+jobs:
+  experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - name: Execute preregistered integrated pilot
+        run: |
+          mkdir -p /tmp/nucleo-integrated
+          test_status=0
+          run_status=125
+          timeout 90 python3 NUCLEO_V133_V169/integration.py --self-test > /tmp/nucleo-integrated/tests.log 2>&1 || test_status=$?
+          if [ "$test_status" -eq 0 ]; then
+            run_status=0
+            timeout 120 python3 NUCLEO_V133_V169/integration.py --output NUCLEO_V133_V169/ci > /tmp/nucleo-integrated/run.log 2>&1 || run_status=$?
+          else
+            printf 'Skipped because self-tests failed\n' > /tmp/nucleo-integrated/run.log
+          fi
+          if [ -d NUCLEO_V133_V169/ci ]; then cp -a NUCLEO_V133_V169/ci/. /tmp/nucleo-integrated/; fi
+          printf '{"suite_test_exit":%s,"suite_run_exit":%s}\n' "$test_status" "$run_status" > /tmp/nucleo-integrated/STATUS.json
+          printf '%s\n' "$GITHUB_SHA" > /tmp/nucleo-integrated/SOURCE_COMMIT.txt
+      - run: python3 MIGRACAO/verify_integrity.py --all
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nucleo-v133-v169-results
+          path: /tmp/nucleo-integrated/
+          retention-days: 30
+  archive:
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: evidencias-cientificas
+      - uses: actions/download-artifact@v4
+        with:
+          name: nucleo-v133-v169-results
+          path: /tmp/nucleo-integrated
+      - name: Append-only archive
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,shutil
+          from pathlib import Path
+          source=Path('/tmp/nucleo-integrated')
+          target=Path('EVIDENCIAS/BRUTOS/NUCLEO_V133_V169')
+          assert not target.exists() and (source/'STATUS.json').is_file()
+          shutil.copytree(source,target)
+          files=[dict(path=str(f.relative_to(target)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(target.rglob('*')) if f.is_file() and not f.is_symlink()]
+          (target/'SHA256.json').write_text(json.dumps(files,indent=2))
+          PY
+          git add -f EVIDENCIAS/BRUTOS/NUCLEO_V133_V169
+          git diff --cached --name-only | awk '!/^EVIDENCIAS\/BRUTOS\/NUCLEO_V133_V169\// {exit 1}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive V133-V169 integrated pilot without overwriting prior evidence'
+          git push origin HEAD:refs/heads/evidencias-cientificas
